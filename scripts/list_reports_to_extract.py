@@ -16,7 +16,7 @@ for zone_id in (1008, 1007):
 reports_set = set()
 for report in reports:
     if os.path.isfile(f"./raid-data/{report['code']}.json"):
-        continu
+        continue
     reports_set.add(report["code"])
 for report_code in reports_set:
     print(report_code)

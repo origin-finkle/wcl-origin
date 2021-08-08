@@ -31,6 +31,9 @@ jobs:
     - name: Import
       run: |
         bash scripts/import.sh
+      env:
+        WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
+        WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
         
     - name: Commit files
       run: |

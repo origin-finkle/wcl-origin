@@ -1,0 +1,52 @@
+{{ define "title" }}{{ .Title | markdownify }} | {{ .Site.Title }}{{ end }}
+
+
+{{ define "main" }}
+
+{{ $character := index .Site.Data.characters .Name }}
+
+<article class="blog-post">
+    <header>
+        <h2 class="blog-post-title" dir="auto"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+    </header>
+
+    <div class="row">
+        {{ range $raid := sort $character ".startTime" "desc" }}
+        <div class="col-12">
+            <h4>
+                <a href="{{ relURL (printf "/raids/%s" (strings.ToLower .reportCode)) }}">
+                    {{ if eq (int .zoneID) 1007 }}
+                    Kharazan
+                    {{ else if eq (int .zoneID) 1008 }}
+                    Gruul/Magthéridon
+                    {{ else }}
+                    {{ errorf "unknown zone ID %d" (int .zoneID) }}
+                    {{ end }}
+                    - {{ dateFormat "2006-01-02" (time (int (div .startTime 1000))) }}
+                </a>
+            </h4>
+            <div class="row">
+                <div class="col-12">
+                    <h4>Remarques</h4>
+                    <div class="row">
+                        {{ $logs := index (index $.Site.Data.raids $raid.reportCode) "analysis" }}
+                        {{ range $player := $logs }}
+                        {{ if eq $player.name $.Name }}
+                        {{ range $remark := $player.remarks }}
+                        <div class="col-12">
+                            {{ partial "remark" $remark }}
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+
+</article>
+
+{{ end }}

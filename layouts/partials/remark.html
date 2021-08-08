@@ -1,0 +1,35 @@
+{{ $remark := . }}
+{{ if $remark.fight }}<strong>{{ $remark.fight }}</strong> : {{ end }}
+{{ if eq $remark.type "cheap_gem" }}
+Utilisation d'une gemme <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> sur <a href="#"
+    data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+{{ else if eq $remark.type "cheap_enchant" }}
+Utilisation d'un enchant <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> sur <a href="#"
+    data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+{{ else if eq $remark.type "missing_gems" }}
+Il manque {{ $remark.count }} gemme{{ with gt $remark.count 1 }}s{{ end }} sur <a href="#"
+    data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+{{ else if eq $remark.type "no_enchant" }}
+Il manque un enchantement sur <a href="#" data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+{{ else if eq $remark.type "missing_battle_elixir" }}
+Il manque un elixir de bataille
+{{ else if eq $remark.type "missing_food" }}
+Il manque un buff nourriture
+{{ else if eq $remark.type "missing_guardian_elixir" }}
+Il manque un elixir de gardien
+{{ else if eq $remark.type "invalid_battle_elixir" }}
+L'elixir de bataille <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> est incorrect
+{{ else if eq $remark.type "invalid_food" }}
+Le buff nourriture <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> est incorrect
+{{ else if eq $remark.type "invalid_guardian_elixir" }}
+L'elixir de gardien <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> est incorrect
+{{ else if eq $remark.type "no_temporary_enchant" }}
+Pas d'amélioration posée sur <a href="#" data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+{{ else if eq $remark.type "no_temporary_enchant_but_windfury" }}
+Pas d'amélioration posée sur <a href="#" data-wowhead="{{ $remark.item_wowhead_attr }}"></a>, mais bénéficie peut-être
+du totem windfury.
+{{ else if eq $remark.type "invalid_temporary_enchant" }}
+L'amélioration posée sur <a href="#" data-wowhead="{{ $remark.item_wowhead_attr }}"></a> est invalide
+{{ else }}
+{{ errorf "unknown remark type %s" $remark.type }}
+{{ end }}

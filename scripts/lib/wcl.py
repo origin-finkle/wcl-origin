@@ -2,21 +2,19 @@ import os
 import requests
 
 ACCESS_TOKEN = None
-CID = os.getenv("WCL_CLIENT_ID")
-CSECRET = os.getenv("WCL_CLIENT_SECRET")
 
 
 def authenticate():
+    auth = (os.getenv("WCL_CLIENT_ID"), os.getenv("WCL_CLIENT_SECRET"))
     response = requests.post(
         "https://www.warcraftlogs.com/oauth/token",
         data={"grant_type": "client_credentials"},
-        auth=(CID, CSECRET),
+        auth=auth,
     )
     if response.status_code == 200:
         global ACCESS_TOKEN
         ACCESS_TOKEN = response.json()["access_token"]
     else:
-        print(response.text)
         raise Exception(f"Could not authenticate: {response}")
 
 

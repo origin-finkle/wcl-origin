@@ -1336,10 +1336,11 @@
                         "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_guardian_elixir"
+                        "type": "invalid_food",
+                        "wowhead_attr": "domain=fr.tbc&spell=33254"
                     }
                 ],
                 "talents": [
@@ -1779,10 +1780,6 @@
                 "type": "missing_food"
             },
             {
-                "fight": "Prince Malchezaar",
-                "type": "missing_food"
-            },
-            {
                 "fight": "Netherspite",
                 "type": "missing_food"
             },
@@ -1862,6 +1859,11 @@
                 "fight": "Netherspite",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "domain=fr.tbc&item=23054"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=33254"
             }
         ]
     },
@@ -3980,9 +3982,6 @@
                         "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_food"
-                    },
-                    {
                         "type": "missing_guardian_elixir"
                     }
                 ],
@@ -4204,9 +4203,6 @@
                     },
                     {
                         "type": "missing_battle_elixir"
-                    },
-                    {
-                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -4432,9 +4428,6 @@
                         "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_food"
-                    },
-                    {
                         "type": "missing_guardian_elixir"
                     }
                 ],
@@ -4658,9 +4651,6 @@
                         "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_food"
-                    },
-                    {
                         "type": "missing_guardian_elixir"
                     }
                 ],
@@ -4882,9 +4872,6 @@
                     },
                     {
                         "type": "missing_battle_elixir"
-                    },
-                    {
-                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -5132,9 +5119,6 @@
                         "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_food"
-                    },
-                    {
                         "type": "missing_guardian_elixir"
                     }
                 ],
@@ -5361,9 +5345,6 @@
                     {
                         "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28777"
-                    },
-                    {
-                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -5615,9 +5596,6 @@
                         "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_food"
-                    },
-                    {
                         "type": "missing_guardian_elixir"
                     }
                 ],
@@ -5824,38 +5802,6 @@
             {
                 "fight": "Netherspite",
                 "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_food"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_food"
             },
             {
                 "fight": "Attumen the Huntsman",
@@ -21039,10 +20985,11 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=29069"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_guardian_elixir"
+                        "type": "invalid_food",
+                        "wowhead_attr": "domain=fr.tbc&spell=33254"
                     }
                 ],
                 "talents": [
@@ -21277,15 +21224,16 @@
                 "wowhead_attr": "domain=fr.tbc&spell=35272"
             },
             {
+                "fight": "Netherspite",
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=33254"
+            },
+            {
                 "fight": "Moroes",
                 "type": "missing_food"
             },
             {
                 "fight": "Terestian Illhoof",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Netherspite",
                 "type": "missing_food"
             },
             {

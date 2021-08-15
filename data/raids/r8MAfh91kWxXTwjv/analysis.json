@@ -5394,10 +5394,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28770"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -5968,11 +5968,11 @@
             },
             {
                 "fight": "Gruul the Dragonkiller",
-                "type": "missing_food"
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir"
+                "type": "missing_food"
             },
             {
                 "fight": "Gruul the Dragonkiller",
@@ -7284,10 +7284,11 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=27903&ench=2625"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_guardian_elixir"
+                        "type": "invalid_battle_elixir",
+                        "wowhead_attr": "domain=fr.tbc&spell=17538"
                     }
                 ],
                 "talents": [
@@ -7503,10 +7504,6 @@
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "missing_guardian_elixir"
             },
@@ -7522,6 +7519,11 @@
                 "fight": "Magtheridon",
                 "type": "invalid_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27903&ench=2625"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "domain=fr.tbc&spell=17538"
             }
         ]
     },
@@ -7647,12 +7649,6 @@
                     {
                         "type": "no_temporary_enchant_but_windfury",
                         "item_wowhead_attr": "domain=fr.tbc&item=27913"
-                    },
-                    {
-                        "type": "missing_battle_elixir"
-                    },
-                    {
-                        "type": "missing_guardian_elixir"
                     }
                 ],
                 "talents": [
@@ -7977,12 +7973,6 @@
                     {
                         "type": "no_temporary_enchant_but_windfury",
                         "item_wowhead_attr": "domain=fr.tbc&item=27913"
-                    },
-                    {
-                        "type": "missing_battle_elixir"
-                    },
-                    {
-                        "type": "missing_guardian_elixir"
                     }
                 ],
                 "talents": [
@@ -8296,12 +8286,6 @@
                         "type": "missing_gems",
                         "item_wowhead_attr": "domain=fr.tbc&item=28825",
                         "count": 1
-                    },
-                    {
-                        "type": "missing_battle_elixir"
-                    },
-                    {
-                        "type": "missing_guardian_elixir"
                     }
                 ],
                 "talents": [
@@ -8562,30 +8546,6 @@
                 "fight": "Magtheridon",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "domain=fr.tbc&item=27913"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir"
             }
         ]
     },
@@ -16072,9 +16032,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "missing_food"
-                    },
-                    {
                         "type": "missing_battle_elixir"
                     },
                     {
@@ -16303,9 +16260,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "missing_food"
-                    },
-                    {
                         "type": "missing_battle_elixir"
                     },
                     {
@@ -16526,9 +16480,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "missing_food"
-                    },
-                    {
                         "type": "missing_battle_elixir"
                     },
                     {
@@ -16721,18 +16672,6 @@
             }
         },
         "remarks": [
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food"
-            },
             {
                 "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
@@ -21159,7 +21098,8 @@
                 },
                 "remarks": [
                     {
-                        "type": "missing_food"
+                        "type": "invalid_food",
+                        "wowhead_attr": "domain=fr.tbc&spell=33254"
                     }
                 ],
                 "talents": [
@@ -21502,7 +21442,8 @@
                 },
                 "remarks": [
                     {
-                        "type": "missing_food"
+                        "type": "invalid_food",
+                        "wowhead_attr": "domain=fr.tbc&spell=33254"
                     }
                 ],
                 "talents": [
@@ -22103,11 +22044,13 @@
         "remarks": [
             {
                 "fight": "High King Maulgar",
-                "type": "missing_food"
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=33254"
             },
             {
                 "fight": "Gruul the Dragonkiller",
-                "type": "missing_food"
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=33254"
             }
         ]
     }

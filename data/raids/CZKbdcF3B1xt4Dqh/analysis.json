@@ -8861,10 +8861,11 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28188"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "invalid_food",
+                        "wowhead_attr": "domain=fr.tbc&spell=33254"
                     }
                 ],
                 "talents": [
@@ -9779,11 +9780,12 @@
             },
             {
                 "fight": "High King Maulgar",
-                "type": "missing_food"
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "High King Maulgar",
-                "type": "missing_battle_elixir"
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=33254"
             }
         ]
     },
@@ -21877,11 +21879,7 @@
                         "events": []
                     }
                 },
-                "remarks": [
-                    {
-                        "type": "missing_food"
-                    }
-                ],
+                "remarks": [],
                 "talents": [
                     {
                         "id": 12,
@@ -22389,10 +22387,6 @@
             {
                 "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food"
             },
             {
                 "type": "missing_gems",

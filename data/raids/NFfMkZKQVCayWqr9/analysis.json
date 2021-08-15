@@ -6458,10 +6458,11 @@
                         "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_guardian_elixir"
+                        "type": "invalid_food",
+                        "wowhead_attr": "domain=fr.tbc&spell=33254"
                     }
                 ],
                 "talents": [
@@ -6679,10 +6680,11 @@
                         "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_guardian_elixir"
+                        "type": "invalid_food",
+                        "wowhead_attr": "domain=fr.tbc&spell=33254"
                     }
                 ],
                 "talents": [
@@ -7606,14 +7608,6 @@
                 "type": "missing_food"
             },
             {
-                "fight": "Maiden of Virtue",
-                "type": "missing_food"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_food"
-            },
-            {
                 "fight": "Terestian Illhoof",
                 "type": "missing_food"
             },
@@ -7652,6 +7646,16 @@
             {
                 "fight": "Prince Malchezaar",
                 "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=33254"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=33254"
             }
         ]
     },

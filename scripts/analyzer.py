@@ -239,6 +239,10 @@ def _remove_duplicated_remarks(remarks, remark_type, unique_key):
 
 with open(sys.argv[1]) as file:
     logs = json.load(file)
+    if not logs["zone"]:
+        print("Logs did not contain any fight")
+        exit(0)
+
     for fight in logs["fights"]:
         if fight["name"] in ("Chess Event",):
             continue  # chess don't have anything to report...
@@ -340,7 +344,7 @@ with open(f"./data/raids/{logs['code']}/logs.json", "w+") as file:
             "startTime": logs["startTime"],
             "title": logs["title"],
             "actors": [player["name"] for player in players.values()],
-            "zoneID": logs["zone"]["id"],
+            "zoneID": logs["zone"]["id"] if logs["zone"] else 0,
         },
         file,
     )

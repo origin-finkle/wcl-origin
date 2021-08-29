@@ -81,6 +81,8 @@
                     Kharazan
                     {{ else if eq (int .zoneID) 1008 }}
                     Gruul/Magthéridon
+                    {{ else if eq (int .zoneID) 1010 }}
+                    SSC/TK
                     {{ else }}
                     {{ errorf "unknown zone ID %d" (int .zoneID) }}
                     {{ end }}

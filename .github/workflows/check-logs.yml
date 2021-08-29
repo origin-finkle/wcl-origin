@@ -27,7 +27,6 @@ jobs:
         virtualenv venv
         source venv/bin/activate
         pip install -r requirements.txt
-
     - name: Import
       run: |
         bash scripts/import.sh

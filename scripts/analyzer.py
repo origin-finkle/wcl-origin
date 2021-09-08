@@ -6,6 +6,7 @@ from urllib.parse import urlencode
 import xml.etree.ElementTree as ET
 
 from lib.consumable import Consumable
+from lib.gem import Gem
 from lib.temporary_enchant import TemporaryEnchant
 
 if len(sys.argv) != 2:
@@ -34,6 +35,7 @@ SLOTS_WITH_TEMPORARY_ENCHANT = {
 cheap_enchants = set()
 consumables = {}
 wowhead = {}
+gems = {}
 
 players = {}
 
@@ -50,6 +52,9 @@ with open("./data/config/consumables.json") as file:
 
 with open("./data/config/temporary_enchants.json") as file:
     temporary_enchants = {d["id"]: TemporaryEnchant(d) for d in json.load(file)}
+
+with open("./data/config/gems.json") as file:
+    gems = {d["id"]: Gem(d) for d in json.load(file)}
 
 
 def benefits_from_windfury_totem(player, player_fight):
@@ -120,7 +125,10 @@ def process_gear_item(player, player_fight, item):
     if item.get("gems"):
         for gem in item["gems"]:
             wowhead_gem_data = get_wowhead_data(gem_id=gem["id"])
-            if wowhead_gem_data["quality"] < CHEAP_GEM_QUALITY_LOWER_BOUND:
+            if wowhead_gem_data["quality"] < CHEAP_GEM_QUALITY_LOWER_BOUND or (
+                (gem_i := gems.get(gem["id"]))
+                and gem_i.is_restricted(player=player, fight=player_fight)
+            ):
                 player_fight["remarks"].append(
                     {
                         "wowhead_attr": f"domain=fr.tbc&item={gem['id']}",

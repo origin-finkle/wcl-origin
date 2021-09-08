@@ -581,6 +581,11 @@
         },
         "remarks": [
             {
+                "wowhead_attr": "domain=fr.tbc&item=28458",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28176"
+            },
+            {
                 "type": "missing_gems",
                 "item_wowhead_attr": "domain=fr.tbc&item=29073",
                 "count": 2
@@ -591,20 +596,15 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=30257"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28176"
-            },
-            {
-                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28031"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=28458",
-                "type": "cheap_gem",
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28176"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=30257"
             }
         ]
     },
@@ -886,15 +886,13 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=31546"
+                "wowhead_attr": "domain=fr.tbc&item=23096",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28174"
             },
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27838"
-            },
-            {
-                "type": "no_enchant",
+                "wowhead_attr": "domain=fr.tbc&item=23096",
+                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28179"
             },
             {
@@ -903,17 +901,19 @@
             },
             {
                 "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27838"
+            },
+            {
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27905"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23096",
-                "type": "cheap_gem",
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28179"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23096",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28174"
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=31546"
             },
             {
                 "fight": "Magtheridon",
@@ -1868,12 +1868,18 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27993"
+                "wowhead_attr": "domain=fr.tbc&item=23094",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=25929"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=23094",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29319"
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28340"
+                "item_wowhead_attr": "domain=fr.tbc&item=25805"
             },
             {
                 "type": "no_enchant",
@@ -1885,7 +1891,7 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28194"
+                "item_wowhead_attr": "domain=fr.tbc&item=27538"
             },
             {
                 "type": "no_enchant",
@@ -1893,30 +1899,24 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=25805"
+                "item_wowhead_attr": "domain=fr.tbc&item=27993"
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27538"
+                "item_wowhead_attr": "domain=fr.tbc&item=28194"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23094",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29319"
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28340"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23094",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=25929"
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27538"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir"
             }
         ]
     },
@@ -3102,14 +3102,14 @@
         },
         "remarks": [
             {
-                "wowhead_attr": "domain=fr.tbc&item=23097",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27434"
-            },
-            {
                 "wowhead_attr": "domain=fr.tbc&item=23118",
                 "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=25691"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=23097",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27434"
             }
         ]
     },
@@ -5274,21 +5274,14 @@
         },
         "remarks": [
             {
-                "type": "missing_gems",
-                "item_wowhead_attr": "domain=fr.tbc&item=28350",
-                "count": 1
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28350"
-            },
-            {
-                "type": "no_enchant",
+                "wowhead_attr": "domain=fr.tbc&item=23118",
+                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=27803"
             },
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28502"
+                "type": "missing_gems",
+                "item_wowhead_attr": "domain=fr.tbc&item=28350",
+                "count": 1
             },
             {
                 "type": "no_enchant",
@@ -5296,12 +5289,19 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=31492"
+                "item_wowhead_attr": "domain=fr.tbc&item=27803"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23118",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27803"
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28350"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28502"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=31492"
             },
             {
                 "fight": "Magtheridon",
@@ -5445,10 +5445,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=27868"
                     },
                     {
-                        "type": "missing_guardian_elixir"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_guardian_elixir"
                     }
                 ],
                 "talents": [
@@ -5627,16 +5627,27 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28804"
+                "wowhead_attr": "domain=fr.tbc&item=28461",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28179"
             },
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29780"
+                "wowhead_attr": "domain=fr.tbc&item=23114",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29079"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=28461",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29317"
             },
             {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27838"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27868"
             },
             {
                 "type": "no_enchant",
@@ -5648,35 +5659,23 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29317"
-            },
-            {
-                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28570"
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27868"
+                "item_wowhead_attr": "domain=fr.tbc&item=28804"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23114",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29079"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=28461",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28179"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=28461",
-                "type": "cheap_gem",
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=29317"
             },
             {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=29780"
+            },
+            {
                 "fight": "Magtheridon",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27868"
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Magtheridon",
@@ -5684,7 +5683,8 @@
             },
             {
                 "fight": "Magtheridon",
-                "type": "missing_battle_elixir"
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27868"
             }
         ]
     },
@@ -6054,10 +6054,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28545"
                     },
                     {
-                        "type": "missing_guardian_elixir"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_guardian_elixir"
                     }
                 ],
                 "talents": [
@@ -6251,11 +6251,11 @@
             },
             {
                 "fight": "Magtheridon",
-                "type": "missing_guardian_elixir"
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Magtheridon",
-                "type": "missing_battle_elixir"
+                "type": "missing_guardian_elixir"
             }
         ]
     },
@@ -6554,11 +6554,11 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29354"
+                "item_wowhead_attr": "domain=fr.tbc&item=28604"
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28604"
+                "item_wowhead_attr": "domain=fr.tbc&item=29354"
             }
         ]
     },
@@ -7831,9 +7831,9 @@
         },
         "remarks": [
             {
-                "wowhead_attr": "domain=fr.tbc&item=23121",
+                "wowhead_attr": "domain=fr.tbc&item=23094",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29028"
+                "item_wowhead_attr": "domain=fr.tbc&item=24388"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=23094",
@@ -7843,20 +7843,28 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=23094",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24388"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23094",
-                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28751"
             },
             {
-                "type": "no_enchant",
+                "wowhead_attr": "domain=fr.tbc&item=23121",
+                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=29028"
             },
             {
                 "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=25805"
+            },
+            {
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28250"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28503"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28604"
             },
             {
                 "type": "no_enchant",
@@ -7868,19 +7876,11 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28503"
+                "item_wowhead_attr": "domain=fr.tbc&item=29028"
             },
             {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=29032"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=25805"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28604"
             }
         ]
     }

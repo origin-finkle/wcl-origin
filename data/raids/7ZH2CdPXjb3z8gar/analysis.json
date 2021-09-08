@@ -432,7 +432,7 @@
         "remarks": [
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=31544"
+                "item_wowhead_attr": "domain=fr.tbc&item=27892"
             },
             {
                 "type": "no_enchant",
@@ -440,14 +440,23 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27892"
+                "item_wowhead_attr": "domain=fr.tbc&item=31544"
             },
             {
-                "fight": "The Curator",
+                "fight": "Terestian Illhoof",
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=35272"
+            },
+            {
+                "fight": "Terestian Illhoof",
                 "type": "missing_battle_elixir"
             },
             {
                 "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "The Curator",
                 "type": "missing_battle_elixir"
             },
             {
@@ -457,15 +466,6 @@
             {
                 "fight": "The Curator",
                 "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_food",
-                "wowhead_attr": "domain=fr.tbc&spell=35272"
             }
         ]
     },
@@ -906,19 +906,19 @@
         },
         "remarks": [
             {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir"
-            },
-            {
                 "fight": "Terestian Illhoof",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "The Curator",
+                "fight": "Terestian Illhoof",
                 "type": "missing_guardian_elixir"
             },
             {
-                "fight": "Terestian Illhoof",
+                "fight": "The Curator",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "The Curator",
                 "type": "missing_guardian_elixir"
             }
         ]
@@ -1943,11 +1943,11 @@
         },
         "remarks": [
             {
-                "fight": "The Curator",
+                "fight": "Terestian Illhoof",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Terestian Illhoof",
+                "fight": "The Curator",
                 "type": "missing_battle_elixir"
             }
         ]
@@ -3059,9 +3059,8 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28507"
             },
             {
-                "fight": "The Curator",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=30832"
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Terestian Illhoof",
@@ -3073,8 +3072,9 @@
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir"
+                "fight": "The Curator",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=30832"
             }
         ]
     },
@@ -3511,16 +3511,16 @@
             },
             {
                 "fight": "The Curator",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27905"
-            },
-            {
-                "fight": "The Curator",
                 "type": "missing_battle_elixir"
             },
             {
                 "fight": "The Curator",
                 "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "The Curator",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27905"
             }
         ]
     },
@@ -4044,12 +4044,12 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28752"
             },
             {
-                "fight": "The Curator",
+                "fight": "Terestian Illhoof",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28771"
             },
             {
-                "fight": "Terestian Illhoof",
+                "fight": "The Curator",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28771"
             }
@@ -5055,10 +5055,6 @@
         },
         "remarks": [
             {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir"
-            },
-            {
                 "fight": "Terestian Illhoof",
                 "type": "missing_battle_elixir"
             },
@@ -5066,6 +5062,10 @@
                 "fight": "Terestian Illhoof",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "domain=fr.tbc&item=28749"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir"
             }
         ]
     }

@@ -56,6 +56,8 @@ with open("./data/config/temporary_enchants.json") as file:
 with open("./data/config/gems.json") as file:
     gems = {d["id"]: Gem(d) for d in json.load(file)}
 
+filename = sys.argv[1]
+
 
 def benefits_from_windfury_totem(player, player_fight):
     if player["subType"] in ("Warrior", "Rogue"):
@@ -184,7 +186,7 @@ def process_gear_item(player, player_fight, item):
                 }
             )
             print(
-                f"Unknown temporary enchant {item['temporaryEnchant']} on player {player['name']} and fight {player_fight['name']}"
+                f"[{filename}] Unknown temporary enchant {item['temporaryEnchant']} on player {player['name']} and fight {player_fight['name']}"
             )
     elif wowhead_data["slot"] in SLOTS_WITH_TEMPORARY_ENCHANT:
         # could be due to windfury in the group, so this would apply only to melee classes
@@ -233,7 +235,14 @@ def aggregate_remarks(player):
     _remove_duplicated_remarks(
         remarks=remarks, remark_type="cheap_enchant", unique_key="item_wowhead_attr"
     )
-    player["remarks"] = [r for remark in remarks.values() for r in remark]
+    player["remarks"] = _sort_remarks(remarks=remarks.values())
+
+
+def _sort_remarks(remarks):
+    return sorted(
+        [r for remark in remarks for r in remark],
+        key=lambda x: (x.get("fight", "0"), x["type"], x.get("item_wowhead_attr", "0")),
+    )
 
 
 def _remove_duplicated_remarks(remarks, remark_type, unique_key):
@@ -245,7 +254,7 @@ def _remove_duplicated_remarks(remarks, remark_type, unique_key):
     remarks[remark_type] = unique_dict.values()
 
 
-with open(sys.argv[1]) as file:
+with open(filename) as file:
     logs = json.load(file)
     if not logs["zone"]:
         print("Logs did not contain any fight")

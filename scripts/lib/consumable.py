@@ -1,16 +1,7 @@
-class Consumable(object):
-    def __init__(self, data):
-        for (k, v) in data.items():
-            setattr(self, k, v)
+from .base import Base
 
-    def is_restricted(self, player, fight):
-        if hasattr(self, "restricted_fights"):
-            if fight["name"] not in self.restricted_fights:
-                return True
-        if hasattr(self, "invalid") and self.invalid:
-            return True
-        return False
 
+class Consumable(Base):
     def is_battle_elixir(self):
         return "battle_elixir" in self.types
 

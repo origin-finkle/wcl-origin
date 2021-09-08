@@ -926,10 +926,10 @@
                         "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -1189,10 +1189,10 @@
                         "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -1460,10 +1460,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28794"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -1738,10 +1738,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28794"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -2012,10 +2012,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28031"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -2191,8 +2191,9 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28775"
+                "wowhead_attr": "domain=fr.tbc&item=28458",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28176"
             },
             {
                 "type": "no_enchant",
@@ -2200,27 +2201,22 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=30257"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28176"
-            },
-            {
-                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28031"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=28458",
-                "type": "cheap_gem",
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28176"
             },
             {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_food"
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28775"
             },
             {
-                "fight": "Moroes",
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=30257"
+            },
+            {
+                "fight": "Attumen the Huntsman",
                 "type": "missing_food"
             },
             {
@@ -2228,52 +2224,37 @@
                 "type": "missing_food"
             },
             {
-                "fight": "The Curator",
+                "fight": "Moroes",
                 "type": "missing_food"
             },
             {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food"
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Netherspite",
                 "type": "missing_food"
             },
             {
+                "fight": "Netherspite",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28794"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir"
+            },
+            {
                 "fight": "Prince Malchezaar",
                 "type": "missing_food"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Shade of Aran",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_battle_elixir"
+                "fight": "Shade of Aran",
+                "type": "missing_food"
             },
             {
                 "fight": "Shade of Aran",
@@ -2281,9 +2262,28 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28794"
             },
             {
-                "fight": "Netherspite",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28794"
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_food"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir"
             }
         ]
     },
@@ -2359,10 +2359,10 @@
                         "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -2600,10 +2600,10 @@
                         "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -4160,66 +4160,6 @@
         "remarks": [
             {
                 "fight": "Attumen the Huntsman",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Prince Malchezaar",
                 "type": "missing_battle_elixir"
             },
             {
@@ -4227,8 +4167,68 @@
                 "type": "missing_food"
             },
             {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_battle_elixir"
+            },
+            {
                 "fight": "Moroes",
                 "type": "missing_food"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir"
             }
         ]
     },
@@ -6477,11 +6477,11 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29354"
+                "item_wowhead_attr": "domain=fr.tbc&item=28604"
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28604"
+                "item_wowhead_attr": "domain=fr.tbc&item=29354"
             },
             {
                 "fight": "Attumen the Huntsman",
@@ -6489,12 +6489,12 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28604"
             },
             {
-                "fight": "Moroes",
+                "fight": "Maiden of Virtue",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28604"
             },
             {
-                "fight": "Maiden of Virtue",
+                "fight": "Moroes",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28604"
             },
@@ -8732,11 +8732,7 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28348"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28735"
+                "item_wowhead_attr": "domain=fr.tbc&item=25805"
             },
             {
                 "type": "no_enchant",
@@ -8748,7 +8744,11 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=25805"
+                "item_wowhead_attr": "domain=fr.tbc&item=28348"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28735"
             },
             {
                 "type": "no_enchant",
@@ -8759,23 +8759,11 @@
                 "type": "missing_food"
             },
             {
-                "fight": "Moroes",
-                "type": "missing_food"
-            },
-            {
                 "fight": "Maiden of Virtue",
                 "type": "missing_food"
             },
             {
-                "fight": "The Curator",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Shade of Aran",
+                "fight": "Moroes",
                 "type": "missing_food"
             },
             {
@@ -8787,9 +8775,17 @@
                 "type": "missing_food"
             },
             {
-                "fight": "The Curator",
+                "fight": "Shade of Aran",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Shade of Aran",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=31342"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food"
             },
             {
                 "fight": "Terestian Illhoof",
@@ -8797,7 +8793,11 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=31342"
             },
             {
-                "fight": "Shade of Aran",
+                "fight": "The Curator",
+                "type": "missing_food"
+            },
+            {
+                "fight": "The Curator",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=31342"
             }
@@ -11385,8 +11385,7 @@
         "remarks": [
             {
                 "fight": "Attumen the Huntsman",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28263"
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Attumen the Huntsman",
@@ -11399,43 +11398,27 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28263"
             },
             {
-                "fight": "Moroes",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28263"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28263"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28263"
-            },
-            {
                 "fight": "Attumen the Huntsman",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_battle_elixir"
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28263"
             },
             {
                 "fight": "Maiden of Virtue",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "The Curator",
+                "fight": "Maiden of Virtue",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28263"
+            },
+            {
+                "fight": "Moroes",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir"
+                "fight": "Moroes",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28263"
             },
             {
                 "fight": "Netherspite",
@@ -11443,6 +11426,23 @@
             },
             {
                 "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28263"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "The Curator",
                 "type": "missing_battle_elixir"
             }
         ]
@@ -11595,10 +11595,10 @@
                         "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -11938,10 +11938,10 @@
                         "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -12273,10 +12273,10 @@
                         "type": "missing_guardian_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -14252,17 +14252,7 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=23096",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24266"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23096",
-                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=21846"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23096",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28517"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=23101",
@@ -14270,47 +14260,73 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=24250"
             },
             {
+                "wowhead_attr": "domain=fr.tbc&item=23096",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=23096",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28517"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28797"
             },
             {
                 "fight": "Attumen the Huntsman",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28770"
+                "type": "missing_battle_elixir"
             },
             {
-                "fight": "Moroes",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28770"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28770"
+                "fight": "Attumen the Huntsman",
+                "type": "missing_food"
             },
             {
                 "fight": "Attumen the Huntsman",
                 "type": "missing_guardian_elixir"
             },
             {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir"
+                "fight": "Attumen the Huntsman",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28770"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_food"
             },
             {
                 "fight": "Maiden of Virtue",
                 "type": "missing_guardian_elixir"
             },
             {
-                "fight": "The Curator",
+                "fight": "Maiden of Virtue",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28770"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Moroes",
                 "type": "missing_guardian_elixir"
             },
             {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir"
+                "fight": "Moroes",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28770"
             },
             {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir"
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Netherspite",
@@ -14321,44 +14337,28 @@
                 "type": "missing_guardian_elixir"
             },
             {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_battle_elixir"
+                "fight": "Shade of Aran",
+                "type": "missing_food"
             },
             {
-                "fight": "Moroes",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir"
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Terestian Illhoof",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Netherspite",
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "The Curator",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food"
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir"
             }
         ]
     },
@@ -16735,8 +16735,7 @@
         "remarks": [
             {
                 "fight": "The Curator",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28770"
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "The Curator",
@@ -16744,7 +16743,8 @@
             },
             {
                 "fight": "The Curator",
-                "type": "missing_battle_elixir"
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28770"
             }
         ]
     },
@@ -18935,17 +18935,17 @@
                 "type": "missing_food"
             },
             {
-                "fight": "Moroes",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_food"
-            },
-            {
                 "fight": "Maiden of Virtue",
                 "type": "invalid_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27538&ench=2634"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_food"
             }
         ]
     },
@@ -21165,7 +21165,7 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28714"
+                "item_wowhead_attr": "domain=fr.tbc&item=27899"
             },
             {
                 "type": "no_enchant",
@@ -21173,14 +21173,10 @@
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27899"
+                "item_wowhead_attr": "domain=fr.tbc&item=28714"
             },
             {
                 "fight": "Attumen the Huntsman",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Moroes",
                 "type": "missing_food"
             },
             {
@@ -21188,39 +21184,12 @@
                 "type": "missing_food"
             },
             {
-                "fight": "The Curator",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Shade of Aran",
+                "fight": "Moroes",
                 "type": "missing_food"
             },
             {
                 "fight": "Netherspite",
                 "type": "missing_food"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_food"
-            },
-            {
-                "fight": "The Curator",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27899"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27899"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27899"
             },
             {
                 "fight": "Netherspite",
@@ -21229,6 +21198,37 @@
             },
             {
                 "fight": "Prince Malchezaar",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27899"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27899"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27899"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_food"
+            },
+            {
+                "fight": "The Curator",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27899"
             }
@@ -21323,10 +21323,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28749"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -21604,10 +21604,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28749"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -21885,10 +21885,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28749"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     }
                 ],
                 "talents": [
@@ -23507,49 +23507,6 @@
         "remarks": [
             {
                 "fight": "Attumen the Huntsman",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "domain=fr.tbc&item=28749"
-            },
-            {
-                "fight": "Moroes",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "domain=fr.tbc&item=28749"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "domain=fr.tbc&item=28749"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Prince Malchezaar",
                 "type": "missing_battle_elixir"
             },
             {
@@ -23557,31 +23514,63 @@
                 "type": "missing_food"
             },
             {
-                "fight": "Moroes",
-                "type": "missing_food"
+                "fight": "Attumen the Huntsman",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "domain=fr.tbc&item=28749"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Maiden of Virtue",
                 "type": "missing_food"
             },
             {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir"
+                "fight": "Maiden of Virtue",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "domain=fr.tbc&item=28749"
             },
             {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir"
+                "fight": "Moroes",
+                "type": "missing_battle_elixir"
             },
             {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir"
+                "fight": "Moroes",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Moroes",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "domain=fr.tbc&item=28749"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Netherspite",
                 "type": "missing_guardian_elixir"
             },
             {
+                "fight": "Netherspite",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28749"
+            },
+            {
                 "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Shade of Aran",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -23590,9 +23579,20 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28749"
             },
             {
-                "fight": "Netherspite",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28749"
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir"
             }
         ]
     }

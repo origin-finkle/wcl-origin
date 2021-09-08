@@ -920,10 +920,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28794"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -1241,10 +1241,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28794"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -1719,10 +1719,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28794"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -1908,47 +1908,36 @@
         },
         "remarks": [
             {
+                "wowhead_attr": "domain=fr.tbc&item=28458",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28176"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=28458",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28186"
+            },
+            {
                 "wowhead_attr": "domain=fr.tbc&item=28463",
                 "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=31105"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=28458",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28186"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=28458",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28176"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=31105"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28186"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=30257"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28176"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=30402"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=30341"
+                "type": "missing_gems",
+                "item_wowhead_attr": "domain=fr.tbc&item=28795",
+                "count": 2
             },
             {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28031"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28176"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28186"
             },
             {
                 "type": "no_enchant",
@@ -1959,50 +1948,61 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28795"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "missing_food"
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=30257"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=30341"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=30402"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=31105"
             },
             {
                 "fight": "Gruul the Dragonkiller",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food"
-            },
-            {
-                "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
             },
             {
                 "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir"
+                "type": "missing_food"
             },
             {
                 "fight": "Gruul the Dragonkiller",
                 "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "type": "missing_gems",
-                "item_wowhead_attr": "domain=fr.tbc&item=28795",
-                "count": 2
             },
             {
                 "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "domain=fr.tbc&item=28794"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_food"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
@@ -3058,25 +3058,25 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=23096",
                 "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21870"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=23096",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=23096",
+                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=24266"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23096",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24262"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23096",
-                "type": "cheap_gem",
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=21870"
             },
             {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=24262"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21870"
             },
             {
                 "type": "no_enchant",
@@ -4040,11 +4040,11 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=27878"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Gruul the Dragonkiller",
                 "type": "missing_food"
             },
             {
-                "fight": "Gruul the Dragonkiller",
+                "fight": "High King Maulgar",
                 "type": "missing_food"
             },
             {
@@ -4865,33 +4865,33 @@
         },
         "remarks": [
             {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "domain=fr.tbc&item=28729"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir"
             }
         ]
     },
@@ -6926,37 +6926,9 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=31220"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=24619"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27649"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21851"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=25040"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28517"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22731"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23101",
+                "wowhead_attr": "domain=fr.tbc&item=23096",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27649"
+                "item_wowhead_attr": "domain=fr.tbc&item=21846"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=23101",
@@ -6966,12 +6938,7 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=23096",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24266"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23096",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=21846"
+                "item_wowhead_attr": "domain=fr.tbc&item=24250"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=23096",
@@ -6981,21 +6948,54 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=23096",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28517"
+                "item_wowhead_attr": "domain=fr.tbc&item=24266"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=23101",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27649"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=23096",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24250"
+                "item_wowhead_attr": "domain=fr.tbc&item=28517"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21851"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22731"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=24619"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=25040"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27649"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28517"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=31220"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "High King Maulgar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28188"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir"
             }
         ]
     },
@@ -7693,9 +7693,8 @@
         },
         "remarks": [
             {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21839"
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food"
             },
             {
                 "fight": "Gruul the Dragonkiller",
@@ -7703,35 +7702,36 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=21839"
             },
             {
-                "fight": "Magtheridon",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21839"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21839"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21839"
-            },
-            {
                 "fight": "High King Maulgar",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "missing_food"
             },
             {
                 "fight": "High King Maulgar",
                 "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21839"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21839"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21839"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21839"
             }
         ]
     },
@@ -7882,10 +7882,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=27741"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -8977,35 +8977,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28726"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28185"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28517"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=24250"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22731"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27741"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=28461",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=21848"
-            },
-            {
                 "wowhead_attr": "domain=fr.tbc&item=23096",
                 "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=21846"
@@ -9013,6 +8984,16 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=28461",
                 "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21848"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=23101",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24250"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=28461",
+                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28185"
             },
             {
@@ -9021,14 +9002,40 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28517"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23101",
-                "type": "cheap_gem",
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22731"
+            },
+            {
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=24250"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27741"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28185"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28517"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28726"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "High King Maulgar",
@@ -9036,23 +9043,16 @@
             },
             {
                 "fight": "High King Maulgar",
-                "type": "missing_battle_elixir"
+                "type": "missing_guardian_elixir"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir"
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27741"
             },
             {
                 "fight": "Magtheridon",
                 "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
@@ -9820,11 +9820,11 @@
         },
         "remarks": [
             {
-                "fight": "High King Maulgar",
+                "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Gruul the Dragonkiller",
+                "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
             },
             {
@@ -10761,6 +10761,11 @@
         },
         "remarks": [
             {
+                "wowhead_attr": "domain=fr.tbc&item=23094",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21873"
+            },
+            {
                 "wowhead_attr": "domain=fr.tbc&item=23113",
                 "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=21875"
@@ -10768,20 +10773,15 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=23094",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=21873"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23094",
-                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28508"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28522"
             },
             {
-                "fight": "Gruul the Dragonkiller",
+                "fight": "High King Maulgar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28522"
             },
@@ -13012,17 +13012,12 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=28470",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28593"
+                "item_wowhead_attr": "domain=fr.tbc&item=27803"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=28470",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27803"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23110",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29066"
+                "item_wowhead_attr": "domain=fr.tbc&item=28502"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=23110",
@@ -13032,7 +13027,7 @@
             {
                 "wowhead_attr": "domain=fr.tbc&item=28470",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29184"
+                "item_wowhead_attr": "domain=fr.tbc&item=28593"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=23110",
@@ -13040,52 +13035,57 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28747"
             },
             {
+                "wowhead_attr": "domain=fr.tbc&item=23110",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29066"
+            },
+            {
                 "wowhead_attr": "domain=fr.tbc&item=28470",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28502"
+                "item_wowhead_attr": "domain=fr.tbc&item=29184"
             },
             {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28767"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28767"
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=35272"
             },
             {
                 "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28767"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27899"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27899"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27899"
             },
             {
                 "fight": "High King Maulgar",
                 "type": "missing_food"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_food",
-                "wowhead_attr": "domain=fr.tbc&spell=35272"
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28767"
             },
             {
                 "fight": "Magtheridon",
                 "type": "invalid_food",
                 "wowhead_attr": "domain=fr.tbc&spell=35272"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27899"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27899"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27899"
             }
         ]
     },
@@ -13857,17 +13857,15 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=29100"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28658"
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28658"
+                "type": "missing_guardian_elixir"
             },
             {
-                "fight": "Magtheridon",
+                "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28658"
             },
@@ -13876,24 +13874,26 @@
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "missing_guardian_elixir"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir"
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28658"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Magtheridon",
                 "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28658"
             }
         ]
     },
@@ -14961,9 +14961,9 @@
         },
         "remarks": [
             {
-                "wowhead_attr": "domain=fr.tbc&item=23100",
+                "wowhead_attr": "domain=fr.tbc&item=23116",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29044"
+                "item_wowhead_attr": "domain=fr.tbc&item=27531"
             },
             {
                 "wowhead_attr": "domain=fr.tbc&item=23100",
@@ -14971,19 +14971,19 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=27797"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23110",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29045"
-            },
-            {
                 "wowhead_attr": "domain=fr.tbc&item=23097",
                 "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28545"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23116",
+                "wowhead_attr": "domain=fr.tbc&item=23100",
                 "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27531"
+                "item_wowhead_attr": "domain=fr.tbc&item=29044"
+            },
+            {
+                "wowhead_attr": "domain=fr.tbc&item=23110",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29045"
             },
             {
                 "type": "no_enchant",
@@ -14994,21 +14994,21 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=31255"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "missing_battle_elixir"
             },
             {
                 "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "domain=fr.tbc&item=28729"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir"
             },
             {
                 "fight": "Magtheridon",
@@ -15955,26 +15955,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=16921"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27875"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27536"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28373"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28604"
-            },
-            {
                 "wowhead_attr": "domain=fr.tbc&item=32836",
                 "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=27775"
@@ -15985,12 +15965,32 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28230"
             },
             {
-                "fight": "High King Maulgar",
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=16921"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27536"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27875"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28373"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28604"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
                 "type": "invalid_food",
                 "wowhead_attr": "domain=fr.tbc&spell=33254"
             },
             {
-                "fight": "Gruul the Dragonkiller",
+                "fight": "High King Maulgar",
                 "type": "invalid_food",
                 "wowhead_attr": "domain=fr.tbc&spell=33254"
             }
@@ -16750,41 +16750,41 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28601"
+                "wowhead_attr": "domain=fr.tbc&item=23116",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=25686"
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=30399"
+                "item_wowhead_attr": "domain=fr.tbc&item=28601"
             },
             {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28777"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23116",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=25686"
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=30399"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir"
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
                 "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
@@ -17667,24 +17667,24 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28746"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir"
             },
             {
                 "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
                 "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
@@ -18264,10 +18264,10 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28672"
                     },
                     {
-                        "type": "missing_food"
+                        "type": "missing_battle_elixir"
                     },
                     {
-                        "type": "missing_battle_elixir"
+                        "type": "missing_food"
                     },
                     {
                         "type": "missing_guardian_elixir"
@@ -18448,27 +18448,11 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28672"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -18477,8 +18461,24 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28773"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "missing_food"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir"
             }
         ]
     },
@@ -19594,48 +19594,6 @@
         },
         "remarks": [
             {
-                "type": "missing_gems",
-                "item_wowhead_attr": "domain=fr.tbc&item=29076",
-                "count": 1
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29076"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28714"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28594"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28179"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29002"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29080"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28570"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27899"
-            },
-            {
-                "wowhead_attr": "domain=fr.tbc&item=23118",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28714"
-            },
-            {
                 "wowhead_attr": "domain=fr.tbc&item=28461",
                 "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=24481"
@@ -19646,11 +19604,53 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28179"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "missing_food"
+                "wowhead_attr": "domain=fr.tbc&item=23118",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28714"
+            },
+            {
+                "type": "missing_gems",
+                "item_wowhead_attr": "domain=fr.tbc&item=29076",
+                "count": 1
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27899"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28179"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28570"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28594"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28714"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=29002"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=29076"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=29080"
             },
             {
                 "fight": "Gruul the Dragonkiller",
+                "type": "missing_food"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "missing_food"
             },
             {
@@ -20659,25 +20659,14 @@
         },
         "remarks": [
             {
-                "type": "missing_gems",
-                "item_wowhead_attr": "domain=fr.tbc&item=29028",
-                "count": 1
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28612"
-            },
-            {
-                "type": "no_enchant",
+                "wowhead_attr": "domain=fr.tbc&item=23094",
+                "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28202"
             },
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=31335"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29251"
+                "type": "missing_gems",
+                "item_wowhead_attr": "domain=fr.tbc&item=29028",
+                "count": 1
             },
             {
                 "type": "no_enchant",
@@ -20689,12 +20678,23 @@
             },
             {
                 "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28612"
+            },
+            {
+                "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=29175"
             },
             {
-                "wowhead_attr": "domain=fr.tbc&item=23094",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28202"
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=29251"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=31335"
             },
             {
                 "fight": "Magtheridon",
@@ -21384,31 +21384,31 @@
         "remarks": [
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27981"
+                "item_wowhead_attr": "domain=fr.tbc&item=27905"
             },
             {
                 "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27905"
+                "item_wowhead_attr": "domain=fr.tbc&item=27981"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir"
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
                 "type": "missing_battle_elixir"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Magtheridon",
@@ -23111,11 +23111,11 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28425"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir"
             },
             {
-                "fight": "Gruul the Dragonkiller",
+                "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
             },
             {
@@ -24084,22 +24084,22 @@
         },
         "remarks": [
             {
-                "wowhead_attr": "domain=fr.tbc&item=23104",
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28182"
-            },
-            {
                 "wowhead_attr": "domain=fr.tbc&item=23097",
                 "type": "cheap_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=27434"
             },
             {
-                "fight": "High King Maulgar",
+                "wowhead_attr": "domain=fr.tbc&item=23104",
+                "type": "cheap_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28182"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=29171"
             },
             {
-                "fight": "Gruul the Dragonkiller",
+                "fight": "High King Maulgar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=29171"
             },

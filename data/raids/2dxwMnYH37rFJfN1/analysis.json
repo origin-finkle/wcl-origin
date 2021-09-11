@@ -232,7 +232,16 @@
                         "itemLevel": 65,
                         "wowhead_attr": "domain=fr.tbc&item=23198"
                     }
-                ]
+                ],
+                "casts": {
+                    "1": 7,
+                    "33987": 9,
+                    "27011": 10,
+                    "26996": 18,
+                    "33745": 13,
+                    "6795": 1,
+                    "16979": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -461,7 +470,20 @@
                         "itemLevel": 65,
                         "wowhead_attr": "domain=fr.tbc&item=23198"
                     }
-                ]
+                ],
+                "casts": {
+                    "33987": 10,
+                    "1": 16,
+                    "33745": 20,
+                    "6795": 3,
+                    "8983": 1,
+                    "26996": 17,
+                    "16979": 1,
+                    "27011": 3,
+                    "5229": 1,
+                    "9634": 3,
+                    "2893": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -707,7 +729,44 @@
                         "itemLevel": 65,
                         "wowhead_attr": "domain=fr.tbc&item=23198"
                     }
-                ]
+                ],
+                "casts": {
+                    "27011": 4,
+                    "1": 5,
+                    "33987": 17,
+                    "33745": 29,
+                    "26996": 39,
+                    "34106": 1,
+                    "26999": 1,
+                    "5229": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "1": 30,
+                    "33987": 14,
+                    "33745": 40,
+                    "26996": 22,
+                    "27011": 7,
+                    "6795": 2,
+                    "5229": 2,
+                    "34519": 1,
+                    "26997": 1
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -929,7 +988,18 @@
                         "itemLevel": 110,
                         "wowhead_attr": "domain=fr.tbc&item=29390"
                     }
-                ]
+                ],
+                "casts": {
+                    "17392": 4,
+                    "27002": 34,
+                    "1": 117,
+                    "768": 14,
+                    "27008": 11,
+                    "33983": 12,
+                    "29166": 1,
+                    "34106": 1,
+                    "24248": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -1149,7 +1219,19 @@
                         "itemLevel": 65,
                         "wowhead_attr": "domain=fr.tbc&item=23198"
                     }
-                ]
+                ],
+                "casts": {
+                    "16979": 1,
+                    "33987": 16,
+                    "1": 4,
+                    "33745": 26,
+                    "26996": 40,
+                    "34106": 1,
+                    "26997": 15,
+                    "27011": 5,
+                    "5229": 1,
+                    "26998": 1
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -1375,7 +1457,20 @@
                         "itemLevel": 110,
                         "wowhead_attr": "domain=fr.tbc&item=29390"
                     }
-                ]
+                ],
+                "casts": {
+                    "17392": 6,
+                    "1": 181,
+                    "33983": 26,
+                    "27002": 47,
+                    "768": 29,
+                    "27008": 15,
+                    "34106": 2,
+                    "24248": 1,
+                    "29166": 2,
+                    "33357": 1,
+                    "26987": 1
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -1580,7 +1675,20 @@
                         "itemLevel": 110,
                         "wowhead_attr": "domain=fr.tbc&item=29390"
                     }
-                ]
+                ],
+                "casts": {
+                    "17392": 6,
+                    "33983": 16,
+                    "1": 131,
+                    "27002": 36,
+                    "768": 14,
+                    "27008": 14,
+                    "26987": 1,
+                    "34106": 1,
+                    "33357": 1,
+                    "29166": 1,
+                    "27003": 1
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -1785,7 +1893,25 @@
                         "itemLevel": 110,
                         "wowhead_attr": "domain=fr.tbc&item=29390"
                     }
-                ]
+                ],
+                "casts": {
+                    "27005": 1,
+                    "1": 127,
+                    "33983": 25,
+                    "17392": 7,
+                    "27002": 12,
+                    "768": 8,
+                    "27008": 10,
+                    "34106": 2,
+                    "29166": 1,
+                    "33357": 1,
+                    "9634": 1,
+                    "33987": 5,
+                    "6795": 1,
+                    "27011": 2,
+                    "33745": 10,
+                    "26996": 9
+                }
             }
         },
         "remarks": [
@@ -1863,6 +1989,18 @@
                 "fight": "Netherspite",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28658"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Prince Malchezaar",
@@ -2184,7 +2322,16 @@
                         "itemLevel": 103,
                         "wowhead_attr": "domain=fr.tbc&item=25645"
                     }
-                ]
+                ],
+                "casts": {
+                    "25570": 1,
+                    "3738": 1,
+                    "25396": 3,
+                    "25422": 30,
+                    "28499": 1,
+                    "32594": 1,
+                    "16190": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -2427,7 +2574,18 @@
                         "itemLevel": 103,
                         "wowhead_attr": "domain=fr.tbc&item=25645"
                     }
-                ]
+                ],
+                "casts": {
+                    "25422": 16,
+                    "25420": 3,
+                    "32594": 1,
+                    "16188": 1,
+                    "25396": 1,
+                    "33736": 1,
+                    "28499": 1,
+                    "25423": 7,
+                    "8166": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -2694,7 +2852,48 @@
                         "itemLevel": 103,
                         "wowhead_attr": "domain=fr.tbc&item=25645"
                     }
-                ]
+                ],
+                "casts": {
+                    "25570": 2,
+                    "3738": 2,
+                    "25396": 1,
+                    "25422": 23,
+                    "32594": 1,
+                    "27237": 1,
+                    "331": 1,
+                    "33736": 2,
+                    "25420": 2,
+                    "28499": 1,
+                    "25423": 2,
+                    "16190": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "3738": 1,
+                    "25423": 6,
+                    "33736": 4,
+                    "25396": 14,
+                    "16188": 1,
+                    "32594": 2,
+                    "8166": 1,
+                    "28499": 1,
+                    "25420": 1
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -2923,7 +3122,19 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28523"
                     }
-                ]
+                ],
+                "casts": {
+                    "25396": 12,
+                    "25570": 1,
+                    "3738": 1,
+                    "25423": 10,
+                    "25420": 2,
+                    "28499": 1,
+                    "32594": 2,
+                    "33736": 2,
+                    "16190": 1,
+                    "25449": 2
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -3154,7 +3365,17 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28523"
                     }
-                ]
+                ],
+                "casts": {
+                    "25570": 2,
+                    "25396": 17,
+                    "3738": 1,
+                    "33736": 2,
+                    "25423": 2,
+                    "28499": 1,
+                    "16190": 1,
+                    "25420": 3
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -3436,7 +3657,20 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28523"
                     }
-                ]
+                ],
+                "casts": {
+                    "32594": 4,
+                    "25420": 9,
+                    "25396": 33,
+                    "25570": 2,
+                    "3738": 2,
+                    "33736": 3,
+                    "28499": 2,
+                    "16190": 2,
+                    "25423": 1,
+                    "16188": 1,
+                    "27237": 1
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -3667,7 +3901,17 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28523"
                     }
-                ]
+                ],
+                "casts": {
+                    "32594": 5,
+                    "25570": 1,
+                    "3738": 1,
+                    "25396": 22,
+                    "33736": 1,
+                    "28499": 1,
+                    "16190": 1,
+                    "25423": 9
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -3898,7 +4142,13 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28523"
                     }
-                ]
+                ],
+                "casts": {
+                    "25396": 20,
+                    "33736": 2,
+                    "25423": 2,
+                    "25570": 1
+                }
             }
         },
         "remarks": [
@@ -4004,6 +4254,18 @@
             },
             {
                 "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -4351,7 +4613,17 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28248"
                     }
-                ]
+                ],
+                "casts": {
+                    "25449": 49,
+                    "25442": 11,
+                    "33736": 1,
+                    "35476": 1,
+                    "32182": 1,
+                    "35163": 1,
+                    "16166": 1,
+                    "28499": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -4632,7 +4904,24 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28248"
                     }
-                ]
+                ],
+                "casts": {
+                    "25449": 40,
+                    "25464": 1,
+                    "25457": 2,
+                    "30706": 1,
+                    "3738": 1,
+                    "25570": 1,
+                    "25528": 1,
+                    "32182": 1,
+                    "35163": 1,
+                    "16166": 1,
+                    "25442": 4,
+                    "35476": 1,
+                    "33736": 1,
+                    "1": 1,
+                    "25420": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -4952,7 +5241,56 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28248"
                     }
-                ]
+                ],
+                "casts": {
+                    "33736": 4,
+                    "30706": 2,
+                    "3738": 2,
+                    "25570": 2,
+                    "25528": 2,
+                    "25449": 37,
+                    "25442": 11,
+                    "32182": 1,
+                    "35163": 2,
+                    "16166": 2,
+                    "35476": 2,
+                    "1": 2,
+                    "27237": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "25509": 2,
+                    "8042": 6,
+                    "25449": 33,
+                    "25442": 12,
+                    "8012": 6,
+                    "25457": 2,
+                    "1": 2,
+                    "33736": 3,
+                    "30706": 1,
+                    "3738": 1,
+                    "25570": 1,
+                    "526": 1,
+                    "35476": 1,
+                    "32182": 1,
+                    "35163": 1,
+                    "16166": 1
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -5237,7 +5575,16 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28248"
                     }
-                ]
+                ],
+                "casts": {
+                    "33736": 3,
+                    "25449": 38,
+                    "25457": 1,
+                    "25442": 7,
+                    "32182": 1,
+                    "35163": 1,
+                    "16166": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -5522,7 +5869,20 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28248"
                     }
-                ]
+                ],
+                "casts": {
+                    "30706": 1,
+                    "3738": 1,
+                    "25570": 1,
+                    "25509": 1,
+                    "25449": 42,
+                    "25442": 9,
+                    "33736": 1,
+                    "35476": 1,
+                    "32182": 1,
+                    "35163": 1,
+                    "16166": 1
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -5842,7 +6202,28 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28248"
                     }
-                ]
+                ],
+                "casts": {
+                    "8042": 17,
+                    "30706": 7,
+                    "3738": 7,
+                    "25570": 7,
+                    "25528": 2,
+                    "25449": 64,
+                    "25442": 17,
+                    "35163": 2,
+                    "16166": 2,
+                    "35476": 1,
+                    "33736": 11,
+                    "1": 4,
+                    "25420": 1,
+                    "8177": 1,
+                    "32182": 1,
+                    "25457": 4,
+                    "27237": 1,
+                    "28880": 1,
+                    "28495": 1
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -6127,7 +6508,21 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28248"
                     }
-                ]
+                ],
+                "casts": {
+                    "25449": 69,
+                    "25442": 10,
+                    "30706": 1,
+                    "3738": 1,
+                    "25570": 1,
+                    "25509": 1,
+                    "35476": 1,
+                    "32182": 1,
+                    "35163": 1,
+                    "16166": 1,
+                    "28499": 1,
+                    "33736": 1
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -6412,7 +6807,22 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28248"
                     }
-                ]
+                ],
+                "casts": {
+                    "33736": 5,
+                    "30706": 3,
+                    "3738": 3,
+                    "25570": 3,
+                    "25449": 41,
+                    "35163": 2,
+                    "16166": 1,
+                    "25442": 7,
+                    "25420": 7,
+                    "25457": 1,
+                    "27237": 1,
+                    "1": 14,
+                    "32182": 1
+                }
             }
         },
         "remarks": [
@@ -6447,6 +6857,18 @@
             },
             {
                 "fight": "Moroes",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
                 "type": "missing_guardian_elixir"
             }
         ]
@@ -6749,7 +7171,21 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28659"
                     }
-                ]
+                ],
+                "casts": {
+                    "26862": 41,
+                    "1": 176,
+                    "6774": 8,
+                    "35166": 1,
+                    "13877": 1,
+                    "13750": 1,
+                    "26669": 1,
+                    "26889": 1,
+                    "26884": 1,
+                    "26867": 3,
+                    "31224": 1,
+                    "26865": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -7056,7 +7492,20 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28659"
                     }
-                ]
+                ],
+                "casts": {
+                    "1833": 1,
+                    "1": 147,
+                    "35166": 1,
+                    "13877": 1,
+                    "13750": 1,
+                    "26862": 31,
+                    "6774": 6,
+                    "26669": 1,
+                    "26889": 1,
+                    "26884": 1,
+                    "26867": 3
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -7409,7 +7858,54 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28659"
                     }
-                ]
+                ],
+                "casts": {
+                    "26862": 45,
+                    "1": 195,
+                    "6774": 7,
+                    "35166": 2,
+                    "13877": 2,
+                    "13750": 2,
+                    "26867": 3,
+                    "26669": 1,
+                    "31224": 2,
+                    "26889": 1,
+                    "26884": 1,
+                    "27237": 1,
+                    "26679": 1,
+                    "27031": 1,
+                    "26865": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "26862": 38,
+                    "1": 187,
+                    "6774": 9,
+                    "38768": 3,
+                    "26865": 2,
+                    "26867": 2,
+                    "35166": 1,
+                    "13877": 1,
+                    "13750": 1,
+                    "26669": 1,
+                    "26889": 1,
+                    "26884": 1
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -7708,7 +8204,17 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28659"
                     }
-                ]
+                ],
+                "casts": {
+                    "1": 180,
+                    "26862": 39,
+                    "6774": 7,
+                    "26867": 4,
+                    "35166": 1,
+                    "13877": 1,
+                    "13750": 1,
+                    "26865": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -8007,7 +8513,17 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28659"
                     }
-                ]
+                ],
+                "casts": {
+                    "26862": 34,
+                    "1": 160,
+                    "6774": 7,
+                    "26867": 1,
+                    "35166": 1,
+                    "13877": 1,
+                    "13750": 1,
+                    "26865": 1
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -8360,7 +8876,24 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28659"
                     }
-                ]
+                ],
+                "casts": {
+                    "1": 320,
+                    "26862": 69,
+                    "38768": 16,
+                    "6774": 15,
+                    "35166": 3,
+                    "13877": 3,
+                    "13750": 2,
+                    "26867": 10,
+                    "2764": 17,
+                    "31224": 3,
+                    "2094": 2,
+                    "27237": 1,
+                    "26669": 1,
+                    "26865": 1,
+                    "11305": 1
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -8659,7 +9192,18 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28659"
                     }
-                ]
+                ],
+                "casts": {
+                    "1": 208,
+                    "26862": 53,
+                    "6774": 8,
+                    "35166": 1,
+                    "13877": 1,
+                    "13750": 1,
+                    "26867": 7,
+                    "11305": 1,
+                    "31224": 1
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -8958,7 +9502,20 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28659"
                     }
-                ]
+                ],
+                "casts": {
+                    "26862": 51,
+                    "1": 236,
+                    "6774": 7,
+                    "35166": 1,
+                    "26669": 1,
+                    "13877": 1,
+                    "13750": 1,
+                    "26867": 7,
+                    "31224": 1,
+                    "26889": 1,
+                    "26884": 1
+                }
             }
         },
         "remarks": [
@@ -9021,6 +9578,18 @@
             },
             {
                 "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -9306,7 +9875,19 @@
                         "permanentEnchant": 2722,
                         "wowhead_attr": "domain=fr.tbc&item=28504&ench=2722"
                     }
-                ]
+                ],
+                "casts": {
+                    "14325": 2,
+                    "34477": 1,
+                    "34120": 54,
+                    "75": 57,
+                    "35166": 1,
+                    "3045": 1,
+                    "19574": 1,
+                    "34026": 16,
+                    "27021": 4,
+                    "28499": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -9555,7 +10136,20 @@
                         "permanentEnchant": 2722,
                         "wowhead_attr": "domain=fr.tbc&item=28504&ench=2722"
                     }
-                ]
+                ],
+                "casts": {
+                    "27019": 1,
+                    "75": 49,
+                    "14325": 5,
+                    "14311": 1,
+                    "34120": 42,
+                    "3045": 1,
+                    "19574": 1,
+                    "35166": 1,
+                    "34026": 10,
+                    "19577": 1,
+                    "3043": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -9805,7 +10399,50 @@
                         "permanentEnchant": 2722,
                         "wowhead_attr": "domain=fr.tbc&item=28504&ench=2722"
                     }
-                ]
+                ],
+                "casts": {
+                    "34477": 2,
+                    "27019": 3,
+                    "75": 60,
+                    "34120": 52,
+                    "3045": 2,
+                    "35166": 2,
+                    "19574": 2,
+                    "34026": 18,
+                    "27046": 3,
+                    "3043": 1,
+                    "14325": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "14325": 4,
+                    "34120": 57,
+                    "75": 58,
+                    "34477": 2,
+                    "34026": 19,
+                    "35166": 2,
+                    "3045": 1,
+                    "19574": 2,
+                    "1": 1,
+                    "19577": 1,
+                    "28499": 1,
+                    "27021": 3
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -10054,7 +10691,19 @@
                         "permanentEnchant": 2722,
                         "wowhead_attr": "domain=fr.tbc&item=28504&ench=2722"
                     }
-                ]
+                ],
+                "casts": {
+                    "34120": 64,
+                    "75": 51,
+                    "34026": 17,
+                    "1": 3,
+                    "14268": 1,
+                    "27021": 1,
+                    "28499": 1,
+                    "3045": 1,
+                    "35166": 1,
+                    "19574": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -10303,7 +10952,19 @@
                         "permanentEnchant": 2722,
                         "wowhead_attr": "domain=fr.tbc&item=28504&ench=2722"
                     }
-                ]
+                ],
+                "casts": {
+                    "14325": 1,
+                    "34477": 1,
+                    "27021": 8,
+                    "75": 50,
+                    "3045": 1,
+                    "19574": 1,
+                    "35166": 1,
+                    "34026": 20,
+                    "34120": 50,
+                    "28499": 1
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -10561,7 +11222,24 @@
                         "permanentEnchant": 2722,
                         "wowhead_attr": "domain=fr.tbc&item=28504&ench=2722"
                     }
-                ]
+                ],
+                "casts": {
+                    "14325": 4,
+                    "34477": 2,
+                    "34120": 114,
+                    "75": 107,
+                    "3045": 2,
+                    "35166": 3,
+                    "34026": 33,
+                    "27237": 2,
+                    "27031": 1,
+                    "27019": 6,
+                    "14311": 2,
+                    "19574": 2,
+                    "27046": 6,
+                    "28499": 1,
+                    "27021": 2
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -10813,7 +11491,22 @@
                         "permanentEnchant": 2722,
                         "wowhead_attr": "domain=fr.tbc&item=28504&ench=2722"
                     }
-                ]
+                ],
+                "casts": {
+                    "27021": 1,
+                    "75": 76,
+                    "1": 1,
+                    "27019": 1,
+                    "34026": 27,
+                    "34120": 77,
+                    "35166": 2,
+                    "3045": 1,
+                    "19574": 2,
+                    "28499": 1,
+                    "27046": 2,
+                    "3043": 4,
+                    "14325": 1
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -11062,7 +11755,28 @@
                         "permanentEnchant": 2722,
                         "wowhead_attr": "domain=fr.tbc&item=28504&ench=2722"
                     }
-                ]
+                ],
+                "casts": {
+                    "14325": 2,
+                    "5118": 1,
+                    "3043": 1,
+                    "27044": 2,
+                    "75": 51,
+                    "34120": 54,
+                    "34026": 16,
+                    "1": 2,
+                    "3045": 1,
+                    "35166": 2,
+                    "19574": 2,
+                    "2641": 1,
+                    "34477": 1,
+                    "27019": 1,
+                    "27237": 1,
+                    "28495": 1,
+                    "34074": 1,
+                    "883": 1,
+                    "27046": 1
+                }
             }
         },
         "remarks": [
@@ -11109,6 +11823,18 @@
             },
             {
                 "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -11383,7 +12109,16 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "27074": 14,
+                    "27070": 15,
+                    "27079": 6,
+                    "475": 16,
+                    "12051": 1,
+                    "33662": 1,
+                    "12472": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -11603,7 +12338,15 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "27074": 21,
+                    "27070": 15,
+                    "27079": 5,
+                    "30449": 1,
+                    "33662": 1,
+                    "12472": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -11869,7 +12612,39 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "27074": 17,
+                    "33662": 2,
+                    "12472": 2,
+                    "33938": 2,
+                    "27079": 7,
+                    "27070": 12,
+                    "27031": 1,
+                    "33933": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "27074": 23,
+                    "2139": 1,
+                    "27070": 18,
+                    "27079": 7
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -12081,7 +12856,16 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "27074": 22,
+                    "27079": 10,
+                    "27070": 9,
+                    "33043": 1,
+                    "27103": 1,
+                    "33662": 1,
+                    "12472": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -12294,7 +13078,15 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "27074": 15,
+                    "27079": 7,
+                    "27070": 23,
+                    "33662": 1,
+                    "12472": 1,
+                    "27103": 1
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -12553,7 +13345,20 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "27074": 28,
+                    "33662": 2,
+                    "12472": 2,
+                    "27070": 26,
+                    "33938": 3,
+                    "27079": 12,
+                    "1953": 5,
+                    "27128": 1,
+                    "28499": 1,
+                    "32796": 1,
+                    "27237": 1
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -12769,7 +13574,17 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "27074": 14,
+                    "27070": 38,
+                    "33662": 1,
+                    "12472": 1,
+                    "33938": 1,
+                    "27031": 1,
+                    "27103": 1,
+                    "33043": 1
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -12996,7 +13811,18 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "1953": 1,
+                    "27074": 18,
+                    "27079": 4,
+                    "27070": 17,
+                    "27237": 1,
+                    "28495": 1,
+                    "27031": 1,
+                    "33662": 1,
+                    "12472": 1
+                }
             }
         },
         "remarks": [
@@ -13073,6 +13899,18 @@
                 "fight": "Netherspite",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28633"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Prince Malchezaar",
@@ -13352,7 +14190,17 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28673"
                     }
-                ]
+                ],
+                "casts": {
+                    "27228": 2,
+                    "27215": 4,
+                    "27209": 39,
+                    "27222": 6,
+                    "35163": 1,
+                    "29858": 1,
+                    "30546": 1,
+                    "30912": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -13603,7 +14451,16 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28673"
                     }
-                ]
+                ],
+                "casts": {
+                    "27228": 5,
+                    "35163": 1,
+                    "27215": 3,
+                    "27209": 32,
+                    "27222": 4,
+                    "28499": 1,
+                    "30546": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -13870,7 +14727,41 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28673"
                     }
-                ]
+                ],
+                "casts": {
+                    "27228": 2,
+                    "27215": 4,
+                    "27209": 29,
+                    "35163": 2,
+                    "29858": 1,
+                    "27222": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "27228": 4,
+                    "35163": 2,
+                    "27215": 3,
+                    "27209": 37,
+                    "29858": 1,
+                    "27222": 6,
+                    "28495": 1,
+                    "30546": 1
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -14132,7 +15023,14 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28673"
                     }
-                ]
+                ],
+                "casts": {
+                    "27228": 1,
+                    "27215": 2,
+                    "27209": 34,
+                    "27222": 4,
+                    "35163": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -14394,7 +15292,15 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28673"
                     }
-                ]
+                ],
+                "casts": {
+                    "27228": 2,
+                    "27215": 7,
+                    "27209": 15,
+                    "27243": 17,
+                    "27222": 8,
+                    "35163": 1
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -14668,7 +15574,19 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28673"
                     }
-                ]
+                ],
+                "casts": {
+                    "27228": 2,
+                    "35163": 2,
+                    "27209": 65,
+                    "27215": 9,
+                    "29722": 3,
+                    "27222": 8,
+                    "20589": 2,
+                    "18647": 4,
+                    "6215": 4,
+                    "28495": 2
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -14933,7 +15851,16 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28673"
                     }
-                ]
+                ],
+                "casts": {
+                    "27228": 1,
+                    "27215": 3,
+                    "27209": 56,
+                    "35163": 1,
+                    "29858": 1,
+                    "27222": 5,
+                    "28499": 1
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -15198,7 +16125,14 @@
                         "itemLevel": 115,
                         "wowhead_attr": "domain=fr.tbc&item=28673"
                     }
-                ]
+                ],
+                "casts": {
+                    "27228": 1,
+                    "27215": 4,
+                    "27209": 55,
+                    "35163": 1,
+                    "27222": 6
+                }
             }
         },
         "remarks": [
@@ -15218,6 +16152,18 @@
                 "fight": "Netherspite",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28770"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Prince Malchezaar",
@@ -15413,7 +16359,19 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "589": 7,
+                    "34917": 6,
+                    "25368": 6,
+                    "14751": 1,
+                    "25375": 11,
+                    "32355": 1,
+                    "25387": 18,
+                    "15286": 2,
+                    "28499": 1,
+                    "32996": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -15587,7 +16545,18 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "25368": 6,
+                    "34917": 6,
+                    "32355": 1,
+                    "25375": 8,
+                    "25387": 13,
+                    "15286": 2,
+                    "32996": 3,
+                    "589": 2,
+                    "14751": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -15761,7 +16730,47 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "589": 3,
+                    "25368": 7,
+                    "34917": 6,
+                    "15286": 3,
+                    "25375": 8,
+                    "25387": 19,
+                    "32355": 2,
+                    "25235": 2,
+                    "14751": 1,
+                    "32996": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "589": 3,
+                    "25368": 7,
+                    "34917": 6,
+                    "32355": 2,
+                    "14751": 1,
+                    "25375": 10,
+                    "25387": 25,
+                    "32996": 2,
+                    "28499": 1,
+                    "15286": 2
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -15944,7 +16953,19 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "589": 2,
+                    "25368": 6,
+                    "34917": 5,
+                    "14751": 1,
+                    "25375": 6,
+                    "25387": 30,
+                    "15286": 1,
+                    "32996": 2,
+                    "32355": 1,
+                    "34433": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -16104,7 +17125,18 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "25368": 6,
+                    "15286": 2,
+                    "34917": 5,
+                    "25387": 25,
+                    "32355": 1,
+                    "25375": 8,
+                    "32996": 2,
+                    "34433": 1,
+                    "14751": 1
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -16283,7 +17315,21 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "589": 3,
+                    "25368": 14,
+                    "32355": 2,
+                    "14751": 2,
+                    "25375": 15,
+                    "25387": 23,
+                    "34917": 9,
+                    "15286": 3,
+                    "10890": 1,
+                    "25437": 1,
+                    "25218": 1,
+                    "28495": 1
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -16460,7 +17506,25 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "589": 2,
+                    "15286": 2,
+                    "34917": 9,
+                    "32355": 2,
+                    "14751": 1,
+                    "25375": 13,
+                    "25368": 6,
+                    "25387": 24,
+                    "25431": 1,
+                    "25437": 1,
+                    "15473": 2,
+                    "34433": 1,
+                    "25315": 1,
+                    "28499": 1,
+                    "25218": 1,
+                    "32996": 1
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -16639,7 +17703,22 @@
                         "itemLevel": 109,
                         "wowhead_attr": "domain=fr.tbc&item=25806"
                     }
-                ]
+                ],
+                "casts": {
+                    "589": 4,
+                    "25368": 7,
+                    "34917": 6,
+                    "15286": 2,
+                    "32355": 2,
+                    "14751": 1,
+                    "25375": 14,
+                    "25387": 26,
+                    "28495": 1,
+                    "34433": 1,
+                    "25218": 1,
+                    "25431": 1,
+                    "32996": 1
+                }
             }
         },
         "remarks": [
@@ -16669,6 +17748,18 @@
             },
             {
                 "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -16972,7 +18063,16 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27885"
                     }
-                ]
+                ],
+                "casts": {
+                    "10964": 28,
+                    "33076": 3,
+                    "25235": 1,
+                    "25213": 2,
+                    "25222": 2,
+                    "1": 1,
+                    "34433": 1
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -17212,7 +18312,19 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27885"
                     }
-                ]
+                ],
+                "casts": {
+                    "10955": 5,
+                    "10964": 12,
+                    "25235": 9,
+                    "25218": 2,
+                    "25429": 1,
+                    "32546": 1,
+                    "988": 2,
+                    "25213": 1,
+                    "33076": 3,
+                    "25222": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -17489,7 +18601,45 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27885"
                     }
-                ]
+                ],
+                "casts": {
+                    "10964": 7,
+                    "988": 10,
+                    "25235": 14,
+                    "32546": 1,
+                    "25218": 3,
+                    "25222": 2,
+                    "33076": 2,
+                    "34866": 1,
+                    "25213": 3
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "33076": 8,
+                    "25222": 5,
+                    "25235": 8,
+                    "10964": 23,
+                    "25218": 2,
+                    "5019": 1,
+                    "25429": 1,
+                    "25213": 1,
+                    "34433": 1
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -17737,7 +18887,21 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27885"
                     }
-                ]
+                ],
+                "casts": {
+                    "33076": 2,
+                    "10964": 13,
+                    "25213": 5,
+                    "25222": 3,
+                    "34866": 7,
+                    "25235": 5,
+                    "34433": 1,
+                    "25218": 2,
+                    "25375": 2,
+                    "25364": 2,
+                    "35165": 1,
+                    "32996": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -17985,7 +19149,17 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27885"
                     }
-                ]
+                ],
+                "casts": {
+                    "25222": 3,
+                    "33076": 4,
+                    "25213": 4,
+                    "10964": 10,
+                    "25235": 13,
+                    "25218": 2,
+                    "25429": 1,
+                    "34433": 1
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -18262,7 +19436,22 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27885"
                     }
-                ]
+                ],
+                "casts": {
+                    "25222": 11,
+                    "10964": 16,
+                    "33076": 6,
+                    "25235": 30,
+                    "988": 18,
+                    "25218": 6,
+                    "32546": 5,
+                    "25213": 1,
+                    "34433": 1,
+                    "34866": 1,
+                    "10890": 1,
+                    "25429": 1,
+                    "28499": 1
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -18510,7 +19699,17 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27885"
                     }
-                ]
+                ],
+                "casts": {
+                    "33076": 11,
+                    "10964": 30,
+                    "988": 6,
+                    "25218": 3,
+                    "25222": 3,
+                    "35165": 1,
+                    "25213": 3,
+                    "25235": 2
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -18758,7 +19957,19 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27885"
                     }
-                ]
+                ],
+                "casts": {
+                    "25222": 35,
+                    "10964": 18,
+                    "25235": 6,
+                    "33076": 2,
+                    "25218": 3,
+                    "28499": 1,
+                    "25213": 1,
+                    "25316": 3,
+                    "14751": 1,
+                    "34433": 1
+                }
             }
         },
         "remarks": [
@@ -18801,6 +20012,18 @@
                 "fight": "Netherspite",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28522"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Prince Malchezaar",
@@ -19104,7 +20327,17 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27987"
                     }
-                ]
+                ],
+                "casts": {
+                    "71": 1,
+                    "30022": 36,
+                    "1": 23,
+                    "2687": 2,
+                    "30356": 19,
+                    "29707": 54,
+                    "30357": 15,
+                    "2565": 6
+                }
             },
             "Moroes": {
                 "name": "Moroes",
@@ -19363,7 +20596,17 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27987"
                     }
-                ]
+                ],
+                "casts": {
+                    "1": 33,
+                    "30022": 21,
+                    "30356": 13,
+                    "30357": 14,
+                    "29707": 31,
+                    "2565": 4,
+                    "2687": 1,
+                    "25264": 1
+                }
             },
             "Maiden of Virtue": {
                 "name": "Maiden of Virtue",
@@ -19647,7 +20890,49 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27987"
                     }
-                ]
+                ],
+                "casts": {
+                    "1": 93,
+                    "30022": 43,
+                    "30356": 7,
+                    "2687": 2,
+                    "355": 2,
+                    "25264": 1,
+                    "2457": 1,
+                    "2458": 1,
+                    "29707": 9,
+                    "18499": 1
+                }
+            },
+            "Opera Hall": {
+                "name": "Opera Hall",
+                "auras": {},
+                "remarks": [
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    }
+                ],
+                "talents": [],
+                "casts": {
+                    "1": 59,
+                    "30022": 27,
+                    "2687": 3,
+                    "29704": 1,
+                    "30356": 12,
+                    "30357": 14,
+                    "29707": 26,
+                    "2565": 2,
+                    "676": 1,
+                    "355": 1,
+                    "25264": 2,
+                    "469": 1
+                }
             },
             "The Curator": {
                 "name": "The Curator",
@@ -19914,7 +21199,20 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27987"
                     }
-                ]
+                ],
+                "casts": {
+                    "18499": 1,
+                    "71": 1,
+                    "2687": 3,
+                    "1": 28,
+                    "30356": 17,
+                    "30357": 17,
+                    "30022": 22,
+                    "29707": 53,
+                    "2565": 5,
+                    "25264": 1,
+                    "2048": 1
+                }
             },
             "Terestian Illhoof": {
                 "name": "Terestian Illhoof",
@@ -20176,7 +21474,19 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27987"
                     }
-                ]
+                ],
+                "casts": {
+                    "2457": 1,
+                    "71": 1,
+                    "1": 57,
+                    "30356": 9,
+                    "30022": 32,
+                    "30357": 3,
+                    "25264": 7,
+                    "355": 3,
+                    "25203": 1,
+                    "29707": 2
+                }
             },
             "Shade of Aran": {
                 "name": "Shade of Aran",
@@ -20460,7 +21770,23 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27987"
                     }
-                ]
+                ],
+                "casts": {
+                    "71": 6,
+                    "30022": 81,
+                    "1": 130,
+                    "30356": 23,
+                    "2687": 4,
+                    "29707": 21,
+                    "29704": 9,
+                    "30357": 1,
+                    "3411": 4,
+                    "2458": 4,
+                    "25275": 3,
+                    "355": 8,
+                    "23920": 1,
+                    "12809": 1
+                }
             },
             "Prince Malchezaar": {
                 "name": "Prince Malchezaar",
@@ -20727,7 +22053,19 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27987"
                     }
-                ]
+                ],
+                "casts": {
+                    "1": 30,
+                    "2687": 3,
+                    "30356": 23,
+                    "30022": 45,
+                    "30357": 24,
+                    "29707": 75,
+                    "2565": 12,
+                    "25264": 2,
+                    "469": 1,
+                    "27237": 1
+                }
             },
             "Netherspite": {
                 "name": "Netherspite",
@@ -20986,7 +22324,23 @@
                         "itemLevel": 112,
                         "wowhead_attr": "domain=fr.tbc&item=27987"
                     }
-                ]
+                ],
+                "casts": {
+                    "71": 2,
+                    "30022": 55,
+                    "1": 83,
+                    "30356": 15,
+                    "2687": 3,
+                    "25264": 1,
+                    "29707": 26,
+                    "30357": 4,
+                    "355": 3,
+                    "2565": 4,
+                    "27237": 1,
+                    "2458": 1,
+                    "25275": 1,
+                    "28495": 1
+                }
             }
         },
         "remarks": [
@@ -21051,6 +22405,18 @@
                 "fight": "Netherspite",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28425"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir"
             },
             {
                 "fight": "Prince Malchezaar",

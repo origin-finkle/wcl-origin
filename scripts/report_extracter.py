@@ -23,7 +23,7 @@ def fetch_report_events(report, fight, start_time, end_time):
             reportData{{
                 report(code: "{report["code"]}")
                 {{
-                    events(startTime: {start_time}, endTime: {end_time}, limit: 10000, dataType: CombatantInfo)
+                    events(startTime: {start_time}, endTime: {end_time}, limit: 10000)
                     {{
                         data
                         nextPageTimestamp
@@ -33,10 +33,16 @@ def fetch_report_events(report, fight, start_time, end_time):
         }}
             """
         )
-
-        fight["events"] += response.json()["data"]["reportData"]["report"]["events"][
-            "data"
-        ]
+        data = response.json()["data"]["reportData"]["report"]["events"]["data"]
+        fight["events"] += filter(
+            lambda x: x["type"]
+            in (
+                "combatantinfo",
+                "applybuff",
+                "cast",
+            ),
+            data,
+        )
         next_timestamp = response.json()["data"]["reportData"]["report"]["events"][
             "nextPageTimestamp"
         ]

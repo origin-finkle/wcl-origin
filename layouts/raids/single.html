@@ -68,7 +68,7 @@
                             {{ $duration := div (sub $fight.endTime $fight.startTime) 1000 }}
                             {{ $minutes := int (div $duration 60) }}
                             {{ $seconds := mod $duration 60 }}
-                            <h3>{{ $name }} ({{ $minutes }}:{{ $seconds }})</h3>
+                            <h3>{{ $name }} ({{ printf "%d:%02d" $minutes $seconds }})</h3>
                         </div>
                         <div class="col-12">
                             <div class="row">

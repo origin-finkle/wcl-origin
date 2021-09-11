@@ -149,6 +149,14 @@ with open(f"./data/raids/{logs['code']}/logs.json", "w+") as file:
             "title": logs["title"],
             "actors": [player["name"] for player in players.values()],
             "zoneID": logs["zone"]["id"] if logs["zone"] else 0,
+            "fights": {
+                fight["name"]: {
+                    "startTime": fight["startTime"],
+                    "endTime": fight["endTime"],
+                }
+                for fight in logs["fights"]
+            },
         },
         file,
+        indent=4,
     )

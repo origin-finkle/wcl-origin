@@ -80,8 +80,13 @@ for (name, raids) in characters.items():
     raids = sorted(raids, key=lambda x: x["startTime"])
     with open(f"./data/characters/{name}.json", "w+") as file:
         json.dump(
-            {"raids": raids, "attendance": compute_attendance(raids=raids)},
+            {
+                "raids": raids,
+                "attendance": compute_attendance(raids=raids),
+                "name": name,
+            },
             file,
+            indent=4,
         )
 
 with open("./data/config/lockouts.json", "w+") as file:

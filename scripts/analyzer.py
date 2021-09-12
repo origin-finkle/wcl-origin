@@ -27,6 +27,14 @@ logging.getLogger("default").addHandler(lh)
 def aggregate_remarks(player):
     remarks = {}
     for fight in player.fights.values():
+        fight.remarks = sorted(
+            fight.remarks,
+            key=lambda x: (
+                x.fight if hasattr(x, "fight") else "0",
+                x.type,
+                x.item_wowhead_attr if hasattr(x, "item_wowhead_attr") else "0",
+            ),
+        )
         for remark in fight.remarks:
             remarks.setdefault(remark.type, [])
             data = {

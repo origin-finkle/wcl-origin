@@ -12,3 +12,17 @@ class Cast(Event):
             logging.getLogger("default").debug(
                 f"missing spell {self.abilityGameID} in cast_in_fight configuration"
             )
+            return
+        cast = cast_in_fight[self.abilityGameID]
+        if cast.is_restricted(player=player, fight=player_fight):
+            kw = {
+                "type": cast.invalid_reason,
+            }
+            if cast.type == "spell":
+                kw["spell_id"] = cast.spell_id
+                kw["suggested_spell_id"] = cast.suggested_spell_id
+            else:
+                raise Exception(
+                    f"unhandled type for cast_in_fight restriction: {cast.type}"
+                )
+            player_fight.add_remark(**kw)

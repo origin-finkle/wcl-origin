@@ -89,23 +89,23 @@
                     - {{ dateFormat "2006-01-02" (time (int (div .startTime 1000))) }}
                 </a>
             </h4>
+            {{ $logs := index (index $.Site.Data.raids $raid.reportCode) "analysis" }}
+            {{ range $player := $logs }}
+            {{ if eq $player.name $.Name }}
+            {{ range $remark := $player.remarks }}
             <div class="row">
                 <div class="col-12">
                     <h4>Remarques</h4>
                     <div class="row">
-                        {{ $logs := index (index $.Site.Data.raids $raid.reportCode) "analysis" }}
-                        {{ range $player := $logs }}
-                        {{ if eq $player.name $.Name }}
-                        {{ range $remark := $player.remarks }}
                         <div class="col-12">
                             {{ partial "remark" $remark }}
                         </div>
-                        {{ end }}
-                        {{ end }}
-                        {{ end }}
                     </div>
                 </div>
             </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
         </div>
         {{ end }}
     </div>

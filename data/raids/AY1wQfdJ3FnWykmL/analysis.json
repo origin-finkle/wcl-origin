@@ -3439,6 +3439,14 @@
                 "auras": {},
                 "remarks": [
                     {
+                        "type": "cast_higher_rank_available",
+                        "spell_id": "25299",
+                        "suggested_spell_id": 26980,
+                        "spell_wowhead_attr": "domain=fr.tbc&spell=25299",
+                        "higher_ranked_spell_wowhead_attr": "domain=fr.tbc&spell=26980",
+                        "count": 1
+                    },
+                    {
                         "type": "missing_battle_elixir"
                     },
                     {
@@ -3507,7 +3515,16 @@
                         "events": []
                     }
                 },
-                "remarks": [],
+                "remarks": [
+                    {
+                        "type": "cast_higher_rank_available",
+                        "spell_id": "25299",
+                        "suggested_spell_id": 26980,
+                        "spell_wowhead_attr": "domain=fr.tbc&spell=25299",
+                        "higher_ranked_spell_wowhead_attr": "domain=fr.tbc&spell=26980",
+                        "count": 1
+                    }
+                ],
                 "talents": [
                     {
                         "id": 0,
@@ -4690,6 +4707,15 @@
             },
             {
                 "fight": "Nightbane",
+                "type": "cast_higher_rank_available",
+                "spell_id": "25299",
+                "suggested_spell_id": 26980,
+                "spell_wowhead_attr": "domain=fr.tbc&spell=25299",
+                "higher_ranked_spell_wowhead_attr": "domain=fr.tbc&spell=26980",
+                "count": 1
+            },
+            {
+                "fight": "Nightbane",
                 "type": "missing_battle_elixir"
             },
             {
@@ -4719,6 +4745,15 @@
             {
                 "fight": "Terestian Illhoof",
                 "type": "missing_food"
+            },
+            {
+                "fight": "The Curator",
+                "type": "cast_higher_rank_available",
+                "spell_id": "25299",
+                "suggested_spell_id": 26980,
+                "spell_wowhead_attr": "domain=fr.tbc&spell=25299",
+                "higher_ranked_spell_wowhead_attr": "domain=fr.tbc&spell=26980",
+                "count": 1
             }
         ]
     },

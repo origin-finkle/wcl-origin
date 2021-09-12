@@ -3,7 +3,8 @@ import logging
 import json
 import sys
 
-
+from lib.base import Base
+from lib.player import Player
 from lib.events.event import Event
 from lib.data import (
     consumables,
@@ -25,14 +26,14 @@ logging.getLogger("default").addHandler(lh)
 
 def aggregate_remarks(player):
     remarks = {}
-    for fight in player.get("fights", {}).values():
-        for remark in fight["remarks"]:
-            remarks.setdefault(remark["type"], [])
+    for fight in player.fights.values():
+        for remark in fight.remarks:
+            remarks.setdefault(remark.type, [])
             data = {
-                "fight": fight["name"],
+                "fight": fight.name,
             }
-            data.update(remark)
-            remarks[remark["type"]].append(data)
+            data.update(remark.as_json())
+            remarks[remark.type].append(data)
     # and now depending on the type we squash the duplicates
     _remove_duplicated_remarks(
         remarks=remarks, remark_type="missing_gems", unique_key="item_wowhead_attr"
@@ -46,7 +47,7 @@ def aggregate_remarks(player):
     _remove_duplicated_remarks(
         remarks=remarks, remark_type="cheap_enchant", unique_key="item_wowhead_attr"
     )
-    player["remarks"] = _sort_remarks(remarks=remarks.values())
+    player.remarks = _sort_remarks(remarks=remarks.values())
 
 
 def _sort_remarks(remarks):
@@ -75,32 +76,26 @@ with open(filename) as file:
         if fight["name"] in ("Chess Event",):
             continue  # chess don't have anything to report...
         for player_id in fight["friendlyPlayers"]:
-            players.setdefault(player_id, logs["masterData"]["actors"][player_id])
+            if player_id not in players:
+                players[player_id] = Player(logs["masterData"]["actors"][player_id])
         for event in fight["events"]:
             player_id = event.get("sourceID", event.get("source"))
             if player_id not in players:
                 continue
-            player_fight = (
-                players[player_id]
-                .setdefault("fights", {})
-                .setdefault(
-                    fight["name"],
-                    {"name": fight["name"], "auras": {}, "remarks": [], "talents": []},
-                )
-            )
+            player_fight = players[player_id].get_fight(name=fight["name"])
             Event.process(
                 player=players[player_id],
                 player_fight=player_fight,
                 event=event,
             )
     for player in players.values():
-        for player_fight in player.get("fights", {}).values():
-            if player_fight["name"] == "Chess Event":
+        for player_fight in player.fights.values():
+            if player_fight.name == "Chess Event":
                 # nothing wrong with having no consumables during chess event
                 continue
             missing = {"battle_elixir", "guardian_elixir", "food"}
             invalid = set()
-            for aura in player_fight["auras"].values():
+            for aura in player_fight.auras.values():
                 consumable = consumables.get(aura["ability"])
                 if not consumable:
                     continue
@@ -117,17 +112,13 @@ with open(filename) as file:
                     if consumable.is_restricted(player=player, fight=player_fight):
                         invalid.add(("food", consumable.id))
             for missing_consumable in missing:
-                player_fight["remarks"].append(
-                    {
-                        "type": f"missing_{missing_consumable}",
-                    }
+                player_fight.add_remark(
+                    type=f"missing_{missing_consumable}",
                 )
             for invalid_consumable in invalid:
-                player_fight["remarks"].append(
-                    {
-                        "type": f"invalid_{invalid_consumable[0]}",
-                        "wowhead_attr": f"domain=fr.tbc&spell={invalid_consumable[1]}",
-                    }
+                player_fight.add_remark(
+                    type=f"invalid_{invalid_consumable[0]}",
+                    wowhead_attr=f"domain=fr.tbc&spell={invalid_consumable[1]}",
                 )
         aggregate_remarks(player=player)
 
@@ -139,15 +130,25 @@ try:
 except FileExistsError:
     pass
 
+
+class JSONEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Base):
+            return obj.as_json()
+        return super().default(obj)
+
+
 with open(f"./data/raids/{logs['code']}/analysis.json", "w+") as file:
-    json.dump(players, file, indent=4)  # indenting so we can identify what changes
+    json.dump(
+        players, file, indent=4, cls=JSONEncoder
+    )  # indenting so we can identify what changes
 
 with open(f"./data/raids/{logs['code']}/logs.json", "w+") as file:
     json.dump(
         {
             "startTime": logs["startTime"],
             "title": logs["title"],
-            "actors": [player["name"] for player in players.values()],
+            "actors": [player.name for player in players.values()],
             "zoneID": logs["zone"]["id"] if logs["zone"] else 0,
             "fights": {
                 fight["name"]: {
@@ -159,4 +160,5 @@ with open(f"./data/raids/{logs['code']}/logs.json", "w+") as file:
         },
         file,
         indent=4,
+        cls=JSONEncoder,
     )

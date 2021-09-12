@@ -13,16 +13,16 @@ from lib.config import (
 
 class CombatantInfo(Event):
     def _process(self, player_fight, player):
-        player_fight["talents"] = self.talents
-        player_fight["auras"] = {aura["ability"]: aura for aura in self.auras}
-        for aura in player_fight["auras"].values():
+        player_fight.talents = self.talents
+        player_fight.auras = {aura["ability"]: aura for aura in self.auras}
+        for aura in player_fight.auras.values():
             aura["events"] = []
-        player_fight["gear"] = [
+        player_fight.gear = [
             gear
             for gear in self.gear
             if not gear["icon"].startswith("inv_shirt_") and gear["id"] > 0
         ]
-        for item in player_fight["gear"]:
+        for item in player_fight.gear:
             self._process_gear_item(player=player, player_fight=player_fight, item=item)
 
     def _process_gear_item(self, player, player_fight, item):
@@ -39,100 +39,64 @@ class CombatantInfo(Event):
                     (gem_i := gems.get(gem["id"]))
                     and gem_i.is_restricted(player=player, fight=player_fight)
                 ):
-                    player_fight["remarks"].append(
-                        {
-                            "wowhead_attr": f"domain=fr.tbc&item={gem['id']}",
-                            "type": "cheap_gem",
-                            "item_wowhead_attr": f"domain=fr.tbc&item={item['id']}",
-                        }
+                    player_fight.add_remark(
+                        type="cheap_gem",
+                        item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
+                        wowhead_attr=f"domain=fr.tbc&item={gem['id']}",
                     )
             wowhead_qs["gems"] = ":".join(f"{gem['id']}" for gem in item["gems"])
 
         # missing gems on gem slots
         if len(item.get("gems", [])) != wowhead_data["sockets"]:
-            player_fight["remarks"].append(
-                {
-                    "type": "missing_gems",
-                    "item_wowhead_attr": f"domain=fr.tbc&item={item['id']}",
-                    "count": wowhead_data["sockets"] - len(item.get("gems", [])),
-                }
+            player_fight.add_remark(
+                type="missing_gems",
+                item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
+                count=wowhead_data["sockets"] - len(item.get("gems", [])),
             )
 
         if item.get("permanentEnchant"):
             if item["permanentEnchant"] in cheap_enchants:
-                player_fight["remarks"].append(
-                    {
-                        "wowhead_attr": f"domain=fr.tbc&spell={item['permanentEnchant']}",
-                        "type": "cheap_enchant",
-                        "item_wowhead_attr": f"domain=fr.tbc&item={item['id']}",
-                    }
+                player_fight.add_remark(
+                    type="cheap_enchant",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
+                    wowhead_attr=f"domain=fr.tbc&spell={item['permanentEnchant']}",
                 )
             wowhead_qs["ench"] = item["permanentEnchant"]
         elif wowhead_data["slot"] in SLOTS_TO_ENCHANT:
-            player_fight["remarks"].append(
-                {
-                    "type": "no_enchant",
-                    "item_wowhead_attr": f"domain=fr.tbc&item={item['id']}",
-                }
+            player_fight.add_remark(
+                type="no_enchant",
+                item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
             )
         item["wowhead_attr"] = urlencode(wowhead_qs)
 
         if item.get("temporaryEnchant"):
             if te := temporary_enchants.get(item["temporaryEnchant"]):
                 if te.is_restricted(player=player, fight=player_fight):
-                    player_fight["remarks"].append(
-                        {
-                            "type": "invalid_temporary_enchant",
-                            "item_wowhead_attr": f"domain=fr.tbc&item={item['id']}&ench={item['temporaryEnchant']}",
-                        }
+                    player_fight.add_remark(
+                        type="invalid_temporary_enchant",
+                        item_wowhead_attr=f"domain=fr.tbc&item={item['id']}&ench={item['temporaryEnchant']}",
                     )
             else:
-                player_fight["remarks"].append(
-                    {
-                        "type": "invalid_temporary_enchant",
-                        "item_wowhead_attr": f"domain=fr.tbc&item={item['id']}&ench={item['temporaryEnchant']}",
-                    }
+                player_fight.add_remark(
+                    type="invalid_temporary_enchant",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item['id']}&ench={item['temporaryEnchant']}",
                 )
                 logging.getLogger("default").info(
-                    f"Unknown temporary enchant {item['temporaryEnchant']} on player {player['name']} and fight {player_fight['name']}"
+                    f"Unknown temporary enchant {item['temporaryEnchant']} on player {player.name} and fight {player_fight.name}"
                 )
         elif wowhead_data["slot"] in SLOTS_WITH_TEMPORARY_ENCHANT:
             # could be due to windfury in the group, so this would apply only to melee classes
-            if benefits_from_windfury_totem(
-                player=player, player_fight=player_fight
-            ) and any(
+            if player.benefits_from_windfury_totem(player_fight=player_fight) and any(
                 # at least one shaman is in the raid and participated to the fight
-                p["subType"] == "Shaman" and player_fight["name"] in p.get("fights", {})
+                p.is_shaman() and p.participated_to_fight(name=player_fight.name)
                 for p in players.values()
             ):
-                player_fight["remarks"].append(
-                    {
-                        "type": "no_temporary_enchant_but_windfury",
-                        "item_wowhead_attr": f"domain=fr.tbc&item={item['id']}",
-                    }
+                player_fight.add_remark(
+                    type="no_temporary_enchant_but_windfury",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
                 )
             else:
-                player_fight["remarks"].append(
-                    {
-                        "type": "no_temporary_enchant",
-                        "item_wowhead_attr": f"domain=fr.tbc&item={item['id']}",
-                    }
+                player_fight.add_remark(
+                    type="no_temporary_enchant",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
                 )
-
-
-def benefits_from_windfury_totem(player, player_fight):
-    if player["subType"] in ("Warrior", "Rogue"):
-        return True
-    if player["subType"] == "Shaman":
-        # has more point in enhancement
-        return (
-            player_fight["talents"][1]["id"] > player_fight["talents"][0]["id"]
-            and player_fight["talents"][1]["id"] > player_fight["talents"][2]["id"]
-        )
-    if player["subType"] == "Paladin":
-        # has more points in vindicte
-        return (
-            player_fight["talents"][2]["id"] > player_fight["talents"][0]["id"]
-            and player_fight["talents"][2]["id"] > player_fight["talents"][1]["id"]
-        )
-    return False

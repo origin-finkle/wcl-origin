@@ -9,7 +9,7 @@ class Player(Base):
 
     def get_fight(self, name):
         if name not in self.fights:
-            self.fights[name] = PlayerFight(name=name)
+            self.fights[name] = PlayerFight(name=name, player=self)
         return self.fights[name]
 
     def benefits_from_windfury_totem(self, player_fight):

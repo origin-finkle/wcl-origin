@@ -90,36 +90,7 @@ with open(filename) as file:
             )
     for player in players.values():
         for player_fight in player.fights.values():
-            if player_fight.name == "Chess Event":
-                # nothing wrong with having no consumables during chess event
-                continue
-            missing = {"battle_elixir", "guardian_elixir", "food"}
-            invalid = set()
-            for aura in player_fight.auras.values():
-                consumable = consumables.get(aura["ability"])
-                if not consumable:
-                    continue
-                if consumable.is_battle_elixir():
-                    missing.remove("battle_elixir")
-                    if consumable.is_restricted(player=player, fight=player_fight):
-                        invalid.add(("battle_elixir", consumable.id))
-                if consumable.is_guardian_elixir():
-                    missing.remove("guardian_elixir")
-                    if consumable.is_restricted(player=player, fight=player_fight):
-                        invalid.add(("guardian_elixir", consumable.id))
-                if consumable.is_food():
-                    missing.remove("food")
-                    if consumable.is_restricted(player=player, fight=player_fight):
-                        invalid.add(("food", consumable.id))
-            for missing_consumable in missing:
-                player_fight.add_remark(
-                    type=f"missing_{missing_consumable}",
-                )
-            for invalid_consumable in invalid:
-                player_fight.add_remark(
-                    type=f"invalid_{invalid_consumable[0]}",
-                    wowhead_attr=f"domain=fr.tbc&spell={invalid_consumable[1]}",
-                )
+            player_fight.check_consumables()
         aggregate_remarks(player=player)
 
 with open("./data/config/wowhead.json", "w") as file:

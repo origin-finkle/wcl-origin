@@ -1,6 +1,7 @@
 from .base import Base
 from .remark import Remark
 from lib.data.consumables import consumables
+from lib.data.cast_in_fight import cast_in_fight
 
 
 class PlayerFight(Base):
@@ -35,6 +36,33 @@ class PlayerFight(Base):
         d = {"type": type}
         d.update(kwargs)
         self.remarks.append(Remark(d))
+
+    def post_process(self):
+        self.check_consumables()
+        self.check_casts()
+
+    def check_casts(self):
+        for (spell_id, count) in self.casts.items():
+            cast = cast_in_fight.get(spell_id)
+            if not cast:
+                continue
+            if cast.is_restricted(player=self.player, fight=self):
+                kw = {
+                    "type": cast.invalid_reason,
+                }
+                if cast.type == "spell":
+                    kw["spell_id"] = cast.spell_id
+                    kw["suggested_spell_id"] = cast.suggested_spell_id
+                    kw["spell_wowhead_attr"] = f"domain=fr.tbc&spell={cast.spell_id}"
+                    kw[
+                        "higher_ranked_spell_wowhead_attr"
+                    ] = f"domain=fr.tbc&spell={cast.suggested_spell_id}"
+                    kw["count"] = count
+                else:
+                    raise Exception(
+                        f"unhandled type for cast_in_fight restriction: {cast.type}"
+                    )
+                self.add_remark(**kw)
 
     def check_consumables(self):
         if self.name == "Chess Event":

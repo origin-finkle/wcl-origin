@@ -98,7 +98,7 @@ with open(filename) as file:
             )
     for player in players.values():
         for player_fight in player.fights.values():
-            player_fight.check_consumables()
+            player_fight.post_process()
         aggregate_remarks(player=player)
 
 with open("./data/config/wowhead.json", "w") as file:

@@ -1,4 +1,5 @@
 from .base import Base
+from .talents import Talents
 from .remark import Remark
 from lib.data.consumables import consumables
 from lib.data.cast_in_fight import cast_in_fight
@@ -11,7 +12,7 @@ class PlayerFight(Base):
                 "name": name,
                 "auras": {},
                 "remarks": [],
-                "talents": [],
+                "talents": None,
                 "casts": {},
                 "player": player,
             }
@@ -19,18 +20,6 @@ class PlayerFight(Base):
 
     def as_json(self):
         return {k: v for (k, v) in self.__dict__.items() if k not in ("player",)}
-
-    def looks_like_enhancement_shaman(self):
-        return (
-            self.talents[1]["id"] > self.talents[0]["id"]
-            and self.talents[1]["id"] > self.talents[2]["id"]
-        )
-
-    def looks_like_retribution_paladin(self):
-        return (
-            self.talents[2]["id"] > self.talents[0]["id"]
-            and self.talents[2]["id"] > self.talents[1]["id"]
-        )
 
     def add_remark(self, type, **kwargs):
         d = {"type": type}
@@ -40,6 +29,9 @@ class PlayerFight(Base):
     def post_process(self):
         self.check_consumables()
         self.check_casts()
+
+    def is_(self, x):
+        return self.talents.is_(x)
 
     def check_casts(self):
         for (spell_id, count) in self.casts.items():
@@ -63,6 +55,9 @@ class PlayerFight(Base):
                         f"unhandled type for cast_in_fight restriction: {cast.type}"
                     )
                 self.add_remark(**kw)
+
+    def set_talents(self, talents):
+        self.talents = Talents(talents=talents, player=self.player)
 
     def check_consumables(self):
         if self.name == "Chess Event":

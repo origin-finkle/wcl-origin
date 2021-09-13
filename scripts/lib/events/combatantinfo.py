@@ -9,11 +9,12 @@ from lib.config import (
     SLOTS_WITH_TEMPORARY_ENCHANT,
     SLOTS_TO_ENCHANT,
 )
+from lib.talents import Class
 
 
 class CombatantInfo(Event):
     def _process(self, player_fight, player):
-        player_fight.talents = self.talents
+        player_fight.set_talents(self.talents)
         player_fight.auras = {aura["ability"]: aura for aura in self.auras}
         for aura in player_fight.auras.values():
             aura["events"] = []
@@ -88,7 +89,7 @@ class CombatantInfo(Event):
             # could be due to windfury in the group, so this would apply only to melee classes
             if player.benefits_from_windfury_totem(player_fight=player_fight) and any(
                 # at least one shaman is in the raid and participated to the fight
-                p.is_shaman() and p.participated_to_fight(name=player_fight.name)
+                p.is_(Class.Shaman) and p.participated_to_fight(name=player_fight.name)
                 for p in players.values()
             ):
                 player_fight.add_remark(

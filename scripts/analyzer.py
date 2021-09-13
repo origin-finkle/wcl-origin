@@ -2,12 +2,12 @@ import os
 import logging
 import json
 import sys
+import enum
 
 from lib.base import Base
 from lib.player import Player
 from lib.events.event import Event
 from lib.data import (
-    consumables,
     wowhead,
     players,
 )
@@ -114,6 +114,8 @@ class JSONEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, Base):
             return obj.as_json()
+        elif isinstance(obj, enum.Enum):
+            return obj.value
         return super().default(obj)
 
 

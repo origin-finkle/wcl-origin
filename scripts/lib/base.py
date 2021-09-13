@@ -8,7 +8,21 @@ class Base(object):
             if fight.name not in self.restricted_fights:
                 return True
         if hasattr(self, "restricted_classes"):
-            if player.subType not in self.restricted_classes:
+            from .talents import Class
+
+            if not any(player.is_(Class(c)) for c in self.restricted_classes):
+                return True
+        if hasattr(self, "restricted_roles"):
+            from .talents import Role
+
+            if not any(fight.is_(Role(r)) for r in self.restricted_roles):
+                return True
+        if hasattr(self, "restricted_specializations"):
+            from .talents import Specialization
+
+            if not any(
+                fight.is_(Specialization(s)) for s in self.restricted_specializations
+            ):
                 return True
         if hasattr(self, "invalid") and self.invalid:
             return True

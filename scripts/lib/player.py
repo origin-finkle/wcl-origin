@@ -1,5 +1,6 @@
 from .base import Base
 from .player_fight import PlayerFight
+from .talents import Class, Specialization
 
 
 class Player(Base):
@@ -13,25 +14,17 @@ class Player(Base):
         return self.fights[name]
 
     def benefits_from_windfury_totem(self, player_fight):
-        if self.is_warrior() or self.is_rogue():
-            return True
-        if self.is_shaman():
-            return player_fight.looks_like_enhancement_shaman()
-        if self.is_paladin():
-            return player_fight.looks_like_retribution_paladin()
-        return False
+        return (
+            self.is_(Class.Warrior)
+            or self.is_(Class.Rogue)
+            or player_fight.is_(Specialization.EnhancementShaman)
+            or player_fight.is_(Specialization.RetributionPaladin)
+        )
 
-    def is_shaman(self):
-        return self.subType == "Shaman"
-
-    def is_warrior(self):
-        return self.subType == "Warrior"
-
-    def is_rogue(self):
-        return self.subType == "Rogue"
-
-    def is_paladin(self):
-        return self.subType == "Paladin"
+    def is_(self, x):
+        if not isinstance(x, Class):
+            raise TypeError(f"invalid class {x}")
+        return self.subType == x.value
 
     def participated_to_fight(self, name):
         return name in self.fights

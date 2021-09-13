@@ -24,6 +24,12 @@
         "restricted_roles": ["Tank"]
     },
     {
+        "id": 28588,
+        "name": "Flacon de puissante restauration",
+        "types": ["battle_elixir", "guardian_elixir"],
+        "invalid": true
+    },
+    {
         "id": 17628,
         "name": "Flacon de pouvoir suprême",
         "types": ["battle_elixir", "guardian_elixir"]
@@ -38,12 +44,14 @@
         "id": 33263,
         "name": "Bien nourri",
         "types": ["food"],
-        "description": "Dégâts des sorts augmentés de 23 et Esprit augmenté de 20."
+        "description": "Dégâts des sorts augmentés de 23 et Esprit augmenté de 20.",
+        "restricted_specializations": ["FireMage", "FrostMage", "ArcaneMage", "BalanceDruid", "ProtectionPaladin", "ShadowPriest", "AfflictionWarlock", "DemonologyWarlock", "DestructionWarlock", "ElementalShaman"]
     },
     {
         "id": 28502,
         "name": "Armure majeure",
-        "types": ["guardian_elixir"]
+        "types": ["guardian_elixir"],
+        "restricted_roles": ["Melee", "Tank"]
     },
     {
         "id": 28509,
@@ -58,22 +66,26 @@
     {
         "id": 28491,
         "name": "Pouvoir de guérison",
-        "types": ["battle_elixir"]
+        "types": ["battle_elixir"],
+        "restricted_roles": ["Heal"]
     },
     {
         "id": 28497,
         "name": "Agilité majeure",
-        "types": ["battle_elixir"]
+        "types": ["battle_elixir"],
+        "restricted_specializations": ["AssassinationRogue", "SubtletyRogue", "CombatRogue", "FeralDruid", "SurvivalHunter", "MarksmanshipHunter", "BeastMasteryHunter", "ArmsWarrior", "ProtectionWarrior", "FuryWarrior", "RetributionPaladin", "EnhancementShaman"]
     },
     {
         "id": 39627,
         "name": "Elixir de sagesse draenique",
-        "types": ["guardian_elixir"]
+        "types": ["guardian_elixir"],
+        "restricted_specializations": ["FireMage", "FrostMage", "ArcaneMage", "BalanceDruid", "ProtectionPaladin", "ShadowPriest", "AfflictionWarlock", "DemonologyWarlock", "DestructionWarlock", "ElementalShaman", "HolyPriest", "RestorationDruid"]
     },
     {
         "id": 33721,
         "name": "Elixir d'adepte",
-        "types": ["battle_elixir"]
+        "types": ["battle_elixir"],
+        "restricted_specializations": ["FireMage", "FrostMage", "ArcaneMage", "BalanceDruid", "ProtectionPaladin", "ShadowPriest", "AfflictionWarlock", "DemonologyWarlock", "DestructionWarlock", "ElementalShaman"]
     },
     {
         "id": 17538,
@@ -91,25 +103,29 @@
         "id": 33265,
         "name": "Bien nourri",
         "types": ["food"],
-        "description": "Régénération du mana augmentée de 8 points de mana toutes les 5 secondes et Endurance augmentée de 20."
+        "description": "Régénération du mana augmentée de 8 points de mana toutes les 5 secondes et Endurance augmentée de 20.",
+        "restricted_roles": ["Heal"]
     },
     {
         "id": 33257,
         "name": "Bien nourri",
         "types": ["food"],
-        "description": "Endurance augmentée de 30 et Esprit augmenté de 20."
+        "description": "Endurance augmentée de 30 et Esprit augmenté de 20.",
+        "restricted_roles": ["Tank"]
     },
     {
         "id": 33261,
         "name": "Bien nourri",
         "types": ["food"],
-        "description": "Agilité et Esprit augmentés de 20."
+        "description": "Agilité et Esprit augmentés de 20.",
+        "restricted_specializations": ["AssassinationRogue", "SubtletyRogue", "CombatRogue", "FeralDruid", "SurvivalHunter", "MarksmanshipHunter", "BeastMasteryHunter"]
     },
     {
         "id": 43764,
         "name": "Bien nourri",
         "types": ["food"],
-        "description": "Score de toucher et Esprit augmentés de 20."
+        "description": "Score de toucher et Esprit augmentés de 20.",
+        "restricted_roles": ["Melee", "Tank"]
     },
     {
         "id": 33254,
@@ -122,7 +138,8 @@
         "id": 33256,
         "name": "Bien nourri",
         "types": ["food"],
-        "description": "Force et Esprit augmentés de 20."
+        "description": "Force et Esprit augmentés de 20.",
+        "restricted_specializations": ["ArmsWarrior", "ProtectionWarrior", "FuryWarrior", "RetributionPaladin", "EnhancementShaman"]
     },
     {
         "id": 35272,
@@ -135,12 +152,14 @@
         "id": 33263,
         "name": "Bien nourri",
         "types": ["food"],
-        "description": "Dégâts des sorts augmentés de 23 et Esprit augmenté de 20."
+        "description": "Dégâts des sorts augmentés de 23 et Esprit augmenté de 20.",
+        "restricted_specializations": ["FireMage", "FrostMage", "ArcaneMage", "BalanceDruid", "ProtectionPaladin", "ShadowPriest", "AfflictionWarlock", "DemonologyWarlock", "DestructionWarlock", "ElementalShaman"]
     },
     {
         "id": 33268,
         "name": "Bien nourri",
         "types": ["food"],
-        "description": "Augmente les soins prodigués de 44 et l'Esprit de 20."
+        "description": "Augmente les soins prodigués de 44 et l'Esprit de 20.",
+        "restricted_roles": ["Heal"]
     }
 ]

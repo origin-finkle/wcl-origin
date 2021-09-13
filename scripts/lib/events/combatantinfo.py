@@ -3,7 +3,7 @@ import logging
 
 from .event import Event
 from lib.data.wowhead import get_wowhead_data
-from lib.data import cheap_enchants, gems, temporary_enchants, players
+from lib.data import enchants, gems, temporary_enchants, players
 from lib.config import (
     CHEAP_GEM_QUALITY_LOWER_BOUND,
     SLOTS_WITH_TEMPORARY_ENCHANT,
@@ -56,11 +56,20 @@ class CombatantInfo(Event):
             )
 
         if item.get("permanentEnchant"):
-            if item["permanentEnchant"] in cheap_enchants:
+            if (e := enchants.get(item["permanentEnchant"])) and e.is_restricted(
+                player=player,
+                fight=player_fight,
+                slot=wowhead_data["slot"],
+            ):
                 player_fight.add_remark(
-                    type="cheap_enchant",
+                    type="invalid_enchant",
                     item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
-                    wowhead_attr=f"domain=fr.tbc&spell={item['permanentEnchant']}",
+                    wowhead_attr=(
+                        f"domain=fr.tbc&spell={e.spell_id}"
+                        if hasattr(e, "spell_id")
+                        else None
+                    ),
+                    slot=wowhead_data["slot"],
                 )
             wowhead_qs["ench"] = item["permanentEnchant"]
         elif wowhead_data["slot"] in SLOTS_TO_ENCHANT:

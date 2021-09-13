@@ -1,4 +1,4 @@
-from .cheap_enchants import cheap_enchants
+from .enchants import enchants
 from .consumables import consumables
 from .gems import gems
 from .temporary_enchants import temporary_enchants

@@ -102,7 +102,7 @@ with open(filename) as file:
         aggregate_remarks(player=player)
 
 with open("./data/config/wowhead.json", "w") as file:
-    json.dump(wowhead, file)
+    json.dump(wowhead, file, indent=4)
 
 try:
     os.mkdir(f"./data/raids/{logs['code']}", mode=0o775)

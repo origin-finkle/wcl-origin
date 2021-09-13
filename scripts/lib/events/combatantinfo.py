@@ -1,15 +1,14 @@
-from urllib.parse import urlencode
 import logging
 
 from .event import Event
 from lib.data.wowhead import get_wowhead_data
 from lib.data import enchants, gems, temporary_enchants, players
 from lib.config import (
-    CHEAP_GEM_QUALITY_LOWER_BOUND,
     SLOTS_WITH_TEMPORARY_ENCHANT,
     SLOTS_TO_ENCHANT,
 )
 from lib.talents import Class
+from lib.gear_item import GearItem
 
 
 class CombatantInfo(Event):
@@ -19,51 +18,48 @@ class CombatantInfo(Event):
         for aura in player_fight.auras.values():
             aura["events"] = []
         player_fight.gear = [
-            gear
+            GearItem(gear)
             for gear in self.gear
             if not gear["icon"].startswith("inv_shirt_") and gear["id"] > 0
         ]
         for item in player_fight.gear:
             self._process_gear_item(player=player, player_fight=player_fight, item=item)
+            item.check_meta_gem(player_fight=player_fight)
 
     def _process_gear_item(self, player, player_fight, item):
-        wowhead_qs = {
-            "domain": "fr.tbc",
-            "item": item["id"],
-        }
-        wowhead_data = get_wowhead_data(item_id=item["id"])
+        wowhead_data = item.wowhead_data
         # gems added to the equipment
-        if item.get("gems"):
-            for gem in item["gems"]:
-                wowhead_gem_data = get_wowhead_data(gem_id=gem["id"])
-                if wowhead_gem_data["quality"] < CHEAP_GEM_QUALITY_LOWER_BOUND or (
-                    (gem_i := gems.get(gem["id"]))
-                    and gem_i.is_restricted(player=player, fight=player_fight)
-                ):
-                    player_fight.add_remark(
-                        type="cheap_gem",
-                        item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
-                        wowhead_attr=f"domain=fr.tbc&item={gem['id']}",
-                    )
-            wowhead_qs["gems"] = ":".join(f"{gem['id']}" for gem in item["gems"])
+        if hasattr(item, "gems"):
+            for gem in item.gems:
+                gem_i = gems.get(gem["id"])
+                if gem_i:
+                    if gem_i.is_restricted(player=player, fight=player_fight):
+                        player_fight.add_remark(
+                            type="invalid_gem",
+                            item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
+                            wowhead_attr=f"domain=fr.tbc&item={gem_i.id}",
+                        )
+                else:
+                    logging.getLogger("default").warn(f"unknown gem ID: {gem['id']}")
 
         # missing gems on gem slots
-        if len(item.get("gems", [])) != wowhead_data["sockets"]:
+        nbr_gems = len(item.gems) if hasattr(item, "gems") else 0
+        if nbr_gems != wowhead_data["sockets"]:
             player_fight.add_remark(
                 type="missing_gems",
-                item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
-                count=wowhead_data["sockets"] - len(item.get("gems", [])),
+                item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
+                count=wowhead_data["sockets"] - nbr_gems,
             )
 
-        if item.get("permanentEnchant"):
-            if (e := enchants.get(item["permanentEnchant"])) and e.is_restricted(
+        if hasattr(item, "permanentEnchant"):
+            if (e := enchants.get(item.permanentEnchant)) and e.is_restricted(
                 player=player,
                 fight=player_fight,
                 slot=wowhead_data["slot"],
             ):
                 player_fight.add_remark(
                     type="invalid_enchant",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
                     wowhead_attr=(
                         f"domain=fr.tbc&spell={e.spell_id}"
                         if hasattr(e, "spell_id")
@@ -71,28 +67,26 @@ class CombatantInfo(Event):
                     ),
                     slot=wowhead_data["slot"],
                 )
-            wowhead_qs["ench"] = item["permanentEnchant"]
         elif wowhead_data["slot"] in SLOTS_TO_ENCHANT:
             player_fight.add_remark(
                 type="no_enchant",
-                item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
+                item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
             )
-        item["wowhead_attr"] = urlencode(wowhead_qs)
 
-        if item.get("temporaryEnchant"):
-            if te := temporary_enchants.get(item["temporaryEnchant"]):
+        if hasattr(item, "temporaryEnchant"):
+            if te := temporary_enchants.get(item.temporaryEnchant):
                 if te.is_restricted(player=player, fight=player_fight):
                     player_fight.add_remark(
                         type="invalid_temporary_enchant",
-                        item_wowhead_attr=f"domain=fr.tbc&item={item['id']}&ench={item['temporaryEnchant']}",
+                        item_wowhead_attr=f"domain=fr.tbc&item={item.id}&ench={item.temporaryEnchant}",
                     )
             else:
                 player_fight.add_remark(
                     type="invalid_temporary_enchant",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item['id']}&ench={item['temporaryEnchant']}",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}&ench={item.temporaryEnchant}",
                 )
                 logging.getLogger("default").info(
-                    f"Unknown temporary enchant {item['temporaryEnchant']} on player {player.name} and fight {player_fight.name}"
+                    f"Unknown temporary enchant {item.temporaryEnchant} on player {player.name} and fight {player_fight.name}"
                 )
         elif wowhead_data["slot"] in SLOTS_WITH_TEMPORARY_ENCHANT:
             # could be due to windfury in the group, so this would apply only to melee classes
@@ -103,10 +97,10 @@ class CombatantInfo(Event):
             ):
                 player_fight.add_remark(
                     type="no_temporary_enchant_but_windfury",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
                 )
             else:
                 player_fight.add_remark(
                     type="no_temporary_enchant",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item['id']}",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
                 )

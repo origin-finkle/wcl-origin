@@ -1,8 +1,11 @@
 {{ $remark := . }}
 {{ if $remark.fight }}<strong>{{ $remark.fight }}</strong> : {{ end }}
-{{ if eq $remark.type "cheap_gem" }}
+{{ if eq $remark.type "invalid_gem" }}
 Utilisation d'une gemme <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> sur <a href="#"
     data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+{{ else if eq $remark.type "meta_not_activated" }}
+La méta <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> n'est pas activée sur <a href="#"
+data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
 {{ else if eq $remark.type "invalid_enchant" }}
 Utilisation d'un mauvais enchant{{ if $remark.wowhead_attr }} <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a>{{ end }} sur <a href="#"
     data-wowhead="{{ $remark.item_wowhead_attr }}"></a>

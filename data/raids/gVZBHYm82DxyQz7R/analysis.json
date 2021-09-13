@@ -60,6 +60,11 @@
                 },
                 "remarks": [
                     {
+                        "type": "meta_not_activated",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29076",
+                        "wowhead_attr": "domain=fr.tbc&item=34220"
+                    },
+                    {
                         "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=27537"
                     },
@@ -301,6 +306,11 @@
                     }
                 },
                 "remarks": [
+                    {
+                        "type": "meta_not_activated",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29076",
+                        "wowhead_attr": "domain=fr.tbc&item=34220"
+                    },
                     {
                         "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=27537"
@@ -554,6 +564,11 @@
                 },
                 "remarks": [
                     {
+                        "type": "meta_not_activated",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29076",
+                        "wowhead_attr": "domain=fr.tbc&item=34220"
+                    },
+                    {
                         "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=27537"
                     },
@@ -771,6 +786,24 @@
             {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=31297"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "domain=fr.tbc&item=29076",
+                "wowhead_attr": "domain=fr.tbc&item=34220"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "domain=fr.tbc&item=29076",
+                "wowhead_attr": "domain=fr.tbc&item=34220"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "domain=fr.tbc&item=29076",
+                "wowhead_attr": "domain=fr.tbc&item=34220"
             }
         ]
     },
@@ -2708,13 +2741,13 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28174",
-                        "wowhead_attr": "domain=fr.tbc&item=23096"
-                    },
-                    {
                         "type": "invalid_food",
                         "wowhead_attr": "domain=fr.tbc&spell=33265"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28174",
+                        "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
                         "type": "missing_gems",
@@ -2951,13 +2984,13 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28174",
-                        "wowhead_attr": "domain=fr.tbc&item=23096"
-                    },
-                    {
                         "type": "invalid_food",
                         "wowhead_attr": "domain=fr.tbc&spell=33265"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28174",
+                        "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
                         "type": "missing_battle_elixir"
@@ -3223,13 +3256,13 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28174",
-                        "wowhead_attr": "domain=fr.tbc&item=23096"
-                    },
-                    {
                         "type": "invalid_food",
                         "wowhead_attr": "domain=fr.tbc&spell=33265"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28174",
+                        "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
                         "type": "missing_gems",
@@ -3432,11 +3465,6 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28174",
-                "wowhead_attr": "domain=fr.tbc&item=23096"
-            },
-            {
                 "type": "missing_gems",
                 "item_wowhead_attr": "domain=fr.tbc&item=29076",
                 "count": 2
@@ -3480,6 +3508,12 @@
             },
             {
                 "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28174",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir"
             },
             {
@@ -3492,9 +3526,21 @@
                 "wowhead_attr": "domain=fr.tbc&spell=33265"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28174",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_food",
                 "wowhead_attr": "domain=fr.tbc&spell=33265"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28174",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
             },
             {
                 "fight": "Magtheridon",
@@ -4535,57 +4581,57 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21869",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21869",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21871",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21871",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28507",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28507",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
@@ -4907,57 +4953,57 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21869",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21869",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21871",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21871",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28507",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28507",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
@@ -5284,57 +5330,57 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21869",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21869",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21871",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21871",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28507",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28507",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
@@ -5601,31 +5647,6 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=21869",
-                "wowhead_attr": "domain=fr.tbc&item=23096"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=21871",
-                "wowhead_attr": "domain=fr.tbc&item=23096"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24262",
-                "wowhead_attr": "domain=fr.tbc&item=23096"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24266",
-                "wowhead_attr": "domain=fr.tbc&item=23096"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28507",
-                "wowhead_attr": "domain=fr.tbc&item=23096"
-            },
-            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=21870"
             },
@@ -5639,11 +5660,209 @@
             },
             {
                 "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21869",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21869",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21871",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21871",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28507",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28507",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir"
             },
             {
                 "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21869",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21869",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21871",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21871",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28507",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28507",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21869",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21869",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21871",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21871",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28507",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28507",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
             },
             {
                 "fight": "Magtheridon",
@@ -6573,12 +6792,12 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28964",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
@@ -6856,12 +7075,12 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28964",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
@@ -7125,12 +7344,12 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28964",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
@@ -7344,12 +7563,14 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=24266",
                 "wowhead_attr": "domain=fr.tbc&item=23096"
             },
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28964",
                 "wowhead_attr": "domain=fr.tbc&item=23096"
             },
@@ -7363,11 +7584,35 @@
             },
             {
                 "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28964",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
             },
             {
                 "fight": "High King Maulgar",
                 "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28964",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
             },
             {
                 "fight": "Magtheridon",
@@ -8470,17 +8715,17 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23121"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23121"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23099"
                     },
@@ -8745,17 +8990,17 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23121"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23121"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23099"
                     },
@@ -9026,17 +9271,17 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23121"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23121"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28751",
                         "wowhead_attr": "domain=fr.tbc&item=23099"
                     },
@@ -9241,11 +9486,6 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28751",
-                "wowhead_attr": "domain=fr.tbc&item=23121"
-            },
-            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28751"
             },
@@ -9255,13 +9495,67 @@
             },
             {
                 "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23121"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23121"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23099"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "domain=fr.tbc&spell=39627"
             },
             {
                 "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23121"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23121"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23099"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "domain=fr.tbc&spell=39627"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23121"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23121"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28751",
+                "wowhead_attr": "domain=fr.tbc&item=23099"
             },
             {
                 "fight": "Magtheridon",
@@ -9339,17 +9633,17 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
@@ -9665,17 +9959,17 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
@@ -9984,17 +10278,17 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28202",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
@@ -10228,13 +10522,62 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
+                "type": "no_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28373"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28202",
                 "wowhead_attr": "domain=fr.tbc&item=23094"
             },
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28373"
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28202",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
             }
         ]
     },
@@ -11116,86 +11459,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28502",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                        "wowhead_attr": "domain=fr.tbc&item=23115"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28825",
-                        "wowhead_attr": "domain=fr.tbc&item=28463"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29070",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29070",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
                         "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28747",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
@@ -11210,6 +11473,86 @@
                     {
                         "type": "invalid_food",
                         "wowhead_attr": "domain=fr.tbc&spell=35272"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28502",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                        "wowhead_attr": "domain=fr.tbc&item=23115"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28825",
+                        "wowhead_attr": "domain=fr.tbc&item=28463"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29070",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29070",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
                     },
                     {
                         "type": "missing_battle_elixir"
@@ -11775,86 +12118,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28502",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                        "wowhead_attr": "domain=fr.tbc&item=23115"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28825",
-                        "wowhead_attr": "domain=fr.tbc&item=28463"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29070",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29070",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
                         "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28747",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
@@ -11869,6 +12132,86 @@
                     {
                         "type": "invalid_food",
                         "wowhead_attr": "domain=fr.tbc&spell=35272"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28502",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                        "wowhead_attr": "domain=fr.tbc&item=23115"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28825",
+                        "wowhead_attr": "domain=fr.tbc&item=28463"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29070",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29070",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
                     },
                     {
                         "type": "missing_battle_elixir"
@@ -12132,46 +12475,6 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28502",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                "wowhead_attr": "domain=fr.tbc&item=23110"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                "wowhead_attr": "domain=fr.tbc&item=23110"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28825",
-                "wowhead_attr": "domain=fr.tbc&item=28463"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                "wowhead_attr": "domain=fr.tbc&item=23110"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29070",
-                "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
-            },
-            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=25489"
             },
@@ -12205,6 +12508,102 @@
             },
             {
                 "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28502",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                "wowhead_attr": "domain=fr.tbc&item=23115"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28825",
+                "wowhead_attr": "domain=fr.tbc&item=28463"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29070",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29070",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
             },
             {
@@ -12230,6 +12629,102 @@
                 "fight": "Magtheridon",
                 "type": "invalid_food",
                 "wowhead_attr": "domain=fr.tbc&spell=35272"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28502",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                "wowhead_attr": "domain=fr.tbc&item=23115"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28825",
+                "wowhead_attr": "domain=fr.tbc&item=28463"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29070",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29070",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
             },
             {
                 "fight": "Magtheridon",
@@ -12314,31 +12809,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
-                        "wowhead_attr": "domain=fr.tbc&item=23115"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
-                        "wowhead_attr": "domain=fr.tbc&item=23115"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28750",
-                        "wowhead_attr": "domain=fr.tbc&item=28459"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28750",
-                        "wowhead_attr": "domain=fr.tbc&item=28459"
-                    },
-                    {
                         "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=25689",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
@@ -12347,6 +12817,31 @@
                     {
                         "type": "invalid_food",
                         "wowhead_attr": "domain=fr.tbc&spell=33265"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                        "wowhead_attr": "domain=fr.tbc&item=23115"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                        "wowhead_attr": "domain=fr.tbc&item=23115"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                        "wowhead_attr": "domain=fr.tbc&item=28459"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                        "wowhead_attr": "domain=fr.tbc&item=28459"
                     },
                     {
                         "type": "no_temporary_enchant",
@@ -12620,12 +13115,12 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28750",
                         "wowhead_attr": "domain=fr.tbc&item=28459"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28750",
                         "wowhead_attr": "domain=fr.tbc&item=28459"
                     },
@@ -12876,35 +13371,35 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
-                        "wowhead_attr": "domain=fr.tbc&item=23115"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
-                        "wowhead_attr": "domain=fr.tbc&item=23115"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28750",
-                        "wowhead_attr": "domain=fr.tbc&item=28459"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28750",
-                        "wowhead_attr": "domain=fr.tbc&item=28459"
-                    },
-                    {
                         "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=25689",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
                         "slot": "Torse"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                        "wowhead_attr": "domain=fr.tbc&item=23115"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                        "wowhead_attr": "domain=fr.tbc&item=23115"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                        "wowhead_attr": "domain=fr.tbc&item=28459"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                        "wowhead_attr": "domain=fr.tbc&item=28459"
                     },
                     {
                         "type": "no_temporary_enchant",
@@ -13127,16 +13622,6 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=25689",
-                "wowhead_attr": "domain=fr.tbc&item=23115"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28750",
-                "wowhead_attr": "domain=fr.tbc&item=28459"
-            },
-            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27787"
             },
@@ -13147,6 +13632,18 @@
             {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=29263"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=28459"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=28459"
             },
             {
                 "fight": "Gruul the Dragonkiller",
@@ -13167,6 +13664,36 @@
             },
             {
                 "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                "wowhead_attr": "domain=fr.tbc&item=23115"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                "wowhead_attr": "domain=fr.tbc&item=23115"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=28459"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=28459"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28658"
             },
@@ -13176,6 +13703,36 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=25689",
                 "wowhead_attr": "domain=fr.tbc&spell=44968",
                 "slot": "Torse"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                "wowhead_attr": "domain=fr.tbc&item=23115"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                "wowhead_attr": "domain=fr.tbc&item=23115"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=25689",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=28459"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=28459"
             },
             {
                 "fight": "Magtheridon",
@@ -13954,47 +14511,47 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27531",
                         "wowhead_attr": "domain=fr.tbc&item=23116"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27531",
                         "wowhead_attr": "domain=fr.tbc&item=23116"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27797",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28545",
                         "wowhead_attr": "domain=fr.tbc&item=23097"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28545",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28750",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28750",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29044",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29045",
                         "wowhead_attr": "domain=fr.tbc&item=23110"
                     },
@@ -14295,47 +14852,47 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27531",
                         "wowhead_attr": "domain=fr.tbc&item=23116"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27531",
                         "wowhead_attr": "domain=fr.tbc&item=23116"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27797",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28545",
                         "wowhead_attr": "domain=fr.tbc&item=23097"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28545",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28750",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28750",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29044",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29045",
                         "wowhead_attr": "domain=fr.tbc&item=23110"
                     },
@@ -14650,47 +15207,47 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27531",
                         "wowhead_attr": "domain=fr.tbc&item=23116"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27531",
                         "wowhead_attr": "domain=fr.tbc&item=23116"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27797",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28545",
                         "wowhead_attr": "domain=fr.tbc&item=23097"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28545",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28750",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28750",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29044",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29045",
                         "wowhead_attr": "domain=fr.tbc&item=23110"
                     },
@@ -14953,32 +15510,56 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=27531",
                 "wowhead_attr": "domain=fr.tbc&item=23116"
             },
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27531",
+                "wowhead_attr": "domain=fr.tbc&item=23116"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=27797",
                 "wowhead_attr": "domain=fr.tbc&item=23100"
             },
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28545",
                 "wowhead_attr": "domain=fr.tbc&item=23097"
             },
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28545",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28750",
                 "wowhead_attr": "domain=fr.tbc&item=23100"
             },
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=29044",
                 "wowhead_attr": "domain=fr.tbc&item=23100"
             },
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=29045",
                 "wowhead_attr": "domain=fr.tbc&item=23110"
             },
@@ -14988,7 +15569,115 @@
             },
             {
                 "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27531",
+                "wowhead_attr": "domain=fr.tbc&item=23116"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27531",
+                "wowhead_attr": "domain=fr.tbc&item=23116"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27797",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28545",
+                "wowhead_attr": "domain=fr.tbc&item=23097"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28545",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29044",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29045",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27531",
+                "wowhead_attr": "domain=fr.tbc&item=23116"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27531",
+                "wowhead_attr": "domain=fr.tbc&item=23116"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27797",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28545",
+                "wowhead_attr": "domain=fr.tbc&item=23097"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28545",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28750",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29044",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29045",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
             },
             {
                 "fight": "Magtheridon",
@@ -15072,13 +15761,13 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=24266",
-                        "wowhead_attr": "domain=fr.tbc&item=23096"
-                    },
-                    {
                         "type": "invalid_food",
                         "wowhead_attr": "domain=fr.tbc&spell=33257"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                        "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
                         "type": "no_enchant",
@@ -15311,47 +16000,47 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21846",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21846",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21847",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21847",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21848",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
@@ -15662,47 +16351,47 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21846",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21846",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21847",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21847",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=21848",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23101"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24262",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=24266",
                         "wowhead_attr": "domain=fr.tbc&item=23096"
                     },
@@ -15952,31 +16641,6 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=21846",
-                "wowhead_attr": "domain=fr.tbc&item=23101"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=21847",
-                "wowhead_attr": "domain=fr.tbc&item=23101"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=21848",
-                "wowhead_attr": "domain=fr.tbc&item=23101"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24262",
-                "wowhead_attr": "domain=fr.tbc&item=23101"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24266",
-                "wowhead_attr": "domain=fr.tbc&item=23096"
-            },
-            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=21851"
             },
@@ -15998,12 +16662,126 @@
             },
             {
                 "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21846",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21846",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21847",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21847",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21848",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
                 "type": "missing_food"
             },
             {
                 "fight": "High King Maulgar",
                 "type": "invalid_food",
                 "wowhead_attr": "domain=fr.tbc&spell=33257"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21846",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21846",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21847",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21847",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=21848",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23101"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24262",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24266",
+                "wowhead_attr": "domain=fr.tbc&item=23096"
             },
             {
                 "fight": "Magtheridon",
@@ -16079,31 +16857,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
                         "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=25791",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
@@ -16120,6 +16873,31 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28591",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
                         "slot": "Jambes"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
                         "type": "missing_gems",
@@ -16378,31 +17156,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
                         "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=25791",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
@@ -16419,6 +17172,31 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28591",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
                         "slot": "Jambes"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
                         "type": "missing_gems",
@@ -16671,31 +17449,6 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "cheap_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
                         "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=25791",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
@@ -16712,6 +17465,31 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=28591",
                         "wowhead_attr": "domain=fr.tbc&spell=44968",
                         "slot": "Jambes"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
                         "type": "missing_gems",
@@ -16905,16 +17683,6 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27775",
-                "wowhead_attr": "domain=fr.tbc&item=23094"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28230",
-                "wowhead_attr": "domain=fr.tbc&item=23094"
-            },
-            {
                 "type": "missing_gems",
                 "item_wowhead_attr": "domain=fr.tbc&item=28591",
                 "count": 3
@@ -16957,6 +17725,36 @@
                 "slot": "Jambes"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
                 "fight": "High King Maulgar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=25791",
@@ -16978,6 +17776,36 @@
                 "slot": "Jambes"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=25791",
@@ -16997,6 +17825,36 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28591",
                 "wowhead_attr": "domain=fr.tbc&spell=44968",
                 "slot": "Jambes"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27775",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28230",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
             }
         ]
     },
@@ -18761,27 +19619,27 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23104"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29316",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29316",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
@@ -19079,27 +19937,27 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23104"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29316",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29316",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
@@ -19406,27 +20264,27 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28403",
                         "wowhead_attr": "domain=fr.tbc&item=23104"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29316",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29316",
                         "wowhead_attr": "domain=fr.tbc&item=23098"
                     },
@@ -19673,16 +20531,6 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28403",
-                "wowhead_attr": "domain=fr.tbc&item=23098"
-            },
-            {
-                "type": "cheap_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29316",
-                "wowhead_attr": "domain=fr.tbc&item=23098"
-            },
-            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27892"
             },
@@ -19696,13 +20544,103 @@
             },
             {
                 "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23104"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29316",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29316",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "domain=fr.tbc&item=28437"
             },
             {
                 "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23104"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29316",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29316",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "domain=fr.tbc&item=28437"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28403",
+                "wowhead_attr": "domain=fr.tbc&item=23104"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29316",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29316",
+                "wowhead_attr": "domain=fr.tbc&item=23098"
             }
         ]
     },
@@ -22522,22 +23460,22 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28748",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28748",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28752",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28752",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
@@ -22794,22 +23732,22 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28748",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28748",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28752",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28752",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
@@ -23067,22 +24005,22 @@
                 },
                 "remarks": [
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28748",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28748",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28752",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
                     {
-                        "type": "cheap_gem",
+                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28752",
                         "wowhead_attr": "domain=fr.tbc&item=28460"
                     },
@@ -23277,12 +24215,26 @@
         },
         "remarks": [
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28748",
                 "wowhead_attr": "domain=fr.tbc&item=28460"
             },
             {
-                "type": "cheap_gem",
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28748",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28752",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28752",
                 "wowhead_attr": "domain=fr.tbc&item=28460"
             },
@@ -23293,8 +24245,56 @@
             },
             {
                 "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28748",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28748",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28752",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28752",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "domain=fr.tbc&spell=39627"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28748",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28748",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28752",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28752",
+                "wowhead_attr": "domain=fr.tbc&item=28460"
             },
             {
                 "fight": "Magtheridon",

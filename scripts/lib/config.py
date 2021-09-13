@@ -1,4 +1,3 @@
-CHEAP_GEM_QUALITY_LOWER_BOUND = 3  # Rare gems at least
 SLOTS_TO_ENCHANT = {
     "Tête",
     "Épaule",

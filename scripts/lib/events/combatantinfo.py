@@ -32,15 +32,12 @@ class CombatantInfo(Event):
         if hasattr(item, "gems"):
             for gem in item.gems:
                 gem_i = gems.get(gem["id"])
-                if gem_i:
-                    if gem_i.is_restricted(player=player, fight=player_fight):
-                        player_fight.add_remark(
-                            type="invalid_gem",
-                            item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
-                            wowhead_attr=f"domain=fr.tbc&item={gem_i.id}",
-                        )
-                else:
-                    logging.getLogger("default").warn(f"unknown gem ID: {gem['id']}")
+                if not gem_i or gem_i.is_restricted(player=player, fight=player_fight):
+                    player_fight.add_remark(
+                        type="invalid_gem",
+                        item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
+                        wowhead_attr=f"domain=fr.tbc&item={gem['id']}",
+                    )
 
         # missing gems on gem slots
         nbr_gems = len(item.gems) if hasattr(item, "gems") else 0

@@ -8,6 +8,8 @@ class Role(enum.Enum):
     Heal = "Heal"
     Melee = "Melee"
     Ranged = "Ranged"
+    Magic = "Magic"
+    Physical = "Physical"
 
 
 class Class(enum.Enum):
@@ -65,52 +67,52 @@ specs = {
     Specialization.ProtectionPaladin: {
         "_has_more_points_in": 1,
         "class": Class.Paladin,
-        "role": [Role.Tank],
+        "role": [Role.Tank, Role.Magic],
     },
     Specialization.RetributionPaladin: {
         "_has_more_points_in": 2,
         "class": Class.Paladin,
-        "role": [Role.Melee],
+        "role": [Role.Melee, Role.Physical],
     },
     Specialization.AssassinationRogue: {
         "_has_more_points_in": 0,
         "class": Class.Rogue,
-        "role": [Role.Melee],
+        "role": [Role.Melee, Role.Physical],
     },
     Specialization.CombatRogue: {
         "_has_more_points_in": 1,
         "class": Class.Rogue,
-        "role": [Role.Melee],
+        "role": [Role.Melee, Role.Physical],
     },
     Specialization.SubtletyRogue: {
         "_has_more_points_in": 2,
         "class": Class.Rogue,
-        "role": [Role.Melee],
+        "role": [Role.Melee, Role.Physical],
     },
     Specialization.ArmsWarrior: {
         "_has_more_points_in": 0,
         "class": Class.Warrior,
-        "role": [Role.Melee],
+        "role": [Role.Melee, Role.Physical],
     },
     Specialization.FuryWarrior: {
         "_has_more_points_in": 1,
         "class": Class.Warrior,
-        "role": [Role.Melee],
+        "role": [Role.Melee, Role.Physical],
     },
     Specialization.ProtectionWarrior: {
         "_has_more_points_in": 2,
         "class": Class.Warrior,
-        "role": [Role.Tank],
+        "role": [Role.Tank, Role.Physical],
     },
     Specialization.ElementalShaman: {
         "_has_more_points_in": 0,
         "class": Class.Shaman,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.EnhancementShaman: {
         "_has_more_points_in": 1,
         "class": Class.Shaman,
-        "role": [Role.Melee],
+        "role": [Role.Melee, Role.Physical],
     },
     Specialization.RestorationShaman: {
         "_has_more_points_in": 2,
@@ -120,12 +122,12 @@ specs = {
     Specialization.BalanceDruid: {
         "_has_more_points_in": 0,
         "class": Class.Druid,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.FeralDruid: {
         "_has_more_points_in": 1,
         "class": Class.Druid,
-        "role": [Role.Melee, Role.Tank],
+        "role": [Role.Melee, Role.Tank, Role.Physical],
     },
     Specialization.RestorationDruid: {
         "_has_more_points_in": 2,
@@ -145,52 +147,52 @@ specs = {
     Specialization.ShadowPriest: {
         "_has_more_points_in": 2,
         "class": Class.Priest,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.AfflictionWarlock: {
         "_has_more_points_in": 0,
         "class": Class.Warlock,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.DemonologyWarlock: {
         "_has_more_points_in": 1,
         "class": Class.Warlock,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.DestructionWarlock: {
         "_has_more_points_in": 2,
         "class": Class.Warlock,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.ArcaneMage: {
         "_has_more_points_in": 0,
         "class": Class.Mage,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.FireMage: {
         "_has_more_points_in": 1,
         "class": Class.Mage,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.FrostMage: {
         "_has_more_points_in": 2,
         "class": Class.Mage,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Magic],
     },
     Specialization.SurvivalHunter: {
         "_has_more_points_in": 0,
         "class": Class.Hunter,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Physical],
     },
     Specialization.MarksmanshipHunter: {
         "_has_more_points_in": 1,
         "class": Class.Hunter,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Physical],
     },
     Specialization.BeastMasteryHunter: {
         "_has_more_points_in": 2,
         "class": Class.Hunter,
-        "role": [Role.Ranged],
+        "role": [Role.Ranged, Role.Physical],
     },
     Specialization.Unknown: {
         "_has_more_points_in": 0,

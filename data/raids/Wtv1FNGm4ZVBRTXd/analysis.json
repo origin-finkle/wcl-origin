@@ -12735,6 +12735,14 @@
                 },
                 "remarks": [
                     {
+                        "type": "cast_higher_rank_available",
+                        "spell_id": "10230",
+                        "suggested_spell_id": 27088,
+                        "spell_wowhead_attr": "domain=fr.tbc&spell=10230",
+                        "higher_ranked_spell_wowhead_attr": "domain=fr.tbc&spell=27088",
+                        "count": 1
+                    },
+                    {
                         "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28517"
                     },
@@ -13043,6 +13051,15 @@
             {
                 "fight": "High King Maulgar",
                 "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "cast_higher_rank_available",
+                "spell_id": "10230",
+                "suggested_spell_id": 27088,
+                "spell_wowhead_attr": "domain=fr.tbc&spell=10230",
+                "higher_ranked_spell_wowhead_attr": "domain=fr.tbc&spell=27088",
+                "count": 1
             }
         ]
     },

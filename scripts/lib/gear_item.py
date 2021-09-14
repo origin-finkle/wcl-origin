@@ -56,6 +56,17 @@ class GearItem(Base):
                     item_wowhead_attr=f"domain=fr.tbc&item={self.id}",
                     wowhead_attr=f"domain=fr.tbc&item={gem.id}",
                 )
+        elif gem.requires["rule"] == "more_x_than_y":
+            c = {gem.requires["x"]: 0, gem.requires["y"]: 0}
+            for item in player_fight.gear:
+                c[gem.requires["x"]] += item.count_gems(gem.requires["x"])
+                c[gem.requires["y"]] += item.count_gems(gem.requires["y"])
+            if c[gem.requires["x"]] <= c[gem.requires["y"]]:
+                player_fight.add_remark(
+                    type="meta_not_activated",
+                    item_wowhead_attr=f"domain=fr.tbc&item={self.id}",
+                    wowhead_attr=f"domain=fr.tbc&item={gem.id}",
+                )
         else:
             raise Exception(f"rule {gem.requires['rule']} not handled")
 

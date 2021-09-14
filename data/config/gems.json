@@ -297,19 +297,44 @@
         "id": 25896,
         "name": "Diamant tonneterre de puissance",
         "quality": 3,
-        "color": "meta"
+        "color": "meta",
+        "requires": {
+            "rule": "count_at_least",
+            "count": [{
+                "color": "blue",
+                "value": 3
+            }]
+        }
     },
     {
         "id": 25897,
         "name": "Diamant tonneterre tonifiant",
         "quality": 3,
-        "color": "meta"
+        "color": "meta",
+        "requires": {
+            "rule": "more_x_than_y",
+            "x": "red",
+            "y": "blue"
+        }
     },
     {
         "id": 25901,
         "name": "Diamant tonneterre de perspicacité",
         "quality": 3,
-        "color": "meta"
+        "color": "meta",
+        "requires": {
+            "rule": "count_at_least",
+            "count": [{
+                "color": "blue",
+                "value": 2
+            }, {
+                "color": "red",
+                "value": 2
+            }, {
+                "color": "yellow",
+                "value": 2
+            }]
+        }
     },
     {
         "id": 27679,
@@ -424,13 +449,33 @@
         "id": 28556,
         "name": "Diamant brûlevent de rapidité",
         "quality": 3,
-        "color": "meta"
+        "color": "meta",
+        "requires": {
+            "rule": "count_at_least",
+            "count": [{
+                "color": "yellow",
+                "value": 2
+            }, {
+                "color": "red",
+                "value": 1
+            }]
+        }
     },
     {
         "id": 28557,
         "name": "Diamant brûlétoile de rapidité",
         "quality": 3,
-        "color": "meta"
+        "color": "meta",
+        "requires": {
+            "rule": "count_at_least",
+            "count": [{
+                "color": "yellow",
+                "value": 2
+            }, {
+                "color": "red",
+                "value": 1
+            }]
+        }
     },
     {
         "id": 28595,
@@ -658,7 +703,20 @@
         "id": 32409,
         "name": "Diamant tonneterre implacable",
         "quality": 3,
-        "color": "meta"
+        "color": "meta",
+        "requires": {
+            "rule": "count_at_least",
+            "count": [{
+                "color": "yellow",
+                "value": 2
+            }, {
+                "color": "red",
+                "value": 2
+            }, {
+                "color": "blue",
+                "value": 2
+            }]
+        }
     },
     {
         "id": 32833,

@@ -78,4 +78,5 @@ colors = {
     "blue": ["blue", "purple", "green"],
     "yellow": ["yellow", "orange", "green"],
     "red": ["red", "orange", "purple"],
+    "all": ["blue", "red", "yellow"],
 }

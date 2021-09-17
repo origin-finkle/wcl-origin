@@ -33,11 +33,29 @@ lockouts_per_raid = {
 }
 
 bosses_per_raid = {
-    "kharazan": ("Moroes",),
-    "gruul": ("High King Maulgar",),
+    "kharazan": (
+        "Moroes",
+        "Attumen the Huntsman",
+        "Maiden of Virtue",
+        "Netherspite",
+        "Opera Hall",
+        "Prince Malchezaar",
+        "Shade of Aran",
+        "Terestian Illhoof",
+        "The Curator",
+        "Nightbane",
+    ),
+    "gruul": ("High King Maulgar", "Gruul the Dragonkiller"),
     "magtheridon": ("Magtheridon",),
-    "ssc": ("Hydross the Unstable",),
-    "tk": ("Al'ar",),
+    "ssc": (
+        "Hydross the Unstable",
+        "Fathom-Lord Karathress",
+        "Lady Vashj",
+        "Morogrim Tidewalker",
+        "The Lurker Below",
+        "Leotheras the Blind",
+    ),
+    "tk": ("Al'ar", "Void Reaver", "High Astromancer Solarian", "Kael'tha Sunstrider"),
 }
 
 

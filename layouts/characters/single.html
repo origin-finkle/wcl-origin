@@ -67,6 +67,34 @@
                             {{ end }}
                         {{ end }}
                     </tr>
+                    <tr>
+                        <td>SSC<br>({{ int (mul $character.attendance.ssc.percentage 100) }} %)</td>
+                        {{ range $lockout := $.Site.Data.config.lockouts }}
+                            {{ if index $character.attendance.ssc.details $lockout }}
+                                <td class="table-success">
+                                    <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.ssc.details $lockout) 0))) }}">
+                                        ✔️
+                                    </a>
+                                </td>
+                            {{ else }}
+                                <td class="table-danger">❌</td>
+                            {{ end }}
+                        {{ end }}
+                    </tr>
+                    <tr>
+                        <td>TK<br>({{ int (mul $character.attendance.tk.percentage 100) }} %)</td>
+                        {{ range $lockout := $.Site.Data.config.lockouts }}
+                            {{ if index $character.attendance.tk.details $lockout }}
+                                <td class="table-success">
+                                    <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.tk.details $lockout) 0))) }}">
+                                        ✔️
+                                    </a>
+                                </td>
+                            {{ else }}
+                                <td class="table-danger">❌</td>
+                            {{ end }}
+                        {{ end }}
+                    </tr>
                 </tbody>
             </table>
         </div>

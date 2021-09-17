@@ -13,8 +13,35 @@ def get_raid_lockouts():
     return lockouts
 
 
+lockouts = get_raid_lockouts()
+
+
+def count_lockouts_since(date):
+    for idx in range(len(lockouts)):
+        if lockouts[idx] >= date:
+            break
+    return len(lockouts) - idx
+
+
+lockouts_per_raid = {
+    "kharazan": count_lockouts_since(datetime.datetime(year=2021, month=6, day=2)),
+    "gruul": count_lockouts_since(datetime.datetime(year=2021, month=6, day=2)),
+    "magtheridon": count_lockouts_since(datetime.datetime(year=2021, month=6, day=2)),
+    "magtheridon": count_lockouts_since(datetime.datetime(year=2021, month=6, day=2)),
+    "ssc": count_lockouts_since(datetime.datetime(year=2021, month=9, day=15)),
+    "tk": count_lockouts_since(datetime.datetime(year=2021, month=9, day=15)),
+}
+
+bosses_per_raid = {
+    "kharazan": ("Moroes",),
+    "gruul": ("High King Maulgar",),
+    "magtheridon": ("Magtheridon",),
+    "ssc": ("Hydross the Unstable",),
+    "tk": ("Al'ar",),
+}
+
+
 def compute_attendance(raids):
-    lockouts = get_raid_lockouts()
     data = {
         "kharazan": {
             "percentage": 0,
@@ -25,6 +52,14 @@ def compute_attendance(raids):
             "details": {},
         },
         "magtheridon": {
+            "percentage": 0,
+            "details": {},
+        },
+        "ssc": {
+            "percentage": 0,
+            "details": {},
+        },
+        "tk": {
             "percentage": 0,
             "details": {},
         },
@@ -39,22 +74,16 @@ def compute_attendance(raids):
         if idx >= len(lockouts):
             break
         # assuming lockouts[idx] is in use
-        if "High King Maulgar" in raid["bosses"]:
-            data["gruul"]["details"].setdefault(
-                lockouts[idx].date().isoformat(), []
-            ).append(raid["reportCode"])
-        if "Magtheridon" in raid["bosses"]:
-            data["magtheridon"]["details"].setdefault(
-                lockouts[idx].date().isoformat(), []
-            ).append(raid["reportCode"])
-        if "Moroes" in raid["bosses"]:
-            data["kharazan"]["details"].setdefault(
-                lockouts[idx].date().isoformat(), []
-            ).append(raid["reportCode"])
-    for raid in ("kharazan", "gruul", "magtheridon"):
-        data[raid]["percentage"] = sum(
-            1 for lockout in data[raid]["details"].values() if lockout
-        ) / len(lockouts)
+        for (r, bosses) in bosses_per_raid.items():
+            if any(boss in raid["bosses"] for boss in bosses):
+                data[r]["details"].setdefault(
+                    lockouts[idx].date().isoformat(), []
+                ).append(raid["reportCode"])
+    for raid in lockouts_per_raid.keys():
+        data[raid]["percentage"] = (
+            sum(1 for lockout in data[raid]["details"].values() if lockout)
+            / lockouts_per_raid[raid]
+        )
     return data
 
 

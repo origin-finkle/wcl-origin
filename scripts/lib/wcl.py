@@ -79,6 +79,8 @@ def fetch_report(report_id):
                         groupCount
                     }}
                     friendlyPlayers
+                    fightPercentage
+                    kill
                 }}
             }}
         }}

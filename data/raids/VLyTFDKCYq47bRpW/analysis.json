@@ -1743,6 +1743,284 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "27149": {
+                        "source": 10,
+                        "ability": 27149,
+                        "stacks": 1,
+                        "icon": "spell_holy_devotionaura.jpg",
+                        "name": "Devotion Aura",
+                        "events": []
+                    },
+                    "25895": {
+                        "source": 10,
+                        "ability": 25895,
+                        "stacks": 1,
+                        "icon": "spell_holy_greaterblessingofsalvation.jpg",
+                        "name": "Greater Blessing of Salvation",
+                        "events": []
+                    },
+                    "27127": {
+                        "source": 9,
+                        "ability": 27127,
+                        "stacks": 1,
+                        "icon": "spell_holy_arcaneintellect.jpg",
+                        "name": "Arcane Brilliance",
+                        "events": []
+                    },
+                    "32999": {
+                        "source": 4,
+                        "ability": 32999,
+                        "stacks": 1,
+                        "icon": "spell_holy_prayerofspirit.jpg",
+                        "name": "Prayer of Spirit",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28742&ench=2745",
+                        "slot": "Jambes",
+                        "enchant_id": 2745
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28508",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28742",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28742",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28742",
+                        "wowhead_attr": "domain=fr.tbc&item=23094"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    },
+                    {
+                        "type": "missing_guardian_elixir"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        31,
+                        30,
+                        0
+                    ],
+                    "spec": "DisciplinePriest"
+                },
+                "casts": {
+                    "25235": 41,
+                    "25222": 21,
+                    "33076": 11,
+                    "25218": 4,
+                    "34433": 1,
+                    "32546": 1,
+                    "14751": 1,
+                    "28499": 1
+                },
+                "gear": [
+                    {
+                        "id": 28756,
+                        "quality": 4,
+                        "icon": "inv_crown_01.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 3001,
+                        "wowhead_attr": "domain=fr.tbc&item=28756&ench=3001"
+                    },
+                    {
+                        "id": 29374,
+                        "quality": 4,
+                        "icon": "inv_jewelry_necklace_31.jpg",
+                        "itemLevel": 110,
+                        "wowhead_attr": "domain=fr.tbc&item=29374"
+                    },
+                    {
+                        "id": 21874,
+                        "quality": 4,
+                        "icon": "inv_shoulder_02.jpg",
+                        "itemLevel": 105,
+                        "permanentEnchant": 2979,
+                        "wowhead_attr": "domain=fr.tbc&item=21874&ench=2979"
+                    },
+                    {
+                        "id": 21875,
+                        "quality": 4,
+                        "icon": "inv_chest_cloth_04.jpg",
+                        "itemLevel": 120,
+                        "permanentEnchant": 1144,
+                        "gems": [
+                            {
+                                "id": 24060,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nobletopaz_03.jpg"
+                            },
+                            {
+                                "id": 30603,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nightseye_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=21875&gems=24060%3A30603&ench=1144"
+                    },
+                    {
+                        "id": 21873,
+                        "quality": 4,
+                        "icon": "inv_belt_31.jpg",
+                        "itemLevel": 115,
+                        "gems": [
+                            {
+                                "id": 30547,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nobletopaz_03.jpg"
+                            },
+                            {
+                                "id": 24057,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nightseye_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=21873&gems=30547%3A24057"
+                    },
+                    {
+                        "id": 28742,
+                        "quality": 4,
+                        "icon": "inv_pants_cloth_13.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2745,
+                        "gems": [
+                            {
+                                "id": 23094,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_bloodgem_02.jpg"
+                            },
+                            {
+                                "id": 23094,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_bloodgem_02.jpg"
+                            },
+                            {
+                                "id": 23094,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_bloodgem_02.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28742&gems=23094%3A23094%3A23094&ench=2745"
+                    },
+                    {
+                        "id": 28663,
+                        "quality": 4,
+                        "icon": "inv_boots_fabric_01.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2940,
+                        "wowhead_attr": "domain=fr.tbc&item=28663&ench=2940"
+                    },
+                    {
+                        "id": 29183,
+                        "quality": 4,
+                        "icon": "inv_bracer_10.jpg",
+                        "itemLevel": 105,
+                        "permanentEnchant": 2617,
+                        "wowhead_attr": "domain=fr.tbc&item=29183&ench=2617"
+                    },
+                    {
+                        "id": 28508,
+                        "quality": 4,
+                        "icon": "inv_gauntlets_17.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2322,
+                        "gems": [
+                            {
+                                "id": 23094,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_bloodgem_02.jpg"
+                            },
+                            {
+                                "id": 32836,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_pearl_07.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28508&gems=23094%3A32836&ench=2322"
+                    },
+                    {
+                        "id": 19382,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_42.jpg",
+                        "itemLevel": 83,
+                        "permanentEnchant": 2930,
+                        "wowhead_attr": "domain=fr.tbc&item=19382&ench=2930"
+                    },
+                    {
+                        "id": 29290,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_62.jpg",
+                        "itemLevel": 130,
+                        "permanentEnchant": 2930,
+                        "wowhead_attr": "domain=fr.tbc&item=29290&ench=2930"
+                    },
+                    {
+                        "id": 28590,
+                        "quality": 4,
+                        "icon": "inv_misc_bandage_16.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28590"
+                    },
+                    {
+                        "id": 29376,
+                        "quality": 4,
+                        "icon": "inv_valentineperfumebottle.jpg",
+                        "itemLevel": 110,
+                        "wowhead_attr": "domain=fr.tbc&item=29376"
+                    },
+                    {
+                        "id": 28765,
+                        "quality": 4,
+                        "icon": "inv_misc_cape_06.jpg",
+                        "itemLevel": 125,
+                        "permanentEnchant": 2938,
+                        "wowhead_attr": "domain=fr.tbc&item=28765&ench=2938"
+                    },
+                    {
+                        "id": 28771,
+                        "quality": 4,
+                        "icon": "inv_mace_46.jpg",
+                        "itemLevel": 125,
+                        "permanentEnchant": 2343,
+                        "temporaryEnchant": 2629,
+                        "wowhead_attr": "domain=fr.tbc&item=28771&ench=2343"
+                    },
+                    {
+                        "id": 29170,
+                        "quality": 4,
+                        "icon": "inv_misc_orb_01.jpg",
+                        "itemLevel": 105,
+                        "wowhead_attr": "domain=fr.tbc&item=29170"
+                    },
+                    {
+                        "id": 27885,
+                        "quality": 3,
+                        "icon": "inv_wand_05.jpg",
+                        "itemLevel": 112,
+                        "wowhead_attr": "domain=fr.tbc&item=27885"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -1795,34 +2073,8 @@
                         "enchant_id": 2745
                     },
                     {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28742&ench=2745",
-                        "slot": "Jambes",
-                        "enchant_id": 2745
-                    },
-                    {
                         "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28508",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28508",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28742",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28742",
-                        "wowhead_attr": "domain=fr.tbc&item=23094"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28742",
                         "wowhead_attr": "domain=fr.tbc&item=23094"
                     },
                     {
@@ -1856,19 +2108,19 @@
                     "spec": "DisciplinePriest"
                 },
                 "casts": {
-                    "25235": 77,
-                    "25222": 48,
-                    "33076": 24,
-                    "25218": 10,
-                    "34433": 2,
-                    "32546": 4,
-                    "14751": 2,
-                    "28499": 2,
+                    "25235": 36,
+                    "33076": 13,
+                    "25222": 27,
+                    "25218": 6,
+                    "32546": 3,
                     "10060": 1,
+                    "14751": 1,
                     "25308": 1,
+                    "28499": 1,
                     "10964": 1,
                     "1": 1,
                     "25429": 1,
+                    "34433": 1,
                     "38332": 1,
                     "35165": 1
                 },
@@ -2464,39 +2716,8 @@
             },
             {
                 "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28742&ench=2745",
-                "slot": "Jambes",
-                "enchant_id": 2745
-            },
-            {
-                "fight": "Netherspite",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28508",
-                "wowhead_attr": "domain=fr.tbc&item=23094"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28508",
-                "wowhead_attr": "domain=fr.tbc&item=23094"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28742",
-                "wowhead_attr": "domain=fr.tbc&item=23094"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28742",
-                "wowhead_attr": "domain=fr.tbc&item=23094"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28742",
                 "wowhead_attr": "domain=fr.tbc&item=23094"
             },
             {
@@ -2523,6 +2744,49 @@
             },
             {
                 "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28742&ench=2745",
+                "slot": "Jambes",
+                "enchant_id": 2745
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28508",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28742",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28742",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28742",
+                "wowhead_attr": "domain=fr.tbc&item=23094"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -4241,6 +4505,244 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "24932": {
+                        "source": 21,
+                        "ability": 24932,
+                        "stacks": 1,
+                        "icon": "spell_nature_unyeildingstamina.jpg",
+                        "name": "Leader of the Pack",
+                        "events": []
+                    },
+                    "33082": {
+                        "source": 6,
+                        "ability": 33082,
+                        "stacks": 1,
+                        "icon": "spell_nature_strength.jpg",
+                        "name": "Strength",
+                        "events": []
+                    },
+                    "33254": {
+                        "source": 6,
+                        "ability": 33254,
+                        "stacks": 1,
+                        "icon": "spell_misc_food.jpg",
+                        "name": "Well Fed",
+                        "events": []
+                    },
+                    "25895": {
+                        "source": 10,
+                        "ability": 25895,
+                        "stacks": 1,
+                        "icon": "spell_holy_greaterblessingofsalvation.jpg",
+                        "name": "Greater Blessing of Salvation",
+                        "events": []
+                    },
+                    "32999": {
+                        "source": 4,
+                        "ability": 32999,
+                        "stacks": 1,
+                        "icon": "spell_holy_prayerofspirit.jpg",
+                        "name": "Prayer of Spirit",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=12640&ench=1506",
+                        "slot": "T\u00eate",
+                        "enchant_id": 1506
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=21330&ench=2717",
+                        "slot": "\u00c9paule",
+                        "enchant_id": 2717
+                    },
+                    {
+                        "type": "invalid_food",
+                        "wowhead_attr": "domain=fr.tbc&spell=33254"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28031"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28437"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=30341"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=30939"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=31544"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        17,
+                        44,
+                        0
+                    ],
+                    "spec": "FuryWarrior"
+                },
+                "casts": {
+                    "1": 91,
+                    "25225": 13,
+                    "30335": 17,
+                    "29707": 24,
+                    "1680": 10,
+                    "30033": 4,
+                    "2687": 2,
+                    "25203": 2,
+                    "2048": 1,
+                    "28866": 1,
+                    "27237": 1
+                },
+                "gear": [
+                    {
+                        "id": 12640,
+                        "quality": 4,
+                        "icon": "inv_helmet_36.jpg",
+                        "itemLevel": 61,
+                        "permanentEnchant": 1506,
+                        "wowhead_attr": "domain=fr.tbc&item=12640&ench=1506"
+                    },
+                    {
+                        "id": 23053,
+                        "quality": 4,
+                        "icon": "inv_jewelry_necklace_28naxxramas.jpg",
+                        "itemLevel": 92,
+                        "wowhead_attr": "domain=fr.tbc&item=23053"
+                    },
+                    {
+                        "id": 21330,
+                        "quality": 4,
+                        "icon": "inv_shoulder_35.jpg",
+                        "itemLevel": 78,
+                        "permanentEnchant": 2717,
+                        "wowhead_attr": "domain=fr.tbc&item=21330&ench=2717"
+                    },
+                    {
+                        "id": 23226,
+                        "quality": 4,
+                        "icon": "inv_chest_leather_02.jpg",
+                        "itemLevel": 83,
+                        "permanentEnchant": 1891,
+                        "wowhead_attr": "domain=fr.tbc&item=23226&ench=1891"
+                    },
+                    {
+                        "id": 23219,
+                        "quality": 4,
+                        "icon": "inv_belt_13.jpg",
+                        "itemLevel": 85,
+                        "wowhead_attr": "domain=fr.tbc&item=23219"
+                    },
+                    {
+                        "id": 31544,
+                        "quality": 3,
+                        "icon": "inv_pants_14.jpg",
+                        "itemLevel": 109,
+                        "wowhead_attr": "domain=fr.tbc&item=31544"
+                    },
+                    {
+                        "id": 30939,
+                        "quality": 3,
+                        "icon": "inv_boots_chain_11.jpg",
+                        "itemLevel": 109,
+                        "wowhead_attr": "domain=fr.tbc&item=30939"
+                    },
+                    {
+                        "id": 22936,
+                        "quality": 4,
+                        "icon": "inv_bracer_17.jpg",
+                        "itemLevel": 83,
+                        "permanentEnchant": 1885,
+                        "wowhead_attr": "domain=fr.tbc&item=22936&ench=1885"
+                    },
+                    {
+                        "id": 30341,
+                        "quality": 2,
+                        "icon": "inv_gauntlets_23.jpg",
+                        "itemLevel": 114,
+                        "wowhead_attr": "domain=fr.tbc&item=30341"
+                    },
+                    {
+                        "id": 23038,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_48naxxramas.jpg",
+                        "itemLevel": 85,
+                        "wowhead_attr": "domain=fr.tbc&item=23038"
+                    },
+                    {
+                        "id": 18821,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_07.jpg",
+                        "itemLevel": 67,
+                        "wowhead_attr": "domain=fr.tbc&item=18821"
+                    },
+                    {
+                        "id": 28041,
+                        "quality": 3,
+                        "icon": "inv_datacrystal06.jpg",
+                        "itemLevel": 88,
+                        "wowhead_attr": "domain=fr.tbc&item=28041"
+                    },
+                    {
+                        "id": 22954,
+                        "quality": 4,
+                        "icon": "inv_trinket_naxxramas04.jpg",
+                        "itemLevel": 85,
+                        "wowhead_attr": "domain=fr.tbc&item=22954"
+                    },
+                    {
+                        "id": 28031,
+                        "quality": 3,
+                        "icon": "inv_misc_cape_18.jpg",
+                        "itemLevel": 97,
+                        "wowhead_attr": "domain=fr.tbc&item=28031"
+                    },
+                    {
+                        "id": 28437,
+                        "quality": 4,
+                        "icon": "inv_mace_37.jpg",
+                        "itemLevel": 107,
+                        "temporaryEnchant": 2506,
+                        "wowhead_attr": "domain=fr.tbc&item=28437"
+                    },
+                    {
+                        "id": 28729,
+                        "quality": 4,
+                        "icon": "inv_sword_74.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2673,
+                        "temporaryEnchant": 2506,
+                        "wowhead_attr": "domain=fr.tbc&item=28729&ench=2673"
+                    },
+                    {
+                        "id": 30279,
+                        "quality": 2,
+                        "icon": "inv_weapon_rifle_06.jpg",
+                        "itemLevel": 111,
+                        "wowhead_attr": "domain=fr.tbc&item=30279"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -4302,18 +4804,6 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=12640&ench=1506",
-                        "slot": "T\u00eate",
-                        "enchant_id": 1506
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=21330&ench=2717",
-                        "slot": "\u00c9paule",
-                        "enchant_id": 2717
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=21330&ench=2717",
                         "slot": "\u00c9paule",
                         "enchant_id": 2717
@@ -4333,14 +4823,6 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28031"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28437"
-                    },
-                    {
-                        "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28437"
                     },
                     {
@@ -4349,19 +4831,7 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=30341"
-                    },
-                    {
-                        "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=30939"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=30939"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=31544"
                     },
                     {
                         "type": "no_enchant",
@@ -4377,21 +4847,20 @@
                     "spec": "FuryWarrior"
                 },
                 "casts": {
-                    "1": 171,
-                    "25225": 29,
-                    "30335": 33,
-                    "29707": 30,
-                    "1680": 17,
-                    "30033": 9,
-                    "2687": 5,
-                    "25203": 6,
-                    "2048": 1,
-                    "28866": 3,
-                    "27237": 2,
+                    "1": 80,
+                    "25225": 16,
                     "71": 1,
+                    "30033": 5,
                     "2565": 1,
+                    "25203": 4,
+                    "30335": 16,
                     "30357": 1,
                     "2458": 1,
+                    "28866": 2,
+                    "2687": 3,
+                    "1680": 7,
+                    "29707": 6,
+                    "27237": 1,
                     "18499": 2,
                     "33667": 1,
                     "28495": 1
@@ -4854,20 +5323,6 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=12640&ench=1506",
-                "slot": "T\u00eate",
-                "enchant_id": 1506
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21330&ench=2717",
-                "slot": "\u00c9paule",
-                "enchant_id": 2717
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=21330&ench=2717",
                 "slot": "\u00c9paule",
                 "enchant_id": 2717
@@ -4882,6 +5337,33 @@
             },
             {
                 "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=12640&ench=1506",
+                "slot": "T\u00eate",
+                "enchant_id": 1506
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21330&ench=2717",
+                "slot": "\u00c9paule",
+                "enchant_id": 2717
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_food",
+                "wowhead_attr": "domain=fr.tbc&spell=33254"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -6932,6 +7414,274 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "24932": {
+                        "source": 21,
+                        "ability": 24932,
+                        "stacks": 1,
+                        "icon": "spell_nature_unyeildingstamina.jpg",
+                        "name": "Leader of the Pack",
+                        "events": []
+                    },
+                    "33257": {
+                        "source": 21,
+                        "ability": 33257,
+                        "stacks": 1,
+                        "icon": "spell_misc_food.jpg",
+                        "name": "Well Fed",
+                        "events": []
+                    },
+                    "20217": {
+                        "source": 10,
+                        "ability": 20217,
+                        "stacks": 1,
+                        "icon": "spell_magic_greaterblessingofkings.jpg",
+                        "name": "Blessing of Kings",
+                        "events": []
+                    },
+                    "32999": {
+                        "source": 4,
+                        "ability": 32999,
+                        "stacks": 1,
+                        "icon": "spell_holy_prayerofspirit.jpg",
+                        "name": "Prayer of Spirit",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=19381&ench=1887",
+                        "slot": "Pieds",
+                        "enchant_id": 1887
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=21602&ench=1886",
+                        "slot": "Poignets",
+                        "enchant_id": 1886
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=23071&ench=1508",
+                        "slot": "Jambes",
+                        "enchant_id": 1508
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=23226&ench=1892",
+                        "slot": "Torse",
+                        "enchant_id": 1892
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27434",
+                        "wowhead_attr": "domain=fr.tbc&item=23097"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27434",
+                        "wowhead_attr": "domain=fr.tbc&item=23097"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27531",
+                        "wowhead_attr": "domain=fr.tbc&item=23097"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_gems",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27531",
+                        "count": 1
+                    },
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27434"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28031"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=31334"
+                    },
+                    {
+                        "type": "no_temporary_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=31334"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        0,
+                        44,
+                        17
+                    ],
+                    "spec": "FeralDruid"
+                },
+                "casts": {
+                    "17390": 4,
+                    "27002": 24,
+                    "1": 82,
+                    "27008": 5,
+                    "768": 6,
+                    "27003": 1,
+                    "29166": 1,
+                    "20748": 1,
+                    "9634": 1,
+                    "33745": 13,
+                    "26996": 13,
+                    "26997": 5,
+                    "33987": 5,
+                    "6795": 1
+                },
+                "gear": [
+                    {
+                        "id": 8345,
+                        "quality": 3,
+                        "icon": "inv_helmet_04.jpg",
+                        "itemLevel": 45,
+                        "permanentEnchant": 3003,
+                        "wowhead_attr": "domain=fr.tbc&item=8345&ench=3003"
+                    },
+                    {
+                        "id": 29335,
+                        "quality": 3,
+                        "icon": "inv_jewelry_necklace_04.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=29335"
+                    },
+                    {
+                        "id": 27434,
+                        "quality": 3,
+                        "icon": "inv_shoulder_35.jpg",
+                        "itemLevel": 103,
+                        "gems": [
+                            {
+                                "id": 23097,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_bloodgem_02.jpg"
+                            },
+                            {
+                                "id": 23097,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_bloodgem_02.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=27434&gems=23097%3A23097"
+                    },
+                    {
+                        "id": 23226,
+                        "quality": 4,
+                        "icon": "inv_chest_leather_02.jpg",
+                        "itemLevel": 83,
+                        "permanentEnchant": 1892,
+                        "wowhead_attr": "domain=fr.tbc&item=23226&ench=1892"
+                    },
+                    {
+                        "id": 21675,
+                        "quality": 4,
+                        "icon": "inv_belt_15.jpg",
+                        "itemLevel": 76,
+                        "wowhead_attr": "domain=fr.tbc&item=21675"
+                    },
+                    {
+                        "id": 23071,
+                        "quality": 4,
+                        "icon": "inv_pants_leather_09.jpg",
+                        "itemLevel": 83,
+                        "permanentEnchant": 1508,
+                        "wowhead_attr": "domain=fr.tbc&item=23071&ench=1508"
+                    },
+                    {
+                        "id": 19381,
+                        "quality": 4,
+                        "icon": "inv_boots_cloth_05.jpg",
+                        "itemLevel": 83,
+                        "permanentEnchant": 1887,
+                        "wowhead_attr": "domain=fr.tbc&item=19381&ench=1887"
+                    },
+                    {
+                        "id": 21602,
+                        "quality": 4,
+                        "icon": "inv_bracer_13.jpg",
+                        "itemLevel": 81,
+                        "permanentEnchant": 1886,
+                        "wowhead_attr": "domain=fr.tbc&item=21602&ench=1886"
+                    },
+                    {
+                        "id": 27531,
+                        "quality": 3,
+                        "icon": "inv_gauntlets_25.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2564,
+                        "gems": [
+                            {
+                                "id": 23097,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_bloodgem_02.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=27531&gems=23097&ench=2564"
+                    },
+                    {
+                        "id": 25775,
+                        "quality": 3,
+                        "icon": "inv_jewelry_ring_02.jpg",
+                        "itemLevel": 100,
+                        "wowhead_attr": "domain=fr.tbc&item=25775"
+                    },
+                    {
+                        "id": 23018,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_50naxxramas.jpg",
+                        "itemLevel": 83,
+                        "wowhead_attr": "domain=fr.tbc&item=23018"
+                    },
+                    {
+                        "id": 27891,
+                        "quality": 3,
+                        "icon": "inv_qirajidol_sage.jpg",
+                        "itemLevel": 112,
+                        "wowhead_attr": "domain=fr.tbc&item=27891"
+                    },
+                    {
+                        "id": 28041,
+                        "quality": 3,
+                        "icon": "inv_datacrystal06.jpg",
+                        "itemLevel": 88,
+                        "wowhead_attr": "domain=fr.tbc&item=28041"
+                    },
+                    {
+                        "id": 28031,
+                        "quality": 3,
+                        "icon": "inv_misc_cape_18.jpg",
+                        "itemLevel": 97,
+                        "wowhead_attr": "domain=fr.tbc&item=28031"
+                    },
+                    {
+                        "id": 31334,
+                        "quality": 4,
+                        "icon": "inv_staff_50.jpg",
+                        "itemLevel": 100,
+                        "wowhead_attr": "domain=fr.tbc&item=31334"
+                    },
+                    {
+                        "id": 23198,
+                        "quality": 1,
+                        "icon": "inv_relics_idolofferocity.jpg",
+                        "itemLevel": 65,
+                        "wowhead_attr": "domain=fr.tbc&item=23198"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -6993,18 +7743,6 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=19381&ench=1887",
-                        "slot": "Pieds",
-                        "enchant_id": 1887
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=21602&ench=1886",
-                        "slot": "Poignets",
-                        "enchant_id": 1886
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=21602&ench=1886",
                         "slot": "Poignets",
                         "enchant_id": 1886
@@ -7014,18 +7752,6 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=23071&ench=1508",
                         "slot": "Jambes",
                         "enchant_id": 1508
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=23071&ench=1508",
-                        "slot": "Jambes",
-                        "enchant_id": 1508
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=23226&ench=1892",
-                        "slot": "Torse",
-                        "enchant_id": 1892
                     },
                     {
                         "type": "invalid_enchant",
@@ -7049,31 +7775,11 @@
                     },
                     {
                         "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27434",
-                        "wowhead_attr": "domain=fr.tbc&item=23097"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27434",
-                        "wowhead_attr": "domain=fr.tbc&item=23097"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27531",
-                        "wowhead_attr": "domain=fr.tbc&item=23097"
-                    },
-                    {
-                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27531",
                         "wowhead_attr": "domain=fr.tbc&item=23097"
                     },
                     {
                         "type": "missing_battle_elixir"
-                    },
-                    {
-                        "type": "missing_gems",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27531",
-                        "count": 1
                     },
                     {
                         "type": "missing_gems",
@@ -7089,26 +7795,10 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27434"
-                    },
-                    {
-                        "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28031"
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28031"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=31334"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=31334"
-                    },
-                    {
-                        "type": "no_temporary_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=31334"
                     },
                     {
@@ -7125,21 +7815,19 @@
                     "spec": "FeralDruid"
                 },
                 "casts": {
-                    "17390": 7,
-                    "27002": 50,
-                    "1": 200,
-                    "27008": 13,
-                    "768": 14,
-                    "27003": 5,
-                    "29166": 2,
-                    "20748": 1,
-                    "9634": 2,
-                    "33745": 34,
-                    "26996": 29,
-                    "26997": 9,
-                    "33987": 11,
-                    "6795": 1,
+                    "17390": 3,
+                    "1": 118,
                     "33983": 3,
+                    "27002": 26,
+                    "27008": 8,
+                    "768": 8,
+                    "27003": 4,
+                    "29166": 1,
+                    "9634": 1,
+                    "33987": 6,
+                    "26996": 16,
+                    "33745": 21,
+                    "26997": 4,
                     "33667": 1
                 },
                 "gear": [
@@ -7796,20 +8484,6 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=19381&ench=1887",
-                "slot": "Pieds",
-                "enchant_id": 1887
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21602&ench=1886",
-                "slot": "Poignets",
-                "enchant_id": 1886
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=21602&ench=1886",
                 "slot": "Poignets",
                 "enchant_id": 1886
@@ -7820,20 +8494,6 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=23071&ench=1508",
                 "slot": "Jambes",
                 "enchant_id": 1508
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=23071&ench=1508",
-                "slot": "Jambes",
-                "enchant_id": 1508
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=23226&ench=1892",
-                "slot": "Torse",
-                "enchant_id": 1892
             },
             {
                 "fight": "Netherspite",
@@ -7862,24 +8522,6 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27434",
-                "wowhead_attr": "domain=fr.tbc&item=23097"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27434",
-                "wowhead_attr": "domain=fr.tbc&item=23097"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27531",
-                "wowhead_attr": "domain=fr.tbc&item=23097"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=27531",
                 "wowhead_attr": "domain=fr.tbc&item=23097"
             },
@@ -7897,7 +8539,61 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=31334"
             },
             {
-                "fight": "Netherspite",
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=19381&ench=1887",
+                "slot": "Pieds",
+                "enchant_id": 1887
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21602&ench=1886",
+                "slot": "Poignets",
+                "enchant_id": 1886
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=23071&ench=1508",
+                "slot": "Jambes",
+                "enchant_id": 1508
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=23226&ench=1892",
+                "slot": "Torse",
+                "enchant_id": 1892
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27434",
+                "wowhead_attr": "domain=fr.tbc&item=23097"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27434",
+                "wowhead_attr": "domain=fr.tbc&item=23097"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27531",
+                "wowhead_attr": "domain=fr.tbc&item=23097"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=31334"
             },
@@ -9650,6 +10346,246 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "24932": {
+                        "source": 21,
+                        "ability": 24932,
+                        "stacks": 1,
+                        "icon": "spell_nature_unyeildingstamina.jpg",
+                        "name": "Leader of the Pack",
+                        "events": []
+                    },
+                    "33261": {
+                        "source": 27,
+                        "ability": 33261,
+                        "stacks": 1,
+                        "icon": "spell_misc_food.jpg",
+                        "name": "Well Fed",
+                        "events": []
+                    },
+                    "32999": {
+                        "source": 4,
+                        "ability": 32999,
+                        "stacks": 1,
+                        "icon": "spell_holy_prayerofspirit.jpg",
+                        "name": "Prayer of Spirit",
+                        "events": []
+                    },
+                    "28520": {
+                        "source": 27,
+                        "ability": 28520,
+                        "stacks": 1,
+                        "icon": "inv_potion_117.jpg",
+                        "name": "Flask of Relentless Assault",
+                        "events": []
+                    },
+                    "25898": {
+                        "source": 10,
+                        "ability": 25898,
+                        "stacks": 1,
+                        "icon": "spell_magic_greaterblessingofkings.jpg",
+                        "name": "Greater Blessing of Kings",
+                        "events": []
+                    },
+                    "27127": {
+                        "source": 9,
+                        "ability": 27127,
+                        "stacks": 1,
+                        "icon": "spell_holy_arcaneintellect.jpg",
+                        "name": "Arcane Brilliance",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=17069&ench=664",
+                        "slot": "\u00c0 distance",
+                        "enchant_id": 664
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22477&ench=2585",
+                        "slot": "Jambes",
+                        "enchant_id": 2585
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22478&ench=2585",
+                        "slot": "T\u00eate",
+                        "enchant_id": 2585
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22479&ench=2717",
+                        "slot": "\u00c9paule",
+                        "enchant_id": 2717
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22481&ench=906",
+                        "slot": "Mains",
+                        "enchant_id": 906
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=21701"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        20,
+                        41,
+                        0
+                    ],
+                    "spec": "CombatRogue"
+                },
+                "casts": {
+                    "1": 243,
+                    "26862": 57,
+                    "6774": 7,
+                    "26867": 4,
+                    "13750": 1,
+                    "13877": 1,
+                    "26865": 2,
+                    "26669": 1
+                },
+                "gear": [
+                    {
+                        "id": 22478,
+                        "quality": 4,
+                        "icon": "inv_helmet_58.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2585,
+                        "wowhead_attr": "domain=fr.tbc&item=22478&ench=2585"
+                    },
+                    {
+                        "id": 19377,
+                        "quality": 4,
+                        "icon": "inv_jewelry_necklace_17.jpg",
+                        "itemLevel": 83,
+                        "wowhead_attr": "domain=fr.tbc&item=19377"
+                    },
+                    {
+                        "id": 22479,
+                        "quality": 4,
+                        "icon": "inv_shoulder_29.jpg",
+                        "itemLevel": 86,
+                        "permanentEnchant": 2717,
+                        "wowhead_attr": "domain=fr.tbc&item=22479&ench=2717"
+                    },
+                    {
+                        "id": 22476,
+                        "quality": 4,
+                        "icon": "inv_chest_plate02.jpg",
+                        "itemLevel": 92,
+                        "permanentEnchant": 1891,
+                        "wowhead_attr": "domain=fr.tbc&item=22476&ench=1891"
+                    },
+                    {
+                        "id": 21586,
+                        "quality": 4,
+                        "icon": "inv_belt_26.jpg",
+                        "itemLevel": 88,
+                        "wowhead_attr": "domain=fr.tbc&item=21586"
+                    },
+                    {
+                        "id": 22477,
+                        "quality": 4,
+                        "icon": "inv_pants_plate_05.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2585,
+                        "wowhead_attr": "domain=fr.tbc&item=22477&ench=2585"
+                    },
+                    {
+                        "id": 22480,
+                        "quality": 4,
+                        "icon": "inv_boots_plate_06.jpg",
+                        "itemLevel": 86,
+                        "permanentEnchant": 911,
+                        "wowhead_attr": "domain=fr.tbc&item=22480&ench=911"
+                    },
+                    {
+                        "id": 22483,
+                        "quality": 4,
+                        "icon": "inv_bracer_15.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 1885,
+                        "wowhead_attr": "domain=fr.tbc&item=22483&ench=1885"
+                    },
+                    {
+                        "id": 22481,
+                        "quality": 4,
+                        "icon": "inv_gauntlets_28.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 906,
+                        "wowhead_attr": "domain=fr.tbc&item=22481&ench=906"
+                    },
+                    {
+                        "id": 28553,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_60.jpg",
+                        "itemLevel": 95,
+                        "wowhead_attr": "domain=fr.tbc&item=28553"
+                    },
+                    {
+                        "id": 23060,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_51naxxramas.jpg",
+                        "itemLevel": 92,
+                        "wowhead_attr": "domain=fr.tbc&item=23060"
+                    },
+                    {
+                        "id": 23206,
+                        "quality": 4,
+                        "icon": "inv_misc_token_argentdawn2.jpg",
+                        "itemLevel": 90,
+                        "wowhead_attr": "domain=fr.tbc&item=23206"
+                    },
+                    {
+                        "id": 22954,
+                        "quality": 4,
+                        "icon": "inv_trinket_naxxramas04.jpg",
+                        "itemLevel": 85,
+                        "wowhead_attr": "domain=fr.tbc&item=22954"
+                    },
+                    {
+                        "id": 21701,
+                        "quality": 4,
+                        "icon": "inv_misc_cape_02.jpg",
+                        "itemLevel": 73,
+                        "wowhead_attr": "domain=fr.tbc&item=21701"
+                    },
+                    {
+                        "id": 23054,
+                        "quality": 4,
+                        "icon": "inv_sword_61.jpg",
+                        "itemLevel": 89,
+                        "permanentEnchant": 1900,
+                        "temporaryEnchant": 2643,
+                        "wowhead_attr": "domain=fr.tbc&item=23054&ench=1900"
+                    },
+                    {
+                        "id": 23577,
+                        "quality": 4,
+                        "icon": "inv_sword_62.jpg",
+                        "itemLevel": 89,
+                        "permanentEnchant": 1900,
+                        "temporaryEnchant": 2643,
+                        "wowhead_attr": "domain=fr.tbc&item=23577&ench=1900"
+                    },
+                    {
+                        "id": 17069,
+                        "quality": 4,
+                        "icon": "inv_weapon_bow_08.jpg",
+                        "itemLevel": 69,
+                        "permanentEnchant": 664,
+                        "wowhead_attr": "domain=fr.tbc&item=17069&ench=664"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -9719,26 +10655,8 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=17069&ench=664",
-                        "slot": "\u00c0 distance",
-                        "enchant_id": 664
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=22477&ench=2585",
                         "slot": "Jambes",
-                        "enchant_id": 2585
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22477&ench=2585",
-                        "slot": "Jambes",
-                        "enchant_id": 2585
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22478&ench=2585",
-                        "slot": "T\u00eate",
                         "enchant_id": 2585
                     },
                     {
@@ -9755,25 +10673,9 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22479&ench=2717",
-                        "slot": "\u00c9paule",
-                        "enchant_id": 2717
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=22481&ench=906",
                         "slot": "Mains",
                         "enchant_id": 906
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22481&ench=906",
-                        "slot": "Mains",
-                        "enchant_id": 906
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=21701"
                     },
                     {
                         "type": "no_enchant",
@@ -9789,16 +10691,15 @@
                     "spec": "CombatRogue"
                 },
                 "casts": {
-                    "1": 466,
-                    "26862": 112,
-                    "6774": 12,
-                    "26867": 10,
-                    "13750": 2,
-                    "13877": 2,
-                    "26865": 2,
-                    "26669": 2,
+                    "1": 223,
+                    "26862": 55,
+                    "6774": 5,
+                    "26867": 6,
                     "26889": 1,
                     "27237": 1,
+                    "26669": 1,
+                    "13750": 1,
+                    "13877": 1,
                     "28866": 1
                 },
                 "gear": [
@@ -10319,20 +11220,6 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=17069&ench=664",
-                "slot": "\u00c0 distance",
-                "enchant_id": 664
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22477&ench=2585",
-                "slot": "Jambes",
-                "enchant_id": 2585
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=22477&ench=2585",
                 "slot": "Jambes",
                 "enchant_id": 2585
@@ -10343,20 +11230,6 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=22478&ench=2585",
                 "slot": "T\u00eate",
                 "enchant_id": 2585
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22478&ench=2585",
-                "slot": "T\u00eate",
-                "enchant_id": 2585
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22479&ench=2717",
-                "slot": "\u00c9paule",
-                "enchant_id": 2717
             },
             {
                 "fight": "Netherspite",
@@ -10373,7 +11246,35 @@
                 "enchant_id": 906
             },
             {
-                "fight": "Netherspite",
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=17069&ench=664",
+                "slot": "\u00c0 distance",
+                "enchant_id": 664
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22477&ench=2585",
+                "slot": "Jambes",
+                "enchant_id": 2585
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22478&ench=2585",
+                "slot": "T\u00eate",
+                "enchant_id": 2585
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22479&ench=2717",
+                "slot": "\u00c9paule",
+                "enchant_id": 2717
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=22481&ench=906",
                 "slot": "Mains",
@@ -12554,6 +13455,331 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "25895": {
+                        "source": 10,
+                        "ability": 25895,
+                        "stacks": 1,
+                        "icon": "spell_holy_greaterblessingofsalvation.jpg",
+                        "name": "Greater Blessing of Salvation",
+                        "events": []
+                    },
+                    "32999": {
+                        "source": 4,
+                        "ability": 32999,
+                        "stacks": 1,
+                        "icon": "spell_holy_prayerofspirit.jpg",
+                        "name": "Prayer of Spirit",
+                        "events": []
+                    },
+                    "27149": {
+                        "source": 10,
+                        "ability": 27149,
+                        "stacks": 1,
+                        "icon": "spell_holy_devotionaura.jpg",
+                        "name": "Devotion Aura",
+                        "events": []
+                    },
+                    "27127": {
+                        "source": 9,
+                        "ability": 27127,
+                        "stacks": 1,
+                        "icon": "spell_holy_arcaneintellect.jpg",
+                        "name": "Arcane Brilliance",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=24481",
+                        "wowhead_attr": "domain=fr.tbc&item=28461"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=24481",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28179",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28714",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29002",
+                        "wowhead_attr": "domain=fr.tbc&item=27679"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    },
+                    {
+                        "type": "missing_gems",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29076",
+                        "count": 1
+                    },
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27899"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28179"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28570"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28594"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28714"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29002"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29076"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29080"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        2,
+                        48,
+                        11
+                    ],
+                    "spec": "FireMage"
+                },
+                "casts": {
+                    "27074": 10,
+                    "27079": 3,
+                    "27070": 19,
+                    "27103": 1,
+                    "1953": 2,
+                    "30482": 1,
+                    "27131": 1,
+                    "12051": 1,
+                    "12472": 1,
+                    "35337": 1
+                },
+                "gear": [
+                    {
+                        "id": 29076,
+                        "quality": 4,
+                        "icon": "inv_helmet_84.jpg",
+                        "itemLevel": 120,
+                        "gems": [
+                            {
+                                "id": 24035,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_starofelune_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=29076&gems=24035"
+                    },
+                    {
+                        "id": 25954,
+                        "quality": 3,
+                        "icon": "inv_summerfest_symbol_high.jpg",
+                        "itemLevel": 97,
+                        "wowhead_attr": "domain=fr.tbc&item=25954"
+                    },
+                    {
+                        "id": 28714,
+                        "quality": 3,
+                        "icon": "inv_shoulder_19.jpg",
+                        "itemLevel": 115,
+                        "gems": [
+                            {
+                                "id": 23118,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_azuredraenite_02.jpg"
+                            },
+                            {
+                                "id": 24053,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_dawnstone_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28714&gems=23118%3A24053"
+                    },
+                    {
+                        "id": 24481,
+                        "quality": 3,
+                        "icon": "inv_chest_cloth_12.jpg",
+                        "itemLevel": 94,
+                        "permanentEnchant": 1144,
+                        "gems": [
+                            {
+                                "id": 28461,
+                                "itemLevel": 55,
+                                "icon": "inv_misc_gem_ruby_03.jpg"
+                            },
+                            {
+                                "id": 24053,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_dawnstone_03.jpg"
+                            },
+                            {
+                                "id": 23118,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_azuredraenite_02.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=24481&gems=28461%3A24053%3A23118&ench=1144"
+                    },
+                    {
+                        "id": 30673,
+                        "quality": 4,
+                        "icon": "inv_belt_03.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=30673"
+                    },
+                    {
+                        "id": 28594,
+                        "quality": 4,
+                        "icon": "inv_pants_cloth_05.jpg",
+                        "itemLevel": 115,
+                        "gems": [
+                            {
+                                "id": 24053,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_dawnstone_03.jpg"
+                            },
+                            {
+                                "id": 31861,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_starofelune_03.jpg"
+                            },
+                            {
+                                "id": 31861,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_starofelune_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28594&gems=24053%3A31861%3A31861"
+                    },
+                    {
+                        "id": 28179,
+                        "quality": 3,
+                        "icon": "inv_boots_fabric_01.jpg",
+                        "itemLevel": 115,
+                        "gems": [
+                            {
+                                "id": 23118,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_azuredraenite_02.jpg"
+                            },
+                            {
+                                "id": 31861,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_starofelune_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28179&gems=23118%3A31861"
+                    },
+                    {
+                        "id": 29002,
+                        "quality": 4,
+                        "icon": "inv_bracer_07.jpg",
+                        "itemLevel": 113,
+                        "gems": [
+                            {
+                                "id": 27679,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_topaz_01.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=29002&gems=27679"
+                    },
+                    {
+                        "id": 29080,
+                        "quality": 4,
+                        "icon": "inv_gauntlets_47.jpg",
+                        "itemLevel": 120,
+                        "wowhead_attr": "domain=fr.tbc&item=29080"
+                    },
+                    {
+                        "id": 29285,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_62.jpg",
+                        "itemLevel": 110,
+                        "wowhead_attr": "domain=fr.tbc&item=29285"
+                    },
+                    {
+                        "id": 28753,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_15.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28753"
+                    },
+                    {
+                        "id": 28418,
+                        "quality": 3,
+                        "icon": "inv_gizmo_elementalblastingpowder.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28418"
+                    },
+                    {
+                        "id": 29179,
+                        "quality": 3,
+                        "icon": "inv_misc_elvencoins.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=29179"
+                    },
+                    {
+                        "id": 28570,
+                        "quality": 4,
+                        "icon": "inv_misc_cape_20.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28570"
+                    },
+                    {
+                        "id": 27899,
+                        "quality": 3,
+                        "icon": "inv_sword_draenei_04.jpg",
+                        "itemLevel": 115,
+                        "temporaryEnchant": 2628,
+                        "wowhead_attr": "domain=fr.tbc&item=27899"
+                    },
+                    {
+                        "id": 28187,
+                        "quality": 3,
+                        "icon": "inv_offhand_outlandraid_03blue.jpg",
+                        "itemLevel": 112,
+                        "wowhead_attr": "domain=fr.tbc&item=28187"
+                    },
+                    {
+                        "id": 28783,
+                        "quality": 4,
+                        "icon": "inv_wand_20.jpg",
+                        "itemLevel": 125,
+                        "wowhead_attr": "domain=fr.tbc&item=28783"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -12595,21 +13821,6 @@
                     },
                     {
                         "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=24481",
-                        "wowhead_attr": "domain=fr.tbc&item=28461"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=24481",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28179",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28179",
                         "wowhead_attr": "domain=fr.tbc&item=23118"
                     },
@@ -12617,16 +13828,6 @@
                         "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28714",
                         "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28714",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29002",
-                        "wowhead_attr": "domain=fr.tbc&item=27679"
                     },
                     {
                         "type": "invalid_gem",
@@ -12645,11 +13846,6 @@
                         "count": 1
                     },
                     {
-                        "type": "missing_gems",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29076",
-                        "count": 1
-                    },
-                    {
                         "type": "missing_guardian_elixir"
                     },
                     {
@@ -12658,19 +13854,7 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27899"
-                    },
-                    {
-                        "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28179"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28179"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28570"
                     },
                     {
                         "type": "no_enchant",
@@ -12682,14 +13866,6 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28594"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28714"
-                    },
-                    {
-                        "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28714"
                     },
                     {
@@ -12698,19 +13874,7 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29002"
-                    },
-                    {
-                        "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=29076"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29076"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29080"
                     },
                     {
                         "type": "no_enchant",
@@ -12726,19 +13890,16 @@
                     "spec": "FireMage"
                 },
                 "casts": {
-                    "27074": 38,
-                    "27079": 6,
-                    "27070": 50,
-                    "27103": 1,
-                    "1953": 2,
-                    "30482": 1,
-                    "27131": 2,
-                    "12051": 2,
-                    "12472": 2,
-                    "35337": 2,
+                    "27074": 28,
+                    "27079": 3,
+                    "27070": 31,
+                    "12472": 1,
+                    "35337": 1,
                     "28499": 1,
                     "27031": 2,
                     "27237": 1,
+                    "12051": 1,
+                    "27131": 1,
                     "28495": 1,
                     "5019": 5
                 },
@@ -13400,24 +14561,6 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24481",
-                "wowhead_attr": "domain=fr.tbc&item=28461"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=24481",
-                "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28179",
-                "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28179",
                 "wowhead_attr": "domain=fr.tbc&item=23118"
             },
@@ -13426,18 +14569,6 @@
                 "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28714",
                 "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28714",
-                "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29002",
-                "wowhead_attr": "domain=fr.tbc&item=27679"
             },
             {
                 "fight": "Netherspite",
@@ -13455,6 +14586,48 @@
             },
             {
                 "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24481",
+                "wowhead_attr": "domain=fr.tbc&item=28461"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=24481",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28179",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28714",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29002",
+                "wowhead_attr": "domain=fr.tbc&item=27679"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -15077,6 +16250,240 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "32999": {
+                        "source": 4,
+                        "ability": 32999,
+                        "stacks": 1,
+                        "icon": "spell_holy_prayerofspirit.jpg",
+                        "name": "Prayer of Spirit",
+                        "events": []
+                    },
+                    "25895": {
+                        "source": 10,
+                        "ability": 25895,
+                        "stacks": 1,
+                        "icon": "spell_holy_greaterblessingofsalvation.jpg",
+                        "name": "Greater Blessing of Salvation",
+                        "events": []
+                    },
+                    "27149": {
+                        "source": 10,
+                        "ability": 27149,
+                        "stacks": 1,
+                        "icon": "spell_holy_devotionaura.jpg",
+                        "name": "Devotion Aura",
+                        "events": []
+                    },
+                    "27127": {
+                        "source": 9,
+                        "ability": 27127,
+                        "stacks": 1,
+                        "icon": "spell_holy_arcaneintellect.jpg",
+                        "name": "Arcane Brilliance",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=19407&ench=2614",
+                        "slot": "Mains",
+                        "enchant_id": 2614
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
+                        "slot": "Poignets",
+                        "enchant_id": 1883
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=21337&ench=2589",
+                        "slot": "T\u00eate",
+                        "enchant_id": 2589
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22507&ench=2721",
+                        "slot": "\u00c9paule",
+                        "enchant_id": 2721
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=23070&ench=2589",
+                        "slot": "Jambes",
+                        "enchant_id": 2589
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "missing_food"
+                    },
+                    {
+                        "type": "missing_guardian_elixir"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27905"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27981"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        0,
+                        21,
+                        40
+                    ],
+                    "spec": "DestructionWarlock"
+                },
+                "casts": {
+                    "30909": 2,
+                    "27215": 5,
+                    "27209": 37,
+                    "27222": 11,
+                    "27237": 1,
+                    "27223": 1,
+                    "27220": 1,
+                    "28508": 1,
+                    "29858": 1
+                },
+                "gear": [
+                    {
+                        "id": 21337,
+                        "quality": 4,
+                        "icon": "inv_helmet_06.jpg",
+                        "itemLevel": 81,
+                        "permanentEnchant": 2589,
+                        "wowhead_attr": "domain=fr.tbc&item=21337&ench=2589"
+                    },
+                    {
+                        "id": 28134,
+                        "quality": 3,
+                        "icon": "inv_jewelry_necklace_27.jpg",
+                        "itemLevel": 112,
+                        "wowhead_attr": "domain=fr.tbc&item=28134"
+                    },
+                    {
+                        "id": 22507,
+                        "quality": 4,
+                        "icon": "inv_shoulder_25.jpg",
+                        "itemLevel": 86,
+                        "permanentEnchant": 2721,
+                        "wowhead_attr": "domain=fr.tbc&item=22507&ench=2721"
+                    },
+                    {
+                        "id": 22504,
+                        "quality": 4,
+                        "icon": "inv_chest_cloth_43.jpg",
+                        "itemLevel": 92,
+                        "permanentEnchant": 1891,
+                        "wowhead_attr": "domain=fr.tbc&item=22504&ench=1891"
+                    },
+                    {
+                        "id": 27547,
+                        "quality": 3,
+                        "icon": "inv_belt_15.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=27547"
+                    },
+                    {
+                        "id": 23070,
+                        "quality": 4,
+                        "icon": "inv_pants_08.jpg",
+                        "itemLevel": 85,
+                        "permanentEnchant": 2589,
+                        "wowhead_attr": "domain=fr.tbc&item=23070&ench=2589"
+                    },
+                    {
+                        "id": 22508,
+                        "quality": 4,
+                        "icon": "inv_boots_fabric_01.jpg",
+                        "itemLevel": 86,
+                        "permanentEnchant": 911,
+                        "wowhead_attr": "domain=fr.tbc&item=22508&ench=911"
+                    },
+                    {
+                        "id": 21186,
+                        "quality": 4,
+                        "icon": "inv_bracer_12.jpg",
+                        "itemLevel": 62,
+                        "permanentEnchant": 1883,
+                        "wowhead_attr": "domain=fr.tbc&item=21186&ench=1883"
+                    },
+                    {
+                        "id": 19407,
+                        "quality": 4,
+                        "icon": "inv_gauntlets_27.jpg",
+                        "itemLevel": 75,
+                        "permanentEnchant": 2614,
+                        "wowhead_attr": "domain=fr.tbc&item=19407&ench=2614"
+                    },
+                    {
+                        "id": 28793,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_65.jpg",
+                        "itemLevel": 125,
+                        "wowhead_attr": "domain=fr.tbc&item=28793"
+                    },
+                    {
+                        "id": 21709,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_ahnqiraj_02.jpg",
+                        "itemLevel": 88,
+                        "wowhead_attr": "domain=fr.tbc&item=21709"
+                    },
+                    {
+                        "id": 19950,
+                        "quality": 4,
+                        "icon": "inv_jewelry_necklace_13.jpg",
+                        "itemLevel": 68,
+                        "wowhead_attr": "domain=fr.tbc&item=19950"
+                    },
+                    {
+                        "id": 19379,
+                        "quality": 4,
+                        "icon": "inv_stone_15.jpg",
+                        "itemLevel": 83,
+                        "wowhead_attr": "domain=fr.tbc&item=19379"
+                    },
+                    {
+                        "id": 27981,
+                        "quality": 3,
+                        "icon": "inv_misc_cape_11.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=27981"
+                    },
+                    {
+                        "id": 27905,
+                        "quality": 3,
+                        "icon": "inv_sword_2h_blood_c_03.jpg",
+                        "itemLevel": 115,
+                        "temporaryEnchant": 2628,
+                        "wowhead_attr": "domain=fr.tbc&item=27905"
+                    },
+                    {
+                        "id": 28187,
+                        "quality": 3,
+                        "icon": "inv_offhand_outlandraid_03blue.jpg",
+                        "itemLevel": 112,
+                        "wowhead_attr": "domain=fr.tbc&item=28187"
+                    },
+                    {
+                        "id": 22820,
+                        "quality": 4,
+                        "icon": "inv_wand_1h_stratholme_d_01.jpg",
+                        "itemLevel": 83,
+                        "wowhead_attr": "domain=fr.tbc&item=22820"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -15130,18 +16537,6 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=19407&ench=2614",
-                        "slot": "Mains",
-                        "enchant_id": 2614
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
-                        "slot": "Poignets",
-                        "enchant_id": 1883
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
                         "slot": "Poignets",
                         "enchant_id": 1883
@@ -15154,27 +16549,9 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=21337&ench=2589",
-                        "slot": "T\u00eate",
-                        "enchant_id": 2589
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=22507&ench=2721",
                         "slot": "\u00c9paule",
                         "enchant_id": 2721
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22507&ench=2721",
-                        "slot": "\u00c9paule",
-                        "enchant_id": 2721
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=23070&ench=2589",
-                        "slot": "Jambes",
-                        "enchant_id": 2589
                     },
                     {
                         "type": "invalid_enchant",
@@ -15194,14 +16571,6 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27905"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27981"
-                    },
-                    {
-                        "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=27981"
                     }
                 ],
@@ -15214,16 +16583,14 @@
                     "spec": "DestructionWarlock"
                 },
                 "casts": {
-                    "30909": 4,
-                    "27215": 12,
-                    "27209": 83,
-                    "27222": 20,
-                    "27237": 2,
-                    "27223": 2,
-                    "27220": 1,
-                    "28508": 1,
-                    "29858": 2,
+                    "30909": 2,
+                    "27215": 7,
+                    "27209": 46,
+                    "27222": 9,
+                    "27223": 1,
                     "17531": 1,
+                    "29858": 1,
+                    "27237": 1,
                     "30546": 1
                 },
                 "gear": [
@@ -15724,20 +17091,6 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=19407&ench=2614",
-                "slot": "Mains",
-                "enchant_id": 2614
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
-                "slot": "Poignets",
-                "enchant_id": 1883
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
                 "slot": "Poignets",
                 "enchant_id": 1883
@@ -15752,30 +17105,9 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=21337&ench=2589",
-                "slot": "T\u00eate",
-                "enchant_id": 2589
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=22507&ench=2721",
                 "slot": "\u00c9paule",
                 "enchant_id": 2721
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22507&ench=2721",
-                "slot": "\u00c9paule",
-                "enchant_id": 2721
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=23070&ench=2589",
-                "slot": "Jambes",
-                "enchant_id": 2589
             },
             {
                 "fight": "Netherspite",
@@ -15790,6 +17122,53 @@
             },
             {
                 "fight": "Netherspite",
+                "type": "missing_guardian_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=19407&ench=2614",
+                "slot": "Mains",
+                "enchant_id": 2614
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
+                "slot": "Poignets",
+                "enchant_id": 1883
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=21337&ench=2589",
+                "slot": "T\u00eate",
+                "enchant_id": 2589
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22507&ench=2721",
+                "slot": "\u00c9paule",
+                "enchant_id": 2721
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=23070&ench=2589",
+                "slot": "Jambes",
+                "enchant_id": 2589
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "missing_guardian_elixir"
             },
             {
@@ -17411,6 +18790,218 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "33265": {
+                        "source": 12,
+                        "ability": 33265,
+                        "stacks": 1,
+                        "icon": "spell_misc_food.jpg",
+                        "name": "Well Fed",
+                        "events": []
+                    },
+                    "24932": {
+                        "source": 21,
+                        "ability": 24932,
+                        "stacks": 1,
+                        "icon": "spell_nature_unyeildingstamina.jpg",
+                        "name": "Leader of the Pack",
+                        "events": []
+                    },
+                    "39627": {
+                        "source": 12,
+                        "ability": 39627,
+                        "stacks": 1,
+                        "icon": "inv_potion_155.jpg",
+                        "name": "Elixir of Draenic Wisdom",
+                        "events": []
+                    },
+                    "28491": {
+                        "source": 12,
+                        "ability": 28491,
+                        "stacks": 1,
+                        "icon": "inv_potion_142.jpg",
+                        "name": "Healing Power",
+                        "events": []
+                    },
+                    "25312": {
+                        "source": 4,
+                        "ability": 25312,
+                        "stacks": 1,
+                        "icon": "spell_holy_divinespirit.jpg",
+                        "name": "Divine Spirit",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22489&ench=2591",
+                        "slot": "Jambes",
+                        "enchant_id": 2591
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22490&ench=2591",
+                        "slot": "T\u00eate",
+                        "enchant_id": 2591
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22491&ench=2604",
+                        "slot": "\u00c9paule",
+                        "enchant_id": 2604
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28663"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28782"
+                    },
+                    {
+                        "type": "no_temporary_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28782"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        6,
+                        0,
+                        55
+                    ],
+                    "spec": "RestorationDruid"
+                },
+                "casts": {
+                    "33891": 1,
+                    "33763": 68,
+                    "26982": 4,
+                    "26980": 8
+                },
+                "gear": [
+                    {
+                        "id": 22490,
+                        "quality": 4,
+                        "icon": "inv_helmet_15.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2591,
+                        "wowhead_attr": "domain=fr.tbc&item=22490&ench=2591"
+                    },
+                    {
+                        "id": 21712,
+                        "quality": 4,
+                        "icon": "inv_jewelry_necklace_ahnqiraj_02.jpg",
+                        "itemLevel": 88,
+                        "wowhead_attr": "domain=fr.tbc&item=21712"
+                    },
+                    {
+                        "id": 22491,
+                        "quality": 4,
+                        "icon": "inv_shoulder_14.jpg",
+                        "itemLevel": 86,
+                        "permanentEnchant": 2604,
+                        "wowhead_attr": "domain=fr.tbc&item=22491&ench=2604"
+                    },
+                    {
+                        "id": 22488,
+                        "quality": 4,
+                        "icon": "inv_chest_chain_15.jpg",
+                        "itemLevel": 92,
+                        "permanentEnchant": 1891,
+                        "wowhead_attr": "domain=fr.tbc&item=22488&ench=1891"
+                    },
+                    {
+                        "id": 22494,
+                        "quality": 4,
+                        "icon": "inv_belt_22.jpg",
+                        "itemLevel": 88,
+                        "wowhead_attr": "domain=fr.tbc&item=22494"
+                    },
+                    {
+                        "id": 22489,
+                        "quality": 4,
+                        "icon": "inv_pants_mail_15.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2591,
+                        "wowhead_attr": "domain=fr.tbc&item=22489&ench=2591"
+                    },
+                    {
+                        "id": 28663,
+                        "quality": 4,
+                        "icon": "inv_boots_fabric_01.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28663"
+                    },
+                    {
+                        "id": 22495,
+                        "quality": 4,
+                        "icon": "inv_bracer_02.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2566,
+                        "wowhead_attr": "domain=fr.tbc&item=22495&ench=2566"
+                    },
+                    {
+                        "id": 22493,
+                        "quality": 4,
+                        "icon": "inv_gauntlets_25.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2617,
+                        "wowhead_attr": "domain=fr.tbc&item=22493&ench=2617"
+                    },
+                    {
+                        "id": 23064,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_51naxxramas.jpg",
+                        "itemLevel": 92,
+                        "wowhead_attr": "domain=fr.tbc&item=23064"
+                    },
+                    {
+                        "id": 22939,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_50naxxramas.jpg",
+                        "itemLevel": 83,
+                        "wowhead_attr": "domain=fr.tbc&item=22939"
+                    },
+                    {
+                        "id": 19395,
+                        "quality": 4,
+                        "icon": "inv_misc_gem_topaz_02.jpg",
+                        "itemLevel": 75,
+                        "wowhead_attr": "domain=fr.tbc&item=19395"
+                    },
+                    {
+                        "id": 23047,
+                        "quality": 4,
+                        "icon": "inv_trinket_naxxramas01.jpg",
+                        "itemLevel": 90,
+                        "wowhead_attr": "domain=fr.tbc&item=23047"
+                    },
+                    {
+                        "id": 21583,
+                        "quality": 4,
+                        "icon": "inv_misc_cape_02.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2621,
+                        "wowhead_attr": "domain=fr.tbc&item=21583&ench=2621"
+                    },
+                    {
+                        "id": 28782,
+                        "quality": 4,
+                        "icon": "inv_staff_53.jpg",
+                        "itemLevel": 125,
+                        "wowhead_attr": "domain=fr.tbc&item=28782"
+                    },
+                    {
+                        "id": 27886,
+                        "quality": 1,
+                        "icon": "spell_nature_natureresistancetotem.jpg",
+                        "itemLevel": 112,
+                        "wowhead_attr": "domain=fr.tbc&item=27886"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -17464,27 +19055,9 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22489&ench=2591",
-                        "slot": "Jambes",
-                        "enchant_id": 2591
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=22490&ench=2591",
                         "slot": "T\u00eate",
                         "enchant_id": 2591
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22490&ench=2591",
-                        "slot": "T\u00eate",
-                        "enchant_id": 2591
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22491&ench=2604",
-                        "slot": "\u00c9paule",
-                        "enchant_id": 2604
                     },
                     {
                         "type": "invalid_enchant",
@@ -17507,18 +19080,6 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28663"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28782"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28782"
-                    },
-                    {
-                        "type": "no_temporary_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28782"
                     },
                     {
@@ -17535,10 +19096,9 @@
                     "spec": "RestorationDruid"
                 },
                 "casts": {
-                    "33891": 1,
-                    "33763": 141,
-                    "26982": 20,
-                    "26980": 14,
+                    "33763": 73,
+                    "26982": 16,
+                    "26980": 6,
                     "17531": 1,
                     "29166": 1,
                     "28780": 1,
@@ -17992,30 +19552,9 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22489&ench=2591",
-                "slot": "Jambes",
-                "enchant_id": 2591
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=22490&ench=2591",
                 "slot": "T\u00eate",
                 "enchant_id": 2591
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22490&ench=2591",
-                "slot": "T\u00eate",
-                "enchant_id": 2591
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22491&ench=2604",
-                "slot": "\u00c9paule",
-                "enchant_id": 2604
             },
             {
                 "fight": "Netherspite",
@@ -18042,7 +19581,28 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=28782"
             },
             {
-                "fight": "Netherspite",
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22489&ench=2591",
+                "slot": "Jambes",
+                "enchant_id": 2591
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22490&ench=2591",
+                "slot": "T\u00eate",
+                "enchant_id": 2591
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22491&ench=2604",
+                "slot": "\u00c9paule",
+                "enchant_id": 2604
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28782"
             },
@@ -19669,6 +21229,235 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "33263": {
+                        "source": 1,
+                        "ability": 33263,
+                        "stacks": 1,
+                        "icon": "spell_misc_food.jpg",
+                        "name": "Well Fed",
+                        "events": []
+                    },
+                    "27149": {
+                        "source": 10,
+                        "ability": 27149,
+                        "stacks": 1,
+                        "icon": "spell_holy_devotionaura.jpg",
+                        "name": "Devotion Aura",
+                        "events": []
+                    },
+                    "25895": {
+                        "source": 10,
+                        "ability": 25895,
+                        "stacks": 1,
+                        "icon": "spell_holy_greaterblessingofsalvation.jpg",
+                        "name": "Greater Blessing of Salvation",
+                        "events": []
+                    },
+                    "28540": {
+                        "source": 1,
+                        "ability": 28540,
+                        "stacks": 1,
+                        "icon": "inv_potion_115.jpg",
+                        "name": "Flask of Pure Death",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
+                        "slot": "Poignets",
+                        "enchant_id": 1883
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        0,
+                        21,
+                        40
+                    ],
+                    "spec": "DestructionWarlock"
+                },
+                "casts": {
+                    "27228": 1,
+                    "27215": 5,
+                    "27209": 45,
+                    "35163": 1,
+                    "27222": 9,
+                    "27237": 1,
+                    "29858": 1
+                },
+                "gear": [
+                    {
+                        "id": 28963,
+                        "quality": 4,
+                        "icon": "inv_helmet_89.jpg",
+                        "itemLevel": 120,
+                        "permanentEnchant": 3002,
+                        "gems": [
+                            {
+                                "id": 34220,
+                                "itemLevel": 70,
+                                "icon": "inv_misc_gem_diamond_07.jpg"
+                            },
+                            {
+                                "id": 24030,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28963&gems=34220%3A24030&ench=3002"
+                    },
+                    {
+                        "id": 28530,
+                        "quality": 4,
+                        "icon": "inv_jewelry_necklace_ahnqiraj_04.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28530"
+                    },
+                    {
+                        "id": 27994,
+                        "quality": 3,
+                        "icon": "inv_shoulder_36.jpg",
+                        "itemLevel": 112,
+                        "permanentEnchant": 2605,
+                        "wowhead_attr": "domain=fr.tbc&item=27994&ench=2605"
+                    },
+                    {
+                        "id": 31297,
+                        "quality": 3,
+                        "icon": "inv_chest_cloth_25.jpg",
+                        "itemLevel": 112,
+                        "permanentEnchant": 2661,
+                        "wowhead_attr": "domain=fr.tbc&item=31297&ench=2661"
+                    },
+                    {
+                        "id": 27795,
+                        "quality": 3,
+                        "icon": "inv_belt_13.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=27795"
+                    },
+                    {
+                        "id": 24262,
+                        "quality": 4,
+                        "icon": "inv_pants_cloth_14.jpg",
+                        "itemLevel": 105,
+                        "permanentEnchant": 2748,
+                        "gems": [
+                            {
+                                "id": 24056,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nightseye_03.jpg"
+                            },
+                            {
+                                "id": 24030,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            },
+                            {
+                                "id": 24030,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=24262&gems=24056%3A24030%3A24030&ench=2748"
+                    },
+                    {
+                        "id": 21870,
+                        "quality": 4,
+                        "icon": "inv_boots_cloth_03.jpg",
+                        "itemLevel": 105,
+                        "permanentEnchant": 2940,
+                        "gems": [
+                            {
+                                "id": 31867,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nightseye_03.jpg"
+                            },
+                            {
+                                "id": 31116,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nightseye_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=21870&gems=31867%3A31116&ench=2940"
+                    },
+                    {
+                        "id": 21186,
+                        "quality": 4,
+                        "icon": "inv_bracer_12.jpg",
+                        "itemLevel": 62,
+                        "permanentEnchant": 1883,
+                        "wowhead_attr": "domain=fr.tbc&item=21186&ench=1883"
+                    },
+                    {
+                        "id": 28968,
+                        "quality": 4,
+                        "icon": "inv_gauntlets_52.jpg",
+                        "itemLevel": 120,
+                        "permanentEnchant": 2937,
+                        "wowhead_attr": "domain=fr.tbc&item=28968&ench=2937"
+                    },
+                    {
+                        "id": 21417,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_ahnqiraj_03.jpg",
+                        "itemLevel": 65,
+                        "permanentEnchant": 2928,
+                        "wowhead_attr": "domain=fr.tbc&item=21417&ench=2928"
+                    },
+                    {
+                        "id": 21709,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_ahnqiraj_02.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2928,
+                        "wowhead_attr": "domain=fr.tbc&item=21709&ench=2928"
+                    },
+                    {
+                        "id": 29370,
+                        "quality": 4,
+                        "icon": "inv_weapon_shortblade_23.jpg",
+                        "itemLevel": 110,
+                        "wowhead_attr": "domain=fr.tbc&item=29370"
+                    },
+                    {
+                        "id": 29132,
+                        "quality": 3,
+                        "icon": "inv_misc_gem_bloodstone_02.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=29132"
+                    },
+                    {
+                        "id": 28766,
+                        "quality": 4,
+                        "icon": "inv_misc_cape_18.jpg",
+                        "itemLevel": 125,
+                        "permanentEnchant": 2938,
+                        "wowhead_attr": "domain=fr.tbc&item=28766&ench=2938"
+                    },
+                    {
+                        "id": 22630,
+                        "quality": 5,
+                        "icon": "inv_staff_medivh.jpg",
+                        "itemLevel": 90,
+                        "permanentEnchant": 2669,
+                        "temporaryEnchant": 2628,
+                        "wowhead_attr": "domain=fr.tbc&item=22630&ench=2669"
+                    },
+                    {
+                        "id": 28386,
+                        "quality": 3,
+                        "icon": "inv_wand_17.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28386"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -19727,12 +21516,6 @@
                         "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
                         "slot": "Poignets",
                         "enchant_id": 1883
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
-                        "slot": "Poignets",
-                        "enchant_id": 1883
                     }
                 ],
                 "talents": {
@@ -19744,14 +21527,13 @@
                     "spec": "DestructionWarlock"
                 },
                 "casts": {
-                    "27228": 2,
-                    "27215": 9,
-                    "27209": 100,
-                    "35163": 3,
-                    "27222": 18,
-                    "27237": 1,
-                    "29858": 2,
+                    "27228": 1,
+                    "27215": 4,
+                    "27209": 55,
                     "30912": 2,
+                    "35163": 2,
+                    "27222": 9,
+                    "29858": 1,
                     "5019": 1,
                     "35337": 1,
                     "17531": 1
@@ -20203,7 +21985,7 @@
                 "enchant_id": 1883
             },
             {
-                "fight": "Netherspite",
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=21186&ench=1883",
                 "slot": "Poignets",
@@ -22412,6 +24194,391 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "39625": {
+                        "source": 10,
+                        "ability": 39625,
+                        "stacks": 1,
+                        "icon": "inv_potion_158.jpg",
+                        "name": "Elixir of Major Fortitude",
+                        "events": []
+                    },
+                    "33721": {
+                        "source": 10,
+                        "ability": 33721,
+                        "stacks": 1,
+                        "icon": "inv_alchemy_potion_05.jpg",
+                        "name": "Spellpower Elixir",
+                        "events": []
+                    },
+                    "27127": {
+                        "source": 9,
+                        "ability": 27127,
+                        "stacks": 1,
+                        "icon": "spell_holy_arcaneintellect.jpg",
+                        "name": "Arcane Brilliance",
+                        "events": []
+                    },
+                    "27149": {
+                        "source": 10,
+                        "ability": 27149,
+                        "stacks": 1,
+                        "icon": "spell_holy_devotionaura.jpg",
+                        "name": "Devotion Aura",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27803&ench=2990",
+                        "slot": "\u00c9paule",
+                        "enchant_id": 2990
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28502&ench=2648",
+                        "slot": "Poignets",
+                        "enchant_id": 2648
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28747&ench=2841",
+                        "wowhead_attr": "domain=fr.tbc&spell=44968",
+                        "slot": "Pieds",
+                        "enchant_id": 2841
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184&ench=2841",
+                        "wowhead_attr": "domain=fr.tbc&spell=44968",
+                        "slot": "Jambes",
+                        "enchant_id": 2841
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27803",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28502",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                        "wowhead_attr": "domain=fr.tbc&item=23115"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                        "wowhead_attr": "domain=fr.tbc&item=23110"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                        "wowhead_attr": "domain=fr.tbc&item=23118"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                        "wowhead_attr": "domain=fr.tbc&item=28470"
+                    },
+                    {
+                        "type": "missing_food"
+                    },
+                    {
+                        "type": "no_temporary_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27899"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        0,
+                        43,
+                        18
+                    ],
+                    "spec": "ProtectionPaladin"
+                },
+                "casts": {
+                    "27179": 7,
+                    "20271": 10,
+                    "1": 60,
+                    "31801": 11,
+                    "27173": 3,
+                    "27166": 1
+                },
+                "gear": [
+                    {
+                        "id": 28593,
+                        "quality": 4,
+                        "icon": "inv_helmet_03.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2999,
+                        "gems": [
+                            {
+                                "id": 28470,
+                                "itemLevel": 55,
+                                "icon": "inv_misc_gem_topaz_03.jpg"
+                            },
+                            {
+                                "id": 23118,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_azuredraenite_02.jpg"
+                            },
+                            {
+                                "id": 23118,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_azuredraenite_02.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28593&gems=28470%3A23118%3A23118&ench=2999"
+                    },
+                    {
+                        "id": 29386,
+                        "quality": 4,
+                        "icon": "inv_jewelry_necklace_ahnqiraj_03.jpg",
+                        "itemLevel": 110,
+                        "wowhead_attr": "domain=fr.tbc&item=29386"
+                    },
+                    {
+                        "id": 27803,
+                        "quality": 3,
+                        "icon": "inv_shoulder_26.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2990,
+                        "gems": [
+                            {
+                                "id": 28470,
+                                "itemLevel": 55,
+                                "icon": "inv_misc_gem_topaz_03.jpg"
+                            },
+                            {
+                                "id": 30563,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_talasite_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=27803&gems=28470%3A30563&ench=2990"
+                    },
+                    {
+                        "id": 29066,
+                        "quality": 4,
+                        "icon": "inv_chest_plate18.jpg",
+                        "itemLevel": 120,
+                        "permanentEnchant": 2659,
+                        "gems": [
+                            {
+                                "id": 23110,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_ebondraenite_02.jpg"
+                            },
+                            {
+                                "id": 23118,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_azuredraenite_02.jpg"
+                            },
+                            {
+                                "id": 30558,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nobletopaz_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=29066&gems=23110%3A23118%3A30558&ench=2659"
+                    },
+                    {
+                        "id": 28566,
+                        "quality": 4,
+                        "icon": "inv_belt_27.jpg",
+                        "itemLevel": 115,
+                        "gems": [
+                            {
+                                "id": 23110,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_ebondraenite_02.jpg"
+                            },
+                            {
+                                "id": 23115,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_goldendraenite_02.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28566&gems=23110%3A23115"
+                    },
+                    {
+                        "id": 29184,
+                        "quality": 3,
+                        "icon": "inv_pants_plate_10.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2841,
+                        "gems": [
+                            {
+                                "id": 28470,
+                                "itemLevel": 55,
+                                "icon": "inv_misc_gem_topaz_03.jpg"
+                            },
+                            {
+                                "id": 28470,
+                                "itemLevel": 55,
+                                "icon": "inv_misc_gem_topaz_03.jpg"
+                            },
+                            {
+                                "id": 28470,
+                                "itemLevel": 55,
+                                "icon": "inv_misc_gem_topaz_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=29184&gems=28470%3A28470%3A28470&ench=2841"
+                    },
+                    {
+                        "id": 28747,
+                        "quality": 4,
+                        "icon": "inv_boots_plate_06.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2841,
+                        "gems": [
+                            {
+                                "id": 23110,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_ebondraenite_02.jpg"
+                            },
+                            {
+                                "id": 23118,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_azuredraenite_02.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28747&gems=23110%3A23118&ench=2841"
+                    },
+                    {
+                        "id": 28502,
+                        "quality": 4,
+                        "icon": "inv_bracer_19.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2648,
+                        "gems": [
+                            {
+                                "id": 28470,
+                                "itemLevel": 55,
+                                "icon": "inv_misc_gem_topaz_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28502&gems=28470&ench=2648"
+                    },
+                    {
+                        "id": 32072,
+                        "quality": 4,
+                        "icon": "inv_gauntlets_28.jpg",
+                        "itemLevel": 110,
+                        "permanentEnchant": 2935,
+                        "wowhead_attr": "domain=fr.tbc&item=32072&ench=2935"
+                    },
+                    {
+                        "id": 29279,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_62.jpg",
+                        "itemLevel": 130,
+                        "permanentEnchant": 2928,
+                        "wowhead_attr": "domain=fr.tbc&item=29279&ench=2928"
+                    },
+                    {
+                        "id": 30834,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_41.jpg",
+                        "itemLevel": 100,
+                        "permanentEnchant": 2928,
+                        "wowhead_attr": "domain=fr.tbc&item=30834&ench=2928"
+                    },
+                    {
+                        "id": 27891,
+                        "quality": 3,
+                        "icon": "inv_qirajidol_sage.jpg",
+                        "itemLevel": 112,
+                        "wowhead_attr": "domain=fr.tbc&item=27891"
+                    },
+                    {
+                        "id": 27683,
+                        "quality": 3,
+                        "icon": "inv_misc_gem_pearl_01.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=27683"
+                    },
+                    {
+                        "id": 28660,
+                        "quality": 4,
+                        "icon": "inv_misc_cape_20.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2622,
+                        "wowhead_attr": "domain=fr.tbc&item=28660&ench=2622"
+                    },
+                    {
+                        "id": 27899,
+                        "quality": 3,
+                        "icon": "inv_sword_draenei_04.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2669,
+                        "wowhead_attr": "domain=fr.tbc&item=27899&ench=2669"
+                    },
+                    {
+                        "id": 28606,
+                        "quality": 4,
+                        "icon": "inv_shield_29.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2655,
+                        "wowhead_attr": "domain=fr.tbc&item=28606&ench=2655"
+                    },
+                    {
+                        "id": 29388,
+                        "quality": 1,
+                        "icon": "inv_relics_libramofhope.jpg",
+                        "itemLevel": 110,
+                        "wowhead_attr": "domain=fr.tbc&item=29388"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -22449,28 +24616,9 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27803&ench=2990",
-                        "slot": "\u00c9paule",
-                        "enchant_id": 2990
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28502&ench=2648",
                         "slot": "Poignets",
                         "enchant_id": 2648
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28502&ench=2648",
-                        "slot": "Poignets",
-                        "enchant_id": 2648
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28747&ench=2841",
-                        "wowhead_attr": "domain=fr.tbc&spell=44968",
-                        "slot": "Pieds",
-                        "enchant_id": 2841
                     },
                     {
                         "type": "invalid_enchant",
@@ -22487,25 +24635,8 @@
                         "enchant_id": 2841
                     },
                     {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184&ench=2841",
-                        "wowhead_attr": "domain=fr.tbc&spell=44968",
-                        "slot": "Jambes",
-                        "enchant_id": 2841
-                    },
-                    {
                         "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27803",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27803",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28502",
                         "wowhead_attr": "domain=fr.tbc&item=28470"
                     },
                     {
@@ -22525,31 +24656,6 @@
                     },
                     {
                         "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                        "wowhead_attr": "domain=fr.tbc&item=23115"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=28593",
                         "wowhead_attr": "domain=fr.tbc&item=28470"
                     },
@@ -22575,16 +24681,6 @@
                     },
                     {
                         "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29066",
                         "wowhead_attr": "domain=fr.tbc&item=23110"
                     },
@@ -22592,31 +24688,6 @@
                         "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=29066",
                         "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                        "wowhead_attr": "domain=fr.tbc&item=23110"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                        "wowhead_attr": "domain=fr.tbc&item=23118"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                        "wowhead_attr": "domain=fr.tbc&item=28470"
                     },
                     {
                         "type": "invalid_gem",
@@ -22645,10 +24716,6 @@
                     {
                         "type": "no_temporary_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=27899"
-                    },
-                    {
-                        "type": "no_temporary_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27899"
                     }
                 ],
                 "talents": {
@@ -22660,14 +24727,14 @@
                     "spec": "ProtectionPaladin"
                 },
                 "casts": {
-                    "27179": 13,
-                    "20271": 25,
-                    "1": 168,
-                    "31801": 26,
-                    "27173": 7,
-                    "27166": 2,
                     "27155": 1,
+                    "27173": 4,
+                    "20271": 15,
+                    "1": 108,
+                    "31801": 15,
+                    "27179": 6,
                     "32700": 2,
+                    "27166": 1,
                     "27180": 1,
                     "10278": 1
                 },
@@ -23619,31 +25686,9 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27803&ench=2990",
-                "slot": "\u00c9paule",
-                "enchant_id": 2990
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=28502&ench=2648",
                 "slot": "Poignets",
                 "enchant_id": 2648
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28502&ench=2648",
-                "slot": "Poignets",
-                "enchant_id": 2648
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28747&ench=2841",
-                "wowhead_attr": "domain=fr.tbc&spell=44968",
-                "slot": "Pieds",
-                "enchant_id": 2841
             },
             {
                 "fight": "Netherspite",
@@ -23663,28 +25708,8 @@
             },
             {
                 "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=29184&ench=2841",
-                "wowhead_attr": "domain=fr.tbc&spell=44968",
-                "slot": "Jambes",
-                "enchant_id": 2841
-            },
-            {
-                "fight": "Netherspite",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=27803",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27803",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28502",
                 "wowhead_attr": "domain=fr.tbc&item=28470"
             },
             {
@@ -23708,36 +25733,6 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                "wowhead_attr": "domain=fr.tbc&item=23110"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28566",
-                "wowhead_attr": "domain=fr.tbc&item=23115"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28593",
-                "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=28593",
                 "wowhead_attr": "domain=fr.tbc&item=28470"
             },
@@ -23768,18 +25763,6 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                "wowhead_attr": "domain=fr.tbc&item=23110"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28747",
-                "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=29066",
                 "wowhead_attr": "domain=fr.tbc&item=23110"
             },
@@ -23788,36 +25771,6 @@
                 "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=29066",
                 "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                "wowhead_attr": "domain=fr.tbc&item=23110"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29066",
-                "wowhead_attr": "domain=fr.tbc&item=23118"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=29184",
-                "wowhead_attr": "domain=fr.tbc&item=28470"
             },
             {
                 "fight": "Netherspite",
@@ -23855,7 +25808,125 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=27899"
             },
             {
-                "fight": "Netherspite",
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27803&ench=2990",
+                "slot": "\u00c9paule",
+                "enchant_id": 2990
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28502&ench=2648",
+                "slot": "Poignets",
+                "enchant_id": 2648
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28747&ench=2841",
+                "wowhead_attr": "domain=fr.tbc&spell=44968",
+                "slot": "Pieds",
+                "enchant_id": 2841
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184&ench=2841",
+                "wowhead_attr": "domain=fr.tbc&spell=44968",
+                "slot": "Jambes",
+                "enchant_id": 2841
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27803",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28502",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28566",
+                "wowhead_attr": "domain=fr.tbc&item=23115"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28593",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28747",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                "wowhead_attr": "domain=fr.tbc&item=23110"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29066",
+                "wowhead_attr": "domain=fr.tbc&item=23118"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=29184",
+                "wowhead_attr": "domain=fr.tbc&item=28470"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_food"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27899"
             },
@@ -26358,6 +28429,333 @@
                     }
                 ]
             },
+            "Netherspite - Wipe 1 (39%)": {
+                "name": "Netherspite - Wipe 1 (39%)",
+                "auras": {
+                    "24932": {
+                        "source": 21,
+                        "ability": 24932,
+                        "stacks": 1,
+                        "icon": "spell_nature_unyeildingstamina.jpg",
+                        "name": "Leader of the Pack",
+                        "events": []
+                    },
+                    "28509": {
+                        "source": 15,
+                        "ability": 28509,
+                        "stacks": 1,
+                        "icon": "inv_potion_151.jpg",
+                        "events": []
+                    },
+                    "33261": {
+                        "source": 15,
+                        "ability": 33261,
+                        "stacks": 1,
+                        "icon": "spell_misc_food.jpg",
+                        "name": "Well Fed",
+                        "events": []
+                    },
+                    "32999": {
+                        "source": 4,
+                        "ability": 32999,
+                        "stacks": 1,
+                        "icon": "spell_holy_prayerofspirit.jpg",
+                        "name": "Prayer of Spirit",
+                        "events": []
+                    },
+                    "27127": {
+                        "source": 9,
+                        "ability": 27127,
+                        "stacks": 1,
+                        "icon": "spell_holy_arcaneintellect.jpg",
+                        "name": "Arcane Brilliance",
+                        "events": []
+                    },
+                    "25898": {
+                        "source": 10,
+                        "ability": 25898,
+                        "stacks": 1,
+                        "icon": "spell_magic_greaterblessingofkings.jpg",
+                        "name": "Greater Blessing of Kings",
+                        "events": []
+                    }
+                },
+                "remarks": [
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=22437&ench=2586",
+                        "slot": "Jambes",
+                        "enchant_id": 2586
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27474&ench=1594",
+                        "wowhead_attr": null,
+                        "slot": "Mains",
+                        "enchant_id": 1594
+                    },
+                    {
+                        "type": "invalid_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28772&ench=2523",
+                        "slot": "\u00c0 distance",
+                        "enchant_id": 2523
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27801",
+                        "wowhead_attr": "domain=fr.tbc&item=23100"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27846",
+                        "wowhead_attr": "domain=fr.tbc&item=23100"
+                    },
+                    {
+                        "type": "invalid_gem",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28545",
+                        "wowhead_attr": "domain=fr.tbc&item=23100"
+                    },
+                    {
+                        "type": "missing_battle_elixir"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27892"
+                    },
+                    {
+                        "type": "no_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=28275"
+                    },
+                    {
+                        "type": "no_temporary_enchant",
+                        "item_wowhead_attr": "domain=fr.tbc&item=27846"
+                    }
+                ],
+                "talents": {
+                    "points": [
+                        41,
+                        20,
+                        0
+                    ],
+                    "spec": "SurvivalHunter"
+                },
+                "casts": {
+                    "14325": 1,
+                    "34120": 24,
+                    "75": 21,
+                    "34026": 11,
+                    "1": 26,
+                    "34477": 1,
+                    "27237": 1
+                },
+                "gear": [
+                    {
+                        "id": 28275,
+                        "quality": 3,
+                        "icon": "inv_helmet_19.jpg",
+                        "itemLevel": 115,
+                        "gems": [
+                            {
+                                "id": 24028,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            },
+                            {
+                                "id": 32409,
+                                "itemLevel": 70,
+                                "icon": "inv_misc_gem_diamond_06.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28275&gems=24028%3A32409"
+                    },
+                    {
+                        "id": 29381,
+                        "quality": 4,
+                        "icon": "inv_jewelry_necklace_04.jpg",
+                        "itemLevel": 110,
+                        "wowhead_attr": "domain=fr.tbc&item=29381"
+                    },
+                    {
+                        "id": 27801,
+                        "quality": 3,
+                        "icon": "inv_shoulder_23.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2983,
+                        "gems": [
+                            {
+                                "id": 23100,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_ebondraenite_02.jpg"
+                            },
+                            {
+                                "id": 24028,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=27801&gems=23100%3A24028&ench=2983"
+                    },
+                    {
+                        "id": 28228,
+                        "quality": 3,
+                        "icon": "inv_chest_chain_03.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2661,
+                        "gems": [
+                            {
+                                "id": 24028,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            },
+                            {
+                                "id": 24028,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            },
+                            {
+                                "id": 30549,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nightseye_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28228&gems=24028%3A24028%3A30549&ench=2661"
+                    },
+                    {
+                        "id": 28656,
+                        "quality": 4,
+                        "icon": "inv_belt_22.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28656"
+                    },
+                    {
+                        "id": 22437,
+                        "quality": 4,
+                        "icon": "inv_pants_mail_15.jpg",
+                        "itemLevel": 88,
+                        "permanentEnchant": 2586,
+                        "wowhead_attr": "domain=fr.tbc&item=22437&ench=2586"
+                    },
+                    {
+                        "id": 28545,
+                        "quality": 4,
+                        "icon": "inv_boots_plate_06.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2657,
+                        "gems": [
+                            {
+                                "id": 24028,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            },
+                            {
+                                "id": 23100,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_ebondraenite_02.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=28545&gems=24028%3A23100&ench=2657"
+                    },
+                    {
+                        "id": 29246,
+                        "quality": 4,
+                        "icon": "inv_bracer_15.jpg",
+                        "itemLevel": 110,
+                        "permanentEnchant": 1593,
+                        "wowhead_attr": "domain=fr.tbc&item=29246&ench=1593"
+                    },
+                    {
+                        "id": 27474,
+                        "quality": 3,
+                        "icon": "inv_gauntlets_10.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 1594,
+                        "gems": [
+                            {
+                                "id": 24028,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            },
+                            {
+                                "id": 31118,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_nightseye_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=27474&gems=24028%3A31118&ench=1594"
+                    },
+                    {
+                        "id": 28649,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_47.jpg",
+                        "itemLevel": 115,
+                        "wowhead_attr": "domain=fr.tbc&item=28649"
+                    },
+                    {
+                        "id": 23067,
+                        "quality": 4,
+                        "icon": "inv_jewelry_ring_51naxxramas.jpg",
+                        "itemLevel": 92,
+                        "wowhead_attr": "domain=fr.tbc&item=23067"
+                    },
+                    {
+                        "id": 29383,
+                        "quality": 4,
+                        "icon": "inv_misc_monsterscales_15.jpg",
+                        "itemLevel": 110,
+                        "wowhead_attr": "domain=fr.tbc&item=29383"
+                    },
+                    {
+                        "id": 28041,
+                        "quality": 3,
+                        "icon": "inv_datacrystal06.jpg",
+                        "itemLevel": 88,
+                        "wowhead_attr": "domain=fr.tbc&item=28041"
+                    },
+                    {
+                        "id": 27892,
+                        "quality": 3,
+                        "icon": "inv_misc_cape_08.jpg",
+                        "itemLevel": 112,
+                        "wowhead_attr": "domain=fr.tbc&item=27892"
+                    },
+                    {
+                        "id": 27846,
+                        "quality": 3,
+                        "icon": "inv_weapon_hand_07.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2564,
+                        "gems": [
+                            {
+                                "id": 23100,
+                                "itemLevel": 60,
+                                "icon": "inv_misc_gem_ebondraenite_02.jpg"
+                            },
+                            {
+                                "id": 24028,
+                                "itemLevel": 70,
+                                "icon": "inv_jewelcrafting_livingruby_03.jpg"
+                            }
+                        ],
+                        "wowhead_attr": "domain=fr.tbc&item=27846&gems=23100%3A24028&ench=2564"
+                    },
+                    {
+                        "id": 28315,
+                        "quality": 3,
+                        "icon": "inv_weapon_hand_08.jpg",
+                        "itemLevel": 115,
+                        "permanentEnchant": 2564,
+                        "wowhead_attr": "domain=fr.tbc&item=28315&ench=2564"
+                    },
+                    {
+                        "id": 28772,
+                        "quality": 4,
+                        "icon": "inv_weapon_bow_18.jpg",
+                        "itemLevel": 125,
+                        "permanentEnchant": 2523,
+                        "wowhead_attr": "domain=fr.tbc&item=28772&ench=2523"
+                    }
+                ]
+            },
             "Netherspite": {
                 "name": "Netherspite",
                 "auras": {
@@ -26426,29 +28824,10 @@
                     },
                     {
                         "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=22437&ench=2586",
-                        "slot": "Jambes",
-                        "enchant_id": 2586
-                    },
-                    {
-                        "type": "invalid_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=27474&ench=1594",
                         "wowhead_attr": null,
                         "slot": "Mains",
                         "enchant_id": 1594
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27474&ench=1594",
-                        "wowhead_attr": null,
-                        "slot": "Mains",
-                        "enchant_id": 1594
-                    },
-                    {
-                        "type": "invalid_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28772&ench=2523",
-                        "slot": "\u00c0 distance",
-                        "enchant_id": 2523
                     },
                     {
                         "type": "invalid_enchant",
@@ -26463,22 +28842,7 @@
                     },
                     {
                         "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27801",
-                        "wowhead_attr": "domain=fr.tbc&item=23100"
-                    },
-                    {
-                        "type": "invalid_gem",
                         "item_wowhead_attr": "domain=fr.tbc&item=27846",
-                        "wowhead_attr": "domain=fr.tbc&item=23100"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27846",
-                        "wowhead_attr": "domain=fr.tbc&item=23100"
-                    },
-                    {
-                        "type": "invalid_gem",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28545",
                         "wowhead_attr": "domain=fr.tbc&item=23100"
                     },
                     {
@@ -26498,19 +28862,7 @@
                     },
                     {
                         "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27892"
-                    },
-                    {
-                        "type": "no_enchant",
                         "item_wowhead_attr": "domain=fr.tbc&item=28275"
-                    },
-                    {
-                        "type": "no_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=28275"
-                    },
-                    {
-                        "type": "no_temporary_enchant",
-                        "item_wowhead_attr": "domain=fr.tbc&item=27846"
                     },
                     {
                         "type": "no_temporary_enchant",
@@ -26526,14 +28878,14 @@
                     "spec": "SurvivalHunter"
                 },
                 "casts": {
-                    "14325": 2,
-                    "34120": 93,
-                    "75": 77,
-                    "34026": 33,
-                    "1": 55,
-                    "34477": 2,
-                    "27237": 2,
+                    "75": 56,
+                    "14325": 1,
+                    "34026": 22,
+                    "34120": 69,
+                    "1": 29,
                     "27014": 1,
+                    "34477": 1,
+                    "27237": 1,
                     "19574": 1,
                     "35166": 1,
                     "3045": 1,
@@ -27256,32 +29608,10 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=22437&ench=2586",
-                "slot": "Jambes",
-                "enchant_id": 2586
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27474&ench=1594",
                 "wowhead_attr": null,
                 "slot": "Mains",
                 "enchant_id": 1594
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=27474&ench=1594",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 1594
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "domain=fr.tbc&item=28772&ench=2523",
-                "slot": "\u00c0 distance",
-                "enchant_id": 2523
             },
             {
                 "fight": "Netherspite",
@@ -27299,25 +29629,7 @@
             {
                 "fight": "Netherspite",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27801",
-                "wowhead_attr": "domain=fr.tbc&item=23100"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
                 "item_wowhead_attr": "domain=fr.tbc&item=27846",
-                "wowhead_attr": "domain=fr.tbc&item=23100"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=27846",
-                "wowhead_attr": "domain=fr.tbc&item=23100"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "domain=fr.tbc&item=28545",
                 "wowhead_attr": "domain=fr.tbc&item=23100"
             },
             {
@@ -27340,7 +29652,51 @@
                 "item_wowhead_attr": "domain=fr.tbc&item=27846"
             },
             {
-                "fight": "Netherspite",
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=22437&ench=2586",
+                "slot": "Jambes",
+                "enchant_id": 2586
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=27474&ench=1594",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 1594
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "domain=fr.tbc&item=28772&ench=2523",
+                "slot": "\u00c0 distance",
+                "enchant_id": 2523
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27801",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=27846",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "domain=fr.tbc&item=28545",
+                "wowhead_attr": "domain=fr.tbc&item=23100"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
+                "type": "missing_battle_elixir"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (39%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "domain=fr.tbc&item=27846"
             },

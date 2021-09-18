@@ -54,8 +54,16 @@ def fetch_report_events(report, fight, start_time, end_time):
 authenticate()
 report_id = sys.argv[1]
 report = fetch_report(report_id=report_id)
+fight_nbr = {}
 for fight in report["fights"]:
-    log_debug(f"Doing fight: {fight['name']}")
+    fight_nbr.setdefault(fight["name"], 0)
+    fight_nbr[fight["name"]] += 1
+    fight["internal_name"] = fight["name"]
+    if not fight["kill"]:
+        fight[
+            "internal_name"
+        ] += f" - Wipe {fight_nbr[fight['name']]} ({fight['fightPercentage']}%)"
+    log_debug(f"Doing fight: {fight['internal_name']}")
     fetch_report_events(
         report=report,
         fight=fight,

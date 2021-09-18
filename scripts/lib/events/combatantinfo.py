@@ -49,20 +49,29 @@ class CombatantInfo(Event):
             )
 
         if hasattr(item, "permanentEnchant"):
-            if (e := enchants.get(item.permanentEnchant)) and e.is_restricted(
+            e = enchants.get(item.permanentEnchant)
+            if not e:
+                player_fight.add_remark(
+                    type="invalid_enchant",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}&ench={item.permanentEnchant}",
+                    slot=wowhead_data["slot"],
+                    enchant_id=item.permanentEnchant,
+                )
+            elif e.is_restricted(
                 player=player,
                 fight=player_fight,
                 slot=wowhead_data["slot"],
             ):
                 player_fight.add_remark(
                     type="invalid_enchant",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
+                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}&ench={item.permanentEnchant}",
                     wowhead_attr=(
                         f"domain=fr.tbc&spell={e.spell_id}"
                         if hasattr(e, "spell_id")
                         else None
                     ),
                     slot=wowhead_data["slot"],
+                    enchant_id=item.permanentEnchant,
                 )
         elif wowhead_data["slot"] in SLOTS_TO_ENCHANT:
             player_fight.add_remark(

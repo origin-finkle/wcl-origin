@@ -239,3 +239,18 @@ class Talents(Base):
         elif isinstance(x, Role):
             return x in specs[self.spec]["role"]
         return False
+
+
+def convert_any(v):
+    try:
+        return Class(v)
+    except ValueError:
+        pass
+    try:
+        return Role(v)
+    except ValueError:
+        pass
+    try:
+        return Specialization(v)
+    except ValueError:
+        pass

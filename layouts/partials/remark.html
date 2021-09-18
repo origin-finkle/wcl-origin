@@ -7,7 +7,7 @@ Utilisation d'une gemme <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></
 La méta <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> n'est pas activée sur <a href="#"
 data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
 {{ else if eq $remark.type "invalid_enchant" }}
-Utilisation d'un mauvais enchant{{ if $remark.wowhead_attr }} <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a>{{ end }} sur <a href="#"
+Utilisation d'un mauvais enchant{{ if $remark.wowhead_attr }} <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a>{{ end }} (#{{ $remark.enchant_id }}) sur <a href="#"
     data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
 {{ else if eq $remark.type "missing_gems" }}
 Il manque {{ $remark.count }} gemme{{ with gt $remark.count 1 }}s{{ end }} sur <a href="#"

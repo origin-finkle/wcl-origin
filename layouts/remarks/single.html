@@ -1,0 +1,30 @@
+{{ define "title" }}{{ .Title | markdownify }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+{{ $remarkType := .Params.remark_type }}
+<div class="row">
+    <div class="col-xs-12">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        {{ range $report := (sort $.Site.Data.raids "logs.startTime" "desc") }}
+            {{ range $player := $report.analysis }}
+                {{ range $fight := $player.fights }}
+                    {{ range $remark := $fight.remarks }}
+                        {{ if eq $remark.type $remarkType }}
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <strong>{{ dateFormat "2006-01-02" (time (int (div $report.logs.startTime 1000))) }}</strong> - <strong>{{ $player.name }}</strong> - <strong>{{ $fight.name }}</strong> - {{ partial "remark" $remark }}
+                            </div>
+                        </div>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

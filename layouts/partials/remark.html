@@ -31,6 +31,8 @@ du totem windfury.
 L'amélioration posée sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }} est invalide
 {{ else if eq $remark.type "cast_higher_rank_available" }}
 Le sort {{ partial "wowhead" (dict "data-wowhead" $remark.spell_wowhead_attr) }} a été utilisé {{ $remark.count }} alors qu'un rang plus élevé est disponible ({{ partial "wowhead" (dict "data-wowhead" $remark.higher_ranked_spell_wowhead_attr) }})
+{{ else if eq $remark.type "invalid_talent_points" }}
+{{ $remark.points_used }} / {{ $remark.expected_points }} points de talents utilisés.
 {{ else }}
 {{ errorf "unknown remark type %s" $remark.type }}
 {{ end }}

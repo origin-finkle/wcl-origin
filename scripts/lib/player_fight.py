@@ -58,6 +58,13 @@ class PlayerFight(Base):
 
     def set_talents(self, talents):
         self.talents = Talents(talents=talents, player=self.player)
+        used_talents = sum(self.talents.points)
+        if used_talents != 61 and used_talents > 0:
+            self.add_remark(
+                type="invalid_talent_points",
+                expected_points=61,
+                points_used=used_talents,
+            )
 
     def check_consumables(self):
         if self.name == "Chess Event":

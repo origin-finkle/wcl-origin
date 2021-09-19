@@ -811,6 +811,11 @@
                         "wowhead_attr": "item=23096"
                     },
                     {
+                        "type": "invalid_talent_points",
+                        "expected_points": 61,
+                        "points_used": 60
+                    },
+                    {
                         "type": "no_enchant",
                         "item_wowhead_attr": "item=24362"
                     },
@@ -1053,6 +1058,12 @@
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28179",
                 "wowhead_attr": "item=23096"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_talent_points",
+                "expected_points": 61,
+                "points_used": 60
             },
             {
                 "fight": "Magtheridon",

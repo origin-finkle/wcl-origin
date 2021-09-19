@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{ range .Pages }}
+{{ .Render "summary" }}
+{{ end }}
+{{ end }}

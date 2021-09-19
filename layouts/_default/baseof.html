@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ $scratch := newScratch }}
+    {{ $scratch.Set "js" slice }}
+    {{ $scratch.Set "css" slice }}
+    {{ range resources.Match "css/*.css" }}
+    {{ $scratch.Add "css" . }}
+    {{ end }}
+    {{ range resources.Match "css/*/*.css" }}
+    {{ $scratch.Add "css" . }}
+    {{ end }}
+    {{ range resources.Match "js/*/*.js" }}
+    {{ $scratch.Add "js" . }}
+    {{ end }}
+    {{ range resources.Match "js/*.js" }}
+    {{ $scratch.Add "js" . }}
+    {{ end }}
+    <head>
+        <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+        {{ with (($scratch.Get "css") | resources.Concat "css/style.css") }}
+        <link rel="stylesheet" href="{{ .Permalink }}" media="screen">
+        {{ end }}
+        {{ if $.Site.IsServer }}
+        {{ range $js := $scratch.Get "js" }}
+        <script type="text/javascript" src="{{ .Permalink }}"></script> 
+        {{ end }}
+        {{ else }}
+        {{ with ($scratch.Get "js") | resources.Concat "js/script.js" }}
+        <script type="text/javascript" src="{{ .Permalink }}"></script> 
+        {{ end }}
+        {{ end }}
+    </head>
+    <body>
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>
+                            L'oeil de Mouscou
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu-area mg-tb-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
+                            <li>
+                                <a  href="{{ .Site.BaseURL }}">
+                                    <i class="fa fa-home"></i> Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ .Site.BaseURL }}raids">
+                                    <i class="fa fa-list"></i> Raids
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ .Site.BaseURL }}characters">
+                                    <i class="fa fa-user"></i> Personnages
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <div class="container">
+            {{ block "main" . }}{{ end }}
+        </div>
+        <script>
+            const whTooltips = {
+                colorLinks: true,
+                iconizeLinks: true,
+                renameLinks: true,
+                hide: {
+                    droppedby: true,
+                    maxstack: true,
+                    dropchance: true,
+                    ilvl: true,
+                    sellprice: true,
+                },
+            };
+        </script>
+        <script src="https://wow.zamimg.com/widgets/power.js"></script>
+    </body>
+</html>

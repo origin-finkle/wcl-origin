@@ -17,16 +17,16 @@
     {{ end }}
     <head>
         <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-        {{ with (($scratch.Get "css") | resources.Concat "css/style.css") }}
-        <link rel="stylesheet" href="{{ .Permalink }}" media="screen">
+        {{ with (($scratch.Get "css") | resources.Concat "css/style.css" | resources.Fingerprint "sha512") }}
+        <link rel="stylesheet" href="{{ .Permalink }}" media="screen" integrity="{{ .Data.Integrity }}">
         {{ end }}
         {{ if $.Site.IsServer }}
         {{ range $js := $scratch.Get "js" }}
         <script type="text/javascript" src="{{ .Permalink }}"></script> 
         {{ end }}
         {{ else }}
-        {{ with ($scratch.Get "js") | resources.Concat "js/script.js" }}
-        <script type="text/javascript" src="{{ .Permalink }}"></script> 
+        {{ with ($scratch.Get "js") | resources.Concat "js/script.js" | resources.Fingerprint "sha512" }}
+        <script type="text/javascript" src="{{ .Permalink }}" integrity="{{ .Data.Integrity }}"></script> 
         {{ end }}
         {{ end }}
     </head>

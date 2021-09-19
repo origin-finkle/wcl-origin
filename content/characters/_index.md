@@ -1,3 +1,3 @@
 ---
-title: "Characters"
+title: "Personnages"
 ---

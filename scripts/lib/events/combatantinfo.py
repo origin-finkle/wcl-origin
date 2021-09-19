@@ -35,8 +35,8 @@ class CombatantInfo(Event):
                 if not gem_i or gem_i.is_restricted(player=player, fight=player_fight):
                     player_fight.add_remark(
                         type="invalid_gem",
-                        item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
-                        wowhead_attr=f"domain=fr.tbc&item={gem['id']}",
+                        item_wowhead_attr=f"item={item.id}",
+                        wowhead_attr=f"item={gem['id']}",
                     )
 
         # missing gems on gem slots
@@ -44,7 +44,7 @@ class CombatantInfo(Event):
         if nbr_gems != wowhead_data["sockets"]:
             player_fight.add_remark(
                 type="missing_gems",
-                item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
+                item_wowhead_attr=f"item={item.id}",
                 count=wowhead_data["sockets"] - nbr_gems,
             )
 
@@ -53,7 +53,7 @@ class CombatantInfo(Event):
             if not e:
                 player_fight.add_remark(
                     type="invalid_enchant",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}&ench={item.permanentEnchant}",
+                    item_wowhead_attr=f"item={item.id}&ench={item.permanentEnchant}",
                     slot=wowhead_data["slot"],
                     enchant_id=item.permanentEnchant,
                 )
@@ -64,11 +64,9 @@ class CombatantInfo(Event):
             ):
                 player_fight.add_remark(
                     type="invalid_enchant",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}&ench={item.permanentEnchant}",
+                    item_wowhead_attr=f"item={item.id}&ench={item.permanentEnchant}",
                     wowhead_attr=(
-                        f"domain=fr.tbc&spell={e.spell_id}"
-                        if hasattr(e, "spell_id")
-                        else None
+                        f"spell={e.spell_id}" if hasattr(e, "spell_id") else None
                     ),
                     slot=wowhead_data["slot"],
                     enchant_id=item.permanentEnchant,
@@ -76,7 +74,7 @@ class CombatantInfo(Event):
         elif wowhead_data["slot"] in SLOTS_TO_ENCHANT:
             player_fight.add_remark(
                 type="no_enchant",
-                item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
+                item_wowhead_attr=f"item={item.id}",
             )
 
         if hasattr(item, "temporaryEnchant"):
@@ -84,12 +82,12 @@ class CombatantInfo(Event):
                 if te.is_restricted(player=player, fight=player_fight):
                     player_fight.add_remark(
                         type="invalid_temporary_enchant",
-                        item_wowhead_attr=f"domain=fr.tbc&item={item.id}&ench={item.temporaryEnchant}",
+                        item_wowhead_attr=f"item={item.id}&ench={item.temporaryEnchant}",
                     )
             else:
                 player_fight.add_remark(
                     type="invalid_temporary_enchant",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}&ench={item.temporaryEnchant}",
+                    item_wowhead_attr=f"item={item.id}&ench={item.temporaryEnchant}",
                 )
                 logging.getLogger("default").info(
                     f"Unknown temporary enchant {item.temporaryEnchant} on player {player.name} and fight {player_fight.name}"
@@ -103,10 +101,10 @@ class CombatantInfo(Event):
             ):
                 player_fight.add_remark(
                     type="no_temporary_enchant_but_windfury",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
+                    item_wowhead_attr=f"item={item.id}",
                 )
             else:
                 player_fight.add_remark(
                     type="no_temporary_enchant",
-                    item_wowhead_attr=f"domain=fr.tbc&item={item.id}",
+                    item_wowhead_attr=f"item={item.id}",
                 )

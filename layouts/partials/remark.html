@@ -1,19 +1,15 @@
 {{ $remark := . }}
 {{ if $remark.fight }}<strong>{{ $remark.fight }}</strong> : {{ end }}
 {{ if eq $remark.type "invalid_gem" }}
-Utilisation d'une gemme <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> sur <a href="#"
-    data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+Utilisation d'une gemme {{ partial "wowhead" (dict "data-wowhead" $remark.wowhead_attr) }} sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }}
 {{ else if eq $remark.type "meta_not_activated" }}
-La méta <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> n'est pas activée sur <a href="#"
-data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+La méta {{ partial "wowhead" (dict "data-wowhead" $remark.wowhead_attr) }} n'est pas activée sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }}
 {{ else if eq $remark.type "invalid_enchant" }}
-Utilisation d'un mauvais enchant{{ if $remark.wowhead_attr }} <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a>{{ end }} (#{{ $remark.enchant_id }}) sur <a href="#"
-    data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+Utilisation d'un mauvais enchant{{ if $remark.wowhead_attr }} {{ partial "wowhead" (dict "data-wowhead" $remark.wowhead_attr) }}{{ end }} (#{{ $remark.enchant_id }}) sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }}
 {{ else if eq $remark.type "missing_gems" }}
-Il manque {{ $remark.count }} gemme{{ with gt $remark.count 1 }}s{{ end }} sur <a href="#"
-    data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+Il manque {{ $remark.count }} gemme{{ with gt $remark.count 1 }}s{{ end }} sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }}
 {{ else if eq $remark.type "no_enchant" }}
-Il manque un enchantement sur <a href="#" data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+Il manque un enchantement sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }}
 {{ else if eq $remark.type "missing_battle_elixir" }}
 Il manque un elixir de bataille
 {{ else if eq $remark.type "missing_food" }}
@@ -21,20 +17,20 @@ Il manque un buff nourriture
 {{ else if eq $remark.type "missing_guardian_elixir" }}
 Il manque un elixir de gardien
 {{ else if eq $remark.type "invalid_battle_elixir" }}
-L'elixir de bataille <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> est incorrect
+L'elixir de bataille {{ partial "wowhead" (dict "data-wowhead" $remark.wowhead_attr) }} est incorrect
 {{ else if eq $remark.type "invalid_food" }}
-Le buff nourriture <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> est incorrect
+Le buff nourriture {{ partial "wowhead" (dict "data-wowhead" $remark.wowhead_attr) }} est incorrect
 {{ else if eq $remark.type "invalid_guardian_elixir" }}
-L'elixir de gardien <a href="#" data-wowhead="{{ $remark.wowhead_attr }}"></a> est incorrect
+L'elixir de gardien {{ partial "wowhead" (dict "data-wowhead" $remark.wowhead_attr) }} est incorrect
 {{ else if eq $remark.type "no_temporary_enchant" }}
-Pas d'amélioration posée sur <a href="#" data-wowhead="{{ $remark.item_wowhead_attr }}"></a>
+Pas d'amélioration posée sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }}
 {{ else if eq $remark.type "no_temporary_enchant_but_windfury" }}
-Pas d'amélioration posée sur <a href="#" data-wowhead="{{ $remark.item_wowhead_attr }}"></a>, mais bénéficie peut-être
+Pas d'amélioration posée sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }}, mais bénéficie peut-être
 du totem windfury.
 {{ else if eq $remark.type "invalid_temporary_enchant" }}
-L'amélioration posée sur <a href="#" data-wowhead="{{ $remark.item_wowhead_attr }}"></a> est invalide
+L'amélioration posée sur {{ partial "wowhead" (dict "data-wowhead" $remark.item_wowhead_attr) }} est invalide
 {{ else if eq $remark.type "cast_higher_rank_available" }}
-Le sort <a href="#" data-wowhead="{{ $remark.spell_wowhead_attr }}"></a> a été utilisé {{ $remark.count }} alors qu'un rang plus élevé est disponible (<a href="#" data-wowhead="{{ $remark.higher_ranked_spell_wowhead_attr }}"></a>)
+Le sort {{ partial "wowhead" (dict "data-wowhead" $remark.spell_wowhead_attr) }} a été utilisé {{ $remark.count }} alors qu'un rang plus élevé est disponible ({{ partial "wowhead" (dict "data-wowhead" $remark.higher_ranked_spell_wowhead_attr) }})
 {{ else }}
 {{ errorf "unknown remark type %s" $remark.type }}
 {{ end }}

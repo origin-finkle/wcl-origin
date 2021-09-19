@@ -45,10 +45,10 @@ class PlayerFight(Base):
                 if cast.type == "spell":
                     kw["spell_id"] = cast.spell_id
                     kw["suggested_spell_id"] = cast.suggested_spell_id
-                    kw["spell_wowhead_attr"] = f"domain=fr.tbc&spell={cast.spell_id}"
+                    kw["spell_wowhead_attr"] = f"spell={cast.spell_id}"
                     kw[
                         "higher_ranked_spell_wowhead_attr"
-                    ] = f"domain=fr.tbc&spell={cast.suggested_spell_id}"
+                    ] = f"spell={cast.suggested_spell_id}"
                     kw["count"] = count
                 else:
                     raise Exception(
@@ -88,5 +88,5 @@ class PlayerFight(Base):
         for invalid_consumable in invalid:
             self.add_remark(
                 type=f"invalid_{invalid_consumable[0]}",
-                wowhead_attr=f"domain=fr.tbc&spell={invalid_consumable[1]}",
+                wowhead_attr=f"spell={invalid_consumable[1]}",
             )

@@ -40,6 +40,7 @@ class PlayerFight(Base):
     def check_gear(self):
         if not self.gear:
             return
+        return
         slots = {
             "Tête": 1,
             "Cou": 1,

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" {{ if or (eq .Lang "ar") (eq .Lang "fa") }}dir="rtl"{{ end }}>
+
+  <head>
+    {{ partial "head-meta.html" . }}
+
+    {{ block "schema-dot-org" . }}
+      <!-- schema.org metadata differs for Nodes and Pages -->
+    {{ end }}
+
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}style.css?{{ now.Unix }}">
+
+    {{ partial "head-custom.html" . }}
+  </head>
+
+  <body>
+
+    {{ block "header" . }}
+    {{ if (ne .Site.Params.header_visible false) }}
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="{{ .Site.BaseURL }}">Origin - L'oeil de Moscou</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ .Site.BaseURL }}">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ .Site.BaseURL }}/raids">Raids</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ .Site.BaseURL }}/characters">Personnages</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    {{ end }}
+    {{ end }}
+
+    {{ block "body" . }}
+    <div class="container">
+      <div class="row">
+        <div class="blog-main">
+
+          {{ block "main" . }}
+          <!-- The part of the page that begins to differ between templates -->
+          {{ end }}
+
+        </div> {{ "<!-- /.blog-main -->" | safeHTML }}
+
+        {{ partial "sidebar.html" . }}
+
+      </div> {{ "<!-- /.row -->" | safeHTML }}
+    </div> {{ "<!-- /.container -->" | safeHTML }}
+    {{ end }}
+
+    {{ block "footer" . }}
+    {{ end }}
+
+  </body>
+
+</html>
+
+{{- /* vim: set ts=2 sw=2 et: */}}

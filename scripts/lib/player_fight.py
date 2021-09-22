@@ -3,6 +3,7 @@ from .talents import Talents
 from .remark import Remark
 from lib.data.consumables import consumables
 from lib.data.cast_in_fight import cast_in_fight
+from lib.data.wowhead import get_wowhead_data
 
 
 class PlayerFight(Base):
@@ -15,6 +16,7 @@ class PlayerFight(Base):
                 "talents": None,
                 "casts": {},
                 "player": player,
+                "gear": [],
             }
         )
 
@@ -29,9 +31,45 @@ class PlayerFight(Base):
     def post_process(self):
         self.check_consumables()
         self.check_casts()
+        self.check_talents()
+        self.check_gear()
 
     def is_(self, x):
         return self.talents.is_(x)
+
+    def check_gear(self):
+        if not self.gear:
+            return
+        slots = {
+            "Tête": 1,
+            "Cou": 1,
+            "Épaule": 1,
+            "Torse": 1,
+            "Taille": 1,
+            "Jambes": 1,
+            "Pieds": 1,
+            "Poignets": 1,
+            "Mains": 1,
+            "Doigt": 2,
+            "Bijou": 2,
+            "Dos": 1,
+            "Main droite": 1,
+            "Main gauche": 1,
+            "À distance": 1,
+            "À une main": 1,
+            "Relique": 1,
+            "Deux mains": 1,
+            "Tenu(e) en main gauche": 1,
+        }
+        for gear in self.gear:
+            wowhead_data = get_wowhead_data(item_id=gear.id)
+            if wowhead_data["slot"] in ("Tabard",):
+                continue
+            slots[wowhead_data["slot"]] -= 1
+            if slots[wowhead_data["slot"]] == 0:
+                del wowhead_data["slot"]
+        if slots:
+            print(slots)
 
     def check_casts(self):
         for (spell_id, count) in self.casts.items():
@@ -58,6 +96,10 @@ class PlayerFight(Base):
 
     def set_talents(self, talents):
         self.talents = Talents(talents=talents, player=self.player)
+
+    def check_talents(self):
+        if not self.talents:
+            return
         used_talents = sum(self.talents.points)
         if used_talents != 61 and used_talents > 0:
             self.add_remark(

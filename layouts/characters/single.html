@@ -5,141 +5,142 @@
 
 {{ $character := index .Site.Data.characters .Name }}
 
-<div class="row">
-    <div class="col-xs-12">
+<article class="blog-post">
+    <header>
         <h2 class="blog-post-title" dir="auto"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
-        <div class="row">
-            <div class="col-xs-12">
-                <h3>Présence</h3>
-            </div>
-            <div class="col-xs-12">
-                <table class="table table-responsive table-striped">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>Raid</th>
-                            {{ range $lockout := $.Site.Data.config.lockouts }}
-                                <th>{{ $lockout }}</th>
-                            {{ end }}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Kharazan<br>({{ int (mul $character.attendance.kharazan.percentage 100) }} %)</td>
-                            {{ range $lockout := $.Site.Data.config.lockouts }}
-                                {{ if index $character.attendance.kharazan.details $lockout }}
-                                    <td class="table-success">
-                                        <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.kharazan.details $lockout) 0))) }}">
-                                            ✔️
-                                        </a>
-                                    </td>
-                                {{ else }}
-                                    <td class="table-danger">❌</td>
-                                {{ end }}
-                            {{ end }}
-                        </tr>
-                        <tr>
-                            <td>Gruul<br>({{ int (mul $character.attendance.gruul.percentage 100) }} %)</td>
-                            {{ range $lockout := $.Site.Data.config.lockouts }}
-                                {{ if index $character.attendance.gruul.details $lockout }}
-                                    <td class="table-success">
-                                        <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.gruul.details $lockout) 0))) }}">
-                                            ✔️
-                                        </a>
-                                    </td>
-                                {{ else }}
-                                    <td class="table-danger">❌</td>
-                                {{ end }}
-                            {{ end }}
-                        </tr>
-                        <tr>
-                            <td>Magthéridon<br>({{ int (mul $character.attendance.magtheridon.percentage 100) }} %)</td>
-                            {{ range $lockout := $.Site.Data.config.lockouts }}
-                                {{ if index $character.attendance.magtheridon.details $lockout }}
-                                    <td class="table-success">
-                                        <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.magtheridon.details $lockout) 0))) }}">
-                                            ✔️
-                                        </a>
-                                    </td>
-                                {{ else }}
-                                    <td class="table-danger">❌</td>
-                                {{ end }}
-                            {{ end }}
-                        </tr>
-                        <tr>
-                            <td>SSC<br>({{ int (mul $character.attendance.ssc.percentage 100) }} %)</td>
-                            {{ range $lockout := $.Site.Data.config.lockouts }}
-                                {{ if index $character.attendance.ssc.details $lockout }}
-                                    <td class="table-success">
-                                        <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.ssc.details $lockout) 0))) }}">
-                                            ✔️
-                                        </a>
-                                    </td>
-                                {{ else }}
-                                    <td class="table-danger">❌</td>
-                                {{ end }}
-                            {{ end }}
-                        </tr>
-                        <tr>
-                            <td>TK<br>({{ int (mul $character.attendance.tk.percentage 100) }} %)</td>
-                            {{ range $lockout := $.Site.Data.config.lockouts }}
-                                {{ if index $character.attendance.tk.details $lockout }}
-                                    <td class="table-success">
-                                        <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.tk.details $lockout) 0))) }}">
-                                            ✔️
-                                        </a>
-                                    </td>
-                                {{ else }}
-                                    <td class="table-danger">❌</td>
-                                {{ end }}
-                            {{ end }}
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+    </header>
 
-        <div class="row">
-            {{ range $raid := sort $character.raids ".startTime" "desc" }}
-            <div class="col-xs-12">
-                <h4>
-                    <a href="{{ relURL (printf "/raids/%s#player=%s" (strings.ToLower .reportCode) $character.name) }}">
-                        {{ if eq (int .zoneID) 1007 }}
-                        Kharazan
-                        {{ else if eq (int .zoneID) 1008 }}
-                        Gruul/Magthéridon
-                        {{ else if eq (int .zoneID) 1010 }}
-                        SSC/TK
-                        {{ else }}
-                        {{ errorf "unknown zone ID %d" (int .zoneID) }}
+    <div class="row">
+        <div class="col-12">
+            <h3>Présence</h3>
+        </div>
+        <div class="col-12">
+            <table class="table table-responsive table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Raid</th>
+                        {{ range $lockout := $.Site.Data.config.lockouts }}
+                            <th>{{ $lockout }}</th>
                         {{ end }}
-                        - {{ dateFormat "2006-01-02" (time (int (div .startTime 1000))) }}
-                    </a>
-                </h4>
-                {{ $logs := index (index $.Site.Data.raids $raid.reportCode) "analysis" }}
-                {{ range $player := $logs }}
-                {{ if eq $player.name $.Name }}
-                {{ if $player.remarks }}
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h4>Remarques</h4>
-                        <div class="row">
-                            {{ range $remark := $player.remarks }}
-                            <div class="col-xs-12">
-                                {{ partial "remark" $remark }}
-                            </div>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kharazan<br>({{ int (mul $character.attendance.kharazan.percentage 100) }} %)</td>
+                        {{ range $lockout := $.Site.Data.config.lockouts }}
+                            {{ if index $character.attendance.kharazan.details $lockout }}
+                                <td class="table-success">
+                                    <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.kharazan.details $lockout) 0))) }}">
+                                        ✔️
+                                    </a>
+                                </td>
+                            {{ else }}
+                                <td class="table-danger">❌</td>
                             {{ end }}
+                        {{ end }}
+                    </tr>
+                    <tr>
+                        <td>Gruul<br>({{ int (mul $character.attendance.gruul.percentage 100) }} %)</td>
+                        {{ range $lockout := $.Site.Data.config.lockouts }}
+                            {{ if index $character.attendance.gruul.details $lockout }}
+                                <td class="table-success">
+                                    <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.gruul.details $lockout) 0))) }}">
+                                        ✔️
+                                    </a>
+                                </td>
+                            {{ else }}
+                                <td class="table-danger">❌</td>
+                            {{ end }}
+                        {{ end }}
+                    </tr>
+                    <tr>
+                        <td>Magthéridon<br>({{ int (mul $character.attendance.magtheridon.percentage 100) }} %)</td>
+                        {{ range $lockout := $.Site.Data.config.lockouts }}
+                            {{ if index $character.attendance.magtheridon.details $lockout }}
+                                <td class="table-success">
+                                    <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.magtheridon.details $lockout) 0))) }}">
+                                        ✔️
+                                    </a>
+                                </td>
+                            {{ else }}
+                                <td class="table-danger">❌</td>
+                            {{ end }}
+                        {{ end }}
+                    </tr>
+                    <tr>
+                        <td>SSC<br>({{ int (mul $character.attendance.ssc.percentage 100) }} %)</td>
+                        {{ range $lockout := $.Site.Data.config.lockouts }}
+                            {{ if index $character.attendance.ssc.details $lockout }}
+                                <td class="table-success">
+                                    <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.ssc.details $lockout) 0))) }}">
+                                        ✔️
+                                    </a>
+                                </td>
+                            {{ else }}
+                                <td class="table-danger">❌</td>
+                            {{ end }}
+                        {{ end }}
+                    </tr>
+                    <tr>
+                        <td>TK<br>({{ int (mul $character.attendance.tk.percentage 100) }} %)</td>
+                        {{ range $lockout := $.Site.Data.config.lockouts }}
+                            {{ if index $character.attendance.tk.details $lockout }}
+                                <td class="table-success">
+                                    <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $character.attendance.tk.details $lockout) 0))) }}">
+                                        ✔️
+                                    </a>
+                                </td>
+                            {{ else }}
+                                <td class="table-danger">❌</td>
+                            {{ end }}
+                        {{ end }}
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        {{ range $raid := sort $character.raids ".startTime" "desc" }}
+        <div class="col-12">
+            <h4>
+                <a href="{{ relURL (printf "/raids/%s#player=%s" (strings.ToLower .reportCode) $character.name) }}">
+                    {{ if eq (int .zoneID) 1007 }}
+                    Kharazan
+                    {{ else if eq (int .zoneID) 1008 }}
+                    Gruul/Magthéridon
+                    {{ else if eq (int .zoneID) 1010 }}
+                    SSC/TK
+                    {{ else }}
+                    {{ errorf "unknown zone ID %d" (int .zoneID) }}
+                    {{ end }}
+                    - {{ dateFormat "2006-01-02" (time (int (div .startTime 1000))) }}
+                </a>
+            </h4>
+            {{ $logs := index (index $.Site.Data.raids $raid.reportCode) "analysis" }}
+            {{ range $player := $logs }}
+            {{ if eq $player.name $.Name }}
+            {{ if $player.remarks }}
+            <div class="row">
+                <div class="col-12">
+                    <h4>Remarques</h4>
+                    <div class="row">
+                        {{ range $remark := $player.remarks }}
+                        <div class="col-12">
+                            {{ partial "remark" $remark }}
                         </div>
+                        {{ end }}
                     </div>
                 </div>
-                {{ end }}
-                {{ end }}
-                {{ end }}
             </div>
             {{ end }}
+            {{ end }}
+            {{ end }}
         </div>
-
-
+        {{ end }}
     </div>
-</div>
+
+
+</article>
 
 {{ end }}

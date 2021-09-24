@@ -24,6 +24,8 @@ class GearItem(Base):
         if hasattr(self, "gems"):
             for gem in self.gems:
                 gem_i = gems.get(gem["id"])
+                if not gem_i:
+                    raise Exception(f"Gem {gem['id']} not known")
                 if gem_i.color in colors[color]:
                     count += 1
         return count

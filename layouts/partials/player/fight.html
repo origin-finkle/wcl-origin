@@ -31,30 +31,15 @@
                     </div>
                 </div>
                 {{ end }}
-                {{ if $data.casts }}
-                    {{ $scratch := newScratch }}
-                    {{ $scratch.Set "consumables" slice }}
-                    {{ $scratch.Set "items" slice }}
-                    {{ $scratch.Set "spells" slice }}
-                    {{ $scratch.Set "debug" slice }}
-                    {{ range $spellID, $count := $data.casts }}
-                        {{ $castConfig := index $.Site.Data.config.cast_in_fight $spellID }}
-                        {{ if not $castConfig }}
-                            {{ $scratch.Add "debug" (dict "data-wowhead" (printf "spell=%v" $spellID) "count" $count "spell_id" $spellID) }}
-                        {{ else if eq $castConfig.type "consumable" }}
-                            {{ $scratch.Add "consumables" (dict "data-wowhead" (printf "item=%v" $castConfig.item_id) "count" $count "spell_id" $spellID) }}
-                        {{ else if eq $castConfig.type "item" }}
-                            {{ $scratch.Add "items" (dict "data-wowhead" (printf "item=%v" $castConfig.item_id) "count" $count "spell_id" $spellID) }}
-                        {{ else if eq $castConfig.type "spell" }}
-                            {{ $scratch.Add "spells" (dict "data-wowhead" (printf "spell=%v" $spellID) "count" $count "spell_id" $spellID) }}
-                        {{ end }}
-                    {{ end }}
+                {{ if $data.analysis }}
                     <div class="col-12">
                         <h4>Consommables utilisés</h4>
                         <div class="row">
-                            {{ range $scratch.Get "consumables" }}
+                            {{ range $data.analysis.consumables }}
                                 <div class="col-12">
-                                    {{ .count }} x {{ partial "wowhead" . }} (#{{ .spell_id }})
+                                    {{ $castConfig := index $.Site.Data.config.cast_in_fight (printf "%v" .spell_id) }}
+                                    {{ $attr := printf "item=%v" $castConfig.item_id }}
+                                    {{ .count }} x {{ partialCached "wowhead" (dict "data-wowhead" $attr) $attr }} (#{{ .spell_id }})
                                 </div>
                             {{ else }}
                                 <div class="col-12">
@@ -66,9 +51,11 @@
                     <div class="col-12">
                         <h4>Items utilisés</h4>
                         <div class="row">
-                            {{ range $scratch.Get "items" }}
+                            {{ range $data.analysis.items }}
                                 <div class="col-12">
-                                    {{ .count }} x {{ partial "wowhead" . }} (#{{ .spell_id }})
+                                    {{ $castConfig := index $.Site.Data.config.cast_in_fight (printf "%v" .spell_id) }}
+                                    {{ $attr := printf "item=%v" $castConfig.item_id }}
+                                    {{ .count }} x {{ partialCached "wowhead" (dict "data-wowhead" $attr) $attr }} (#{{ .spell_id }})
                                 </div>
                             {{ else }}
                                 <div class="col-12">
@@ -80,9 +67,10 @@
                     <div class="col-12">
                         <h4>Sorts utilisés</h4>
                         <div class="row">
-                            {{ range $scratch.Get "spells" }}
+                            {{ range $data.analysis.spells }}
                                 <div class="col-12">
-                                    {{ .count }} x {{ partial "wowhead" . }} (#{{ .spell_id }})
+                                    {{ $attr := printf "spell=%v" .spell_id }}
+                                    {{ .count }} x {{ partialCached "wowhead" (dict "data-wowhead" $attr) $attr }} (#{{ .spell_id }})
                                 </div>
                             {{ else }}
                                 <div class="col-12">
@@ -91,13 +79,14 @@
                             {{ end }}
                         </div>
                     </div>
-                    {{ if $scratch.Get "debug" }}
+                    {{ if $data.analysis.unknown }}
                         <div class="col-12">
                             <h4>Debug</h4>
                             <div class="row">
-                                {{ range $scratch.Get "debug" }}
+                                {{ range $data.analysis.unknown }}
                                     <div class="col-12">
-                                        {{ .count }} x {{ partial "wowhead" . }} (#{{ .spell_id }})
+                                        {{ $attr := printf "spell=%v" .spell_id }}
+                                        {{ .count }} x {{ partialCached "wowhead" (dict "data-wowhead" $attr) $attr }} (#{{ .spell_id }})
                                     </div>
                                 {{ end }}
                             </div>

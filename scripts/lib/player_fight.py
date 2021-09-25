@@ -17,6 +17,7 @@ class PlayerFight(Base):
                 "casts": {},
                 "player": player,
                 "gear": [],
+                "analysis": {},
             }
         )
 
@@ -33,9 +34,32 @@ class PlayerFight(Base):
         self.check_casts()
         self.check_talents()
         self.check_gear()
+        self.analyze()
 
     def is_(self, x):
         return self.talents.is_(x)
+
+    def analyze(self):
+        self.analyze_casts()
+
+    def analyze_casts(self):
+        self.analysis["items"] = []
+        self.analysis["spells"] = []
+        self.analysis["unknown"] = []
+        self.analysis["consumables"] = []
+        for (spell_id, count) in self.casts.items():
+            val = {"spell_id": spell_id, "count": count}
+            if ci := cast_in_fight.get(spell_id):
+                if not ci.display:
+                    continue
+                if ci.type == "spell":
+                    self.analysis["spells"].append(val)
+                elif ci.type == "consumable":
+                    self.analysis["consumables"].append(val)
+                elif ci.type == "item":
+                    self.analysis["items"].append(val)
+            else:
+                self.analysis["unknown"].append(val)
 
     def check_gear(self):
         if not self.gear:

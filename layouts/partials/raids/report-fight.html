@@ -15,10 +15,41 @@
     </div>
     <div class="col-12">
         <div class="row">
-            <div class="col-12 col-md-6 list-group">
+            <div class="col-12 col-md-6">
+                <h3>Joueurs</h3>
+                <div class="list-group">
+                    {{ range $player := (sort $analysis ".name" "asc") }}
+                        {{ if index $player.fights $fightName }}
+                            <a class="list-group-item list-group-item-action" href="{{ $page.Permalink }}{{ strings.ToLower $player.name }}">{{ $player.name }}</a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Consommables utilisés</h3>
+                {{ $scratch := newScratch }}
+                {{ $scratch.Set "list" slice }}
                 {{ range $player := $analysis }}
-                    <a class="list-group-item list-group-item-action" href="{{ $page.Permalink }}{{ strings.ToLower $player.name }}">{{ $player.name }}</a>
+                    {{ $fight := index $player.fights $fightName }}
+                    {{ range $fight.analysis.consumables }}
+                        {{ $key := printf "%v" .spell_id }}
+                        {{ if not ($scratch.Get $key) }}
+                            {{ $scratch.Set $key 0 }}
+                            {{ $scratch.Add "list" .spell_id }}
+                        {{ end }}
+                        {{ $scratch.Set $key (add ($scratch.Get $key) .count) }}
+                    {{ end }}
                 {{ end }}
+                <div class="row">
+                    {{ range $scratch.Get "list" }}
+                        {{ $key := (printf "%v" .) }}
+                        {{ $castConfig := index $.Site.Data.config.cast_in_fight $key }}
+                        {{ $attr := printf "item=%v" $castConfig.item_id }}
+                        <div class="col-12">
+                            {{ $scratch.Get $key }} x {{ partialCached "wowhead" (dict "data-wowhead" $attr) $attr }}
+                        </div>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>

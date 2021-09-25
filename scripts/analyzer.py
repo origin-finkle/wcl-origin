@@ -137,6 +137,7 @@ with open(f"./data/raids/{logs['code']}/logs.json", "w+") as file:
                 fight["internal_name"]: {
                     "startTime": fight["startTime"],
                     "endTime": fight["endTime"],
+                    "name": fight["internal_name"],
                 }
                 for fight in logs["fights"]
             },

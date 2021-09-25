@@ -1,25 +1,18 @@
 {{ $logs := index (index .Site.Data.raids .Page.Params.reportCode) "logs" }}
 
 <div class="row">
-    <div class="col-12">
+    <div class="col-12 col-md-6">
         <h2>Combats</h2>
-    </div>
-    <div class="col-12">
         <div class="row">
             <div class="col-12 col-md-6 list-group">
-                {{ range $name, $fights := $logs.fights }}
-                    <a class="list-group-item list-group-item-action" href="fight-{{ urlize $name }}">{{ $name }}</a>
+                {{ range $fight := (sort $logs.fights ".startTime" "asc") }}
+                    <a class="list-group-item list-group-item-action" href="fight-{{ urlize $fight.name }}">{{ $fight.name }}</a>
                 {{ end }}
             </div>
         </div>
     </div>
-</div>
-
-<div class="row">
-    <div class="col-12">
+    <div class="col-12 col-md-6">
         <h2>Joueurs</h2>
-    </div>
-    <div class="col-12">
         <div class="row">
             <div class="col-12 col-md-6 list-group">
                 {{ range $name := (sort $logs.actors) }}

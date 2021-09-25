@@ -3,19 +3,22 @@
         "display": true,
         "name": "Potion de super-mana",
         "type": "consumable",
-        "item_id": 22832
+        "item_id": 22832,
+        "cooldown_id": "2min_potion"
     },
     "28508": {
         "display": true,
         "name": "Potion de destruction",
         "type": "consumable",
-        "item_id": 22839
+        "item_id": 22839,
+        "cooldown_id": "2min_potion"
     },
     "28507": {
         "display": true,
         "name": "Potion de hâte",
         "type": "consumable",
-        "item_id": 22838
+        "item_id": 22838,
+        "cooldown_id": "2min_potion"
     },
     "28515": {
         "display": true,
@@ -65,7 +68,8 @@
     },
     "1": {
         "display": false,
-        "name": "ignore"
+        "name": "ignore",
+        "type": "unknown"
     },
     "27002": {
         "display": true,
@@ -391,13 +395,15 @@
     "41618": {
         "display": true,
         "name": "Potion de mana TK",
-        "type": "item",
-        "item_id": 32902
+        "type": "consumable",
+        "item_id": 32902,
+        "cooldown_id": "2min_potion"
     },
     "41617": {
         "display": true,
         "name": "Potion de mana SSC",
-        "type": "item",
-        "item_id": 32903
+        "type": "consumable",
+        "item_id": 32903,
+        "cooldown_id": "2min_potion"
     }
 }

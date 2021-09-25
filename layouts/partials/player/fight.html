@@ -2,10 +2,7 @@
 {{ $data := .data }}
 
 {{ $wowhead := .Site.Data.config.wowhead }}
-{{ $temporaryEnchants := newScratch }}
-{{ range $te := .Site.Data.config.temporary_enchants }}
-    {{ $temporaryEnchants.Set (string $te.id) $te }}
-{{ end }}
+{{ $temporaryEnchants := partialCached "cached/data/temporary-enchants" .Site.Data "0" }}
 
 <div class="col-12">
     <div class="row">

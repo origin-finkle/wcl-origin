@@ -1,0 +1,5 @@
+{{ $temporaryEnchants := newScratch }}
+{{ range $te := .Site.Data.config.temporary_enchants }}
+    {{ $temporaryEnchants.Set (string $te.id) $te }}
+{{ end }}
+{{ return $temporaryEnchants }}

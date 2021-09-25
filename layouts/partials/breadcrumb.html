@@ -9,6 +9,9 @@
         {{ $scratch.Set "page" $page.Parent }}
     {{ end }}
 {{ end }}
+
+{{ $dropdown := (or $page.Params.fight $page.Params.player) }}
+
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         {{ $breadcrumb := $scratch.Get "breadcrumb" }}
@@ -16,9 +19,18 @@
         {{ range seq $len }}
             {{ with index $breadcrumb (sub $len .) }}
                 <li class="breadcrumb-item {{ if eq $page . }}active{{ end }}" {{ if eq $page . }}aria-current="page"{{ end }}>
-                    <a href="{{ .Permalink }}">
+                    <a {{ if ne $page . }}href="{{ .Permalink }}"{{ else if $dropdown }}class="dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{{ end }}>
                         {{ .Title | markdownify }}
                     </a>
+                    {{ if and (eq $page .) $dropdown }}
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                            {{ range $page.Parent.Pages }}
+                                {{ if or (and (in $page.Permalink "fight-") (in .Permalink "fight-")) (and (in $page.Permalink "player-") (in .Permalink "player-")) }}
+                                    <a class="dropdown-item" href="{{ .Permalink }}">{{ .Title }}</a>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    {{ end }}
                 </li>
             {{ end }}
         {{ end }}

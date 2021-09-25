@@ -4,20 +4,28 @@
     <div class="col-12">
         <h2>Combats</h2>
     </div>
-    {{ range $name, $fights := $logs.fights }}
-        <div class="col-12">
-            <a href="fight/{{ urlize $name }}">{{ $name }}</a>
+    <div class="col-12">
+        <div class="row">
+            <div class="col-12 col-md-6 list-group">
+                {{ range $name, $fights := $logs.fights }}
+                    <a class="list-group-item list-group-item-action" href="fight-{{ urlize $name }}">{{ $name }}</a>
+                {{ end }}
+            </div>
         </div>
-    {{ end }}
+    </div>
 </div>
 
 <div class="row">
     <div class="col-12">
         <h2>Joueurs</h2>
     </div>
-    {{ range $name := (sort $logs.actors) }}
-        <div class="col-12">
-            <a href="player/{{ strings.ToLower $name }}">{{ $name }}</a>
+    <div class="col-12">
+        <div class="row">
+            <div class="col-12 col-md-6 list-group">
+                {{ range $name := (sort $logs.actors) }}
+                    <a class="list-group-item list-group-item-action" href="player-{{ strings.ToLower $name }}">{{ $name }}</a>
+                {{ end }}
+            </div>
         </div>
-    {{ end }}
+    </div>
 </div>

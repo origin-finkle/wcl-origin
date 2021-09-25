@@ -12,6 +12,7 @@
     {{ $scratch.Set $p.name $p }}
 {{ end }}
 {{ $player := $scratch.Get .Page.Params.player }}
+{{ $page := .Page }}
 
 <div class="row">
     <div class="col-12">
@@ -30,18 +31,14 @@
             </div>
         </div>
         {{ end }}
-        {{ range $name, $data := $player.fights }}
+        <div class="col-12">
             <div class="row">
-                <div class="col-12">
-                    {{ $fight := index $logs.fights $name}}
-                    {{ $duration := div (sub $fight.endTime $fight.startTime) 1000 }}
-                    {{ $minutes := int (div $duration 60) }}
-                    {{ $seconds := mod $duration 60 }}
-                    <h3>{{ $name }} ({{ printf "%d:%02d" $minutes $seconds }})</h3>
-                    {{ partial "player/talents" $data.talents }}
+                <div class="col-12 col-md-6 list-group">
+                    {{ range $name, $data := $player.fights }}
+                        <a class="list-group-item list-group-item-action" href="{{ $page.Permalink }}{{ urlize $name }}">{{ $name }}</a>
+                    {{ end }}
                 </div>
-                {{ partial "player/fight" (dict "player" $player "data" $data "Site" $site) }}
             </div>
-        {{ end }}
+        </div>
     </div>
 </div>

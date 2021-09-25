@@ -20,8 +20,10 @@
             sont donc à prendre avec des pincettes, certains consommables n'étant pas remontés par le journal de combat
             comme étant assez intéressants pour l'analyse.
         </div>
-
-        {{ if .Page.Params.player }}
+        
+        {{ if and .Page.Params.player .Page.Params.fight }}
+            {{ partial "raids/report-fight-player" . }}
+        {{ else if .Page.Params.player }}
             {{ partial "raids/report-player" . }}
         {{ else if .Page.Params.fight }}
             {{ partial "raids/report-fight" . }}

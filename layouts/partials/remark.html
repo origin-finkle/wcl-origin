@@ -32,6 +32,8 @@ L'amélioration posée sur {{ partialCached "wowhead" (dict "data-wowhead" .item
 Le sort {{ partialCached "wowhead" (dict "data-wowhead" .spell_wowhead_attr) .spell_wowhead_attr }} a été utilisé {{ .count }} alors qu'un rang plus élevé est disponible ({{ partialCached "wowhead" (dict "data-wowhead" .higher_ranked_spell_wowhead_attr) .higher_ranked_spell_wowhead_attr }})
 {{ else if eq .type "invalid_talent_points" }}
 {{ .points_used }} / {{ .expected_points }} points de talents utilisés.
+{{ else if eq .type "missing_item_in_slot" }}
+Il manque un item dans le slot {{ .slot }}
 {{ else }}
 {{ errorf "unknown remark type %s" .type }}
 {{ end }}

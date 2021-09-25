@@ -2,10 +2,15 @@ import json
 import requests
 import xml.etree.ElementTree as ET
 
-wowhead = {}
+wowhead = {
+    "items": {},
+}
 
-with open("./data/config/wowhead.json") as file:
-    wowhead = json.load(file)
+try:
+    with open("./data/config/wowhead.json") as file:
+        wowhead = json.load(file)
+except FileNotFoundError:
+    pass
 
 
 def get_wowhead_data(item_id=None, gem_id=None):

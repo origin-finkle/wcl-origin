@@ -24,7 +24,7 @@ class PlayerFight(Base):
         return {k: v for (k, v) in self.__dict__.items() if k not in ("player",)}
 
     def add_remark(self, type, **kwargs):
-        d = {"type": type}
+        d = {"type": type, "fight": self.name}
         d.update(kwargs)
         self.remarks.append(Remark(d))
 
@@ -40,7 +40,6 @@ class PlayerFight(Base):
     def check_gear(self):
         if not self.gear:
             return
-        return
         slots = {
             "Tête": 1,
             "Cou": 1,
@@ -57,20 +56,69 @@ class PlayerFight(Base):
             "Main droite": 1,
             "Main gauche": 1,
             "À distance": 1,
-            "À une main": 1,
+            "À une main": 2,
             "Relique": 1,
             "Deux mains": 1,
             "Tenu(e) en main gauche": 1,
+            "Armes de jet": 1,
         }
         for gear in self.gear:
             wowhead_data = get_wowhead_data(item_id=gear.id)
-            if wowhead_data["slot"] in ("Tabard",):
+            if wowhead_data.get("slot") in ("Tabard", "Chemise"):
                 continue
             slots[wowhead_data["slot"]] -= 1
             if slots[wowhead_data["slot"]] == 0:
-                del wowhead_data["slot"]
-        if slots:
-            print(slots)
+                del slots[wowhead_data["slot"]]
+        for slot in (
+            "Tête",
+            "Cou",
+            "Épaule",
+            "Torse",
+            "Taille",
+            "Jambes",
+            "Pieds",
+            "Poignets",
+            "Mains",
+            "Doigt",
+            "Bijou",
+            "Dos",
+        ):
+            if slots.get(slot):
+                self.add_remark(type="missing_item_in_slot", slot=slot)
+        if all(slot in slots for slot in ("Relique", "Armes de jet", "À distance")):
+            self.add_remark(
+                type="missing_item_in_slot",
+                slot="Relique/Armes de jet/À distance",
+            )
+        if any(
+            slot in slots
+            for slot in (
+                "Main gauche",
+                "Main droite",
+                "Tenu(e) en main gauche",
+                "Deux mains",
+                "À une main",
+            )
+        ):
+            # so we need to figure out
+            # possible options:
+            # - Main droite + (Main gauche | Tenu(e) en main gauche | À une main)
+            # - À une main + (À une main | Main gauche | Tenu(e) en main gauche)
+            # - Deux mains
+            valid = False
+            if "Deux mains" not in slots:
+                valid = True
+            if "Main droite" not in slots and (
+                any(slot in slots for slot in ("Main gauche", "Tenu(e) en main gauche"))
+                or slots.get("À une main", 0) > 1
+            ):
+                valid = True
+            if slots.get("À une main", 0) <= 1 and any(
+                slot in slots for slot in ("Main gauche", "Tenu(e) en main gauche")
+            ):
+                valid = True
+            if not valid:
+                self.add_remark(type="missing_item_in_slot", slot="Armes")
 
     def check_casts(self):
         for (spell_id, count) in self.casts.items():

@@ -17,11 +17,7 @@ class CombatantInfo(Event):
         player_fight.auras = {aura["ability"]: aura for aura in self.auras}
         for aura in player_fight.auras.values():
             aura["events"] = []
-        player_fight.gear = [
-            GearItem(gear)
-            for gear in self.gear
-            if not gear["icon"].startswith("inv_shirt_") and gear["id"] > 0
-        ]
+        player_fight.gear = [GearItem(gear) for gear in self.gear if gear["id"] > 0]
         for item in player_fight.gear:
             self._process_gear_item(player=player, player_fight=player_fight, item=item)
             item.check_meta_gem(player_fight=player_fight)

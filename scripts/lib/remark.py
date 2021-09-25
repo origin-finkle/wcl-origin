@@ -6,7 +6,13 @@ class Remark(Base):
     def __init__(self, data):
         super().__init__(data)
         uuid = [self.type]
-        for attr in ("wowhead_attr", "item_wowhead_attr", "spell_wowhead_attr"):
+        for attr in (
+            "wowhead_attr",
+            "item_wowhead_attr",
+            "spell_wowhead_attr",
+            "slot",
+            "fight",
+        ):
             if hasattr(self, attr) and (v := getattr(self, attr)):
                 uuid.append(v)
         self.uuid = ":".join(uuid)

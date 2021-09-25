@@ -15,7 +15,8 @@
                 {{ if $item.temporaryEnchant }}
                 <td>
                     {{ with $temporaryEnchants.Get (string $item.temporaryEnchant) }}
-                        {{ partial "wowhead" (dict "data-wowhead" (printf "spell=%v" .spellID)) }}
+                        {{ $attr := printf "spell=%v" .spellID }}
+                        {{ partialCached "wowhead" (dict "data-wowhead" $attr) $attr }}
                     {{ else }}
                         {{ $item.temporaryEnchant }}
                     {{ end }}

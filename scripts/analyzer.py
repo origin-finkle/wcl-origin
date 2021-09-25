@@ -140,6 +140,7 @@ with open(f"./data/raids/{logs['code']}/logs.json", "w+") as file:
                 }
                 for fight in logs["fights"]
             },
+            "code": logs["code"],
         },
         file,
         indent=4,

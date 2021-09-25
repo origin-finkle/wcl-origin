@@ -127,7 +127,7 @@
                     <div class="row">
                         {{ range $remark := $player.remarks }}
                         <div class="col-12">
-                            {{ partial "remark" $remark }}
+                            {{ partialCached "remark" $remark $remark.uuid }}
                         </div>
                         {{ end }}
                     </div>

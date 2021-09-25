@@ -17,7 +17,7 @@
                         {{ if eq $remark.type $remarkType }}
                         <div class="row">
                             <div class="col-xs-12">
-                                <strong>{{ dateFormat "2006-01-02" (time (int (div $report.logs.startTime 1000))) }}</strong> - <strong>{{ $player.name }}</strong> - <strong>{{ $fight.name }}</strong> - {{ partial "remark" $remark }}
+                                <strong>{{ dateFormat "2006-01-02" (time (int (div $report.logs.startTime 1000))) }}</strong> - <strong>{{ $player.name }}</strong> - <strong>{{ $fight.name }}</strong> - {{ partialCached "remark" $remark $remark.uuid }}
                             </div>
                         </div>
                         {{ end }}

@@ -1,0 +1,27 @@
+{{ $wowhead := .Site.Data.config.wowhead }}
+{{ $temporaryEnchants := partialCached "cached/data/temporary-enchants" .Site.Data "0" }}
+{{ $player := .player }}
+{{ $data := .data }}
+
+<table class="table table-bordered">
+    <tbody>
+        {{ range $item := $data.gear }}
+            {{ $itemData := index $wowhead.items (string $item.id) }}
+            <tr>
+                <td>{{ $itemData.slot }}</td>
+                <td {{ if not $item.temporaryEnchant }}colspan="2" {{ end }}>
+                    {{ partialCached "wowhead" (dict "data-wowhead" $item.wowhead_attr) $item.wowhead_attr }}
+                </td>
+                {{ if $item.temporaryEnchant }}
+                <td>
+                    {{ with $temporaryEnchants.Get (string $item.temporaryEnchant) }}
+                        {{ partial "wowhead" (dict "data-wowhead" (printf "spell=%v" .spellID)) }}
+                    {{ else }}
+                        {{ $item.temporaryEnchant }}
+                    {{ end }}
+                </td>
+                {{ end }}
+            </tr>
+        {{ end }}
+    </tbody>
+</table>

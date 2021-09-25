@@ -1,0 +1,23 @@
+{{ $logs := index (index .Site.Data.raids .Page.Params.reportCode) "logs" }}
+
+<div class="row">
+    <div class="col-12">
+        <h2>Combats</h2>
+    </div>
+    {{ range $name, $fights := $logs.fights }}
+        <div class="col-12">
+            <a href="fight/{{ urlize $name }}">{{ $name }}</a>
+        </div>
+    {{ end }}
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <h2>Joueurs</h2>
+    </div>
+    {{ range $name := (sort $logs.actors) }}
+        <div class="col-12">
+            <a href="player/{{ strings.ToLower $name }}">{{ $name }}</a>
+        </div>
+    {{ end }}
+</div>

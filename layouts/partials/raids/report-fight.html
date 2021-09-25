@@ -1,0 +1,30 @@
+{{ $wowhead := .Site.Data.config.wowhead }}
+{{ $analysis := index (index .Site.Data.raids .Page.Params.reportCode) "analysis" }}
+{{ $logs := index (index .Site.Data.raids .Page.Params.reportCode) "logs" }}
+{{ $temporaryEnchants := newScratch }}
+{{ range $te := .Site.Data.config.temporary_enchants }}
+    {{ $temporaryEnchants.Set (string $te.id) $te }}
+{{ end }}
+{{ $fightName := .Page.Params.fight }}
+{{ $site := .Site }}
+
+<div class="row">
+    <div class="col-12">
+        {{ $fight := index $logs.fights $fightName}}
+        {{ $duration := div (sub $fight.endTime $fight.startTime) 1000 }}
+        {{ $minutes := int (div $duration 60) }}
+        {{ $seconds := mod $duration 60 }}
+        <h2>{{ $fightName }} ({{ printf "%d:%02d" $minutes $seconds }})</h2>
+    </div>
+    {{ range $player := $analysis }}
+        {{ range $name, $data := $player.fights }}
+            {{ if eq $name $fightName }}
+                <div class="col-12">
+                    <h3>{{ $player.name }}</h3>
+                    {{ partial "player/talents" $data.talents }}
+                    {{ partial "player/fight" (dict "player" $player "data" $data "Site" $site) }}
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</div>

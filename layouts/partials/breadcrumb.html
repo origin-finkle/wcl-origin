@@ -1,0 +1,26 @@
+{{ $scratch := newScratch }}
+{{ $page := . }}
+{{ $scratch.Set "breadcrumb" slice }}
+{{ $scratch.Set "page" . }}
+{{ range seq 5 }}
+    {{ if ($scratch.Get "page") }}
+        {{ $page := $scratch.Get "page" }}
+        {{ $scratch.Add "breadcrumb" ($scratch.Get "page") }}
+        {{ $scratch.Set "page" $page.Parent }}
+    {{ end }}
+{{ end }}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        {{ $breadcrumb := $scratch.Get "breadcrumb" }}
+        {{ $len := len $breadcrumb }}
+        {{ range seq $len }}
+            {{ with index $breadcrumb (sub $len .) }}
+                <li class="breadcrumb-item {{ if eq $page . }}active{{ end }}" {{ if eq $page . }}aria-current="page"{{ end }}>
+                    <a href="{{ .Permalink }}">
+                        {{ .Title | markdownify }}
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ol>
+</nav>

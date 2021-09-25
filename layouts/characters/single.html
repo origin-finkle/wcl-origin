@@ -104,7 +104,7 @@
         {{ range $raid := sort $character.raids ".startTime" "desc" }}
         <div class="col-12">
             <h4>
-                <a href="{{ relURL (printf "/raids/%s#player=%s" (strings.ToLower .reportCode) $character.name) }}">
+                <a href="{{ relURL (printf "/raids/%s/player/%s" (strings.ToLower .reportCode) (strings.ToLower $character.name)) }}">
                     {{ if eq (int .zoneID) 1007 }}
                     Kharazan
                     {{ else if eq (int .zoneID) 1008 }}

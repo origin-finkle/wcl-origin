@@ -1,0 +1,47 @@
+{{ $wowhead := .Site.Data.config.wowhead }}
+{{ $analysis := index (index .Site.Data.raids .Page.Params.reportCode) "analysis" }}
+{{ $logs := index (index .Site.Data.raids .Page.Params.reportCode) "logs" }}
+{{ $temporaryEnchants := newScratch }}
+{{ range $te := .Site.Data.config.temporary_enchants }}
+    {{ $temporaryEnchants.Set (string $te.id) $te }}
+{{ end }}
+{{ $site := .Site }}
+
+{{ $scratch := newScratch }}
+{{ range $p := $analysis }}
+    {{ $scratch.Set $p.name $p }}
+{{ end }}
+{{ $player := $scratch.Get .Page.Params.player }}
+
+<div class="row">
+    <div class="col-12">
+        <h4><a href="{{ relURL (printf "/characters/%s/" (strings.ToLower $player.name)) }}">{{ $player.name }}</a></h4>
+        {{ if $player.remarks }}
+        <div class="row">
+            <div class="col-12">
+                <h4>Remarques sur le raid</h4>
+                <div class="row">
+                    {{ range $remark := $player.remarks }}
+                    <div class="col-12">
+                        {{ partial "remark" $remark }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+        {{ range $name, $data := $player.fights }}
+            <div class="row">
+                <div class="col-12">
+                    {{ $fight := index $logs.fights $name}}
+                    {{ $duration := div (sub $fight.endTime $fight.startTime) 1000 }}
+                    {{ $minutes := int (div $duration 60) }}
+                    {{ $seconds := mod $duration 60 }}
+                    <h3>{{ $name }} ({{ printf "%d:%02d" $minutes $seconds }})</h3>
+                    {{ partial "player/talents" $data.talents }}
+                </div>
+                {{ partial "player/fight" (dict "player" $player "data" $data "Site" $site) }}
+            </div>
+        {{ end }}
+    </div>
+</div>

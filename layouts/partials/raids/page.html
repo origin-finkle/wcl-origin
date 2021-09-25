@@ -1,0 +1,38 @@
+<article class="blog-post">
+    <header>
+        <h2 class="blog-post-title" dir="auto"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+    </header>
+
+    {{ if .Page.Params.reportCode }}
+        <div class="row">
+            <div class="col-12">
+                Date du raid: {{ dateFormat "02/01/2006" .Date }}
+            </div>
+            <div class="col-12">
+                <a href="//classic.warcraftlogs.com/reports/{{ .Page.Params.reportCode }}" target="_blank">Ouvrir sur
+                    Warcraft Logs</a>
+            </div>
+        </div>
+
+        <div class="alert alert-warning" role="alert">
+            Les informations concernant les consos sont limitées par ce que fournissent le jeu, et sont donc incomplètes.
+            Les remarques concernant les consommables manquants
+            sont donc à prendre avec des pincettes, certains consommables n'étant pas remontés par le journal de combat
+            comme étant assez intéressants pour l'analyse.
+        </div>
+
+        {{ if .Page.Params.player }}
+            {{ partial "raids/report-player" . }}
+        {{ else if .Page.Params.fight }}
+            {{ partial "raids/report-fight" . }}
+        {{ else }}
+            <!-- report overview -->
+            {{ partial "raids/report-overview" . }}
+        {{ end }}
+    {{ else }}
+        <!-- page listing ... -->
+        {{ range .Pages }}
+            {{ .Render "summary" }}
+        {{ end }}
+    {{ end }}
+</article>

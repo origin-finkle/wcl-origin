@@ -1,27 +1,41 @@
 body {
-    background-color: #65E1C2;
+    background-color: #7ECACA;
+    color: #365555;
 }
 
-.header-top-area {
-    background-color: #6A94D4;
-    color: #333;
+.navbar, .navbar a {
+    background-color: #365555;
+    color: #7ECACA !important;
 }
 
 a {
-    color: #052F6D;
+    color: #365555;
+}
+
+.list-group-item, .breadcrumb {
+    background-color: #98CACA;
+    color: #365555;
+}
+
+.list-group-item:hover {
+    background-color: #7ECACA;
+}
+
+nav {
+    width: 100%;
 }
 
 .table .thead-dark th {
-    color: #00A383;
-    background-color: #180773;
+    color: #365555;
+    background-color: #98CACA;
 }
 
 .table-danger, .table-danger > td, .table-danger > th {
-    background-color: #FFA100;
+    background-color: #CEAA60;
 }
 
 .table-success, .table-success > td, .table-success > th {
-    background-color: #00A383;
+    background-color: #4DA54D;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {

@@ -100,6 +100,8 @@ def fetch_reports(guild_id, start_time, end_time):
                 data
                 {{
                     code
+                    startTime
+                    endTime
                 }}
             }}
         }}

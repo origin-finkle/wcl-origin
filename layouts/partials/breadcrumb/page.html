@@ -1,0 +1,13 @@
+{{ $page := .page }}
+{{ $current := .current }}
+{{ $dropdown := and $current (or $page.Params.fight $page.Params.player) }}
+<li class="breadcrumb-item {{ if $current }}active{{ end }}" {{ if $current }}aria-current="page"{{ end }}>
+    <a {{ if not $current }}href="{{ $page.Permalink }}"{{ else if $dropdown }}class="dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{{ end }}>
+        {{ $page.Title | markdownify }}
+    </a>
+    {{ if $dropdown }}
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+            {{ partial "breadcrumb/dropdown" $page }}
+        </div>
+    {{ end }}
+</li>

@@ -1,0 +1,5 @@
+{{ $page := . }}
+{{ if $page }}
+    {{ partial "breadcrumb/parents" $page.Parent }}
+    {{ partial "breadcrumb/page" (dict "page" $page "current" 0) }}
+{{ end }}

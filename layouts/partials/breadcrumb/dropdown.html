@@ -1,0 +1,6 @@
+{{ $page := . }}
+{{ range $page.Parent.Pages }}
+    {{ if or (and (in $page.Permalink "fight-") (in .Permalink "fight-")) (and (in $page.Permalink "player-") (in .Permalink "player-")) }}
+        <a class="dropdown-item" href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ end }}
+{{ end }}

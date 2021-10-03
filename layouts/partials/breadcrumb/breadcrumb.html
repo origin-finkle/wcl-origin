@@ -1,0 +1,10 @@
+{{ $page := . }}
+
+{{ $dropdown := (or $page.Params.fight $page.Params.player) }}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        {{ partial "breadcrumb/parents" $page.Parent }}
+        {{ partial "breadcrumb/page" (dict "page" $page "current" 1) }}
+    </ol>
+</nav>

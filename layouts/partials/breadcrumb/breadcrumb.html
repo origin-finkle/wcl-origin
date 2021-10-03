@@ -4,7 +4,9 @@
 
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-        {{ partial "breadcrumb/parents" $page.Parent }}
+        {{ if $page.Parent }}
+            {{ partialCached "breadcrumb/parents" $page.Parent $page.Parent.Permalink }}
+        {{ end }}
         {{ partial "breadcrumb/page" (dict "page" $page "current" 1) }}
     </ol>
 </nav>

@@ -18,6 +18,7 @@ class GearItem(Base):
         if hasattr(self, "permanentEnchant"):
             wowhead_qs["ench"] = self.permanentEnchant
         self.wowhead_attr = urlencode(wowhead_qs)
+        self.uuid = f"{self.wowhead_attr}:{getattr(self, 'temporaryEnchant') if hasattr(self, 'temporaryEnchant') else None}"
 
     def count_gems(self, color):
         count = 0

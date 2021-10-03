@@ -1,5 +1,5 @@
 {{ $page := . }}
-{{ if $page }}
-    {{ partial "breadcrumb/parents" $page.Parent }}
-    {{ partial "breadcrumb/page" (dict "page" $page "current" 0) }}
+{{ if $page.Parent }}
+{{ partialCached "breadcrumb/parents" $page.Parent $page.Parent.Permalink }}
 {{ end }}
+{{ partialCached "breadcrumb/page" (dict "page" $page "current" 0) $page.Permalink }}

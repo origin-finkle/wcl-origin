@@ -13,6 +13,11 @@
         {{ $seconds := mod $duration 60 }}
         <h2>{{ $fightName }} ({{ printf "%d:%02d" $minutes $seconds }})</h2>
     </div>
+    {{ if in $fightName "Kael'thas" }}
+    <div class="col-12">
+        {{ partial "kt-warning" . }}
+    </div>
+{{ end }}
     <div class="col-12">
         <div class="row">
             <div class="col-12 col-md-6">

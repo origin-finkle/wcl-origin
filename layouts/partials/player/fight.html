@@ -3,6 +3,11 @@
 
 <div class="col-12">
     <div class="row">
+        {{ if in $data.name "Kael'thas" }}
+            <div class="col-12">
+                {{ partial "kt-warning" . }}
+            </div>
+        {{ end }}
         <div class="col-12 col-md-6">
             <h4>Gear</h4>
             {{ partial "player/gear" . }}

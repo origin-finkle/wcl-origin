@@ -36,18 +36,14 @@ def get_wowhead_data(item_id=None, gem_id=None):
         return item
 
     if gem_id:
-        if gem := wowhead["gems"].get(f"{gem_id}"):
-            return gem
-
         print(f"Loading gem {gem_id} from wowhead")
         r = requests.get(f"https://fr.tbc.wowhead.com/item={gem_id}&xml")
         if r.status_code != 200:
             raise Exception(r.text)
         root = ET.fromstring(r.text)
-        gem = {}
+        gem = {"id": gem_id}
         for item_data in root.findall("item"):
             gem["name"] = item_data.find("name").text
             gem["quality"] = int(item_data.find("quality").attrib["id"])
             break
-        wowhead["gems"][f"{gem_id}"] = gem
         return gem

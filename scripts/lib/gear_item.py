@@ -1,7 +1,7 @@
 from urllib.parse import urlencode
 
 from lib.base import Base
-from lib.data.gems import gems
+from lib.data.gems import gems, load_gem
 from lib.data.wowhead import get_wowhead_data
 
 
@@ -26,7 +26,7 @@ class GearItem(Base):
             for gem in self.gems:
                 gem_i = gems.get(gem["id"])
                 if not gem_i:
-                    raise Exception(f"Gem {gem['id']} not known")
+                    gem_i = load_gem(gem["id"])
                 if gem_i.color in colors[color]:
                     count += 1
         return count

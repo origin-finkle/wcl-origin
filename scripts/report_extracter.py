@@ -58,12 +58,12 @@ fight_nbr = {}
 for fight in report["fights"]:
     fight_nbr.setdefault(fight["name"], 0)
     fight_nbr[fight["name"]] += 1
-    fight["internal_name"] = fight["name"]
+    fight["internalName"] = fight["name"]
     if not fight["kill"]:
         fight[
-            "internal_name"
+            "internalName"
         ] += f" - Wipe {fight_nbr[fight['name']]} ({fight['fightPercentage']}%)"
-    log_debug(f"Doing fight: {fight['internal_name']}")
+    log_debug(f"Doing fight: {fight['internalName']}")
     fetch_report_events(
         report=report,
         fight=fight,

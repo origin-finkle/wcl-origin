@@ -91,7 +91,7 @@ with open(filename) as file:
             if player_id not in players:
                 continue
             player_fight = players[player_id].get_fight(
-                name=fight["internal_name"],
+                name=fight["internalName"],
             )
             Event.process(
                 player=players[player_id],
@@ -134,10 +134,10 @@ with open(f"./data/raids/{logs['code']}/logs.json", "w+") as file:
             "actors": [player.name for player in players.values()],
             "zoneID": logs["zone"]["id"] if logs["zone"] else 0,
             "fights": {
-                fight["internal_name"]: {
+                fight["internalName"]: {
                     "startTime": fight["startTime"],
                     "endTime": fight["endTime"],
-                    "name": fight["internal_name"],
+                    "name": fight["internalName"],
                 }
                 for fight in logs["fights"]
             },

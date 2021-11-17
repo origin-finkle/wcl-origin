@@ -1,0 +1,7 @@
+---
+title: "Grwaman"
+reportCode: "T6LjdcNvxkpfyRzn"
+player: "Grwaman"
+fight: "Lady Vashj"
+date: 2021-11-15T19:59:30.435000+00:00
+---

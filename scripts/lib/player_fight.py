@@ -60,6 +60,8 @@ class PlayerFight(Base):
                     self.analysis["items"].append(val)
             else:
                 self.analysis["unknown"].append(val)
+        for k in ("unknown", "spells", "consumables", "items"):
+            self.analysis[k] = sorted(self.analysis[k], key=lambda x: x["spell_id"])
 
     def check_gear(self):
         if not self.gear:

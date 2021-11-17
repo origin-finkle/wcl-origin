@@ -1,4 +1,5 @@
 from urllib.parse import urlencode
+from collections import OrderedDict
 
 from lib.base import Base
 from lib.data.gems import gems, load_gem
@@ -9,10 +10,10 @@ class GearItem(Base):
     def __init__(self, data):
         super().__init__(data)
         self.wowhead_data = get_wowhead_data(item_id=self.id)
-        wowhead_qs = {
+        wowhead_qs = OrderedDict({
             "domain": "fr.tbc",
             "item": self.id,
-        }
+        })
         if hasattr(self, "gems"):
             wowhead_qs["gems"] = ":".join(f"{gem['id']}" for gem in self.gems)
         if hasattr(self, "permanentEnchant"):

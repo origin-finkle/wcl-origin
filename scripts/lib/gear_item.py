@@ -10,15 +10,15 @@ class GearItem(Base):
     def __init__(self, data):
         super().__init__(data)
         self.wowhead_data = get_wowhead_data(item_id=self.id)
-        wowhead_qs = OrderedDict({
+        wowhead_qs = {
             "domain": "fr.tbc",
             "item": self.id,
-        })
+        }
         if hasattr(self, "gems"):
             wowhead_qs["gems"] = ":".join(f"{gem['id']}" for gem in self.gems)
         if hasattr(self, "permanentEnchant"):
             wowhead_qs["ench"] = self.permanentEnchant
-        self.wowhead_attr = urlencode(wowhead_qs)
+        self.wowhead_attr = urlencode(OrderedDict(sorted(wowhead_qs.items())))
         self.uuid = f"{self.wowhead_attr}:{getattr(self, 'temporaryEnchant') if hasattr(self, 'temporaryEnchant') else None}"
 
     def count_gems(self, color):

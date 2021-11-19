@@ -2874,12 +2874,6 @@
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant_but_windfury:item=28439:Hydross the Unstable"
-            },
-            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30081&ench=2939",
@@ -2888,15 +2882,38 @@
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Lady Vashj"
             },
             {
-                "fight": "Lady Vashj",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant_but_windfury:item=28439:Lady Vashj"
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30081&ench=2939",
+                "slot": "Pieds",
+                "enchant_id": 2939,
+                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30081&ench=2939",
+                "slot": "Pieds",
+                "enchant_id": 2939,
+                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30081&ench=2939",
+                "slot": "Pieds",
+                "enchant_id": 2939,
+                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:The Lurker Below"
             },
             {
                 "fight": "Leotheras the Blind",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Morogrim Tidewalker"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -2909,44 +2926,27 @@
                 "uuid": "missing_guardian_elixir:Leotheras the Blind"
             },
             {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30081&ench=2939",
-                "slot": "Pieds",
-                "enchant_id": 2939,
-                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Leotheras the Blind - Wipe 1 (0%)"
+                "fight": "Morogrim Tidewalker",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant_but_windfury:item=28439:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant_but_windfury:item=28439:Lady Vashj"
             },
             {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "item=28439",
                 "uuid": "no_temporary_enchant_but_windfury:item=28439:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30081&ench=2939",
-                "slot": "Pieds",
-                "enchant_id": 2939,
-                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Morogrim Tidewalker"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30081&ench=2939",
-                "slot": "Pieds",
-                "enchant_id": 2939,
-                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:The Lurker Below"
             }
         ]
     },
@@ -5487,11 +5487,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29369",
-                "uuid": "no_enchant:item=29369:Hydross the Unstable"
-            },
-            {
                 "fight": "Leotheras the Blind",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Leotheras the Blind"
@@ -5505,6 +5500,11 @@
                 "fight": "Leotheras the Blind",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Leotheras the Blind"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29369",
+                "uuid": "no_enchant:item=29369:Hydross the Unstable"
             }
         ]
     },
@@ -10582,11 +10582,6 @@
         },
         "remarks": [
             {
-                "fight": "Fathom-Lord Karathress",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=24673&ench=3008",
@@ -10613,16 +10608,6 @@
                 "uuid": "invalid_enchant:item=28126&ench=2935:Mains:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Hydross the Unstable"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Lady Vashj"
-            },
-            {
                 "fight": "Leotheras the Blind",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Leotheras the Blind"
@@ -10631,6 +10616,21 @@
                 "fight": "Leotheras the Blind",
                 "type": "missing_food",
                 "uuid": "missing_food:Leotheras the Blind"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Lady Vashj"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -13040,20 +13040,22 @@
         },
         "remarks": [
             {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=29981",
-                "uuid": "no_temporary_enchant:item=29981:Hydross the Unstable"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "missing_food",
-                "uuid": "missing_food:Lady Vashj"
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=25978&ench=3269",
+                "slot": "Deux mains",
+                "enchant_id": 3269,
+                "uuid": "invalid_enchant:item=25978&ench=3269:Deux mains:The Lurker Below"
             },
             {
                 "fight": "Leotheras the Blind",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "missing_food",
+                "uuid": "missing_food:Lady Vashj"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -13067,17 +13069,15 @@
             },
             {
                 "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25978&ench=3269",
-                "slot": "Deux mains",
-                "enchant_id": 3269,
-                "uuid": "invalid_enchant:item=25978&ench=3269:Deux mains:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=25978",
                 "uuid": "no_temporary_enchant:item=25978:The Lurker Below"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=29981",
+                "uuid": "no_temporary_enchant:item=29981:Hydross the Unstable"
             }
         ]
     },
@@ -17633,24 +17633,24 @@
                 "uuid": "missing_battle_elixir:Leotheras the Blind"
             },
             {
-                "fight": "Leotheras the Blind",
-                "type": "missing_food",
-                "uuid": "missing_food:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Leotheras the Blind"
-            },
-            {
                 "fight": "Morogrim Tidewalker",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Morogrim Tidewalker"
             },
             {
+                "fight": "Leotheras the Blind",
+                "type": "missing_food",
+                "uuid": "missing_food:Leotheras the Blind"
+            },
+            {
                 "fight": "Morogrim Tidewalker",
                 "type": "missing_food",
                 "uuid": "missing_food:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Leotheras the Blind"
             },
             {
                 "fight": "Morogrim Tidewalker",
@@ -20150,9 +20150,12 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=30050",
-                "uuid": "no_enchant:item=30050:The Lurker Below"
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=22508&ench=929",
+                "slot": "Pieds",
+                "enchant_id": 929,
+                "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Hydross the Unstable"
             },
             {
                 "fight": "Fathom-Lord Karathress",
@@ -20160,14 +20163,6 @@
                 "item_wowhead_attr": "item=28964",
                 "wowhead_attr": "item=23096",
                 "uuid": "invalid_gem:item=23096:item=28964:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=22508&ench=929",
-                "slot": "Pieds",
-                "enchant_id": 929,
-                "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Hydross the Unstable"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -20182,21 +20177,6 @@
                 "item_wowhead_attr": "item=28964",
                 "wowhead_attr": "item=23096",
                 "uuid": "invalid_gem:item=23096:item=28964:Lady Vashj"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_food",
-                "uuid": "missing_food:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Leotheras the Blind"
             },
             {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
@@ -20218,6 +20198,26 @@
                 "item_wowhead_attr": "item=28964",
                 "wowhead_attr": "item=23096",
                 "uuid": "invalid_gem:item=23096:item=28964:The Lurker Below"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_food",
+                "uuid": "missing_food:Leotheras the Blind"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Leotheras the Blind"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=30050",
+                "uuid": "no_enchant:item=30050:The Lurker Below"
             }
         ]
     },
@@ -23017,12 +23017,6 @@
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant_but_windfury:item=28439:Hydross the Unstable"
-            },
-            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30081&ench=2939",
@@ -23031,10 +23025,28 @@
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Lady Vashj"
             },
             {
-                "fight": "Lady Vashj",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant_but_windfury:item=28439:Lady Vashj"
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30081&ench=2939",
+                "slot": "Pieds",
+                "enchant_id": 2939,
+                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30081&ench=2939",
+                "slot": "Pieds",
+                "enchant_id": 2939,
+                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30081&ench=2939",
+                "slot": "Pieds",
+                "enchant_id": 2939,
+                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:The Lurker Below"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -23052,34 +23064,22 @@
                 "uuid": "missing_guardian_elixir:Leotheras the Blind"
             },
             {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30081&ench=2939",
-                "slot": "Pieds",
-                "enchant_id": 2939,
-                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Leotheras the Blind - Wipe 1 (0%)"
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant_but_windfury:item=28439:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant_but_windfury:item=28439:Lady Vashj"
             },
             {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "item=28439",
                 "uuid": "no_temporary_enchant_but_windfury:item=28439:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30081&ench=2939",
-                "slot": "Pieds",
-                "enchant_id": 2939,
-                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Morogrim Tidewalker"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30081&ench=2939",
-                "slot": "Pieds",
-                "enchant_id": 2939,
-                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:The Lurker Below"
             }
         ]
     },
@@ -25814,24 +25814,12 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29369",
-                "uuid": "no_enchant:item=29369:Hydross the Unstable"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29037&ench=2982",
                 "slot": "\u00c9paule",
                 "enchant_id": 2982,
                 "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=29035",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=29035:Fathom-Lord Karathress"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -25842,13 +25830,6 @@
                 "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=29035",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=29035:Hydross the Unstable"
-            },
-            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29037&ench=2982",
@@ -25857,11 +25838,70 @@
                 "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29037&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29037&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29037&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=29035",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=29035:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=29035",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=29035:Hydross the Unstable"
+            },
+            {
                 "fight": "Lady Vashj",
                 "type": "meta_not_activated",
                 "item_wowhead_attr": "item=29035",
                 "wowhead_attr": "item=34220",
                 "uuid": "meta_not_activated:item=34220:item=29035:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=29035",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=29035:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=29035",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=29035:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=29035",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=29035:The Lurker Below"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -25879,49 +25919,9 @@
                 "uuid": "missing_guardian_elixir:Leotheras the Blind"
             },
             {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29037&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=29035",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=29035:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29037&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=29035",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=29035:Morogrim Tidewalker"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29037&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=29037&ench=2982:\u00c9paule:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=29035",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=29035:The Lurker Below"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29369",
+                "uuid": "no_enchant:item=29369:Hydross the Unstable"
             }
         ]
     },
@@ -31176,20 +31176,52 @@
                 "uuid": "invalid_enchant:item=29002&ench=369:Poignets:Fathom-Lord Karathress"
             },
             {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30210&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:Fathom-Lord Karathress"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29002&ench=369",
                 "slot": "Poignets",
                 "enchant_id": 369,
                 "uuid": "invalid_enchant:item=29002&ench=369:Poignets:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29002&ench=369",
+                "slot": "Poignets",
+                "enchant_id": 369,
+                "uuid": "invalid_enchant:item=29002&ench=369:Poignets:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29002&ench=369",
+                "slot": "Poignets",
+                "enchant_id": 369,
+                "uuid": "invalid_enchant:item=29002&ench=369:Poignets:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29002&ench=369",
+                "slot": "Poignets",
+                "enchant_id": 369,
+                "uuid": "invalid_enchant:item=29002&ench=369:Poignets:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29002&ench=369",
+                "slot": "Poignets",
+                "enchant_id": 369,
+                "uuid": "invalid_enchant:item=29002&ench=369:Poignets:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30210&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:Fathom-Lord Karathress"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -31202,18 +31234,34 @@
             {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29002&ench=369",
-                "slot": "Poignets",
-                "enchant_id": 369,
-                "uuid": "invalid_enchant:item=29002&ench=369:Poignets:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30210&ench=2982",
                 "slot": "\u00c9paule",
                 "enchant_id": 2982,
                 "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30210&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30210&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30210&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:The Lurker Below"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -31229,54 +31277,6 @@
                 "fight": "Leotheras the Blind",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29002&ench=369",
-                "slot": "Poignets",
-                "enchant_id": 369,
-                "uuid": "invalid_enchant:item=29002&ench=369:Poignets:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30210&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29002&ench=369",
-                "slot": "Poignets",
-                "enchant_id": 369,
-                "uuid": "invalid_enchant:item=29002&ench=369:Poignets:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30210&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:Morogrim Tidewalker"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29002&ench=369",
-                "slot": "Poignets",
-                "enchant_id": 369,
-                "uuid": "invalid_enchant:item=29002&ench=369:Poignets:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30210&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=30210&ench=2982:\u00c9paule:The Lurker Below"
             }
         ]
     },
@@ -36946,6 +36946,36 @@
                 "uuid": "invalid_battle_elixir:spell=28491:Fathom-Lord Karathress"
             },
             {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=28491",
+                "uuid": "invalid_battle_elixir:spell=28491:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=28491",
+                "uuid": "invalid_battle_elixir:spell=28491:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=28491",
+                "uuid": "invalid_battle_elixir:spell=28491:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=28491",
+                "uuid": "invalid_battle_elixir:spell=28491:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=28491",
+                "uuid": "invalid_battle_elixir:spell=28491:The Lurker Below"
+            },
+            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28521&ench=2322",
@@ -36953,163 +36983,6 @@
                 "slot": "Mains",
                 "enchant_id": 2322,
                 "uuid": "invalid_enchant:item=28521&ench=2322:Mains:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28790&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29249&ench=2617",
-                "wowhead_attr": null,
-                "slot": "Poignets",
-                "enchant_id": 2617,
-                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29290&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30108&ench=2343",
-                "wowhead_attr": null,
-                "slot": "Main droite",
-                "enchant_id": 2343,
-                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30219&ench=3001",
-                "wowhead_attr": null,
-                "slot": "T\u00eate",
-                "enchant_id": 3001,
-                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30220&ench=2746",
-                "wowhead_attr": null,
-                "slot": "Jambes",
-                "enchant_id": 2746,
-                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33268",
-                "uuid": "invalid_food:spell=33268:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30219",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30219:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30220",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30220:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=28491",
-                "uuid": "invalid_battle_elixir:spell=28491:Hydross the Unstable"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -37121,163 +36994,6 @@
                 "uuid": "invalid_enchant:item=28521&ench=2322:Mains:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28790&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29249&ench=2617",
-                "wowhead_attr": null,
-                "slot": "Poignets",
-                "enchant_id": 2617,
-                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29290&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30108&ench=2343",
-                "wowhead_attr": null,
-                "slot": "Main droite",
-                "enchant_id": 2343,
-                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30219&ench=3001",
-                "wowhead_attr": null,
-                "slot": "T\u00eate",
-                "enchant_id": 3001,
-                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30220&ench=2746",
-                "wowhead_attr": null,
-                "slot": "Jambes",
-                "enchant_id": 2746,
-                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33268",
-                "uuid": "invalid_food:spell=33268:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30219",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30219:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30220",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30220:Hydross the Unstable"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=28491",
-                "uuid": "invalid_battle_elixir:spell=28491:Lady Vashj"
-            },
-            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28521&ench=2322",
@@ -37285,6 +37001,51 @@
                 "slot": "Mains",
                 "enchant_id": 2322,
                 "uuid": "invalid_enchant:item=28521&ench=2322:Mains:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28521&ench=2322",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 2322,
+                "uuid": "invalid_enchant:item=28521&ench=2322:Mains:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28521&ench=2322",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 2322,
+                "uuid": "invalid_enchant:item=28521&ench=2322:Mains:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28521&ench=2322",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 2322,
+                "uuid": "invalid_enchant:item=28521&ench=2322:Mains:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28790&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28790&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -37296,6 +37057,51 @@
                 "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28790&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28790&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28790&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29249&ench=2617",
+                "wowhead_attr": null,
+                "slot": "Poignets",
+                "enchant_id": 2617,
+                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29249&ench=2617",
+                "wowhead_attr": null,
+                "slot": "Poignets",
+                "enchant_id": 2617,
+                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Hydross the Unstable"
+            },
+            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29249&ench=2617",
@@ -37303,6 +37109,51 @@
                 "slot": "Poignets",
                 "enchant_id": 2617,
                 "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29249&ench=2617",
+                "wowhead_attr": null,
+                "slot": "Poignets",
+                "enchant_id": 2617,
+                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29249&ench=2617",
+                "wowhead_attr": null,
+                "slot": "Poignets",
+                "enchant_id": 2617,
+                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29249&ench=2617",
+                "wowhead_attr": null,
+                "slot": "Poignets",
+                "enchant_id": 2617,
+                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29290&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29290&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -37314,6 +37165,51 @@
                 "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29290&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29290&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29290&ench=2930",
+                "wowhead_attr": null,
+                "slot": "Doigt",
+                "enchant_id": 2930,
+                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30108&ench=2343",
+                "wowhead_attr": null,
+                "slot": "Main droite",
+                "enchant_id": 2343,
+                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30108&ench=2343",
+                "wowhead_attr": null,
+                "slot": "Main droite",
+                "enchant_id": 2343,
+                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Hydross the Unstable"
+            },
+            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30108&ench=2343",
@@ -37321,6 +37217,51 @@
                 "slot": "Main droite",
                 "enchant_id": 2343,
                 "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30108&ench=2343",
+                "wowhead_attr": null,
+                "slot": "Main droite",
+                "enchant_id": 2343,
+                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30108&ench=2343",
+                "wowhead_attr": null,
+                "slot": "Main droite",
+                "enchant_id": 2343,
+                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30108&ench=2343",
+                "wowhead_attr": null,
+                "slot": "Main droite",
+                "enchant_id": 2343,
+                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30219&ench=3001",
+                "wowhead_attr": null,
+                "slot": "T\u00eate",
+                "enchant_id": 3001,
+                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30219&ench=3001",
+                "wowhead_attr": null,
+                "slot": "T\u00eate",
+                "enchant_id": 3001,
+                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -37332,6 +37273,51 @@
                 "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30219&ench=3001",
+                "wowhead_attr": null,
+                "slot": "T\u00eate",
+                "enchant_id": 3001,
+                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30219&ench=3001",
+                "wowhead_attr": null,
+                "slot": "T\u00eate",
+                "enchant_id": 3001,
+                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30219&ench=3001",
+                "wowhead_attr": null,
+                "slot": "T\u00eate",
+                "enchant_id": 3001,
+                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30220&ench=2746",
+                "wowhead_attr": null,
+                "slot": "Jambes",
+                "enchant_id": 2746,
+                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30220&ench=2746",
+                "wowhead_attr": null,
+                "slot": "Jambes",
+                "enchant_id": 2746,
+                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Hydross the Unstable"
+            },
+            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30220&ench=2746",
@@ -37341,12 +37327,97 @@
                 "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30220&ench=2746",
+                "wowhead_attr": null,
+                "slot": "Jambes",
+                "enchant_id": 2746,
+                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30220&ench=2746",
+                "wowhead_attr": null,
+                "slot": "Jambes",
+                "enchant_id": 2746,
+                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30220&ench=2746",
+                "wowhead_attr": null,
+                "slot": "Jambes",
+                "enchant_id": 2746,
+                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33268",
+                "uuid": "invalid_food:spell=33268:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33268",
+                "uuid": "invalid_food:spell=33268:Hydross the Unstable"
+            },
+            {
                 "fight": "Lady Vashj",
                 "type": "invalid_food",
                 "wowhead_attr": "spell=33268",
                 "uuid": "invalid_food:spell=33268:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33268",
+                "uuid": "invalid_food:spell=33268:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33268",
+                "uuid": "invalid_food:spell=33268:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33268",
+                "uuid": "invalid_food:spell=33268:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:Hydross the Unstable"
+            },
+            {
                 "fight": "Lady Vashj",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28521",
@@ -37359,6 +37430,76 @@
                 "item_wowhead_attr": "item=28521",
                 "wowhead_attr": "item=24029",
                 "uuid": "invalid_gem:item=24029:item=28521:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:The Lurker Below"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28521",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28521:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -37375,11 +37516,88 @@
                 "uuid": "invalid_gem:item=24029:item=28752:Lady Vashj"
             },
             {
-                "fight": "Lady Vashj",
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:The Lurker Below"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28752",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=28752:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=29087",
                 "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Lady Vashj"
+                "uuid": "invalid_gem:item=24029:item=29087:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -37394,6 +37612,104 @@
                 "item_wowhead_attr": "item=29087",
                 "wowhead_attr": "item=24029",
                 "uuid": "invalid_gem:item=24029:item=29087:Lady Vashj"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:The Lurker Below"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:The Lurker Below"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29087",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29087:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -37410,6 +37726,76 @@
                 "uuid": "invalid_gem:item=24029:item=29089:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:The Lurker Below"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29089",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29089:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:Hydross the Unstable"
+            },
+            {
                 "fight": "Lady Vashj",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=29984",
@@ -37422,6 +37808,62 @@
                 "item_wowhead_attr": "item=29984",
                 "wowhead_attr": "item=24029",
                 "uuid": "invalid_gem:item=24029:item=29984:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:The Lurker Below"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29984",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=29984:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30219",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30219:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30219",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30219:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -37431,11 +37873,67 @@
                 "uuid": "invalid_gem:item=24029:item=30219:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30219",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30219:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30219",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30219:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30219",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30219:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30220",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30220:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30220",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30220:Hydross the Unstable"
+            },
+            {
                 "fight": "Lady Vashj",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=30220",
                 "wowhead_attr": "item=24029",
                 "uuid": "invalid_gem:item=24029:item=30220:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30220",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30220:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30220",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30220:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=30220",
+                "wowhead_attr": "item=24029",
+                "uuid": "invalid_gem:item=24029:item=30220:The Lurker Below"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -37451,504 +37949,6 @@
                 "fight": "Leotheras the Blind",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=28491",
-                "uuid": "invalid_battle_elixir:spell=28491:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28521&ench=2322",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 2322,
-                "uuid": "invalid_enchant:item=28521&ench=2322:Mains:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28790&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29249&ench=2617",
-                "wowhead_attr": null,
-                "slot": "Poignets",
-                "enchant_id": 2617,
-                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29290&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30108&ench=2343",
-                "wowhead_attr": null,
-                "slot": "Main droite",
-                "enchant_id": 2343,
-                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30219&ench=3001",
-                "wowhead_attr": null,
-                "slot": "T\u00eate",
-                "enchant_id": 3001,
-                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30220&ench=2746",
-                "wowhead_attr": null,
-                "slot": "Jambes",
-                "enchant_id": 2746,
-                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33268",
-                "uuid": "invalid_food:spell=33268:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30219",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30219:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30220",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30220:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=28491",
-                "uuid": "invalid_battle_elixir:spell=28491:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28521&ench=2322",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 2322,
-                "uuid": "invalid_enchant:item=28521&ench=2322:Mains:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28790&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29249&ench=2617",
-                "wowhead_attr": null,
-                "slot": "Poignets",
-                "enchant_id": 2617,
-                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29290&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30108&ench=2343",
-                "wowhead_attr": null,
-                "slot": "Main droite",
-                "enchant_id": 2343,
-                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30219&ench=3001",
-                "wowhead_attr": null,
-                "slot": "T\u00eate",
-                "enchant_id": 3001,
-                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30220&ench=2746",
-                "wowhead_attr": null,
-                "slot": "Jambes",
-                "enchant_id": 2746,
-                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33268",
-                "uuid": "invalid_food:spell=33268:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30219",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30219:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30220",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30220:Morogrim Tidewalker"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=28491",
-                "uuid": "invalid_battle_elixir:spell=28491:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28521&ench=2322",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 2322,
-                "uuid": "invalid_enchant:item=28521&ench=2322:Mains:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28790&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=28790&ench=2930:Doigt:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29249&ench=2617",
-                "wowhead_attr": null,
-                "slot": "Poignets",
-                "enchant_id": 2617,
-                "uuid": "invalid_enchant:item=29249&ench=2617:Poignets:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29290&ench=2930",
-                "wowhead_attr": null,
-                "slot": "Doigt",
-                "enchant_id": 2930,
-                "uuid": "invalid_enchant:item=29290&ench=2930:Doigt:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30108&ench=2343",
-                "wowhead_attr": null,
-                "slot": "Main droite",
-                "enchant_id": 2343,
-                "uuid": "invalid_enchant:item=30108&ench=2343:Main droite:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30219&ench=3001",
-                "wowhead_attr": null,
-                "slot": "T\u00eate",
-                "enchant_id": 3001,
-                "uuid": "invalid_enchant:item=30219&ench=3001:T\u00eate:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30220&ench=2746",
-                "wowhead_attr": null,
-                "slot": "Jambes",
-                "enchant_id": 2746,
-                "uuid": "invalid_enchant:item=30220&ench=2746:Jambes:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33268",
-                "uuid": "invalid_food:spell=33268:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28521",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28521:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28752",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=28752:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29087",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29087:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29089",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29089:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29984",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=29984:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30219",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30219:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=30220",
-                "wowhead_attr": "item=24029",
-                "uuid": "invalid_gem:item=24029:item=30220:The Lurker Below"
             }
         ]
     },
@@ -40382,31 +40382,13 @@
         },
         "remarks": [
             {
-                "fight": "Fathom-Lord Karathress",
+                "fight": "Morogrim Tidewalker",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29070&ench=2991",
-                "slot": "\u00c9paule",
-                "enchant_id": 2991,
-                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29925&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "missing_food",
-                "uuid": "missing_food:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28767",
-                "uuid": "no_temporary_enchant:item=28767:Fathom-Lord Karathress"
+                "item_wowhead_attr": "item=28621&ench=3013",
+                "wowhead_attr": null,
+                "slot": "Jambes",
+                "enchant_id": 3013,
+                "uuid": "invalid_enchant:item=28621&ench=3013:Jambes:Morogrim Tidewalker"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -40417,12 +40399,100 @@
                 "uuid": "invalid_enchant:item=28747&ench=2988:Pieds:Hydross the Unstable"
             },
             {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29070&ench=2991",
+                "slot": "\u00c9paule",
+                "enchant_id": 2991,
+                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Fathom-Lord Karathress"
+            },
+            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29070&ench=2991",
                 "slot": "\u00c9paule",
                 "enchant_id": 2991,
                 "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29070&ench=2991",
+                "slot": "\u00c9paule",
+                "enchant_id": 2991,
+                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29070&ench=2991",
+                "slot": "\u00c9paule",
+                "enchant_id": 2991,
+                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29070&ench=2991",
+                "slot": "\u00c9paule",
+                "enchant_id": 2991,
+                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29070&ench=2991",
+                "slot": "\u00c9paule",
+                "enchant_id": 2991,
+                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29925&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29925&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29925&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29925&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29925&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:The Lurker Below"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29998&ench=3260",
+                "slot": "Mains",
+                "enchant_id": 3260,
+                "uuid": "invalid_enchant:item=29998&ench=3260:Mains:Morogrim Tidewalker"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -40454,56 +40524,19 @@
                 "uuid": "missing_battle_elixir:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Hydross the Unstable"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29070&ench=2991",
-                "slot": "\u00c9paule",
-                "enchant_id": 2991,
-                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29925&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:Lady Vashj"
-            },
-            {
                 "fight": "Leotheras the Blind",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Leotheras the Blind"
             },
             {
+                "fight": "Fathom-Lord Karathress",
+                "type": "missing_food",
+                "uuid": "missing_food:Fathom-Lord Karathress"
+            },
+            {
                 "fight": "Leotheras the Blind",
                 "type": "missing_food",
                 "uuid": "missing_food:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29070&ench=2991",
-                "slot": "\u00c9paule",
-                "enchant_id": 2991,
-                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29925&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:Leotheras the Blind - Wipe 1 (0%)"
             },
             {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
@@ -40512,57 +40545,24 @@
             },
             {
                 "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28621&ench=3013",
-                "wowhead_attr": null,
-                "slot": "Jambes",
-                "enchant_id": 3013,
-                "uuid": "invalid_enchant:item=28621&ench=3013:Jambes:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29070&ench=2991",
-                "slot": "\u00c9paule",
-                "enchant_id": 2991,
-                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29925&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29998&ench=3260",
-                "slot": "Mains",
-                "enchant_id": 3260,
-                "uuid": "invalid_enchant:item=29998&ench=3260:Mains:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
                 "type": "missing_food",
                 "uuid": "missing_food:Morogrim Tidewalker"
             },
             {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29070&ench=2991",
-                "slot": "\u00c9paule",
-                "enchant_id": 2991,
-                "uuid": "invalid_enchant:item=29070&ench=2991:\u00c9paule:The Lurker Below"
+                "fight": "Hydross the Unstable",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Hydross the Unstable"
             },
             {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29925&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=29925&ench=2662:Dos:The Lurker Below"
+                "fight": "Leotheras the Blind",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28767",
+                "uuid": "no_temporary_enchant:item=28767:Fathom-Lord Karathress"
             }
         ]
     },
@@ -43287,16 +43287,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28752",
-                "uuid": "no_enchant:item=28752:Hydross the Unstable"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29375",
-                "uuid": "no_enchant:item=29375:Hydross the Unstable"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
@@ -43315,6 +43305,24 @@
                 "uuid": "invalid_guardian_elixir:spell=39627:Lady Vashj"
             },
             {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_guardian_elixir",
+                "wowhead_attr": "spell=39627",
+                "uuid": "invalid_guardian_elixir:spell=39627:Leotheras the Blind - Wipe 1 (0%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_guardian_elixir",
+                "wowhead_attr": "spell=39627",
+                "uuid": "invalid_guardian_elixir:spell=39627:Morogrim Tidewalker"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_guardian_elixir",
+                "wowhead_attr": "spell=39627",
+                "uuid": "invalid_guardian_elixir:spell=39627:The Lurker Below"
+            },
+            {
                 "fight": "Leotheras the Blind",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Leotheras the Blind"
@@ -43330,28 +43338,20 @@
                 "uuid": "missing_guardian_elixir:Leotheras the Blind"
             },
             {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_guardian_elixir",
-                "wowhead_attr": "spell=39627",
-                "uuid": "invalid_guardian_elixir:spell=39627:Leotheras the Blind - Wipe 1 (0%)"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28752",
+                "uuid": "no_enchant:item=28752:Hydross the Unstable"
             },
             {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_guardian_elixir",
-                "wowhead_attr": "spell=39627",
-                "uuid": "invalid_guardian_elixir:spell=39627:Morogrim Tidewalker"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29375",
+                "uuid": "no_enchant:item=29375:Hydross the Unstable"
             },
             {
                 "fight": "Morogrim Tidewalker",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=30108",
                 "uuid": "no_temporary_enchant:item=30108:Morogrim Tidewalker"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_guardian_elixir",
-                "wowhead_attr": "spell=39627",
-                "uuid": "invalid_guardian_elixir:spell=39627:The Lurker Below"
             }
         ]
     },
@@ -45802,24 +45802,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=24759",
-                "uuid": "no_enchant:item=24759:Hydross the Unstable"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28660&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=24786&ench=3005",
@@ -45844,6 +45826,14 @@
                 "uuid": "invalid_enchant:item=24799&ench=2988:Pieds:Hydross the Unstable"
             },
             {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28660&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Fathom-Lord Karathress"
+            },
+            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28660&ench=2662",
@@ -45852,20 +45842,20 @@
                 "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Hydross the Unstable"
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28660&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Leotheras the Blind - Wipe 1 (0%)"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=30021",
-                "uuid": "no_temporary_enchant:item=30021:Hydross the Unstable"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Lady Vashj"
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28660&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Morogrim Tidewalker"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -45878,30 +45868,29 @@
                 "uuid": "missing_food:Leotheras the Blind"
             },
             {
+                "fight": "Fathom-Lord Karathress",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Lady Vashj"
+            },
+            {
                 "fight": "Leotheras the Blind",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Leotheras the Blind"
             },
             {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28660&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28660&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Morogrim Tidewalker"
             },
             {
                 "fight": "Morogrim Tidewalker",
@@ -45912,6 +45901,17 @@
                 "fight": "The Lurker Below",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:The Lurker Below"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=24759",
+                "uuid": "no_enchant:item=24759:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=30021",
+                "uuid": "no_temporary_enchant:item=30021:Hydross the Unstable"
             }
         ]
     },
@@ -53737,11 +53737,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29992",
-                "uuid": "no_enchant:item=29992:Hydross the Unstable"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21869&ench=2982",
@@ -53766,21 +53761,6 @@
                 "uuid": "invalid_enchant:item=21869&ench=2982:\u00c9paule:Lady Vashj"
             },
             {
-                "fight": "Leotheras the Blind",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_food",
-                "uuid": "missing_food:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Leotheras the Blind"
-            },
-            {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21869&ench=2982",
@@ -53797,9 +53777,27 @@
                 "uuid": "invalid_enchant:item=21869&ench=2982:\u00c9paule:Morogrim Tidewalker"
             },
             {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=21869&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=21869&ench=2982:\u00c9paule:The Lurker Below"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Leotheras the Blind"
+            },
+            {
                 "fight": "Morogrim Tidewalker",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_food",
+                "uuid": "missing_food:Leotheras the Blind"
             },
             {
                 "fight": "Morogrim Tidewalker",
@@ -53807,17 +53805,19 @@
                 "uuid": "missing_food:Morogrim Tidewalker"
             },
             {
+                "fight": "Leotheras the Blind",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Leotheras the Blind"
+            },
+            {
                 "fight": "Morogrim Tidewalker",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Morogrim Tidewalker"
             },
             {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=21869&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=21869&ench=2982:\u00c9paule:The Lurker Below"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29992",
+                "uuid": "no_enchant:item=29992:Hydross the Unstable"
             }
         ]
     },
@@ -56308,21 +56308,6 @@
                 "uuid": "invalid_enchant:item=28517&ench=2656:Pieds:Lady Vashj"
             },
             {
-                "fight": "Leotheras the Blind",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_food",
-                "uuid": "missing_food:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Leotheras the Blind"
-            },
-            {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28517&ench=2656",
@@ -56339,23 +56324,38 @@
                 "uuid": "invalid_enchant:item=28517&ench=2656:Pieds:Morogrim Tidewalker"
             },
             {
-                "fight": "Morogrim Tidewalker",
-                "type": "missing_food",
-                "uuid": "missing_food:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Morogrim Tidewalker"
-            },
-            {
                 "fight": "The Lurker Below",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28517&ench=2656",
                 "slot": "Pieds",
                 "enchant_id": 2656,
                 "uuid": "invalid_enchant:item=28517&ench=2656:Pieds:The Lurker Below"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_food",
+                "uuid": "missing_food:Leotheras the Blind"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "missing_food",
+                "uuid": "missing_food:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Morogrim Tidewalker"
             }
         ]
     },
@@ -58865,11 +58865,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=25978",
-                "uuid": "no_enchant:item=25978:The Lurker Below"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -58888,12 +58883,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Hydross the Unstable"
-            },
-            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -58901,27 +58890,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Lady Vashj"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_food",
-                "uuid": "missing_food:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Leotheras the Blind"
             },
             {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
@@ -58933,12 +58901,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Leotheras the Blind - Wipe 1 (0%)"
             },
             {
-                "fight": "Leotheras the Blind - Wipe 1 (0%)",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Leotheras the Blind - Wipe 1 (0%)"
-            },
-            {
                 "fight": "Morogrim Tidewalker",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -58948,21 +58910,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Morogrim Tidewalker"
             },
             {
-                "fight": "Morogrim Tidewalker",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "missing_food",
-                "uuid": "missing_food:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Morogrim Tidewalker"
-            },
-            {
                 "fight": "The Lurker Below",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -58970,6 +58917,59 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:The Lurker Below"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_food",
+                "uuid": "missing_food:Leotheras the Blind"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "missing_food",
+                "uuid": "missing_food:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Morogrim Tidewalker"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=25978",
+                "uuid": "no_enchant:item=25978:The Lurker Below"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind - Wipe 1 (0%)",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Leotheras the Blind - Wipe 1 (0%)"
             }
         ]
     },
@@ -61523,21 +61523,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=25978",
-                "uuid": "no_enchant:item=25978:The Lurker Below"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28765",
-                "uuid": "no_enchant:item=28765:Hydross the Unstable"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=30092",
-                "uuid": "no_enchant:item=30092:Hydross the Unstable"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21874&ench=2993",
@@ -61562,21 +61547,6 @@
                 "uuid": "invalid_enchant:item=21874&ench=2993:\u00c9paule:Lady Vashj"
             },
             {
-                "fight": "Leotheras the Blind",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_food",
-                "uuid": "missing_food:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Leotheras the Blind"
-            },
-            {
                 "fight": "Leotheras the Blind - Wipe 1 (0%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21874&ench=2993",
@@ -61593,12 +61563,6 @@
                 "uuid": "invalid_enchant:item=21874&ench=2993:\u00c9paule:Morogrim Tidewalker"
             },
             {
-                "fight": "Morogrim Tidewalker",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28771",
-                "uuid": "no_temporary_enchant:item=28771:Morogrim Tidewalker"
-            },
-            {
                 "fight": "The Lurker Below",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21874&ench=2993",
@@ -61607,10 +61571,46 @@
                 "uuid": "invalid_enchant:item=21874&ench=2993:\u00c9paule:The Lurker Below"
             },
             {
+                "fight": "Leotheras the Blind",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_food",
+                "uuid": "missing_food:Leotheras the Blind"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Leotheras the Blind"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=25978",
+                "uuid": "no_enchant:item=25978:The Lurker Below"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28765",
+                "uuid": "no_enchant:item=28765:Hydross the Unstable"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=30092",
+                "uuid": "no_enchant:item=30092:Hydross the Unstable"
+            },
+            {
                 "fight": "The Lurker Below",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=25978",
                 "uuid": "no_temporary_enchant:item=25978:The Lurker Below"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28771",
+                "uuid": "no_temporary_enchant:item=28771:Morogrim Tidewalker"
             }
         ]
     },

@@ -1002,6 +1002,27 @@
         },
         "remarks": [
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=29076",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=29076:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=29076",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=29076:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=29076",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=29076:Magtheridon"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=27537",
                 "uuid": "no_enchant:item=27537:High King Maulgar"
@@ -1030,27 +1051,6 @@
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=31297",
                 "uuid": "no_enchant:item=31297:High King Maulgar"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=29076",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=29076:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=29076",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=29076:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=29076",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=29076:Magtheridon"
             }
         ]
     },
@@ -2271,16 +2271,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29369",
-                "uuid": "no_enchant:item=29369:High King Maulgar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=30832",
-                "uuid": "no_enchant:item=30832:High King Maulgar"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29034&ench=2934",
@@ -2303,6 +2293,16 @@
                 "slot": "Mains",
                 "enchant_id": 2934,
                 "uuid": "invalid_enchant:item=29034&ench=2934:Mains:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29369",
+                "uuid": "no_enchant:item=29369:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=30832",
+                "uuid": "no_enchant:item=30832:High King Maulgar"
             }
         ]
     },
@@ -3516,12 +3516,6 @@
                 "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28729",
-                "uuid": "no_temporary_enchant_but_windfury:item=28729:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:High King Maulgar"
@@ -3536,6 +3530,12 @@
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28729",
                 "uuid": "no_temporary_enchant:item=28729:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28729",
+                "uuid": "no_temporary_enchant_but_windfury:item=28729:Gruul the Dragonkiller"
             }
         ]
     },
@@ -4635,10 +4635,85 @@
         },
         "remarks": [
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28174",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28174:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28174",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28174:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28174",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28174:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_talent_points",
+                "expected_points": 61,
+                "points_used": 58,
+                "uuid": "invalid_talent_points:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_talent_points",
+                "expected_points": 61,
+                "points_used": 58,
+                "uuid": "invalid_talent_points:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_talent_points",
+                "expected_points": 61,
+                "points_used": 58,
+                "uuid": "invalid_talent_points:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
                 "type": "missing_gems",
                 "item_wowhead_attr": "item=29076",
                 "count": 2,
                 "uuid": "missing_gems:item=29076:High King Maulgar"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
             },
             {
                 "type": "no_enchant",
@@ -4679,81 +4754,6 @@
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=30268",
                 "uuid": "no_enchant:item=30268:High King Maulgar"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28174",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28174:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_talent_points",
-                "expected_points": 61,
-                "points_used": 58,
-                "uuid": "invalid_talent_points:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28174",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28174:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_talent_points",
-                "expected_points": 61,
-                "points_used": 58,
-                "uuid": "invalid_talent_points:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28174",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28174:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_talent_points",
-                "expected_points": 61,
-                "points_used": 58,
-                "uuid": "invalid_talent_points:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
             }
         ]
     },
@@ -7434,6 +7434,252 @@
         },
         "remarks": [
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21869",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21869:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21869",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21869:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21869",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21869:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21869",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21869:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21869",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21869:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21869",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21869:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21871",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21871:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21871",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21871:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21871",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21871:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21871",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21871:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21871",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21871:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21871",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=21871:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24262:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24262:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24262:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24262:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24262:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24262:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28507",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28507:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28507",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28507:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28507",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28507:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28507",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28507:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28507",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28507:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28507",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28507:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=21870",
                 "uuid": "no_enchant:item=21870:High King Maulgar"
@@ -7447,252 +7693,6 @@
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=28507",
                 "uuid": "no_enchant:item=28507:High King Maulgar"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21869",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21869:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21869",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21869:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21871",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21871:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21871",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21871:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24262:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24262:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28507",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28507:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28507",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28507:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21869",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21869:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21869",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21869:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21871",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21871:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21871",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21871:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24262:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24262:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28507",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28507:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28507",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28507:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21869",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21869:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21869",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21869:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21871",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21871:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21871",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=21871:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24262:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24262:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28507",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28507:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28507",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28507:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
             }
         ]
     },
@@ -8837,11 +8837,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28384",
-                "uuid": "no_enchant:item=28384:High King Maulgar"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=27474&ench=1594",
@@ -8849,20 +8844,6 @@
                 "slot": "Mains",
                 "enchant_id": 1594,
                 "uuid": "invalid_enchant:item=27474&ench=1594:Mains:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=27713&ench=2606",
-                "slot": "\u00c9paule",
-                "enchant_id": 2606,
-                "uuid": "invalid_enchant:item=27713&ench=2606:\u00c9paule:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=27903",
-                "uuid": "no_temporary_enchant:item=27903:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -8874,20 +8855,6 @@
                 "uuid": "invalid_enchant:item=27474&ench=1594:Mains:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=27713&ench=2606",
-                "slot": "\u00c9paule",
-                "enchant_id": 2606,
-                "uuid": "invalid_enchant:item=27713&ench=2606:\u00c9paule:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=27903",
-                "uuid": "no_temporary_enchant:item=27903:High King Maulgar"
-            },
-            {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=27474&ench=1594",
@@ -8897,12 +8864,45 @@
                 "uuid": "invalid_enchant:item=27474&ench=1594:Mains:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=27713&ench=2606",
+                "slot": "\u00c9paule",
+                "enchant_id": 2606,
+                "uuid": "invalid_enchant:item=27713&ench=2606:\u00c9paule:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=27713&ench=2606",
+                "slot": "\u00c9paule",
+                "enchant_id": 2606,
+                "uuid": "invalid_enchant:item=27713&ench=2606:\u00c9paule:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=27713&ench=2606",
                 "slot": "\u00c9paule",
                 "enchant_id": 2606,
                 "uuid": "invalid_enchant:item=27713&ench=2606:\u00c9paule:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28384",
+                "uuid": "no_enchant:item=28384:High King Maulgar"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=27903",
+                "uuid": "no_temporary_enchant:item=27903:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=27903",
+                "uuid": "no_temporary_enchant:item=27903:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -10107,92 +10107,12 @@
                 "uuid": "invalid_enchant:item=21186&ench=1883:Poignets:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=22507&ench=2721",
-                "slot": "\u00c9paule",
-                "enchant_id": 2721,
-                "uuid": "invalid_enchant:item=22507&ench=2721:\u00c9paule:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=22508&ench=929",
-                "slot": "Pieds",
-                "enchant_id": 929,
-                "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21186&ench=1883",
                 "slot": "Poignets",
                 "enchant_id": 1883,
                 "uuid": "invalid_enchant:item=21186&ench=1883:Poignets:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=22507&ench=2721",
-                "slot": "\u00c9paule",
-                "enchant_id": 2721,
-                "uuid": "invalid_enchant:item=22507&ench=2721:\u00c9paule:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=22508&ench=929",
-                "slot": "Pieds",
-                "enchant_id": 929,
-                "uuid": "invalid_enchant:item=22508&ench=929:Pieds:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -10203,12 +10123,44 @@
                 "uuid": "invalid_enchant:item=21186&ench=1883:Poignets:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=22507&ench=2721",
+                "slot": "\u00c9paule",
+                "enchant_id": 2721,
+                "uuid": "invalid_enchant:item=22507&ench=2721:\u00c9paule:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=22507&ench=2721",
+                "slot": "\u00c9paule",
+                "enchant_id": 2721,
+                "uuid": "invalid_enchant:item=22507&ench=2721:\u00c9paule:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22507&ench=2721",
                 "slot": "\u00c9paule",
                 "enchant_id": 2721,
                 "uuid": "invalid_enchant:item=22507&ench=2721:\u00c9paule:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=22508&ench=929",
+                "slot": "Pieds",
+                "enchant_id": 929,
+                "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=22508&ench=929",
+                "slot": "Pieds",
+                "enchant_id": 929,
+                "uuid": "invalid_enchant:item=22508&ench=929:Pieds:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -10219,11 +10171,39 @@
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=24266",
                 "wowhead_attr": "item=23096",
                 "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -10233,9 +10213,29 @@
                 "uuid": "invalid_gem:item=23096:item=28964:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -12697,43 +12697,12 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28751",
-                "uuid": "no_enchant:item=28751:High King Maulgar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=31329",
-                "uuid": "no_enchant:item=31329:High King Maulgar"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22428&ench=2584",
                 "slot": "T\u00eate",
                 "enchant_id": 2584,
                 "uuid": "invalid_enchant:item=22428&ench=2584:T\u00eate:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28751",
-                "wowhead_attr": "item=23121",
-                "uuid": "invalid_gem:item=23121:item=28751:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28751",
-                "wowhead_attr": "item=23121",
-                "uuid": "invalid_gem:item=23121:item=28751:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28751",
-                "wowhead_attr": "item=23099",
-                "uuid": "invalid_gem:item=23099:item=28751:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -12744,18 +12713,19 @@
                 "uuid": "invalid_enchant:item=22428&ench=2584:T\u00eate:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28751",
-                "wowhead_attr": "item=23121",
-                "uuid": "invalid_gem:item=23121:item=28751:High King Maulgar"
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=22428&ench=2584",
+                "slot": "T\u00eate",
+                "enchant_id": 2584,
+                "uuid": "invalid_enchant:item=22428&ench=2584:T\u00eate:Magtheridon"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Gruul the Dragonkiller",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28751",
-                "wowhead_attr": "item=23121",
-                "uuid": "invalid_gem:item=23121:item=28751:High King Maulgar"
+                "wowhead_attr": "item=23099",
+                "uuid": "invalid_gem:item=23099:item=28751:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -12766,32 +12736,62 @@
             },
             {
                 "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=22428&ench=2584",
-                "slot": "T\u00eate",
-                "enchant_id": 2584,
-                "uuid": "invalid_enchant:item=22428&ench=2584:T\u00eate:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28751",
-                "wowhead_attr": "item=23121",
-                "uuid": "invalid_gem:item=23121:item=28751:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28751",
-                "wowhead_attr": "item=23121",
-                "uuid": "invalid_gem:item=23121:item=28751:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28751",
                 "wowhead_attr": "item=23099",
                 "uuid": "invalid_gem:item=23099:item=28751:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28751",
+                "wowhead_attr": "item=23121",
+                "uuid": "invalid_gem:item=23121:item=28751:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28751",
+                "wowhead_attr": "item=23121",
+                "uuid": "invalid_gem:item=23121:item=28751:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28751",
+                "wowhead_attr": "item=23121",
+                "uuid": "invalid_gem:item=23121:item=28751:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28751",
+                "wowhead_attr": "item=23121",
+                "uuid": "invalid_gem:item=23121:item=28751:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28751",
+                "wowhead_attr": "item=23121",
+                "uuid": "invalid_gem:item=23121:item=28751:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28751",
+                "wowhead_attr": "item=23121",
+                "uuid": "invalid_gem:item=23121:item=28751:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28751",
+                "uuid": "no_enchant:item=28751:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=31329",
+                "uuid": "no_enchant:item=31329:High King Maulgar"
             }
         ]
     },
@@ -14003,72 +14003,72 @@
         },
         "remarks": [
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28202",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28202:Magtheridon"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=28373",
                 "uuid": "no_enchant:item=28373:High King Maulgar"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28202",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28202:Magtheridon"
             }
         ]
     },
@@ -15101,11 +15101,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=27448",
-                "uuid": "no_enchant:item=27448:High King Maulgar"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28742&ench=2745",
@@ -15128,6 +15123,11 @@
                 "slot": "Jambes",
                 "enchant_id": 2745,
                 "uuid": "invalid_enchant:item=28742&ench=2745:Jambes:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=27448",
+                "uuid": "no_enchant:item=27448:High King Maulgar"
             }
         ]
     },
@@ -16592,11 +16592,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=25489",
-                "uuid": "no_enchant:item=25489:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21387&ench=3003",
@@ -16649,6 +16644,22 @@
                 "uuid": "invalid_enchant:item=28611&ench=2654:Main gauche:Gruul the Dragonkiller"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29070&ench=2990",
+                "slot": "\u00c9paule",
+                "enchant_id": 2990,
+                "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29070&ench=2990",
+                "slot": "\u00c9paule",
+                "enchant_id": 2990,
+                "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:Magtheridon"
+            },
+            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30400&ench=2647",
@@ -16656,17 +16667,6 @@
                 "slot": "Poignets",
                 "enchant_id": 2647,
                 "uuid": "invalid_enchant:item=30400&ench=2647:Poignets:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=35272",
-                "uuid": "invalid_food:spell=35272:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -16678,12 +16678,13 @@
                 "uuid": "invalid_enchant:spell=44968:item=28747&ench=2841:Pieds:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Magtheridon",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29070&ench=2990",
-                "slot": "\u00c9paule",
-                "enchant_id": 2990,
-                "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:High King Maulgar"
+                "item_wowhead_attr": "item=28747&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Pieds",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=28747&ench=2841:Pieds:Magtheridon"
             },
             {
                 "fight": "High King Maulgar",
@@ -16695,152 +16696,6 @@
                 "uuid": "invalid_enchant:spell=44968:item=29184&ench=2841:Jambes:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=35272",
-                "uuid": "invalid_food:spell=35272:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28502",
-                "wowhead_attr": "item=28470",
-                "uuid": "invalid_gem:item=28470:item=28502:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28566",
-                "wowhead_attr": "item=23110",
-                "uuid": "invalid_gem:item=23110:item=28566:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28566",
-                "wowhead_attr": "item=23115",
-                "uuid": "invalid_gem:item=23115:item=28566:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28593",
-                "wowhead_attr": "item=28470",
-                "uuid": "invalid_gem:item=28470:item=28593:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28593",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=28593:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28593",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=28593:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28747",
-                "wowhead_attr": "item=23110",
-                "uuid": "invalid_gem:item=23110:item=28747:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28747",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=28747:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28825",
-                "wowhead_attr": "item=28463",
-                "uuid": "invalid_gem:item=28463:item=28825:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29066",
-                "wowhead_attr": "item=23110",
-                "uuid": "invalid_gem:item=23110:item=29066:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29066",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=29066:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29070",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=29070:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29070",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=29070:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29184",
-                "wowhead_attr": "item=28470",
-                "uuid": "invalid_gem:item=28470:item=29184:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29184",
-                "wowhead_attr": "item=28470",
-                "uuid": "invalid_gem:item=28470:item=29184:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29184",
-                "wowhead_attr": "item=28470",
-                "uuid": "invalid_gem:item=28470:item=29184:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28767",
-                "uuid": "no_temporary_enchant:item=28767:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28747&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Pieds",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=28747&ench=2841:Pieds:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29070&ench=2990",
-                "slot": "\u00c9paule",
-                "enchant_id": 2990,
-                "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:Magtheridon"
-            },
-            {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29184&ench=2841",
@@ -16850,17 +16705,29 @@
                 "uuid": "invalid_enchant:spell=44968:item=29184&ench=2841:Jambes:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=35272",
+                "uuid": "invalid_food:spell=35272:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=35272",
+                "uuid": "invalid_food:spell=35272:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_food",
                 "wowhead_attr": "spell=35272",
                 "uuid": "invalid_food:spell=35272:Magtheridon"
             },
             {
-                "fight": "Magtheridon",
+                "fight": "High King Maulgar",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "item=28502",
-                "wowhead_attr": "item=28470",
-                "uuid": "invalid_gem:item=28470:item=28502:Magtheridon"
+                "item_wowhead_attr": "item=28566",
+                "wowhead_attr": "item=23110",
+                "uuid": "invalid_gem:item=23110:item=28566:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -16870,32 +16737,11 @@
                 "uuid": "invalid_gem:item=23110:item=28566:Magtheridon"
             },
             {
-                "fight": "Magtheridon",
+                "fight": "High King Maulgar",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "item=28566",
-                "wowhead_attr": "item=23115",
-                "uuid": "invalid_gem:item=23115:item=28566:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28593",
-                "wowhead_attr": "item=28470",
-                "uuid": "invalid_gem:item=28470:item=28593:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28593",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=28593:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28593",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=28593:Magtheridon"
+                "item_wowhead_attr": "item=28747",
+                "wowhead_attr": "item=23110",
+                "uuid": "invalid_gem:item=23110:item=28747:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -16905,18 +16751,11 @@
                 "uuid": "invalid_gem:item=23110:item=28747:Magtheridon"
             },
             {
-                "fight": "Magtheridon",
+                "fight": "High King Maulgar",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "item=28747",
-                "wowhead_attr": "item=23118",
-                "uuid": "invalid_gem:item=23118:item=28747:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28825",
-                "wowhead_attr": "item=28463",
-                "uuid": "invalid_gem:item=28463:item=28825:Magtheridon"
+                "item_wowhead_attr": "item=29066",
+                "wowhead_attr": "item=23110",
+                "uuid": "invalid_gem:item=23110:item=29066:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -16926,6 +16765,69 @@
                 "uuid": "invalid_gem:item=23110:item=29066:Magtheridon"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28566",
+                "wowhead_attr": "item=23115",
+                "uuid": "invalid_gem:item=23115:item=28566:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28566",
+                "wowhead_attr": "item=23115",
+                "uuid": "invalid_gem:item=23115:item=28566:Magtheridon"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28593",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=28593:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28593",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=28593:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28593",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=28593:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28593",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=28593:Magtheridon"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28747",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=28747:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28747",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=28747:Magtheridon"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29066",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=29066:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=29066",
@@ -16933,6 +16835,20 @@
                 "uuid": "invalid_gem:item=23118:item=29066:Magtheridon"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29070",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=29070:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29070",
+                "wowhead_attr": "item=23118",
+                "uuid": "invalid_gem:item=23118:item=29070:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=29070",
@@ -16947,11 +16863,67 @@
                 "uuid": "invalid_gem:item=23118:item=29070:Magtheridon"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28825",
+                "wowhead_attr": "item=28463",
+                "uuid": "invalid_gem:item=28463:item=28825:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28825",
+                "wowhead_attr": "item=28463",
+                "uuid": "invalid_gem:item=28463:item=28825:Magtheridon"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28502",
+                "wowhead_attr": "item=28470",
+                "uuid": "invalid_gem:item=28470:item=28502:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28502",
+                "wowhead_attr": "item=28470",
+                "uuid": "invalid_gem:item=28470:item=28502:Magtheridon"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28593",
+                "wowhead_attr": "item=28470",
+                "uuid": "invalid_gem:item=28470:item=28593:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28593",
+                "wowhead_attr": "item=28470",
+                "uuid": "invalid_gem:item=28470:item=28593:Magtheridon"
+            },
+            {
+                "fight": "High King Maulgar",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=29184",
                 "wowhead_attr": "item=28470",
-                "uuid": "invalid_gem:item=28470:item=29184:Magtheridon"
+                "uuid": "invalid_gem:item=28470:item=29184:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29184",
+                "wowhead_attr": "item=28470",
+                "uuid": "invalid_gem:item=28470:item=29184:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29184",
+                "wowhead_attr": "item=28470",
+                "uuid": "invalid_gem:item=28470:item=29184:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -16966,11 +16938,39 @@
                 "item_wowhead_attr": "item=29184",
                 "wowhead_attr": "item=28470",
                 "uuid": "invalid_gem:item=28470:item=29184:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29184",
+                "wowhead_attr": "item=28470",
+                "uuid": "invalid_gem:item=28470:item=29184:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=25489",
+                "uuid": "no_enchant:item=25489:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28767",
+                "uuid": "no_temporary_enchant:item=28767:High King Maulgar"
             }
         ]
     },
@@ -18213,39 +18213,20 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=27787",
-                "uuid": "no_enchant:item=27787:Gruul the Dragonkiller"
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28660&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:High King Maulgar"
             },
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28529",
-                "uuid": "no_enchant:item=28529:Gruul the Dragonkiller"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29263",
-                "uuid": "no_enchant:item=29263:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=28459",
-                "uuid": "invalid_gem:item=28459:item=28750:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=28459",
-                "uuid": "invalid_gem:item=28459:item=28750:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28658",
-                "uuid": "no_temporary_enchant:item=28658:Gruul the Dragonkiller"
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28660&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Magtheridon"
             },
             {
                 "fight": "High King Maulgar",
@@ -18257,12 +18238,13 @@
                 "uuid": "invalid_enchant:spell=44968:item=25689&ench=2841:Torse:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Magtheridon",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28660&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:High King Maulgar"
+                "item_wowhead_attr": "item=25689&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Torse",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=25689&ench=2841:Torse:Magtheridon"
             },
             {
                 "fight": "High King Maulgar",
@@ -18285,62 +18267,25 @@
                 "uuid": "invalid_gem:item=23115:item=25689:High King Maulgar"
             },
             {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=25689",
+                "wowhead_attr": "item=23115",
+                "uuid": "invalid_gem:item=23115:item=25689:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=25689",
+                "wowhead_attr": "item=23115",
+                "uuid": "invalid_gem:item=23115:item=25689:Magtheridon"
+            },
+            {
                 "fight": "High King Maulgar",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=25689",
                 "wowhead_attr": "item=23118",
                 "uuid": "invalid_gem:item=23118:item=25689:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=28459",
-                "uuid": "invalid_gem:item=28459:item=28750:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=28459",
-                "uuid": "invalid_gem:item=28459:item=28750:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28658",
-                "uuid": "no_temporary_enchant:item=28658:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25689&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Torse",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=25689&ench=2841:Torse:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28660&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=25689",
-                "wowhead_attr": "item=23115",
-                "uuid": "invalid_gem:item=23115:item=25689:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=25689",
-                "wowhead_attr": "item=23115",
-                "uuid": "invalid_gem:item=23115:item=25689:Magtheridon"
             },
             {
                 "fight": "Magtheridon",
@@ -18350,6 +18295,34 @@
                 "uuid": "invalid_gem:item=23118:item=25689:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=28459",
+                "uuid": "invalid_gem:item=28459:item=28750:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=28459",
+                "uuid": "invalid_gem:item=28459:item=28750:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=28459",
+                "uuid": "invalid_gem:item=28459:item=28750:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=28459",
+                "uuid": "invalid_gem:item=28459:item=28750:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28750",
@@ -18362,6 +18335,33 @@
                 "item_wowhead_attr": "item=28750",
                 "wowhead_attr": "item=28459",
                 "uuid": "invalid_gem:item=28459:item=28750:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=27787",
+                "uuid": "no_enchant:item=27787:Gruul the Dragonkiller"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28529",
+                "uuid": "no_enchant:item=28529:Gruul the Dragonkiller"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29263",
+                "uuid": "no_enchant:item=29263:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28658",
+                "uuid": "no_temporary_enchant:item=28658:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28658",
+                "uuid": "no_temporary_enchant:item=28658:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -19310,16 +19310,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=27549",
-                "uuid": "no_enchant:item=27549:High King Maulgar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28765",
-                "uuid": "no_enchant:item=28765:High King Maulgar"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
@@ -19345,6 +19335,16 @@
                 "fight": "Magtheridon",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=27549",
+                "uuid": "no_enchant:item=27549:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28765",
+                "uuid": "no_enchant:item=28765:High King Maulgar"
             }
         ]
     },
@@ -20710,91 +20710,9 @@
             {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "item=27531",
-                "wowhead_attr": "item=23116",
-                "uuid": "invalid_gem:item=23116:item=27531:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27531",
-                "wowhead_attr": "item=23116",
-                "uuid": "invalid_gem:item=23116:item=27531:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27797",
-                "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=27797:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
                 "item_wowhead_attr": "item=28545",
                 "wowhead_attr": "item=23097",
                 "uuid": "invalid_gem:item=23097:item=28545:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28545",
-                "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=28545:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=28750:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=28750:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29044",
-                "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=29044:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29045",
-                "wowhead_attr": "item=23110",
-                "uuid": "invalid_gem:item=23110:item=29045:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27531",
-                "wowhead_attr": "item=23116",
-                "uuid": "invalid_gem:item=23116:item=27531:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27531",
-                "wowhead_attr": "item=23116",
-                "uuid": "invalid_gem:item=23116:item=27531:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27797",
-                "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=27797:High King Maulgar"
             },
             {
                 "fight": "High King Maulgar",
@@ -20804,58 +20722,25 @@
                 "uuid": "invalid_gem:item=23097:item=28545:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28545",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28545:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27797",
                 "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=28545:High King Maulgar"
+                "uuid": "invalid_gem:item=23100:item=27797:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
+                "item_wowhead_attr": "item=27797",
                 "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=28750:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=28750:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29044",
-                "wowhead_attr": "item=23100",
-                "uuid": "invalid_gem:item=23100:item=29044:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29045",
-                "wowhead_attr": "item=23110",
-                "uuid": "invalid_gem:item=23110:item=29045:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27531",
-                "wowhead_attr": "item=23116",
-                "uuid": "invalid_gem:item=23116:item=27531:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27531",
-                "wowhead_attr": "item=23116",
-                "uuid": "invalid_gem:item=23116:item=27531:Magtheridon"
+                "uuid": "invalid_gem:item=23100:item=27797:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -20865,11 +20750,18 @@
                 "uuid": "invalid_gem:item=23100:item=27797:Magtheridon"
             },
             {
-                "fight": "Magtheridon",
+                "fight": "Gruul the Dragonkiller",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28545",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28545:Magtheridon"
+                "wowhead_attr": "item=23100",
+                "uuid": "invalid_gem:item=23100:item=28545:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28545",
+                "wowhead_attr": "item=23100",
+                "uuid": "invalid_gem:item=23100:item=28545:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -20879,6 +20771,34 @@
                 "uuid": "invalid_gem:item=23100:item=28545:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=23100",
+                "uuid": "invalid_gem:item=23100:item=28750:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=23100",
+                "uuid": "invalid_gem:item=23100:item=28750:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=23100",
+                "uuid": "invalid_gem:item=23100:item=28750:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=23100",
+                "uuid": "invalid_gem:item=23100:item=28750:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28750",
@@ -20891,6 +20811,20 @@
                 "item_wowhead_attr": "item=28750",
                 "wowhead_attr": "item=23100",
                 "uuid": "invalid_gem:item=23100:item=28750:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29044",
+                "wowhead_attr": "item=23100",
+                "uuid": "invalid_gem:item=23100:item=29044:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29044",
+                "wowhead_attr": "item=23100",
+                "uuid": "invalid_gem:item=23100:item=29044:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -20900,11 +20834,77 @@
                 "uuid": "invalid_gem:item=23100:item=29044:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29045",
+                "wowhead_attr": "item=23110",
+                "uuid": "invalid_gem:item=23110:item=29045:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29045",
+                "wowhead_attr": "item=23110",
+                "uuid": "invalid_gem:item=23110:item=29045:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=29045",
                 "wowhead_attr": "item=23110",
                 "uuid": "invalid_gem:item=23110:item=29045:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27531",
+                "wowhead_attr": "item=23116",
+                "uuid": "invalid_gem:item=23116:item=27531:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27531",
+                "wowhead_attr": "item=23116",
+                "uuid": "invalid_gem:item=23116:item=27531:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27531",
+                "wowhead_attr": "item=23116",
+                "uuid": "invalid_gem:item=23116:item=27531:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27531",
+                "wowhead_attr": "item=23116",
+                "uuid": "invalid_gem:item=23116:item=27531:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27531",
+                "wowhead_attr": "item=23116",
+                "uuid": "invalid_gem:item=23116:item=27531:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27531",
+                "wowhead_attr": "item=23116",
+                "uuid": "invalid_gem:item=23116:item=27531:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -22175,6 +22175,155 @@
         },
         "remarks": [
             {
+                "fight": "High King Maulgar",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33257",
+                "uuid": "invalid_food:spell=33257:High King Maulgar"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24262:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24262:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24266",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21846",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21846:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21846",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21846:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21846",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21846:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21846",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21846:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21847",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21847:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21847",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21847:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21847",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21847:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21847",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21847:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21848",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21848:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=21848",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=21848:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=24262:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=24262:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=24262:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=24262",
+                "wowhead_attr": "item=23101",
+                "uuid": "invalid_gem:item=23101:item=24262:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=21851",
                 "uuid": "no_enchant:item=21851:High King Maulgar"
@@ -22203,155 +22352,6 @@
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=28797",
                 "uuid": "no_enchant:item=28797:High King Maulgar"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21846",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21846:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21846",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21846:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21847",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21847:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21847",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21847:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21848",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21848:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=24262:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=24262:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24262:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33257",
-                "uuid": "invalid_food:spell=33257:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21846",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21846:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21846",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21846:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21847",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21847:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21847",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21847:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=21848",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=21848:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=24262:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23101",
-                "uuid": "invalid_gem:item=23101:item=24262:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24262",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24262:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=24266",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=24266:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
             }
         ]
     },
@@ -23512,6 +23512,216 @@
         },
         "remarks": [
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28029&ench=1883",
+                "slot": "Poignets",
+                "enchant_id": 1883,
+                "uuid": "invalid_enchant:item=28029&ench=1883:Poignets:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28029&ench=1883",
+                "slot": "Poignets",
+                "enchant_id": 1883,
+                "uuid": "invalid_enchant:item=28029&ench=1883:Poignets:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28029&ench=1883",
+                "slot": "Poignets",
+                "enchant_id": 1883,
+                "uuid": "invalid_enchant:item=28029&ench=1883:Poignets:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=25791&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Mains",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=25791&ench=2841:Mains:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=25791&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Mains",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=25791&ench=2841:Mains:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=25791&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Mains",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=25791&ench=2841:Mains:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28251&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Pieds",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=28251&ench=2841:Pieds:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28251&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Pieds",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=28251&ench=2841:Pieds:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28251&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Pieds",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=28251&ench=2841:Pieds:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28591&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Jambes",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=28591&ench=2841:Jambes:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28591&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Jambes",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=28591&ench=2841:Jambes:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28591&ench=2841",
+                "wowhead_attr": "spell=44968",
+                "slot": "Jambes",
+                "enchant_id": 2841,
+                "uuid": "invalid_enchant:spell=44968:item=28591&ench=2841:Jambes:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27775",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=27775:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27775",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=27775:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27775",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=27775:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27775",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=27775:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27775",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=27775:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27775",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=27775:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28230",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28230:Magtheridon"
+            },
+            {
                 "type": "missing_gems",
                 "item_wowhead_attr": "item=28591",
                 "count": 3,
@@ -23536,216 +23746,6 @@
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=28782",
                 "uuid": "no_enchant:item=28782:High King Maulgar"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25791&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Mains",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=25791&ench=2841:Mains:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28029&ench=1883",
-                "slot": "Poignets",
-                "enchant_id": 1883,
-                "uuid": "invalid_enchant:item=28029&ench=1883:Poignets:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28251&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Pieds",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=28251&ench=2841:Pieds:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28591&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Jambes",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=28591&ench=2841:Jambes:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27775",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=27775:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27775",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=27775:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25791&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Mains",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=25791&ench=2841:Mains:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28029&ench=1883",
-                "slot": "Poignets",
-                "enchant_id": 1883,
-                "uuid": "invalid_enchant:item=28029&ench=1883:Poignets:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28251&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Pieds",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=28251&ench=2841:Pieds:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28591&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Jambes",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=28591&ench=2841:Jambes:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27775",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=27775:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27775",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=27775:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25791&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Mains",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=25791&ench=2841:Mains:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28029&ench=1883",
-                "slot": "Poignets",
-                "enchant_id": 1883,
-                "uuid": "invalid_enchant:item=28029&ench=1883:Poignets:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28251&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Pieds",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=28251&ench=2841:Pieds:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28591&ench=2841",
-                "wowhead_attr": "spell=44968",
-                "slot": "Jambes",
-                "enchant_id": 2841,
-                "uuid": "invalid_enchant:spell=44968:item=28591&ench=2841:Jambes:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27775",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=27775:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27775",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=27775:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28230",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28230:Magtheridon"
             }
         ]
     },
@@ -24748,11 +24748,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29124",
-                "uuid": "no_enchant:item=29124:High King Maulgar"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22477&ench=2585",
@@ -24761,26 +24756,28 @@
                 "uuid": "invalid_enchant:item=22477&ench=2585:Jambes:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=22478&ench=2585",
-                "slot": "T\u00eate",
-                "enchant_id": 2585,
-                "uuid": "invalid_enchant:item=22478&ench=2585:T\u00eate:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=29124",
-                "uuid": "no_temporary_enchant:item=29124:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22477&ench=2585",
                 "slot": "Jambes",
                 "enchant_id": 2585,
                 "uuid": "invalid_enchant:item=22477&ench=2585:Jambes:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=22477&ench=2585",
+                "slot": "Jambes",
+                "enchant_id": 2585,
+                "uuid": "invalid_enchant:item=22477&ench=2585:Jambes:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=22478&ench=2585",
+                "slot": "T\u00eate",
+                "enchant_id": 2585,
+                "uuid": "invalid_enchant:item=22478&ench=2585:T\u00eate:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -24793,18 +24790,21 @@
             {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=22477&ench=2585",
-                "slot": "Jambes",
-                "enchant_id": 2585,
-                "uuid": "invalid_enchant:item=22477&ench=2585:Jambes:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22478&ench=2585",
                 "slot": "T\u00eate",
                 "enchant_id": 2585,
                 "uuid": "invalid_enchant:item=22478&ench=2585:T\u00eate:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29124",
+                "uuid": "no_enchant:item=29124:High King Maulgar"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=29124",
+                "uuid": "no_temporary_enchant:item=29124:Gruul the Dragonkiller"
             },
             {
                 "fight": "Magtheridon",
@@ -26052,6 +26052,11 @@
         },
         "remarks": [
             {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=24250",
                 "uuid": "no_enchant:item=24250:High King Maulgar"
@@ -26070,11 +26075,6 @@
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=28967",
                 "uuid": "no_enchant:item=28967:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
             }
         ]
     },
@@ -27450,6 +27450,111 @@
         },
         "remarks": [
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=28403:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=28403:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=28403:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=28403:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=28403:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=28403:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29316",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=29316:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29316",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=29316:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29316",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=29316:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29316",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=29316:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29316",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=29316:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29316",
+                "wowhead_attr": "item=23098",
+                "uuid": "invalid_gem:item=23098:item=29316:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23104",
+                "uuid": "invalid_gem:item=23104:item=28403:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23104",
+                "uuid": "invalid_gem:item=23104:item=28403:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28403",
+                "wowhead_attr": "item=23104",
+                "uuid": "invalid_gem:item=23104:item=28403:Magtheridon"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=27892",
                 "uuid": "no_enchant:item=27892:High King Maulgar"
@@ -27466,120 +27571,15 @@
             },
             {
                 "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=28403:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=28403:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23104",
-                "uuid": "invalid_gem:item=23104:item=28403:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29316",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=29316:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29316",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=29316:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "item=28437",
                 "uuid": "no_temporary_enchant_but_windfury:item=28437:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=28403:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=28403:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23104",
-                "uuid": "invalid_gem:item=23104:item=28403:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29316",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=29316:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29316",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=29316:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "item=28437",
                 "uuid": "no_temporary_enchant_but_windfury:item=28437:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=28403:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=28403:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28403",
-                "wowhead_attr": "item=23104",
-                "uuid": "invalid_gem:item=23104:item=28403:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29316",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=29316:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29316",
-                "wowhead_attr": "item=23098",
-                "uuid": "invalid_gem:item=23098:item=29316:Magtheridon"
             }
         ]
     },
@@ -29978,22 +29978,10 @@
                 "uuid": "invalid_food:spell=33254:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28426",
-                "uuid": "no_temporary_enchant_but_windfury:item=28426:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "invalid_food",
                 "wowhead_attr": "spell=33254",
                 "uuid": "invalid_food:spell=33254:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28426",
-                "uuid": "no_temporary_enchant_but_windfury:item=28426:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -30006,6 +29994,18 @@
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28426",
                 "uuid": "no_temporary_enchant:item=28426:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28426",
+                "uuid": "no_temporary_enchant_but_windfury:item=28426:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28426",
+                "uuid": "no_temporary_enchant_but_windfury:item=28426:High King Maulgar"
             }
         ]
     },
@@ -32166,6 +32166,34 @@
                 "uuid": "invalid_gem:item=28460:item=28748:Gruul the Dragonkiller"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28748",
+                "wowhead_attr": "item=28460",
+                "uuid": "invalid_gem:item=28460:item=28748:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28748",
+                "wowhead_attr": "item=28460",
+                "uuid": "invalid_gem:item=28460:item=28748:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28748",
+                "wowhead_attr": "item=28460",
+                "uuid": "invalid_gem:item=28460:item=28748:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28748",
+                "wowhead_attr": "item=28460",
+                "uuid": "invalid_gem:item=28460:item=28748:Magtheridon"
+            },
+            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28752",
@@ -32182,20 +32210,6 @@
             {
                 "fight": "High King Maulgar",
                 "type": "invalid_gem",
-                "item_wowhead_attr": "item=28748",
-                "wowhead_attr": "item=28460",
-                "uuid": "invalid_gem:item=28460:item=28748:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28748",
-                "wowhead_attr": "item=28460",
-                "uuid": "invalid_gem:item=28460:item=28748:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
                 "item_wowhead_attr": "item=28752",
                 "wowhead_attr": "item=28460",
                 "uuid": "invalid_gem:item=28460:item=28752:High King Maulgar"
@@ -32206,20 +32220,6 @@
                 "item_wowhead_attr": "item=28752",
                 "wowhead_attr": "item=28460",
                 "uuid": "invalid_gem:item=28460:item=28752:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28748",
-                "wowhead_attr": "item=28460",
-                "uuid": "invalid_gem:item=28460:item=28748:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28748",
-                "wowhead_attr": "item=28460",
-                "uuid": "invalid_gem:item=28460:item=28748:Magtheridon"
             },
             {
                 "fight": "Magtheridon",

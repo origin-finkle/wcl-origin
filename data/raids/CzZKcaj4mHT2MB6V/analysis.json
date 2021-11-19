@@ -3503,14 +3503,65 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28545",
-                "uuid": "no_enchant:item=28545:Attumen the Huntsman"
+                "fight": "Netherspite",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33256",
+                "uuid": "invalid_food:spell=33256:Netherspite"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
             },
             {
                 "fight": "Attumen the Huntsman",
                 "type": "missing_food",
                 "uuid": "missing_food:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_food",
+                "uuid": "missing_food:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_food",
+                "uuid": "missing_food:Moroes"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food",
+                "uuid": "missing_food:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_food",
+                "uuid": "missing_food:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_food",
+                "uuid": "missing_food:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food",
+                "uuid": "missing_food:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_food",
+                "uuid": "missing_food:The Curator"
             },
             {
                 "fight": "Attumen the Huntsman",
@@ -3519,18 +3570,8 @@
             },
             {
                 "fight": "Maiden of Virtue",
-                "type": "missing_food",
-                "uuid": "missing_food:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_food",
-                "uuid": "missing_food:Moroes"
             },
             {
                 "fight": "Moroes",
@@ -3539,19 +3580,8 @@
             },
             {
                 "fight": "Netherspite",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33256",
-                "uuid": "invalid_food:spell=33256:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
@@ -3560,23 +3590,8 @@
             },
             {
                 "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_food",
-                "uuid": "missing_food:Opera Hall"
             },
             {
                 "fight": "Opera Hall",
@@ -3585,18 +3600,8 @@
             },
             {
                 "fight": "Prince Malchezaar",
-                "type": "missing_food",
-                "uuid": "missing_food:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food",
-                "uuid": "missing_food:Shade of Aran"
             },
             {
                 "fight": "Shade of Aran",
@@ -3605,23 +3610,18 @@
             },
             {
                 "fight": "Terestian Illhoof",
-                "type": "missing_food",
-                "uuid": "missing_food:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Terestian Illhoof"
             },
             {
                 "fight": "The Curator",
-                "type": "missing_food",
-                "uuid": "missing_food:The Curator"
-            },
-            {
-                "fight": "The Curator",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:The Curator"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28545",
+                "uuid": "no_enchant:item=28545:Attumen the Huntsman"
             }
         ]
     },
@@ -7100,9 +7100,144 @@
                 "uuid": "missing_battle_elixir:Attumen the Huntsman"
             },
             {
+                "fight": "Maiden of Virtue",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:The Curator"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_food",
+                "uuid": "missing_food:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_food",
+                "uuid": "missing_food:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food",
+                "uuid": "missing_food:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_food",
+                "uuid": "missing_food:The Curator"
+            },
+            {
                 "fight": "Attumen the Huntsman",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:The Curator"
             },
             {
                 "fight": "Attumen the Huntsman",
@@ -7112,29 +7247,9 @@
             },
             {
                 "fight": "Maiden of Virtue",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28770",
                 "uuid": "no_temporary_enchant:item=28770:Maiden of Virtue"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Moroes"
             },
             {
                 "fight": "Moroes",
@@ -7144,70 +7259,15 @@
             },
             {
                 "fight": "Netherspite",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28770",
                 "uuid": "no_temporary_enchant:item=28770:Netherspite"
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28770",
                 "uuid": "no_temporary_enchant:item=28770:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Opera Hall"
             },
             {
                 "fight": "Opera Hall",
@@ -7217,39 +7277,9 @@
             },
             {
                 "fight": "Prince Malchezaar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_food",
-                "uuid": "missing_food:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28770",
                 "uuid": "no_temporary_enchant:item=28770:Prince Malchezaar"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food",
-                "uuid": "missing_food:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Shade of Aran"
             },
             {
                 "fight": "Shade of Aran",
@@ -7259,39 +7289,9 @@
             },
             {
                 "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food",
-                "uuid": "missing_food:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28770",
                 "uuid": "no_temporary_enchant:item=28770:Terestian Illhoof"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_food",
-                "uuid": "missing_food:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:The Curator"
             },
             {
                 "fight": "The Curator",
@@ -10851,28 +10851,6 @@
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Attumen the Huntsman"
             },
             {
-                "fight": "Attumen the Huntsman",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Attumen the Huntsman"
-            },
-            {
                 "fight": "Maiden of Virtue",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30037&ench=2649",
@@ -10880,28 +10858,6 @@
                 "slot": "Pieds",
                 "enchant_id": 2649,
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Maiden of Virtue"
             },
             {
                 "fight": "Moroes",
@@ -10913,28 +10869,6 @@
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Moroes"
             },
             {
-                "fight": "Moroes",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Moroes"
-            },
-            {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30037&ench=2649",
@@ -10942,22 +10876,6 @@
                 "slot": "Pieds",
                 "enchant_id": 2649,
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Netherspite"
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
@@ -10969,42 +10887,6 @@
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Netherspite - Wipe 1 (62%)"
             },
             {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
                 "fight": "Opera Hall",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30037&ench=2649",
@@ -11012,27 +10894,6 @@
                 "slot": "Pieds",
                 "enchant_id": 2649,
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_food",
-                "uuid": "missing_food:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Opera Hall"
             },
             {
                 "fight": "Prince Malchezaar",
@@ -11044,22 +10905,6 @@
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Prince Malchezaar"
             },
             {
-                "fight": "Prince Malchezaar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Prince Malchezaar"
-            },
-            {
                 "fight": "Shade of Aran",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30037&ench=2649",
@@ -11067,27 +10912,6 @@
                 "slot": "Pieds",
                 "enchant_id": 2649,
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food",
-                "uuid": "missing_food:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Shade of Aran"
             },
             {
                 "fight": "Terestian Illhoof",
@@ -11099,27 +10923,6 @@
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Terestian Illhoof"
             },
             {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food",
-                "uuid": "missing_food:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28802",
-                "uuid": "no_temporary_enchant:item=28802:Terestian Illhoof"
-            },
-            {
                 "fight": "The Curator",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30037&ench=2649",
@@ -11129,9 +10932,102 @@
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:The Curator"
             },
             {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Moroes"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Terestian Illhoof"
+            },
+            {
                 "fight": "The Curator",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:The Curator"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food",
+                "uuid": "missing_food:Opera Hall"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_food",
+                "uuid": "missing_food:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food",
+                "uuid": "missing_food:Terestian Illhoof"
             },
             {
                 "fight": "The Curator",
@@ -11139,9 +11035,113 @@
                 "uuid": "missing_food:The Curator"
             },
             {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Terestian Illhoof"
+            },
+            {
                 "fight": "The Curator",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28802",
+                "uuid": "no_temporary_enchant:item=28802:Terestian Illhoof"
             },
             {
                 "fight": "The Curator",
@@ -14704,6 +14704,171 @@
         },
         "remarks": [
             {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_food",
+                "uuid": "missing_food:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_food",
+                "uuid": "missing_food:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_food",
+                "uuid": "missing_food:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food",
+                "uuid": "missing_food:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_food",
+                "uuid": "missing_food:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_food",
+                "uuid": "missing_food:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food",
+                "uuid": "missing_food:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_food",
+                "uuid": "missing_food:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:The Curator"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=27538",
                 "uuid": "no_enchant:item=27538:Attumen the Huntsman"
@@ -14715,39 +14880,9 @@
             },
             {
                 "fight": "Attumen the Huntsman",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_food",
-                "uuid": "missing_food:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=27538",
                 "uuid": "no_temporary_enchant:item=27538:Attumen the Huntsman"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_food",
-                "uuid": "missing_food:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Maiden of Virtue"
             },
             {
                 "fight": "Maiden of Virtue",
@@ -14757,39 +14892,9 @@
             },
             {
                 "fight": "Moroes",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_food",
-                "uuid": "missing_food:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=27538",
                 "uuid": "no_temporary_enchant:item=27538:Moroes"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite"
             },
             {
                 "fight": "Netherspite",
@@ -14799,54 +14904,9 @@
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=27538",
                 "uuid": "no_temporary_enchant:item=27538:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_food",
-                "uuid": "missing_food:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Opera Hall"
             },
             {
                 "fight": "Opera Hall",
@@ -14856,39 +14916,9 @@
             },
             {
                 "fight": "Prince Malchezaar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_food",
-                "uuid": "missing_food:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=27538",
                 "uuid": "no_temporary_enchant:item=27538:Prince Malchezaar"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food",
-                "uuid": "missing_food:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Shade of Aran"
             },
             {
                 "fight": "Shade of Aran",
@@ -14898,39 +14928,9 @@
             },
             {
                 "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food",
-                "uuid": "missing_food:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=27538",
                 "uuid": "no_temporary_enchant:item=27538:Terestian Illhoof"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_food",
-                "uuid": "missing_food:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:The Curator"
             },
             {
                 "fight": "The Curator",
@@ -19141,22 +19141,12 @@
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Attumen the Huntsman"
             },
             {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
-            },
-            {
                 "fight": "Maiden of Virtue",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29043&ench=2996",
                 "slot": "\u00c9paule",
                 "enchant_id": 2996,
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Maiden of Virtue"
             },
             {
                 "fight": "Moroes",
@@ -19167,22 +19157,12 @@
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Moroes"
             },
             {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Moroes"
-            },
-            {
                 "fight": "Netherspite",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29043&ench=2996",
                 "slot": "\u00c9paule",
                 "enchant_id": 2996,
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite"
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
@@ -19193,42 +19173,12 @@
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Netherspite - Wipe 1 (62%)"
             },
             {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
                 "fight": "Opera Hall",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29043&ench=2996",
                 "slot": "\u00c9paule",
                 "enchant_id": 2996,
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Opera Hall"
             },
             {
                 "fight": "Prince Malchezaar",
@@ -19239,27 +19189,12 @@
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Prince Malchezaar"
             },
             {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
                 "fight": "Shade of Aran",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29043&ench=2996",
                 "slot": "\u00c9paule",
                 "enchant_id": 2996,
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food",
-                "uuid": "missing_food:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Shade of Aran"
             },
             {
                 "fight": "Terestian Illhoof",
@@ -19270,22 +19205,87 @@
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Terestian Illhoof"
             },
             {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food",
-                "uuid": "missing_food:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Terestian Illhoof"
-            },
-            {
                 "fight": "The Curator",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29043&ench=2996",
                 "slot": "\u00c9paule",
                 "enchant_id": 2996,
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:The Curator"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_food",
+                "uuid": "missing_food:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food",
+                "uuid": "missing_food:Terestian Illhoof"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Terestian Illhoof"
             },
             {
                 "fight": "The Curator",
@@ -23256,14 +23256,69 @@
                 "uuid": "missing_battle_elixir:Attumen the Huntsman"
             },
             {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
-            },
-            {
                 "fight": "Maiden of Virtue",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:The Curator"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_food",
+                "uuid": "missing_food:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
             },
             {
                 "fight": "Maiden of Virtue",
@@ -23272,18 +23327,8 @@
             },
             {
                 "fight": "Moroes",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Moroes"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite"
             },
             {
                 "fight": "Netherspite",
@@ -23292,23 +23337,8 @@
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
             },
             {
                 "fight": "Nightbane",
@@ -23317,18 +23347,8 @@
             },
             {
                 "fight": "Opera Hall",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Opera Hall"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Prince Malchezaar"
             },
             {
                 "fight": "Prince Malchezaar",
@@ -23337,18 +23357,8 @@
             },
             {
                 "fight": "Shade of Aran",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Terestian Illhoof"
             },
             {
                 "fight": "Terestian Illhoof",
@@ -23356,25 +23366,15 @@
                 "uuid": "missing_guardian_elixir:Terestian Illhoof"
             },
             {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:The Curator"
+            },
+            {
                 "fight": "Terestian Illhoof",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28770",
                 "uuid": "no_temporary_enchant:item=28770:Terestian Illhoof"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_food",
-                "uuid": "missing_food:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:The Curator"
             }
         ]
     },
@@ -27183,6 +27183,351 @@
         },
         "remarks": [
             {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Attumen the Huntsman"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Maiden of Virtue"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Moroes"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Netherspite"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Opera Hall"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Prince Malchezaar"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Shade of Aran"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Terestian Illhoof"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:The Curator"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28342:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28342",
+                "wowhead_attr": "item=23108",
+                "uuid": "invalid_gem:item=23108:item=28342:The Curator"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_food",
+                "uuid": "missing_food:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_food",
+                "uuid": "missing_food:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_food",
+                "uuid": "missing_food:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food",
+                "uuid": "missing_food:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_food",
+                "uuid": "missing_food:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_food",
+                "uuid": "missing_food:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food",
+                "uuid": "missing_food:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_food",
+                "uuid": "missing_food:The Curator"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:The Curator"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=28342",
                 "uuid": "no_enchant:item=28342:Attumen the Huntsman"
@@ -27194,61 +27539,9 @@
             },
             {
                 "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_food",
-                "uuid": "missing_food:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28633",
                 "uuid": "no_temporary_enchant:item=28633:Attumen the Huntsman"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_food",
-                "uuid": "missing_food:Maiden of Virtue"
             },
             {
                 "fight": "Maiden of Virtue",
@@ -27258,71 +27551,9 @@
             },
             {
                 "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_food",
-                "uuid": "missing_food:Moroes"
-            },
-            {
-                "fight": "Moroes",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28633",
                 "uuid": "no_temporary_enchant:item=28633:Moroes"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite"
             },
             {
                 "fight": "Netherspite",
@@ -27332,96 +27563,9 @@
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28633",
                 "uuid": "no_temporary_enchant:item=28633:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_food",
-                "uuid": "missing_food:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Opera Hall"
             },
             {
                 "fight": "Opera Hall",
@@ -27431,81 +27575,9 @@
             },
             {
                 "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_food",
-                "uuid": "missing_food:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28633",
                 "uuid": "no_temporary_enchant:item=28633:Prince Malchezaar"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food",
-                "uuid": "missing_food:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Shade of Aran"
             },
             {
                 "fight": "Shade of Aran",
@@ -27515,81 +27587,9 @@
             },
             {
                 "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food",
-                "uuid": "missing_food:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28633",
                 "uuid": "no_temporary_enchant:item=28633:Terestian Illhoof"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23108",
-                "uuid": "invalid_gem:item=23108:item=28342:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28342",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28342:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_food",
-                "uuid": "missing_food:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:The Curator"
             },
             {
                 "fight": "The Curator",
@@ -31517,10 +31517,595 @@
         },
         "remarks": [
             {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Attumen the Huntsman"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Attumen the Huntsman"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Maiden of Virtue"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Maiden of Virtue"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Moroes"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Moroes"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Netherspite"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Netherspite"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Opera Hall"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Opera Hall"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Prince Malchezaar"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Prince Malchezaar"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Shade of Aran"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Shade of Aran"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Terestian Illhoof"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Terestian Illhoof"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:The Curator"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:The Curator"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28742",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=28742:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Attumen the Huntsman"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Attumen the Huntsman"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Maiden of Virtue"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Maiden of Virtue"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Moroes"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Moroes"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Netherspite"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Netherspite"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Opera Hall"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Opera Hall"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Prince Malchezaar"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Prince Malchezaar"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Shade of Aran"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Shade of Aran"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Terestian Illhoof"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Terestian Illhoof"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:The Curator"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:The Curator"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29050",
+                "wowhead_attr": "item=23094",
+                "uuid": "invalid_gem:item=23094:item=29050:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_food",
+                "uuid": "missing_food:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_food",
+                "uuid": "missing_food:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_food",
+                "uuid": "missing_food:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_food",
+                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_food",
+                "uuid": "missing_food:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_food",
+                "uuid": "missing_food:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_food",
+                "uuid": "missing_food:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_food",
+                "uuid": "missing_food:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_food",
+                "uuid": "missing_food:The Curator"
+            },
+            {
                 "type": "missing_gems",
                 "item_wowhead_attr": "item=24264",
                 "count": 3,
                 "uuid": "missing_gems:item=24264:Attumen the Huntsman"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:The Curator"
             },
             {
                 "type": "no_enchant",
@@ -31554,123 +32139,9 @@
             },
             {
                 "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_food",
-                "uuid": "missing_food:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28604",
                 "uuid": "no_temporary_enchant:item=28604:Attumen the Huntsman"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_food",
-                "uuid": "missing_food:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Maiden of Virtue"
             },
             {
                 "fight": "Maiden of Virtue",
@@ -31680,123 +32151,9 @@
             },
             {
                 "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_food",
-                "uuid": "missing_food:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28604",
                 "uuid": "no_temporary_enchant:item=28604:Moroes"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite"
             },
             {
                 "fight": "Netherspite",
@@ -31806,138 +32163,9 @@
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_food",
-                "uuid": "missing_food:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28604",
                 "uuid": "no_temporary_enchant:item=28604:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_food",
-                "uuid": "missing_food:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Opera Hall"
             },
             {
                 "fight": "Opera Hall",
@@ -31947,123 +32175,9 @@
             },
             {
                 "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_food",
-                "uuid": "missing_food:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28604",
                 "uuid": "no_temporary_enchant:item=28604:Prince Malchezaar"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_food",
-                "uuid": "missing_food:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Shade of Aran"
             },
             {
                 "fight": "Shade of Aran",
@@ -32073,123 +32187,9 @@
             },
             {
                 "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_food",
-                "uuid": "missing_food:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28604",
                 "uuid": "no_temporary_enchant:item=28604:Terestian Illhoof"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28742",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=28742:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29050",
-                "wowhead_attr": "item=23094",
-                "uuid": "invalid_gem:item=23094:item=29050:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_food",
-                "uuid": "missing_food:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:The Curator"
             },
             {
                 "fight": "The Curator",
@@ -35769,14 +35769,163 @@
                 "uuid": "invalid_food:spell=33265:Attumen the Huntsman"
             },
             {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:The Curator"
+            },
+            {
                 "fight": "Attumen the Huntsman",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Attumen the Huntsman"
             },
             {
+                "fight": "Netherspite",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:The Curator"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
                 "fight": "Attumen the Huntsman",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:The Curator"
             },
             {
                 "fight": "Attumen the Huntsman",
@@ -35786,31 +35935,9 @@
             },
             {
                 "fight": "Maiden of Virtue",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=30095",
                 "uuid": "no_temporary_enchant:item=30095:Maiden of Virtue"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Moroes"
             },
             {
                 "fight": "Moroes",
@@ -35820,78 +35947,15 @@
             },
             {
                 "fight": "Netherspite",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=30095",
                 "uuid": "no_temporary_enchant:item=30095:Netherspite"
             },
             {
                 "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=30095",
                 "uuid": "no_temporary_enchant:item=30095:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Opera Hall"
             },
             {
                 "fight": "Opera Hall",
@@ -35901,41 +35965,9 @@
             },
             {
                 "fight": "Prince Malchezaar",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=30095",
                 "uuid": "no_temporary_enchant:item=30095:Prince Malchezaar"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Shade of Aran"
             },
             {
                 "fight": "Shade of Aran",
@@ -35945,41 +35977,9 @@
             },
             {
                 "fight": "Terestian Illhoof",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=30095",
                 "uuid": "no_temporary_enchant:item=30095:Terestian Illhoof"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:The Curator"
-            },
-            {
-                "fight": "The Curator",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:The Curator"
             },
             {
                 "fight": "The Curator",
@@ -39951,6 +39951,78 @@
                 "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Attumen the Huntsman"
             },
             {
+                "fight": "Maiden of Virtue",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Terestian Illhoof"
+            },
+            {
+                "fight": "The Curator",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29075&ench=2997",
+                "slot": "\u00c9paule",
+                "enchant_id": 2997,
+                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:The Curator"
+            },
+            {
                 "fight": "Attumen the Huntsman",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -39958,30 +40030,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_food",
-                "uuid": "missing_food:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
-            },
-            {
-                "fight": "Attumen the Huntsman",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Attumen the Huntsman"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Maiden of Virtue"
             },
             {
                 "fight": "Maiden of Virtue",
@@ -39993,25 +40041,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Maiden of Virtue"
             },
             {
-                "fight": "Maiden of Virtue",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Maiden of Virtue"
-            },
-            {
-                "fight": "Maiden of Virtue",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Maiden of Virtue"
-            },
-            {
-                "fight": "Moroes",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Moroes"
-            },
-            {
                 "fight": "Moroes",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -40019,25 +40048,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Moroes"
-            },
-            {
-                "fight": "Moroes",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Moroes"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Netherspite"
             },
             {
                 "fight": "Netherspite",
@@ -40049,25 +40059,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Netherspite"
             },
             {
-                "fight": "Netherspite",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite"
-            },
-            {
-                "fight": "Netherspite",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Netherspite"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Netherspite - Wipe 1 (62%)"
-            },
-            {
                 "fight": "Netherspite - Wipe 1 (62%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -40075,40 +40066,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Netherspite - Wipe 1 (62%)",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Netherspite - Wipe 1 (62%)"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_food",
-                "uuid": "missing_food:Nightbane"
-            },
-            {
-                "fight": "Nightbane",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Nightbane"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Opera Hall"
             },
             {
                 "fight": "Opera Hall",
@@ -40120,25 +40077,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Opera Hall"
             },
             {
-                "fight": "Opera Hall",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Opera Hall"
-            },
-            {
-                "fight": "Opera Hall",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Opera Hall"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Prince Malchezaar"
-            },
-            {
                 "fight": "Prince Malchezaar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -40146,25 +40084,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Prince Malchezaar"
-            },
-            {
-                "fight": "Prince Malchezaar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Prince Malchezaar"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Shade of Aran"
             },
             {
                 "fight": "Shade of Aran",
@@ -40176,25 +40095,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Shade of Aran"
             },
             {
-                "fight": "Shade of Aran",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Shade of Aran"
-            },
-            {
-                "fight": "Shade of Aran",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Shade of Aran"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:Terestian Illhoof"
-            },
-            {
                 "fight": "Terestian Illhoof",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -40202,25 +40102,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Terestian Illhoof"
-            },
-            {
-                "fight": "Terestian Illhoof",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Terestian Illhoof"
-            },
-            {
-                "fight": "The Curator",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29075&ench=2997",
-                "slot": "\u00c9paule",
-                "enchant_id": 2997,
-                "uuid": "invalid_enchant:item=29075&ench=2997:\u00c9paule:The Curator"
             },
             {
                 "fight": "The Curator",
@@ -40232,9 +40113,128 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:The Curator"
             },
             {
+                "fight": "Nightbane",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Nightbane"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_food",
+                "uuid": "missing_food:Attumen the Huntsman"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_food",
+                "uuid": "missing_food:Nightbane"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Nightbane",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Nightbane"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Terestian Illhoof"
+            },
+            {
                 "fight": "The Curator",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:The Curator"
+            },
+            {
+                "fight": "Attumen the Huntsman",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Attumen the Huntsman"
+            },
+            {
+                "fight": "Maiden of Virtue",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Maiden of Virtue"
+            },
+            {
+                "fight": "Moroes",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Moroes"
+            },
+            {
+                "fight": "Netherspite",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Netherspite"
+            },
+            {
+                "fight": "Netherspite - Wipe 1 (62%)",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Netherspite - Wipe 1 (62%)"
+            },
+            {
+                "fight": "Opera Hall",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Opera Hall"
+            },
+            {
+                "fight": "Prince Malchezaar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Prince Malchezaar"
+            },
+            {
+                "fight": "Shade of Aran",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Shade of Aran"
+            },
+            {
+                "fight": "Terestian Illhoof",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Terestian Illhoof"
             },
             {
                 "fight": "The Curator",

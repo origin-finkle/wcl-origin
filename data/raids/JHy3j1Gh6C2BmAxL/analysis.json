@@ -2919,14 +2919,14 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29369",
-                "uuid": "no_enchant:item=29369:Hydross the Unstable"
-            },
-            {
                 "fight": "Morogrim Tidewalker",
                 "type": "missing_food",
                 "uuid": "missing_food:Morogrim Tidewalker"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29369",
+                "uuid": "no_enchant:item=29369:Hydross the Unstable"
             }
         ]
     },
@@ -6639,30 +6639,9 @@
         },
         "remarks": [
             {
-                "fight": "Fathom-Lord Karathress",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28658",
-                "uuid": "no_temporary_enchant:item=28658:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -6670,20 +6649,44 @@
                 "uuid": "missing_battle_elixir:High King Maulgar"
             },
             {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
                 "fight": "High King Maulgar",
                 "type": "missing_food",
                 "uuid": "missing_food:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
+                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
+                "type": "missing_food",
+                "uuid": "missing_food:Morogrim Tidewalker - Wipe 1 (56%)"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
                 "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
+                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28658",
-                "uuid": "no_temporary_enchant:item=28658:High King Maulgar"
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -6702,16 +6705,6 @@
             },
             {
                 "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Magtheridon"
             },
@@ -6722,11 +6715,6 @@
             },
             {
                 "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-                "type": "missing_food",
-                "uuid": "missing_food:Morogrim Tidewalker - Wipe 1 (56%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Morogrim Tidewalker - Wipe 1 (56%)"
             },
@@ -6734,6 +6722,18 @@
                 "fight": "The Lurker Below",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28658",
+                "uuid": "no_temporary_enchant:item=28658:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28658",
+                "uuid": "no_temporary_enchant:item=28658:High King Maulgar"
             }
         ]
     },
@@ -14272,9 +14272,27 @@
         },
         "remarks": [
             {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=25978&ench=3269",
+                "slot": "Deux mains",
+                "enchant_id": 3269,
+                "uuid": "invalid_enchant:item=25978&ench=3269:Deux mains:The Lurker Below"
+            },
+            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
             },
             {
                 "fight": "Gruul the Dragonkiller",
@@ -14282,9 +14300,35 @@
                 "uuid": "missing_food:Gruul the Dragonkiller"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "missing_food",
+                "uuid": "missing_food:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=25978",
+                "uuid": "no_temporary_enchant:item=25978:The Lurker Below"
             },
             {
                 "fight": "Gruul the Dragonkiller",
@@ -14294,59 +14338,15 @@
             },
             {
                 "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_food",
-                "uuid": "missing_food:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=29981",
                 "uuid": "no_temporary_enchant:item=29981:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=29981",
                 "uuid": "no_temporary_enchant:item=29981:Magtheridon"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25978&ench=3269",
-                "slot": "Deux mains",
-                "enchant_id": 3269,
-                "uuid": "invalid_enchant:item=25978&ench=3269:Deux mains:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=25978",
-                "uuid": "no_temporary_enchant:item=25978:The Lurker Below"
             }
         ]
     },
@@ -20917,31 +20917,12 @@
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Fathom-Lord Karathress"
             },
             {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Fathom-Lord Karathress"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22508&ench=929",
                 "slot": "Pieds",
                 "enchant_id": 929,
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -20952,26 +20933,12 @@
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:High King Maulgar"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22508&ench=929",
                 "slot": "Pieds",
                 "enchant_id": 929,
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -20982,31 +20949,12 @@
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Lady Vashj"
             },
             {
-                "fight": "Lady Vashj",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Lady Vashj"
-            },
-            {
                 "fight": "Leotheras the Blind",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22508&ench=929",
                 "slot": "Pieds",
                 "enchant_id": 929,
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_food",
-                "uuid": "missing_food:Leotheras the Blind"
             },
             {
                 "fight": "Magtheridon",
@@ -21017,31 +20965,12 @@
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Magtheridon"
             },
             {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
                 "fight": "Morogrim Tidewalker",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22508&ench=929",
                 "slot": "Pieds",
                 "enchant_id": 929,
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Morogrim Tidewalker"
             },
             {
                 "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
@@ -21052,13 +20981,6 @@
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:Morogrim Tidewalker - Wipe 1 (56%)"
             },
             {
-                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28964",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28964:Morogrim Tidewalker - Wipe 1 (56%)"
-            },
-            {
                 "fight": "The Lurker Below",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22508&ench=929",
@@ -21067,11 +20989,89 @@
                 "uuid": "invalid_enchant:item=22508&ench=929:Pieds:The Lurker Below"
             },
             {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:High King Maulgar"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Leotheras the Blind"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Magtheridon"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28964",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28964:Morogrim Tidewalker - Wipe 1 (56%)"
+            },
+            {
                 "fight": "The Lurker Below",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28964",
                 "wowhead_attr": "item=23096",
                 "uuid": "invalid_gem:item=23096:item=28964:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_food",
+                "uuid": "missing_food:Leotheras the Blind"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
             }
         ]
     },
@@ -25017,31 +25017,11 @@
                 "uuid": "invalid_gem:item=23096:item=28507:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28507",
                 "wowhead_attr": "item=23096",
                 "uuid": "invalid_gem:item=23096:item=28507:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -25072,16 +25052,6 @@
                 "uuid": "invalid_gem:item=23096:item=28507:Magtheridon"
             },
             {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
-            },
-            {
                 "fight": "Morogrim Tidewalker",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28507",
@@ -25101,6 +25071,36 @@
                 "item_wowhead_attr": "item=28507",
                 "wowhead_attr": "item=23096",
                 "uuid": "invalid_gem:item=23096:item=28507:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
             }
         ]
     },
@@ -32226,24 +32226,24 @@
                 "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
             },
             {
                 "fight": "Magtheridon",
@@ -39809,11 +39809,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=31329",
-                "uuid": "no_enchant:item=31329:Hydross the Unstable"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=22428&ench=2584",
@@ -39892,6 +39887,11 @@
                 "slot": "T\u00eate",
                 "enchant_id": 2584,
                 "uuid": "invalid_enchant:item=22428&ench=2584:T\u00eate:The Lurker Below"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=31329",
+                "uuid": "no_enchant:item=31329:Hydross the Unstable"
             }
         ]
     },
@@ -43547,30 +43547,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29252",
-                "uuid": "no_enchant:item=29252:Gruul the Dragonkiller"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=30642",
-                "uuid": "no_enchant:item=30642:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29070&ench=2990",
-                "slot": "\u00c9paule",
-                "enchant_id": 2990,
-                "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28767",
-                "uuid": "no_temporary_enchant:item=28767:Fathom-Lord Karathress"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21387&ench=3003",
@@ -43623,25 +43599,20 @@
                 "uuid": "invalid_enchant:item=28611&ench=2654:Main gauche:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28747&ench=2988",
+                "slot": "Pieds",
+                "enchant_id": 2988,
+                "uuid": "invalid_enchant:item=28747&ench=2988:Pieds:Hydross the Unstable"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=30832",
-                "uuid": "no_temporary_enchant:item=30832:Gruul the Dragonkiller"
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29070&ench=2990",
+                "slot": "\u00c9paule",
+                "enchant_id": 2990,
+                "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:Fathom-Lord Karathress"
             },
             {
                 "fight": "High King Maulgar",
@@ -43652,65 +43623,12 @@
                 "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_food",
-                "uuid": "missing_food:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28767",
-                "uuid": "no_temporary_enchant:item=28767:High King Maulgar"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28747&ench=2988",
-                "slot": "Pieds",
-                "enchant_id": 2988,
-                "uuid": "invalid_enchant:item=28747&ench=2988:Pieds:Hydross the Unstable"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29070&ench=2990",
                 "slot": "\u00c9paule",
                 "enchant_id": 2990,
                 "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=31367&ench=2681",
-                "slot": "Jambes",
-                "enchant_id": 2681,
-                "uuid": "invalid_enchant:item=31367&ench=2681:Jambes:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=31369&ench=2988",
-                "slot": "Torse",
-                "enchant_id": 2988,
-                "uuid": "invalid_enchant:item=31369&ench=2988:Torse:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=31371&ench=3005",
-                "slot": "T\u00eate",
-                "enchant_id": 3005,
-                "uuid": "invalid_enchant:item=31371&ench=3005:T\u00eate:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -43737,27 +43655,6 @@
                 "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:Magtheridon"
             },
             {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=30832",
-                "uuid": "no_temporary_enchant:item=30832:Magtheridon"
-            },
-            {
                 "fight": "Morogrim Tidewalker",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29070&ench=2990",
@@ -43780,6 +43677,109 @@
                 "slot": "\u00c9paule",
                 "enchant_id": 2990,
                 "uuid": "invalid_enchant:item=29070&ench=2990:\u00c9paule:The Lurker Below"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=31367&ench=2681",
+                "slot": "Jambes",
+                "enchant_id": 2681,
+                "uuid": "invalid_enchant:item=31367&ench=2681:Jambes:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=31369&ench=2988",
+                "slot": "Torse",
+                "enchant_id": 2988,
+                "uuid": "invalid_enchant:item=31369&ench=2988:Torse:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=31371&ench=3005",
+                "slot": "T\u00eate",
+                "enchant_id": 3005,
+                "uuid": "invalid_enchant:item=31371&ench=3005:T\u00eate:Hydross the Unstable"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_food",
+                "uuid": "missing_food:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29252",
+                "uuid": "no_enchant:item=29252:Gruul the Dragonkiller"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=30642",
+                "uuid": "no_enchant:item=30642:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28767",
+                "uuid": "no_temporary_enchant:item=28767:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28767",
+                "uuid": "no_temporary_enchant:item=28767:High King Maulgar"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=30832",
+                "uuid": "no_temporary_enchant:item=30832:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=30832",
+                "uuid": "no_temporary_enchant:item=30832:Magtheridon"
             }
         ]
     },
@@ -47885,16 +47885,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28752",
-                "uuid": "no_enchant:item=28752:Hydross the Unstable"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29375",
-                "uuid": "no_enchant:item=29375:Hydross the Unstable"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
@@ -47907,20 +47897,10 @@
                 "uuid": "invalid_guardian_elixir:spell=39627:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
                 "uuid": "invalid_guardian_elixir:spell=39627:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_food",
-                "uuid": "missing_food:High King Maulgar"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -47963,6 +47943,26 @@
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
                 "uuid": "invalid_guardian_elixir:spell=39627:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_food",
+                "uuid": "missing_food:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28752",
+                "uuid": "no_enchant:item=28752:Hydross the Unstable"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29375",
+                "uuid": "no_enchant:item=29375:Hydross the Unstable"
             }
         ]
     },
@@ -51442,59 +51442,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=24759",
-                "uuid": "no_enchant:item=24759:Hydross the Unstable"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28660&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28660&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=30021",
-                "uuid": "no_temporary_enchant:item=30021:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28658",
-                "uuid": "no_temporary_enchant:item=28658:High King Maulgar"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=24786&ench=3005",
@@ -51519,10 +51466,20 @@
                 "uuid": "invalid_enchant:item=24799&ench=2988:Pieds:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28658",
-                "uuid": "no_temporary_enchant:item=28658:Hydross the Unstable"
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28660&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28660&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Gruul the Dragonkiller"
             },
             {
                 "fight": "Lady Vashj",
@@ -51531,6 +51488,67 @@
                 "slot": "Dos",
                 "enchant_id": 2662,
                 "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Lady Vashj"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28660&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28750:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28750:Magtheridon"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28750:The Lurker Below"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28750",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28750:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
             },
             {
                 "fight": "Lady Vashj",
@@ -51544,27 +51562,25 @@
             },
             {
                 "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28750:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28750:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=24759",
+                "uuid": "no_enchant:item=24759:Hydross the Unstable"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28658",
+                "uuid": "no_temporary_enchant:item=28658:High King Maulgar"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28658",
+                "uuid": "no_temporary_enchant:item=28658:Hydross the Unstable"
             },
             {
                 "fight": "Magtheridon",
@@ -51573,38 +51589,22 @@
                 "uuid": "no_temporary_enchant:item=28658:Magtheridon"
             },
             {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28660&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=28660&ench=2662:Dos:Morogrim Tidewalker"
+                "fight": "The Lurker Below",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28658",
+                "uuid": "no_temporary_enchant:item=28658:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=30021",
+                "uuid": "no_temporary_enchant:item=30021:Gruul the Dragonkiller"
             },
             {
                 "fight": "Morogrim Tidewalker",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=30021",
                 "uuid": "no_temporary_enchant:item=30021:Morogrim Tidewalker"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28750:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28750",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28750:The Lurker Below"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28658",
-                "uuid": "no_temporary_enchant:item=28658:The Lurker Below"
             }
         ]
     },
@@ -54317,6 +54317,16 @@
         },
         "remarks": [
             {
+                "fight": "Lady Vashj",
+                "type": "missing_food",
+                "uuid": "missing_food:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_food",
+                "uuid": "missing_food:Leotheras the Blind"
+            },
+            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28729",
@@ -54330,19 +54340,9 @@
             },
             {
                 "fight": "Lady Vashj",
-                "type": "missing_food",
-                "uuid": "missing_food:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28729",
                 "uuid": "no_temporary_enchant:item=28729:Lady Vashj"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_food",
-                "uuid": "missing_food:Leotheras the Blind"
             }
         ]
     },
@@ -58216,63 +58216,16 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28765",
-                "uuid": "no_enchant:item=28765:Hydross the Unstable"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
                 "uuid": "invalid_guardian_elixir:spell=39627:Fathom-Lord Karathress"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28771",
-                "uuid": "no_temporary_enchant:item=28771:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_food",
-                "uuid": "missing_food:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
                 "uuid": "invalid_guardian_elixir:spell=39627:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28771",
-                "uuid": "no_temporary_enchant:item=28771:Hydross the Unstable"
             },
             {
                 "fight": "Lady Vashj",
@@ -58285,21 +58238,6 @@
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
                 "uuid": "invalid_guardian_elixir:spell=39627:Leotheras the Blind"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
             },
             {
                 "fight": "Morogrim Tidewalker",
@@ -58318,6 +58256,68 @@
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
                 "uuid": "invalid_guardian_elixir:spell=39627:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_food",
+                "uuid": "missing_food:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28765",
+                "uuid": "no_enchant:item=28765:Hydross the Unstable"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28771",
+                "uuid": "no_temporary_enchant:item=28771:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28771",
+                "uuid": "no_temporary_enchant:item=28771:Hydross the Unstable"
             }
         ]
     },
@@ -61094,14 +61094,39 @@
                 "uuid": "missing_battle_elixir:Fathom-Lord Karathress"
             },
             {
-                "fight": "Fathom-Lord Karathress",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Leotheras the Blind"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Morogrim Tidewalker - Wipe 1 (56%)"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Fathom-Lord Karathress"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -61110,18 +61135,8 @@
             },
             {
                 "fight": "Lady Vashj",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Lady Vashj"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Leotheras the Blind"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -61130,28 +61145,13 @@
             },
             {
                 "fight": "Morogrim Tidewalker",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Morogrim Tidewalker"
             },
             {
                 "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Morogrim Tidewalker - Wipe 1 (56%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Morogrim Tidewalker - Wipe 1 (56%)"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:The Lurker Below"
             },
             {
                 "fight": "The Lurker Below",
@@ -68800,11 +68800,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=25978",
-                "uuid": "no_enchant:item=25978:The Lurker Below"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -68812,26 +68807,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28429",
-                "uuid": "no_temporary_enchant:item=28429:Fathom-Lord Karathress"
             },
             {
                 "fight": "Gruul the Dragonkiller",
@@ -68843,36 +68818,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28429",
-                "uuid": "no_temporary_enchant_but_windfury:item=28429:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -68880,36 +68825,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28429",
-                "uuid": "no_temporary_enchant_but_windfury:item=28429:High King Maulgar"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -68921,26 +68836,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Hydross the Unstable"
-            },
-            {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28429",
-                "uuid": "no_temporary_enchant:item=28429:Hydross the Unstable"
-            },
-            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -68948,26 +68843,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28429",
-                "uuid": "no_temporary_enchant:item=28429:Lady Vashj"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -68979,20 +68854,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Leotheras the Blind"
             },
             {
-                "fight": "Leotheras the Blind",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Leotheras the Blind"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Leotheras the Blind"
-            },
-            {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -69000,30 +68861,6 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
             },
             {
                 "fight": "Morogrim Tidewalker",
@@ -69035,20 +68872,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Morogrim Tidewalker"
             },
             {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Morogrim Tidewalker"
-            },
-            {
                 "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -69058,20 +68881,6 @@
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:Morogrim Tidewalker - Wipe 1 (56%)"
             },
             {
-                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Morogrim Tidewalker - Wipe 1 (56%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33173",
-                "wowhead_attr": "item=28290",
-                "uuid": "invalid_gem:item=28290:item=33173:Morogrim Tidewalker - Wipe 1 (56%)"
-            },
-            {
                 "fight": "The Lurker Below",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30644&ench=684",
@@ -69079,6 +68888,132 @@
                 "slot": "Mains",
                 "enchant_id": 684,
                 "uuid": "invalid_enchant:item=30644&ench=684:Mains:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:High King Maulgar"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Hydross the Unstable"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Lady Vashj"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Leotheras the Blind"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Leotheras the Blind"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Magtheridon"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Morogrim Tidewalker - Wipe 1 (56%)"
+            },
+            {
+                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33173",
+                "wowhead_attr": "item=28290",
+                "uuid": "invalid_gem:item=28290:item=33173:Morogrim Tidewalker - Wipe 1 (56%)"
             },
             {
                 "fight": "The Lurker Below",
@@ -69099,6 +69034,71 @@
                 "type": "invalid_temporary_enchant",
                 "item_wowhead_attr": "item=25978&ench=266",
                 "uuid": "invalid_temporary_enchant:item=25978&ench=266:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=25978",
+                "uuid": "no_enchant:item=25978:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28429",
+                "uuid": "no_temporary_enchant:item=28429:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28429",
+                "uuid": "no_temporary_enchant:item=28429:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28429",
+                "uuid": "no_temporary_enchant:item=28429:Lady Vashj"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28429",
+                "uuid": "no_temporary_enchant_but_windfury:item=28429:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28429",
+                "uuid": "no_temporary_enchant_but_windfury:item=28429:High King Maulgar"
             }
         ]
     },
@@ -72851,26 +72851,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=21851",
-                "uuid": "no_enchant:item=21851:High King Maulgar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=21852",
-                "uuid": "no_enchant:item=21852:High King Maulgar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28585",
-                "uuid": "no_enchant:item=28585:High King Maulgar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29078",
-                "uuid": "no_enchant:item=29078:Hydross the Unstable"
-            },
-            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28517&ench=2656",
@@ -72885,19 +72865,6 @@
                 "slot": "Pieds",
                 "enchant_id": 2656,
                 "uuid": "invalid_enchant:item=28517&ench=2656:Pieds:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=35272",
-                "uuid": "invalid_food:spell=35272:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=30206",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=30206:High King Maulgar"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -72954,6 +72921,39 @@
                 "slot": "Pieds",
                 "enchant_id": 2656,
                 "uuid": "invalid_enchant:item=28517&ench=2656:Pieds:The Lurker Below"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=35272",
+                "uuid": "invalid_food:spell=35272:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=30206",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=30206:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=21851",
+                "uuid": "no_enchant:item=21851:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=21852",
+                "uuid": "no_enchant:item=21852:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28585",
+                "uuid": "no_enchant:item=28585:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29078",
+                "uuid": "no_enchant:item=29078:Hydross the Unstable"
             }
         ]
     },
@@ -77010,18 +77010,20 @@
         },
         "remarks": [
             {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28545&ench=464",
+                "slot": "Pieds",
+                "enchant_id": 464,
+                "uuid": "invalid_enchant:item=28545&ench=464:Pieds:Magtheridon"
+            },
+            {
                 "fight": "Fathom-Lord Karathress",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28608&ench=464",
                 "slot": "Pieds",
                 "enchant_id": 464,
                 "uuid": "invalid_enchant:item=28608&ench=464:Pieds:Fathom-Lord Karathress"
-            },
-            {
-                "fight": "Fathom-Lord Karathress",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Fathom-Lord Karathress"
             },
             {
                 "fight": "Gruul the Dragonkiller",
@@ -77032,54 +77034,12 @@
                 "uuid": "invalid_enchant:item=28608&ench=464:Pieds:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28608&ench=464",
                 "slot": "Pieds",
                 "enchant_id": 464,
                 "uuid": "invalid_enchant:item=28608&ench=464:Pieds:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_food",
-                "uuid": "missing_food:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:High King Maulgar"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -77090,12 +77050,6 @@
                 "uuid": "invalid_enchant:item=28608&ench=464:Pieds:Hydross the Unstable"
             },
             {
-                "fight": "Hydross the Unstable",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Hydross the Unstable"
-            },
-            {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28608&ench=464",
@@ -77104,41 +77058,12 @@
                 "uuid": "invalid_enchant:item=28608&ench=464:Pieds:Lady Vashj"
             },
             {
-                "fight": "Lady Vashj",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28430",
-                "uuid": "no_temporary_enchant_but_windfury:item=28430:Lady Vashj"
-            },
-            {
                 "fight": "Leotheras the Blind",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28608&ench=464",
                 "slot": "Pieds",
                 "enchant_id": 464,
                 "uuid": "invalid_enchant:item=28608&ench=464:Pieds:Leotheras the Blind"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28545&ench=464",
-                "slot": "Pieds",
-                "enchant_id": 464,
-                "uuid": "invalid_enchant:item=28545&ench=464:Pieds:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
             },
             {
                 "fight": "Morogrim Tidewalker",
@@ -77163,6 +77088,81 @@
                 "slot": "Pieds",
                 "enchant_id": 464,
                 "uuid": "invalid_enchant:item=28608&ench=464:Pieds:The Lurker Below"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_food",
+                "uuid": "missing_food:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Fathom-Lord Karathress"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:High King Maulgar"
+            },
+            {
+                "fight": "Hydross the Unstable",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28430",
+                "uuid": "no_temporary_enchant_but_windfury:item=28430:Lady Vashj"
             }
         ]
     },
@@ -79977,20 +79977,60 @@
                 "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Fathom-Lord Karathress"
             },
             {
-                "fight": "Fathom-Lord Karathress",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30037&ench=2656",
-                "slot": "Pieds",
-                "enchant_id": 2656,
-                "uuid": "invalid_enchant:item=30037&ench=2656:Pieds:Fathom-Lord Karathress"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28802&ench=2671",
                 "slot": "Main droite",
                 "enchant_id": 2671,
                 "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Hydross the Unstable"
+            },
+            {
+                "fight": "Lady Vashj",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28802&ench=2671",
+                "slot": "Main droite",
+                "enchant_id": 2671,
+                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Lady Vashj"
+            },
+            {
+                "fight": "Leotheras the Blind",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28802&ench=2671",
+                "slot": "Main droite",
+                "enchant_id": 2671,
+                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Leotheras the Blind"
+            },
+            {
+                "fight": "Morogrim Tidewalker",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28802&ench=2671",
+                "slot": "Main droite",
+                "enchant_id": 2671,
+                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Morogrim Tidewalker"
+            },
+            {
+                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28802&ench=2671",
+                "slot": "Main droite",
+                "enchant_id": 2671,
+                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Morogrim Tidewalker - Wipe 1 (56%)"
+            },
+            {
+                "fight": "The Lurker Below",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28802&ench=2671",
+                "slot": "Main droite",
+                "enchant_id": 2671,
+                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:The Lurker Below"
+            },
+            {
+                "fight": "Fathom-Lord Karathress",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30037&ench=2656",
+                "slot": "Pieds",
+                "enchant_id": 2656,
+                "uuid": "invalid_enchant:item=30037&ench=2656:Pieds:Fathom-Lord Karathress"
             },
             {
                 "fight": "Hydross the Unstable",
@@ -80003,26 +80043,10 @@
             {
                 "fight": "Lady Vashj",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28802&ench=2671",
-                "slot": "Main droite",
-                "enchant_id": 2671,
-                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Lady Vashj"
-            },
-            {
-                "fight": "Lady Vashj",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30037&ench=2656",
                 "slot": "Pieds",
                 "enchant_id": 2656,
                 "uuid": "invalid_enchant:item=30037&ench=2656:Pieds:Lady Vashj"
-            },
-            {
-                "fight": "Leotheras the Blind",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28802&ench=2671",
-                "slot": "Main droite",
-                "enchant_id": 2671,
-                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Leotheras the Blind"
             },
             {
                 "fight": "Leotheras the Blind",
@@ -80035,14 +80059,6 @@
             {
                 "fight": "Morogrim Tidewalker",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28802&ench=2671",
-                "slot": "Main droite",
-                "enchant_id": 2671,
-                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Morogrim Tidewalker"
-            },
-            {
-                "fight": "Morogrim Tidewalker",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30037&ench=2656",
                 "slot": "Pieds",
                 "enchant_id": 2656,
@@ -80051,26 +80067,10 @@
             {
                 "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28802&ench=2671",
-                "slot": "Main droite",
-                "enchant_id": 2671,
-                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:Morogrim Tidewalker - Wipe 1 (56%)"
-            },
-            {
-                "fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30037&ench=2656",
                 "slot": "Pieds",
                 "enchant_id": 2656,
                 "uuid": "invalid_enchant:item=30037&ench=2656:Pieds:Morogrim Tidewalker - Wipe 1 (56%)"
-            },
-            {
-                "fight": "The Lurker Below",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28802&ench=2671",
-                "slot": "Main droite",
-                "enchant_id": 2671,
-                "uuid": "invalid_enchant:item=28802&ench=2671:Main droite:The Lurker Below"
             },
             {
                 "fight": "The Lurker Below",
@@ -91446,12 +91446,6 @@
         },
         "remarks": [
             {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=30058",
-                "uuid": "no_temporary_enchant_but_windfury:item=30058:High King Maulgar"
-            },
-            {
                 "fight": "Hydross the Unstable",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=31369&ench=2987",
@@ -91484,6 +91478,12 @@
                 "fight": "Hydross the Unstable",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Hydross the Unstable"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=30058",
+                "uuid": "no_temporary_enchant_but_windfury:item=30058:High King Maulgar"
             }
         ]
     },
@@ -92225,25 +92225,25 @@
                 "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
             },
             {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
             },
             {
                 "fight": "Gruul the Dragonkiller",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=32944",
                 "uuid": "no_temporary_enchant:item=32944:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
             },
             {
                 "fight": "High King Maulgar",
@@ -93411,12 +93411,6 @@
                 "uuid": "invalid_enchant:item=30039&ench=2939:Pieds:Gruul the Dragonkiller"
             },
             {
-                "fight": "Gruul the Dragonkiller",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28438",
-                "uuid": "no_temporary_enchant_but_windfury:item=28438:Gruul the Dragonkiller"
-            },
-            {
                 "fight": "High King Maulgar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30039&ench=2939",
@@ -93425,18 +93419,24 @@
                 "uuid": "invalid_enchant:item=30039&ench=2939:Pieds:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28438",
-                "uuid": "no_temporary_enchant_but_windfury:item=28438:High King Maulgar"
-            },
-            {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30039&ench=2939",
                 "slot": "Pieds",
                 "enchant_id": 2939,
                 "uuid": "invalid_enchant:item=30039&ench=2939:Pieds:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28438",
+                "uuid": "no_temporary_enchant_but_windfury:item=28438:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28438",
+                "uuid": "no_temporary_enchant_but_windfury:item=28438:High King Maulgar"
             }
         ]
     },
@@ -94670,10 +94670,245 @@
         },
         "remarks": [
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=25945&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=25945&ench=2662:Dos:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=25945&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=25945&ench=2662:Dos:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=25945&ench=2662",
+                "slot": "Dos",
+                "enchant_id": 2662,
+                "uuid": "invalid_enchant:item=25945&ench=2662:Dos:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=27793&ench=684",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 684,
+                "uuid": "invalid_enchant:item=27793&ench=684:Mains:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=27793&ench=684",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 684,
+                "uuid": "invalid_enchant:item=27793&ench=684:Mains:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=27793&ench=684",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 684,
+                "uuid": "invalid_enchant:item=27793&ench=684:Mains:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29917&ench=1071",
+                "wowhead_attr": null,
+                "slot": "Main gauche",
+                "enchant_id": 1071,
+                "uuid": "invalid_enchant:item=29917&ench=1071:Main gauche:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29917&ench=1071",
+                "wowhead_attr": null,
+                "slot": "Main gauche",
+                "enchant_id": 1071,
+                "uuid": "invalid_enchant:item=29917&ench=1071:Main gauche:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29917&ench=1071",
+                "wowhead_attr": null,
+                "slot": "Main gauche",
+                "enchant_id": 1071,
+                "uuid": "invalid_enchant:item=29917&ench=1071:Main gauche:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27793",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=27793:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27793",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=27793:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27793",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=27793:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27793",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=27793:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27793",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=27793:Magtheridon"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27793",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=27793:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28174",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28174:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28174",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28174:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28174",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28174:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28179",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28179:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28179",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28179:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28179",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28179:High King Maulgar"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28179",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28179:High King Maulgar"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28183",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28183:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28183",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28183:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28183",
+                "wowhead_attr": "item=28461",
+                "uuid": "invalid_gem:item=28461:item=28183:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_food",
+                "uuid": "missing_food:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
                 "type": "missing_gems",
                 "item_wowhead_attr": "item=28183",
                 "count": 1,
                 "uuid": "missing_gems:item=28183:High King Maulgar"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Magtheridon"
             },
             {
                 "type": "no_enchant",
@@ -94709,241 +94944,6 @@
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=35394",
                 "uuid": "no_enchant:item=35394:High King Maulgar"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25945&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=25945&ench=2662:Dos:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=27793&ench=684",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 684,
-                "uuid": "invalid_enchant:item=27793&ench=684:Mains:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29917&ench=1071",
-                "wowhead_attr": null,
-                "slot": "Main gauche",
-                "enchant_id": 1071,
-                "uuid": "invalid_enchant:item=29917&ench=1071:Main gauche:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27793",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=27793:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27793",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=27793:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28174",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28174:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28179",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28179:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28179",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28179:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28183",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28183:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25945&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=25945&ench=2662:Dos:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=27793&ench=684",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 684,
-                "uuid": "invalid_enchant:item=27793&ench=684:Mains:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29917&ench=1071",
-                "wowhead_attr": null,
-                "slot": "Main gauche",
-                "enchant_id": 1071,
-                "uuid": "invalid_enchant:item=29917&ench=1071:Main gauche:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27793",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=27793:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27793",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=27793:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28174",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28174:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28179",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28179:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28179",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28179:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28183",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28183:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_food",
-                "uuid": "missing_food:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High King Maulgar"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=25945&ench=2662",
-                "slot": "Dos",
-                "enchant_id": 2662,
-                "uuid": "invalid_enchant:item=25945&ench=2662:Dos:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=27793&ench=684",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 684,
-                "uuid": "invalid_enchant:item=27793&ench=684:Mains:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29917&ench=1071",
-                "wowhead_attr": null,
-                "slot": "Main gauche",
-                "enchant_id": 1071,
-                "uuid": "invalid_enchant:item=29917&ench=1071:Main gauche:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27793",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=27793:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27793",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=27793:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28174",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28174:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28183",
-                "wowhead_attr": "item=28461",
-                "uuid": "invalid_gem:item=28461:item=28183:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Magtheridon"
             }
         ]
     },
@@ -95950,36 +95950,11 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=27905",
-                "uuid": "no_enchant:item=27905:High King Maulgar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28967",
-                "uuid": "no_enchant:item=28967:High King Maulgar"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "meta_not_activated",
                 "item_wowhead_attr": "item=28963",
                 "wowhead_attr": "item=34220",
                 "uuid": "meta_not_activated:item=34220:item=28963:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -95989,14 +95964,46 @@
                 "uuid": "meta_not_activated:item=34220:item=28963:High King Maulgar"
             },
             {
+                "fight": "Magtheridon",
+                "type": "meta_not_activated",
+                "item_wowhead_attr": "item=28963",
+                "wowhead_attr": "item=34220",
+                "uuid": "meta_not_activated:item=34220:item=28963:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Gruul the Dragonkiller"
+            },
+            {
                 "fight": "High King Maulgar",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:High King Maulgar"
             },
             {
+                "fight": "Magtheridon",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
                 "fight": "High King Maulgar",
                 "type": "missing_food",
                 "uuid": "missing_food:High King Maulgar"
+            },
+            {
+                "fight": "Magtheridon",
+                "type": "missing_food",
+                "uuid": "missing_food:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -96005,25 +96012,18 @@
             },
             {
                 "fight": "Magtheridon",
-                "type": "meta_not_activated",
-                "item_wowhead_attr": "item=28963",
-                "wowhead_attr": "item=34220",
-                "uuid": "meta_not_activated:item=34220:item=28963:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
-                "type": "missing_food",
-                "uuid": "missing_food:Magtheridon"
-            },
-            {
-                "fight": "Magtheridon",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=27905",
+                "uuid": "no_enchant:item=27905:High King Maulgar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28967",
+                "uuid": "no_enchant:item=28967:High King Maulgar"
             }
         ]
     },
@@ -97171,44 +97171,12 @@
         },
         "remarks": [
             {
-                "type": "missing_gems",
-                "item_wowhead_attr": "item=28825",
-                "count": 1,
-                "uuid": "missing_gems:item=28825:Magtheridon"
-            },
-            {
                 "fight": "Gruul the Dragonkiller",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29254&ench=2792",
                 "slot": "Pieds",
                 "enchant_id": 2792,
                 "uuid": "invalid_enchant:item=29254&ench=2792:Pieds:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28502",
-                "wowhead_attr": "item=23105",
-                "uuid": "invalid_gem:item=23105:item=28502:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29068",
-                "wowhead_attr": "item=23105",
-                "uuid": "invalid_gem:item=23105:item=29068:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33065",
-                "wowhead_attr": "item=23105",
-                "uuid": "invalid_gem:item=23105:item=33065:Gruul the Dragonkiller"
-            },
-            {
-                "fight": "Gruul the Dragonkiller",
-                "type": "missing_food",
-                "uuid": "missing_food:Gruul the Dragonkiller"
             },
             {
                 "fight": "High King Maulgar",
@@ -97219,38 +97187,26 @@
                 "uuid": "invalid_enchant:item=29254&ench=2792:Pieds:High King Maulgar"
             },
             {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28502",
-                "wowhead_attr": "item=23105",
-                "uuid": "invalid_gem:item=23105:item=28502:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=29068",
-                "wowhead_attr": "item=23105",
-                "uuid": "invalid_gem:item=23105:item=29068:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=33065",
-                "wowhead_attr": "item=23105",
-                "uuid": "invalid_gem:item=23105:item=33065:High King Maulgar"
-            },
-            {
-                "fight": "High King Maulgar",
-                "type": "missing_food",
-                "uuid": "missing_food:High King Maulgar"
-            },
-            {
                 "fight": "Magtheridon",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29254&ench=2792",
                 "slot": "Pieds",
                 "enchant_id": 2792,
                 "uuid": "invalid_enchant:item=29254&ench=2792:Pieds:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28502",
+                "wowhead_attr": "item=23105",
+                "uuid": "invalid_gem:item=23105:item=28502:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28502",
+                "wowhead_attr": "item=23105",
+                "uuid": "invalid_gem:item=23105:item=28502:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -97260,11 +97216,39 @@
                 "uuid": "invalid_gem:item=23105:item=28502:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29068",
+                "wowhead_attr": "item=23105",
+                "uuid": "invalid_gem:item=23105:item=29068:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=29068",
+                "wowhead_attr": "item=23105",
+                "uuid": "invalid_gem:item=23105:item=29068:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=29068",
                 "wowhead_attr": "item=23105",
                 "uuid": "invalid_gem:item=23105:item=29068:Magtheridon"
+            },
+            {
+                "fight": "Gruul the Dragonkiller",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33065",
+                "wowhead_attr": "item=23105",
+                "uuid": "invalid_gem:item=23105:item=33065:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=33065",
+                "wowhead_attr": "item=23105",
+                "uuid": "invalid_gem:item=23105:item=33065:High King Maulgar"
             },
             {
                 "fight": "Magtheridon",
@@ -97274,9 +97258,25 @@
                 "uuid": "invalid_gem:item=23105:item=33065:Magtheridon"
             },
             {
+                "fight": "Gruul the Dragonkiller",
+                "type": "missing_food",
+                "uuid": "missing_food:Gruul the Dragonkiller"
+            },
+            {
+                "fight": "High King Maulgar",
+                "type": "missing_food",
+                "uuid": "missing_food:High King Maulgar"
+            },
+            {
                 "fight": "Magtheridon",
                 "type": "missing_food",
                 "uuid": "missing_food:Magtheridon"
+            },
+            {
+                "type": "missing_gems",
+                "item_wowhead_attr": "item=28825",
+                "count": 1,
+                "uuid": "missing_gems:item=28825:Magtheridon"
             }
         ]
     },
@@ -97630,16 +97630,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29124",
-                "uuid": "no_enchant:item=29124:Magtheridon"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=32790",
-                "uuid": "no_enchant:item=32790:Magtheridon"
-            },
-            {
                 "fight": "Magtheridon",
                 "type": "meta_not_activated",
                 "item_wowhead_attr": "item=29044",
@@ -97660,6 +97650,16 @@
                 "fight": "Magtheridon",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29124",
+                "uuid": "no_enchant:item=29124:Magtheridon"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=32790",
+                "uuid": "no_enchant:item=32790:Magtheridon"
             }
         ]
     },

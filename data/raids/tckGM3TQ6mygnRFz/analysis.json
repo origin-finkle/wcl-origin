@@ -1800,6 +1800,21 @@
         },
         "remarks": [
             {
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_food",
+                "uuid": "missing_food:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
+            },
+            {
                 "type": "no_enchant",
                 "item_wowhead_attr": "item=30054",
                 "uuid": "no_enchant:item=30054:Al'ar"
@@ -1821,21 +1836,6 @@
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "item=28439",
                 "uuid": "no_temporary_enchant_but_windfury:item=28439:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_food",
-                "uuid": "missing_food:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
                 "fight": "Void Reaver",
@@ -3435,44 +3435,14 @@
         },
         "remarks": [
             {
-                "fight": "Al'ar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=30082",
-                "uuid": "no_temporary_enchant_but_windfury:item=30082:Al'ar"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28189",
-                "uuid": "no_temporary_enchant_but_windfury:item=28189:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=30082",
-                "uuid": "no_temporary_enchant_but_windfury:item=30082:High Astromancer Solarian"
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "missing_food",
                 "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28189",
-                "uuid": "no_temporary_enchant_but_windfury:item=28189:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=30082",
-                "uuid": "no_temporary_enchant_but_windfury:item=30082:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -3483,6 +3453,36 @@
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28189",
+                "uuid": "no_temporary_enchant_but_windfury:item=28189:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28189",
+                "uuid": "no_temporary_enchant_but_windfury:item=28189:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=30082",
+                "uuid": "no_temporary_enchant_but_windfury:item=30082:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=30082",
+                "uuid": "no_temporary_enchant_but_windfury:item=30082:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=30082",
+                "uuid": "no_temporary_enchant_but_windfury:item=30082:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Void Reaver",
@@ -5038,20 +5038,6 @@
         },
         "remarks": [
             {
-                "fight": "Al'ar",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29097&ench=684",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 684,
-                "uuid": "invalid_enchant:item=29097&ench=684:Mains:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Al'ar"
-            },
-            {
                 "fight": "High Astromancer Solarian",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=24681&ench=3006",
@@ -5060,20 +5046,13 @@
                 "uuid": "invalid_enchant:item=24681&ench=3006:T\u00eate:High Astromancer Solarian"
             },
             {
-                "fight": "High Astromancer Solarian",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=30021",
-                "uuid": "no_temporary_enchant:item=30021:High Astromancer Solarian"
+                "fight": "Al'ar",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29097&ench=684",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 684,
+                "uuid": "invalid_enchant:item=29097&ench=684:Mains:Al'ar"
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
@@ -5085,9 +5064,18 @@
                 "uuid": "invalid_enchant:item=29097&ench=684:Mains:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High Astromancer Solarian - Wipe 1 (100%)"
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29097&ench=684",
+                "wowhead_attr": null,
+                "slot": "Mains",
+                "enchant_id": 684,
+                "uuid": "invalid_enchant:item=29097&ench=684:Mains:Void Reaver"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High Astromancer Solarian"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -5100,23 +5088,35 @@
                 "uuid": "missing_food:Kael'thas Sunstrider"
             },
             {
+                "fight": "Al'ar",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
                 "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29097&ench=684",
-                "wowhead_attr": null,
-                "slot": "Mains",
-                "enchant_id": 684,
-                "uuid": "invalid_enchant:item=29097&ench=684:Mains:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Void Reaver"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=30021",
+                "uuid": "no_temporary_enchant:item=30021:High Astromancer Solarian"
             }
         ]
     },
@@ -6828,24 +6828,24 @@
                 "uuid": "missing_battle_elixir:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_food",
-                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
             },
             {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_food",
+                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_food",
                 "uuid": "missing_food:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -8474,11 +8474,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28765",
-                "uuid": "no_enchant:item=28765:Al'ar"
-            },
-            {
                 "fight": "Al'ar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21874&ench=2715",
@@ -8503,6 +8498,14 @@
                 "uuid": "invalid_enchant:item=21874&ench=2715:\u00c9paule:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=21874&ench=2715",
+                "slot": "\u00c9paule",
+                "enchant_id": 2715,
+                "uuid": "invalid_enchant:item=21874&ench=2715:\u00c9paule:Void Reaver"
+            },
+            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -8518,12 +8521,9 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=21874&ench=2715",
-                "slot": "\u00c9paule",
-                "enchant_id": 2715,
-                "uuid": "invalid_enchant:item=21874&ench=2715:\u00c9paule:Void Reaver"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28765",
+                "uuid": "no_enchant:item=28765:Al'ar"
             }
         ]
     },
@@ -10214,18 +10214,30 @@
                 "uuid": "invalid_battle_elixir:spell=33721:Al'ar"
             },
             {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=33721",
+                "uuid": "invalid_battle_elixir:spell=33721:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=33721",
+                "uuid": "invalid_battle_elixir:spell=33721:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Void Reaver",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=33721",
+                "uuid": "invalid_battle_elixir:spell=33721:Void Reaver"
+            },
+            {
                 "fight": "Al'ar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30138&ench=2604",
                 "slot": "\u00c9paule",
                 "enchant_id": 2604,
                 "uuid": "invalid_enchant:item=30138&ench=2604:\u00c9paule:Al'ar"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=33721",
-                "uuid": "invalid_battle_elixir:spell=33721:High Astromancer Solarian"
             },
             {
                 "fight": "High Astromancer Solarian",
@@ -10237,17 +10249,19 @@
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=33721",
-                "uuid": "invalid_battle_elixir:spell=33721:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30138&ench=2604",
                 "slot": "\u00c9paule",
                 "enchant_id": 2604,
                 "uuid": "invalid_enchant:item=30138&ench=2604:\u00c9paule:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30138&ench=2604",
+                "slot": "\u00c9paule",
+                "enchant_id": 2604,
+                "uuid": "invalid_enchant:item=30138&ench=2604:\u00c9paule:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -10263,20 +10277,6 @@
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=33721",
-                "uuid": "invalid_battle_elixir:spell=33721:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30138&ench=2604",
-                "slot": "\u00c9paule",
-                "enchant_id": 2604,
-                "uuid": "invalid_enchant:item=30138&ench=2604:\u00c9paule:Void Reaver"
             }
         ]
     },
@@ -11907,17 +11907,36 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=30257",
-                "uuid": "no_enchant:item=30257:Al'ar"
-            },
-            {
                 "fight": "Al'ar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28944&ench=803",
                 "slot": "\u00c0 une main",
                 "enchant_id": 803,
                 "uuid": "invalid_enchant:item=28944&ench=803:\u00c0 une main:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28944&ench=803",
+                "slot": "\u00c0 une main",
+                "enchant_id": 803,
+                "uuid": "invalid_enchant:item=28944&ench=803:\u00c0 une main:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28944&ench=803",
+                "slot": "\u00c0 une main",
+                "enchant_id": 803,
+                "uuid": "invalid_enchant:item=28944&ench=803:\u00c0 une main:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28944&ench=803",
+                "slot": "\u00c0 une main",
+                "enchant_id": 803,
+                "uuid": "invalid_enchant:item=28944&ench=803:\u00c0 une main:Void Reaver"
             },
             {
                 "fight": "Al'ar",
@@ -11930,26 +11949,10 @@
             {
                 "fight": "High Astromancer Solarian",
                 "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28944&ench=803",
-                "slot": "\u00c0 une main",
-                "enchant_id": 803,
-                "uuid": "invalid_enchant:item=28944&ench=803:\u00c0 une main:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_enchant",
                 "item_wowhead_attr": "item=29043&ench=2996",
                 "slot": "\u00c9paule",
                 "enchant_id": 2996,
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28944&ench=803",
-                "slot": "\u00c0 une main",
-                "enchant_id": 803,
-                "uuid": "invalid_enchant:item=28944&ench=803:\u00c0 une main:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
@@ -11960,14 +11963,22 @@
                 "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_food",
-                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=29043&ench=2996",
+                "slot": "\u00c9paule",
+                "enchant_id": 2996,
+                "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_food",
+                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -11980,20 +11991,9 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28944&ench=803",
-                "slot": "\u00c0 une main",
-                "enchant_id": 803,
-                "uuid": "invalid_enchant:item=28944&ench=803:\u00c0 une main:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=29043&ench=2996",
-                "slot": "\u00c9paule",
-                "enchant_id": 2996,
-                "uuid": "invalid_enchant:item=29043&ench=2996:\u00c9paule:Void Reaver"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=30257",
+                "uuid": "no_enchant:item=30257:Al'ar"
             }
         ]
     },
@@ -13522,14 +13522,20 @@
                 "uuid": "invalid_food:spell=33265:High Astromancer Solarian"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_food",
-                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
+                "fight": "Void Reaver",
+                "type": "invalid_food",
+                "wowhead_attr": "spell=33265",
+                "uuid": "invalid_food:spell=33265:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_food",
+                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -13540,12 +13546,6 @@
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_food",
-                "wowhead_attr": "spell=33265",
-                "uuid": "invalid_food:spell=33265:Void Reaver"
             }
         ]
     },
@@ -15283,24 +15283,12 @@
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Al'ar"
             },
             {
-                "fight": "Al'ar",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant:item=28439:Al'ar"
-            },
-            {
                 "fight": "High Astromancer Solarian",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30081&ench=2939",
                 "slot": "Pieds",
                 "enchant_id": 2939,
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant_but_windfury:item=28439:High Astromancer Solarian"
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
@@ -15311,10 +15299,12 @@
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "no_temporary_enchant",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant:item=28439:High Astromancer Solarian - Wipe 1 (100%)"
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30081&ench=2939",
+                "slot": "Pieds",
+                "enchant_id": 2939,
+                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -15332,18 +15322,28 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30081&ench=2939",
-                "slot": "Pieds",
-                "enchant_id": 2939,
-                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Void Reaver"
+                "fight": "Al'ar",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant:item=28439:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "no_temporary_enchant",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant:item=28439:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Void Reaver",
                 "type": "no_temporary_enchant",
                 "item_wowhead_attr": "item=28439",
                 "uuid": "no_temporary_enchant:item=28439:Void Reaver"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant_but_windfury:item=28439:High Astromancer Solarian"
             }
         ]
     },
@@ -17053,6 +17053,13 @@
                 "uuid": "invalid_gem:item=23096:item=28507:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28507",
+                "wowhead_attr": "item=23096",
+                "uuid": "invalid_gem:item=23096:item=28507:Void Reaver"
+            },
+            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -17066,13 +17073,6 @@
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28507",
-                "wowhead_attr": "item=23096",
-                "uuid": "invalid_gem:item=23096:item=28507:Void Reaver"
             }
         ]
     },
@@ -20403,18 +20403,18 @@
                 "uuid": "invalid_battle_elixir:spell=17538:Al'ar"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_battle_elixir",
+                "wowhead_attr": "spell=17538",
+                "uuid": "invalid_battle_elixir:spell=17538:Void Reaver"
+            },
+            {
                 "fight": "Al'ar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30081&ench=2939",
                 "slot": "Pieds",
                 "enchant_id": 2939,
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant_but_windfury:item=28439:Al'ar"
             },
             {
                 "fight": "High Astromancer Solarian",
@@ -20425,12 +20425,6 @@
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:High Astromancer Solarian"
             },
             {
-                "fight": "High Astromancer Solarian",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant_but_windfury:item=28439:High Astromancer Solarian"
-            },
-            {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30081&ench=2939",
@@ -20439,10 +20433,12 @@
                 "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28439",
-                "uuid": "no_temporary_enchant_but_windfury:item=28439:High Astromancer Solarian - Wipe 1 (100%)"
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30081&ench=2939",
+                "slot": "Pieds",
+                "enchant_id": 2939,
+                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -20460,18 +20456,22 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_battle_elixir",
-                "wowhead_attr": "spell=17538",
-                "uuid": "invalid_battle_elixir:spell=17538:Void Reaver"
+                "fight": "Al'ar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant_but_windfury:item=28439:Al'ar"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30081&ench=2939",
-                "slot": "Pieds",
-                "enchant_id": 2939,
-                "uuid": "invalid_enchant:item=30081&ench=2939:Pieds:Void Reaver"
+                "fight": "High Astromancer Solarian",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant_but_windfury:item=28439:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28439",
+                "uuid": "no_temporary_enchant_but_windfury:item=28439:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Void Reaver",
@@ -22062,16 +22062,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=21870",
-                "uuid": "no_enchant:item=21870:Al'ar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28269",
-                "uuid": "no_enchant:item=28269:Al'ar"
-            },
-            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -22085,6 +22075,16 @@
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=21870",
+                "uuid": "no_enchant:item=21870:Al'ar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28269",
+                "uuid": "no_enchant:item=28269:Al'ar"
             }
         ]
     },
@@ -24049,124 +24049,12 @@
                 "uuid": "invalid_enchant:item=28772&ench=2722:\u00c0 distance:Al'ar"
             },
             {
-                "fight": "Al'ar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27474",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27474:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27801",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27801:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27846",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27846:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27846",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27846:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28228",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28228:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28228",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28228:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28275",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28275:Al'ar"
-            },
-            {
-                "fight": "Al'ar",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28746",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28746:Al'ar"
-            },
-            {
                 "fight": "High Astromancer Solarian",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28772&ench=2722",
                 "slot": "\u00c0 distance",
                 "enchant_id": 2722,
                 "uuid": "invalid_enchant:item=28772&ench=2722:\u00c0 distance:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27474",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27474:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27801",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27801:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27846",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27846:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27846",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27846:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28228",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28228:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28228",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28228:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28275",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28275:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28746",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28746:High Astromancer Solarian"
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
@@ -24177,11 +24065,54 @@
                 "uuid": "invalid_enchant:item=28772&ench=2722:\u00c0 distance:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28772&ench=2722",
+                "slot": "\u00c0 distance",
+                "enchant_id": 2722,
+                "uuid": "invalid_enchant:item=28772&ench=2722:\u00c0 distance:Void Reaver"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27474",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27474:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27474",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27474:High Astromancer Solarian"
+            },
+            {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=27474",
                 "wowhead_attr": "item=23097",
                 "uuid": "invalid_gem:item=23097:item=27474:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27474",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27474:Void Reaver"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27801",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27801:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27801",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27801:High Astromancer Solarian"
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
@@ -24191,6 +24122,41 @@
                 "uuid": "invalid_gem:item=23097:item=27801:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27801",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27801:Void Reaver"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27846",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27846:Al'ar"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27846",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27846:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27846",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27846:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27846",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27846:High Astromancer Solarian"
+            },
+            {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=27846",
@@ -24205,6 +24171,48 @@
                 "uuid": "invalid_gem:item=23097:item=27846:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27846",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27846:Void Reaver"
+            },
+            {
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=27846",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=27846:Void Reaver"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28228",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28228:Al'ar"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28228",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28228:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28228",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28228:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28228",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28228:High Astromancer Solarian"
+            },
+            {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28228",
@@ -24217,6 +24225,34 @@
                 "item_wowhead_attr": "item=28228",
                 "wowhead_attr": "item=23097",
                 "uuid": "invalid_gem:item=23097:item=28228:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28228",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28228:Void Reaver"
+            },
+            {
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28228",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28228:Void Reaver"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28275",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28275:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28275",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28275:High Astromancer Solarian"
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
@@ -24226,6 +24262,27 @@
                 "uuid": "invalid_gem:item=23097:item=28275:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28275",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28275:Void Reaver"
+            },
+            {
+                "fight": "Al'ar",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28746",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28746:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28746",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28746:High Astromancer Solarian"
+            },
+            {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "invalid_gem",
                 "item_wowhead_attr": "item=28746",
@@ -24233,14 +24290,21 @@
                 "uuid": "invalid_gem:item=23097:item=28746:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_food",
-                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
+                "fight": "Void Reaver",
+                "type": "invalid_gem",
+                "item_wowhead_attr": "item=28746",
+                "wowhead_attr": "item=23097",
+                "uuid": "invalid_gem:item=23097:item=28746:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_food",
+                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -24251,70 +24315,6 @@
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28772&ench=2722",
-                "slot": "\u00c0 distance",
-                "enchant_id": 2722,
-                "uuid": "invalid_enchant:item=28772&ench=2722:\u00c0 distance:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27474",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27474:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27801",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27801:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27846",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27846:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=27846",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=27846:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28228",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28228:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28228",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28228:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28275",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28275:Void Reaver"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_gem",
-                "item_wowhead_attr": "item=28746",
-                "wowhead_attr": "item=23097",
-                "uuid": "invalid_gem:item=23097:item=28746:Void Reaver"
             }
         ]
     },
@@ -27449,11 +27449,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29369",
-                "uuid": "no_enchant:item=29369:Al'ar"
-            },
-            {
                 "fight": "Al'ar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=28967&ench=2982",
@@ -27478,6 +27473,14 @@
                 "uuid": "invalid_enchant:item=28967&ench=2982:\u00c9paule:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=28967&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=28967&ench=2982:\u00c9paule:Void Reaver"
+            },
+            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -27493,12 +27496,9 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=28967&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=28967&ench=2982:\u00c9paule:Void Reaver"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29369",
+                "uuid": "no_enchant:item=29369:Al'ar"
             }
         ]
     },
@@ -29284,16 +29284,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28752",
-                "uuid": "no_enchant:item=28752:Al'ar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=29375",
-                "uuid": "no_enchant:item=29375:Al'ar"
-            },
-            {
                 "fight": "Al'ar",
                 "type": "invalid_guardian_elixir",
                 "wowhead_attr": "spell=39627",
@@ -29312,6 +29302,12 @@
                 "uuid": "invalid_guardian_elixir:spell=39627:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_guardian_elixir",
+                "wowhead_attr": "spell=39627",
+                "uuid": "invalid_guardian_elixir:spell=39627:Void Reaver"
+            },
+            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -29327,10 +29323,14 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_guardian_elixir",
-                "wowhead_attr": "spell=39627",
-                "uuid": "invalid_guardian_elixir:spell=39627:Void Reaver"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28752",
+                "uuid": "no_enchant:item=28752:Al'ar"
+            },
+            {
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=29375",
+                "uuid": "no_enchant:item=29375:Al'ar"
             }
         ]
     },
@@ -30862,6 +30862,21 @@
         },
         "remarks": [
             {
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_food",
+                "uuid": "missing_food:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_guardian_elixir",
+                "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
+            },
+            {
                 "fight": "Al'ar",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "item=28729",
@@ -30878,21 +30893,6 @@
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "item=28729",
                 "uuid": "no_temporary_enchant_but_windfury:item=28729:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_food",
-                "uuid": "missing_food:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_guardian_elixir",
-                "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
                 "fight": "Void Reaver",
@@ -32427,14 +32427,23 @@
                 "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_food",
-                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30037&ench=2649",
+                "wowhead_attr": null,
+                "slot": "Pieds",
+                "enchant_id": 2649,
+                "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_food",
+                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -32445,15 +32454,6 @@
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30037&ench=2649",
-                "wowhead_attr": null,
-                "slot": "Pieds",
-                "enchant_id": 2649,
-                "uuid": "invalid_enchant:item=30037&ench=2649:Pieds:Void Reaver"
             }
         ]
     },
@@ -34140,14 +34140,14 @@
         },
         "remarks": [
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_food",
-                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_food",
+                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -35837,16 +35837,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28765",
-                "uuid": "no_enchant:item=28765:Al'ar"
-            },
-            {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=30092",
-                "uuid": "no_enchant:item=30092:Al'ar"
-            },
-            {
                 "fight": "Al'ar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21874&ench=2993",
@@ -35863,12 +35853,6 @@
                 "uuid": "invalid_enchant:item=21874&ench=2993:\u00c9paule:High Astromancer Solarian"
             },
             {
-                "fight": "High Astromancer Solarian",
-                "type": "invalid_temporary_enchant",
-                "item_wowhead_attr": "item=28771&ench=2634",
-                "uuid": "invalid_temporary_enchant:item=28771&ench=2634:High Astromancer Solarian"
-            },
-            {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=21874&ench=2993",
@@ -35877,10 +35861,30 @@
                 "uuid": "invalid_enchant:item=21874&ench=2993:\u00c9paule:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=21874&ench=2993",
+                "slot": "\u00c9paule",
+                "enchant_id": 2993,
+                "uuid": "invalid_enchant:item=21874&ench=2993:\u00c9paule:Void Reaver"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "invalid_temporary_enchant",
+                "item_wowhead_attr": "item=28771&ench=2634",
+                "uuid": "invalid_temporary_enchant:item=28771&ench=2634:High Astromancer Solarian"
+            },
+            {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "invalid_temporary_enchant",
                 "item_wowhead_attr": "item=28771&ench=2634",
                 "uuid": "invalid_temporary_enchant:item=28771&ench=2634:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Void Reaver",
+                "type": "invalid_temporary_enchant",
+                "item_wowhead_attr": "item=28771&ench=2634",
+                "uuid": "invalid_temporary_enchant:item=28771&ench=2634:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -35898,18 +35902,14 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=21874&ench=2993",
-                "slot": "\u00c9paule",
-                "enchant_id": 2993,
-                "uuid": "invalid_enchant:item=21874&ench=2993:\u00c9paule:Void Reaver"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28765",
+                "uuid": "no_enchant:item=28765:Al'ar"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_temporary_enchant",
-                "item_wowhead_attr": "item=28771&ench=2634",
-                "uuid": "invalid_temporary_enchant:item=28771&ench=2634:Void Reaver"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=30092",
+                "uuid": "no_enchant:item=30092:Al'ar"
             }
         ]
     },
@@ -37473,11 +37473,6 @@
         },
         "remarks": [
             {
-                "type": "no_enchant",
-                "item_wowhead_attr": "item=28797",
-                "uuid": "no_enchant:item=28797:Al'ar"
-            },
-            {
                 "fight": "Al'ar",
                 "type": "invalid_enchant",
                 "item_wowhead_attr": "item=30024&ench=2982",
@@ -37502,14 +37497,22 @@
                 "uuid": "invalid_enchant:item=30024&ench=2982:\u00c9paule:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_food",
-                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
+                "fight": "Void Reaver",
+                "type": "invalid_enchant",
+                "item_wowhead_attr": "item=30024&ench=2982",
+                "slot": "\u00c9paule",
+                "enchant_id": 2982,
+                "uuid": "invalid_enchant:item=30024&ench=2982:\u00c9paule:Void Reaver"
             },
             {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_food",
+                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -37522,12 +37525,9 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
-                "fight": "Void Reaver",
-                "type": "invalid_enchant",
-                "item_wowhead_attr": "item=30024&ench=2982",
-                "slot": "\u00c9paule",
-                "enchant_id": 2982,
-                "uuid": "invalid_enchant:item=30024&ench=2982:\u00c9paule:Void Reaver"
+                "type": "no_enchant",
+                "item_wowhead_attr": "item=28797",
+                "uuid": "no_enchant:item=28797:Al'ar"
             }
         ]
     },
@@ -39033,6 +39033,26 @@
         },
         "remarks": [
             {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_battle_elixir",
+                "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "missing_food",
+                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
+                "fight": "Kael'thas Sunstrider",
+                "type": "missing_food",
+                "uuid": "missing_food:Kael'thas Sunstrider"
+            },
+            {
                 "fight": "Al'ar",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Al'ar"
@@ -39044,28 +39064,8 @@
             },
             {
                 "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "missing_food",
-                "uuid": "missing_food:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_battle_elixir",
-                "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
-            },
-            {
-                "fight": "Kael'thas Sunstrider",
-                "type": "missing_food",
-                "uuid": "missing_food:Kael'thas Sunstrider"
             },
             {
                 "fight": "Kael'thas Sunstrider",
@@ -40872,30 +40872,6 @@
         },
         "remarks": [
             {
-                "fight": "Al'ar",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28438",
-                "uuid": "no_temporary_enchant_but_windfury:item=28438:Al'ar"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28438",
-                "uuid": "no_temporary_enchant_but_windfury:item=28438:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28729",
-                "uuid": "no_temporary_enchant_but_windfury:item=28729:High Astromancer Solarian"
-            },
-            {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=28438",
-                "uuid": "no_temporary_enchant_but_windfury:item=28438:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -40911,10 +40887,34 @@
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
             },
             {
+                "fight": "Al'ar",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28438",
+                "uuid": "no_temporary_enchant_but_windfury:item=28438:Al'ar"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28438",
+                "uuid": "no_temporary_enchant_but_windfury:item=28438:High Astromancer Solarian"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28438",
+                "uuid": "no_temporary_enchant_but_windfury:item=28438:High Astromancer Solarian - Wipe 1 (100%)"
+            },
+            {
                 "fight": "Void Reaver",
                 "type": "no_temporary_enchant_but_windfury",
                 "item_wowhead_attr": "item=28438",
                 "uuid": "no_temporary_enchant_but_windfury:item=28438:Void Reaver"
+            },
+            {
+                "fight": "High Astromancer Solarian",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=28729",
+                "uuid": "no_temporary_enchant_but_windfury:item=28729:High Astromancer Solarian"
             }
         ]
     },
@@ -42652,12 +42652,6 @@
                 "uuid": "invalid_enchant:item=25010&ench=3006:T\u00eate:High Astromancer Solarian"
             },
             {
-                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
-                "type": "no_temporary_enchant_but_windfury",
-                "item_wowhead_attr": "item=30058",
-                "uuid": "no_temporary_enchant_but_windfury:item=30058:High Astromancer Solarian - Wipe 1 (100%)"
-            },
-            {
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_battle_elixir",
                 "uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -42671,6 +42665,12 @@
                 "fight": "Kael'thas Sunstrider",
                 "type": "missing_guardian_elixir",
                 "uuid": "missing_guardian_elixir:Kael'thas Sunstrider"
+            },
+            {
+                "fight": "High Astromancer Solarian - Wipe 1 (100%)",
+                "type": "no_temporary_enchant_but_windfury",
+                "item_wowhead_attr": "item=30058",
+                "uuid": "no_temporary_enchant_but_windfury:item=30058:High Astromancer Solarian - Wipe 1 (100%)"
             }
         ]
     }

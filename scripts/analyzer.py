@@ -61,7 +61,7 @@ def aggregate_remarks(player):
 def _sort_remarks(remarks):
     return sorted(
         [r for remark in remarks for r in remark],
-        key=lambda x: (x.get("fight", "0"), x["type"], x.get("item_wowhead_attr", "0")),
+        key=lambda x: x["uuid"],
     )
 
 

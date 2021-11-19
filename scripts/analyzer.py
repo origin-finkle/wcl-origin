@@ -1,3 +1,4 @@
+from collections import OrderedDict
 import os
 import logging
 import json
@@ -99,6 +100,7 @@ with open(filename) as file:
                 event=event,
             )
     for player in players.values():
+        player.fights = OrderedDict(sorted(player.fights.items()))
         for player_fight in player.fights.values():
             player_fight.post_process()
         aggregate_remarks(player=player)
@@ -123,7 +125,10 @@ class JSONEncoder(json.JSONEncoder):
 
 with open(f"./data/raids/{logs['code']}/analysis.json", "w+") as file:
     json.dump(
-        players, file, indent=4, cls=JSONEncoder
+        OrderedDict(sorted(players.items())),  # sort by key
+        file,
+        indent=4,
+        cls=JSONEncoder,
     )  # indenting so we can identify what changes
 
 with open(f"./data/raids/{logs['code']}/logs.json", "w+") as file:

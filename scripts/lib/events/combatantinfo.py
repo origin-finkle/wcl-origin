@@ -58,15 +58,15 @@ class CombatantInfo(Event):
                 fight=player_fight,
                 slot=wowhead_data["slot"],
             ):
-                player_fight.add_remark(
-                    type="invalid_enchant",
-                    item_wowhead_attr=f"item={item.id}&ench={item.permanentEnchant}",
-                    wowhead_attr=(
-                        f"spell={e.spell_id}" if hasattr(e, "spell_id") else None
-                    ),
-                    slot=wowhead_data["slot"],
-                    enchant_id=item.permanentEnchant,
-                )
+                kw = {
+                    "type": "invalid_enchant",
+                    "item_wowhead_attr": f"item={item.id}&ench={item.permanentEnchant}",
+                    "slot": wowhead_data["slot"],
+                    "enchant_id": item.permanentEnchant,
+                }
+                if hasattr(e, "spell_id"):
+                    kw["wowhead_attr"] = f"spell={e.spell_id}"
+                player_fight.add_remark(**kw)
         elif wowhead_data["slot"] in SLOTS_TO_ENCHANT:
             player_fight.add_remark(
                 type="no_enchant",

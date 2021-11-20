@@ -6,6 +6,7 @@ import sys
 import enum
 
 from lib.base import Base
+from lib.remark import Remark
 from lib.player import Player
 from lib.events.event import Event
 from lib.data import (
@@ -42,7 +43,8 @@ def aggregate_remarks(player):
                 "fight": fight.name,
             }
             data.update(remark.as_json())
-            remarks[remark.type].append(data)
+            r = Remark(data)
+            remarks[remark.type].append(r)
     # and now depending on the type we squash the duplicates
     _remove_duplicated_remarks(
         remarks=remarks, remark_type="missing_gems", unique_key="item_wowhead_attr"
@@ -62,16 +64,17 @@ def aggregate_remarks(player):
 def _sort_remarks(remarks):
     return sorted(
         [r for remark in remarks for r in remark],
-        key=lambda x: x["uuid"],
+        key=lambda x: x.uuid,
     )
 
 
 def _remove_duplicated_remarks(remarks, remark_type, unique_key):
     unique_dict = {}
     for value in remarks.get(remark_type, []):
-        if "fight" in value:
-            del value["fight"]  # since we're aggregating
-        unique_dict.setdefault(value[unique_key], value)
+        if hasattr(value, "fight"):
+            del value.fight  # since we're aggregating
+            value.compute_uuid()
+        unique_dict.setdefault(getattr(value, unique_key), value)
     remarks[remark_type] = unique_dict.values()
 
 

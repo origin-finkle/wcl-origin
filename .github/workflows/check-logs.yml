@@ -49,6 +49,7 @@ jobs:
         cp /tmp/logs/*.json raid-data/
     - name: Analysis
       run: |
+        source venv/bin/activate
         /tmp/bin-logs analyze --analysis-folder ./data/raids --reports-folder ./raid-data --config-folder ./data/config $(ls -A /tmp/logs | cut -d'.' -f1 | xargs)
         python scripts/characters.py
         bash scripts/characters.sh

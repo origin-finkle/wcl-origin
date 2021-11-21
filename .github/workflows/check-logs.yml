@@ -27,6 +27,8 @@ jobs:
         WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
     - uses: actions/checkout@v2
       name: Checkout
+      with:
+        submodules: recursive
     - name: Set up Hugo
       uses: peaceiris/actions-hugo@v2.4.13
       with:

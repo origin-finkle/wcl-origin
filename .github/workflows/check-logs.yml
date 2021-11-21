@@ -18,7 +18,9 @@ jobs:
       run: |
         mkdir -p /tmp/logs
         ./logs extract --folder /tmp/logs --check-on-remote
-        [ "$(ls -A /tmp/logs)" ] && exit 1 # stop workflow execution
+        echo "Logs extracted"
+        ls -l /tmp/logs
+        [ "$(ls -A /tmp/logs)" ] || exit 1 # stop workflow execution
       env:
         WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
         WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}

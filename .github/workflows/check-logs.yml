@@ -19,6 +19,9 @@ jobs:
         mkdir -p /tmp/logs
         ./logs extract --folder /tmp/logs --check-on-remote
         [ "$(ls -A /tmp/logs)" ] && exit 1 # stop workflow execution
+      env:
+        WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
+        WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
     - uses: actions/checkout@v2
       name: Checkout
     - name: Set up Hugo
@@ -45,9 +48,6 @@ jobs:
         python scripts/characters.py
         bash scripts/characters.sh
         for report in $(ls -A /tmp/logs | cut -d'.' -f1); do [[ -f ./data/raids/$report/logs.json ]] && python scripts/generate_hugo_files.py $report; done;
-      env:
-        WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
-        WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
         
     - name: Commit files
       run: |

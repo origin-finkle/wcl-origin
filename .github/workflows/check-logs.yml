@@ -3,13 +3,22 @@ name: check-logs
 on:
   schedule:
     - cron:  '*/15 0-2,20-23 * * *'
+  push:
+    paths:
+      - ".github/workflows/check-logs.yml"
 
 jobs:
   run:
-
     runs-on: ubuntu-latest
-
     steps:
+    - name: Fetch logs client
+      run: |
+        curl -L https://github.com/origin-finkle/logs/releases/download/v1.1.0/logs-v1.1.0-linux-amd64.tar.gz | tar xzf -
+    - name: Fetch latest logs
+      run: |
+        mkdir -p /tmp/logs
+        ./logs extract --folder /tmp/logs --check-on-remote
+        [ "$(ls -A /tmp/logs)" ] && exit 1 # stop workflow execution
     - uses: actions/checkout@v2
       name: Checkout
     - name: Set up Hugo
@@ -27,9 +36,15 @@ jobs:
         virtualenv venv
         source venv/bin/activate
         pip install -r requirements.txt
-    - name: Import
+    - name: Move extractions
       run: |
-        bash scripts/import.sh
+        cp /tmp/logs/*.json raid-data/
+    - name: Analysis
+      run: |
+        ./logs analyze --analysis-folder ./data/raids --reports-folder ./raid-data --config-folder ./data/config $(ls -A /tmp/logs | cut -d'.' -f1 | xargs)
+        python scripts/characters.py
+        bash scripts/characters.sh
+        for report in $(ls -A /tmp/logs | cut -d'.' -f1); do [[ -f ./data/raids/$report/logs.json ]] && python scripts/generate_hugo_files.py $report; done;
       env:
         WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
         WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}

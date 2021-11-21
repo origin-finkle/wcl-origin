@@ -14,10 +14,11 @@ jobs:
     - name: Fetch logs client
       run: |
         curl -L https://github.com/origin-finkle/logs/releases/download/v1.1.0/logs-v1.1.0-linux-amd64.tar.gz | tar xzf -
+        mv logs /tmp/bin-logs
     - name: Fetch latest logs
       run: |
         mkdir -p /tmp/logs
-        ./logs extract --folder /tmp/logs --check-on-remote
+        /tmp/bin-logs extract --folder /tmp/logs --check-on-remote
         echo "Logs extracted"
         ls -l /tmp/logs
         [ "$(ls -A /tmp/logs)" ] || exit 1 # stop workflow execution
@@ -46,7 +47,7 @@ jobs:
         cp /tmp/logs/*.json raid-data/
     - name: Analysis
       run: |
-        ./logs analyze --analysis-folder ./data/raids --reports-folder ./raid-data --config-folder ./data/config $(ls -A /tmp/logs | cut -d'.' -f1 | xargs)
+        /tmp/bin-logs analyze --analysis-folder ./data/raids --reports-folder ./raid-data --config-folder ./data/config $(ls -A /tmp/logs | cut -d'.' -f1 | xargs)
         python scripts/characters.py
         bash scripts/characters.sh
         for report in $(ls -A /tmp/logs | cut -d'.' -f1); do [[ -f ./data/raids/$report/logs.json ]] && python scripts/generate_hugo_files.py $report; done;

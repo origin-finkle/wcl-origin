@@ -50,10 +50,11 @@ jobs:
     - name: Analysis
       run: |
         source venv/bin/activate
+        cd logs-git && git pull origin master && cd -
         /tmp/bin-logs analyze --analysis-folder ./data/raids --reports-folder ./raid-data --config-folder ./data/config $(ls -A /tmp/logs | cut -d'.' -f1 | xargs)
         python scripts/characters.py
         bash scripts/characters.sh
-        for report in $(ls -A /tmp/logs | cut -d'.' -f1); do [[ -f ./data/raids/$report/logs.json ]] && python scripts/generate_hugo_files.py $report; done;
+        for report in $(ls -A data/raids); do python scripts/generate_hugo_files.py $report; done;
         
     - name: Commit files
       run: |

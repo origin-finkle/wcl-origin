@@ -1,7 +1,0 @@
----
-title: "Gardyloo"
-reportCode: "AwzDtkJpV16dYmNv"
-player: "Gardyloo"
-fight: "High King Maulgar"
-date: 2021-09-15T19:58:37.879000+00:00
----

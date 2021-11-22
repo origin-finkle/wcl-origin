@@ -36,7 +36,7 @@ jobs:
         virtualenv venv
         source venv/bin/activate
         pip install -r requirements.txt
-        ls -l
+        ls -l content/raids/
         for report in $(ls -A data/raids); do python scripts/generate_hugo_files.py $report; done;
     
     - name: Generate website

@@ -2577,13 +2577,15 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28771",
-                         "uuid": "no_enchant:item=28771:Gruul the Dragonkiller"
+                         "slot": "Main droite",
+                         "uuid": "no_enchant:item=28771:Main droite:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=29354",
-                         "uuid": "no_enchant:item=29354:Gruul the Dragonkiller"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29354:Dos:Gruul the Dragonkiller"
                      }
                  ],
                  "talents": {
@@ -2896,13 +2898,15 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28771",
-                         "uuid": "no_enchant:item=28771:High King Maulgar"
+                         "slot": "Main droite",
+                         "uuid": "no_enchant:item=28771:Main droite:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=29354",
-                         "uuid": "no_enchant:item=29354:High King Maulgar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29354:Dos:High King Maulgar"
                      }
                  ],
                  "talents": {
@@ -3236,12 +3240,14 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28771",
-                 "uuid": "no_enchant:item=28771"
+                 "slot": "Main droite",
+                 "uuid": "no_enchant:item=28771:Main droite"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29354",
-                 "uuid": "no_enchant:item=29354"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=29354:Dos"
              }
          ]
      },
@@ -3332,7 +3338,8 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28765",
-                         "uuid": "no_enchant:item=28765:Gruul the Dragonkiller"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28765:Dos:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_temporary_enchant",
@@ -3686,7 +3693,8 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28765",
-                         "uuid": "no_enchant:item=28765:High King Maulgar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28765:Dos:High King Maulgar"
                      },
                      {
                          "type": "no_temporary_enchant",
@@ -4032,7 +4040,8 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28765",
-                 "uuid": "no_enchant:item=28765"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=28765:Dos"
              },
              {
                  "type": "no_temporary_enchant",
@@ -4095,7 +4104,8 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=27746",
-                         "uuid": "no_enchant:item=27746:Gruul the Dragonkiller"
+                         "slot": "Poignets",
+                         "uuid": "no_enchant:item=27746:Poignets:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_temporary_enchant",
@@ -4500,7 +4510,8 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=27746",
-                         "uuid": "no_enchant:item=27746:High King Maulgar"
+                         "slot": "Poignets",
+                         "uuid": "no_enchant:item=27746:Poignets:High King Maulgar"
                      },
                      {
                          "type": "no_temporary_enchant",
@@ -4872,7 +4883,8 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=27746",
-                 "uuid": "no_enchant:item=27746"
+                 "slot": "Poignets",
+                 "uuid": "no_enchant:item=27746:Poignets"
              },
              {
                  "type": "no_temporary_enchant",
@@ -4956,6 +4968,14 @@
                      }
                  },
                  "remarks": [
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "Gruul the Dragonkiller",
+                         "item_wowhead_attr": "item=25685\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=25685\u0026ench=2564:Mains:Gruul the Dragonkiller"
+                     },
                      {
                          "type": "invalid_enchant",
                          "fight": "Gruul the Dragonkiller",
@@ -5371,6 +5391,14 @@
                      {
                          "type": "invalid_enchant",
                          "fight": "High King Maulgar",
+                         "item_wowhead_attr": "item=25685\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=25685\u0026ench=2564:Mains:High King Maulgar"
+                     },
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=25687\u0026ench=3010",
                          "slot": "Jambes",
                          "enchant_id": 3010,
@@ -5724,6 +5752,22 @@
              {
                  "type": "invalid_enchant",
                  "fight": "Gruul the Dragonkiller",
+                 "item_wowhead_attr": "item=25685\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=25685\u0026ench=2564:Mains:Gruul the Dragonkiller"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "High King Maulgar",
+                 "item_wowhead_attr": "item=25685\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=25685\u0026ench=2564:Mains:High King Maulgar"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Gruul the Dragonkiller",
                  "item_wowhead_attr": "item=25687\u0026ench=3010",
                  "slot": "Jambes",
                  "enchant_id": 3010,
@@ -5823,6 +5867,14 @@
                      }
                  },
                  "remarks": [
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "Gruul the Dragonkiller",
+                         "item_wowhead_attr": "item=29097\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=29097\u0026ench=2564:Mains:Gruul the Dragonkiller"
+                     },
                      {
                          "type": "invalid_enchant",
                          "fight": "Gruul the Dragonkiller",
@@ -6184,6 +6236,14 @@
                      {
                          "type": "invalid_enchant",
                          "fight": "High King Maulgar",
+                         "item_wowhead_attr": "item=29097\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=29097\u0026ench=2564:Mains:High King Maulgar"
+                     },
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=32810\u0026ench=1891",
                          "slot": "Poignets",
                          "enchant_id": 1891,
@@ -6465,6 +6525,22 @@
              {
                  "type": "invalid_enchant",
                  "fight": "Gruul the Dragonkiller",
+                 "item_wowhead_attr": "item=29097\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=29097\u0026ench=2564:Mains:Gruul the Dragonkiller"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "High King Maulgar",
+                 "item_wowhead_attr": "item=29097\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=29097\u0026ench=2564:Mains:High King Maulgar"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Gruul the Dragonkiller",
                  "item_wowhead_attr": "item=32810\u0026ench=1891",
                  "slot": "Poignets",
                  "enchant_id": 1891,
@@ -6550,13 +6626,15 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=27905",
-                         "uuid": "no_enchant:item=27905:Gruul the Dragonkiller"
+                         "slot": "Main droite",
+                         "uuid": "no_enchant:item=27905:Main droite:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28179",
-                         "uuid": "no_enchant:item=28179:Gruul the Dragonkiller"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28179:Pieds:Gruul the Dragonkiller"
                      }
                  ],
                  "talents": {
@@ -6873,13 +6951,15 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=27905",
-                         "uuid": "no_enchant:item=27905:High King Maulgar"
+                         "slot": "Main droite",
+                         "uuid": "no_enchant:item=27905:Main droite:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28179",
-                         "uuid": "no_enchant:item=28179:High King Maulgar"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28179:Pieds:High King Maulgar"
                      }
                  ],
                  "talents": {
@@ -7158,12 +7238,14 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=27905",
-                 "uuid": "no_enchant:item=27905"
+                 "slot": "Main droite",
+                 "uuid": "no_enchant:item=27905:Main droite"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28179",
-                 "uuid": "no_enchant:item=28179"
+                 "slot": "Pieds",
+                 "uuid": "no_enchant:item=28179:Pieds"
              }
          ]
      },
@@ -7249,25 +7331,29 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=21875",
-                         "uuid": "no_enchant:item=21875:Gruul the Dragonkiller"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=21875:Torse:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=27525",
-                         "uuid": "no_enchant:item=27525:Gruul the Dragonkiller"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=27525:Pieds:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28508",
-                         "uuid": "no_enchant:item=28508:Gruul the Dragonkiller"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=28508:Mains:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=29354",
-                         "uuid": "no_enchant:item=29354:Gruul the Dragonkiller"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29354:Dos:Gruul the Dragonkiller"
                      }
                  ],
                  "talents": {
@@ -7623,25 +7709,29 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=21875",
-                         "uuid": "no_enchant:item=21875:High King Maulgar"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=21875:Torse:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=27525",
-                         "uuid": "no_enchant:item=27525:High King Maulgar"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=27525:Pieds:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28508",
-                         "uuid": "no_enchant:item=28508:High King Maulgar"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=28508:Mains:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=29354",
-                         "uuid": "no_enchant:item=29354:High King Maulgar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29354:Dos:High King Maulgar"
                      }
                  ],
                  "talents": {
@@ -7965,22 +8055,26 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=21875",
-                 "uuid": "no_enchant:item=21875"
+                 "slot": "Torse",
+                 "uuid": "no_enchant:item=21875:Torse"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=27525",
-                 "uuid": "no_enchant:item=27525"
+                 "slot": "Pieds",
+                 "uuid": "no_enchant:item=27525:Pieds"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28508",
-                 "uuid": "no_enchant:item=28508"
+                 "slot": "Mains",
+                 "uuid": "no_enchant:item=28508:Mains"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29354",
-                 "uuid": "no_enchant:item=29354"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=29354:Dos"
              }
          ]
      },
@@ -11119,49 +11213,57 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=24250",
-                         "uuid": "no_enchant:item=24250:Gruul the Dragonkiller"
+                         "slot": "Poignets",
+                         "uuid": "no_enchant:item=24250:Poignets:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28030",
-                         "uuid": "no_enchant:item=28030:Gruul the Dragonkiller"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28030:Dos:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28585",
-                         "uuid": "no_enchant:item=28585:Gruul the Dragonkiller"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28585:Pieds:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28594",
-                         "uuid": "no_enchant:item=28594:Gruul the Dragonkiller"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=28594:Jambes:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28633",
-                         "uuid": "no_enchant:item=28633:Gruul the Dragonkiller"
+                         "slot": "Deux mains",
+                         "uuid": "no_enchant:item=28633:Deux mains:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=29076",
-                         "uuid": "no_enchant:item=29076:Gruul the Dragonkiller"
+                         "slot": "Tête",
+                         "uuid": "no_enchant:item=29076:Tête:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=29080",
-                         "uuid": "no_enchant:item=29080:Gruul the Dragonkiller"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=29080:Mains:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=31297",
-                         "uuid": "no_enchant:item=31297:Gruul the Dragonkiller"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=31297:Torse:Gruul the Dragonkiller"
                      }
                  ],
                  "talents": {
@@ -11494,49 +11596,57 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=24250",
-                         "uuid": "no_enchant:item=24250:High King Maulgar"
+                         "slot": "Poignets",
+                         "uuid": "no_enchant:item=24250:Poignets:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28030",
-                         "uuid": "no_enchant:item=28030:High King Maulgar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28030:Dos:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28585",
-                         "uuid": "no_enchant:item=28585:High King Maulgar"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28585:Pieds:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28594",
-                         "uuid": "no_enchant:item=28594:High King Maulgar"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=28594:Jambes:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28633",
-                         "uuid": "no_enchant:item=28633:High King Maulgar"
+                         "slot": "Deux mains",
+                         "uuid": "no_enchant:item=28633:Deux mains:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=29076",
-                         "uuid": "no_enchant:item=29076:High King Maulgar"
+                         "slot": "Tête",
+                         "uuid": "no_enchant:item=29076:Tête:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=29080",
-                         "uuid": "no_enchant:item=29080:High King Maulgar"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=29080:Mains:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=31297",
-                         "uuid": "no_enchant:item=31297:High King Maulgar"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=31297:Torse:High King Maulgar"
                      }
                  ],
                  "talents": {
@@ -11849,42 +11959,50 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=24250",
-                 "uuid": "no_enchant:item=24250"
+                 "slot": "Poignets",
+                 "uuid": "no_enchant:item=24250:Poignets"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28030",
-                 "uuid": "no_enchant:item=28030"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=28030:Dos"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28585",
-                 "uuid": "no_enchant:item=28585"
+                 "slot": "Pieds",
+                 "uuid": "no_enchant:item=28585:Pieds"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28594",
-                 "uuid": "no_enchant:item=28594"
+                 "slot": "Jambes",
+                 "uuid": "no_enchant:item=28594:Jambes"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28633",
-                 "uuid": "no_enchant:item=28633"
+                 "slot": "Deux mains",
+                 "uuid": "no_enchant:item=28633:Deux mains"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29076",
-                 "uuid": "no_enchant:item=29076"
+                 "slot": "Tête",
+                 "uuid": "no_enchant:item=29076:Tête"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29080",
-                 "uuid": "no_enchant:item=29080"
+                 "slot": "Mains",
+                 "uuid": "no_enchant:item=29080:Mains"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=31297",
-                 "uuid": "no_enchant:item=31297"
+                 "slot": "Torse",
+                 "uuid": "no_enchant:item=31297:Torse"
              }
          ]
      },
@@ -11990,7 +12108,8 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28179",
-                         "uuid": "no_enchant:item=28179:Gruul the Dragonkiller"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28179:Pieds:Gruul the Dragonkiller"
                      }
                  ],
                  "talents": {
@@ -12395,7 +12514,8 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28179",
-                         "uuid": "no_enchant:item=28179:High King Maulgar"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28179:Pieds:High King Maulgar"
                      }
                  ],
                  "talents": {
@@ -12744,7 +12864,8 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28179",
-                 "uuid": "no_enchant:item=28179"
+                 "slot": "Pieds",
+                 "uuid": "no_enchant:item=28179:Pieds"
              }
          ]
      },
@@ -12817,25 +12938,29 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=27537",
-                         "uuid": "no_enchant:item=27537:Gruul the Dragonkiller"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=27537:Mains:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28765",
-                         "uuid": "no_enchant:item=28765:Gruul the Dragonkiller"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28765:Dos:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=30832",
-                         "uuid": "no_enchant:item=30832:Gruul the Dragonkiller"
+                         "slot": "Main droite",
+                         "uuid": "no_enchant:item=30832:Main droite:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=31297",
-                         "uuid": "no_enchant:item=31297:Gruul the Dragonkiller"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=31297:Torse:Gruul the Dragonkiller"
                      }
                  ],
                  "talents": {
@@ -13179,25 +13304,29 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=27537",
-                         "uuid": "no_enchant:item=27537:High King Maulgar"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=27537:Mains:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28765",
-                         "uuid": "no_enchant:item=28765:High King Maulgar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28765:Dos:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=30832",
-                         "uuid": "no_enchant:item=30832:High King Maulgar"
+                         "slot": "Main droite",
+                         "uuid": "no_enchant:item=30832:Main droite:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=31297",
-                         "uuid": "no_enchant:item=31297:High King Maulgar"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=31297:Torse:High King Maulgar"
                      }
                  ],
                  "talents": {
@@ -13477,22 +13606,26 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=27537",
-                 "uuid": "no_enchant:item=27537"
+                 "slot": "Mains",
+                 "uuid": "no_enchant:item=27537:Mains"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28765",
-                 "uuid": "no_enchant:item=28765"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=28765:Dos"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=30832",
-                 "uuid": "no_enchant:item=30832"
+                 "slot": "Main droite",
+                 "uuid": "no_enchant:item=30832:Main droite"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=31297",
-                 "uuid": "no_enchant:item=31297"
+                 "slot": "Torse",
+                 "uuid": "no_enchant:item=31297:Torse"
              }
          ]
      },
@@ -14417,13 +14550,15 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28403",
-                         "uuid": "no_enchant:item=28403:Gruul the Dragonkiller"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=28403:Torse:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28669",
-                         "uuid": "no_enchant:item=28669:Gruul the Dragonkiller"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28669:Pieds:Gruul the Dragonkiller"
                      }
                  ],
                  "talents": {
@@ -14846,13 +14981,15 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28403",
-                         "uuid": "no_enchant:item=28403:High King Maulgar"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=28403:Torse:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28669",
-                         "uuid": "no_enchant:item=28669:High King Maulgar"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28669:Pieds:High King Maulgar"
                      }
                  ],
                  "talents": {
@@ -15285,12 +15422,14 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28403",
-                 "uuid": "no_enchant:item=28403"
+                 "slot": "Torse",
+                 "uuid": "no_enchant:item=28403:Torse"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28669",
-                 "uuid": "no_enchant:item=28669"
+                 "slot": "Pieds",
+                 "uuid": "no_enchant:item=28669:Pieds"
              }
          ]
      },
@@ -15373,25 +15512,29 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=22488",
-                         "uuid": "no_enchant:item=22488:Gruul the Dragonkiller"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=22488:Torse:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28663",
-                         "uuid": "no_enchant:item=28663:Gruul the Dragonkiller"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28663:Pieds:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28756",
-                         "uuid": "no_enchant:item=28756:Gruul the Dragonkiller"
+                         "slot": "Tête",
+                         "uuid": "no_enchant:item=28756:Tête:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=29354",
-                         "uuid": "no_enchant:item=29354:Gruul the Dragonkiller"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29354:Dos:Gruul the Dragonkiller"
                      }
                  ],
                  "talents": {
@@ -15687,25 +15830,29 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=22488",
-                         "uuid": "no_enchant:item=22488:High King Maulgar"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=22488:Torse:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28663",
-                         "uuid": "no_enchant:item=28663:High King Maulgar"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28663:Pieds:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28756",
-                         "uuid": "no_enchant:item=28756:High King Maulgar"
+                         "slot": "Tête",
+                         "uuid": "no_enchant:item=28756:Tête:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=29354",
-                         "uuid": "no_enchant:item=29354:High King Maulgar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29354:Dos:High King Maulgar"
                      }
                  ],
                  "talents": {
@@ -15970,22 +16117,26 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=22488",
-                 "uuid": "no_enchant:item=22488"
+                 "slot": "Torse",
+                 "uuid": "no_enchant:item=22488:Torse"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28663",
-                 "uuid": "no_enchant:item=28663"
+                 "slot": "Pieds",
+                 "uuid": "no_enchant:item=28663:Pieds"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28756",
-                 "uuid": "no_enchant:item=28756"
+                 "slot": "Tête",
+                 "uuid": "no_enchant:item=28756:Tête"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29354",
-                 "uuid": "no_enchant:item=29354"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=29354:Dos"
              }
          ]
      },
@@ -18525,19 +18676,22 @@
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=27981",
-                         "uuid": "no_enchant:item=27981:Gruul the Dragonkiller"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=27981:Dos:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=28517",
-                         "uuid": "no_enchant:item=28517:Gruul the Dragonkiller"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28517:Pieds:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Gruul the Dragonkiller",
                          "item_wowhead_attr": "item=30725",
-                         "uuid": "no_enchant:item=30725:Gruul the Dragonkiller"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=30725:Mains:Gruul the Dragonkiller"
                      },
                      {
                          "type": "no_temporary_enchant",
@@ -18947,19 +19101,22 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=27981",
-                         "uuid": "no_enchant:item=27981:High King Maulgar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=27981:Dos:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28517",
-                         "uuid": "no_enchant:item=28517:High King Maulgar"
+                         "slot": "Pieds",
+                         "uuid": "no_enchant:item=28517:Pieds:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=30725",
-                         "uuid": "no_enchant:item=30725:High King Maulgar"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=30725:Mains:High King Maulgar"
                      },
                      {
                          "type": "no_temporary_enchant",
@@ -19348,17 +19505,20 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=27981",
-                 "uuid": "no_enchant:item=27981"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=27981:Dos"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28517",
-                 "uuid": "no_enchant:item=28517"
+                 "slot": "Pieds",
+                 "uuid": "no_enchant:item=28517:Pieds"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=30725",
-                 "uuid": "no_enchant:item=30725"
+                 "slot": "Mains",
+                 "uuid": "no_enchant:item=30725:Mains"
              },
              {
                  "type": "no_temporary_enchant",
@@ -19879,31 +20039,36 @@
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=24595",
-                         "uuid": "no_enchant:item=24595:High King Maulgar"
+                         "slot": "Épaule",
+                         "uuid": "no_enchant:item=24595:Épaule:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=24673",
-                         "uuid": "no_enchant:item=24673:High King Maulgar"
+                         "slot": "Tête",
+                         "uuid": "no_enchant:item=24673:Tête:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=24674",
-                         "uuid": "no_enchant:item=24674:High King Maulgar"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=24674:Jambes:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=24679",
-                         "uuid": "no_enchant:item=24679:High King Maulgar"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=24679:Torse:High King Maulgar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High King Maulgar",
                          "item_wowhead_attr": "item=28317",
-                         "uuid": "no_enchant:item=28317:High King Maulgar"
+                         "slot": "Mains",
+                         "uuid": "no_enchant:item=28317:Mains:High King Maulgar"
                      },
                      {
                          "type": "no_temporary_enchant",
@@ -20215,27 +20380,32 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=24595",
-                 "uuid": "no_enchant:item=24595"
+                 "slot": "Épaule",
+                 "uuid": "no_enchant:item=24595:Épaule"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=24673",
-                 "uuid": "no_enchant:item=24673"
+                 "slot": "Tête",
+                 "uuid": "no_enchant:item=24673:Tête"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=24674",
-                 "uuid": "no_enchant:item=24674"
+                 "slot": "Jambes",
+                 "uuid": "no_enchant:item=24674:Jambes"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=24679",
-                 "uuid": "no_enchant:item=24679"
+                 "slot": "Torse",
+                 "uuid": "no_enchant:item=24679:Torse"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28317",
-                 "uuid": "no_enchant:item=28317"
+                 "slot": "Mains",
+                 "uuid": "no_enchant:item=28317:Mains"
              },
              {
                  "type": "no_temporary_enchant",

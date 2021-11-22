@@ -82,7 +82,16 @@
                          "events": []
                      }
                  },
-                 "remarks": [],
+                 "remarks": [
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "Al'ar",
+                         "item_wowhead_attr": "item=30114\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=30114\u0026ench=2564:Mains:Al'ar"
+                     }
+                 ],
                  "talents": {
                      "points": [
                          12,
@@ -879,7 +888,16 @@
                          "events": []
                      }
                  },
-                 "remarks": [],
+                 "remarks": [
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "Void Reaver",
+                         "item_wowhead_attr": "item=30114\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=30114\u0026ench=2564:Mains:Void Reaver"
+                     }
+                 ],
                  "talents": {
                      "points": [
                          12,
@@ -1221,6 +1239,22 @@
                  "slot": "Tête",
                  "enchant_id": 3006,
                  "uuid": "invalid_enchant:item=25010\u0026ench=3006:Tête:High Astromancer Solarian"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Al'ar",
+                 "item_wowhead_attr": "item=30114\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=30114\u0026ench=2564:Mains:Al'ar"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Void Reaver",
+                 "item_wowhead_attr": "item=30114\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=30114\u0026ench=2564:Mains:Void Reaver"
              }
          ]
      },
@@ -2506,7 +2540,8 @@
                          "type": "no_enchant",
                          "fight": "Al'ar",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:Al'ar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:Al'ar"
                      }
                  ],
                  "talents": {
@@ -2945,7 +2980,8 @@
                          "type": "no_enchant",
                          "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:High Astromancer Solarian"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:High Astromancer Solarian"
                      }
                  ],
                  "talents": {
@@ -3384,7 +3420,8 @@
                          "type": "no_enchant",
                          "fight": "Void Reaver",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:Void Reaver"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:Void Reaver"
                      }
                  ],
                  "talents": {
@@ -3761,7 +3798,8 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29369",
-                 "uuid": "no_enchant:item=29369"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=29369:Dos"
              }
          ]
      },
@@ -3873,13 +3911,15 @@
                          "type": "no_enchant",
                          "fight": "Al'ar",
                          "item_wowhead_attr": "item=28342",
-                         "uuid": "no_enchant:item=28342:Al'ar"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=28342:Torse:Al'ar"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Al'ar",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:Al'ar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:Al'ar"
                      }
                  ],
                  "talents": {
@@ -4269,13 +4309,15 @@
                          "type": "no_enchant",
                          "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=28342",
-                         "uuid": "no_enchant:item=28342:High Astromancer Solarian"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=28342:Torse:High Astromancer Solarian"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:High Astromancer Solarian"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:High Astromancer Solarian"
                      }
                  ],
                  "talents": {
@@ -4689,13 +4731,15 @@
                          "type": "no_enchant",
                          "fight": "Void Reaver",
                          "item_wowhead_attr": "item=28342",
-                         "uuid": "no_enchant:item=28342:Void Reaver"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=28342:Torse:Void Reaver"
                      },
                      {
                          "type": "no_enchant",
                          "fight": "Void Reaver",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:Void Reaver"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:Void Reaver"
                      }
                  ],
                  "talents": {
@@ -5081,12 +5125,14 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28342",
-                 "uuid": "no_enchant:item=28342"
+                 "slot": "Torse",
+                 "uuid": "no_enchant:item=28342:Torse"
              },
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29369",
-                 "uuid": "no_enchant:item=29369"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=29369:Dos"
              }
          ]
      },
@@ -5186,7 +5232,8 @@
                          "type": "no_enchant",
                          "fight": "Al'ar",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:Al'ar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:Al'ar"
                      }
                  ],
                  "talents": {
@@ -5565,7 +5612,8 @@
                          "type": "no_enchant",
                          "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:High Astromancer Solarian"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:High Astromancer Solarian"
                      }
                  ],
                  "talents": {
@@ -5954,7 +6002,8 @@
                          "type": "no_enchant",
                          "fight": "Void Reaver",
                          "item_wowhead_attr": "item=29369",
-                         "uuid": "no_enchant:item=29369:Void Reaver"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=29369:Dos:Void Reaver"
                      }
                  ],
                  "talents": {
@@ -6303,7 +6352,8 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29369",
-                 "uuid": "no_enchant:item=29369"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=29369:Dos"
              }
          ]
      },
@@ -8656,7 +8706,8 @@
                          "type": "no_enchant",
                          "fight": "Al'ar",
                          "item_wowhead_attr": "item=29078",
-                         "uuid": "no_enchant:item=29078:Al'ar"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=29078:Jambes:Al'ar"
                      }
                  ],
                  "talents": {
@@ -9048,7 +9099,8 @@
                          "type": "no_enchant",
                          "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=29078",
-                         "uuid": "no_enchant:item=29078:High Astromancer Solarian"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=29078:Jambes:High Astromancer Solarian"
                      }
                  ],
                  "talents": {
@@ -9430,7 +9482,8 @@
                          "type": "no_enchant",
                          "fight": "Void Reaver",
                          "item_wowhead_attr": "item=29078",
-                         "uuid": "no_enchant:item=29078:Void Reaver"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=29078:Jambes:Void Reaver"
                      }
                  ],
                  "talents": {
@@ -9755,7 +9808,8 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=29078",
-                 "uuid": "no_enchant:item=29078"
+                 "slot": "Jambes",
+                 "uuid": "no_enchant:item=29078:Jambes"
              }
          ]
      },
@@ -12366,16 +12420,33 @@
                      {
                          "type": "invalid_enchant",
                          "fight": "Al'ar",
+                         "item_wowhead_attr": "item=28649\u0026ench=2929",
+                         "slot": "Doigt",
+                         "enchant_id": 2929,
+                         "uuid": "invalid_enchant:item=28649\u0026ench=2929:Doigt:Al'ar"
+                     },
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "Al'ar",
                          "item_wowhead_attr": "item=29043\u0026ench=2996",
                          "slot": "Épaule",
                          "enchant_id": 2996,
                          "uuid": "invalid_enchant:item=29043\u0026ench=2996:Épaule:Al'ar"
                      },
                      {
+                         "type": "invalid_enchant",
+                         "fight": "Al'ar",
+                         "item_wowhead_attr": "item=30834\u0026ench=2929",
+                         "slot": "Doigt",
+                         "enchant_id": 2929,
+                         "uuid": "invalid_enchant:item=30834\u0026ench=2929:Doigt:Al'ar"
+                     },
+                     {
                          "type": "no_enchant",
                          "fight": "Al'ar",
                          "item_wowhead_attr": "item=31544",
-                         "uuid": "no_enchant:item=31544:Al'ar"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=31544:Jambes:Al'ar"
                      }
                  ],
                  "talents": {
@@ -12779,16 +12850,33 @@
                      {
                          "type": "invalid_enchant",
                          "fight": "High Astromancer Solarian",
+                         "item_wowhead_attr": "item=28649\u0026ench=2929",
+                         "slot": "Doigt",
+                         "enchant_id": 2929,
+                         "uuid": "invalid_enchant:item=28649\u0026ench=2929:Doigt:High Astromancer Solarian"
+                     },
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=29043\u0026ench=2996",
                          "slot": "Épaule",
                          "enchant_id": 2996,
                          "uuid": "invalid_enchant:item=29043\u0026ench=2996:Épaule:High Astromancer Solarian"
                      },
                      {
+                         "type": "invalid_enchant",
+                         "fight": "High Astromancer Solarian",
+                         "item_wowhead_attr": "item=30834\u0026ench=2929",
+                         "slot": "Doigt",
+                         "enchant_id": 2929,
+                         "uuid": "invalid_enchant:item=30834\u0026ench=2929:Doigt:High Astromancer Solarian"
+                     },
+                     {
                          "type": "no_enchant",
                          "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=31544",
-                         "uuid": "no_enchant:item=31544:High Astromancer Solarian"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=31544:Jambes:High Astromancer Solarian"
                      }
                  ],
                  "talents": {
@@ -13203,16 +13291,33 @@
                      {
                          "type": "invalid_enchant",
                          "fight": "Void Reaver",
+                         "item_wowhead_attr": "item=28649\u0026ench=2929",
+                         "slot": "Doigt",
+                         "enchant_id": 2929,
+                         "uuid": "invalid_enchant:item=28649\u0026ench=2929:Doigt:Void Reaver"
+                     },
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "Void Reaver",
                          "item_wowhead_attr": "item=29043\u0026ench=2996",
                          "slot": "Épaule",
                          "enchant_id": 2996,
                          "uuid": "invalid_enchant:item=29043\u0026ench=2996:Épaule:Void Reaver"
                      },
                      {
+                         "type": "invalid_enchant",
+                         "fight": "Void Reaver",
+                         "item_wowhead_attr": "item=30834\u0026ench=2929",
+                         "slot": "Doigt",
+                         "enchant_id": 2929,
+                         "uuid": "invalid_enchant:item=30834\u0026ench=2929:Doigt:Void Reaver"
+                     },
+                     {
                          "type": "no_enchant",
                          "fight": "Void Reaver",
                          "item_wowhead_attr": "item=31544",
-                         "uuid": "no_enchant:item=31544:Void Reaver"
+                         "slot": "Jambes",
+                         "uuid": "no_enchant:item=31544:Jambes:Void Reaver"
                      }
                  ],
                  "talents": {
@@ -13564,6 +13669,30 @@
              {
                  "type": "invalid_enchant",
                  "fight": "Al'ar",
+                 "item_wowhead_attr": "item=28649\u0026ench=2929",
+                 "slot": "Doigt",
+                 "enchant_id": 2929,
+                 "uuid": "invalid_enchant:item=28649\u0026ench=2929:Doigt:Al'ar"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "High Astromancer Solarian",
+                 "item_wowhead_attr": "item=28649\u0026ench=2929",
+                 "slot": "Doigt",
+                 "enchant_id": 2929,
+                 "uuid": "invalid_enchant:item=28649\u0026ench=2929:Doigt:High Astromancer Solarian"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Void Reaver",
+                 "item_wowhead_attr": "item=28649\u0026ench=2929",
+                 "slot": "Doigt",
+                 "enchant_id": 2929,
+                 "uuid": "invalid_enchant:item=28649\u0026ench=2929:Doigt:Void Reaver"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Al'ar",
                  "item_wowhead_attr": "item=29043\u0026ench=2996",
                  "slot": "Épaule",
                  "enchant_id": 2996,
@@ -13586,9 +13715,34 @@
                  "uuid": "invalid_enchant:item=29043\u0026ench=2996:Épaule:Void Reaver"
              },
              {
+                 "type": "invalid_enchant",
+                 "fight": "Al'ar",
+                 "item_wowhead_attr": "item=30834\u0026ench=2929",
+                 "slot": "Doigt",
+                 "enchant_id": 2929,
+                 "uuid": "invalid_enchant:item=30834\u0026ench=2929:Doigt:Al'ar"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "High Astromancer Solarian",
+                 "item_wowhead_attr": "item=30834\u0026ench=2929",
+                 "slot": "Doigt",
+                 "enchant_id": 2929,
+                 "uuid": "invalid_enchant:item=30834\u0026ench=2929:Doigt:High Astromancer Solarian"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Void Reaver",
+                 "item_wowhead_attr": "item=30834\u0026ench=2929",
+                 "slot": "Doigt",
+                 "enchant_id": 2929,
+                 "uuid": "invalid_enchant:item=30834\u0026ench=2929:Doigt:Void Reaver"
+             },
+             {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=31544",
-                 "uuid": "no_enchant:item=31544"
+                 "slot": "Jambes",
+                 "uuid": "no_enchant:item=31544:Jambes"
              }
          ]
      },
@@ -13686,7 +13840,8 @@
                          "type": "no_enchant",
                          "fight": "Al'ar",
                          "item_wowhead_attr": "item=28765",
-                         "uuid": "no_enchant:item=28765:Al'ar"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28765:Dos:Al'ar"
                      }
                  ],
                  "talents": {
@@ -14102,7 +14257,8 @@
                          "type": "no_enchant",
                          "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=28765",
-                         "uuid": "no_enchant:item=28765:High Astromancer Solarian"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28765:Dos:High Astromancer Solarian"
                      }
                  ],
                  "talents": {
@@ -14506,7 +14662,8 @@
                          "type": "no_enchant",
                          "fight": "Void Reaver",
                          "item_wowhead_attr": "item=28765",
-                         "uuid": "no_enchant:item=28765:Void Reaver"
+                         "slot": "Dos",
+                         "uuid": "no_enchant:item=28765:Dos:Void Reaver"
                      }
                  ],
                  "talents": {
@@ -14872,7 +15029,8 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=28765",
-                 "uuid": "no_enchant:item=28765"
+                 "slot": "Dos",
+                 "uuid": "no_enchant:item=28765:Dos"
              }
          ]
      },
@@ -16164,6 +16322,14 @@
                  },
                  "remarks": [
                      {
+                         "type": "invalid_enchant",
+                         "fight": "Al'ar",
+                         "item_wowhead_attr": "item=27531\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=27531\u0026ench=2564:Mains:Al'ar"
+                     },
+                     {
                          "type": "missing_guardian_elixir",
                          "fight": "Al'ar",
                          "uuid": "missing_guardian_elixir:Al'ar"
@@ -16602,6 +16768,14 @@
                      }
                  },
                  "remarks": [
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "High Astromancer Solarian",
+                         "item_wowhead_attr": "item=27531\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=27531\u0026ench=2564:Mains:High Astromancer Solarian"
+                     },
                      {
                          "type": "missing_guardian_elixir",
                          "fight": "High Astromancer Solarian",
@@ -17047,6 +17221,14 @@
                  },
                  "remarks": [
                      {
+                         "type": "invalid_enchant",
+                         "fight": "Void Reaver",
+                         "item_wowhead_attr": "item=27531\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=27531\u0026ench=2564:Mains:Void Reaver"
+                     },
+                     {
                          "type": "missing_guardian_elixir",
                          "fight": "Void Reaver",
                          "uuid": "missing_guardian_elixir:Void Reaver"
@@ -17394,6 +17576,30 @@
              }
          },
          "remarks": [
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Al'ar",
+                 "item_wowhead_attr": "item=27531\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=27531\u0026ench=2564:Mains:Al'ar"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "High Astromancer Solarian",
+                 "item_wowhead_attr": "item=27531\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=27531\u0026ench=2564:Mains:High Astromancer Solarian"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Void Reaver",
+                 "item_wowhead_attr": "item=27531\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=27531\u0026ench=2564:Mains:Void Reaver"
+             },
              {
                  "type": "missing_guardian_elixir",
                  "fight": "Al'ar",
@@ -25020,6 +25226,14 @@
                      {
                          "type": "invalid_enchant",
                          "fight": "Al'ar",
+                         "item_wowhead_attr": "item=30644\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=30644\u0026ench=2564:Mains:Al'ar"
+                     },
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "Al'ar",
                          "item_wowhead_attr": "item=32810\u0026ench=1891",
                          "slot": "Poignets",
                          "enchant_id": 1891,
@@ -25781,6 +25995,14 @@
                      {
                          "type": "invalid_enchant",
                          "fight": "Void Reaver",
+                         "item_wowhead_attr": "item=30644\u0026ench=2564",
+                         "slot": "Mains",
+                         "enchant_id": 2564,
+                         "uuid": "invalid_enchant:item=30644\u0026ench=2564:Mains:Void Reaver"
+                     },
+                     {
+                         "type": "invalid_enchant",
+                         "fight": "Void Reaver",
                          "item_wowhead_attr": "item=32810\u0026ench=1891",
                          "slot": "Poignets",
                          "enchant_id": 1891,
@@ -26084,6 +26306,22 @@
              {
                  "type": "invalid_enchant",
                  "fight": "Al'ar",
+                 "item_wowhead_attr": "item=30644\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=30644\u0026ench=2564:Mains:Al'ar"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Void Reaver",
+                 "item_wowhead_attr": "item=30644\u0026ench=2564",
+                 "slot": "Mains",
+                 "enchant_id": 2564,
+                 "uuid": "invalid_enchant:item=30644\u0026ench=2564:Mains:Void Reaver"
+             },
+             {
+                 "type": "invalid_enchant",
+                 "fight": "Al'ar",
                  "item_wowhead_attr": "item=32810\u0026ench=1891",
                  "slot": "Poignets",
                  "enchant_id": 1891,
@@ -26215,7 +26453,8 @@
                          "type": "no_enchant",
                          "fight": "Al'ar",
                          "item_wowhead_attr": "item=30054",
-                         "uuid": "no_enchant:item=30054:Al'ar"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=30054:Torse:Al'ar"
                      },
                      {
                          "type": "no_temporary_enchant_but_windfury",
@@ -26667,7 +26906,8 @@
                          "type": "no_enchant",
                          "fight": "High Astromancer Solarian",
                          "item_wowhead_attr": "item=30054",
-                         "uuid": "no_enchant:item=30054:High Astromancer Solarian"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=30054:Torse:High Astromancer Solarian"
                      },
                      {
                          "type": "no_temporary_enchant_but_windfury",
@@ -27129,7 +27369,8 @@
                          "type": "no_enchant",
                          "fight": "Void Reaver",
                          "item_wowhead_attr": "item=30054",
-                         "uuid": "no_enchant:item=30054:Void Reaver"
+                         "slot": "Torse",
+                         "uuid": "no_enchant:item=30054:Torse:Void Reaver"
                      },
                      {
                          "type": "no_temporary_enchant_but_windfury",
@@ -27501,7 +27742,8 @@
              {
                  "type": "no_enchant",
                  "item_wowhead_attr": "item=30054",
-                 "uuid": "no_enchant:item=30054"
+                 "slot": "Torse",
+                 "uuid": "no_enchant:item=30054:Torse"
              },
              {
                  "type": "no_temporary_enchant_but_windfury",

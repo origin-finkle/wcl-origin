@@ -50,6 +50,8 @@ jobs:
     - name: Analysis
       run: |
         source venv/bin/activate
+        git pull --recurse-submodules
+        git submodule update --remote --recursive
         /tmp/bin-logs analyze --analysis-folder ./data/raids --reports-folder ./raid-data --config-folder ./data/config $(ls -A /tmp/logs | cut -d'.' -f1 | xargs)
         python scripts/characters.py
         bash scripts/characters.sh

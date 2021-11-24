@@ -4,15 +4,6 @@ on:
   push:
     branches:
     - master
-    paths:
-      - ".github/workflows/push-master.yml"
-      - "content/*"
-      - "data/*"
-      - "layouts/*"
-      - "resources/*"
-      - "themes/*"
-      - "assets/*"
-      - "static/*"
 
 jobs:
   run:

@@ -1,4 +1,5 @@
 {{ $logs := index (index .Site.Data.raids .Page.Params.reportCode) "logs" }}
+{{ $analysis := index (index .Site.Data.raids .Page.Params.reportCode) "analysis" }}
 
 <div class="row">
     <div class="col-12 col-md-6">
@@ -19,6 +20,25 @@
                     <a class="list-group-item list-group-item-action" href="player-{{ strings.ToLower $name }}">{{ $name }}</a>
                 {{ end }}
             </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h2>Remarks</h2>
+        <div class="row">
+            {{ range $playerID, $playerAnalysis := $analysis }}
+            <div class="col-12">
+                <h3>{{ $playerAnalysis.name }}</h3>
+                <div class="row">
+                    {{ range $remark := $playerAnalysis.remarks }}
+                        <div class="col-12">
+                            {{ partial "remark.html" $remark }}
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
         </div>
     </div>
 </div>

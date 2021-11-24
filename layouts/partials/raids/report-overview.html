@@ -25,7 +25,7 @@
 </div>
 <div class="row">
     <div class="col-12">
-        <h2>Remarks</h2>
+        <h2>Remarques</h2>
         <div class="row">
             {{ range $playerID, $playerAnalysis := $analysis }}
             <div class="col-12">
@@ -33,7 +33,7 @@
                 <div class="row">
                     {{ range $remark := $playerAnalysis.remarks }}
                         <div class="col-12">
-                            {{ partial "remark.html" $remark }}
+                            {{ partialCached "remark" $remark $remark.uuid }}
                         </div>
                     {{ end }}
                 </div>

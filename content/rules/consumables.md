@@ -1,0 +1,4 @@
+---
+title: "Consommables"
+index: "consumables"
+---

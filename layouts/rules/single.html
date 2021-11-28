@@ -1,0 +1,19 @@
+{{ define "title" }}{{ .Title | markdownify }} | {{ .Site.Title }}{{ end }}
+
+
+{{ define "main" }}
+
+{{ $data := index .Site.Data.config .Page.Params.index }}
+
+<div class="row">
+    {{ range $item := $data }}
+        {{ if $item.text_rule }}
+            <div class="col-12">
+                <h4>{{ $item.name }}</h4>
+                {{ $item.text_rule }}
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
+
+{{ end }}

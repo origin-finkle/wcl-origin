@@ -363,16 +363,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 69
-						},
-						{
-							"spell_id": 30022,
-							"count": 52
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 4
 						},
@@ -413,6 +403,14 @@
 							"count": 4
 						},
 						{
+							"spell_id": 29707,
+							"count": 69
+						},
+						{
+							"spell_id": 30022,
+							"count": 52
+						},
+						{
 							"spell_id": 30356,
 							"count": 29
 						},
@@ -425,6 +423,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -745,16 +744,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 12
-						},
-						{
-							"spell_id": 30022,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2565,
 							"count": 5
 						},
@@ -771,6 +760,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 12
+						},
+						{
+							"spell_id": 30022,
+							"count": 8
+						},
+						{
 							"spell_id": 30356,
 							"count": 4
 						},
@@ -779,6 +776,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -786,6 +784,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -837,16 +845,6 @@
 						}
 					],
 					"spells": [
-						{
-							"spell_id": 29707,
-							"count": 80
-						},
-						{
-							"spell_id": 30022,
-							"count": 110
-						}
-					],
-					"unknown": [
 						{
 							"spell_id": 71,
 							"count": 3
@@ -908,6 +906,14 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 80
+						},
+						{
+							"spell_id": 30022,
+							"count": 110
+						},
+						{
 							"spell_id": 30356,
 							"count": 38
 						},
@@ -924,6 +930,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1273,16 +1280,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 47
-						},
-						{
-							"spell_id": 30022,
-							"count": 68
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 1
 						},
@@ -1299,6 +1296,14 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 47
+						},
+						{
+							"spell_id": 30022,
+							"count": 68
+						},
+						{
 							"spell_id": 30356,
 							"count": 24
 						},
@@ -1311,11 +1316,22 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -1720,21 +1736,15 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25218,
-							"count": 3
-						},
-						{
-							"spell_id": 32996,
-							"count": 16
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 2
 						},
 						{
 							"spell_id": 15286,
+							"count": 3
+						},
+						{
+							"spell_id": 25218,
 							"count": 3
 						},
 						{
@@ -1754,10 +1764,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 32996,
+							"count": 16
+						},
+						{
 							"spell_id": 34917,
 							"count": 17
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2122,12 +2137,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 32996,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 2
 						},
@@ -2148,10 +2157,15 @@
 							"count": 25
 						},
 						{
+							"spell_id": 32996,
+							"count": 9
+						},
+						{
 							"spell_id": 34917,
 							"count": 13
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2204,12 +2218,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 32996,
-							"count": 25
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 4
 						},
@@ -2234,6 +2242,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 32996,
+							"count": 25
+						},
+						{
 							"spell_id": 34917,
 							"count": 35
 						},
@@ -2242,6 +2254,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2606,12 +2619,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 32996,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 1
 						},
@@ -2632,10 +2639,15 @@
 							"count": 23
 						},
 						{
+							"spell_id": 32996,
+							"count": 11
+						},
+						{
 							"spell_id": 34917,
 							"count": 12
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2769,7 +2781,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+					}
+				],
 				"talents": {
 					"points": [
 						41,
@@ -3049,16 +3072,6 @@
 							"count": 123
 						},
 						{
-							"spell_id": 34026,
-							"count": 33
-						},
-						{
-							"spell_id": 34120,
-							"count": 120
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -3087,6 +3100,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 33
+						},
+						{
+							"spell_id": 34120,
+							"count": 120
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -3107,6 +3128,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -3454,16 +3476,6 @@
 							"count": 85
 						},
 						{
-							"spell_id": 34026,
-							"count": 29
-						},
-						{
-							"spell_id": 34120,
-							"count": 87
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -3480,6 +3492,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 29
+						},
+						{
+							"spell_id": 34120,
+							"count": 87
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -3488,6 +3508,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -3546,16 +3567,6 @@
 							"count": 197
 						},
 						{
-							"spell_id": 34026,
-							"count": 46
-						},
-						{
-							"spell_id": 34120,
-							"count": 187
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 883,
 							"count": 1
 						},
@@ -3596,6 +3607,14 @@
 							"count": 4
 						},
 						{
+							"spell_id": 34026,
+							"count": 46
+						},
+						{
+							"spell_id": 34120,
+							"count": 187
+						},
+						{
 							"spell_id": 34477,
 							"count": 3
 						},
@@ -3608,6 +3627,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -3961,16 +3981,6 @@
 							"count": 71
 						},
 						{
-							"spell_id": 34026,
-							"count": 24
-						},
-						{
-							"spell_id": 34120,
-							"count": 66
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -3991,6 +4001,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 24
+						},
+						{
+							"spell_id": 34120,
+							"count": 66
+						},
+						{
 							"spell_id": 34477,
 							"count": 2
 						},
@@ -4003,6 +4021,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -4013,6 +4032,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -4366,8 +4395,16 @@
 					],
 					"spells": [
 						{
+							"spell_id": 11719,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 97
+						},
+						{
+							"spell_id": 27218,
+							"count": 3
 						},
 						{
 							"spell_id": 27222,
@@ -4386,16 +4423,7 @@
 							"count": 6
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 11719,
-							"count": 1
-						},
-						{
-							"spell_id": 27218,
-							"count": 3
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -4738,26 +4766,16 @@
 							"count": 10
 						},
 						{
+							"spell_id": 27218,
+							"count": 4
+						},
+						{
 							"spell_id": 27222,
 							"count": 12
 						},
 						{
 							"spell_id": 27223,
 							"count": 1
-						},
-						{
-							"spell_id": 30546,
-							"count": 3
-						},
-						{
-							"spell_id": 30910,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 27218,
-							"count": 4
 						},
 						{
 							"spell_id": 27236,
@@ -4768,10 +4786,19 @@
 							"count": 6
 						},
 						{
+							"spell_id": 30546,
+							"count": 3
+						},
+						{
+							"spell_id": 30910,
+							"count": 2
+						},
+						{
 							"spell_id": 51953,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -4827,6 +4854,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 20589,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 128
 						},
@@ -4835,30 +4866,12 @@
 							"count": 25
 						},
 						{
-							"spell_id": 27222,
-							"count": 38
-						},
-						{
-							"spell_id": 30546,
-							"count": 5
-						},
-						{
-							"spell_id": 30910,
-							"count": 5
-						},
-						{
-							"spell_id": 30912,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 20589,
-							"count": 1
-						},
-						{
 							"spell_id": 27218,
 							"count": 12
+						},
+						{
+							"spell_id": 27222,
+							"count": 38
 						},
 						{
 							"spell_id": 27236,
@@ -4873,10 +4886,23 @@
 							"count": 10
 						},
 						{
+							"spell_id": 30546,
+							"count": 5
+						},
+						{
+							"spell_id": 30910,
+							"count": 5
+						},
+						{
+							"spell_id": 30912,
+							"count": 6
+						},
+						{
 							"spell_id": 36480,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -5232,6 +5258,10 @@
 							"count": 7
 						},
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 29858,
 							"count": 1
 						},
@@ -5248,12 +5278,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27236,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -5365,6 +5390,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+					},
 					{
 						"type": "no_enchant",
 						"fight": "Al'ar",
@@ -5659,12 +5694,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 76
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 3
 						},
@@ -5675,6 +5704,10 @@
 						{
 							"spell_id": 25442,
 							"count": 30
+						},
+						{
+							"spell_id": 25449,
+							"count": 76
 						},
 						{
 							"spell_id": 25570,
@@ -5705,6 +5738,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -6048,12 +6082,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 59
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2894,
 							"count": 1
 						},
@@ -6072,6 +6100,10 @@
 						{
 							"spell_id": 25442,
 							"count": 22
+						},
+						{
+							"spell_id": 25449,
+							"count": 59
 						},
 						{
 							"spell_id": 25454,
@@ -6102,6 +6134,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -6118,6 +6151,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 7,
+						"spell_id": 8056,
+						"suggested_spell_id": 10473,
+						"spell_wowhead_attr": "spell=8056",
+						"higher_ranked_spell_wowhead_attr": "spell=10473",
+						"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -6166,12 +6209,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 133
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2484,
 							"count": 2
 						},
@@ -6198,6 +6235,10 @@
 						{
 							"spell_id": 25442,
 							"count": 53
+						},
+						{
+							"spell_id": 25449,
+							"count": 133
 						},
 						{
 							"spell_id": 25457,
@@ -6232,6 +6273,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -6297,6 +6339,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Void Reaver",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Void Reaver"
+					},
 					{
 						"type": "no_enchant",
 						"fight": "Void Reaver",
@@ -6586,12 +6638,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 48
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 3
 						},
@@ -6602,6 +6648,10 @@
 						{
 							"spell_id": 25442,
 							"count": 17
+						},
+						{
+							"spell_id": 25449,
+							"count": 48
 						},
 						{
 							"spell_id": 25570,
@@ -6632,6 +6682,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -6646,6 +6697,36 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Void Reaver",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Void Reaver"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 7,
+				"spell_id": 8056,
+				"suggested_spell_id": 10473,
+				"spell_wowhead_attr": "spell=8056",
+				"higher_ranked_spell_wowhead_attr": "spell=10473",
+				"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -7029,26 +7110,20 @@
 							"count": 1
 						},
 						{
-							"spell_id": 27222,
-							"count": 11
-						},
-						{
-							"spell_id": 27223,
-							"count": 3
-						},
-						{
-							"spell_id": 30546,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 28
 						},
 						{
 							"spell_id": 27218,
 							"count": 7
+						},
+						{
+							"spell_id": 27222,
+							"count": 11
+						},
+						{
+							"spell_id": 27223,
+							"count": 3
 						},
 						{
 							"spell_id": 27228,
@@ -7059,6 +7134,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 30546,
+							"count": 5
+						},
+						{
 							"spell_id": 30911,
 							"count": 11
 						},
@@ -7067,6 +7146,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -7422,6 +7502,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 18288,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 50
 						},
@@ -7430,30 +7514,20 @@
 							"count": 3
 						},
 						{
-							"spell_id": 27222,
-							"count": 9
-						},
-						{
-							"spell_id": 27223,
-							"count": 2
-						},
-						{
-							"spell_id": 30546,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 18288,
-							"count": 1
-						},
-						{
 							"spell_id": 27216,
 							"count": 16
 						},
 						{
 							"spell_id": 27218,
 							"count": 4
+						},
+						{
+							"spell_id": 27222,
+							"count": 9
+						},
+						{
+							"spell_id": 27223,
+							"count": 2
 						},
 						{
 							"spell_id": 27228,
@@ -7468,6 +7542,10 @@
 							"count": 6
 						},
 						{
+							"spell_id": 30546,
+							"count": 4
+						},
+						{
 							"spell_id": 30911,
 							"count": 6
 						},
@@ -7476,6 +7554,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -7537,34 +7616,20 @@
 					],
 					"spells": [
 						{
-							"spell_id": 27209,
-							"count": 118
-						},
-						{
-							"spell_id": 27215,
-							"count": 7
-						},
-						{
-							"spell_id": 27222,
-							"count": 20
-						},
-						{
-							"spell_id": 27223,
-							"count": 5
-						},
-						{
-							"spell_id": 30546,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 688,
 							"count": 1
 						},
 						{
 							"spell_id": 18288,
 							"count": 1
+						},
+						{
+							"spell_id": 27209,
+							"count": 118
+						},
+						{
+							"spell_id": 27215,
+							"count": 7
 						},
 						{
 							"spell_id": 27216,
@@ -7575,12 +7640,24 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27222,
+							"count": 20
+						},
+						{
+							"spell_id": 27223,
+							"count": 5
+						},
+						{
 							"spell_id": 27228,
 							"count": 12
 						},
 						{
 							"spell_id": 27243,
 							"count": 16
+						},
+						{
+							"spell_id": 30546,
+							"count": 3
 						},
 						{
 							"spell_id": 30911,
@@ -7595,6 +7672,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -7953,18 +8031,12 @@
 							"count": 8
 						},
 						{
-							"spell_id": 27222,
-							"count": 4
-						},
-						{
-							"spell_id": 30546,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 10
+						},
+						{
+							"spell_id": 27222,
+							"count": 4
 						},
 						{
 							"spell_id": 27228,
@@ -7975,6 +8047,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 30546,
+							"count": 5
+						},
+						{
 							"spell_id": 30911,
 							"count": 1
 						},
@@ -7983,6 +8059,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -8126,6 +8203,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 23,
+						"spell_id": 8005,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=8005",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=8005:Al'ar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar",
@@ -8398,8 +8485,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 8005,
 							"count": 23
@@ -8473,6 +8559,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -8799,8 +8886,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 16190,
 							"count": 1
@@ -8842,6 +8928,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -8858,6 +8945,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 26,
+						"spell_id": 8005,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=8005",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=8005:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -8897,8 +8994,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 8005,
 							"count": 26
@@ -8964,6 +9060,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -9291,8 +9388,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 16190,
 							"count": 1
@@ -9338,6 +9434,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -9348,6 +9445,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 23,
+				"spell_id": 8005,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=8005",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=8005:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 26,
+				"spell_id": 8005,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=8005",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=8005:Kael'thas Sunstrider"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -9478,7 +9595,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+					}
+				],
 				"talents": {
 					"points": [
 						0,
@@ -9738,6 +9866,10 @@
 							"count": 92
 						},
 						{
+							"spell_id": 27218,
+							"count": 6
+						},
+						{
 							"spell_id": 27222,
 							"count": 15
 						},
@@ -9746,12 +9878,7 @@
 							"count": 3
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27218,
-							"count": 6
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -10091,8 +10218,16 @@
 							"count": 11
 						},
 						{
+							"spell_id": 27218,
+							"count": 8
+						},
+						{
 							"spell_id": 27222,
 							"count": 12
+						},
+						{
+							"spell_id": 27243,
+							"count": 3
 						},
 						{
 							"spell_id": 30546,
@@ -10107,16 +10242,7 @@
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27218,
-							"count": 8
-						},
-						{
-							"spell_id": 27243,
-							"count": 3
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -10129,6 +10255,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -10188,8 +10324,16 @@
 							"count": 31
 						},
 						{
+							"spell_id": 27218,
+							"count": 21
+						},
+						{
 							"spell_id": 27222,
 							"count": 34
+						},
+						{
+							"spell_id": 27243,
+							"count": 14
 						},
 						{
 							"spell_id": 29858,
@@ -10206,22 +10350,13 @@
 						{
 							"spell_id": 30912,
 							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 27218,
-							"count": 21
-						},
-						{
-							"spell_id": 27243,
-							"count": 14
 						},
 						{
 							"spell_id": 36480,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -10560,6 +10695,10 @@
 							"count": 9
 						},
 						{
+							"spell_id": 27218,
+							"count": 2
+						},
+						{
 							"spell_id": 27222,
 							"count": 9
 						},
@@ -10576,12 +10715,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27218,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -10592,6 +10726,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -11312,6 +11466,14 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 11684,
+							"count": 2
+						},
+						{
+							"spell_id": 11719,
+							"count": 5
+						},
+						{
 							"spell_id": 27209,
 							"count": 57
 						},
@@ -11330,16 +11492,6 @@
 						{
 							"spell_id": 30546,
 							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 11684,
-							"count": 2
-						},
-						{
-							"spell_id": 11719,
-							"count": 5
 						},
 						{
 							"spell_id": 32231,
@@ -11350,6 +11502,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -11366,6 +11519,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -11432,12 +11595,6 @@
 							"count": 16
 						},
 						{
-							"spell_id": 30912,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27228,
 							"count": 1
 						},
@@ -11446,10 +11603,15 @@
 							"count": 13
 						},
 						{
+							"spell_id": 30912,
+							"count": 2
+						},
+						{
 							"spell_id": 36480,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -11838,6 +12000,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -12244,8 +12416,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -12283,6 +12454,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -12676,8 +12848,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -12715,6 +12886,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -12776,8 +12948,7 @@
 							"count": 2
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -12823,6 +12994,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13214,8 +13386,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 2
@@ -13249,6 +13420,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13505,6 +13677,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 18,
+						"spell_id": 3472,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=3472",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=3472:Al'ar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar",
@@ -13767,16 +13959,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 79
-						},
-						{
-							"spell_id": 33072,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3472,
 							"count": 18
 						},
@@ -13801,6 +13983,10 @@
 							"count": 6
 						},
 						{
+							"spell_id": 27137,
+							"count": 79
+						},
+						{
 							"spell_id": 27140,
 							"count": 1
 						},
@@ -13821,10 +14007,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33072,
+							"count": 8
+						},
+						{
 							"spell_id": 35165,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -13902,6 +14093,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High Astromancer Solarian",
+						"count": 3,
+						"spell_id": 3472,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=3472",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=3472:High Astromancer Solarian"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High Astromancer Solarian",
@@ -14155,16 +14356,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 98
-						},
-						{
-							"spell_id": 33072,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3472,
 							"count": 3
 						},
@@ -14185,6 +14376,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27137,
+							"count": 98
+						},
+						{
 							"spell_id": 27160,
 							"count": 2
 						},
@@ -14197,10 +14392,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33072,
+							"count": 4
+						},
+						{
 							"spell_id": 35165,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -14213,6 +14413,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 34,
+						"spell_id": 3472,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=3472",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=3472:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -14253,16 +14463,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 131
-						},
-						{
-							"spell_id": 33072,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1152,
 							"count": 1
 						},
@@ -14291,6 +14491,10 @@
 							"count": 8
 						},
 						{
+							"spell_id": 27137,
+							"count": 131
+						},
+						{
 							"spell_id": 27140,
 							"count": 3
 						},
@@ -14311,10 +14515,15 @@
 							"count": 3
 						},
 						{
+							"spell_id": 33072,
+							"count": 8
+						},
+						{
 							"spell_id": 35165,
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -14643,16 +14852,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 85
-						},
-						{
-							"spell_id": 33072,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1020,
 							"count": 1
 						},
@@ -14669,6 +14868,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 27137,
+							"count": 85
+						},
+						{
 							"spell_id": 27160,
 							"count": 1
 						},
@@ -14681,15 +14884,60 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33072,
+							"count": 7
+						},
+						{
 							"spell_id": 35165,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 18,
+				"spell_id": 3472,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=3472",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=3472:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High Astromancer Solarian",
+				"count": 3,
+				"spell_id": 3472,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=3472",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=3472:High Astromancer Solarian"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 34,
+				"spell_id": 3472,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=3472",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=3472:Kael'thas Sunstrider"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -15120,16 +15368,6 @@
 							"count": 107
 						},
 						{
-							"spell_id": 34026,
-							"count": 36
-						},
-						{
-							"spell_id": 34120,
-							"count": 85
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2643,
 							"count": 1
 						},
@@ -15170,6 +15408,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 36
+						},
+						{
+							"spell_id": 34120,
+							"count": 85
+						},
+						{
 							"spell_id": 34477,
 							"count": 2
 						},
@@ -15190,6 +15436,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -15512,16 +15759,6 @@
 							"count": 87
 						},
 						{
-							"spell_id": 34026,
-							"count": 28
-						},
-						{
-							"spell_id": 34120,
-							"count": 68
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 2
 						},
@@ -15562,6 +15799,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 28
+						},
+						{
+							"spell_id": 34120,
+							"count": 68
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -15574,6 +15819,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -15640,16 +15886,6 @@
 							"count": 187
 						},
 						{
-							"spell_id": 34026,
-							"count": 68
-						},
-						{
-							"spell_id": 34120,
-							"count": 130
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 6
 						},
@@ -15710,6 +15946,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 68
+						},
+						{
+							"spell_id": 34120,
+							"count": 130
+						},
+						{
 							"spell_id": 34477,
 							"count": 3
 						},
@@ -15730,6 +15974,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -15817,7 +16062,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Void Reaver",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Void Reaver"
+					}
+				],
 				"talents": {
 					"points": [
 						5,
@@ -16074,16 +16330,6 @@
 							"count": 60
 						},
 						{
-							"spell_id": 34026,
-							"count": 7
-						},
-						{
-							"spell_id": 34120,
-							"count": 47
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 1
 						},
@@ -16108,6 +16354,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 7
+						},
+						{
+							"spell_id": 34120,
+							"count": 47
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -16124,6 +16378,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -16134,6 +16389,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Void Reaver",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Void Reaver"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -16486,17 +16751,15 @@
 							"count": 5
 						},
 						{
-							"spell_id": 12472,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 2
 						},
 						{
 							"spell_id": 12043,
+							"count": 2
+						},
+						{
+							"spell_id": 12472,
 							"count": 2
 						},
 						{
@@ -16520,6 +16783,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -16829,16 +17093,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 12472,
-							"count": 1
-						},
-						{
-							"spell_id": 27079,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 122,
 							"count": 1
 						},
@@ -16851,8 +17105,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12472,
+							"count": 1
+						},
+						{
 							"spell_id": 27072,
 							"count": 2
+						},
+						{
+							"spell_id": 27079,
+							"count": 1
 						},
 						{
 							"spell_id": 27082,
@@ -16871,6 +17133,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -16883,6 +17146,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 11,
+						"spell_id": 1449,
+						"suggested_spell_id": 27080,
+						"spell_wowhead_attr": "spell=1449",
+						"higher_ranked_spell_wowhead_attr": "spell=27080",
+						"uuid": "cast_higher_rank_available:spell=1449:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -16937,34 +17210,16 @@
 					],
 					"spells": [
 						{
+							"spell_id": 1449,
+							"count": 11
+						},
+						{
 							"spell_id": 1953,
 							"count": 3
 						},
 						{
 							"spell_id": 2139,
 							"count": 1
-						},
-						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 4
-						},
-						{
-							"spell_id": 27079,
-							"count": 11
-						},
-						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 1449,
-							"count": 11
 						},
 						{
 							"spell_id": 11958,
@@ -16979,8 +17234,20 @@
 							"count": 4
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 4
+						},
+						{
 							"spell_id": 27072,
 							"count": 18
+						},
+						{
+							"spell_id": 27079,
+							"count": 11
 						},
 						{
 							"spell_id": 27082,
@@ -17007,10 +17274,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 45438,
+							"count": 1
+						},
+						{
 							"spell_id": 51953,
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -17341,20 +17613,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 1
-						},
-						{
-							"spell_id": 27079,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 1
 						},
@@ -17363,14 +17621,27 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 1
+						},
+						{
 							"spell_id": 23723,
 							"count": 1
+						},
+						{
+							"spell_id": 27079,
+							"count": 4
 						},
 						{
 							"spell_id": 30451,
 							"count": 99
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -17381,6 +17652,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 11,
+				"spell_id": 1449,
+				"suggested_spell_id": 27080,
+				"spell_wowhead_attr": "spell=1449",
+				"higher_ranked_spell_wowhead_attr": "spell=27080",
+				"uuid": "cast_higher_rank_available:spell=1449:Kael'thas Sunstrider"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -17466,6 +17747,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 37,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Al'ar"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 15,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Al'ar"
+					},
 					{
 						"type": "no_temporary_enchant_but_windfury",
 						"fight": "Al'ar",
@@ -17711,8 +18012,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 28
@@ -17754,6 +18054,7 @@
 							"count": 32
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -17833,7 +18134,28 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High Astromancer Solarian",
+						"count": 32,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:High Astromancer Solarian"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High Astromancer Solarian",
+						"count": 20,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:High Astromancer Solarian"
+					}
+				],
 				"talents": {
 					"points": [
 						5,
@@ -18075,8 +18397,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10308,
 							"count": 1
@@ -18122,6 +18443,7 @@
 							"count": 30
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -18134,6 +18456,26 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 59,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Kael'thas Sunstrider"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 31,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -18183,12 +18525,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1020,
 							"count": 1
 						},
@@ -18225,6 +18561,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27137,
+							"count": 1
+						},
+						{
 							"spell_id": 27158,
 							"count": 9
 						},
@@ -18253,6 +18593,7 @@
 							"count": 58
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -18337,7 +18678,28 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Void Reaver",
+						"count": 29,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Void Reaver"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Void Reaver",
+						"count": 11,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Void Reaver"
+					}
+				],
 				"talents": {
 					"points": [
 						5,
@@ -18578,8 +18940,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 12174,
 							"count": 1
@@ -18621,6 +18982,7 @@
 							"count": 29
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -18631,6 +18993,86 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 37,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High Astromancer Solarian",
+				"count": 32,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:High Astromancer Solarian"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 59,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Void Reaver",
+				"count": 29,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Void Reaver"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 15,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High Astromancer Solarian",
+				"count": 20,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:High Astromancer Solarian"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 31,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Void Reaver",
+				"count": 11,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Void Reaver"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -18746,6 +19188,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+					},
 					{
 						"type": "no_temporary_enchant_but_windfury",
 						"fight": "Al'ar",
@@ -19023,8 +19475,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3018,
 							"count": 1
@@ -19074,6 +19525,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -19415,8 +19867,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 11
@@ -19462,6 +19913,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -19514,12 +19966,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 20600,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3018,
 							"count": 14
 						},
@@ -19534,6 +19980,10 @@
 						{
 							"spell_id": 13877,
 							"count": 5
+						},
+						{
+							"spell_id": 20600,
+							"count": 1
 						},
 						{
 							"spell_id": 26669,
@@ -19572,6 +20022,7 @@
 							"count": 11
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -19921,8 +20372,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 7
@@ -19968,6 +20418,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -19978,6 +20429,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -20404,12 +20865,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 16
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -20474,6 +20929,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 16
+						},
+						{
 							"spell_id": 30330,
 							"count": 23
 						},
@@ -20486,6 +20945,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -20871,12 +21331,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 13
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 12
 						},
@@ -20921,6 +21375,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 13
+						},
+						{
 							"spell_id": 30330,
 							"count": 23
 						},
@@ -20933,6 +21391,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -20945,6 +21404,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -20995,12 +21464,6 @@
 						}
 					],
 					"spells": [
-						{
-							"spell_id": 29707,
-							"count": 17
-						}
-					],
-					"unknown": [
 						{
 							"spell_id": 1680,
 							"count": 23
@@ -21062,6 +21525,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 17
+						},
+						{
 							"spell_id": 30330,
 							"count": 40
 						},
@@ -21074,6 +21541,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -21473,12 +21941,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 20
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 9
 						},
@@ -21515,6 +21977,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 20
+						},
+						{
 							"spell_id": 30330,
 							"count": 16
 						},
@@ -21527,6 +21993,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -21537,6 +22004,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -21898,6 +22375,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 768,
+							"count": 1
+						},
+						{
 							"spell_id": 17116,
 							"count": 2
 						},
@@ -21914,26 +22395,20 @@
 							"count": 14
 						},
 						{
-							"spell_id": 33763,
-							"count": 124
-						},
-						{
-							"spell_id": 33891,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 768,
-							"count": 1
-						},
-						{
 							"spell_id": 26991,
 							"count": 1
 						},
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 124
+						},
+						{
+							"spell_id": 33891,
+							"count": 3
 						},
 						{
 							"spell_id": 35165,
@@ -21944,6 +22419,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -22282,18 +22758,16 @@
 							"count": 2
 						},
 						{
-							"spell_id": 33763,
-							"count": 137
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27235,
 							"count": 1
 						},
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 137
 						},
 						{
 							"spell_id": 35165,
@@ -22304,6 +22778,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -22362,32 +22837,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 17116,
-							"count": 2
-						},
-						{
-							"spell_id": 18562,
-							"count": 2
-						},
-						{
-							"spell_id": 26980,
-							"count": 8
-						},
-						{
-							"spell_id": 26982,
-							"count": 13
-						},
-						{
-							"spell_id": 33763,
-							"count": 257
-						},
-						{
-							"spell_id": 33891,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2893,
 							"count": 1
 						},
@@ -22397,6 +22846,14 @@
 						},
 						{
 							"spell_id": 16589,
+							"count": 2
+						},
+						{
+							"spell_id": 17116,
+							"count": 2
+						},
+						{
+							"spell_id": 18562,
 							"count": 2
 						},
 						{
@@ -22410,6 +22867,14 @@
 						{
 							"spell_id": 25123,
 							"count": 1
+						},
+						{
+							"spell_id": 26980,
+							"count": 8
+						},
+						{
+							"spell_id": 26982,
+							"count": 13
 						},
 						{
 							"spell_id": 26985,
@@ -22436,6 +22901,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 33763,
+							"count": 257
+						},
+						{
+							"spell_id": 33891,
+							"count": 7
+						},
+						{
 							"spell_id": 35165,
 							"count": 4
 						},
@@ -22444,6 +22917,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -22793,17 +23267,15 @@
 							"count": 6
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 97
 						},
 						{
 							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 29166,
 							"count": 1
 						},
 						{
@@ -22815,6 +23287,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -23201,12 +23674,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 85
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 6
 						},
@@ -23221,6 +23688,10 @@
 						{
 							"spell_id": 25442,
 							"count": 33
+						},
+						{
+							"spell_id": 25449,
+							"count": 85
 						},
 						{
 							"spell_id": 25454,
@@ -23251,6 +23722,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -23612,12 +24084,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 58
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 2
 						},
@@ -23628,6 +24094,10 @@
 						{
 							"spell_id": 25442,
 							"count": 23
+						},
+						{
+							"spell_id": 25449,
+							"count": 58
 						},
 						{
 							"spell_id": 25454,
@@ -23666,6 +24136,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -23678,6 +24149,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -23732,12 +24213,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 140
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 403,
 							"count": 1
 						},
@@ -23756,6 +24231,10 @@
 						{
 							"spell_id": 25442,
 							"count": 59
+						},
+						{
+							"spell_id": 25449,
+							"count": 140
 						},
 						{
 							"spell_id": 25454,
@@ -23802,6 +24281,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -24161,12 +24641,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 55
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 2
 						},
@@ -24177,6 +24651,10 @@
 						{
 							"spell_id": 25442,
 							"count": 20
+						},
+						{
+							"spell_id": 25449,
+							"count": 55
 						},
 						{
 							"spell_id": 25454,
@@ -24203,6 +24681,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -24213,6 +24692,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -24632,22 +25121,20 @@
 							"count": 6
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 2
 						},
 						{
 							"spell_id": 12043,
 							"count": 1
+						},
+						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 2
 						},
 						{
 							"spell_id": 27072,
@@ -24666,6 +25153,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25015,20 +25503,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 27079,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 2
 						},
@@ -25037,8 +25511,20 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 27072,
 							"count": 3
+						},
+						{
+							"spell_id": 27079,
+							"count": 1
 						},
 						{
 							"spell_id": 27082,
@@ -25053,6 +25539,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25117,20 +25604,6 @@
 							"count": 2
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 4
-						},
-						{
-							"spell_id": 27079,
-							"count": 12
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 10054,
 							"count": 1
 						},
@@ -25151,12 +25624,24 @@
 							"count": 4
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 4
+						},
+						{
 							"spell_id": 25122,
 							"count": 1
 						},
 						{
 							"spell_id": 27072,
 							"count": 20
+						},
+						{
+							"spell_id": 27079,
+							"count": 12
 						},
 						{
 							"spell_id": 27082,
@@ -25183,6 +25668,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25527,16 +26013,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 66,
 							"count": 1
 						},
@@ -25553,6 +26029,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 30451,
 							"count": 98
 						},
@@ -25561,6 +26045,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25967,16 +26452,6 @@
 							"count": 118
 						},
 						{
-							"spell_id": 34026,
-							"count": 33
-						},
-						{
-							"spell_id": 34120,
-							"count": 110
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 883,
 							"count": 1
 						},
@@ -26005,6 +26480,14 @@
 							"count": 17
 						},
 						{
+							"spell_id": 34026,
+							"count": 33
+						},
+						{
+							"spell_id": 34120,
+							"count": 110
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -26021,6 +26504,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -26377,16 +26861,6 @@
 							"count": 85
 						},
 						{
-							"spell_id": 34026,
-							"count": 24
-						},
-						{
-							"spell_id": 34120,
-							"count": 85
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -26407,6 +26881,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 24
+						},
+						{
+							"spell_id": 34120,
+							"count": 85
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -26415,6 +26897,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -26479,16 +26962,6 @@
 							"count": 187
 						},
 						{
-							"spell_id": 34026,
-							"count": 56
-						},
-						{
-							"spell_id": 34120,
-							"count": 199
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 4
 						},
@@ -26529,6 +27002,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 56
+						},
+						{
+							"spell_id": 34120,
+							"count": 199
+						},
+						{
 							"spell_id": 34477,
 							"count": 2
 						},
@@ -26549,6 +27030,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -26906,16 +27388,6 @@
 							"count": 54
 						},
 						{
-							"spell_id": 34026,
-							"count": 13
-						},
-						{
-							"spell_id": 34120,
-							"count": 49
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -26940,8 +27412,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 13
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 49
 						},
 						{
 							"spell_id": 35166,
@@ -26952,6 +27432,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -27319,6 +27800,10 @@
 							"count": 6
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 9
 						},
@@ -27335,28 +27820,23 @@
 							"count": 29
 						},
 						{
+							"spell_id": 25389,
+							"count": 1
+						},
+						{
 							"spell_id": 33076,
 							"count": 20
+						},
+						{
+							"spell_id": 34433,
+							"count": 1
 						},
 						{
 							"spell_id": 34866,
 							"count": 18
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
-							"spell_id": 25389,
-							"count": 1
-						},
-						{
-							"spell_id": 34433,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -27684,6 +28164,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 6346,
+							"count": 1
+						},
+						{
 							"spell_id": 25218,
 							"count": 12
 						},
@@ -27700,20 +28184,15 @@
 							"count": 17
 						},
 						{
+							"spell_id": 34433,
+							"count": 1
+						},
+						{
 							"spell_id": 34866,
 							"count": 3
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 6346,
-							"count": 1
-						},
-						{
-							"spell_id": 34433,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -27767,6 +28246,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 6346,
+							"count": 2
+						},
+						{
 							"spell_id": 25213,
 							"count": 5
 						},
@@ -27781,28 +28264,6 @@
 						{
 							"spell_id": 25235,
 							"count": 55
-						},
-						{
-							"spell_id": 32546,
-							"count": 2
-						},
-						{
-							"spell_id": 32996,
-							"count": 1
-						},
-						{
-							"spell_id": 33076,
-							"count": 37
-						},
-						{
-							"spell_id": 34866,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6346,
-							"count": 2
 						},
 						{
 							"spell_id": 25364,
@@ -27821,8 +28282,24 @@
 							"count": 3
 						},
 						{
+							"spell_id": 32546,
+							"count": 2
+						},
+						{
+							"spell_id": 32996,
+							"count": 1
+						},
+						{
+							"spell_id": 33076,
+							"count": 37
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
+						},
+						{
+							"spell_id": 34866,
+							"count": 18
 						},
 						{
 							"spell_id": 35165,
@@ -27833,6 +28310,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -28162,6 +28640,10 @@
 							"count": 6
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25218,
 							"count": 4
 						},
@@ -28178,18 +28660,12 @@
 							"count": 10
 						},
 						{
-							"spell_id": 34866,
-							"count": 61
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
+							"spell_id": 34433,
 							"count": 1
 						},
 						{
-							"spell_id": 34433,
-							"count": 1
+							"spell_id": 34866,
+							"count": 61
 						},
 						{
 							"spell_id": 35165,
@@ -28200,6 +28676,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -28596,28 +29073,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 2
-						},
-						{
-							"spell_id": 26982,
-							"count": 2
-						},
-						{
-							"spell_id": 27002,
-							"count": 8
-						},
-						{
-							"spell_id": 33763,
-							"count": 8
-						},
-						{
-							"spell_id": 33987,
-							"count": 14
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 10
 						},
@@ -28642,11 +29097,23 @@
 							"count": 2
 						},
 						{
+							"spell_id": 26980,
+							"count": 2
+						},
+						{
+							"spell_id": 26982,
+							"count": 2
+						},
+						{
 							"spell_id": 26996,
 							"count": 21
 						},
 						{
 							"spell_id": 26997,
+							"count": 8
+						},
+						{
+							"spell_id": 27002,
 							"count": 8
 						},
 						{
@@ -28662,8 +29129,16 @@
 							"count": 16
 						},
 						{
+							"spell_id": 33763,
+							"count": 8
+						},
+						{
 							"spell_id": 33983,
 							"count": 7
+						},
+						{
+							"spell_id": 33987,
+							"count": 14
 						},
 						{
 							"spell_id": 35166,
@@ -28682,6 +29157,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -28976,12 +29452,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 9634,
 							"count": 3
 						},
@@ -29012,8 +29482,13 @@
 						{
 							"spell_id": 33745,
 							"count": 11
+						},
+						{
+							"spell_id": 33987,
+							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -29021,6 +29496,16 @@
 				"name": "Kael'thas Sunstrider",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 3,
+						"spell_id": 26987,
+						"suggested_spell_id": 26988,
+						"spell_wowhead_attr": "spell=26987",
+						"higher_ranked_spell_wowhead_attr": "spell=26988",
+						"uuid": "cast_higher_rank_available:spell=26987:Kael'thas Sunstrider"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
@@ -29070,16 +29555,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 49
-						},
-						{
-							"spell_id": 33987,
-							"count": 27
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 39
 						},
@@ -29124,6 +29599,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27002,
+							"count": 49
+						},
+						{
 							"spell_id": 27008,
 							"count": 21
 						},
@@ -29148,6 +29627,10 @@
 							"count": 37
 						},
 						{
+							"spell_id": 33987,
+							"count": 27
+						},
+						{
 							"spell_id": 34340,
 							"count": 1
 						},
@@ -29168,6 +29651,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -29471,12 +29955,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 26
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 5229,
 							"count": 3
 						},
@@ -29501,6 +29979,10 @@
 							"count": 35
 						},
 						{
+							"spell_id": 33987,
+							"count": 26
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -29513,6 +29995,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -29523,6 +30006,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 3,
+				"spell_id": 26987,
+				"suggested_spell_id": 26988,
+				"spell_wowhead_attr": "spell=26987",
+				"higher_ranked_spell_wowhead_attr": "spell=26988",
+				"uuid": "cast_higher_rank_available:spell=26987:Kael'thas Sunstrider"
+			},
 			{
 				"type": "meta_not_activated",
 				"fight": "High Astromancer Solarian",
@@ -29896,12 +30389,6 @@
 							"count": 53
 						},
 						{
-							"spell_id": 33076,
-							"count": 24
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25308,
 							"count": 4
 						},
@@ -29912,8 +30399,13 @@
 						{
 							"spell_id": 25437,
 							"count": 1
+						},
+						{
+							"spell_id": 33076,
+							"count": 24
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -30249,12 +30741,6 @@
 							"count": 42
 						},
 						{
-							"spell_id": 33076,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25308,
 							"count": 4
 						},
@@ -30263,10 +30749,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 8
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -30321,6 +30812,10 @@
 							"count": 13
 						},
 						{
+							"spell_id": 6346,
+							"count": 1
+						},
+						{
 							"spell_id": 25218,
 							"count": 26
 						},
@@ -30331,24 +30826,6 @@
 						{
 							"spell_id": 25235,
 							"count": 69
-						},
-						{
-							"spell_id": 25431,
-							"count": 1
-						},
-						{
-							"spell_id": 32996,
-							"count": 2
-						},
-						{
-							"spell_id": 33076,
-							"count": 38
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6346,
-							"count": 1
 						},
 						{
 							"spell_id": 25308,
@@ -30367,10 +30844,23 @@
 							"count": 3
 						},
 						{
+							"spell_id": 25431,
+							"count": 1
+						},
+						{
+							"spell_id": 32996,
+							"count": 2
+						},
+						{
+							"spell_id": 33076,
+							"count": 38
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -30694,6 +31184,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25218,
 							"count": 1
 						},
@@ -30702,24 +31196,19 @@
 							"count": 40
 						},
 						{
-							"spell_id": 33076,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
 							"spell_id": 25308,
 							"count": 14
+						},
+						{
+							"spell_id": 33076,
+							"count": 11
 						},
 						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -31122,8 +31611,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 25
@@ -31197,6 +31685,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -31545,8 +32034,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2894,
 							"count": 1
@@ -31632,6 +32120,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -31695,12 +32184,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 12
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2894,
 							"count": 1
 						},
@@ -31727,6 +32210,10 @@
 						{
 							"spell_id": 25442,
 							"count": 7
+						},
+						{
+							"spell_id": 25449,
+							"count": 12
 						},
 						{
 							"spell_id": 25454,
@@ -31801,6 +32288,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -32138,8 +32626,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 16
@@ -32213,6 +32700,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -32617,8 +33105,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20217,
 							"count": 3
@@ -32664,6 +33151,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -32991,8 +33479,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 18
@@ -33030,6 +33517,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,
@@ -33086,8 +33574,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10308,
 							"count": 1
@@ -33141,6 +33628,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -33482,8 +33970,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 18
@@ -33521,6 +34008,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41618,

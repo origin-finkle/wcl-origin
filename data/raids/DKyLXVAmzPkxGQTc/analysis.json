@@ -68,6 +68,26 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
+						"count": 12,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Hydross the Unstable - Wipe 1 (45.0%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
+						"count": 4,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Hydross the Unstable - Wipe 1 (45.0%)"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2996\u0026gems=24027\u0026item=30055",
@@ -343,8 +363,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20218,
 							"count": 1
@@ -382,11 +401,32 @@
 							"count": 11
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
+				"count": 12,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Hydross the Unstable - Wipe 1 (45.0%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
+				"count": 4,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Hydross the Unstable - Wipe 1 (45.0%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
@@ -728,6 +768,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12042,
+							"count": 1
+						},
+						{
 							"spell_id": 12051,
 							"count": 1
 						},
@@ -737,12 +781,6 @@
 						},
 						{
 							"spell_id": 27079,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 12042,
 							"count": 1
 						},
 						{
@@ -754,6 +792,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -1091,9 +1130,7 @@
 						{
 							"spell_id": 27209,
 							"count": 21
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27216,
 							"count": 4
@@ -1111,6 +1148,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -1478,12 +1516,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 32996,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 1
 						},
@@ -1500,10 +1532,15 @@
 							"count": 8
 						},
 						{
+							"spell_id": 32996,
+							"count": 3
+						},
+						{
 							"spell_id": 34917,
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -1860,12 +1897,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 30
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -1886,6 +1917,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 30
+						},
+						{
 							"spell_id": 30335,
 							"count": 9
 						},
@@ -1894,6 +1929,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -2257,12 +2293,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 32
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -2287,6 +2317,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 32
+						},
+						{
 							"spell_id": 30335,
 							"count": 9
 						},
@@ -2295,6 +2329,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -2642,14 +2677,13 @@
 						{
 							"spell_id": 30910,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 51953,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -3598,8 +3632,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10308,
 							"count": 1
@@ -3641,6 +3674,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -4038,8 +4072,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3738,
 							"count": 1
@@ -4077,6 +4110,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -4464,12 +4498,6 @@
 							"count": 3
 						},
 						{
-							"spell_id": 33763,
-							"count": 23
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26993,
 							"count": 5
 						},
@@ -4480,8 +4508,13 @@
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 23
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -4820,12 +4853,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 5229,
 							"count": 1
 						},
@@ -4854,10 +4881,15 @@
 							"count": 12
 						},
 						{
+							"spell_id": 33987,
+							"count": 9
+						},
+						{
 							"spell_id": 40729,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -5223,17 +5255,15 @@
 							"count": 4
 						},
 						{
+							"spell_id": 27218,
+							"count": 1
+						},
+						{
 							"spell_id": 27222,
 							"count": 1
 						},
 						{
 							"spell_id": 30910,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 27218,
 							"count": 1
 						},
 						{
@@ -5241,6 +5271,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -5598,6 +5629,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 11717,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 19
 						},
@@ -5610,12 +5645,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 11717,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -5954,12 +5984,20 @@
 					],
 					"spells": [
 						{
+							"spell_id": 18647,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 18
 						},
 						{
 							"spell_id": 27215,
 							"count": 3
+						},
+						{
+							"spell_id": 27218,
+							"count": 1
 						},
 						{
 							"spell_id": 27222,
@@ -5970,16 +6008,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 18647,
-							"count": 1
-						},
-						{
-							"spell_id": 27218,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -6348,16 +6377,6 @@
 							"count": 32
 						},
 						{
-							"spell_id": 34026,
-							"count": 9
-						},
-						{
-							"spell_id": 34120,
-							"count": 16
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -6374,10 +6393,19 @@
 							"count": 5
 						},
 						{
+							"spell_id": 34026,
+							"count": 9
+						},
+						{
+							"spell_id": 34120,
+							"count": 16
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -6756,8 +6784,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3738,
 							"count": 1
@@ -6791,6 +6818,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -7203,16 +7231,6 @@
 							"count": 25
 						},
 						{
-							"spell_id": 34026,
-							"count": 9
-						},
-						{
-							"spell_id": 34120,
-							"count": 25
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -7229,10 +7247,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 9
+						},
+						{
+							"spell_id": 34120,
+							"count": 25
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -7583,12 +7610,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 9634,
 							"count": 1
 						},
@@ -7605,10 +7626,15 @@
 							"count": 12
 						},
 						{
+							"spell_id": 33987,
+							"count": 9
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -8045,8 +8071,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2894,
 							"count": 1
@@ -8108,6 +8133,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -8486,12 +8512,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 20
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 1
 						},
@@ -8502,6 +8522,10 @@
 						{
 							"spell_id": 25442,
 							"count": 6
+						},
+						{
+							"spell_id": 25449,
+							"count": 20
 						},
 						{
 							"spell_id": 25570,
@@ -8528,6 +8552,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -8889,8 +8914,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2894,
 							"count": 1
@@ -8952,6 +8976,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -9057,6 +9082,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
+						"count": 9,
+						"spell_id": 3472,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=3472",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=3472:Hydross the Unstable - Wipe 1 (45.0%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
@@ -9332,16 +9367,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 20
-						},
-						{
-							"spell_id": 33072,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3472,
 							"count": 9
 						},
@@ -9354,10 +9379,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27137,
+							"count": 20
+						},
+						{
+							"spell_id": 33072,
+							"count": 2
+						},
+						{
 							"spell_id": 35165,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -9368,6 +9402,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
+				"count": 9,
+				"spell_id": 3472,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=3472",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=3472:Hydross the Unstable - Wipe 1 (45.0%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Hydross the Unstable - Wipe 1 (45.0%)",
@@ -9745,8 +9789,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1787,
 							"count": 1
@@ -9788,6 +9831,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -10153,22 +10197,12 @@
 					],
 					"spells": [
 						{
-							"spell_id": 1953,
-							"count": 2
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 66,
 							"count": 1
+						},
+						{
+							"spell_id": 1953,
+							"count": 2
 						},
 						{
 							"spell_id": 11958,
@@ -10183,10 +10217,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 30451,
 							"count": 50
+						},
+						{
+							"spell_id": 45438,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}

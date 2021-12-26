@@ -11,6 +11,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 30,
+						"spell_id": 8005,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=8005",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
 						"uuid": "missing_battle_elixir:Lady Vashj"
@@ -60,12 +70,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 526,
 							"count": 3
 						},
@@ -107,6 +111,10 @@
 						},
 						{
 							"spell_id": 25442,
+							"count": 2
+						},
+						{
+							"spell_id": 25449,
 							"count": 2
 						},
 						{
@@ -154,6 +162,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -227,6 +236,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 1 (49%)",
+						"count": 2,
+						"spell_id": 10466,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10466",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 1 (49%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 1 (49%)",
+						"count": 30,
+						"spell_id": 8005,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=8005",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 1 (49%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -521,8 +550,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 526,
 							"count": 2
@@ -592,6 +620,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -661,6 +690,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 2 (70%)",
+						"count": 36,
+						"spell_id": 8005,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=8005",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 2 (70%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (70%)",
@@ -953,12 +992,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 526,
 							"count": 1
 						},
@@ -995,6 +1028,10 @@
 							"count": 4
 						},
 						{
+							"spell_id": 25449,
+							"count": 1
+						},
+						{
 							"spell_id": 25454,
 							"count": 3
 						},
@@ -1023,6 +1060,7 @@
 							"count": 33
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -1092,6 +1130,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 3 (16%)",
+						"count": 7,
+						"spell_id": 10466,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10466",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 3 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 3 (16%)",
+						"count": 43,
+						"spell_id": 8005,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=8005",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 3 (16%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (16%)",
@@ -1380,8 +1438,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 8005,
 							"count": 43
@@ -1447,6 +1504,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -1457,6 +1515,66 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 1 (49%)",
+				"count": 2,
+				"spell_id": 10466,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10466",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 1 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 3 (16%)",
+				"count": 7,
+				"spell_id": 10466,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10466",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 3 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 30,
+				"spell_id": 8005,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=8005",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 1 (49%)",
+				"count": 30,
+				"spell_id": 8005,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=8005",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 1 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 2 (70%)",
+				"count": 36,
+				"spell_id": 8005,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=8005",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 2 (70%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 3 (16%)",
+				"count": 43,
+				"spell_id": 8005,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=8005",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 3 (16%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -1572,12 +1690,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 88
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 526,
 							"count": 1
 						},
@@ -1596,6 +1708,10 @@
 						{
 							"spell_id": 25442,
 							"count": 29
+						},
+						{
+							"spell_id": 25449,
+							"count": 88
 						},
 						{
 							"spell_id": 25457,
@@ -1630,6 +1746,7 @@
 							"count": 7
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -1992,12 +2109,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 60
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2484,
 							"count": 5
 						},
@@ -2012,6 +2123,10 @@
 						{
 							"spell_id": 25442,
 							"count": 29
+						},
+						{
+							"spell_id": 25449,
+							"count": 60
 						},
 						{
 							"spell_id": 25457,
@@ -2038,6 +2153,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2387,12 +2503,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 54
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 526,
 							"count": 2
 						},
@@ -2411,6 +2521,10 @@
 						{
 							"spell_id": 25442,
 							"count": 28
+						},
+						{
+							"spell_id": 25449,
+							"count": 54
 						},
 						{
 							"spell_id": 25457,
@@ -2445,6 +2559,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2804,12 +2919,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 96
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2484,
 							"count": 3
 						},
@@ -2828,6 +2937,10 @@
 						{
 							"spell_id": 25442,
 							"count": 28
+						},
+						{
+							"spell_id": 25449,
+							"count": 96
 						},
 						{
 							"spell_id": 25457,
@@ -2870,6 +2983,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2952,8 +3066,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -3011,6 +3124,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -3356,8 +3470,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 26985,
 							"count": 4
@@ -3399,6 +3512,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -3746,8 +3860,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 768,
 							"count": 2
@@ -3797,6 +3910,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -4154,20 +4268,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 4
-						},
-						{
-							"spell_id": 26982,
-							"count": 1
-						},
-						{
-							"spell_id": 33763,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 1
 						},
@@ -4178,6 +4278,14 @@
 						{
 							"spell_id": 24858,
 							"count": 3
+						},
+						{
+							"spell_id": 26980,
+							"count": 4
+						},
+						{
+							"spell_id": 26982,
+							"count": 1
 						},
 						{
 							"spell_id": 26985,
@@ -4216,6 +4324,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 5
+						},
+						{
 							"spell_id": 33786,
 							"count": 2
 						},
@@ -4236,6 +4348,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -4471,8 +4584,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 26
@@ -4506,6 +4618,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -4853,8 +4966,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 21
@@ -4904,6 +5016,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -5243,8 +5356,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 23
@@ -5282,6 +5394,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -5624,8 +5737,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 21
@@ -5675,6 +5787,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -5783,16 +5896,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 27222,
-							"count": 30
-						},
-						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 26
 						},
@@ -5809,6 +5912,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27222,
+							"count": 30
+						},
+						{
 							"spell_id": 27228,
 							"count": 7
 						},
@@ -5821,6 +5928,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 30546,
+							"count": 1
+						},
+						{
 							"spell_id": 30911,
 							"count": 16
 						},
@@ -5829,6 +5940,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -6171,16 +6283,6 @@
 							"count": 72
 						},
 						{
-							"spell_id": 27222,
-							"count": 20
-						},
-						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 21
 						},
@@ -6197,11 +6299,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27222,
+							"count": 20
+						},
+						{
 							"spell_id": 27228,
 							"count": 6
 						},
 						{
 							"spell_id": 27238,
+							"count": 1
+						},
+						{
+							"spell_id": 30546,
 							"count": 1
 						},
 						{
@@ -6213,6 +6323,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -6543,16 +6654,6 @@
 							"count": 80
 						},
 						{
-							"spell_id": 27222,
-							"count": 23
-						},
-						{
-							"spell_id": 30546,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 20
 						},
@@ -6565,8 +6666,16 @@
 							"count": 5
 						},
 						{
+							"spell_id": 27222,
+							"count": 23
+						},
+						{
 							"spell_id": 27228,
 							"count": 6
+						},
+						{
+							"spell_id": 30546,
+							"count": 2
 						},
 						{
 							"spell_id": 30911,
@@ -6577,6 +6686,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -6919,25 +7029,11 @@
 							"count": 106
 						},
 						{
-							"spell_id": 27215,
-							"count": 1
-						},
-						{
-							"spell_id": 27222,
-							"count": 30
-						},
-						{
-							"spell_id": 27223,
-							"count": 1
-						},
-						{
-							"spell_id": 30546,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27212,
+							"count": 1
+						},
+						{
+							"spell_id": 27215,
 							"count": 1
 						},
 						{
@@ -6953,12 +7049,24 @@
 							"count": 4
 						},
 						{
+							"spell_id": 27222,
+							"count": 30
+						},
+						{
+							"spell_id": 27223,
+							"count": 1
+						},
+						{
 							"spell_id": 27228,
 							"count": 6
 						},
 						{
 							"spell_id": 27235,
 							"count": 1
+						},
+						{
+							"spell_id": 30546,
+							"count": 2
 						},
 						{
 							"spell_id": 30909,
@@ -6977,6 +7085,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -7068,16 +7177,6 @@
 							"count": 6
 						},
 						{
-							"spell_id": 25218,
-							"count": 4
-						},
-						{
-							"spell_id": 32996,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 4
 						},
@@ -7088,6 +7187,10 @@
 						{
 							"spell_id": 15473,
 							"count": 1
+						},
+						{
+							"spell_id": 25218,
+							"count": 4
 						},
 						{
 							"spell_id": 25368,
@@ -7110,6 +7213,10 @@
 							"count": 4
 						},
 						{
+							"spell_id": 32996,
+							"count": 8
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -7118,6 +7225,7 @@
 							"count": 28
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -7465,22 +7573,16 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25218,
-							"count": 2
-						},
-						{
-							"spell_id": 32996,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 3
 						},
 						{
 							"spell_id": 15286,
 							"count": 1
+						},
+						{
+							"spell_id": 25218,
+							"count": 2
 						},
 						{
 							"spell_id": 25368,
@@ -7499,10 +7601,15 @@
 							"count": 4
 						},
 						{
+							"spell_id": 32996,
+							"count": 2
+						},
+						{
 							"spell_id": 34917,
 							"count": 21
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -7857,22 +7964,16 @@
 							"count": 22
 						},
 						{
-							"spell_id": 25218,
-							"count": 3
-						},
-						{
-							"spell_id": 32996,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 3
 						},
 						{
 							"spell_id": 15286,
 							"count": 2
+						},
+						{
+							"spell_id": 25218,
+							"count": 3
 						},
 						{
 							"spell_id": 25368,
@@ -7891,6 +7992,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 32996,
+							"count": 1
+						},
+						{
 							"spell_id": 34917,
 							"count": 17
 						},
@@ -7903,6 +8008,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -8261,20 +8367,6 @@
 							"count": 26
 						},
 						{
-							"spell_id": 25218,
-							"count": 3
-						},
-						{
-							"spell_id": 25431,
-							"count": 1
-						},
-						{
-							"spell_id": 32996,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 10890,
 							"count": 1
 						},
@@ -8289,6 +8381,10 @@
 						{
 							"spell_id": 15473,
 							"count": 1
+						},
+						{
+							"spell_id": 25218,
+							"count": 3
 						},
 						{
 							"spell_id": 25368,
@@ -8307,6 +8403,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 25431,
+							"count": 1
+						},
+						{
 							"spell_id": 25437,
 							"count": 1
 						},
@@ -8315,10 +8415,15 @@
 							"count": 4
 						},
 						{
+							"spell_id": 32996,
+							"count": 4
+						},
+						{
 							"spell_id": 34917,
 							"count": 20
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -8388,6 +8493,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 4,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
 						"uuid": "missing_battle_elixir:Lady Vashj"
@@ -8441,8 +8556,24 @@
 							"count": 53
 						},
 						{
+							"spell_id": 6064,
+							"count": 1
+						},
+						{
+							"spell_id": 10890,
+							"count": 1
+						},
+						{
 							"spell_id": 10964,
 							"count": 4
+						},
+						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
+							"spell_id": 20594,
+							"count": 1
 						},
 						{
 							"spell_id": 25213,
@@ -8459,40 +8590,6 @@
 						{
 							"spell_id": 25235,
 							"count": 56
-						},
-						{
-							"spell_id": 32546,
-							"count": 8
-						},
-						{
-							"spell_id": 32996,
-							"count": 10
-						},
-						{
-							"spell_id": 33076,
-							"count": 17
-						},
-						{
-							"spell_id": 34866,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6064,
-							"count": 1
-						},
-						{
-							"spell_id": 10890,
-							"count": 1
-						},
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
-							"spell_id": 20594,
-							"count": 1
 						},
 						{
 							"spell_id": 25364,
@@ -8515,10 +8612,27 @@
 							"count": 1
 						},
 						{
+							"spell_id": 32546,
+							"count": 8
+						},
+						{
+							"spell_id": 32996,
+							"count": 10
+						},
+						{
+							"spell_id": 33076,
+							"count": 17
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
+						},
+						{
+							"spell_id": 34866,
+							"count": 11
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -8580,6 +8694,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 1 (49%)",
+						"count": 3,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (49%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -8852,6 +8976,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 20594,
+							"count": 1
+						},
+						{
 							"spell_id": 25218,
 							"count": 7
 						},
@@ -8862,6 +8990,18 @@
 						{
 							"spell_id": 25235,
 							"count": 46
+						},
+						{
+							"spell_id": 25364,
+							"count": 10
+						},
+						{
+							"spell_id": 25368,
+							"count": 1
+						},
+						{
+							"spell_id": 25375,
+							"count": 6
 						},
 						{
 							"spell_id": 32546,
@@ -8878,24 +9018,6 @@
 						{
 							"spell_id": 34866,
 							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 20594,
-							"count": 1
-						},
-						{
-							"spell_id": 25364,
-							"count": 10
-						},
-						{
-							"spell_id": 25368,
-							"count": 1
-						},
-						{
-							"spell_id": 25375,
-							"count": 6
 						},
 						{
 							"spell_id": 38132,
@@ -8906,6 +9028,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8954,6 +9077,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 2 (70%)",
+						"count": 7,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (70%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (70%)",
@@ -9228,6 +9361,14 @@
 							"count": 7
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
+							"spell_id": 20594,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 2
 						},
@@ -9242,6 +9383,18 @@
 						{
 							"spell_id": 25235,
 							"count": 26
+						},
+						{
+							"spell_id": 25375,
+							"count": 1
+						},
+						{
+							"spell_id": 25389,
+							"count": 1
+						},
+						{
+							"spell_id": 25429,
+							"count": 1
 						},
 						{
 							"spell_id": 25431,
@@ -9264,28 +9417,7 @@
 							"count": 3
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
-							"spell_id": 20594,
-							"count": 1
-						},
-						{
-							"spell_id": 25375,
-							"count": 1
-						},
-						{
-							"spell_id": 25389,
-							"count": 1
-						},
-						{
-							"spell_id": 25429,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -9339,6 +9471,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 3 (16%)",
+						"count": 4,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 3 (16%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (16%)",
@@ -9626,6 +9768,10 @@
 							"count": 53
 						},
 						{
+							"spell_id": 25375,
+							"count": 2
+						},
+						{
 							"spell_id": 32546,
 							"count": 6
 						},
@@ -9636,12 +9782,6 @@
 						{
 							"spell_id": 33076,
 							"count": 16
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 25375,
-							"count": 2
 						},
 						{
 							"spell_id": 34433,
@@ -9656,6 +9796,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -9666,6 +9807,46 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 4,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 1 (49%)",
+				"count": 3,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 2 (70%)",
+				"count": 7,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (70%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 3 (16%)",
+				"count": 4,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 3 (16%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -9788,12 +9969,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 20600,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2094,
 							"count": 1
 						},
@@ -9812,6 +9987,10 @@
 						{
 							"spell_id": 13877,
 							"count": 3
+						},
+						{
+							"spell_id": 20600,
+							"count": 1
 						},
 						{
 							"spell_id": 26862,
@@ -9846,6 +10025,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -10193,12 +10373,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 20600,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6774,
 							"count": 15
 						},
@@ -10213,6 +10387,10 @@
 						{
 							"spell_id": 13877,
 							"count": 3
+						},
+						{
+							"spell_id": 20600,
+							"count": 1
 						},
 						{
 							"spell_id": 26862,
@@ -10243,6 +10421,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -10569,8 +10748,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 17
@@ -10608,6 +10786,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -10933,8 +11112,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 18
@@ -10968,6 +11146,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -11060,16 +11239,6 @@
 							"count": 217
 						},
 						{
-							"spell_id": 34026,
-							"count": 69
-						},
-						{
-							"spell_id": 34120,
-							"count": 242
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 2
 						},
@@ -11106,8 +11275,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 69
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 242
 						},
 						{
 							"spell_id": 34477,
@@ -11134,6 +11311,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -11476,16 +11654,6 @@
 							"count": 122
 						},
 						{
-							"spell_id": 34026,
-							"count": 41
-						},
-						{
-							"spell_id": 34120,
-							"count": 130
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -11514,8 +11682,16 @@
 							"count": 5
 						},
 						{
+							"spell_id": 34026,
+							"count": 41
+						},
+						{
 							"spell_id": 34074,
 							"count": 2
+						},
+						{
+							"spell_id": 34120,
+							"count": 130
 						},
 						{
 							"spell_id": 34477,
@@ -11538,6 +11714,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -11873,16 +12050,6 @@
 							"count": 126
 						},
 						{
-							"spell_id": 34026,
-							"count": 40
-						},
-						{
-							"spell_id": 34120,
-							"count": 144
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -11907,8 +12074,16 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 40
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 144
 						},
 						{
 							"spell_id": 34477,
@@ -11931,6 +12106,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -12282,16 +12458,6 @@
 							"count": 179
 						},
 						{
-							"spell_id": 34026,
-							"count": 51
-						},
-						{
-							"spell_id": 34120,
-							"count": 205
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 2
 						},
@@ -12344,8 +12510,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 51
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 205
 						},
 						{
 							"spell_id": 34477,
@@ -12376,6 +12550,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -12453,6 +12628,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8946,
+							"count": 2
+						},
+						{
 							"spell_id": 17116,
 							"count": 4
 						},
@@ -12461,30 +12640,16 @@
 							"count": 12
 						},
 						{
+							"spell_id": 22812,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 5
 						},
 						{
 							"spell_id": 26982,
 							"count": 64
-						},
-						{
-							"spell_id": 33763,
-							"count": 194
-						},
-						{
-							"spell_id": 33891,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 8946,
-							"count": 2
-						},
-						{
-							"spell_id": 22812,
-							"count": 1
 						},
 						{
 							"spell_id": 26990,
@@ -12511,6 +12676,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 194
+						},
+						{
+							"spell_id": 33891,
+							"count": 2
+						},
+						{
 							"spell_id": 35165,
 							"count": 5
 						},
@@ -12527,6 +12700,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -12887,6 +13061,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8946,
+							"count": 2
+						},
+						{
 							"spell_id": 17116,
 							"count": 2
 						},
@@ -12903,18 +13081,12 @@
 							"count": 29
 						},
 						{
-							"spell_id": 33763,
-							"count": 125
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 8946,
-							"count": 2
-						},
-						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 125
 						},
 						{
 							"spell_id": 35165,
@@ -12933,6 +13105,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13294,6 +13467,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8946,
+							"count": 4
+						},
+						{
 							"spell_id": 17116,
 							"count": 3
 						},
@@ -13310,21 +13487,15 @@
 							"count": 44
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 134
 						},
 						{
 							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 8946,
-							"count": 4
-						},
-						{
-							"spell_id": 29166,
 							"count": 1
 						},
 						{
@@ -13344,6 +13515,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13707,12 +13879,20 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8946,
+							"count": 2
+						},
+						{
 							"spell_id": 17116,
 							"count": 3
 						},
 						{
 							"spell_id": 18562,
 							"count": 17
+						},
+						{
+							"spell_id": 22812,
+							"count": 2
 						},
 						{
 							"spell_id": 26980,
@@ -13723,30 +13903,20 @@
 							"count": 81
 						},
 						{
-							"spell_id": 33763,
-							"count": 163
-						},
-						{
-							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 8946,
-							"count": 2
-						},
-						{
-							"spell_id": 22812,
-							"count": 2
-						},
-						{
 							"spell_id": 27236,
 							"count": 1
 						},
 						{
 							"spell_id": 29166,
 							"count": 2
+						},
+						{
+							"spell_id": 33763,
+							"count": 163
+						},
+						{
+							"spell_id": 33891,
+							"count": 1
 						},
 						{
 							"spell_id": 35165,
@@ -13765,6 +13935,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13889,8 +14060,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1020,
 							"count": 1
@@ -13952,6 +14122,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -14250,8 +14421,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1044,
 							"count": 3
@@ -14285,6 +14455,7 @@
 							"count": 7
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -14589,8 +14760,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1044,
 							"count": 2
@@ -14624,6 +14794,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -14927,8 +15098,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1044,
 							"count": 3
@@ -14982,6 +15152,7 @@
 							"count": 11
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -15127,16 +15298,6 @@
 							"count": 4
 						},
 						{
-							"spell_id": 33043,
-							"count": 1
-						},
-						{
-							"spell_id": 33933,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27085,
 							"count": 2
 						},
@@ -15147,8 +15308,17 @@
 						{
 							"spell_id": 31367,
 							"count": 4
+						},
+						{
+							"spell_id": 33043,
+							"count": 1
+						},
+						{
+							"spell_id": 33933,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -15867,9 +16037,7 @@
 						{
 							"spell_id": 27079,
 							"count": 3
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 31367,
 							"count": 4
@@ -15883,6 +16051,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -16238,6 +16407,10 @@
 							"count": 4
 						},
 						{
+							"spell_id": 10058,
+							"count": 1
+						},
+						{
 							"spell_id": 12051,
 							"count": 1
 						},
@@ -16258,24 +16431,19 @@
 							"count": 3
 						},
 						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10058,
-							"count": 1
-						},
-						{
 							"spell_id": 27131,
 							"count": 1
 						},
 						{
 							"spell_id": 31367,
 							"count": 4
+						},
+						{
+							"spell_id": 45438,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -16393,16 +16561,6 @@
 							"count": 180
 						},
 						{
-							"spell_id": 34026,
-							"count": 55
-						},
-						{
-							"spell_id": 34120,
-							"count": 168
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -16443,8 +16601,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 55
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 168
 						},
 						{
 							"spell_id": 34477,
@@ -16467,6 +16633,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -16831,16 +16998,6 @@
 							"count": 128
 						},
 						{
-							"spell_id": 34026,
-							"count": 43
-						},
-						{
-							"spell_id": 34120,
-							"count": 113
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2641,
 							"count": 1
 						},
@@ -16865,8 +17022,16 @@
 							"count": 3
 						},
 						{
+							"spell_id": 34026,
+							"count": 43
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 113
 						},
 						{
 							"spell_id": 34477,
@@ -16885,6 +17050,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -17241,16 +17407,6 @@
 							"count": 112
 						},
 						{
-							"spell_id": 34026,
-							"count": 39
-						},
-						{
-							"spell_id": 34120,
-							"count": 117
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -17271,8 +17427,16 @@
 							"count": 6
 						},
 						{
+							"spell_id": 34026,
+							"count": 39
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 117
 						},
 						{
 							"spell_id": 34477,
@@ -17283,6 +17447,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -17640,16 +17805,6 @@
 							"count": 165
 						},
 						{
-							"spell_id": 34026,
-							"count": 45
-						},
-						{
-							"spell_id": 34120,
-							"count": 167
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -17670,8 +17825,16 @@
 							"count": 3
 						},
 						{
+							"spell_id": 34026,
+							"count": 45
+						},
+						{
 							"spell_id": 34074,
 							"count": 2
+						},
+						{
+							"spell_id": 34120,
+							"count": 167
 						},
 						{
 							"spell_id": 34477,
@@ -17686,6 +17849,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -17776,20 +17940,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 4
-						},
-						{
-							"spell_id": 27079,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -17802,8 +17952,20 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 4
+						},
+						{
 							"spell_id": 27072,
 							"count": 48
+						},
+						{
+							"spell_id": 27079,
+							"count": 9
 						},
 						{
 							"spell_id": 27087,
@@ -17822,6 +17984,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -18171,16 +18334,6 @@
 							"count": 3
 						},
 						{
-							"spell_id": 12472,
-							"count": 3
-						},
-						{
-							"spell_id": 27079,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 3
 						},
@@ -18189,8 +18342,16 @@
 							"count": 3
 						},
 						{
+							"spell_id": 12472,
+							"count": 3
+						},
+						{
 							"spell_id": 27072,
 							"count": 34
+						},
+						{
+							"spell_id": 27079,
+							"count": 2
 						},
 						{
 							"spell_id": 30451,
@@ -18205,6 +18366,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -18555,16 +18717,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12472,
-							"count": 3
-						},
-						{
-							"spell_id": 27079,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 3
 						},
@@ -18573,8 +18725,16 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12472,
+							"count": 3
+						},
+						{
 							"spell_id": 27072,
 							"count": 39
+						},
+						{
+							"spell_id": 27079,
+							"count": 8
 						},
 						{
 							"spell_id": 30451,
@@ -18593,6 +18753,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -18947,20 +19108,6 @@
 							"count": 2
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 4
-						},
-						{
-							"spell_id": 27079,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -18973,8 +19120,20 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 4
+						},
+						{
 							"spell_id": 27072,
 							"count": 41
+						},
+						{
+							"spell_id": 27079,
+							"count": 9
 						},
 						{
 							"spell_id": 27085,
@@ -19001,6 +19160,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19102,12 +19262,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 101
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 38
 						},
@@ -19144,6 +19298,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 101
+						},
+						{
 							"spell_id": 30335,
 							"count": 65
 						},
@@ -19156,6 +19314,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -19555,12 +19714,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 54
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 31
 						},
@@ -19613,6 +19766,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 54
+						},
+						{
 							"spell_id": 30335,
 							"count": 50
 						},
@@ -19625,6 +19782,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -20011,12 +20169,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 85
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 1
 						},
@@ -20053,6 +20205,10 @@
 							"count": 5
 						},
 						{
+							"spell_id": 29707,
+							"count": 85
+						},
+						{
 							"spell_id": 30335,
 							"count": 42
 						},
@@ -20065,6 +20221,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -20452,12 +20609,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 101
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -20514,6 +20665,10 @@
 							"count": 6
 						},
 						{
+							"spell_id": 29707,
+							"count": 101
+						},
+						{
 							"spell_id": 30335,
 							"count": 54
 						},
@@ -20526,6 +20681,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -20628,12 +20784,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 86
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 40
 						},
@@ -20670,6 +20820,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 86
+						},
+						{
 							"spell_id": 30335,
 							"count": 59
 						},
@@ -20686,6 +20840,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -21010,12 +21165,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 73
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 33
 						},
@@ -21064,6 +21213,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 73
+						},
+						{
 							"spell_id": 30335,
 							"count": 46
 						},
@@ -21080,6 +21233,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -21409,12 +21563,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 73
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 27
 						},
@@ -21459,6 +21607,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 73
+						},
+						{
 							"spell_id": 30335,
 							"count": 42
 						},
@@ -21475,6 +21627,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -21787,12 +21940,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 64
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 28
 						},
@@ -21825,6 +21972,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 64
+						},
+						{
 							"spell_id": 30335,
 							"count": 42
 						},
@@ -21841,6 +21992,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -21879,6 +22031,16 @@
 				"name": "Lady Vashj",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 6,
+						"spell_id": 11675,
+						"suggested_spell_id": 27217,
+						"spell_wowhead_attr": "spell=11675",
+						"higher_ranked_spell_wowhead_attr": "spell=27217",
+						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
@@ -21924,12 +22086,20 @@
 					],
 					"spells": [
 						{
+							"spell_id": 11675,
+							"count": 6
+						},
+						{
 							"spell_id": 27209,
 							"count": 146
 						},
 						{
 							"spell_id": 27215,
 							"count": 33
+						},
+						{
+							"spell_id": 27218,
+							"count": 15
 						},
 						{
 							"spell_id": 27222,
@@ -21944,6 +22114,14 @@
 							"count": 3
 						},
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 29858,
 							"count": 1
 						},
@@ -21954,24 +22132,6 @@
 						{
 							"spell_id": 30912,
 							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 11675,
-							"count": 6
-						},
-						{
-							"spell_id": 27218,
-							"count": 15
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 31367,
@@ -21982,6 +22142,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -22050,7 +22211,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 1 (49%)",
+						"count": 4,
+						"spell_id": 11675,
+						"suggested_spell_id": 27217,
+						"spell_wowhead_attr": "spell=11675",
+						"higher_ranked_spell_wowhead_attr": "spell=27217",
+						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 1 (49%)"
+					}
+				],
 				"talents": {
 					"points": [
 						0,
@@ -22328,12 +22500,24 @@
 					],
 					"spells": [
 						{
+							"spell_id": 11675,
+							"count": 4
+						},
+						{
 							"spell_id": 27209,
 							"count": 87
 						},
 						{
+							"spell_id": 27213,
+							"count": 1
+						},
+						{
 							"spell_id": 27215,
 							"count": 25
+						},
+						{
+							"spell_id": 27218,
+							"count": 9
 						},
 						{
 							"spell_id": 27222,
@@ -22344,30 +22528,16 @@
 							"count": 4
 						},
 						{
+							"spell_id": 28610,
+							"count": 1
+						},
+						{
 							"spell_id": 30546,
 							"count": 5
 						},
 						{
 							"spell_id": 30912,
 							"count": 6
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 11675,
-							"count": 4
-						},
-						{
-							"spell_id": 27213,
-							"count": 1
-						},
-						{
-							"spell_id": 27218,
-							"count": 9
-						},
-						{
-							"spell_id": 28610,
-							"count": 1
 						},
 						{
 							"spell_id": 31367,
@@ -22378,6 +22548,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -22446,7 +22617,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 2 (70%)",
+						"count": 7,
+						"spell_id": 11675,
+						"suggested_spell_id": 27217,
+						"spell_wowhead_attr": "spell=11675",
+						"higher_ranked_spell_wowhead_attr": "spell=27217",
+						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 2 (70%)"
+					}
+				],
 				"talents": {
 					"points": [
 						0,
@@ -22725,12 +22907,20 @@
 					],
 					"spells": [
 						{
+							"spell_id": 11675,
+							"count": 7
+						},
+						{
 							"spell_id": 27209,
 							"count": 90
 						},
 						{
 							"spell_id": 27215,
 							"count": 22
+						},
+						{
+							"spell_id": 27218,
+							"count": 12
 						},
 						{
 							"spell_id": 27222,
@@ -22745,6 +22935,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 28610,
+							"count": 1
+						},
+						{
 							"spell_id": 29858,
 							"count": 1
 						},
@@ -22755,20 +22949,6 @@
 						{
 							"spell_id": 30912,
 							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 11675,
-							"count": 7
-						},
-						{
-							"spell_id": 27218,
-							"count": 12
-						},
-						{
-							"spell_id": 28610,
-							"count": 1
 						},
 						{
 							"spell_id": 31367,
@@ -22779,6 +22959,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -22847,7 +23028,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 3 (16%)",
+						"count": 4,
+						"spell_id": 11675,
+						"suggested_spell_id": 27217,
+						"spell_wowhead_attr": "spell=11675",
+						"higher_ranked_spell_wowhead_attr": "spell=27217",
+						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 3 (16%)"
+					}
+				],
 				"talents": {
 					"points": [
 						0,
@@ -23126,32 +23318,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 27209,
-							"count": 102
-						},
-						{
-							"spell_id": 27215,
-							"count": 21
-						},
-						{
-							"spell_id": 27222,
-							"count": 24
-						},
-						{
-							"spell_id": 27226,
-							"count": 2
-						},
-						{
-							"spell_id": 30546,
-							"count": 3
-						},
-						{
-							"spell_id": 30912,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 712,
 							"count": 1
 						},
@@ -23164,12 +23330,36 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27209,
+							"count": 102
+						},
+						{
+							"spell_id": 27215,
+							"count": 21
+						},
+						{
 							"spell_id": 27218,
 							"count": 12
 						},
 						{
+							"spell_id": 27222,
+							"count": 24
+						},
+						{
+							"spell_id": 27226,
+							"count": 2
+						},
+						{
 							"spell_id": 27236,
 							"count": 1
+						},
+						{
+							"spell_id": 30546,
+							"count": 3
+						},
+						{
+							"spell_id": 30912,
+							"count": 3
 						},
 						{
 							"spell_id": 31367,
@@ -23180,6 +23370,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -23190,6 +23381,46 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 6,
+				"spell_id": 11675,
+				"suggested_spell_id": 27217,
+				"spell_wowhead_attr": "spell=11675",
+				"higher_ranked_spell_wowhead_attr": "spell=27217",
+				"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 1 (49%)",
+				"count": 4,
+				"spell_id": 11675,
+				"suggested_spell_id": 27217,
+				"spell_wowhead_attr": "spell=11675",
+				"higher_ranked_spell_wowhead_attr": "spell=27217",
+				"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 1 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 2 (70%)",
+				"count": 7,
+				"spell_id": 11675,
+				"suggested_spell_id": 27217,
+				"spell_wowhead_attr": "spell=11675",
+				"higher_ranked_spell_wowhead_attr": "spell=27217",
+				"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 2 (70%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 3 (16%)",
+				"count": 4,
+				"spell_id": 11675,
+				"suggested_spell_id": 27217,
+				"spell_wowhead_attr": "spell=11675",
+				"higher_ranked_spell_wowhead_attr": "spell=27217",
+				"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 3 (16%)"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Lady Vashj",
@@ -23261,16 +23492,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 174
-						},
-						{
-							"spell_id": 30022,
-							"count": 132
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -23323,6 +23544,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 174
+						},
+						{
+							"spell_id": 30022,
+							"count": 132
+						},
+						{
 							"spell_id": 30356,
 							"count": 46
 						},
@@ -23335,6 +23564,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -23666,16 +23896,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 100
-						},
-						{
-							"spell_id": 30022,
-							"count": 94
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -23728,6 +23948,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 100
+						},
+						{
+							"spell_id": 30022,
+							"count": 94
+						},
+						{
 							"spell_id": 30356,
 							"count": 35
 						},
@@ -23740,6 +23968,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24069,16 +24298,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 102
-						},
-						{
-							"spell_id": 30022,
-							"count": 96
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -24123,6 +24342,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 102
+						},
+						{
+							"spell_id": 30022,
+							"count": 96
+						},
+						{
 							"spell_id": 30356,
 							"count": 37
 						},
@@ -24135,6 +24362,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24466,16 +24694,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 133
-						},
-						{
-							"spell_id": 30022,
-							"count": 111
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -24528,6 +24746,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 133
+						},
+						{
+							"spell_id": 30022,
+							"count": 111
+						},
+						{
 							"spell_id": 30356,
 							"count": 39
 						},
@@ -24540,6 +24766,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -24686,42 +24913,20 @@
 					],
 					"spells": [
 						{
-							"spell_id": 1953,
-							"count": 4
-						},
-						{
-							"spell_id": 5019,
-							"count": 2
-						},
-						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 4
-						},
-						{
-							"spell_id": 27074,
-							"count": 3
-						},
-						{
-							"spell_id": 27079,
-							"count": 4
-						},
-						{
-							"spell_id": 45438,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 116,
 							"count": 2
 						},
 						{
+							"spell_id": 1953,
+							"count": 4
+						},
+						{
 							"spell_id": 2948,
 							"count": 1
+						},
+						{
+							"spell_id": 5019,
+							"count": 2
 						},
 						{
 							"spell_id": 11958,
@@ -24736,8 +24941,24 @@
 							"count": 4
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 4
+						},
+						{
 							"spell_id": 27072,
 							"count": 69
+						},
+						{
+							"spell_id": 27074,
+							"count": 3
+						},
+						{
+							"spell_id": 27079,
+							"count": 4
 						},
 						{
 							"spell_id": 27101,
@@ -24752,10 +24973,15 @@
 							"count": 4
 						},
 						{
+							"spell_id": 45438,
+							"count": 2
+						},
+						{
 							"spell_id": 51953,
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25102,26 +25328,16 @@
 					],
 					"spells": [
 						{
+							"spell_id": 66,
+							"count": 1
+						},
+						{
 							"spell_id": 1953,
 							"count": 2
 						},
 						{
 							"spell_id": 5019,
 							"count": 2
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 27079,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 66,
-							"count": 1
 						},
 						{
 							"spell_id": 12042,
@@ -25132,8 +25348,16 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 27072,
 							"count": 50
+						},
+						{
+							"spell_id": 27079,
+							"count": 9
 						},
 						{
 							"spell_id": 30451,
@@ -25160,6 +25384,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25505,24 +25730,6 @@
 							"count": 2
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 3
-						},
-						{
-							"spell_id": 27074,
-							"count": 1
-						},
-						{
-							"spell_id": 27079,
-							"count": 10
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 3
 						},
@@ -25531,8 +25738,24 @@
 							"count": 3
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 3
+						},
+						{
 							"spell_id": 27072,
 							"count": 45
+						},
+						{
+							"spell_id": 27074,
+							"count": 1
+						},
+						{
+							"spell_id": 27079,
+							"count": 10
 						},
 						{
 							"spell_id": 27101,
@@ -25551,6 +25774,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25890,6 +26114,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 116,
+							"count": 2
+						},
+						{
 							"spell_id": 1953,
 							"count": 4
 						},
@@ -25902,24 +26130,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 27079,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 116,
-							"count": 2
-						},
-						{
 							"spell_id": 12042,
 							"count": 2
 						},
@@ -25928,8 +26138,20 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 27072,
 							"count": 45
+						},
+						{
+							"spell_id": 27079,
+							"count": 6
 						},
 						{
 							"spell_id": 27101,
@@ -25952,6 +26174,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25996,6 +26219,26 @@
 				"name": "Lady Vashj",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 74,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 33,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
@@ -26042,12 +26285,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1044,
 							"count": 2
 						},
@@ -26066,6 +26303,10 @@
 						{
 							"spell_id": 20424,
 							"count": 33
+						},
+						{
+							"spell_id": 27137,
+							"count": 4
 						},
 						{
 							"spell_id": 27140,
@@ -26100,6 +26341,7 @@
 							"count": 66
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -26185,6 +26427,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 1 (49%)",
+						"count": 52,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 1 (49%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 1 (49%)",
+						"count": 19,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 1 (49%)"
+					},
 					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -26444,8 +26706,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1044,
 							"count": 2
@@ -26491,6 +26752,7 @@
 							"count": 48
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -26579,6 +26841,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 2 (70%)",
+						"count": 54,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 2 (70%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 2 (70%)",
+						"count": 28,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 2 (70%)"
+					},
 					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj - Wipe 2 (70%)",
@@ -26832,8 +27114,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10308,
 							"count": 1
@@ -26879,6 +27160,7 @@
 							"count": 47
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -26967,6 +27249,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 3 (16%)",
+						"count": 53,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 3 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 3 (16%)",
+						"count": 20,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 3 (16%)"
+					},
 					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj - Wipe 3 (16%)",
@@ -27238,12 +27540,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1020,
 							"count": 1
 						},
@@ -27274,6 +27570,10 @@
 						{
 							"spell_id": 27136,
 							"count": 2
+						},
+						{
+							"spell_id": 27137,
+							"count": 1
 						},
 						{
 							"spell_id": 27140,
@@ -27320,6 +27620,7 @@
 							"count": 51
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -27330,6 +27631,86 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 74,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 1 (49%)",
+				"count": 52,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 1 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 2 (70%)",
+				"count": 54,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 2 (70%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 3 (16%)",
+				"count": 53,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 3 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 33,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 1 (49%)",
+				"count": 19,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 1 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 2 (70%)",
+				"count": 28,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 2 (70%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 3 (16%)",
+				"count": 20,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 3 (16%)"
+			},
 			{
 				"type": "invalid_gem",
 				"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -27419,6 +27800,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 30,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
 						"uuid": "missing_battle_elixir:Lady Vashj"
@@ -27462,6 +27853,10 @@
 							"count": 30
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 1
 						},
@@ -27478,28 +27873,23 @@
 							"count": 69
 						},
 						{
+							"spell_id": 25429,
+							"count": 1
+						},
+						{
 							"spell_id": 32546,
 							"count": 7
 						},
 						{
 							"spell_id": 33076,
 							"count": 16
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
-							"spell_id": 25429,
-							"count": 1
 						},
 						{
 							"spell_id": 34433,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -27567,7 +27957,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 1 (49%)",
+						"count": 6,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (49%)"
+					}
+				],
 				"talents": {
 					"points": [
 						23,
@@ -27801,8 +28202,20 @@
 							"count": 7
 						},
 						{
+							"spell_id": 6346,
+							"count": 1
+						},
+						{
+							"spell_id": 10890,
+							"count": 1
+						},
+						{
 							"spell_id": 10964,
 							"count": 6
+						},
+						{
+							"spell_id": 14751,
+							"count": 1
 						},
 						{
 							"spell_id": 25213,
@@ -27821,34 +28234,20 @@
 							"count": 81
 						},
 						{
-							"spell_id": 32546,
-							"count": 4
-						},
-						{
-							"spell_id": 33076,
-							"count": 12
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6346,
-							"count": 1
-						},
-						{
-							"spell_id": 10890,
-							"count": 1
-						},
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
 							"spell_id": 25429,
 							"count": 1
 						},
 						{
 							"spell_id": 25437,
 							"count": 1
+						},
+						{
+							"spell_id": 32546,
+							"count": 4
+						},
+						{
+							"spell_id": 33076,
+							"count": 12
 						},
 						{
 							"spell_id": 34433,
@@ -27859,6 +28258,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -27926,7 +28326,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 2 (70%)",
+						"count": 25,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (70%)"
+					}
+				],
 				"talents": {
 					"points": [
 						23,
@@ -28159,6 +28570,10 @@
 							"count": 25
 						},
 						{
+							"spell_id": 14751,
+							"count": 2
+						},
+						{
 							"spell_id": 25218,
 							"count": 2
 						},
@@ -28181,18 +28596,13 @@
 						{
 							"spell_id": 33076,
 							"count": 17
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 2
 						},
 						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -28260,7 +28670,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 3 (16%)",
+						"count": 23,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 3 (16%)"
+					}
+				],
 				"talents": {
 					"points": [
 						23,
@@ -28496,6 +28917,10 @@
 							"count": 23
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 1
 						},
@@ -28512,7 +28937,15 @@
 							"count": 87
 						},
 						{
+							"spell_id": 25429,
+							"count": 1
+						},
+						{
 							"spell_id": 25431,
+							"count": 1
+						},
+						{
+							"spell_id": 25437,
 							"count": 1
 						},
 						{
@@ -28522,26 +28955,13 @@
 						{
 							"spell_id": 33076,
 							"count": 24
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
-							"spell_id": 25429,
-							"count": 1
-						},
-						{
-							"spell_id": 25437,
-							"count": 1
 						},
 						{
 							"spell_id": 34433,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -28552,6 +28972,46 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 30,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 1 (49%)",
+				"count": 6,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 2 (70%)",
+				"count": 25,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (70%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 3 (16%)",
+				"count": 23,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 3 (16%)"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Lady Vashj",
@@ -28625,16 +29085,6 @@
 							"count": 239
 						},
 						{
-							"spell_id": 34026,
-							"count": 57
-						},
-						{
-							"spell_id": 34120,
-							"count": 194
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 883,
 							"count": 1
 						},
@@ -28671,8 +29121,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 57
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 194
 						},
 						{
 							"spell_id": 34477,
@@ -28687,6 +29145,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -29048,16 +29507,6 @@
 							"count": 141
 						},
 						{
-							"spell_id": 34026,
-							"count": 40
-						},
-						{
-							"spell_id": 34120,
-							"count": 123
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -29082,8 +29531,16 @@
 							"count": 12
 						},
 						{
+							"spell_id": 34026,
+							"count": 40
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 123
 						},
 						{
 							"spell_id": 34477,
@@ -29098,6 +29555,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -29452,16 +29910,6 @@
 							"count": 139
 						},
 						{
-							"spell_id": 34026,
-							"count": 39
-						},
-						{
-							"spell_id": 34120,
-							"count": 119
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -29482,8 +29930,16 @@
 							"count": 7
 						},
 						{
+							"spell_id": 34026,
+							"count": 39
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 119
 						},
 						{
 							"spell_id": 34477,
@@ -29506,6 +29962,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -29873,16 +30330,6 @@
 							"count": 181
 						},
 						{
-							"spell_id": 34026,
-							"count": 45
-						},
-						{
-							"spell_id": 34120,
-							"count": 153
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -29939,8 +30386,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 45
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 153
 						},
 						{
 							"spell_id": 34477,
@@ -29975,6 +30430,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -30013,6 +30469,16 @@
 				"name": "Lady Vashj",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 3,
+						"spell_id": 10395,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=10395",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
@@ -30060,12 +30526,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 526,
 							"count": 4
 						},
@@ -30099,6 +30559,10 @@
 						},
 						{
 							"spell_id": 25442,
+							"count": 5
+						},
+						{
+							"spell_id": 25449,
 							"count": 5
 						},
 						{
@@ -30150,6 +30614,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -30227,6 +30692,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 1 (49%)",
+						"count": 6,
+						"spell_id": 10395,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=10395",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 1 (49%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -30512,12 +30987,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 526,
 							"count": 3
 						},
@@ -30547,6 +31016,10 @@
 						},
 						{
 							"spell_id": 25442,
+							"count": 5
+						},
+						{
+							"spell_id": 25449,
 							"count": 5
 						},
 						{
@@ -30590,6 +31063,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -30654,6 +31128,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 2 (70%)",
+						"count": 2,
+						"spell_id": 10395,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=10395",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 2 (70%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (70%)",
@@ -30942,12 +31426,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 526,
 							"count": 4
 						},
@@ -30970,6 +31448,10 @@
 						{
 							"spell_id": 25442,
 							"count": 7
+						},
+						{
+							"spell_id": 25449,
+							"count": 4
 						},
 						{
 							"spell_id": 25528,
@@ -31012,6 +31494,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -31084,6 +31567,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj - Wipe 3 (16%)",
+						"count": 4,
+						"spell_id": 10395,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=10395",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 3 (16%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (16%)",
@@ -31378,12 +31871,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 12
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2894,
 							"count": 1
 						},
@@ -31422,6 +31909,10 @@
 						{
 							"spell_id": 25442,
 							"count": 10
+						},
+						{
+							"spell_id": 25449,
+							"count": 12
 						},
 						{
 							"spell_id": 25457,
@@ -31484,6 +31975,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -31494,6 +31986,46 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 3,
+				"spell_id": 10395,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=10395",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 1 (49%)",
+				"count": 6,
+				"spell_id": 10395,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=10395",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 1 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 2 (70%)",
+				"count": 2,
+				"spell_id": 10395,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=10395",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 2 (70%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj - Wipe 3 (16%)",
+				"count": 4,
+				"spell_id": 10395,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=10395",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 3 (16%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -31678,24 +32210,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 2
-						},
-						{
-							"spell_id": 27002,
-							"count": 87
-						},
-						{
-							"spell_id": 33763,
-							"count": 3
-						},
-						{
-							"spell_id": 33987,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 52
 						},
@@ -31720,6 +32234,10 @@
 							"count": 7
 						},
 						{
+							"spell_id": 26980,
+							"count": 2
+						},
+						{
 							"spell_id": 26994,
 							"count": 1
 						},
@@ -31734,6 +32252,10 @@
 						{
 							"spell_id": 26998,
 							"count": 6
+						},
+						{
+							"spell_id": 27002,
+							"count": 87
 						},
 						{
 							"spell_id": 27003,
@@ -31760,8 +32282,16 @@
 							"count": 4
 						},
 						{
+							"spell_id": 33763,
+							"count": 3
+						},
+						{
 							"spell_id": 33983,
 							"count": 29
+						},
+						{
+							"spell_id": 33987,
+							"count": 7
 						},
 						{
 							"spell_id": 35166,
@@ -31776,6 +32306,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -32056,16 +32587,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 16
-						},
-						{
-							"spell_id": 33987,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 8
 						},
@@ -32078,12 +32599,20 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27002,
+							"count": 16
+						},
+						{
 							"spell_id": 27008,
 							"count": 3
 						},
 						{
 							"spell_id": 33983,
 							"count": 5
+						},
+						{
+							"spell_id": 33987,
+							"count": 1
 						},
 						{
 							"spell_id": 35166,
@@ -32094,6 +32623,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -32398,24 +32928,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 1
-						},
-						{
-							"spell_id": 27002,
-							"count": 79
-						},
-						{
-							"spell_id": 33763,
-							"count": 1
-						},
-						{
-							"spell_id": 33987,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 35
 						},
@@ -32440,8 +32952,16 @@
 							"count": 10
 						},
 						{
+							"spell_id": 26980,
+							"count": 1
+						},
+						{
 							"spell_id": 26994,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 79
 						},
 						{
 							"spell_id": 27008,
@@ -32464,8 +32984,16 @@
 							"count": 3
 						},
 						{
+							"spell_id": 33763,
+							"count": 1
+						},
+						{
 							"spell_id": 33983,
 							"count": 34
+						},
+						{
+							"spell_id": 33987,
+							"count": 1
 						},
 						{
 							"spell_id": 35166,
@@ -32476,6 +33004,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -32781,16 +33310,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 83
-						},
-						{
-							"spell_id": 33987,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 47
 						},
@@ -32839,6 +33358,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27002,
+							"count": 83
+						},
+						{
 							"spell_id": 27003,
 							"count": 1
 						},
@@ -32871,6 +33394,10 @@
 							"count": 21
 						},
 						{
+							"spell_id": 33987,
+							"count": 7
+						},
+						{
 							"spell_id": 35166,
 							"count": 4
 						},
@@ -32883,6 +33410,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -32989,22 +33517,20 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12051,
-							"count": 2
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
 						{
 							"spell_id": 12042,
 							"count": 1
+						},
+						{
+							"spell_id": 12051,
+							"count": 2
+						},
+						{
+							"spell_id": 12472,
+							"count": 2
 						},
 						{
 							"spell_id": 27072,
@@ -33039,6 +33565,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -33377,8 +33904,7 @@
 							"count": 2
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 66,
 							"count": 1
@@ -33400,6 +33926,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -33747,14 +34274,12 @@
 							"count": 1
 						},
 						{
-							"spell_id": 27079,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27072,
 							"count": 26
+						},
+						{
+							"spell_id": 27079,
+							"count": 4
 						},
 						{
 							"spell_id": 30451,
@@ -33773,6 +34298,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -34142,6 +34668,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12042,
+							"count": 2
+						},
+						{
 							"spell_id": 12051,
 							"count": 1
 						},
@@ -34150,18 +34680,12 @@
 							"count": 2
 						},
 						{
-							"spell_id": 27079,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 12042,
-							"count": 2
-						},
-						{
 							"spell_id": 27072,
 							"count": 44
+						},
+						{
+							"spell_id": 27079,
+							"count": 3
 						},
 						{
 							"spell_id": 27082,
@@ -34188,6 +34712,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,

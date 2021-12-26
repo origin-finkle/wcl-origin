@@ -323,8 +323,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 15
@@ -362,6 +361,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -673,8 +673,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 12
@@ -708,6 +707,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1036,12 +1036,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 20600,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1044,
 							"count": 3
 						},
@@ -1060,6 +1054,10 @@
 						{
 							"spell_id": 20271,
 							"count": 25
+						},
+						{
+							"spell_id": 20600,
+							"count": 1
 						},
 						{
 							"spell_id": 27144,
@@ -1110,6 +1108,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -1440,8 +1439,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 17
@@ -1491,6 +1489,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1843,8 +1842,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1020,
 							"count": 1
@@ -1894,6 +1892,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -2221,8 +2220,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 17
@@ -2260,6 +2258,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -2667,6 +2666,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 11719,
+							"count": 4
+						},
+						{
 							"spell_id": 27209,
 							"count": 46
 						},
@@ -2675,22 +2678,12 @@
 							"count": 8
 						},
 						{
-							"spell_id": 27222,
-							"count": 6
-						},
-						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 11719,
-							"count": 4
-						},
-						{
 							"spell_id": 27216,
 							"count": 9
+						},
+						{
+							"spell_id": 27222,
+							"count": 6
 						},
 						{
 							"spell_id": 27228,
@@ -2698,6 +2691,10 @@
 						},
 						{
 							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 30546,
 							"count": 1
 						},
 						{
@@ -2709,6 +2706,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -2778,6 +2776,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Hydross the Unstable"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
@@ -3053,14 +3061,12 @@
 							"count": 4
 						},
 						{
-							"spell_id": 27222,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 5
+						},
+						{
+							"spell_id": 27222,
+							"count": 6
 						},
 						{
 							"spell_id": 27228,
@@ -3079,6 +3085,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -3411,7 +3418,15 @@
 					],
 					"spells": [
 						{
+							"spell_id": 688,
+							"count": 1
+						},
+						{
 							"spell_id": 5019,
+							"count": 1
+						},
+						{
+							"spell_id": 11719,
 							"count": 1
 						},
 						{
@@ -3423,6 +3438,10 @@
 							"count": 20
 						},
 						{
+							"spell_id": 27216,
+							"count": 23
+						},
+						{
 							"spell_id": 27222,
 							"count": 23
 						},
@@ -3431,26 +3450,12 @@
 							"count": 1
 						},
 						{
-							"spell_id": 30546,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 688,
-							"count": 1
-						},
-						{
-							"spell_id": 11719,
-							"count": 1
-						},
-						{
-							"spell_id": 27216,
-							"count": 23
-						},
-						{
 							"spell_id": 27228,
 							"count": 12
+						},
+						{
+							"spell_id": 30546,
+							"count": 5
 						},
 						{
 							"spell_id": 30911,
@@ -3461,6 +3466,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -3801,22 +3807,16 @@
 							"count": 12
 						},
 						{
+							"spell_id": 27216,
+							"count": 13
+						},
+						{
 							"spell_id": 27222,
 							"count": 11
 						},
 						{
 							"spell_id": 27223,
 							"count": 1
-						},
-						{
-							"spell_id": 30546,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 27216,
-							"count": 13
 						},
 						{
 							"spell_id": 27228,
@@ -3827,6 +3827,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 30546,
+							"count": 2
+						},
+						{
 							"spell_id": 30911,
 							"count": 5
 						},
@@ -3835,6 +3839,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -4177,22 +4182,16 @@
 							"count": 9
 						},
 						{
+							"spell_id": 27216,
+							"count": 11
+						},
+						{
 							"spell_id": 27222,
 							"count": 12
 						},
 						{
 							"spell_id": 27223,
 							"count": 1
-						},
-						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 27216,
-							"count": 11
 						},
 						{
 							"spell_id": 27228,
@@ -4207,6 +4206,10 @@
 							"count": 23
 						},
 						{
+							"spell_id": 30546,
+							"count": 1
+						},
+						{
 							"spell_id": 30911,
 							"count": 8
 						},
@@ -4215,6 +4218,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -4557,12 +4561,20 @@
 					],
 					"spells": [
 						{
+							"spell_id": 6215,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 58
 						},
 						{
 							"spell_id": 27215,
 							"count": 11
+						},
+						{
+							"spell_id": 27216,
+							"count": 8
 						},
 						{
 							"spell_id": 27222,
@@ -4573,21 +4585,11 @@
 							"count": 1
 						},
 						{
-							"spell_id": 30546,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6215,
-							"count": 1
-						},
-						{
-							"spell_id": 27216,
-							"count": 8
-						},
-						{
 							"spell_id": 27228,
+							"count": 2
+						},
+						{
+							"spell_id": 30546,
 							"count": 2
 						},
 						{
@@ -4599,6 +4601,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -4609,6 +4612,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Hydross the Unstable"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -4732,6 +4745,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 17,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:Fathom-Lord Karathress"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
@@ -5008,8 +5031,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10467,
 							"count": 17
@@ -5067,6 +5089,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -5112,6 +5135,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable",
+						"count": 1,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:Hydross the Unstable"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
@@ -5388,8 +5421,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10467,
 							"count": 1
@@ -5431,6 +5463,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -5494,6 +5527,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 5,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:Lady Vashj"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -5771,8 +5814,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2894,
 							"count": 1
@@ -5838,6 +5880,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -6156,8 +6199,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 16190,
 							"count": 1
@@ -6191,6 +6233,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -6259,6 +6302,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 9,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:Morogrim Tidewalker"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -6532,8 +6585,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10467,
 							"count": 9
@@ -6583,6 +6635,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -6639,6 +6692,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 4,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:The Lurker Below"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
@@ -6918,12 +6981,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 10467,
 							"count": 4
 						},
@@ -6942,6 +6999,10 @@
 						{
 							"spell_id": 25422,
 							"count": 47
+						},
+						{
+							"spell_id": 25449,
+							"count": 1
 						},
 						{
 							"spell_id": 25454,
@@ -6980,6 +7041,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -6990,6 +7052,56 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 17,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable",
+				"count": 1,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:Hydross the Unstable"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 5,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 9,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:Morogrim Tidewalker"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 4,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:The Lurker Below"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -7273,6 +7385,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 1,
+						"spell_id": 635,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=635",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=635:Fathom-Lord Karathress"
+					},
+					{
 						"type": "invalid_battle_elixir",
 						"fight": "Fathom-Lord Karathress",
 						"wowhead_attr": "spell=33721",
@@ -7526,12 +7648,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 81
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 635,
 							"count": 1
 						},
@@ -7546,6 +7662,10 @@
 						{
 							"spell_id": 27136,
 							"count": 5
+						},
+						{
+							"spell_id": 27137,
+							"count": 81
 						},
 						{
 							"spell_id": 27166,
@@ -7564,6 +7684,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -7889,12 +8010,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 66
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1020,
 							"count": 1
 						},
@@ -7909,6 +8024,10 @@
 						{
 							"spell_id": 27136,
 							"count": 6
+						},
+						{
+							"spell_id": 27137,
+							"count": 66
 						},
 						{
 							"spell_id": 27166,
@@ -7927,6 +8046,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -8004,6 +8124,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 1,
+						"spell_id": 635,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=635",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=635:Lady Vashj"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Lady Vashj",
@@ -8262,16 +8392,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 155
-						},
-						{
-							"spell_id": 33072,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 635,
 							"count": 1
 						},
@@ -8292,12 +8412,20 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27137,
+							"count": 155
+						},
+						{
 							"spell_id": 27166,
 							"count": 2
 						},
 						{
 							"spell_id": 31842,
 							"count": 1
+						},
+						{
+							"spell_id": 33072,
+							"count": 3
 						},
 						{
 							"spell_id": 35165,
@@ -8316,6 +8444,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -8635,22 +8764,20 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 112
-						},
-						{
-							"spell_id": 33072,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27136,
 							"count": 2
 						},
 						{
+							"spell_id": 27137,
+							"count": 112
+						},
+						{
 							"spell_id": 31842,
 							"count": 1
+						},
+						{
+							"spell_id": 33072,
+							"count": 2
 						},
 						{
 							"spell_id": 35165,
@@ -8661,6 +8788,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -8994,16 +9122,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 111
-						},
-						{
-							"spell_id": 33072,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 10278,
 							"count": 1
 						},
@@ -9020,12 +9138,20 @@
 							"count": 6
 						},
 						{
+							"spell_id": 27137,
+							"count": 111
+						},
+						{
 							"spell_id": 27166,
 							"count": 2
 						},
 						{
 							"spell_id": 31842,
 							"count": 1
+						},
+						{
+							"spell_id": 33072,
+							"count": 2
 						},
 						{
 							"spell_id": 35165,
@@ -9036,6 +9162,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -9112,7 +9239,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 2,
+						"spell_id": 635,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=635",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=635:The Lurker Below"
+					}
+				],
 				"talents": {
 					"points": [
 						45,
@@ -9362,16 +9500,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 98
-						},
-						{
-							"spell_id": 33072,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 635,
 							"count": 2
 						},
@@ -9388,11 +9516,19 @@
 							"count": 5
 						},
 						{
+							"spell_id": 27137,
+							"count": 98
+						},
+						{
 							"spell_id": 27166,
 							"count": 3
 						},
 						{
 							"spell_id": 31842,
+							"count": 1
+						},
+						{
+							"spell_id": 33072,
 							"count": 1
 						},
 						{
@@ -9404,6 +9540,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -9414,6 +9551,36 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 1,
+				"spell_id": 635,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=635",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=635:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 1,
+				"spell_id": 635,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=635",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=635:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 2,
+				"spell_id": 635,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=635",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=635:The Lurker Below"
+			},
 			{
 				"type": "invalid_battle_elixir",
 				"fight": "Fathom-Lord Karathress",
@@ -9795,8 +9962,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3738,
 							"count": 1
@@ -9838,6 +10004,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -10202,8 +10369,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3738,
 							"count": 2
@@ -10249,6 +10415,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -10326,6 +10493,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 18,
+						"spell_id": 10466,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10466",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -10626,8 +10803,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 526,
 							"count": 5
@@ -10693,6 +10869,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -10754,6 +10931,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 2,
+						"spell_id": 10466,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10466",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10466:Leotheras the Blind"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
@@ -11054,8 +11241,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3738,
 							"count": 2
@@ -11101,6 +11287,7 @@
 							"count": 7
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11170,6 +11357,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 49,
+						"spell_id": 10466,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10466",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10466:Morogrim Tidewalker"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -11468,8 +11665,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3738,
 							"count": 2
@@ -11527,6 +11723,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11596,6 +11793,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 1,
+						"spell_id": 10466,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10466",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10466:The Lurker Below"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 1,
+						"spell_id": 8005,
+						"suggested_spell_id": 25391,
+						"spell_wowhead_attr": "spell=8005",
+						"higher_ranked_spell_wowhead_attr": "spell=25391",
+						"uuid": "cast_higher_rank_available:spell=8005:The Lurker Below"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
@@ -11892,8 +12109,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3738,
 							"count": 2
@@ -11943,6 +12159,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11953,6 +12170,56 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 18,
+				"spell_id": 10466,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10466",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 2,
+				"spell_id": 10466,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10466",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10466:Leotheras the Blind"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 49,
+				"spell_id": 10466,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10466",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10466:Morogrim Tidewalker"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 1,
+				"spell_id": 10466,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10466",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10466:The Lurker Below"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 1,
+				"spell_id": 8005,
+				"suggested_spell_id": 25391,
+				"spell_wowhead_attr": "spell=8005",
+				"higher_ranked_spell_wowhead_attr": "spell=25391",
+				"uuid": "cast_higher_rank_available:spell=8005:The Lurker Below"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -12097,7 +12364,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
+					}
+				],
 				"talents": {
 					"points": [
 						0,
@@ -12380,6 +12658,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27228,
+							"count": 1
+						},
+						{
 							"spell_id": 30546,
 							"count": 1
 						},
@@ -12392,12 +12674,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27228,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -12742,16 +13019,15 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27243,
+							"count": 9
+						},
+						{
 							"spell_id": 30546,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27243,
-							"count": 9
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -13076,12 +13352,24 @@
 					],
 					"spells": [
 						{
+							"spell_id": 11719,
+							"count": 1
+						},
+						{
+							"spell_id": 20589,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 116
 						},
 						{
 							"spell_id": 27215,
 							"count": 23
+						},
+						{
+							"spell_id": 27218,
+							"count": 5
 						},
 						{
 							"spell_id": 27222,
@@ -13098,26 +13386,13 @@
 						{
 							"spell_id": 30912,
 							"count": 6
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 11719,
-							"count": 1
-						},
-						{
-							"spell_id": 20589,
-							"count": 1
-						},
-						{
-							"spell_id": 27218,
-							"count": 5
 						},
 						{
 							"spell_id": 31367,
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -13187,6 +13462,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 41,
+						"spell_id": 29722,
+						"suggested_spell_id": 32231,
+						"spell_wowhead_attr": "spell=29722",
+						"higher_ranked_spell_wowhead_attr": "spell=32231",
+						"uuid": "cast_higher_rank_available:spell=29722:Leotheras the Blind"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
@@ -13422,9 +13707,7 @@
 						{
 							"spell_id": 27226,
 							"count": 4
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 29722,
 							"count": 41
@@ -13434,6 +13717,7 @@
 							"count": 54
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13761,6 +14045,18 @@
 					],
 					"spells": [
 						{
+							"spell_id": 712,
+							"count": 1
+						},
+						{
+							"spell_id": 18708,
+							"count": 1
+						},
+						{
+							"spell_id": 18788,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 48
 						},
@@ -13777,32 +14073,19 @@
 							"count": 2
 						},
 						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 712,
-							"count": 1
-						},
-						{
-							"spell_id": 18708,
-							"count": 1
-						},
-						{
-							"spell_id": 18788,
-							"count": 1
-						},
-						{
 							"spell_id": 27243,
 							"count": 24
 						},
 						{
 							"spell_id": 28189,
 							"count": 1
+						},
+						{
+							"spell_id": 30546,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -14166,6 +14449,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 41,
+				"spell_id": 29722,
+				"suggested_spell_id": 32231,
+				"spell_wowhead_attr": "spell=29722",
+				"higher_ranked_spell_wowhead_attr": "spell=32231",
+				"uuid": "cast_higher_rank_available:spell=29722:Leotheras the Blind"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Leotheras the Blind",
@@ -14533,20 +14836,6 @@
 							"count": 10
 						},
 						{
-							"spell_id": 27222,
-							"count": 6
-						},
-						{
-							"spell_id": 27223,
-							"count": 1
-						},
-						{
-							"spell_id": 30910,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 9
 						},
@@ -14555,14 +14844,27 @@
 							"count": 4
 						},
 						{
+							"spell_id": 27222,
+							"count": 6
+						},
+						{
+							"spell_id": 27223,
+							"count": 1
+						},
+						{
 							"spell_id": 27228,
 							"count": 1
 						},
 						{
 							"spell_id": 30459,
 							"count": 1
+						},
+						{
+							"spell_id": 30910,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -14916,8 +15218,20 @@
 							"count": 8
 						},
 						{
+							"spell_id": 27216,
+							"count": 7
+						},
+						{
+							"spell_id": 27218,
+							"count": 1
+						},
+						{
 							"spell_id": 27222,
 							"count": 7
+						},
+						{
+							"spell_id": 27243,
+							"count": 4
 						},
 						{
 							"spell_id": 30546,
@@ -14928,20 +15242,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27216,
-							"count": 7
-						},
-						{
-							"spell_id": 27218,
-							"count": 1
-						},
-						{
-							"spell_id": 27243,
-							"count": 4
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -15289,6 +15590,18 @@
 					],
 					"spells": [
 						{
+							"spell_id": 11719,
+							"count": 2
+						},
+						{
+							"spell_id": 17928,
+							"count": 1
+						},
+						{
+							"spell_id": 18647,
+							"count": 1
+						},
+						{
 							"spell_id": 20600,
 							"count": 1
 						},
@@ -15299,6 +15612,14 @@
 						{
 							"spell_id": 27215,
 							"count": 20
+						},
+						{
+							"spell_id": 27216,
+							"count": 20
+						},
+						{
+							"spell_id": 27218,
+							"count": 11
 						},
 						{
 							"spell_id": 27222,
@@ -15313,33 +15634,11 @@
 							"count": 3
 						},
 						{
-							"spell_id": 30910,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 11719,
-							"count": 2
-						},
-						{
-							"spell_id": 17928,
-							"count": 1
-						},
-						{
-							"spell_id": 18647,
-							"count": 1
-						},
-						{
-							"spell_id": 27216,
-							"count": 20
-						},
-						{
-							"spell_id": 27218,
-							"count": 11
-						},
-						{
 							"spell_id": 30459,
+							"count": 2
+						},
+						{
+							"spell_id": 30910,
 							"count": 2
 						},
 						{
@@ -15351,6 +15650,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -15686,26 +15986,16 @@
 					],
 					"spells": [
 						{
+							"spell_id": 19028,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 45
 						},
 						{
 							"spell_id": 27215,
 							"count": 13
-						},
-						{
-							"spell_id": 27222,
-							"count": 10
-						},
-						{
-							"spell_id": 30910,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 19028,
-							"count": 1
 						},
 						{
 							"spell_id": 27216,
@@ -15716,10 +16006,19 @@
 							"count": 3
 						},
 						{
+							"spell_id": 27222,
+							"count": 10
+						},
+						{
 							"spell_id": 30146,
+							"count": 2
+						},
+						{
+							"spell_id": 30910,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -16074,8 +16373,20 @@
 							"count": 10
 						},
 						{
+							"spell_id": 27216,
+							"count": 8
+						},
+						{
+							"spell_id": 27218,
+							"count": 2
+						},
+						{
 							"spell_id": 27222,
 							"count": 12
+						},
+						{
+							"spell_id": 27243,
+							"count": 21
 						},
 						{
 							"spell_id": 30546,
@@ -16086,20 +16397,7 @@
 							"count": 3
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27216,
-							"count": 8
-						},
-						{
-							"spell_id": 27218,
-							"count": 2
-						},
-						{
-							"spell_id": 27243,
-							"count": 21
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -16160,7 +16458,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:The Lurker Below"
+					}
+				],
 				"talents": {
 					"points": [
 						1,
@@ -16438,26 +16747,16 @@
 					],
 					"spells": [
 						{
+							"spell_id": 6215,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 47
 						},
 						{
 							"spell_id": 27215,
 							"count": 13
-						},
-						{
-							"spell_id": 27222,
-							"count": 7
-						},
-						{
-							"spell_id": 30910,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6215,
-							"count": 1
 						},
 						{
 							"spell_id": 27216,
@@ -16468,10 +16767,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27222,
+							"count": 7
+						},
+						{
 							"spell_id": 27259,
 							"count": 1
+						},
+						{
+							"spell_id": 30910,
+							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -16482,6 +16790,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:The Lurker Below"
+			},
 			{
 				"type": "missing_food",
 				"fight": "Leotheras the Blind",
@@ -16816,16 +17134,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 4
-						},
-						{
-							"spell_id": 33987,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 6
 						},
@@ -16850,6 +17158,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27002,
+							"count": 4
+						},
+						{
 							"spell_id": 27003,
 							"count": 4
 						},
@@ -16866,6 +17178,10 @@
 							"count": 4
 						},
 						{
+							"spell_id": 33987,
+							"count": 18
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -16874,6 +17190,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -16922,6 +17239,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable",
+						"count": 1,
+						"spell_id": 17392,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17392",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17392:Hydross the Unstable"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
@@ -17218,16 +17545,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 4
-						},
-						{
-							"spell_id": 33987,
-							"count": 10
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 5
 						},
@@ -17242,6 +17559,10 @@
 						{
 							"spell_id": 26997,
 							"count": 3
+						},
+						{
+							"spell_id": 27002,
+							"count": 4
 						},
 						{
 							"spell_id": 27003,
@@ -17264,10 +17585,15 @@
 							"count": 11
 						},
 						{
+							"spell_id": 33987,
+							"count": 10
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -17323,6 +17649,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 8,
+						"spell_id": 17392,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17392",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17392:Lady Vashj"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -17586,24 +17922,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26982,
-							"count": 1
-						},
-						{
-							"spell_id": 27002,
-							"count": 13
-						},
-						{
-							"spell_id": 33763,
-							"count": 2
-						},
-						{
-							"spell_id": 33987,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 14
 						},
@@ -17636,6 +17954,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 26982,
+							"count": 1
+						},
+						{
 							"spell_id": 26988,
 							"count": 1
 						},
@@ -17646,6 +17968,10 @@
 						{
 							"spell_id": 26999,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 13
 						},
 						{
 							"spell_id": 27003,
@@ -17668,8 +17994,16 @@
 							"count": 5
 						},
 						{
+							"spell_id": 33763,
+							"count": 2
+						},
+						{
 							"spell_id": 33983,
 							"count": 13
+						},
+						{
+							"spell_id": 33987,
+							"count": 5
 						},
 						{
 							"spell_id": 35166,
@@ -17688,6 +18022,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -17759,6 +18094,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 1,
+						"spell_id": 17392,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17392",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17392:Leotheras the Blind"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
@@ -18015,16 +18360,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 7
-						},
-						{
-							"spell_id": 33987,
-							"count": 19
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 6
 						},
@@ -18061,6 +18396,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27002,
+							"count": 7
+						},
+						{
 							"spell_id": 27003,
 							"count": 6
 						},
@@ -18081,6 +18420,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 33987,
+							"count": 19
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -18089,6 +18432,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -18409,16 +18753,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 15
-						},
-						{
-							"spell_id": 33987,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 14
 						},
@@ -18459,6 +18793,10 @@
 							"count": 15
 						},
 						{
+							"spell_id": 27002,
+							"count": 15
+						},
+						{
 							"spell_id": 27003,
 							"count": 16
 						},
@@ -18479,6 +18817,10 @@
 							"count": 7
 						},
 						{
+							"spell_id": 33987,
+							"count": 7
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -18487,6 +18829,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -18804,16 +19147,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 19
-						},
-						{
-							"spell_id": 33987,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 15
 						},
@@ -18836,6 +19169,10 @@
 						{
 							"spell_id": 26996,
 							"count": 8
+						},
+						{
+							"spell_id": 27002,
+							"count": 19
 						},
 						{
 							"spell_id": 27003,
@@ -18862,6 +19199,10 @@
 							"count": 14
 						},
 						{
+							"spell_id": 33987,
+							"count": 4
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -18870,11 +19211,42 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable",
+				"count": 1,
+				"spell_id": 17392,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17392",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17392:Hydross the Unstable"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 8,
+				"spell_id": 17392,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17392",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17392:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 1,
+				"spell_id": 17392,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17392",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17392:Leotheras the Blind"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -19115,6 +19487,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
@@ -19391,8 +19773,7 @@
 							"count": 2
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -19426,6 +19807,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19765,8 +20147,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -19796,6 +20177,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -20138,8 +20520,7 @@
 							"count": 2
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -20177,6 +20558,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -20517,8 +20899,7 @@
 							"count": 2
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 2
@@ -20552,6 +20933,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -20621,6 +21003,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -20904,22 +21296,16 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 2
-						},
-						{
-							"spell_id": 33763,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 22812,
 							"count": 2
 						},
 						{
 							"spell_id": 24858,
 							"count": 1
+						},
+						{
+							"spell_id": 26980,
+							"count": 2
 						},
 						{
 							"spell_id": 26985,
@@ -20950,6 +21336,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 1
+						},
+						{
 							"spell_id": 33831,
 							"count": 2
 						},
@@ -20958,6 +21348,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -21299,8 +21690,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -21334,6 +21724,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -21348,6 +21739,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -21873,16 +22284,6 @@
 							"count": 83
 						},
 						{
-							"spell_id": 34026,
-							"count": 24
-						},
-						{
-							"spell_id": 34120,
-							"count": 76
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -21907,6 +22308,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 24
+						},
+						{
+							"spell_id": 34120,
+							"count": 76
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -21919,6 +22328,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -22262,16 +22672,6 @@
 							"count": 76
 						},
 						{
-							"spell_id": 34026,
-							"count": 22
-						},
-						{
-							"spell_id": 34120,
-							"count": 68
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -22288,6 +22688,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 22
+						},
+						{
+							"spell_id": 34120,
+							"count": 68
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -22296,6 +22704,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -22371,7 +22780,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
+					}
+				],
 				"talents": {
 					"points": [
 						41,
@@ -22648,16 +23068,6 @@
 							"count": 171
 						},
 						{
-							"spell_id": 34026,
-							"count": 55
-						},
-						{
-							"spell_id": 34120,
-							"count": 169
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -22672,6 +23082,14 @@
 						{
 							"spell_id": 33807,
 							"count": 2
+						},
+						{
+							"spell_id": 34026,
+							"count": 55
+						},
+						{
+							"spell_id": 34120,
+							"count": 169
 						},
 						{
 							"spell_id": 34477,
@@ -22694,6 +23112,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -23038,16 +23457,6 @@
 							"count": 105
 						},
 						{
-							"spell_id": 34026,
-							"count": 33
-						},
-						{
-							"spell_id": 34120,
-							"count": 97
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -23080,6 +23489,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 33
+						},
+						{
+							"spell_id": 34120,
+							"count": 97
+						},
+						{
 							"spell_id": 34477,
 							"count": 2
 						},
@@ -23092,6 +23509,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -23167,7 +23585,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+					}
+				],
 				"talents": {
 					"points": [
 						41,
@@ -23444,16 +23873,6 @@
 							"count": 105
 						},
 						{
-							"spell_id": 34026,
-							"count": 36
-						},
-						{
-							"spell_id": 34120,
-							"count": 100
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -23482,10 +23901,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 36
+						},
+						{
+							"spell_id": 34120,
+							"count": 100
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -23829,16 +24257,6 @@
 							"count": 96
 						},
 						{
-							"spell_id": 34026,
-							"count": 21
-						},
-						{
-							"spell_id": 34120,
-							"count": 88
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -23863,15 +24281,45 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 21
+						},
+						{
+							"spell_id": 34120,
+							"count": 88
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
-		"remarks": []
+		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+			}
+		]
 	},
 	"23": {
 		"gameID": 37689456,
@@ -23947,7 +24395,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
+					}
+				],
 				"talents": {
 					"points": [
 						7,
@@ -24243,16 +24702,6 @@
 							"count": 63
 						},
 						{
-							"spell_id": 34026,
-							"count": 17
-						},
-						{
-							"spell_id": 34120,
-							"count": 54
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -24269,10 +24718,19 @@
 							"count": 6
 						},
 						{
+							"spell_id": 34026,
+							"count": 17
+						},
+						{
+							"spell_id": 34120,
+							"count": 54
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24625,16 +25083,6 @@
 							"count": 48
 						},
 						{
-							"spell_id": 34026,
-							"count": 19
-						},
-						{
-							"spell_id": 34120,
-							"count": 48
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -24651,10 +25099,19 @@
 							"count": 7
 						},
 						{
+							"spell_id": 34026,
+							"count": 19
+						},
+						{
+							"spell_id": 34120,
+							"count": 48
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24725,7 +25182,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
+					}
+				],
 				"talents": {
 					"points": [
 						7,
@@ -25032,16 +25500,6 @@
 							"count": 144
 						},
 						{
-							"spell_id": 34026,
-							"count": 52
-						},
-						{
-							"spell_id": 34120,
-							"count": 128
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -25070,8 +25528,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 52
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 128
 						},
 						{
 							"spell_id": 34477,
@@ -25098,6 +25564,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -25464,16 +25931,6 @@
 							"count": 76
 						},
 						{
-							"spell_id": 34026,
-							"count": 22
-						},
-						{
-							"spell_id": 34120,
-							"count": 64
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -25494,10 +25951,19 @@
 							"count": 4
 						},
 						{
+							"spell_id": 34026,
+							"count": 22
+						},
+						{
+							"spell_id": 34120,
+							"count": 64
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -25863,16 +26329,6 @@
 							"count": 85
 						},
 						{
-							"spell_id": 34026,
-							"count": 34
-						},
-						{
-							"spell_id": 34120,
-							"count": 77
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 3
 						},
@@ -25901,6 +26357,14 @@
 							"count": 10
 						},
 						{
+							"spell_id": 34026,
+							"count": 34
+						},
+						{
+							"spell_id": 34120,
+							"count": 77
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -25909,6 +26373,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -26272,16 +26737,6 @@
 							"count": 87
 						},
 						{
-							"spell_id": 34026,
-							"count": 31
-						},
-						{
-							"spell_id": 34120,
-							"count": 76
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 883,
 							"count": 1
 						},
@@ -26302,6 +26757,14 @@
 							"count": 9
 						},
 						{
+							"spell_id": 34026,
+							"count": 31
+						},
+						{
+							"spell_id": 34120,
+							"count": 76
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -26310,6 +26773,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -26319,7 +26783,28 @@
 				}
 			}
 		},
-		"remarks": []
+		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
+			}
+		]
 	},
 	"25": {
 		"gameID": 12396471,
@@ -26676,16 +27161,6 @@
 							"count": 81
 						},
 						{
-							"spell_id": 34026,
-							"count": 25
-						},
-						{
-							"spell_id": 34120,
-							"count": 63
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -26714,6 +27189,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 25
+						},
+						{
+							"spell_id": 34120,
+							"count": 63
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -26726,6 +27209,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -27079,16 +27563,6 @@
 							"count": 71
 						},
 						{
-							"spell_id": 34026,
-							"count": 20
-						},
-						{
-							"spell_id": 34120,
-							"count": 55
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -27105,6 +27579,14 @@
 							"count": 11
 						},
 						{
+							"spell_id": 34026,
+							"count": 20
+						},
+						{
+							"spell_id": 34120,
+							"count": 55
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -27117,6 +27599,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -27469,16 +27952,6 @@
 							"count": 184
 						},
 						{
-							"spell_id": 34026,
-							"count": 44
-						},
-						{
-							"spell_id": 34120,
-							"count": 119
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -27507,8 +27980,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 44
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 119
 						},
 						{
 							"spell_id": 34477,
@@ -27535,6 +28016,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -27892,16 +28374,6 @@
 							"count": 85
 						},
 						{
-							"spell_id": 34026,
-							"count": 26
-						},
-						{
-							"spell_id": 34120,
-							"count": 59
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 883,
 							"count": 1
 						},
@@ -27934,6 +28406,14 @@
 							"count": 9
 						},
 						{
+							"spell_id": 34026,
+							"count": 26
+						},
+						{
+							"spell_id": 34120,
+							"count": 59
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -27946,6 +28426,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -28017,6 +28498,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+					},
 					{
 						"type": "no_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -28306,16 +28797,6 @@
 							"count": 91
 						},
 						{
-							"spell_id": 34026,
-							"count": 28
-						},
-						{
-							"spell_id": 34120,
-							"count": 72
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 883,
 							"count": 1
 						},
@@ -28352,6 +28833,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 28
+						},
+						{
+							"spell_id": 34120,
+							"count": 72
+						},
+						{
 							"spell_id": 34477,
 							"count": 2
 						},
@@ -28364,6 +28853,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -28722,16 +29212,6 @@
 							"count": 100
 						},
 						{
-							"spell_id": 34026,
-							"count": 17
-						},
-						{
-							"spell_id": 34120,
-							"count": 80
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -28756,6 +29236,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 17
+						},
+						{
+							"spell_id": 34120,
+							"count": 80
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						},
@@ -28764,6 +29252,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -28774,6 +29263,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+			},
 			{
 				"type": "no_enchant",
 				"item_wowhead_attr": "domain=fr.tbc\u0026gems=24055%3A31118%3A24055\u0026item=30054",
@@ -29109,12 +29608,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 32996,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 1
 						},
@@ -29139,6 +29632,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 32996,
+							"count": 11
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -29151,6 +29648,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -29477,12 +29975,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 32996,
-							"count": 10
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 1
 						},
@@ -29499,6 +29991,10 @@
 							"count": 24
 						},
 						{
+							"spell_id": 32996,
+							"count": 10
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -29511,6 +30007,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -29579,7 +30076,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
+					}
+				],
 				"talents": {
 					"points": [
 						14,
@@ -29857,22 +30365,16 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25218,
-							"count": 1
-						},
-						{
-							"spell_id": 32996,
-							"count": 26
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 2
 						},
 						{
 							"spell_id": 15286,
 							"count": 5
+						},
+						{
+							"spell_id": 25218,
+							"count": 1
 						},
 						{
 							"spell_id": 25368,
@@ -29895,6 +30397,10 @@
 							"count": 4
 						},
 						{
+							"spell_id": 32996,
+							"count": 26
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -29907,6 +30413,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -30245,16 +30752,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25218,
-							"count": 1
-						},
-						{
-							"spell_id": 32996,
-							"count": 13
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 1
 						},
@@ -30264,6 +30761,10 @@
 						},
 						{
 							"spell_id": 20594,
+							"count": 1
+						},
+						{
+							"spell_id": 25218,
 							"count": 1
 						},
 						{
@@ -30283,6 +30784,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 32996,
+							"count": 13
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -30295,6 +30800,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -30355,7 +30861,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+					}
+				],
 				"talents": {
 					"points": [
 						14,
@@ -30632,20 +31149,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25218,
-							"count": 1
-						},
-						{
-							"spell_id": 32996,
-							"count": 13
-						},
-						{
-							"spell_id": 33076,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 2
 						},
@@ -30655,6 +31158,10 @@
 						},
 						{
 							"spell_id": 15473,
+							"count": 1
+						},
+						{
+							"spell_id": 25218,
 							"count": 1
 						},
 						{
@@ -30674,6 +31181,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 32996,
+							"count": 13
+						},
+						{
+							"spell_id": 33076,
+							"count": 1
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -30686,6 +31201,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -31014,12 +31530,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 32996,
-							"count": 15
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 10890,
 							"count": 1
 						},
@@ -31044,6 +31554,10 @@
 							"count": 39
 						},
 						{
+							"spell_id": 32996,
+							"count": 15
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -31056,6 +31570,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -31065,7 +31580,28 @@
 				}
 			}
 		},
-		"remarks": []
+		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+			}
+		]
 	},
 	"28": {
 		"gameID": 20536844,
@@ -31405,12 +31941,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12472,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -31423,6 +31953,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 27072,
 							"count": 3
 						},
@@ -31431,6 +31965,7 @@
 							"count": 90
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -31756,16 +32291,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 27079,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -31778,6 +32303,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
+							"spell_id": 27079,
+							"count": 1
+						},
+						{
 							"spell_id": 27082,
 							"count": 7
 						},
@@ -31786,6 +32319,7 @@
 							"count": 87
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -32125,16 +32659,6 @@
 							"count": 3
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -32145,6 +32669,14 @@
 						{
 							"spell_id": 12043,
 							"count": 3
+						},
+						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 4
 						},
 						{
 							"spell_id": 27072,
@@ -32163,6 +32695,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -32497,16 +33030,6 @@
 							"count": 3
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -32519,6 +33042,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 27072,
 							"count": 6
 						},
@@ -32527,6 +33058,7 @@
 							"count": 119
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -32857,16 +33389,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -32876,6 +33398,10 @@
 						},
 						{
 							"spell_id": 12043,
+							"count": 2
+						},
+						{
+							"spell_id": 12472,
 							"count": 2
 						},
 						{
@@ -32901,8 +33427,13 @@
 						{
 							"spell_id": 30451,
 							"count": 80
+						},
+						{
+							"spell_id": 45438,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -33236,20 +33767,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 3
-						},
-						{
-							"spell_id": 27079,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -33262,6 +33779,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 3
+						},
+						{
 							"spell_id": 12826,
 							"count": 3
 						},
@@ -33270,10 +33795,15 @@
 							"count": 5
 						},
 						{
+							"spell_id": 27079,
+							"count": 1
+						},
+						{
 							"spell_id": 30451,
 							"count": 121
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -33687,12 +34217,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 2
 						},
@@ -33725,6 +34249,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 11
+						},
+						{
 							"spell_id": 30335,
 							"count": 19
 						},
@@ -33737,6 +34265,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -34116,12 +34645,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 31
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 2
 						},
@@ -34162,6 +34685,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 31
+						},
+						{
 							"spell_id": 30335,
 							"count": 15
 						},
@@ -34170,6 +34697,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -34555,12 +35083,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 82
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 6
 						},
@@ -34613,6 +35135,10 @@
 							"count": 5
 						},
 						{
+							"spell_id": 29707,
+							"count": 82
+						},
+						{
 							"spell_id": 30335,
 							"count": 43
 						},
@@ -34625,6 +35151,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -35013,12 +35540,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 69
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 3
 						},
@@ -35055,6 +35576,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 69
+						},
+						{
 							"spell_id": 30335,
 							"count": 32
 						},
@@ -35063,6 +35588,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -35172,6 +35698,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Morogrim Tidewalker",
@@ -35459,12 +35995,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 56
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 2
 						},
@@ -35505,6 +36035,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 56
+						},
+						{
 							"spell_id": 30335,
 							"count": 29
 						},
@@ -35517,6 +36051,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -35904,12 +36439,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 61
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 3
 						},
@@ -35942,6 +36471,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 61
+						},
+						{
 							"spell_id": 30335,
 							"count": 28
 						},
@@ -35950,6 +36483,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -35960,6 +36494,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+			},
 			{
 				"type": "invalid_battle_elixir",
 				"fight": "Fathom-Lord Karathress",
@@ -36336,6 +36880,10 @@
 							"count": 27
 						},
 						{
+							"spell_id": 25437,
+							"count": 1
+						},
+						{
 							"spell_id": 32546,
 							"count": 7
 						},
@@ -36344,20 +36892,15 @@
 							"count": 8
 						},
 						{
+							"spell_id": 34433,
+							"count": 1
+						},
+						{
 							"spell_id": 34866,
 							"count": 18
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 25437,
-							"count": 1
-						},
-						{
-							"spell_id": 34433,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -36683,6 +37226,10 @@
 							"count": 32
 						},
 						{
+							"spell_id": 25437,
+							"count": 1
+						},
+						{
 							"spell_id": 33076,
 							"count": 11
 						},
@@ -36691,12 +37238,7 @@
 							"count": 3
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 25437,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -36769,6 +37311,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 1,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -37033,6 +37585,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25218,
 							"count": 3
 						},
@@ -37043,28 +37599,6 @@
 						{
 							"spell_id": 25235,
 							"count": 51
-						},
-						{
-							"spell_id": 32546,
-							"count": 6
-						},
-						{
-							"spell_id": 32996,
-							"count": 13
-						},
-						{
-							"spell_id": 33076,
-							"count": 10
-						},
-						{
-							"spell_id": 34866,
-							"count": 40
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
 						},
 						{
 							"spell_id": 25364,
@@ -37083,14 +37617,31 @@
 							"count": 1
 						},
 						{
+							"spell_id": 32546,
+							"count": 6
+						},
+						{
+							"spell_id": 32996,
+							"count": 13
+						},
+						{
+							"spell_id": 33076,
+							"count": 10
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
+						},
+						{
+							"spell_id": 34866,
+							"count": 40
 						},
 						{
 							"spell_id": 35165,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -37437,16 +37988,15 @@
 							"count": 14
 						},
 						{
+							"spell_id": 34433,
+							"count": 1
+						},
+						{
 							"spell_id": 34866,
 							"count": 24
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 34433,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -37778,6 +38328,10 @@
 							"count": 36
 						},
 						{
+							"spell_id": 25429,
+							"count": 1
+						},
+						{
 							"spell_id": 32546,
 							"count": 4
 						},
@@ -37786,20 +38340,15 @@
 							"count": 15
 						},
 						{
+							"spell_id": 34433,
+							"count": 1
+						},
+						{
 							"spell_id": 34866,
 							"count": 19
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 25429,
-							"count": 1
-						},
-						{
-							"spell_id": 34433,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -37869,6 +38418,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 3,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:The Lurker Below"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
@@ -38133,6 +38692,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25218,
 							"count": 3
 						},
@@ -38145,6 +38708,10 @@
 							"count": 31
 						},
 						{
+							"spell_id": 25429,
+							"count": 1
+						},
+						{
 							"spell_id": 33076,
 							"count": 14
 						},
@@ -38153,16 +38720,7 @@
 							"count": 22
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
-							"spell_id": 25429,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -38173,6 +38731,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 1,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 3,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:The Lurker Below"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -38633,12 +39211,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 48
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 2
 						},
@@ -38649,6 +39221,10 @@
 						{
 							"spell_id": 25442,
 							"count": 18
+						},
+						{
+							"spell_id": 25449,
+							"count": 48
 						},
 						{
 							"spell_id": 25454,
@@ -38679,6 +39255,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -39031,12 +39608,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 23
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 3
 						},
@@ -39051,6 +39622,10 @@
 						{
 							"spell_id": 25442,
 							"count": 8
+						},
+						{
+							"spell_id": 25449,
+							"count": 23
 						},
 						{
 							"spell_id": 25457,
@@ -39085,6 +39660,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -39444,12 +40020,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 96
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 526,
 							"count": 1
 						},
@@ -39476,6 +40046,10 @@
 						{
 							"spell_id": 25442,
 							"count": 25
+						},
+						{
+							"spell_id": 25449,
+							"count": 96
 						},
 						{
 							"spell_id": 25454,
@@ -39518,6 +40092,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -39875,12 +40450,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 57
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 1
 						},
@@ -39895,6 +40464,10 @@
 						{
 							"spell_id": 25442,
 							"count": 25
+						},
+						{
+							"spell_id": 25449,
+							"count": 57
 						},
 						{
 							"spell_id": 25454,
@@ -39933,6 +40506,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -40288,12 +40862,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 80
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 403,
 							"count": 1
 						},
@@ -40326,6 +40894,10 @@
 							"count": 20
 						},
 						{
+							"spell_id": 25449,
+							"count": 80
+						},
+						{
 							"spell_id": 25570,
 							"count": 1
 						},
@@ -40354,6 +40926,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -40717,12 +41290,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 70
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 3
 						},
@@ -40737,6 +41304,10 @@
 						{
 							"spell_id": 25442,
 							"count": 20
+						},
+						{
+							"spell_id": 25449,
+							"count": 70
 						},
 						{
 							"spell_id": 25464,
@@ -40767,6 +41338,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -41183,16 +41755,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 28
-						},
-						{
-							"spell_id": 30022,
-							"count": 50
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -41229,6 +41791,14 @@
 							"count": 7
 						},
 						{
+							"spell_id": 29707,
+							"count": 28
+						},
+						{
+							"spell_id": 30022,
+							"count": 50
+						},
+						{
 							"spell_id": 30356,
 							"count": 19
 						},
@@ -41241,6 +41811,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -41548,16 +42119,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 45
-						},
-						{
-							"spell_id": 30022,
-							"count": 35
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2565,
 							"count": 13
 						},
@@ -41568,6 +42129,14 @@
 						{
 							"spell_id": 25264,
 							"count": 3
+						},
+						{
+							"spell_id": 29707,
+							"count": 45
+						},
+						{
+							"spell_id": 30022,
+							"count": 35
 						},
 						{
 							"spell_id": 30356,
@@ -41586,6 +42155,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -41940,16 +42510,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 112
-						},
-						{
-							"spell_id": 30022,
-							"count": 106
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 3
 						},
@@ -42006,6 +42566,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 112
+						},
+						{
+							"spell_id": 30022,
+							"count": 106
+						},
+						{
 							"spell_id": 30356,
 							"count": 29
 						},
@@ -42018,6 +42586,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -42341,16 +42910,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 76
-						},
-						{
-							"spell_id": 30022,
-							"count": 79
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -42391,6 +42950,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 76
+						},
+						{
+							"spell_id": 30022,
+							"count": 79
+						},
+						{
 							"spell_id": 30356,
 							"count": 3
 						},
@@ -42403,6 +42970,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -42752,16 +43320,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 63
-						},
-						{
-							"spell_id": 30022,
-							"count": 60
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2048,
 							"count": 1
 						},
@@ -42794,6 +43352,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 63
+						},
+						{
+							"spell_id": 30022,
+							"count": 60
+						},
+						{
 							"spell_id": 30356,
 							"count": 29
 						},
@@ -42806,6 +43372,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -43137,16 +43704,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 64
-						},
-						{
-							"spell_id": 30022,
-							"count": 63
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 355,
 							"count": 2
 						},
@@ -43171,6 +43728,14 @@
 							"count": 6
 						},
 						{
+							"spell_id": 29707,
+							"count": 64
+						},
+						{
+							"spell_id": 30022,
+							"count": 63
+						},
+						{
 							"spell_id": 30356,
 							"count": 17
 						},
@@ -43187,6 +43752,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -43627,14 +44193,13 @@
 						{
 							"spell_id": 27079,
 							"count": 2
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 32796,
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -43956,9 +44521,7 @@
 						{
 							"spell_id": 27079,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27131,
 							"count": 1
@@ -43972,6 +44535,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -44035,18 +44599,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 10230,
-						"suggested_spell_id": 27088,
-						"spell_wowhead_attr": "spell=10230",
-						"higher_ranked_spell_wowhead_attr": "spell=27088",
-						"uuid": "cast_higher_rank_available:spell=10230:Lady Vashj"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -44326,9 +44879,7 @@
 						{
 							"spell_id": 30449,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 31367,
 							"count": 4
@@ -44338,6 +44889,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -44652,9 +45204,7 @@
 						{
 							"spell_id": 27079,
 							"count": 3
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 28714,
 							"count": 1
@@ -44664,6 +45214,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -44981,16 +45532,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 33043,
-							"count": 2
-						},
-						{
-							"spell_id": 33933,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27082,
 							"count": 4
 						},
@@ -44999,10 +45540,19 @@
 							"count": 6
 						},
 						{
+							"spell_id": 33043,
+							"count": 2
+						},
+						{
+							"spell_id": 33933,
+							"count": 2
+						},
+						{
 							"spell_id": 51953,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -45326,6 +45876,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12826,
+							"count": 1
+						},
+						{
 							"spell_id": 27070,
 							"count": 42
 						},
@@ -45340,12 +45894,6 @@
 						{
 							"spell_id": 27128,
 							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 12826,
-							"count": 1
 						},
 						{
 							"spell_id": 28714,
@@ -45356,22 +45904,12 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
-		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 10230,
-				"suggested_spell_id": 27088,
-				"spell_wowhead_attr": "spell=10230",
-				"higher_ranked_spell_wowhead_attr": "spell=27088",
-				"uuid": "cast_higher_rank_available:spell=10230:Lady Vashj"
-			}
-		]
+		"remarks": []
 	},
 	"39": {
 		"gameID": 23593488,
@@ -45705,16 +46243,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 27079,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -45727,8 +46255,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 27072,
 							"count": 15
+						},
+						{
+							"spell_id": 27079,
+							"count": 1
 						},
 						{
 							"spell_id": 30451,
@@ -45739,6 +46275,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -46070,21 +46607,15 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12472,
-							"count": 1
-						},
-						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 1
 						},
 						{
 							"spell_id": 12043,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
 							"count": 1
 						},
 						{
@@ -46102,8 +46633,13 @@
 						{
 							"spell_id": 30451,
 							"count": 89
+						},
+						{
+							"spell_id": 45438,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -46449,24 +46985,6 @@
 							"count": 4
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 4
-						},
-						{
-							"spell_id": 27074,
-							"count": 12
-						},
-						{
-							"spell_id": 27079,
-							"count": 14
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -46479,8 +46997,24 @@
 							"count": 3
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 4
+						},
+						{
 							"spell_id": 27072,
 							"count": 12
+						},
+						{
+							"spell_id": 27074,
+							"count": 12
+						},
+						{
+							"spell_id": 27079,
+							"count": 14
 						},
 						{
 							"spell_id": 27082,
@@ -46499,6 +47033,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -46834,24 +47369,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 12051,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 27079,
-							"count": 3
-						},
-						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11958,
 							"count": 1
 						},
@@ -46864,6 +47381,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 12051,
+							"count": 1
+						},
+						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 23723,
 							"count": 1
 						},
@@ -46872,10 +47397,19 @@
 							"count": 13
 						},
 						{
+							"spell_id": 27079,
+							"count": 3
+						},
+						{
 							"spell_id": 30451,
 							"count": 113
+						},
+						{
+							"spell_id": 45438,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -46944,7 +47478,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 6,
+						"spell_id": 1449,
+						"suggested_spell_id": 27080,
+						"spell_wowhead_attr": "spell=1449",
+						"higher_ranked_spell_wowhead_attr": "spell=27080",
+						"uuid": "cast_higher_rank_available:spell=1449:Morogrim Tidewalker"
+					}
+				],
 				"talents": {
 					"points": [
 						40,
@@ -47210,26 +47755,12 @@
 					],
 					"spells": [
 						{
-							"spell_id": 1953,
-							"count": 1
-						},
-						{
-							"spell_id": 12472,
-							"count": 2
-						},
-						{
-							"spell_id": 27079,
-							"count": 1
-						},
-						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1449,
 							"count": 6
+						},
+						{
+							"spell_id": 1953,
+							"count": 1
 						},
 						{
 							"spell_id": 11958,
@@ -47244,8 +47775,16 @@
 							"count": 1
 						},
 						{
+							"spell_id": 12472,
+							"count": 2
+						},
+						{
 							"spell_id": 27072,
 							"count": 7
+						},
+						{
+							"spell_id": 27079,
+							"count": 1
 						},
 						{
 							"spell_id": 27082,
@@ -47264,10 +47803,15 @@
 							"count": 83
 						},
 						{
+							"spell_id": 45438,
+							"count": 1
+						},
+						{
 							"spell_id": 51953,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -47597,22 +48141,16 @@
 					],
 					"spells": [
 						{
-							"spell_id": 12472,
-							"count": 1
-						},
-						{
-							"spell_id": 27079,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 12042,
 							"count": 1
 						},
 						{
 							"spell_id": 12043,
 							"count": 2
+						},
+						{
+							"spell_id": 12472,
+							"count": 1
 						},
 						{
 							"spell_id": 23723,
@@ -47623,6 +48161,10 @@
 							"count": 13
 						},
 						{
+							"spell_id": 27079,
+							"count": 5
+						},
+						{
 							"spell_id": 28271,
 							"count": 2
 						},
@@ -47631,6 +48173,7 @@
 							"count": 108
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -47645,6 +48188,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 6,
+				"spell_id": 1449,
+				"suggested_spell_id": 27080,
+				"spell_wowhead_attr": "spell=1449",
+				"higher_ranked_spell_wowhead_attr": "spell=27080",
+				"uuid": "cast_higher_rank_available:spell=1449:Morogrim Tidewalker"
+			},
 			{
 				"type": "missing_food",
 				"fight": "Hydross the Unstable",
@@ -47993,8 +48546,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 6
@@ -48044,6 +48596,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -48379,8 +48932,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 4
@@ -48418,6 +48970,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -48744,8 +49297,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 22
@@ -48799,6 +49351,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -48903,6 +49456,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
+					},
 					{
 						"type": "no_enchant",
 						"fight": "Leotheras the Blind",
@@ -49145,8 +49708,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 9
@@ -49192,6 +49754,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -49533,8 +50096,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 8
@@ -49584,6 +50146,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -49913,8 +50476,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 8
@@ -49960,6 +50522,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -49978,6 +50541,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
+			},
 			{
 				"type": "invalid_temporary_enchant",
 				"fight": "The Lurker Below",
@@ -50396,12 +50969,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 12
 						},
@@ -50438,6 +51005,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 5
+						},
+						{
 							"spell_id": 30330,
 							"count": 19
 						},
@@ -50450,6 +51021,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -50833,12 +51405,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 14
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 10
 						},
@@ -50879,6 +51445,10 @@
 							"count": 21
 						},
 						{
+							"spell_id": 29707,
+							"count": 14
+						},
+						{
 							"spell_id": 30330,
 							"count": 15
 						},
@@ -50895,6 +51465,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -51279,12 +51850,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 24
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -51361,6 +51926,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 24
+						},
+						{
 							"spell_id": 30330,
 							"count": 33
 						},
@@ -51373,6 +51942,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -51759,12 +52329,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 25
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 15
 						},
@@ -51817,6 +52381,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 25
+						},
+						{
 							"spell_id": 30330,
 							"count": 27
 						},
@@ -51829,6 +52397,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -51914,6 +52483,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+					},
 					{
 						"type": "missing_guardian_elixir",
 						"fight": "Morogrim Tidewalker",
@@ -52224,12 +52803,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 12
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -52290,6 +52863,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 12
+						},
+						{
 							"spell_id": 30330,
 							"count": 20
 						},
@@ -52306,6 +52883,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -52688,12 +53266,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 19
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 13
 						},
@@ -52730,6 +53302,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 19
+						},
+						{
 							"spell_id": 30330,
 							"count": 23
 						},
@@ -52742,6 +53318,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -52752,6 +53329,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+			},
 			{
 				"type": "missing_guardian_elixir",
 				"fight": "Fathom-Lord Karathress",
@@ -52888,6 +53475,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 16,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Fathom-Lord Karathress"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 9,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Fathom-Lord Karathress"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
@@ -53160,8 +53767,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 15
@@ -53199,6 +53805,7 @@
 							"count": 15
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -53283,6 +53890,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable",
+						"count": 19,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Hydross the Unstable"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable",
+						"count": 8,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Hydross the Unstable"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
@@ -53554,8 +54181,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 12
@@ -53589,6 +54215,7 @@
 							"count": 18
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -53665,6 +54292,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 48,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 22,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -53940,8 +54587,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1020,
 							"count": 1
@@ -54011,6 +54657,7 @@
 							"count": 35
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -54103,6 +54750,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 28,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Leotheras the Blind"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 22,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Leotheras the Blind"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
@@ -54372,8 +55039,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10278,
 							"count": 1
@@ -54419,6 +55085,7 @@
 							"count": 25
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -54511,6 +55178,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 26,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Morogrim Tidewalker"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 13,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Morogrim Tidewalker"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -54783,8 +55470,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1020,
 							"count": 1
@@ -54842,6 +55528,7 @@
 							"count": 25
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -54926,6 +55613,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 29,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:The Lurker Below"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 17,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:The Lurker Below"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
@@ -55193,8 +55900,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 20
@@ -55232,6 +55938,7 @@
 							"count": 27
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -55242,6 +55949,126 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 16,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable",
+				"count": 19,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Hydross the Unstable"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 48,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 28,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Leotheras the Blind"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 26,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Morogrim Tidewalker"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 29,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:The Lurker Below"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 9,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable",
+				"count": 8,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Hydross the Unstable"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 22,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 22,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Leotheras the Blind"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 13,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Morogrim Tidewalker"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 17,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:The Lurker Below"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -55658,8 +56485,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 16
@@ -55737,6 +56563,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -56077,8 +56904,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2894,
 							"count": 1
@@ -56144,6 +56970,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -56488,8 +57315,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 526,
 							"count": 1
@@ -56583,6 +57409,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -56936,8 +57763,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 20
@@ -57019,6 +57845,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -57354,8 +58181,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2894,
 							"count": 1
@@ -57433,6 +58259,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -57780,8 +58607,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 19
@@ -57855,6 +58681,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -58241,12 +59068,24 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 9835,
+							"count": 2
+						},
+						{
+							"spell_id": 16589,
+							"count": 1
+						},
+						{
 							"spell_id": 17116,
 							"count": 1
 						},
 						{
 							"spell_id": 18562,
 							"count": 2
+						},
+						{
+							"spell_id": 26979,
+							"count": 1
 						},
 						{
 							"spell_id": 26980,
@@ -58257,28 +59096,6 @@
 							"count": 5
 						},
 						{
-							"spell_id": 33763,
-							"count": 91
-						},
-						{
-							"spell_id": 33891,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 9835,
-							"count": 2
-						},
-						{
-							"spell_id": 16589,
-							"count": 1
-						},
-						{
-							"spell_id": 26979,
-							"count": 1
-						},
-						{
 							"spell_id": 27013,
 							"count": 2
 						},
@@ -58287,10 +59104,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 91
+						},
+						{
+							"spell_id": 33891,
+							"count": 3
+						},
+						{
 							"spell_id": 51954,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -58602,6 +59428,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 16589,
+							"count": 1
+						},
+						{
 							"spell_id": 17116,
 							"count": 1
 						},
@@ -58618,21 +59448,15 @@
 							"count": 11
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 45
 						},
 						{
 							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 16589,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
 							"count": 1
 						},
 						{
@@ -58640,6 +59464,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -58959,32 +59784,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 17116,
-							"count": 1
-						},
-						{
-							"spell_id": 18562,
-							"count": 2
-						},
-						{
-							"spell_id": 26980,
-							"count": 10
-						},
-						{
-							"spell_id": 26982,
-							"count": 7
-						},
-						{
-							"spell_id": 33763,
-							"count": 211
-						},
-						{
-							"spell_id": 33891,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2893,
 							"count": 3
 						},
@@ -58997,8 +59796,24 @@
 							"count": 1
 						},
 						{
+							"spell_id": 17116,
+							"count": 1
+						},
+						{
+							"spell_id": 18562,
+							"count": 2
+						},
+						{
 							"spell_id": 22812,
 							"count": 1
+						},
+						{
+							"spell_id": 26980,
+							"count": 10
+						},
+						{
+							"spell_id": 26982,
+							"count": 7
 						},
 						{
 							"spell_id": 26988,
@@ -59017,6 +59832,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 33763,
+							"count": 211
+						},
+						{
+							"spell_id": 33891,
+							"count": 2
+						},
+						{
 							"spell_id": 38132,
 							"count": 1
 						},
@@ -59029,6 +59852,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -59363,20 +60187,19 @@
 							"count": 49
 						},
 						{
-							"spell_id": 33763,
-							"count": 69
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 69
 						},
 						{
 							"spell_id": 51954,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -59449,6 +60272,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+					},
 					{
 						"type": "missing_food",
 						"fight": "Morogrim Tidewalker",
@@ -59705,8 +60538,16 @@
 					],
 					"spells": [
 						{
+							"spell_id": 16589,
+							"count": 1
+						},
+						{
 							"spell_id": 18562,
 							"count": 4
+						},
+						{
+							"spell_id": 22812,
+							"count": 1
 						},
 						{
 							"spell_id": 26980,
@@ -59717,24 +60558,6 @@
 							"count": 17
 						},
 						{
-							"spell_id": 33763,
-							"count": 94
-						},
-						{
-							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 16589,
-							"count": 1
-						},
-						{
-							"spell_id": 22812,
-							"count": 1
-						},
-						{
 							"spell_id": 27012,
 							"count": 1
 						},
@@ -59743,10 +60566,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 94
+						},
+						{
+							"spell_id": 33891,
+							"count": 1
+						},
+						{
 							"spell_id": 51954,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -59822,7 +60654,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:The Lurker Below"
+					}
+				],
 				"talents": {
 					"points": [
 						13,
@@ -60073,6 +60916,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 768,
+							"count": 1
+						},
+						{
 							"spell_id": 17116,
 							"count": 1
 						},
@@ -60089,20 +60936,6 @@
 							"count": 11
 						},
 						{
-							"spell_id": 33763,
-							"count": 98
-						},
-						{
-							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 768,
-							"count": 1
-						},
-						{
 							"spell_id": 29166,
 							"count": 1
 						},
@@ -60111,10 +60944,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 98
+						},
+						{
+							"spell_id": 33891,
+							"count": 1
+						},
+						{
 							"spell_id": 51954,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 41617,
@@ -60125,6 +60967,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:The Lurker Below"
+			},
 			{
 				"type": "missing_food",
 				"fight": "Morogrim Tidewalker",

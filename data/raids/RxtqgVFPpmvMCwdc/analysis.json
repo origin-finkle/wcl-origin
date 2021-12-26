@@ -340,17 +340,15 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 10278,
 							"count": 1
 						},
 						{
 							"spell_id": 20271,
+							"count": 7
+						},
+						{
+							"spell_id": 27137,
 							"count": 7
 						},
 						{
@@ -378,6 +376,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -722,12 +721,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 35
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1020,
 							"count": 1
 						},
@@ -736,10 +729,15 @@
 							"count": 6
 						},
 						{
+							"spell_id": 27137,
+							"count": 35
+						},
+						{
 							"spell_id": 27154,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -1073,16 +1071,15 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 4987,
+							"count": 1
+						},
+						{
 							"spell_id": 27137,
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 4987,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1404,20 +1401,19 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 25
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1020,
 							"count": 1
 						},
 						{
 							"spell_id": 4987,
 							"count": 2
+						},
+						{
+							"spell_id": 27137,
+							"count": 25
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1756,8 +1752,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10308,
 							"count": 1
@@ -1807,6 +1802,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2139,18 +2135,16 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 37
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 20271,
 							"count": 7
 						},
 						{
 							"spell_id": 25898,
 							"count": 1
+						},
+						{
+							"spell_id": 27137,
+							"count": 37
 						},
 						{
 							"spell_id": 27166,
@@ -2169,6 +2163,7 @@
 							"count": 9
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2512,8 +2507,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 13
@@ -2551,6 +2545,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2588,6 +2583,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 2 (29%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 2 (29%)",
@@ -2894,8 +2899,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 12
@@ -2925,6 +2929,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -2965,8 +2970,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 4987,
 							"count": 3
@@ -3004,6 +3008,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -3048,8 +3053,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 4987,
 							"count": 3
@@ -3083,6 +3087,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -3127,8 +3132,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 12
@@ -3162,6 +3166,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -3174,6 +3179,16 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -3212,8 +3227,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 4987,
 							"count": 6
@@ -3247,6 +3261,7 @@
 							"count": 26
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -3593,8 +3608,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 12
@@ -3628,6 +3642,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -3976,12 +3991,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 25
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1020,
 							"count": 1
 						},
@@ -3996,6 +4005,10 @@
 						{
 							"spell_id": 20271,
 							"count": 9
+						},
+						{
+							"spell_id": 27137,
+							"count": 25
 						},
 						{
 							"spell_id": 27138,
@@ -4026,6 +4039,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -4374,8 +4388,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 15
@@ -4413,6 +4426,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -4758,8 +4772,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 12
@@ -4785,6 +4798,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -4795,6 +4809,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 2 (29%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -6130,16 +6164,6 @@
 							"count": 80
 						},
 						{
-							"spell_id": 34026,
-							"count": 32
-						},
-						{
-							"spell_id": 34120,
-							"count": 90
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -6168,10 +6192,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 32
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 90
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -6467,16 +6500,6 @@
 							"count": 24
 						},
 						{
-							"spell_id": 34026,
-							"count": 5
-						},
-						{
-							"spell_id": 34120,
-							"count": 22
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -6499,8 +6522,17 @@
 						{
 							"spell_id": 33667,
 							"count": 1
+						},
+						{
+							"spell_id": 34026,
+							"count": 5
+						},
+						{
+							"spell_id": 34120,
+							"count": 22
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -6776,16 +6808,6 @@
 							"count": 18
 						},
 						{
-							"spell_id": 34026,
-							"count": 6
-						},
-						{
-							"spell_id": 34120,
-							"count": 19
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -6812,8 +6834,17 @@
 						{
 							"spell_id": 33667,
 							"count": 1
+						},
+						{
+							"spell_id": 34026,
+							"count": 6
+						},
+						{
+							"spell_id": 34120,
+							"count": 19
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -7098,16 +7129,6 @@
 							"count": 44
 						},
 						{
-							"spell_id": 34026,
-							"count": 7
-						},
-						{
-							"spell_id": 34120,
-							"count": 44
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -7134,8 +7155,17 @@
 						{
 							"spell_id": 33667,
 							"count": 2
+						},
+						{
+							"spell_id": 34026,
+							"count": 7
+						},
+						{
+							"spell_id": 34120,
+							"count": 44
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -7415,16 +7445,6 @@
 							"count": 46
 						},
 						{
-							"spell_id": 34026,
-							"count": 12
-						},
-						{
-							"spell_id": 34120,
-							"count": 45
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -7465,10 +7485,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 12
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 45
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -7501,6 +7530,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Netherspite",
@@ -7766,16 +7805,6 @@
 							"count": 79
 						},
 						{
-							"spell_id": 34026,
-							"count": 22
-						},
-						{
-							"spell_id": 34120,
-							"count": 97
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -7798,8 +7827,17 @@
 						{
 							"spell_id": 33667,
 							"count": 3
+						},
+						{
+							"spell_id": 34026,
+							"count": 22
+						},
+						{
+							"spell_id": 34120,
+							"count": 97
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -8096,16 +8134,6 @@
 							"count": 42
 						},
 						{
-							"spell_id": 34026,
-							"count": 15
-						},
-						{
-							"spell_id": 34120,
-							"count": 53
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -8132,8 +8160,17 @@
 						{
 							"spell_id": 33667,
 							"count": 1
+						},
+						{
+							"spell_id": 34026,
+							"count": 15
+						},
+						{
+							"spell_id": 34120,
+							"count": 53
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8166,6 +8203,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 2 (29%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Netherspite - Wipe 2 (29%)",
@@ -8431,16 +8478,6 @@
 							"count": 43
 						},
 						{
-							"spell_id": 34026,
-							"count": 10
-						},
-						{
-							"spell_id": 34120,
-							"count": 45
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 1
 						},
@@ -8465,10 +8502,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 10
+						},
+						{
+							"spell_id": 34120,
+							"count": 45
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -8521,16 +8567,6 @@
 							"count": 68
 						},
 						{
-							"spell_id": 34026,
-							"count": 18
-						},
-						{
-							"spell_id": 34120,
-							"count": 73
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 5
 						},
@@ -8559,14 +8595,23 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 18
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 73
 						},
 						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8613,16 +8658,6 @@
 							"count": 45
 						},
 						{
-							"spell_id": 34026,
-							"count": 16
-						},
-						{
-							"spell_id": 34120,
-							"count": 55
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -8651,10 +8686,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 16
+						},
+						{
+							"spell_id": 34120,
+							"count": 55
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8662,6 +8706,16 @@
 				"name": "Opera Hall - Wipe 2 (20%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Opera Hall - Wipe 2 (20%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Opera Hall - Wipe 2 (20%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall - Wipe 2 (20%)",
@@ -8708,16 +8762,6 @@
 							"count": 38
 						},
 						{
-							"spell_id": 34026,
-							"count": 12
-						},
-						{
-							"spell_id": 34120,
-							"count": 45
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -8746,10 +8790,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 12
+						},
+						{
+							"spell_id": 34120,
+							"count": 45
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8799,16 +8852,6 @@
 							"count": 94
 						},
 						{
-							"spell_id": 34026,
-							"count": 23
-						},
-						{
-							"spell_id": 34120,
-							"count": 94
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 8
 						},
@@ -8845,10 +8888,19 @@
 							"count": 3
 						},
 						{
+							"spell_id": 34026,
+							"count": 23
+						},
+						{
 							"spell_id": 34074,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 94
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -9140,16 +9192,6 @@
 							"count": 20
 						},
 						{
-							"spell_id": 34026,
-							"count": 4
-						},
-						{
-							"spell_id": 34120,
-							"count": 20
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -9160,8 +9202,17 @@
 						{
 							"spell_id": 33667,
 							"count": 1
+						},
+						{
+							"spell_id": 34026,
+							"count": 4
+						},
+						{
+							"spell_id": 34120,
+							"count": 20
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -9449,16 +9500,6 @@
 							"count": 46
 						},
 						{
-							"spell_id": 34026,
-							"count": 6
-						},
-						{
-							"spell_id": 34120,
-							"count": 39
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -9497,8 +9538,17 @@
 						{
 							"spell_id": 33667,
 							"count": 2
+						},
+						{
+							"spell_id": 34026,
+							"count": 6
+						},
+						{
+							"spell_id": 34120,
+							"count": 39
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -9781,16 +9831,6 @@
 							"count": 75
 						},
 						{
-							"spell_id": 34026,
-							"count": 26
-						},
-						{
-							"spell_id": 34120,
-							"count": 86
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -9813,8 +9853,17 @@
 						{
 							"spell_id": 33667,
 							"count": 2
+						},
+						{
+							"spell_id": 34026,
+							"count": 26
+						},
+						{
+							"spell_id": 34120,
+							"count": 86
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -10099,16 +10148,6 @@
 							"count": 56
 						},
 						{
-							"spell_id": 34026,
-							"count": 17
-						},
-						{
-							"spell_id": 34120,
-							"count": 71
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -10133,15 +10172,54 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 17
+						},
+						{
+							"spell_id": 34120,
+							"count": 71
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 2 (29%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Opera Hall - Wipe 2 (20%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Opera Hall - Wipe 2 (20%)"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Attumen the Huntsman",
@@ -10537,16 +10615,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 7,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Attumen the Huntsman"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Attumen the Huntsman",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1883\u0026item=19374",
@@ -10837,6 +10905,14 @@
 							"count": 8
 						},
 						{
+							"spell_id": 27228,
+							"count": 2
+						},
+						{
+							"spell_id": 28517,
+							"count": 1
+						},
+						{
 							"spell_id": 29858,
 							"count": 1
 						},
@@ -10845,16 +10921,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27228,
-							"count": 2
-						},
-						{
-							"spell_id": 28517,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -10882,12 +10949,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Maiden of Virtue",
-						"count": 6,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Maiden of Virtue"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue"
 					},
 					{
 						"type": "invalid_enchant",
@@ -11189,16 +11256,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27228,
+							"count": 1
+						},
+						{
 							"spell_id": 30546,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27228,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11501,14 +11567,13 @@
 						{
 							"spell_id": 27215,
 							"count": 2
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -11533,16 +11598,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue - Wipe 2 (25%)",
-						"count": 2,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Maiden of Virtue - Wipe 2 (25%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue - Wipe 2 (25%)",
@@ -11830,14 +11885,13 @@
 						{
 							"spell_id": 27215,
 							"count": 6
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11859,16 +11913,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 6,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Moroes"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Moroes",
@@ -12160,6 +12204,14 @@
 							"count": 5
 						},
 						{
+							"spell_id": 27228,
+							"count": 2
+						},
+						{
+							"spell_id": 27243,
+							"count": 1
+						},
+						{
 							"spell_id": 30546,
 							"count": 2
 						},
@@ -12168,16 +12220,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27228,
-							"count": 2
-						},
-						{
-							"spell_id": 27243,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -12205,12 +12248,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Netherspite",
-						"count": 9,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Netherspite"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
 					},
 					{
 						"type": "invalid_enchant",
@@ -12504,6 +12547,14 @@
 							"count": 10
 						},
 						{
+							"spell_id": 27228,
+							"count": 1
+						},
+						{
+							"spell_id": 28517,
+							"count": 1
+						},
+						{
 							"spell_id": 29858,
 							"count": 1
 						},
@@ -12512,16 +12563,7 @@
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27228,
-							"count": 1
-						},
-						{
-							"spell_id": 28517,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -12549,12 +12591,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Netherspite - Wipe 1 (36%)",
-						"count": 2,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 1 (36%)"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (36%)"
 					},
 					{
 						"type": "invalid_enchant",
@@ -12842,7 +12884,15 @@
 							"count": 3
 						},
 						{
+							"spell_id": 27220,
+							"count": 3
+						},
+						{
 							"spell_id": 27223,
+							"count": 1
+						},
+						{
+							"spell_id": 27228,
 							"count": 1
 						},
 						{
@@ -12850,16 +12900,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27220,
-							"count": 3
-						},
-						{
-							"spell_id": 27228,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -12895,12 +12936,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Netherspite - Wipe 2 (29%)",
-						"count": 5,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 2 (29%)"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
 					},
 					{
 						"type": "invalid_enchant",
@@ -13209,12 +13250,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27228,
 							"count": 1
 						},
@@ -13225,8 +13260,13 @@
 						{
 							"spell_id": 28610,
 							"count": 1
+						},
+						{
+							"spell_id": 30546,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13234,16 +13274,6 @@
 				"name": "Opera Hall",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 13,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Opera Hall"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall",
@@ -13298,13 +13328,11 @@
 							"count": 1
 						},
 						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27228,
+							"count": 1
+						},
+						{
+							"spell_id": 30546,
 							"count": 1
 						},
 						{
@@ -13312,6 +13340,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13324,16 +13353,6 @@
 				"name": "Opera Hall - Wipe 1 (61%)",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall - Wipe 1 (61%)",
-						"count": 6,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Opera Hall - Wipe 1 (61%)"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall - Wipe 1 (61%)",
@@ -13388,20 +13407,19 @@
 							"count": 4
 						},
 						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27217,
 							"count": 1
 						},
 						{
 							"spell_id": 27228,
 							"count": 3
+						},
+						{
+							"spell_id": 30546,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13414,16 +13432,6 @@
 				"name": "Opera Hall - Wipe 2 (20%)",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall - Wipe 2 (20%)",
-						"count": 9,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Opera Hall - Wipe 2 (20%)"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall - Wipe 2 (20%)",
@@ -13470,6 +13478,10 @@
 							"count": 9
 						},
 						{
+							"spell_id": 11719,
+							"count": 1
+						},
+						{
 							"spell_id": 27209,
 							"count": 38
 						},
@@ -13482,20 +13494,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27228,
+							"count": 4
+						},
+						{
 							"spell_id": 29858,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 11719,
-							"count": 1
-						},
-						{
-							"spell_id": 27228,
-							"count": 4
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13503,16 +13510,6 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 12,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Prince Malchezaar"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -13558,14 +13555,13 @@
 						{
 							"spell_id": 27215,
 							"count": 12
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13606,12 +13602,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Prince Malchezaar - Wipe 1 (35%)",
-						"count": 10,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Prince Malchezaar - Wipe 1 (35%)"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar - Wipe 1 (35%)"
 					},
 					{
 						"type": "invalid_enchant",
@@ -13903,16 +13899,15 @@
 							"count": 6
 						},
 						{
+							"spell_id": 27228,
+							"count": 1
+						},
+						{
 							"spell_id": 29858,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27228,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -13953,12 +13948,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Shade of Aran",
-						"count": 6,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Shade of Aran"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
 					},
 					{
 						"type": "invalid_enchant",
@@ -14247,8 +14242,20 @@
 							"count": 2
 						},
 						{
+							"spell_id": 6215,
+							"count": 1
+						},
+						{
 							"spell_id": 11689,
 							"count": 6
+						},
+						{
+							"spell_id": 11719,
+							"count": 1
+						},
+						{
+							"spell_id": 18647,
+							"count": 1
 						},
 						{
 							"spell_id": 27209,
@@ -14261,26 +14268,13 @@
 						{
 							"spell_id": 27223,
 							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6215,
-							"count": 1
-						},
-						{
-							"spell_id": 11719,
-							"count": 1
-						},
-						{
-							"spell_id": 18647,
-							"count": 1
 						},
 						{
 							"spell_id": 27228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -14321,12 +14315,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Terestian Illhoof",
-						"count": 19,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Terestian Illhoof"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Terestian Illhoof"
 					},
 					{
 						"type": "invalid_enchant",
@@ -14624,20 +14618,19 @@
 							"count": 3
 						},
 						{
-							"spell_id": 30546,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27228,
 							"count": 3
 						},
 						{
 							"spell_id": 27243,
 							"count": 33
+						},
+						{
+							"spell_id": 30546,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -14670,12 +14663,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "The Curator",
-						"count": 6,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:The Curator"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:The Curator"
 					},
 					{
 						"type": "invalid_enchant",
@@ -14978,6 +14971,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27228,
+							"count": 1
+						},
+						{
 							"spell_id": 30546,
 							"count": 1
 						},
@@ -14986,12 +14983,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27228,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -15004,153 +14996,83 @@
 		"remarks": [
 			{
 				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 7,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
 				"fight": "Maiden of Virtue",
-				"count": 6,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue - Wipe 2 (25%)",
-				"count": 2,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Maiden of Virtue - Wipe 2 (25%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 6,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Moroes"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Netherspite",
-				"count": 9,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Netherspite"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Netherspite - Wipe 1 (36%)",
-				"count": 2,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 1 (36%)"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (36%)"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Netherspite - Wipe 2 (29%)",
-				"count": 5,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 2 (29%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 13,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall - Wipe 1 (61%)",
-				"count": 6,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Opera Hall - Wipe 1 (61%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall - Wipe 2 (20%)",
-				"count": 9,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Opera Hall - Wipe 2 (20%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 12,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Prince Malchezaar"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Prince Malchezaar - Wipe 1 (35%)",
-				"count": 10,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Prince Malchezaar - Wipe 1 (35%)"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar - Wipe 1 (35%)"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Shade of Aran",
-				"count": 6,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Shade of Aran"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Terestian Illhoof",
-				"count": 19,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Terestian Illhoof"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Terestian Illhoof"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "The Curator",
-				"count": 6,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:The Curator"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:The Curator"
 			},
 			{
 				"type": "invalid_enchant",
@@ -16396,16 +16318,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33662,
+							"count": 1
+						},
+						{
 							"spell_id": 45438,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 33662,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -16853,16 +16774,15 @@
 							"count": 2
 						},
 						{
+							"spell_id": 33662,
+							"count": 1
+						},
+						{
 							"spell_id": 45438,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 33662,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -17308,16 +17228,15 @@
 							"count": 2
 						},
 						{
+							"spell_id": 33662,
+							"count": 1
+						},
+						{
 							"spell_id": 45438,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 33662,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -18200,6 +18119,10 @@
 							"count": 5
 						},
 						{
+							"spell_id": 33662,
+							"count": 2
+						},
+						{
 							"spell_id": 33933,
 							"count": 1
 						},
@@ -18208,12 +18131,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 33662,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -18688,16 +18606,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33662,
+							"count": 2
+						},
+						{
 							"spell_id": 45438,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 33662,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19151,14 +19068,13 @@
 						{
 							"spell_id": 27074,
 							"count": 6
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -19640,20 +19556,19 @@
 							"count": 1
 						},
 						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27131,
 							"count": 1
 						},
 						{
 							"spell_id": 33662,
 							"count": 2
+						},
+						{
+							"spell_id": 45438,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19726,14 +19641,13 @@
 						{
 							"spell_id": 30449,
 							"count": 5
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19786,6 +19700,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 66,
+							"count": 1
+						},
+						{
 							"spell_id": 1953,
 							"count": 1
 						},
@@ -19810,20 +19728,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33662,
+							"count": 1
+						},
+						{
 							"spell_id": 45438,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 66,
-							"count": 1
-						},
-						{
-							"spell_id": 33662,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19899,16 +19812,15 @@
 							"count": 3
 						},
 						{
+							"spell_id": 33662,
+							"count": 1
+						},
+						{
 							"spell_id": 45438,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 33662,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19971,14 +19883,13 @@
 						{
 							"spell_id": 27074,
 							"count": 19
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -20441,14 +20352,13 @@
 						{
 							"spell_id": 27074,
 							"count": 11
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -20932,8 +20842,16 @@
 							"count": 5
 						},
 						{
+							"spell_id": 32796,
+							"count": 1
+						},
+						{
 							"spell_id": 33043,
 							"count": 1
+						},
+						{
+							"spell_id": 33662,
+							"count": 2
 						},
 						{
 							"spell_id": 33933,
@@ -20944,16 +20862,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 32796,
-							"count": 1
-						},
-						{
-							"spell_id": 33662,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -21426,14 +21335,13 @@
 						{
 							"spell_id": 27128,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -21875,14 +21783,13 @@
 						{
 							"spell_id": 27079,
 							"count": 4
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -23656,6 +23563,10 @@
 							"count": 16
 						},
 						{
+							"spell_id": 8940,
+							"count": 1
+						},
+						{
 							"spell_id": 18562,
 							"count": 2
 						},
@@ -23668,6 +23579,14 @@
 							"count": 6
 						},
 						{
+							"spell_id": 26994,
+							"count": 1
+						},
+						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 32
 						},
@@ -23676,20 +23595,7 @@
 							"count": 4
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 1
-						},
-						{
-							"spell_id": 26994,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -23969,12 +23875,20 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 5
+						},
+						{
 							"spell_id": 17116,
 							"count": 1
 						},
 						{
 							"spell_id": 18562,
 							"count": 3
+						},
+						{
+							"spell_id": 26979,
+							"count": 1
 						},
 						{
 							"spell_id": 26980,
@@ -23985,6 +23899,10 @@
 							"count": 10
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 50
 						},
@@ -23993,20 +23911,7 @@
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 5
-						},
-						{
-							"spell_id": 26979,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24571,16 +24476,15 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 30
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24859,6 +24763,14 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 2893,
+							"count": 2
+						},
+						{
+							"spell_id": 8940,
+							"count": 2
+						},
+						{
 							"spell_id": 18562,
 							"count": 1
 						},
@@ -24871,24 +24783,15 @@
 							"count": 6
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 54
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 2893,
-							"count": 2
-						},
-						{
-							"spell_id": 8940,
-							"count": 2
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24929,6 +24832,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
@@ -25177,6 +25090,14 @@
 					],
 					"spells": [
 						{
+							"spell_id": 9634,
+							"count": 1
+						},
+						{
+							"spell_id": 17531,
+							"count": 1
+						},
+						{
 							"spell_id": 18562,
 							"count": 3
 						},
@@ -25189,24 +25110,6 @@
 							"count": 7
 						},
 						{
-							"spell_id": 33763,
-							"count": 62
-						},
-						{
-							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 9634,
-							"count": 1
-						},
-						{
-							"spell_id": 17531,
-							"count": 1
-						},
-						{
 							"spell_id": 26994,
 							"count": 1
 						},
@@ -25217,8 +25120,17 @@
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 62
+						},
+						{
+							"spell_id": 33891,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -25490,6 +25402,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 2
+						},
+						{
 							"spell_id": 18562,
 							"count": 1
 						},
@@ -25506,12 +25422,7 @@
 							"count": 49
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -25793,6 +25704,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 5
+						},
+						{
 							"spell_id": 18562,
 							"count": 1
 						},
@@ -25805,6 +25720,10 @@
 							"count": 8
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 52
 						},
@@ -25813,16 +25732,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 5
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -25863,6 +25773,14 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 2893,
+							"count": 3
+						},
+						{
+							"spell_id": 8940,
+							"count": 2
+						},
+						{
 							"spell_id": 18562,
 							"count": 1
 						},
@@ -25875,28 +25793,19 @@
 							"count": 13
 						},
 						{
-							"spell_id": 33763,
-							"count": 52
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 2893,
-							"count": 3
-						},
-						{
-							"spell_id": 8940,
-							"count": 2
-						},
-						{
 							"spell_id": 26988,
 							"count": 1
 						},
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 52
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -25939,6 +25848,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 2893,
+							"count": 1
+						},
+						{
 							"spell_id": 18562,
 							"count": 1
 						},
@@ -25959,12 +25872,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 2893,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -26005,6 +25913,14 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 2893,
+							"count": 2
+						},
+						{
+							"spell_id": 8940,
+							"count": 1
+						},
+						{
 							"spell_id": 18562,
 							"count": 2
 						},
@@ -26017,28 +25933,19 @@
 							"count": 9
 						},
 						{
-							"spell_id": 33763,
-							"count": 52
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 2893,
-							"count": 2
-						},
-						{
-							"spell_id": 8940,
-							"count": 1
-						},
-						{
 							"spell_id": 26994,
 							"count": 1
 						},
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 52
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -26080,12 +25987,20 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 5
+						},
+						{
 							"spell_id": 17116,
 							"count": 1
 						},
 						{
 							"spell_id": 18562,
 							"count": 4
+						},
+						{
+							"spell_id": 26979,
+							"count": 1
 						},
 						{
 							"spell_id": 26980,
@@ -26096,6 +26011,10 @@
 							"count": 17
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 70
 						},
@@ -26104,20 +26023,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 5
-						},
-						{
-							"spell_id": 26979,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -26407,12 +26313,24 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 7
+						},
+						{
 							"spell_id": 17116,
+							"count": 1
+						},
+						{
+							"spell_id": 17531,
 							"count": 1
 						},
 						{
 							"spell_id": 18562,
 							"count": 2
+						},
+						{
+							"spell_id": 26979,
+							"count": 1
 						},
 						{
 							"spell_id": 26980,
@@ -26423,6 +26341,10 @@
 							"count": 10
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 33
 						},
@@ -26431,24 +26353,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 7
-						},
-						{
-							"spell_id": 17531,
-							"count": 1
-						},
-						{
-							"spell_id": 26979,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -26725,28 +26630,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 18562,
-							"count": 5
-						},
-						{
-							"spell_id": 26980,
-							"count": 15
-						},
-						{
-							"spell_id": 26982,
-							"count": 16
-						},
-						{
-							"spell_id": 33763,
-							"count": 65
-						},
-						{
-							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 1
 						},
@@ -26759,14 +26642,35 @@
 							"count": 1
 						},
 						{
+							"spell_id": 18562,
+							"count": 5
+						},
+						{
+							"spell_id": 26980,
+							"count": 15
+						},
+						{
+							"spell_id": 26982,
+							"count": 16
+						},
+						{
 							"spell_id": 26994,
 							"count": 1
 						},
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 65
+						},
+						{
+							"spell_id": 33891,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -27047,12 +26951,24 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 3
+						},
+						{
+							"spell_id": 17531,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 7
 						},
 						{
 							"spell_id": 26982,
 							"count": 7
+						},
+						{
+							"spell_id": 29166,
+							"count": 1
 						},
 						{
 							"spell_id": 33763,
@@ -27063,20 +26979,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 3
-						},
-						{
-							"spell_id": 17531,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -27358,12 +27261,24 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 3
+						},
+						{
 							"spell_id": 26980,
 							"count": 1
 						},
 						{
 							"spell_id": 26982,
 							"count": 3
+						},
+						{
+							"spell_id": 26984,
+							"count": 4
+						},
+						{
+							"spell_id": 29166,
+							"count": 1
 						},
 						{
 							"spell_id": 33763,
@@ -27374,25 +27289,22 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 3
-						},
-						{
-							"spell_id": 26984,
-							"count": 4
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -28451,8 +28363,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 71,
 							"count": 1
@@ -28502,6 +28413,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -28787,8 +28699,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2687,
 							"count": 1
@@ -28806,6 +28717,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -29086,8 +28998,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 1
@@ -29117,6 +29028,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -29149,6 +29061,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Maiden of Virtue - Wipe 2 (25%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue - Wipe 2 (25%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue - Wipe 2 (25%)",
@@ -29403,8 +29325,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 2
@@ -29434,6 +29355,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -29722,12 +29644,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 4
 						},
@@ -29768,6 +29684,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 1
+						},
+						{
 							"spell_id": 30330,
 							"count": 4
 						},
@@ -29776,6 +29696,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -29800,6 +29721,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
@@ -30053,8 +29984,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 5
@@ -30080,6 +30010,7 @@
 							"count": 9
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -30371,12 +30302,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 8
 						},
@@ -30401,10 +30326,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 2
+						},
+						{
 							"spell_id": 30330,
 							"count": 12
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -30437,6 +30367,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 2 (29%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 2 (29%)",
@@ -30696,12 +30636,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 7
 						},
@@ -30734,10 +30668,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 3
+						},
+						{
 							"spell_id": 30330,
 							"count": 12
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -30779,8 +30718,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 3
@@ -30826,6 +30764,7 @@
 							"count": 8
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -30833,6 +30772,16 @@
 				"name": "Opera Hall - Wipe 1 (61%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Opera Hall - Wipe 1 (61%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Opera Hall - Wipe 1 (61%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall - Wipe 1 (61%)",
@@ -30876,12 +30825,6 @@
 						}
 					],
 					"spells": [
-						{
-							"spell_id": 29707,
-							"count": 1
-						}
-					],
-					"unknown": [
 						{
 							"spell_id": 71,
 							"count": 1
@@ -30927,10 +30870,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 1
+						},
+						{
 							"spell_id": 30330,
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -30978,12 +30926,6 @@
 				"analysis": {
 					"items": [],
 					"spells": [
-						{
-							"spell_id": 29707,
-							"count": 1
-						}
-					],
-					"unknown": [
 						{
 							"spell_id": 71,
 							"count": 1
@@ -31041,10 +30983,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 1
+						},
+						{
 							"spell_id": 30330,
 							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -31052,6 +30999,16 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -31095,8 +31052,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 71,
 							"count": 2
@@ -31154,6 +31110,7 @@
 							"count": 14
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -31438,8 +31395,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 4
@@ -31485,6 +31441,7 @@
 							"count": 10
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -31509,6 +31466,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Shade of Aran",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Shade of Aran",
@@ -31770,12 +31737,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 6
 						},
@@ -31816,10 +31777,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 1
+						},
+						{
 							"spell_id": 30330,
 							"count": 15
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -32095,12 +32061,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 13
 						},
@@ -32141,6 +32101,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 1
+						},
+						{
 							"spell_id": 30330,
 							"count": 12
 						},
@@ -32149,6 +32113,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -32427,12 +32392,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 9
 						},
@@ -32469,15 +32428,80 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 3
+						},
+						{
 							"spell_id": 30330,
 							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Maiden of Virtue - Wipe 2 (25%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue - Wipe 2 (25%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 2 (29%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Opera Hall - Wipe 1 (61%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Opera Hall - Wipe 1 (61%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Shade of Aran",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -33580,8 +33604,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 10
@@ -33615,6 +33638,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -33925,8 +33949,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2094,
 							"count": 1
@@ -33968,6 +33991,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -34263,8 +34287,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 2
@@ -34302,6 +34325,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -34592,8 +34616,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 2
@@ -34611,6 +34634,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -34904,8 +34928,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 5
@@ -34947,6 +34970,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -34987,6 +35011,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
@@ -35250,8 +35284,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 5
@@ -35285,6 +35318,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -35580,8 +35614,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 4
@@ -35599,6 +35632,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -35890,8 +35924,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2094,
 							"count": 1
@@ -35909,6 +35942,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -35921,6 +35955,16 @@
 				"name": "Opera Hall",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Opera Hall",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Opera Hall"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall",
@@ -35960,8 +36004,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 6
@@ -36003,6 +36046,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -36010,6 +36054,16 @@
 				"name": "Opera Hall - Wipe 1 (61%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Opera Hall - Wipe 1 (61%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Opera Hall - Wipe 1 (61%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall - Wipe 1 (61%)",
@@ -36049,8 +36103,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 5
@@ -36092,6 +36145,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -36133,8 +36187,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2094,
 							"count": 1
@@ -36180,6 +36233,7 @@
 							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -36187,6 +36241,16 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -36229,8 +36293,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 9
@@ -36276,6 +36339,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -36580,8 +36644,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 6
@@ -36627,6 +36690,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -36664,6 +36728,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Shade of Aran",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Shade of Aran",
@@ -36931,8 +37005,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 7
@@ -36982,6 +37055,7 @@
 							"count": 11
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -37268,8 +37342,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 7
@@ -37311,6 +37384,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -37600,8 +37674,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 6
@@ -37639,11 +37712,62 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Opera Hall",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Opera Hall"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Opera Hall - Wipe 1 (61%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Opera Hall - Wipe 1 (61%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Shade of Aran",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -38467,6 +38591,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Attumen the Huntsman",
+						"count": 6,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Attumen the Huntsman"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Attumen the Huntsman",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2505\u0026item=31342",
@@ -38749,20 +38883,19 @@
 							"count": 24
 						},
 						{
-							"spell_id": 33076,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 28760,
 							"count": 1
+						},
+						{
+							"spell_id": 33076,
+							"count": 2
 						},
 						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -38795,6 +38928,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Maiden of Virtue",
+						"count": 3,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Maiden of Virtue"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Maiden of Virtue",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue",
@@ -39082,12 +39235,6 @@
 							"count": 25
 						},
 						{
-							"spell_id": 33076,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25308,
 							"count": 1
 						},
@@ -39100,10 +39247,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 1
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -39450,6 +39602,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Maiden of Virtue - Wipe 2 (25%)",
+						"count": 2,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Maiden of Virtue - Wipe 2 (25%)"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue - Wipe 2 (25%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2505\u0026item=31342",
@@ -39727,13 +39889,11 @@
 							"count": 19
 						},
 						{
-							"spell_id": 33076,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25429,
+							"count": 1
+						},
+						{
+							"spell_id": 33076,
 							"count": 1
 						},
 						{
@@ -39741,6 +39901,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -39773,6 +39934,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Moroes",
+						"count": 9,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Moroes"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Moroes",
@@ -40031,6 +40202,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 10955,
+							"count": 4
+						},
+						{
 							"spell_id": 10964,
 							"count": 9
 						},
@@ -40047,24 +40222,19 @@
 							"count": 12
 						},
 						{
-							"spell_id": 33076,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10955,
-							"count": 4
-						},
-						{
 							"spell_id": 28760,
 							"count": 1
+						},
+						{
+							"spell_id": 33076,
+							"count": 3
 						},
 						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -40089,6 +40259,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Netherspite"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
@@ -40362,16 +40542,6 @@
 							"count": 19
 						},
 						{
-							"spell_id": 33076,
-							"count": 2
-						},
-						{
-							"spell_id": 34866,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25389,
 							"count": 1
 						},
@@ -40380,10 +40550,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 2
+						},
+						{
 							"spell_id": 34433,
+							"count": 1
+						},
+						{
+							"spell_id": 34866,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -40424,6 +40603,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 1 (36%)",
+						"count": 1,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Netherspite - Wipe 1 (36%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 1 (36%)",
@@ -40684,16 +40873,15 @@
 							"count": 11
 						},
 						{
+							"spell_id": 34433,
+							"count": 1
+						},
+						{
 							"spell_id": 34866,
 							"count": 3
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 34433,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -40726,6 +40914,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 2 (29%)",
+						"count": 1,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Netherspite - Wipe 2 (29%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 2 (29%)",
@@ -41001,6 +41199,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 1
 						},
@@ -41015,20 +41217,6 @@
 						{
 							"spell_id": 25235,
 							"count": 39
-						},
-						{
-							"spell_id": 33076,
-							"count": 1
-						},
-						{
-							"spell_id": 34866,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
 						},
 						{
 							"spell_id": 25308,
@@ -41047,10 +41235,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 1
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
+						},
+						{
+							"spell_id": 34866,
+							"count": 11
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -41058,6 +41255,16 @@
 				"name": "Opera Hall",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Opera Hall",
+						"count": 9,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Opera Hall"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall",
@@ -41106,12 +41313,6 @@
 							"count": 18
 						},
 						{
-							"spell_id": 33076,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25368,
 							"count": 1
 						},
@@ -41120,10 +41321,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 7
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -41131,6 +41337,16 @@
 				"name": "Opera Hall - Wipe 1 (61%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Opera Hall - Wipe 1 (61%)",
+						"count": 4,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Opera Hall - Wipe 1 (61%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall - Wipe 1 (61%)",
@@ -41181,12 +41397,6 @@
 							"count": 23
 						},
 						{
-							"spell_id": 33076,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25368,
 							"count": 2
 						},
@@ -41199,10 +41409,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 4
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -41215,6 +41430,16 @@
 				"name": "Opera Hall - Wipe 2 (20%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Opera Hall - Wipe 2 (20%)",
+						"count": 6,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Opera Hall - Wipe 2 (20%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall - Wipe 2 (20%)",
@@ -41271,12 +41496,6 @@
 							"count": 21
 						},
 						{
-							"spell_id": 33076,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25368,
 							"count": 1
 						},
@@ -41293,10 +41512,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 6
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -41309,6 +41533,16 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 26,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Prince Malchezaar"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -41364,17 +41598,11 @@
 							"count": 27
 						},
 						{
-							"spell_id": 33076,
+							"spell_id": 28760,
 							"count": 1
 						},
 						{
-							"spell_id": 34866,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 28760,
+							"spell_id": 33076,
 							"count": 1
 						},
 						{
@@ -41382,10 +41610,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34866,
+							"count": 5
+						},
+						{
 							"spell_id": 38332,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -41431,6 +41664,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar - Wipe 1 (35%)",
+						"count": 19,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Prince Malchezaar - Wipe 1 (35%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar - Wipe 1 (35%)",
@@ -41710,20 +41953,19 @@
 							"count": 17
 						},
 						{
-							"spell_id": 33076,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 28760,
 							"count": 1
+						},
+						{
+							"spell_id": 33076,
+							"count": 3
 						},
 						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -41769,6 +42011,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Shade of Aran",
+						"count": 4,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Shade of Aran"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Shade of Aran",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Shade of Aran",
@@ -42042,8 +42304,16 @@
 							"count": 15
 						},
 						{
+							"spell_id": 10890,
+							"count": 1
+						},
+						{
 							"spell_id": 10964,
 							"count": 4
+						},
+						{
+							"spell_id": 14751,
+							"count": 1
 						},
 						{
 							"spell_id": 25218,
@@ -42058,20 +42328,6 @@
 							"count": 22
 						},
 						{
-							"spell_id": 33076,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10890,
-							"count": 1
-						},
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
 							"spell_id": 25429,
 							"count": 1
 						},
@@ -42084,10 +42340,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 3
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -42125,6 +42386,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Terestian Illhoof",
+						"count": 9,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Terestian Illhoof"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Terestian Illhoof",
@@ -42394,6 +42665,10 @@
 							"count": 9
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 1
 						},
@@ -42410,24 +42685,19 @@
 							"count": 22
 						},
 						{
-							"spell_id": 33076,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
 							"spell_id": 25368,
 							"count": 2
+						},
+						{
+							"spell_id": 33076,
+							"count": 4
 						},
 						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -42473,6 +42743,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Curator",
+						"count": 7,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:The Curator"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "The Curator",
@@ -42754,16 +43034,6 @@
 							"count": 15
 						},
 						{
-							"spell_id": 33076,
-							"count": 2
-						},
-						{
-							"spell_id": 34866,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25368,
 							"count": 1
 						},
@@ -42772,19 +43042,198 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 2
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
+						},
+						{
+							"spell_id": 34866,
+							"count": 9
 						},
 						{
 							"spell_id": 38332,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Attumen the Huntsman",
+				"count": 6,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Attumen the Huntsman"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Maiden of Virtue",
+				"count": 3,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Maiden of Virtue"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Maiden of Virtue - Wipe 2 (25%)",
+				"count": 2,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Maiden of Virtue - Wipe 2 (25%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Moroes",
+				"count": 9,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Moroes"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Netherspite"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 1 (36%)",
+				"count": 1,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Netherspite - Wipe 1 (36%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 2 (29%)",
+				"count": 1,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Netherspite - Wipe 2 (29%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Opera Hall",
+				"count": 9,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Opera Hall"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Opera Hall - Wipe 1 (61%)",
+				"count": 4,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Opera Hall - Wipe 1 (61%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Opera Hall - Wipe 2 (20%)",
+				"count": 6,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Opera Hall - Wipe 2 (20%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 26,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Prince Malchezaar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar - Wipe 1 (35%)",
+				"count": 19,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Prince Malchezaar - Wipe 1 (35%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Shade of Aran",
+				"count": 4,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Shade of Aran"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Terestian Illhoof",
+				"count": 9,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Terestian Illhoof"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Curator",
+				"count": 7,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:The Curator"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Maiden of Virtue",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Shade of Aran",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -44119,12 +44568,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 23
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 5229,
 							"count": 1
 						},
@@ -44165,10 +44608,15 @@
 							"count": 38
 						},
 						{
+							"spell_id": 33987,
+							"count": 23
+						},
+						{
 							"spell_id": 39228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -44600,12 +45048,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 24
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6795,
 							"count": 1
 						},
@@ -44634,10 +45076,15 @@
 							"count": 40
 						},
 						{
+							"spell_id": 33987,
+							"count": 24
+						},
+						{
 							"spell_id": 39228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -45058,12 +45505,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26996,
 							"count": 4
 						},
@@ -45080,10 +45521,15 @@
 							"count": 7
 						},
 						{
+							"spell_id": 33987,
+							"count": 5
+						},
+						{
 							"spell_id": 39228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -45503,12 +45949,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 17
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26996,
 							"count": 23
 						},
@@ -45533,10 +45973,15 @@
 							"count": 26
 						},
 						{
+							"spell_id": 33987,
+							"count": 17
+						},
+						{
 							"spell_id": 39228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -45957,12 +46402,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 15
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26996,
 							"count": 14
 						},
@@ -45981,8 +46420,13 @@
 						{
 							"spell_id": 33745,
 							"count": 24
+						},
+						{
+							"spell_id": 33987,
+							"count": 15
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -46023,6 +46467,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
@@ -46419,16 +46873,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26982,
-							"count": 1
-						},
-						{
-							"spell_id": 33987,
-							"count": 23
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 5229,
 							"count": 1
 						},
@@ -46442,6 +46886,10 @@
 						},
 						{
 							"spell_id": 16979,
+							"count": 1
+						},
+						{
+							"spell_id": 26982,
 							"count": 1
 						},
 						{
@@ -46469,10 +46917,15 @@
 							"count": 62
 						},
 						{
+							"spell_id": 33987,
+							"count": 23
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -46903,16 +47356,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 2
-						},
-						{
-							"spell_id": 33987,
-							"count": 17
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 2
 						},
@@ -46930,6 +47373,10 @@
 						},
 						{
 							"spell_id": 26998,
+							"count": 2
+						},
+						{
+							"spell_id": 27002,
 							"count": 2
 						},
 						{
@@ -46953,10 +47400,15 @@
 							"count": 3
 						},
 						{
+							"spell_id": 33987,
+							"count": 17
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -47386,12 +47838,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 29
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 5229,
 							"count": 1
 						},
@@ -47432,10 +47878,15 @@
 							"count": 64
 						},
 						{
+							"spell_id": 33987,
+							"count": 29
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -47481,16 +47932,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 6
-						},
-						{
-							"spell_id": 33987,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 1
 						},
@@ -47509,6 +47950,10 @@
 						{
 							"spell_id": 26998,
 							"count": 3
+						},
+						{
+							"spell_id": 27002,
+							"count": 6
 						},
 						{
 							"spell_id": 27003,
@@ -47531,10 +47976,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33987,
+							"count": 18
+						},
+						{
 							"spell_id": 39228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -47585,16 +48035,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 6
-						},
-						{
-							"spell_id": 33987,
-							"count": 10
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 3
 						},
@@ -47631,6 +48071,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27002,
+							"count": 6
+						},
+						{
 							"spell_id": 27003,
 							"count": 2
 						},
@@ -47655,10 +48099,15 @@
 							"count": 2
 						},
 						{
+							"spell_id": 33987,
+							"count": 10
+						},
+						{
 							"spell_id": 39228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -47706,16 +48155,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 7
-						},
-						{
-							"spell_id": 33987,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 2
 						},
@@ -47744,6 +48183,10 @@
 							"count": 24
 						},
 						{
+							"spell_id": 27002,
+							"count": 7
+						},
+						{
 							"spell_id": 27003,
 							"count": 2
 						},
@@ -47764,10 +48207,15 @@
 							"count": 32
 						},
 						{
+							"spell_id": 33987,
+							"count": 18
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -47810,18 +48258,16 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 43
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 18
 						},
 						{
 							"spell_id": 24248,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 43
 						},
 						{
 							"spell_id": 27003,
@@ -47852,6 +48298,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -48161,22 +48608,16 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 30
-						},
-						{
-							"spell_id": 33987,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 9
 						},
 						{
 							"spell_id": 9634,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 30
 						},
 						{
 							"spell_id": 27003,
@@ -48203,10 +48644,15 @@
 							"count": 4
 						},
 						{
+							"spell_id": 33987,
+							"count": 1
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -48524,24 +48970,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 4
-						},
-						{
-							"spell_id": 26982,
-							"count": 4
-						},
-						{
-							"spell_id": 27002,
-							"count": 13
-						},
-						{
-							"spell_id": 33987,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 12
 						},
@@ -48566,8 +48994,20 @@
 							"count": 1
 						},
 						{
+							"spell_id": 26980,
+							"count": 4
+						},
+						{
+							"spell_id": 26982,
+							"count": 4
+						},
+						{
 							"spell_id": 26999,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 13
 						},
 						{
 							"spell_id": 27003,
@@ -48596,8 +49036,13 @@
 						{
 							"spell_id": 33983,
 							"count": 19
+						},
+						{
+							"spell_id": 33987,
+							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -49027,16 +49472,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 10
-						},
-						{
-							"spell_id": 33987,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 5
 						},
@@ -49069,6 +49504,10 @@
 							"count": 8
 						},
 						{
+							"spell_id": 27002,
+							"count": 10
+						},
+						{
 							"spell_id": 27003,
 							"count": 4
 						},
@@ -49087,8 +49526,13 @@
 						{
 							"spell_id": 33983,
 							"count": 4
+						},
+						{
+							"spell_id": 33987,
+							"count": 7
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -49530,16 +49974,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 3
-						},
-						{
-							"spell_id": 33987,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 1
 						},
@@ -49556,6 +49990,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27002,
+							"count": 3
+						},
+						{
 							"spell_id": 27003,
 							"count": 1
 						},
@@ -49570,13 +50008,28 @@
 						{
 							"spell_id": 33983,
 							"count": 18
+						},
+						{
+							"spell_id": 33987,
+							"count": 7
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -51374,8 +51827,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 16
@@ -51437,6 +51889,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -51751,8 +52204,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2894,
 							"count": 1
@@ -51814,6 +52266,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -52126,8 +52579,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 3
@@ -52169,6 +52621,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -52488,8 +52941,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 10
@@ -52539,6 +52991,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -52863,8 +53316,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 10
@@ -52922,6 +53374,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -53245,8 +53698,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 16
@@ -53312,6 +53764,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -53632,8 +54085,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 15
@@ -53687,6 +54139,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -53719,6 +54172,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 2 (29%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 2 (29%)",
@@ -54014,8 +54477,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 9
@@ -54073,6 +54535,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -54116,8 +54579,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 8012,
 							"count": 3
@@ -54171,6 +54633,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -54215,8 +54678,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 526,
 							"count": 1
@@ -54274,6 +54736,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -54318,8 +54781,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 8012,
 							"count": 5
@@ -54377,6 +54839,7 @@
 							"count": 13
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -54420,8 +54883,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 17
@@ -54475,6 +54937,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -54804,8 +55267,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 11
@@ -54859,6 +55321,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -55175,12 +55638,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 17364,
 							"count": 17
 						},
@@ -55191,6 +55648,10 @@
 						{
 							"spell_id": 25396,
 							"count": 1
+						},
+						{
+							"spell_id": 25449,
+							"count": 5
 						},
 						{
 							"spell_id": 25454,
@@ -55237,6 +55698,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -55555,8 +56017,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 14
@@ -55622,6 +56083,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -55944,8 +56406,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17364,
 							"count": 11
@@ -56007,11 +56468,22 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 2 (29%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (29%)"
+			},
 			{
 				"type": "invalid_battle_elixir",
 				"fight": "Prince Malchezaar - Wipe 1 (35%)",

@@ -41,12 +41,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27222,
-							"count": 13
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 11717,
 							"count": 3
 						},
@@ -63,6 +57,10 @@
 							"count": 16
 						},
 						{
+							"spell_id": 27222,
+							"count": 13
+						},
+						{
 							"spell_id": 27259,
 							"count": 1
 						},
@@ -71,6 +69,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -104,6 +103,16 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 6,
+						"spell_id": 17392,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17392",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17392:Prince Malchezaar"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -140,12 +149,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 22
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 21
 						},
@@ -164,6 +167,10 @@
 						{
 							"spell_id": 24248,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 22
 						},
 						{
 							"spell_id": 27003,
@@ -186,11 +193,22 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 6,
+				"spell_id": 17392,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17392",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17392:Prince Malchezaar"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Prince Malchezaar",
@@ -251,8 +269,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 7
@@ -290,6 +307,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -372,14 +390,13 @@
 						{
 							"spell_id": 27074,
 							"count": 17
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27078,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -451,8 +468,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 19
@@ -490,6 +506,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -524,6 +541,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 27,
+						"spell_id": 3472,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=3472",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=3472:Prince Malchezaar"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
 						"uuid": "missing_battle_elixir:Prince Malchezaar"
@@ -555,12 +582,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 55
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3472,
 							"count": 27
 						},
@@ -581,6 +602,10 @@
 							"count": 4
 						},
 						{
+							"spell_id": 27137,
+							"count": 55
+						},
+						{
 							"spell_id": 31842,
 							"count": 1
 						},
@@ -589,11 +614,22 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 27,
+				"spell_id": 3472,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=3472",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=3472:Prince Malchezaar"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Prince Malchezaar",
@@ -661,6 +697,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 2
 						},
@@ -681,18 +721,12 @@
 							"count": 6
 						},
 						{
-							"spell_id": 34866,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
+							"spell_id": 34433,
 							"count": 1
 						},
 						{
-							"spell_id": 34433,
-							"count": 1
+							"spell_id": 34866,
+							"count": 6
 						},
 						{
 							"spell_id": 51953,
@@ -703,6 +737,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -775,16 +810,6 @@
 							"count": 116
 						},
 						{
-							"spell_id": 34026,
-							"count": 25
-						},
-						{
-							"spell_id": 34120,
-							"count": 114
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -815,8 +840,17 @@
 						{
 							"spell_id": 33667,
 							"count": 2
+						},
+						{
+							"spell_id": 34026,
+							"count": 25
+						},
+						{
+							"spell_id": 34120,
+							"count": 114
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -883,12 +917,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 32996,
-							"count": 12
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 14751,
 							"count": 1
 						},
@@ -909,6 +937,10 @@
 							"count": 31
 						},
 						{
+							"spell_id": 32996,
+							"count": 12
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -921,6 +953,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -992,12 +1025,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 21
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 13
 						},
@@ -1030,6 +1057,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 21
+						},
+						{
 							"spell_id": 30033,
 							"count": 10
 						},
@@ -1046,6 +1077,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}

@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: Fetch logs client
       env:
-        VERSION: v1.5.3
+        VERSION: v1.6.0
       run: |
         curl -L https://github.com/origin-finkle/logs/releases/download/${VERSION}/logs-${VERSION}-linux-amd64.tar.gz | tar xzf -
         mv logs /tmp/bin-logs

@@ -45,8 +45,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10278,
 							"count": 1
@@ -92,6 +91,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -173,12 +173,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2894,
 							"count": 1
 						},
@@ -197,6 +191,10 @@
 						{
 							"spell_id": 25442,
 							"count": 2
+						},
+						{
+							"spell_id": 25449,
+							"count": 4
 						},
 						{
 							"spell_id": 25454,
@@ -247,6 +245,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -280,6 +279,16 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Nightbane",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -331,18 +340,12 @@
 							"count": 10
 						},
 						{
-							"spell_id": 27222,
-							"count": 17
-						},
-						{
-							"spell_id": 30912,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 2
+						},
+						{
+							"spell_id": 27222,
+							"count": 17
 						},
 						{
 							"spell_id": 27243,
@@ -353,15 +356,30 @@
 							"count": 3
 						},
 						{
+							"spell_id": 30912,
+							"count": 6
+						},
+						{
 							"spell_id": 34000,
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Nightbane",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Nightbane",
@@ -390,6 +408,16 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Nightbane",
+						"count": 1,
+						"spell_id": 31661,
+						"suggested_spell_id": 33041,
+						"spell_wowhead_attr": "spell=31661",
+						"higher_ranked_spell_wowhead_attr": "spell=33041",
+						"uuid": "cast_higher_rank_available:spell=31661:Nightbane"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -453,16 +481,6 @@
 							"count": 2
 						},
 						{
-							"spell_id": 33933,
-							"count": 1
-						},
-						{
-							"spell_id": 45438,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27085,
 							"count": 4
 						},
@@ -481,8 +499,17 @@
 						{
 							"spell_id": 33662,
 							"count": 4
+						},
+						{
+							"spell_id": 33933,
+							"count": 1
+						},
+						{
+							"spell_id": 45438,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -493,6 +520,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Nightbane",
+				"count": 1,
+				"spell_id": 31661,
+				"suggested_spell_id": 33041,
+				"spell_wowhead_attr": "spell=31661",
+				"higher_ranked_spell_wowhead_attr": "spell=33041",
+				"uuid": "cast_higher_rank_available:spell=31661:Nightbane"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Nightbane",
@@ -521,6 +558,36 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Nightbane",
+						"count": 9,
+						"spell_id": 1026,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=1026",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=1026:Nightbane"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Nightbane",
+						"count": 33,
+						"spell_id": 19941,
+						"suggested_spell_id": 19943,
+						"spell_wowhead_attr": "spell=19941",
+						"higher_ranked_spell_wowhead_attr": "spell=19943",
+						"uuid": "cast_higher_rank_available:spell=19941:Nightbane"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Nightbane",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -562,20 +629,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 19941,
-							"count": 33
-						},
-						{
-							"spell_id": 27137,
-							"count": 85
-						},
-						{
-							"spell_id": 33072,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1020,
 							"count": 1
 						},
@@ -588,6 +641,10 @@
 							"count": 14
 						},
 						{
+							"spell_id": 19941,
+							"count": 33
+						},
+						{
 							"spell_id": 20216,
 							"count": 1
 						},
@@ -596,14 +653,23 @@
 							"count": 13
 						},
 						{
+							"spell_id": 27137,
+							"count": 85
+						},
+						{
 							"spell_id": 27154,
 							"count": 1
 						},
 						{
 							"spell_id": 31842,
 							"count": 2
+						},
+						{
+							"spell_id": 33072,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -614,6 +680,36 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Nightbane",
+				"count": 9,
+				"spell_id": 1026,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=1026",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=1026:Nightbane"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Nightbane",
+				"count": 33,
+				"spell_id": 19941,
+				"suggested_spell_id": 19943,
+				"spell_wowhead_attr": "spell=19941",
+				"higher_ranked_spell_wowhead_attr": "spell=19943",
+				"uuid": "cast_higher_rank_available:spell=19941:Nightbane"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Nightbane",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Nightbane",
@@ -689,16 +785,6 @@
 							"count": 130
 						},
 						{
-							"spell_id": 34026,
-							"count": 36
-						},
-						{
-							"spell_id": 34120,
-							"count": 121
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 3
 						},
@@ -743,8 +829,16 @@
 							"count": 11
 						},
 						{
+							"spell_id": 34026,
+							"count": 36
+						},
+						{
 							"spell_id": 34074,
 							"count": 2
+						},
+						{
+							"spell_id": 34120,
+							"count": 121
 						},
 						{
 							"spell_id": 34477,
@@ -755,6 +849,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -827,8 +922,20 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 15
+						},
+						{
+							"spell_id": 17531,
+							"count": 1
+						},
+						{
 							"spell_id": 18562,
 							"count": 7
+						},
+						{
+							"spell_id": 26979,
+							"count": 1
 						},
 						{
 							"spell_id": 26980,
@@ -839,32 +946,19 @@
 							"count": 25
 						},
 						{
-							"spell_id": 33763,
-							"count": 93
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 15
-						},
-						{
-							"spell_id": 17531,
-							"count": 1
-						},
-						{
-							"spell_id": 26979,
-							"count": 1
-						},
-						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 93
 						},
 						{
 							"spell_id": 35476,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -906,12 +1000,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Nightbane",
-						"count": 8,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Nightbane"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
 					},
 					{
 						"type": "missing_battle_elixir",
@@ -972,8 +1066,24 @@
 							"count": 9
 						},
 						{
+							"spell_id": 27218,
+							"count": 1
+						},
+						{
 							"spell_id": 27223,
 							"count": 3
+						},
+						{
+							"spell_id": 27228,
+							"count": 3
+						},
+						{
+							"spell_id": 27230,
+							"count": 1
+						},
+						{
+							"spell_id": 27243,
+							"count": 13
 						},
 						{
 							"spell_id": 29858,
@@ -988,24 +1098,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27218,
-							"count": 1
-						},
-						{
-							"spell_id": 27228,
-							"count": 3
-						},
-						{
-							"spell_id": 27230,
-							"count": 1
-						},
-						{
-							"spell_id": 27243,
-							"count": 13
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -1019,12 +1112,12 @@
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Nightbane",
-				"count": 8,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Nightbane"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
 			},
 			{
 				"type": "missing_battle_elixir",
@@ -1088,8 +1181,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2764,
 							"count": 4
@@ -1131,6 +1223,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -1169,6 +1262,16 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Nightbane",
+						"count": 28,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Nightbane"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -1213,24 +1316,23 @@
 							"count": 10
 						},
 						{
+							"spell_id": 28760,
+							"count": 1
+						},
+						{
 							"spell_id": 33076,
 							"count": 4
 						},
 						{
 							"spell_id": 34866,
 							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 28760,
-							"count": 1
 						},
 						{
 							"spell_id": 38332,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -1241,6 +1343,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Nightbane",
+				"count": 28,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Nightbane"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Nightbane",

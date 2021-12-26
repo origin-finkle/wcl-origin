@@ -36,6 +36,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1900\u0026item=28189",
@@ -409,8 +419,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 7
@@ -452,6 +461,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -855,8 +865,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 6
@@ -898,6 +907,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1297,8 +1307,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 5
@@ -1336,6 +1345,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1729,8 +1739,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 1
@@ -1744,6 +1753,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1776,6 +1786,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 4 (51%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 4 (51%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 4 (51%)",
@@ -2152,8 +2172,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 4
@@ -2183,6 +2202,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -2582,8 +2602,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 7
@@ -2621,11 +2640,32 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 4 (51%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 4 (51%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Netherspite",
@@ -3350,6 +3390,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2792\u0026item=27909",
@@ -3668,12 +3718,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 68
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 4
 						},
@@ -3688,6 +3732,10 @@
 						{
 							"spell_id": 25442,
 							"count": 10
+						},
+						{
+							"spell_id": 25449,
+							"count": 68
 						},
 						{
 							"spell_id": 25528,
@@ -3714,6 +3762,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -3767,6 +3816,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 1 (27%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 1 (27%)",
@@ -4081,12 +4140,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 58
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 2
 						},
@@ -4101,6 +4154,10 @@
 						{
 							"spell_id": 25442,
 							"count": 9
+						},
+						{
+							"spell_id": 25449,
+							"count": 58
 						},
 						{
 							"spell_id": 25528,
@@ -4131,6 +4188,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -4479,12 +4537,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 28
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 2
 						},
@@ -4495,6 +4547,10 @@
 						{
 							"spell_id": 25442,
 							"count": 4
+						},
+						{
+							"spell_id": 25449,
+							"count": 28
 						},
 						{
 							"spell_id": 25528,
@@ -4513,6 +4569,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -4561,6 +4618,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 3 (21%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 3 (21%)",
@@ -4874,12 +4941,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 73
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 2
 						},
@@ -4894,6 +4955,10 @@
 						{
 							"spell_id": 25442,
 							"count": 13
+						},
+						{
+							"spell_id": 25449,
+							"count": 73
 						},
 						{
 							"spell_id": 25457,
@@ -4920,6 +4985,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -5263,18 +5329,16 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 42
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 1
 						},
 						{
 							"spell_id": 25420,
 							"count": 2
+						},
+						{
+							"spell_id": 25449,
+							"count": 42
 						},
 						{
 							"spell_id": 25528,
@@ -5293,6 +5357,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -5341,6 +5406,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar",
@@ -5648,12 +5723,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 81
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3738,
 							"count": 1
 						},
@@ -5664,6 +5733,10 @@
 						{
 							"spell_id": 25442,
 							"count": 14
+						},
+						{
+							"spell_id": 25449,
+							"count": 81
 						},
 						{
 							"spell_id": 25509,
@@ -5690,6 +5763,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -5700,6 +5774,46 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 1 (27%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 3 (21%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Netherspite",
@@ -6150,6 +6264,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2792\u0026item=30257",
@@ -6468,26 +6592,16 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26982,
-							"count": 1
-						},
-						{
-							"spell_id": 27002,
-							"count": 28
-						},
-						{
-							"spell_id": 33987,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 14
 						},
 						{
 							"spell_id": 9634,
 							"count": 2
+						},
+						{
+							"spell_id": 26982,
+							"count": 1
 						},
 						{
 							"spell_id": 26996,
@@ -6500,6 +6614,10 @@
 						{
 							"spell_id": 26999,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 28
 						},
 						{
 							"spell_id": 27003,
@@ -6528,8 +6646,13 @@
 						{
 							"spell_id": 33983,
 							"count": 18
+						},
+						{
+							"spell_id": 33987,
+							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -6878,26 +7001,20 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26982,
-							"count": 1
-						},
-						{
-							"spell_id": 27002,
-							"count": 20
-						},
-						{
-							"spell_id": 33987,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 7
 						},
 						{
 							"spell_id": 9634,
 							"count": 1
+						},
+						{
+							"spell_id": 26982,
+							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 20
 						},
 						{
 							"spell_id": 27003,
@@ -6926,8 +7043,13 @@
 						{
 							"spell_id": 33983,
 							"count": 17
+						},
+						{
+							"spell_id": 33987,
+							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -7269,16 +7391,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 14
-						},
-						{
-							"spell_id": 33987,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 8
 						},
@@ -7293,6 +7405,10 @@
 						{
 							"spell_id": 26996,
 							"count": 5
+						},
+						{
+							"spell_id": 27002,
+							"count": 14
 						},
 						{
 							"spell_id": 27003,
@@ -7313,8 +7429,13 @@
 						{
 							"spell_id": 33983,
 							"count": 13
+						},
+						{
+							"spell_id": 33987,
+							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -7347,6 +7468,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 3 (21%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 3 (21%)",
@@ -7660,16 +7791,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 34
-						},
-						{
-							"spell_id": 33987,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 13
 						},
@@ -7680,6 +7801,10 @@
 						{
 							"spell_id": 26998,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 34
 						},
 						{
 							"spell_id": 27003,
@@ -7696,8 +7821,13 @@
 						{
 							"spell_id": 33983,
 							"count": 6
+						},
+						{
+							"spell_id": 33987,
+							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8034,14 +8164,12 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 23
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 9
+						},
+						{
+							"spell_id": 27002,
+							"count": 23
 						},
 						{
 							"spell_id": 27003,
@@ -8060,6 +8188,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8399,18 +8528,16 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 51
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 24
 						},
 						{
 							"spell_id": 24248,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 51
 						},
 						{
 							"spell_id": 27003,
@@ -8437,11 +8564,32 @@
 							"count": 9
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 3 (21%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Netherspite",
@@ -9307,16 +9455,6 @@
 							"count": 34
 						},
 						{
-							"spell_id": 34026,
-							"count": 10
-						},
-						{
-							"spell_id": 34120,
-							"count": 41
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 883,
 							"count": 1
 						},
@@ -9335,8 +9473,17 @@
 						{
 							"spell_id": 24353,
 							"count": 2
+						},
+						{
+							"spell_id": 34026,
+							"count": 10
+						},
+						{
+							"spell_id": 34120,
+							"count": 41
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -9377,6 +9524,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 1 (27%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 1 (27%)",
@@ -9710,16 +9867,6 @@
 							"count": 63
 						},
 						{
-							"spell_id": 34026,
-							"count": 22
-						},
-						{
-							"spell_id": 34120,
-							"count": 73
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -9734,8 +9881,17 @@
 						{
 							"spell_id": 24353,
 							"count": 1
+						},
+						{
+							"spell_id": 34026,
+							"count": 22
+						},
+						{
+							"spell_id": 34120,
+							"count": 73
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -9776,6 +9932,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 2 (100%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (100%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 2 (100%)",
@@ -10105,16 +10271,6 @@
 							"count": 51
 						},
 						{
-							"spell_id": 34026,
-							"count": 14
-						},
-						{
-							"spell_id": 34120,
-							"count": 58
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -10133,8 +10289,17 @@
 						{
 							"spell_id": 27021,
 							"count": 1
+						},
+						{
+							"spell_id": 34026,
+							"count": 14
+						},
+						{
+							"spell_id": 34120,
+							"count": 58
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -10175,6 +10340,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 3 (21%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 3 (21%)",
@@ -10505,16 +10680,6 @@
 							"count": 69
 						},
 						{
-							"spell_id": 34026,
-							"count": 22
-						},
-						{
-							"spell_id": 34120,
-							"count": 83
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -10531,10 +10696,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 22
+						},
+						{
+							"spell_id": 34120,
+							"count": 83
+						},
+						{
 							"spell_id": 35476,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -10905,16 +11079,6 @@
 							"count": 34
 						},
 						{
-							"spell_id": 34026,
-							"count": 8
-						},
-						{
-							"spell_id": 34120,
-							"count": 31
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -10931,6 +11095,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 8
+						},
+						{
+							"spell_id": 34120,
+							"count": 31
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						},
@@ -10939,6 +11111,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -11296,16 +11469,6 @@
 							"count": 97
 						},
 						{
-							"spell_id": 34026,
-							"count": 22
-						},
-						{
-							"spell_id": 34120,
-							"count": 103
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 1
 						},
@@ -11334,15 +11497,54 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 22
+						},
+						{
+							"spell_id": 34120,
+							"count": 103
+						},
+						{
 							"spell_id": 35476,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 1 (27%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 2 (100%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 3 (21%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Netherspite",
@@ -12174,18 +12376,16 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 17531,
 							"count": 1
 						},
 						{
 							"spell_id": 20271,
 							"count": 17
+						},
+						{
+							"spell_id": 27137,
+							"count": 4
 						},
 						{
 							"spell_id": 27155,
@@ -12208,6 +12408,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -12556,14 +12757,12 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 39
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 20271,
 							"count": 5
+						},
+						{
+							"spell_id": 27137,
+							"count": 39
 						},
 						{
 							"spell_id": 27149,
@@ -12590,6 +12789,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -12918,14 +13118,12 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 20271,
 							"count": 8
+						},
+						{
+							"spell_id": 27137,
+							"count": 11
 						},
 						{
 							"spell_id": 27155,
@@ -12944,6 +13142,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13274,18 +13473,16 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 10278,
 							"count": 1
 						},
 						{
 							"spell_id": 20271,
 							"count": 13
+						},
+						{
+							"spell_id": 27137,
+							"count": 18
 						},
 						{
 							"spell_id": 27155,
@@ -13308,6 +13505,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13637,14 +13835,12 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27137,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 20271,
 							"count": 8
+						},
+						{
+							"spell_id": 27137,
+							"count": 5
 						},
 						{
 							"spell_id": 27155,
@@ -13667,6 +13863,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13996,8 +14193,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 22
@@ -14031,6 +14227,7 @@
 							"count": 8
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -14929,16 +15126,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 22
-						},
-						{
-							"spell_id": 30022,
-							"count": 92
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -14979,6 +15166,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 22
+						},
+						{
+							"spell_id": 30022,
+							"count": 92
+						},
+						{
 							"spell_id": 30356,
 							"count": 4
 						},
@@ -14991,6 +15186,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -15031,6 +15227,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 1 (27%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 1 (27%)",
@@ -15407,16 +15613,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 16
-						},
-						{
-							"spell_id": 30022,
-							"count": 82
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 8
 						},
@@ -15449,6 +15645,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 16
+						},
+						{
+							"spell_id": 30022,
+							"count": 82
+						},
+						{
 							"spell_id": 30356,
 							"count": 1
 						},
@@ -15457,6 +15661,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -15873,16 +16078,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 18
-						},
-						{
-							"spell_id": 30022,
-							"count": 57
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 5
 						},
@@ -15909,8 +16104,17 @@
 						{
 							"spell_id": 28773,
 							"count": 1
+						},
+						{
+							"spell_id": 29707,
+							"count": 18
+						},
+						{
+							"spell_id": 30022,
+							"count": 57
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -15959,6 +16163,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 3 (21%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 3 (21%)",
@@ -16338,16 +16552,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 27
-						},
-						{
-							"spell_id": 30022,
-							"count": 117
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 13
 						},
@@ -16380,10 +16584,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 27
+						},
+						{
+							"spell_id": 30022,
+							"count": 117
+						},
+						{
 							"spell_id": 33668,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -16803,16 +17016,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 20
-						},
-						{
-							"spell_id": 30022,
-							"count": 61
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 5
 						},
@@ -16835,8 +17038,17 @@
 						{
 							"spell_id": 28773,
 							"count": 1
+						},
+						{
+							"spell_id": 29707,
+							"count": 20
+						},
+						{
+							"spell_id": 30022,
+							"count": 61
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -16890,6 +17102,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar",
@@ -17263,16 +17485,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 25
-						},
-						{
-							"spell_id": 30022,
-							"count": 80
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 11
 						},
@@ -17299,8 +17511,17 @@
 						{
 							"spell_id": 28773,
 							"count": 1
+						},
+						{
+							"spell_id": 29707,
+							"count": 25
+						},
+						{
+							"spell_id": 30022,
+							"count": 80
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -17311,6 +17532,36 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 1 (27%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 3 (21%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Netherspite",
@@ -17938,8 +18189,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 2
@@ -17949,6 +18199,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -18013,9 +18264,7 @@
 						{
 							"spell_id": 5019,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 25364,
 							"count": 1
@@ -18033,6 +18282,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -18091,6 +18341,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
@@ -18347,6 +18607,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 768,
+							"count": 1
+						},
+						{
 							"spell_id": 18562,
 							"count": 1
 						},
@@ -18359,6 +18623,14 @@
 							"count": 61
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
+							"spell_id": 33357,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 69
 						},
@@ -18367,20 +18639,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 768,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						},
-						{
-							"spell_id": 33357,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -18426,6 +18685,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 1 (27%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 1 (27%)",
@@ -18681,6 +18950,14 @@
 					],
 					"spells": [
 						{
+							"spell_id": 5229,
+							"count": 1
+						},
+						{
+							"spell_id": 9634,
+							"count": 1
+						},
+						{
 							"spell_id": 18562,
 							"count": 5
 						},
@@ -18691,24 +18968,6 @@
 						{
 							"spell_id": 26982,
 							"count": 32
-						},
-						{
-							"spell_id": 33763,
-							"count": 62
-						},
-						{
-							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 5229,
-							"count": 1
-						},
-						{
-							"spell_id": 9634,
-							"count": 1
 						},
 						{
 							"spell_id": 26994,
@@ -18725,8 +18984,17 @@
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 62
+						},
+						{
+							"spell_id": 33891,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19326,20 +19594,19 @@
 							"count": 56
 						},
 						{
-							"spell_id": 33763,
-							"count": 81
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26988,
 							"count": 2
 						},
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 81
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19635,20 +19902,19 @@
 							"count": 43
 						},
 						{
-							"spell_id": 33763,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26994,
 							"count": 1
 						},
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 18
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19949,20 +20215,19 @@
 							"count": 34
 						},
 						{
-							"spell_id": 33763,
-							"count": 72
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 29166,
 							"count": 1
 						},
 						{
 							"spell_id": 30550,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 72
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19973,6 +20238,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 1 (27%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Netherspite",
@@ -20378,12 +20663,6 @@
 							"count": 5
 						},
 						{
-							"spell_id": 34120,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 5116,
 							"count": 1
 						},
@@ -20394,8 +20673,13 @@
 						{
 							"spell_id": 27021,
 							"count": 1
+						},
+						{
+							"spell_id": 34120,
+							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -20455,8 +20739,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 768,
 							"count": 1
@@ -20470,6 +20753,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -20533,9 +20817,7 @@
 						{
 							"spell_id": 26982,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 26988,
 							"count": 5
@@ -20549,6 +20831,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -20615,6 +20898,10 @@
 							"count": 6
 						},
 						{
+							"spell_id": 27021,
+							"count": 3
+						},
+						{
 							"spell_id": 34026,
 							"count": 1
 						},
@@ -20623,12 +20910,7 @@
 							"count": 5
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27021,
-							"count": 3
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -20690,14 +20972,12 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 25442,
 							"count": 1
+						},
+						{
+							"spell_id": 25449,
+							"count": 4
 						},
 						{
 							"spell_id": 25464,
@@ -20708,6 +20988,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -20769,8 +21050,7 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2458,
 							"count": 1
@@ -20792,6 +21072,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -20849,13 +21130,13 @@
 				"gear": null,
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 26862,
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -21317,12 +21598,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 1
 						},
@@ -21337,6 +21612,10 @@
 						{
 							"spell_id": 24858,
 							"count": 5
+						},
+						{
+							"spell_id": 26980,
+							"count": 6
 						},
 						{
 							"spell_id": 26985,
@@ -21379,6 +21658,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -21807,8 +22087,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 24858,
 							"count": 1
@@ -21838,6 +22117,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -22265,16 +22545,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 1
-						},
-						{
-							"spell_id": 26982,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 17531,
 							"count": 1
 						},
@@ -22285,6 +22555,14 @@
 						{
 							"spell_id": 24858,
 							"count": 2
+						},
+						{
+							"spell_id": 26980,
+							"count": 1
+						},
+						{
+							"spell_id": 26982,
+							"count": 1
 						},
 						{
 							"spell_id": 26985,
@@ -22323,6 +22601,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -22754,16 +23033,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 3
-						},
-						{
-							"spell_id": 26982,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 9634,
 							"count": 1
 						},
@@ -22774,6 +23043,14 @@
 						{
 							"spell_id": 24858,
 							"count": 1
+						},
+						{
+							"spell_id": 26980,
+							"count": 3
+						},
+						{
+							"spell_id": 26982,
+							"count": 3
 						},
 						{
 							"spell_id": 26985,
@@ -22804,6 +23081,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -22860,6 +23138,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 4 (51%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 4 (51%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 4 (51%)",
@@ -23236,22 +23524,20 @@
 					],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 5
-						},
-						{
-							"spell_id": 26982,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 22812,
 							"count": 1
 						},
 						{
 							"spell_id": 24858,
 							"count": 1
+						},
+						{
+							"spell_id": 26980,
+							"count": 5
+						},
+						{
+							"spell_id": 26982,
+							"count": 3
 						},
 						{
 							"spell_id": 26986,
@@ -23270,6 +23556,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -23694,8 +23981,7 @@
 							"count": 3
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 17531,
 							"count": 2
@@ -23729,11 +24015,22 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 4 (51%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 4 (51%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Netherspite",
@@ -24377,16 +24674,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 7,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Netherspite"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1883\u0026item=19374",
@@ -24672,20 +24959,19 @@
 							"count": 1
 						},
 						{
-							"spell_id": 29858,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27228,
 							"count": 1
 						},
 						{
 							"spell_id": 27263,
 							"count": 1
+						},
+						{
+							"spell_id": 29858,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -24726,12 +25012,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Netherspite - Wipe 1 (27%)",
-						"count": 7,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 1 (27%)"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
 					},
 					{
 						"type": "invalid_enchant",
@@ -25015,16 +25301,6 @@
 							"count": 3
 						},
 						{
-							"spell_id": 27223,
-							"count": 1
-						},
-						{
-							"spell_id": 29858,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27216,
 							"count": 1
 						},
@@ -25033,10 +25309,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27223,
+							"count": 1
+						},
+						{
 							"spell_id": 27228,
+							"count": 1
+						},
+						{
+							"spell_id": 29858,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -25072,12 +25357,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Netherspite - Wipe 2 (100%)",
-						"count": 9,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 2 (100%)"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (100%)"
 					},
 					{
 						"type": "invalid_enchant",
@@ -25358,9 +25643,7 @@
 						{
 							"spell_id": 27215,
 							"count": 4
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27216,
 							"count": 1
@@ -25378,6 +25661,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -25410,16 +25694,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite - Wipe 3 (21%)",
-						"count": 1,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 3 (21%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 3 (21%)",
@@ -25690,14 +25964,13 @@
 						{
 							"spell_id": 27215,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27228,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -25733,12 +26006,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Netherspite - Wipe 4 (51%)",
-						"count": 4,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 4 (51%)"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 4 (51%)"
 					},
 					{
 						"type": "invalid_enchant",
@@ -26033,7 +26306,15 @@
 							"count": 4
 						},
 						{
+							"spell_id": 27216,
+							"count": 1
+						},
+						{
 							"spell_id": 27223,
+							"count": 1
+						},
+						{
+							"spell_id": 27228,
 							"count": 1
 						},
 						{
@@ -26041,16 +26322,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 27216,
-							"count": 1
-						},
-						{
-							"spell_id": 27228,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -26099,12 +26371,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Prince Malchezaar",
-						"count": 13,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Prince Malchezaar"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
 					},
 					{
 						"type": "invalid_enchant",
@@ -26392,20 +26664,19 @@
 							"count": 10
 						},
 						{
-							"spell_id": 29858,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 27228,
 							"count": 1
 						},
 						{
 							"spell_id": 27263,
 							"count": 1
+						},
+						{
+							"spell_id": 29858,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -26418,63 +26689,43 @@
 		"remarks": [
 			{
 				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 7,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
 				"fight": "Netherspite - Wipe 1 (27%)",
-				"count": 7,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 1 (27%)"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Netherspite - Wipe 2 (100%)",
-				"count": 9,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 2 (100%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite - Wipe 3 (21%)",
 				"count": 1,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 3 (21%)"
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 2 (100%)"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Netherspite - Wipe 4 (51%)",
-				"count": 4,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Netherspite - Wipe 4 (51%)"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 4 (51%)"
 			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Prince Malchezaar",
-				"count": 13,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Prince Malchezaar"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
 			},
 			{
 				"type": "invalid_enchant",
@@ -27241,6 +27492,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 10060,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 1
 						},
@@ -27257,28 +27512,23 @@
 							"count": 34
 						},
 						{
+							"spell_id": 32379,
+							"count": 1
+						},
+						{
 							"spell_id": 32546,
 							"count": 2
 						},
 						{
 							"spell_id": 33076,
 							"count": 16
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10060,
-							"count": 1
-						},
-						{
-							"spell_id": 32379,
-							"count": 1
 						},
 						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -27340,6 +27590,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 1 (27%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 1 (27%)",
@@ -27648,6 +27908,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 3
 						},
@@ -27664,22 +27928,16 @@
 							"count": 41
 						},
 						{
+							"spell_id": 25437,
+							"count": 1
+						},
+						{
 							"spell_id": 32546,
 							"count": 2
 						},
 						{
 							"spell_id": 33076,
 							"count": 13
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
-							"spell_id": 25437,
-							"count": 1
 						},
 						{
 							"spell_id": 34433,
@@ -27690,6 +27948,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -28052,6 +28311,10 @@
 							"count": 8
 						},
 						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 2
 						},
@@ -28068,22 +28331,16 @@
 							"count": 18
 						},
 						{
+							"spell_id": 25308,
+							"count": 1
+						},
+						{
 							"spell_id": 32546,
 							"count": 1
 						},
 						{
 							"spell_id": 33076,
 							"count": 12
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 14751,
-							"count": 1
-						},
-						{
-							"spell_id": 25308,
-							"count": 1
 						},
 						{
 							"spell_id": 34433,
@@ -28094,6 +28351,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -28150,6 +28408,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Netherspite - Wipe 3 (21%)",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 3 (21%)",
@@ -28460,6 +28728,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 10060,
+							"count": 1
+						},
+						{
+							"spell_id": 14751,
+							"count": 2
+						},
+						{
 							"spell_id": 25213,
 							"count": 1
 						},
@@ -28476,30 +28752,20 @@
 							"count": 36
 						},
 						{
-							"spell_id": 32546,
-							"count": 1
-						},
-						{
-							"spell_id": 33076,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10060,
-							"count": 1
-						},
-						{
-							"spell_id": 14751,
-							"count": 2
-						},
-						{
 							"spell_id": 25308,
 							"count": 1
 						},
 						{
 							"spell_id": 25441,
 							"count": 1
+						},
+						{
+							"spell_id": 32546,
+							"count": 1
+						},
+						{
+							"spell_id": 33076,
+							"count": 18
 						},
 						{
 							"spell_id": 34433,
@@ -28510,6 +28776,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -28858,6 +29125,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 10060,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 1
 						},
@@ -28874,24 +29145,19 @@
 							"count": 17
 						},
 						{
-							"spell_id": 33076,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10060,
+							"spell_id": 25437,
 							"count": 1
 						},
 						{
-							"spell_id": 25437,
-							"count": 1
+							"spell_id": 33076,
+							"count": 9
 						},
 						{
 							"spell_id": 35165,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -29256,6 +29522,14 @@
 							"count": 7
 						},
 						{
+							"spell_id": 10060,
+							"count": 1
+						},
+						{
+							"spell_id": 14751,
+							"count": 1
+						},
+						{
 							"spell_id": 25213,
 							"count": 37
 						},
@@ -29274,16 +29548,6 @@
 						{
 							"spell_id": 33076,
 							"count": 16
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10060,
-							"count": 1
-						},
-						{
-							"spell_id": 14751,
-							"count": 1
 						},
 						{
 							"spell_id": 34433,
@@ -29294,6 +29558,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -29304,6 +29569,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 1 (27%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 1 (27%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Netherspite - Wipe 3 (21%)",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Netherspite - Wipe 3 (21%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Netherspite",

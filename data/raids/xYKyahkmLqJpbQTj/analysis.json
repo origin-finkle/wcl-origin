@@ -68,6 +68,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 9,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Magtheridon"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=28765",
@@ -386,8 +396,24 @@
 							"count": 1
 						},
 						{
+							"spell_id": 6346,
+							"count": 1
+						},
+						{
+							"spell_id": 10060,
+							"count": 1
+						},
+						{
+							"spell_id": 10890,
+							"count": 3
+						},
+						{
 							"spell_id": 10964,
 							"count": 9
+						},
+						{
+							"spell_id": 14751,
+							"count": 2
 						},
 						{
 							"spell_id": 25213,
@@ -406,32 +432,6 @@
 							"count": 48
 						},
 						{
-							"spell_id": 32546,
-							"count": 10
-						},
-						{
-							"spell_id": 33076,
-							"count": 31
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6346,
-							"count": 1
-						},
-						{
-							"spell_id": 10060,
-							"count": 1
-						},
-						{
-							"spell_id": 10890,
-							"count": 3
-						},
-						{
-							"spell_id": 14751,
-							"count": 2
-						},
-						{
 							"spell_id": 25312,
 							"count": 1
 						},
@@ -448,6 +448,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 32546,
+							"count": 10
+						},
+						{
+							"spell_id": 33076,
+							"count": 31
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						},
@@ -456,6 +464,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -466,6 +475,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 9,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -607,6 +626,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_gem",
 						"fight": "Magtheridon",
@@ -910,8 +939,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 3738,
 							"count": 3
@@ -957,6 +985,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -967,6 +996,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_gem",
 				"fight": "Magtheridon",
@@ -1141,6 +1180,36 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 1026,
+						"suggested_spell_id": 25292,
+						"spell_wowhead_attr": "spell=1026",
+						"higher_ranked_spell_wowhead_attr": "spell=25292",
+						"uuid": "cast_higher_rank_available:spell=1026:Magtheridon"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 49,
+						"spell_id": 19941,
+						"suggested_spell_id": 19943,
+						"spell_wowhead_attr": "spell=19941",
+						"higher_ranked_spell_wowhead_attr": "spell=19943",
+						"uuid": "cast_higher_rank_available:spell=19941:Magtheridon"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -1397,22 +1466,12 @@
 					],
 					"spells": [
 						{
-							"spell_id": 19941,
-							"count": 49
-						},
-						{
-							"spell_id": 27137,
-							"count": 120
-						},
-						{
-							"spell_id": 33072,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1026,
 							"count": 1
+						},
+						{
+							"spell_id": 19941,
+							"count": 49
 						},
 						{
 							"spell_id": 20216,
@@ -1427,6 +1486,10 @@
 							"count": 15
 						},
 						{
+							"spell_id": 27137,
+							"count": 120
+						},
+						{
 							"spell_id": 27142,
 							"count": 1
 						},
@@ -1437,8 +1500,13 @@
 						{
 							"spell_id": 31842,
 							"count": 3
+						},
+						{
+							"spell_id": 33072,
+							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -1449,6 +1517,36 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 1026,
+				"suggested_spell_id": 25292,
+				"spell_wowhead_attr": "spell=1026",
+				"higher_ranked_spell_wowhead_attr": "spell=25292",
+				"uuid": "cast_higher_rank_available:spell=1026:Magtheridon"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 49,
+				"spell_id": 19941,
+				"suggested_spell_id": 19943,
+				"spell_wowhead_attr": "spell=19941",
+				"higher_ranked_spell_wowhead_attr": "spell=19943",
+				"uuid": "cast_higher_rank_available:spell=19941:Magtheridon"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -1995,8 +2093,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 44
@@ -2042,6 +2139,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -2262,6 +2360,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -2578,12 +2686,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25449,
-							"count": 109
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 2894,
 							"count": 1
 						},
@@ -2614,6 +2716,10 @@
 						{
 							"spell_id": 25442,
 							"count": 35
+						},
+						{
+							"spell_id": 25449,
+							"count": 109
 						},
 						{
 							"spell_id": 25464,
@@ -2648,6 +2754,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2658,6 +2765,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -2811,6 +2928,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 30,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Magtheridon"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -3073,6 +3210,14 @@
 							"count": 11
 						},
 						{
+							"spell_id": 6346,
+							"count": 1
+						},
+						{
+							"spell_id": 10890,
+							"count": 1
+						},
+						{
 							"spell_id": 10964,
 							"count": 30
 						},
@@ -3093,36 +3238,27 @@
 							"count": 1
 						},
 						{
-							"spell_id": 33076,
-							"count": 9
-						},
-						{
-							"spell_id": 34866,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6346,
-							"count": 1
-						},
-						{
-							"spell_id": 10890,
-							"count": 1
-						},
-						{
 							"spell_id": 28760,
 							"count": 3
+						},
+						{
+							"spell_id": 33076,
+							"count": 9
 						},
 						{
 							"spell_id": 34433,
 							"count": 2
 						},
 						{
+							"spell_id": 34866,
+							"count": 5
+						},
+						{
 							"spell_id": 38332,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -3133,6 +3269,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 30,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Magtheridon"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -3253,6 +3409,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -3661,8 +3827,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 21
@@ -3712,6 +3877,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -3722,6 +3888,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -3937,6 +4113,36 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 47,
+						"spell_id": 10964,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10964",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10964:Magtheridon"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 25316,
+						"suggested_spell_id": 25308,
+						"spell_wowhead_attr": "spell=25316",
+						"higher_ranked_spell_wowhead_attr": "spell=25308",
+						"uuid": "cast_higher_rank_available:spell=25316:Magtheridon"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -4257,29 +4463,58 @@
 							"count": 20
 						},
 						{
+							"spell_id": 25316,
+							"count": 1
+						},
+						{
 							"spell_id": 33076,
 							"count": 19
+						},
+						{
+							"spell_id": 34433,
+							"count": 1
 						},
 						{
 							"spell_id": 34866,
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 25316,
-							"count": 1
-						},
-						{
-							"spell_id": 34433,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 47,
+				"spell_id": 10964,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10964",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10964:Magtheridon"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 25316,
+				"suggested_spell_id": 25308,
+				"spell_wowhead_attr": "spell=25316",
+				"higher_ranked_spell_wowhead_attr": "spell=25308",
+				"uuid": "cast_higher_rank_available:spell=25316:Magtheridon"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -4428,6 +4663,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 2,
+						"spell_id": 589,
+						"suggested_spell_id": 25367,
+						"spell_wowhead_attr": "spell=589",
+						"higher_ranked_spell_wowhead_attr": "spell=25367",
+						"uuid": "cast_higher_rank_available:spell=589:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -4691,16 +4946,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 25431,
-							"count": 1
-						},
-						{
-							"spell_id": 32996,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 589,
 							"count": 2
 						},
@@ -4725,8 +4970,16 @@
 							"count": 71
 						},
 						{
+							"spell_id": 25431,
+							"count": 1
+						},
+						{
 							"spell_id": 32355,
 							"count": 4
+						},
+						{
+							"spell_id": 32996,
+							"count": 6
 						},
 						{
 							"spell_id": 34433,
@@ -4737,6 +4990,7 @@
 							"count": 16
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -4747,6 +5001,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 2,
+				"spell_id": 589,
+				"suggested_spell_id": 25367,
+				"spell_wowhead_attr": "spell=589",
+				"higher_ranked_spell_wowhead_attr": "spell=25367",
+				"uuid": "cast_higher_rank_available:spell=589:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -4860,6 +5134,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -5157,8 +5441,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2894,
 							"count": 1
@@ -5240,11 +5523,22 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -5386,6 +5680,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -5680,6 +5984,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 768,
+							"count": 2
+						},
+						{
 							"spell_id": 17116,
 							"count": 2
 						},
@@ -5688,34 +5996,20 @@
 							"count": 10
 						},
 						{
-							"spell_id": 26980,
-							"count": 5
-						},
-						{
-							"spell_id": 26982,
-							"count": 30
-						},
-						{
-							"spell_id": 33763,
-							"count": 158
-						},
-						{
-							"spell_id": 33891,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 768,
-							"count": 2
-						},
-						{
 							"spell_id": 22812,
 							"count": 3
 						},
 						{
 							"spell_id": 26979,
 							"count": 1
+						},
+						{
+							"spell_id": 26980,
+							"count": 5
+						},
+						{
+							"spell_id": 26982,
+							"count": 30
 						},
 						{
 							"spell_id": 26983,
@@ -5732,8 +6026,17 @@
 						{
 							"spell_id": 33357,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 158
+						},
+						{
+							"spell_id": 33891,
+							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -5744,6 +6047,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -5907,6 +6220,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 8,
+						"spell_id": 2912,
+						"suggested_spell_id": 25298,
+						"spell_wowhead_attr": "spell=2912",
+						"higher_ranked_spell_wowhead_attr": "spell=25298",
+						"uuid": "cast_higher_rank_available:spell=2912:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -6313,8 +6646,7 @@
 							"count": 10
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2912,
 							"count": 8
@@ -6368,6 +6700,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -6382,6 +6715,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 8,
+				"spell_id": 2912,
+				"suggested_spell_id": 25298,
+				"spell_wowhead_attr": "spell=2912",
+				"higher_ranked_spell_wowhead_attr": "spell=25298",
+				"uuid": "cast_higher_rank_available:spell=2912:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -7062,6 +7415,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33662,
+							"count": 4
+						},
+						{
 							"spell_id": 33933,
 							"count": 1
 						},
@@ -7070,12 +7427,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 33662,
-							"count": 4
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -7328,12 +7680,12 @@
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Magtheridon",
-						"count": 24,
-						"spell_id": 11689,
-						"suggested_spell_id": 27222,
-						"spell_wowhead_attr": "spell=11689",
-						"higher_ranked_spell_wowhead_attr": "spell=27222",
-						"uuid": "cast_higher_rank_available:spell=11689:Magtheridon"
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
 					},
 					{
 						"type": "invalid_enchant",
@@ -7613,6 +7965,14 @@
 							"count": 24
 						},
 						{
+							"spell_id": 11719,
+							"count": 3
+						},
+						{
+							"spell_id": 18647,
+							"count": 3
+						},
+						{
 							"spell_id": 27209,
 							"count": 136
 						},
@@ -7621,8 +7981,20 @@
 							"count": 10
 						},
 						{
+							"spell_id": 27218,
+							"count": 1
+						},
+						{
 							"spell_id": 27223,
 							"count": 2
+						},
+						{
+							"spell_id": 27228,
+							"count": 1
+						},
+						{
+							"spell_id": 28517,
+							"count": 1
 						},
 						{
 							"spell_id": 29858,
@@ -7641,28 +8013,7 @@
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 11719,
-							"count": 3
-						},
-						{
-							"spell_id": 18647,
-							"count": 3
-						},
-						{
-							"spell_id": 27218,
-							"count": 1
-						},
-						{
-							"spell_id": 27228,
-							"count": 1
-						},
-						{
-							"spell_id": 28517,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -7676,12 +8027,12 @@
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Magtheridon",
-				"count": 24,
-				"spell_id": 11689,
-				"suggested_spell_id": 27222,
-				"spell_wowhead_attr": "spell=11689",
-				"higher_ranked_spell_wowhead_attr": "spell=27222",
-				"uuid": "cast_higher_rank_available:spell=11689:Magtheridon"
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
 			},
 			{
 				"type": "invalid_enchant",
@@ -7803,6 +8154,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -8062,6 +8423,14 @@
 					],
 					"spells": [
 						{
+							"spell_id": 6215,
+							"count": 3
+						},
+						{
+							"spell_id": 18647,
+							"count": 2
+						},
+						{
 							"spell_id": 27209,
 							"count": 117
 						},
@@ -8078,28 +8447,19 @@
 							"count": 1
 						},
 						{
-							"spell_id": 30912,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 6215,
-							"count": 3
-						},
-						{
-							"spell_id": 18647,
-							"count": 2
-						},
-						{
 							"spell_id": 30909,
 							"count": 10
+						},
+						{
+							"spell_id": 30912,
+							"count": 3
 						},
 						{
 							"spell_id": 34000,
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -8110,6 +8470,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -8211,6 +8581,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -8488,6 +8868,14 @@
 					],
 					"spells": [
 						{
+							"spell_id": 6215,
+							"count": 2
+						},
+						{
+							"spell_id": 18647,
+							"count": 6
+						},
+						{
 							"spell_id": 27209,
 							"count": 121
 						},
@@ -8500,29 +8888,30 @@
 							"count": 23
 						},
 						{
+							"spell_id": 27228,
+							"count": 6
+						},
+						{
 							"spell_id": 30546,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 6215,
-							"count": 2
-						},
-						{
-							"spell_id": 18647,
-							"count": 6
-						},
-						{
-							"spell_id": 27228,
-							"count": 6
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -8628,6 +9017,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -9039,16 +9438,6 @@
 							"count": 101
 						},
 						{
-							"spell_id": 34026,
-							"count": 22
-						},
-						{
-							"spell_id": 34120,
-							"count": 103
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 3
 						},
@@ -9075,13 +9464,32 @@
 						{
 							"spell_id": 33667,
 							"count": 2
+						},
+						{
+							"spell_id": 34026,
+							"count": 22
+						},
+						{
+							"spell_id": 34120,
+							"count": 103
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -9262,6 +9670,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -9563,16 +9981,6 @@
 							"count": 187
 						},
 						{
-							"spell_id": 34026,
-							"count": 54
-						},
-						{
-							"spell_id": 34120,
-							"count": 238
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 3
 						},
@@ -9603,8 +10011,17 @@
 						{
 							"spell_id": 33667,
 							"count": 6
+						},
+						{
+							"spell_id": 34026,
+							"count": 54
+						},
+						{
+							"spell_id": 34120,
+							"count": 238
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -9615,6 +10032,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -9787,6 +10214,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Magtheridon",
@@ -10087,16 +10524,6 @@
 							"count": 200
 						},
 						{
-							"spell_id": 34026,
-							"count": 54
-						},
-						{
-							"spell_id": 34120,
-							"count": 190
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -10125,10 +10552,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 54
+						},
+						{
+							"spell_id": 34120,
+							"count": 190
+						},
+						{
 							"spell_id": 35166,
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -10139,6 +10575,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Magtheridon",
@@ -10249,6 +10695,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -10513,12 +10969,24 @@
 					],
 					"spells": [
 						{
+							"spell_id": 9634,
+							"count": 1
+						},
+						{
+							"spell_id": 16589,
+							"count": 2
+						},
+						{
 							"spell_id": 17116,
 							"count": 2
 						},
 						{
 							"spell_id": 18562,
 							"count": 6
+						},
+						{
+							"spell_id": 22812,
+							"count": 1
 						},
 						{
 							"spell_id": 26980,
@@ -10529,29 +10997,15 @@
 							"count": 41
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 150
 						},
 						{
 							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 9634,
-							"count": 1
-						},
-						{
-							"spell_id": 16589,
-							"count": 2
-						},
-						{
-							"spell_id": 22812,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
 							"count": 1
 						},
 						{
@@ -10563,6 +11017,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -10573,6 +11028,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -11030,16 +11495,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 23
-						},
-						{
-							"spell_id": 30022,
-							"count": 158
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 5
 						},
@@ -11104,6 +11559,14 @@
 							"count": 4
 						},
 						{
+							"spell_id": 29707,
+							"count": 23
+						},
+						{
+							"spell_id": 30022,
+							"count": 158
+						},
+						{
 							"spell_id": 30356,
 							"count": 15
 						},
@@ -11116,6 +11579,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -11248,6 +11712,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -11569,8 +12043,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10308,
 							"count": 1
@@ -11628,6 +12101,7 @@
 							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11638,6 +12112,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -12042,16 +12526,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 36
-						},
-						{
-							"spell_id": 30022,
-							"count": 114
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 2
 						},
@@ -12080,6 +12554,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 36
+						},
+						{
+							"spell_id": 30022,
+							"count": 114
+						},
+						{
 							"spell_id": 30356,
 							"count": 38
 						},
@@ -12088,6 +12570,7 @@
 							"count": 10
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -12213,6 +12696,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon",
+						"count": 1,
+						"spell_id": 27237,
+						"suggested_spell_id": 27236,
+						"spell_wowhead_attr": "spell=27237",
+						"higher_ranked_spell_wowhead_attr": "spell=27236",
+						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
@@ -12493,8 +12986,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 921,
 							"count": 1
@@ -12556,11 +13048,22 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon",
+				"count": 1,
+				"spell_id": 27237,
+				"suggested_spell_id": 27236,
+				"spell_wowhead_attr": "spell=27237",
+				"higher_ranked_spell_wowhead_attr": "spell=27236",
+				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -13017,12 +13520,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 47
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 5209,
 							"count": 1
 						},
@@ -13087,10 +13584,15 @@
 							"count": 82
 						},
 						{
+							"spell_id": 33987,
+							"count": 47
+						},
+						{
 							"spell_id": 34519,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}

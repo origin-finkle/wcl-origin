@@ -315,6 +315,14 @@
 							"count": 26
 						},
 						{
+							"spell_id": 26994,
+							"count": 1
+						},
+						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 149
 						},
@@ -323,16 +331,7 @@
 							"count": 4
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 26994,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -638,12 +637,24 @@
 							"count": 1
 						},
 						{
+							"spell_id": 26979,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 4
 						},
 						{
 							"spell_id": 26982,
 							"count": 20
+						},
+						{
+							"spell_id": 26990,
+							"count": 1
+						},
+						{
+							"spell_id": 29166,
+							"count": 1
 						},
 						{
 							"spell_id": 33763,
@@ -654,20 +665,7 @@
 							"count": 5
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 26979,
-							"count": 1
-						},
-						{
-							"spell_id": 26990,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -984,12 +982,24 @@
 							"count": 1
 						},
 						{
+							"spell_id": 26979,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 8
 						},
 						{
 							"spell_id": 26982,
 							"count": 14
+						},
+						{
+							"spell_id": 26985,
+							"count": 8
+						},
+						{
+							"spell_id": 29166,
+							"count": 1
 						},
 						{
 							"spell_id": 33763,
@@ -1000,20 +1010,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 26979,
-							"count": 1
-						},
-						{
-							"spell_id": 26985,
-							"count": 8
-						},
-						{
-							"spell_id": 29166,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1309,6 +1306,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 26979,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 6
 						},
@@ -1321,12 +1322,7 @@
 							"count": 19
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 26979,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -1634,16 +1630,6 @@
 							"count": 22
 						},
 						{
-							"spell_id": 33763,
-							"count": 151
-						},
-						{
-							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26990,
 							"count": 1
 						},
@@ -1654,8 +1640,17 @@
 						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 151
+						},
+						{
+							"spell_id": 33891,
+							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -1953,6 +1948,14 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 768,
+							"count": 1
+						},
+						{
+							"spell_id": 9634,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 1
 						},
@@ -1965,16 +1968,7 @@
 							"count": 77
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 768,
-							"count": 1
-						},
-						{
-							"spell_id": 9634,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2260,6 +2254,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 34,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 22,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
@@ -2550,8 +2564,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1020,
 							"count": 1
@@ -2593,6 +2606,7 @@
 							"count": 53
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -2669,6 +2683,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 24,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 19,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
@@ -2956,8 +2990,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 30
@@ -2991,6 +3024,7 @@
 							"count": 52
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -3062,6 +3096,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 11,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:High King Maulgar"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 4,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:High King Maulgar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar",
@@ -3346,8 +3400,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 16
@@ -3385,6 +3438,7 @@
 							"count": 25
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -3461,6 +3515,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar - Wipe 1 (68.99%)",
+						"count": 2,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:High King Maulgar - Wipe 1 (68.99%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar - Wipe 1 (68.99%)",
@@ -3741,8 +3805,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10308,
 							"count": 1
@@ -3768,6 +3831,7 @@
 							"count": 8
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -3831,6 +3895,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 12,
+						"spell_id": 20375,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20375",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20375:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 7,
+						"spell_id": 20424,
+						"suggested_spell_id": 27170,
+						"spell_wowhead_attr": "spell=20424",
+						"higher_ranked_spell_wowhead_attr": "spell=27170",
+						"uuid": "cast_higher_rank_available:spell=20424:Magtheridon - Wipe 1 (43%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon - Wipe 1 (43%)",
@@ -4116,8 +4200,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10326,
 							"count": 1
@@ -4159,6 +4242,7 @@
 							"count": 45
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -4513,8 +4597,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1020,
 							"count": 1
@@ -4544,11 +4627,102 @@
 							"count": 15
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 34,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 24,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 11,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:High King Maulgar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar - Wipe 1 (68.99%)",
+				"count": 2,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:High King Maulgar - Wipe 1 (68.99%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 12,
+				"spell_id": 20375,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20375",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20375:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 22,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 19,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 4,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:High King Maulgar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 7,
+				"spell_id": 20424,
+				"suggested_spell_id": 27170,
+				"spell_wowhead_attr": "spell=20424",
+				"higher_ranked_spell_wowhead_attr": "spell=27170",
+				"uuid": "cast_higher_rank_available:spell=20424:Magtheridon - Wipe 1 (43%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -5080,32 +5254,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 17116,
-							"count": 2
-						},
-						{
-							"spell_id": 18562,
-							"count": 9
-						},
-						{
-							"spell_id": 26980,
-							"count": 21
-						},
-						{
-							"spell_id": 26982,
-							"count": 45
-						},
-						{
-							"spell_id": 33763,
-							"count": 117
-						},
-						{
-							"spell_id": 33891,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 5229,
 							"count": 1
 						},
@@ -5114,8 +5262,24 @@
 							"count": 3
 						},
 						{
+							"spell_id": 17116,
+							"count": 2
+						},
+						{
+							"spell_id": 18562,
+							"count": 9
+						},
+						{
 							"spell_id": 22812,
 							"count": 3
+						},
+						{
+							"spell_id": 26980,
+							"count": 21
+						},
+						{
+							"spell_id": 26982,
+							"count": 45
 						},
 						{
 							"spell_id": 26994,
@@ -5130,10 +5294,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 117
+						},
+						{
+							"spell_id": 33891,
+							"count": 4
+						},
+						{
 							"spell_id": 35165,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -5424,16 +5597,15 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 22812,
+							"count": 1
+						},
+						{
 							"spell_id": 26982,
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 22812,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -5743,6 +5915,10 @@
 							"count": 4
 						},
 						{
+							"spell_id": 26979,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 14
 						},
@@ -5751,21 +5927,15 @@
 							"count": 19
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 62
 						},
 						{
 							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 26979,
-							"count": 1
-						},
-						{
-							"spell_id": 29166,
 							"count": 1
 						},
 						{
@@ -5773,6 +5943,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -6083,6 +6254,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 22812,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 8
 						},
@@ -6095,12 +6270,7 @@
 							"count": 17
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 22812,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -6410,12 +6580,6 @@
 							"count": 55
 						},
 						{
-							"spell_id": 33763,
-							"count": 125
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26983,
 							"count": 1
 						},
@@ -6428,10 +6592,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 125
+						},
+						{
 							"spell_id": 35165,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -7262,12 +7431,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 16
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 4
 						},
@@ -7300,6 +7463,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 16
+						},
+						{
 							"spell_id": 30033,
 							"count": 15
 						},
@@ -7312,6 +7479,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -7650,12 +7818,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 32
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -7688,6 +7850,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 32
+						},
+						{
 							"spell_id": 30033,
 							"count": 10
 						},
@@ -7704,6 +7870,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8037,12 +8204,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 11
 						},
@@ -8079,6 +8240,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 4
+						},
+						{
 							"spell_id": 30033,
 							"count": 5
 						},
@@ -8091,6 +8256,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8430,12 +8596,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -8464,6 +8624,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 1
+						},
+						{
 							"spell_id": 30033,
 							"count": 1
 						},
@@ -8476,6 +8640,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -8800,12 +8965,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 19
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -8838,6 +8997,10 @@
 							"count": 5
 						},
 						{
+							"spell_id": 29707,
+							"count": 19
+						},
+						{
 							"spell_id": 30033,
 							"count": 13
 						},
@@ -8850,6 +9013,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -9187,12 +9351,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 11
 						},
@@ -9225,6 +9383,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 6
+						},
+						{
 							"spell_id": 30033,
 							"count": 6
 						},
@@ -9237,6 +9399,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -10206,12 +10369,20 @@
 							"count": 2
 						},
 						{
+							"spell_id": 10058,
+							"count": 1
+						},
+						{
 							"spell_id": 12051,
 							"count": 1
 						},
 						{
 							"spell_id": 12472,
 							"count": 3
+						},
+						{
+							"spell_id": 23723,
+							"count": 2
 						},
 						{
 							"spell_id": 27070,
@@ -10222,16 +10393,7 @@
 							"count": 7
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 10058,
-							"count": 1
-						},
-						{
-							"spell_id": 23723,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -10680,6 +10842,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 23723,
+							"count": 1
+						},
+						{
 							"spell_id": 27070,
 							"count": 71
 						},
@@ -10692,12 +10858,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 23723,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11036,6 +11197,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 23723,
+							"count": 1
+						},
+						{
 							"spell_id": 27070,
 							"count": 30
 						},
@@ -11054,18 +11219,13 @@
 						{
 							"spell_id": 30449,
 							"count": 5
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 23723,
-							"count": 1
 						},
 						{
 							"spell_id": 33938,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11409,14 +11569,13 @@
 						{
 							"spell_id": 30449,
 							"count": 3
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33938,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -11840,11 +11999,19 @@
 							"count": 12
 						},
 						{
+							"spell_id": 10058,
+							"count": 1
+						},
+						{
 							"spell_id": 12051,
 							"count": 1
 						},
 						{
 							"spell_id": 12472,
+							"count": 2
+						},
+						{
+							"spell_id": 23723,
 							"count": 2
 						},
 						{
@@ -11864,16 +12031,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 10058,
-							"count": 1
-						},
-						{
-							"spell_id": 23723,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -12303,6 +12461,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 66,
+							"count": 1
+						},
+						{
 							"spell_id": 1953,
 							"count": 1
 						},
@@ -12312,6 +12474,10 @@
 						},
 						{
 							"spell_id": 12472,
+							"count": 1
+						},
+						{
+							"spell_id": 23723,
 							"count": 1
 						},
 						{
@@ -12327,16 +12493,7 @@
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 66,
-							"count": 1
-						},
-						{
-							"spell_id": 23723,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -12995,16 +13152,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 69
-						},
-						{
-							"spell_id": 33987,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 26
 						},
@@ -13027,6 +13174,10 @@
 						{
 							"spell_id": 26996,
 							"count": 6
+						},
+						{
+							"spell_id": 27002,
+							"count": 69
 						},
 						{
 							"spell_id": 27003,
@@ -13053,10 +13204,15 @@
 							"count": 19
 						},
 						{
+							"spell_id": 33987,
+							"count": 8
+						},
+						{
 							"spell_id": 35476,
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13349,16 +13505,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 45
-						},
-						{
-							"spell_id": 33987,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 18
 						},
@@ -13391,6 +13537,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 27002,
+							"count": 45
+						},
+						{
 							"spell_id": 27003,
 							"count": 6
 						},
@@ -13415,10 +13565,15 @@
 							"count": 25
 						},
 						{
+							"spell_id": 33987,
+							"count": 3
+						},
+						{
 							"spell_id": 35476,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13709,16 +13864,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 16
-						},
-						{
-							"spell_id": 33987,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 7
 						},
@@ -13743,6 +13888,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27002,
+							"count": 16
+						},
+						{
 							"spell_id": 27003,
 							"count": 5
 						},
@@ -13765,8 +13914,13 @@
 						{
 							"spell_id": 33983,
 							"count": 5
+						},
+						{
+							"spell_id": 33987,
+							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -13847,6 +14001,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar - Wipe 1 (68.99%)",
+						"count": 1,
+						"spell_id": 17390,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17390",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17390:High King Maulgar - Wipe 1 (68.99%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar - Wipe 1 (68.99%)",
@@ -14058,12 +14222,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6795,
 							"count": 1
 						},
@@ -14086,8 +14244,13 @@
 						{
 							"spell_id": 33745,
 							"count": 16
+						},
+						{
+							"spell_id": 33987,
+							"count": 7
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -14381,16 +14544,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 41
-						},
-						{
-							"spell_id": 33987,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 6
 						},
@@ -14423,6 +14576,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27002,
+							"count": 41
+						},
+						{
 							"spell_id": 27003,
 							"count": 2
 						},
@@ -14449,8 +14606,13 @@
 						{
 							"spell_id": 33983,
 							"count": 9
+						},
+						{
+							"spell_id": 33987,
+							"count": 18
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -14739,12 +14901,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6795,
 							"count": 1
 						},
@@ -14759,13 +14915,28 @@
 						{
 							"spell_id": 33745,
 							"count": 23
+						},
+						{
+							"spell_id": 33987,
+							"count": 8
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar - Wipe 1 (68.99%)",
+				"count": 1,
+				"spell_id": 17390,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17390",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17390:High King Maulgar - Wipe 1 (68.99%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -15304,8 +15475,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 15
@@ -15359,6 +15529,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -15708,8 +15879,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 15
@@ -15767,6 +15937,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -16120,8 +16291,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 9
@@ -16179,6 +16349,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -16542,8 +16713,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 2
@@ -16605,6 +16775,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -16945,8 +17116,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 16
@@ -17000,6 +17170,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 9512,
@@ -17347,8 +17518,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 6774,
 							"count": 1
@@ -17358,6 +17528,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -17872,6 +18043,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 17531,
+							"count": 2
+						},
+						{
 							"spell_id": 27070,
 							"count": 85
 						},
@@ -17888,12 +18063,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 17531,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -18287,6 +18457,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 17531,
+							"count": 1
+						},
+						{
 							"spell_id": 27070,
 							"count": 71
 						},
@@ -18295,12 +18469,7 @@
 							"count": 7
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 17531,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -18682,6 +18851,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 17531,
+							"count": 1
+						},
+						{
 							"spell_id": 27070,
 							"count": 37
 						},
@@ -18694,12 +18867,7 @@
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 17531,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -19065,6 +19233,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 10225,
+							"count": 1
+						},
+						{
 							"spell_id": 27070,
 							"count": 7
 						},
@@ -19077,12 +19249,7 @@
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 10225,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -19483,14 +19650,13 @@
 						{
 							"spell_id": 27079,
 							"count": 4
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27088,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -19868,6 +20034,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 66,
+							"count": 1
+						},
+						{
 							"spell_id": 1953,
 							"count": 1
 						},
@@ -19886,18 +20056,13 @@
 						{
 							"spell_id": 27079,
 							"count": 2
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 66,
-							"count": 1
 						},
 						{
 							"spell_id": 27101,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -20513,16 +20678,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 138
-						},
-						{
-							"spell_id": 30022,
-							"count": 68
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 3
 						},
@@ -20551,6 +20706,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 138
+						},
+						{
+							"spell_id": 30022,
+							"count": 68
+						},
+						{
 							"spell_id": 30356,
 							"count": 40
 						},
@@ -20563,6 +20726,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -20928,16 +21092,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 133
-						},
-						{
-							"spell_id": 30022,
-							"count": 65
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -20978,6 +21132,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 133
+						},
+						{
+							"spell_id": 30022,
+							"count": 65
+						},
+						{
 							"spell_id": 30356,
 							"count": 42
 						},
@@ -20990,6 +21152,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -21352,16 +21515,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 90
-						},
-						{
-							"spell_id": 30022,
-							"count": 39
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 355,
 							"count": 1
 						},
@@ -21378,6 +21531,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 90
+						},
+						{
+							"spell_id": 30022,
+							"count": 39
+						},
+						{
 							"spell_id": 30356,
 							"count": 27
 						},
@@ -21390,6 +21551,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -21746,16 +21908,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 9
-						},
-						{
-							"spell_id": 30022,
-							"count": 6
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 355,
 							"count": 1
 						},
@@ -21772,6 +21924,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 9
+						},
+						{
+							"spell_id": 30022,
+							"count": 6
+						},
+						{
 							"spell_id": 30356,
 							"count": 4
 						},
@@ -21780,6 +21940,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -22114,16 +22275,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 148
-						},
-						{
-							"spell_id": 30022,
-							"count": 85
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 355,
 							"count": 2
 						},
@@ -22160,6 +22311,14 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 148
+						},
+						{
+							"spell_id": 30022,
+							"count": 85
+						},
+						{
 							"spell_id": 30356,
 							"count": 52
 						},
@@ -22172,6 +22331,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -22515,16 +22675,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 70
-						},
-						{
-							"spell_id": 30022,
-							"count": 30
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 1
 						},
@@ -22549,6 +22699,14 @@
 							"count": 4
 						},
 						{
+							"spell_id": 29707,
+							"count": 70
+						},
+						{
+							"spell_id": 30022,
+							"count": 30
+						},
+						{
 							"spell_id": 30356,
 							"count": 25
 						},
@@ -22557,6 +22715,7 @@
 							"count": 20
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -22916,16 +23075,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 57
-						},
-						{
-							"spell_id": 30022,
-							"count": 128
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -22966,6 +23115,14 @@
 							"count": 4
 						},
 						{
+							"spell_id": 29707,
+							"count": 57
+						},
+						{
+							"spell_id": 30022,
+							"count": 128
+						},
+						{
 							"spell_id": 30356,
 							"count": 50
 						},
@@ -22978,6 +23135,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -23335,16 +23493,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 45
-						},
-						{
-							"spell_id": 30022,
-							"count": 109
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -23377,6 +23525,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 45
+						},
+						{
+							"spell_id": 30022,
+							"count": 109
+						},
+						{
 							"spell_id": 30356,
 							"count": 34
 						},
@@ -23385,6 +23541,7 @@
 							"count": 15
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -23745,16 +23902,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 6
-						},
-						{
-							"spell_id": 30022,
-							"count": 32
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 3
 						},
@@ -23799,6 +23946,14 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 6
+						},
+						{
+							"spell_id": 30022,
+							"count": 32
+						},
+						{
 							"spell_id": 30356,
 							"count": 13
 						},
@@ -23807,6 +23962,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24172,12 +24328,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 30022,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -24214,6 +24364,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 30022,
+							"count": 9
+						},
+						{
 							"spell_id": 30356,
 							"count": 4
 						},
@@ -24222,6 +24376,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24556,16 +24711,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 67
-						},
-						{
-							"spell_id": 30022,
-							"count": 128
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 1
 						},
@@ -24602,6 +24747,14 @@
 							"count": 6
 						},
 						{
+							"spell_id": 29707,
+							"count": 67
+						},
+						{
+							"spell_id": 30022,
+							"count": 128
+						},
+						{
 							"spell_id": 30356,
 							"count": 34
 						},
@@ -24610,6 +24763,7 @@
 							"count": 22
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -24950,16 +25104,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 48
-						},
-						{
-							"spell_id": 30022,
-							"count": 32
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -24988,6 +25132,14 @@
 							"count": 4
 						},
 						{
+							"spell_id": 29707,
+							"count": 48
+						},
+						{
+							"spell_id": 30022,
+							"count": 32
+						},
+						{
 							"spell_id": 30356,
 							"count": 19
 						},
@@ -24996,6 +25148,7 @@
 							"count": 23
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -25297,6 +25450,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 48,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:Gruul the Dragonkiller"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 1,
+						"spell_id": 331,
+						"suggested_spell_id": 25396,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=25396",
+						"uuid": "cast_higher_rank_available:spell=331:Gruul the Dragonkiller"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Gruul the Dragonkiller",
@@ -25610,8 +25783,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 331,
 							"count": 1
@@ -25673,6 +25845,7 @@
 							"count": 7
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -25737,6 +25910,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 42,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 1,
+						"spell_id": 331,
+						"suggested_spell_id": 25396,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=25396",
+						"uuid": "cast_higher_rank_available:spell=331:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
@@ -26049,8 +26242,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 331,
 							"count": 1
@@ -26100,6 +26292,7 @@
 							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -26173,6 +26366,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 41,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:High King Maulgar"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "High King Maulgar",
@@ -26481,8 +26684,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10467,
 							"count": 41
@@ -26524,6 +26726,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -26596,6 +26799,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar - Wipe 1 (68.99%)",
+						"count": 7,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:High King Maulgar - Wipe 1 (68.99%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar - Wipe 1 (68.99%)",
+						"count": 1,
+						"spell_id": 331,
+						"suggested_spell_id": 25396,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=25396",
+						"uuid": "cast_higher_rank_available:spell=331:High King Maulgar - Wipe 1 (68.99%)"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "High King Maulgar - Wipe 1 (68.99%)",
@@ -26897,8 +27120,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 331,
 							"count": 1
@@ -26912,6 +27134,7 @@
 							"count": 9
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -26976,6 +27199,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 44,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 6,
+						"spell_id": 331,
+						"suggested_spell_id": 25396,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=25396",
+						"uuid": "cast_higher_rank_available:spell=331:Magtheridon - Wipe 1 (43%)"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Magtheridon - Wipe 1 (43%)",
@@ -27287,8 +27530,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 331,
 							"count": 6
@@ -27338,6 +27580,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -27399,6 +27642,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 25,
+						"spell_id": 10467,
+						"suggested_spell_id": 10468,
+						"spell_wowhead_attr": "spell=10467",
+						"higher_ranked_spell_wowhead_attr": "spell=10468",
+						"uuid": "cast_higher_rank_available:spell=10467:Magtheridon - Wipe 2 (100%)"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Magtheridon - Wipe 2 (100%)",
@@ -27712,8 +27965,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10467,
 							"count": 25
@@ -27755,11 +28007,112 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 48,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 42,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 41,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:High King Maulgar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar - Wipe 1 (68.99%)",
+				"count": 7,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:High King Maulgar - Wipe 1 (68.99%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 44,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 25,
+				"spell_id": 10467,
+				"suggested_spell_id": 10468,
+				"spell_wowhead_attr": "spell=10467",
+				"higher_ranked_spell_wowhead_attr": "spell=10468",
+				"uuid": "cast_higher_rank_available:spell=10467:Magtheridon - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 1,
+				"spell_id": 331,
+				"suggested_spell_id": 25396,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=25396",
+				"uuid": "cast_higher_rank_available:spell=331:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 1,
+				"spell_id": 331,
+				"suggested_spell_id": 25396,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=25396",
+				"uuid": "cast_higher_rank_available:spell=331:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar - Wipe 1 (68.99%)",
+				"count": 1,
+				"spell_id": 331,
+				"suggested_spell_id": 25396,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=25396",
+				"uuid": "cast_higher_rank_available:spell=331:High King Maulgar - Wipe 1 (68.99%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 6,
+				"spell_id": 331,
+				"suggested_spell_id": 25396,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=25396",
+				"uuid": "cast_higher_rank_available:spell=331:Magtheridon - Wipe 1 (43%)"
+			},
 			{
 				"type": "invalid_battle_elixir",
 				"fight": "Gruul the Dragonkiller",
@@ -28535,14 +28888,13 @@
 						{
 							"spell_id": 27074,
 							"count": 12
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -28909,16 +29261,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33662,
+							"count": 3
+						},
+						{
 							"spell_id": 45438,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 33662,
-							"count": 3
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -29255,14 +29606,13 @@
 						{
 							"spell_id": 27074,
 							"count": 13
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -29593,14 +29943,13 @@
 						{
 							"spell_id": 27074,
 							"count": 7
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -29934,6 +30283,10 @@
 					],
 					"spells": [
 						{
+							"spell_id": 122,
+							"count": 1
+						},
+						{
 							"spell_id": 2139,
 							"count": 1
 						},
@@ -29956,18 +30309,13 @@
 						{
 							"spell_id": 27074,
 							"count": 13
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 122,
-							"count": 1
 						},
 						{
 							"spell_id": 33662,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28508,
@@ -30321,14 +30669,13 @@
 						{
 							"spell_id": 27079,
 							"count": 2
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 27101,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -30861,12 +31208,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 43
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -30899,6 +31240,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 43
+						},
+						{
 							"spell_id": 30033,
 							"count": 18
 						},
@@ -30911,6 +31256,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -31312,12 +31658,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 42
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 3
 						},
@@ -31354,6 +31694,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 42
+						},
+						{
 							"spell_id": 30033,
 							"count": 15
 						},
@@ -31366,6 +31710,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -31778,12 +32123,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 4
 						},
@@ -31828,6 +32167,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 9
+						},
+						{
 							"spell_id": 30033,
 							"count": 8
 						},
@@ -31844,6 +32187,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -32239,8 +32583,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 25275,
 							"count": 1
@@ -32250,6 +32593,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -32649,12 +32993,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 25
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -32703,6 +33041,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 25
+						},
+						{
 							"spell_id": 30033,
 							"count": 20
 						},
@@ -32715,6 +33057,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28507,
@@ -33130,12 +33473,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 7
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 469,
 							"count": 3
 						},
@@ -33168,6 +33505,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 7
+						},
+						{
 							"spell_id": 30033,
 							"count": 4
 						},
@@ -33180,6 +33521,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -33870,12 +34212,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 14
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 8
 						},
@@ -33892,10 +34228,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 14
+						},
+						{
 							"spell_id": 30335,
 							"count": 10
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -34226,12 +34567,6 @@
 					],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 29
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 27
 						},
@@ -34260,10 +34595,15 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 29
+						},
+						{
 							"spell_id": 30335,
 							"count": 37
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -34617,12 +34957,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 9
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 12
 						},
@@ -34667,6 +35001,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 9
+						},
+						{
 							"spell_id": 30335,
 							"count": 17
 						},
@@ -34675,6 +35013,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -35030,8 +35369,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 2
@@ -35061,6 +35399,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -35395,12 +35734,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 31
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 28
 						},
@@ -35437,10 +35770,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 31
+						},
+						{
 							"spell_id": 30335,
 							"count": 49
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -35799,12 +36137,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 1680,
 							"count": 9
 						},
@@ -35841,10 +36173,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 11
+						},
+						{
 							"spell_id": 30335,
 							"count": 14
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -36541,12 +36878,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 10
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -36591,6 +36922,10 @@
 							"count": 4
 						},
 						{
+							"spell_id": 29707,
+							"count": 10
+						},
+						{
 							"spell_id": 30330,
 							"count": 34
 						},
@@ -36603,6 +36938,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -36957,12 +37293,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 3
 						},
@@ -37003,6 +37333,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 2
+						},
+						{
 							"spell_id": 30330,
 							"count": 33
 						},
@@ -37019,6 +37353,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -37380,12 +37715,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -37446,6 +37775,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 29707,
+							"count": 1
+						},
+						{
 							"spell_id": 30330,
 							"count": 11
 						},
@@ -37458,6 +37791,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -37811,8 +38145,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 3
@@ -37846,6 +38179,7 @@
 							"count": 6
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -38203,12 +38537,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 3
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 3
 						},
@@ -38265,6 +38593,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 3
+						},
+						{
 							"spell_id": 30330,
 							"count": 31
 						},
@@ -38277,6 +38609,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -38623,8 +38956,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 8
@@ -38662,6 +38994,7 @@
 							"count": 12
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -39286,8 +39619,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 71,
 							"count": 3
@@ -39353,6 +39685,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -39707,12 +40040,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 4
 						},
@@ -39765,6 +40092,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 29707,
+							"count": 2
+						},
+						{
 							"spell_id": 30330,
 							"count": 40
 						},
@@ -39773,6 +40104,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -40119,8 +40451,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 469,
 							"count": 2
@@ -40194,6 +40525,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -40551,8 +40883,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1680,
 							"count": 2
@@ -40606,6 +40937,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -40953,12 +41285,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 1
 						},
@@ -41031,6 +41357,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 2
+						},
+						{
 							"spell_id": 30330,
 							"count": 53
 						},
@@ -41043,6 +41373,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -41415,12 +41746,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 29707,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 71,
 							"count": 2
 						},
@@ -41493,6 +41818,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 29707,
+							"count": 1
+						},
+						{
 							"spell_id": 30330,
 							"count": 17
 						},
@@ -41501,6 +41830,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -41957,24 +42287,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26982,
-							"count": 2
-						},
-						{
-							"spell_id": 27002,
-							"count": 46
-						},
-						{
-							"spell_id": 33763,
-							"count": 1
-						},
-						{
-							"spell_id": 33987,
-							"count": 2
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 36
 						},
@@ -41995,8 +42307,16 @@
 							"count": 2
 						},
 						{
+							"spell_id": 26982,
+							"count": 2
+						},
+						{
 							"spell_id": 26983,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 46
 						},
 						{
 							"spell_id": 27003,
@@ -42023,14 +42343,23 @@
 							"count": 3
 						},
 						{
+							"spell_id": 33763,
+							"count": 1
+						},
+						{
 							"spell_id": 33983,
 							"count": 21
+						},
+						{
+							"spell_id": 33987,
+							"count": 2
 						},
 						{
 							"spell_id": 35166,
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -42095,6 +42424,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 1,
+						"spell_id": 17392,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17392",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17392:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
@@ -42317,20 +42656,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26982,
-							"count": 3
-						},
-						{
-							"spell_id": 27002,
-							"count": 36
-						},
-						{
-							"spell_id": 33763,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 33
 						},
@@ -42351,8 +42676,16 @@
 							"count": 3
 						},
 						{
+							"spell_id": 26982,
+							"count": 3
+						},
+						{
 							"spell_id": 26994,
 							"count": 1
+						},
+						{
+							"spell_id": 27002,
+							"count": 36
 						},
 						{
 							"spell_id": 27003,
@@ -42371,6 +42704,10 @@
 							"count": 3
 						},
 						{
+							"spell_id": 33763,
+							"count": 1
+						},
+						{
 							"spell_id": 33983,
 							"count": 23
 						},
@@ -42379,6 +42716,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -42451,6 +42789,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 2,
+						"spell_id": 17392,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17392",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17392:High King Maulgar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar",
@@ -42712,16 +43060,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27002,
-							"count": 4
-						},
-						{
-							"spell_id": 33987,
-							"count": 13
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 10
 						},
@@ -42762,6 +43100,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27002,
+							"count": 4
+						},
+						{
 							"spell_id": 27003,
 							"count": 7
 						},
@@ -42782,10 +43124,15 @@
 							"count": 5
 						},
 						{
+							"spell_id": 33987,
+							"count": 13
+						},
+						{
 							"spell_id": 35166,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -43103,12 +43450,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 10
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6795,
 							"count": 2
 						},
@@ -43133,10 +43474,15 @@
 							"count": 17
 						},
 						{
+							"spell_id": 33987,
+							"count": 10
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -43209,6 +43555,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 3,
+						"spell_id": 17392,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17392",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17392:Magtheridon - Wipe 1 (43%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon - Wipe 1 (43%)",
@@ -43442,20 +43798,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26982,
-							"count": 4
-						},
-						{
-							"spell_id": 27002,
-							"count": 19
-						},
-						{
-							"spell_id": 33987,
-							"count": 19
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 768,
 							"count": 15
 						},
@@ -43484,6 +43826,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 26982,
+							"count": 4
+						},
+						{
 							"spell_id": 26994,
 							"count": 1
 						},
@@ -43494,6 +43840,10 @@
 						{
 							"spell_id": 26997,
 							"count": 3
+						},
+						{
+							"spell_id": 27002,
+							"count": 19
 						},
 						{
 							"spell_id": 27003,
@@ -43520,10 +43870,15 @@
 							"count": 14
 						},
 						{
+							"spell_id": 33987,
+							"count": 19
+						},
+						{
 							"spell_id": 35166,
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -43596,6 +43951,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 2,
+						"spell_id": 17392,
+						"suggested_spell_id": 27011,
+						"spell_wowhead_attr": "spell=17392",
+						"higher_ranked_spell_wowhead_attr": "spell=27011",
+						"uuid": "cast_higher_rank_available:spell=17392:Magtheridon - Wipe 2 (100%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon - Wipe 2 (100%)",
@@ -43825,12 +44190,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 33987,
-							"count": 18
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6795,
 							"count": 3
 						},
@@ -43863,15 +44222,60 @@
 							"count": 36
 						},
 						{
+							"spell_id": 33987,
+							"count": 18
+						},
+						{
 							"spell_id": 35166,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 1,
+				"spell_id": 17392,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17392",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17392:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 2,
+				"spell_id": 17392,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17392",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17392:High King Maulgar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 3,
+				"spell_id": 17392,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17392",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17392:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 2,
+				"spell_id": 17392,
+				"suggested_spell_id": 27011,
+				"spell_wowhead_attr": "spell=17392",
+				"higher_ranked_spell_wowhead_attr": "spell=27011",
+				"uuid": "cast_higher_rank_available:spell=17392:Magtheridon - Wipe 2 (100%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -44362,6 +44766,10 @@
 							"count": 32
 						},
 						{
+							"spell_id": 32367,
+							"count": 2
+						},
+						{
 							"spell_id": 33763,
 							"count": 60
 						},
@@ -44370,12 +44778,7 @@
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 32367,
-							"count": 2
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -44752,30 +45155,20 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 26980,
-							"count": 1
-						},
-						{
-							"spell_id": 26982,
-							"count": 51
-						},
-						{
-							"spell_id": 33763,
-							"count": 38
-						},
-						{
-							"spell_id": 33891,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 8940,
 							"count": 7
 						},
 						{
 							"spell_id": 23477,
 							"count": 1
+						},
+						{
+							"spell_id": 26980,
+							"count": 1
+						},
+						{
+							"spell_id": 26982,
+							"count": 51
 						},
 						{
 							"spell_id": 26994,
@@ -44788,8 +45181,17 @@
 						{
 							"spell_id": 32367,
 							"count": 3
+						},
+						{
+							"spell_id": 33763,
+							"count": 38
+						},
+						{
+							"spell_id": 33891,
+							"count": 8
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -45164,6 +45566,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 6
+						},
+						{
 							"spell_id": 18562,
 							"count": 1
 						},
@@ -45176,24 +45582,19 @@
 							"count": 49
 						},
 						{
-							"spell_id": 33763,
-							"count": 16
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 6
-						},
-						{
 							"spell_id": 29166,
 							"count": 1
 						},
 						{
 							"spell_id": 32367,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 16
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -45563,6 +45964,10 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 8940,
+							"count": 4
+						},
+						{
 							"spell_id": 26982,
 							"count": 7
 						},
@@ -45571,12 +45976,7 @@
 							"count": 9
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 8940,
-							"count": 4
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -45932,6 +46332,14 @@
 							"count": 69
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
+							"spell_id": 32367,
+							"count": 3
+						},
+						{
 							"spell_id": 33763,
 							"count": 80
 						},
@@ -45940,16 +46348,7 @@
 							"count": 2
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 29166,
-							"count": 1
-						},
-						{
-							"spell_id": 32367,
-							"count": 3
-						}
-					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -46322,20 +46721,19 @@
 							"count": 32
 						},
 						{
-							"spell_id": 33763,
-							"count": 41
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 29166,
 							"count": 1
 						},
 						{
 							"spell_id": 32367,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 41
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -46879,6 +47277,66 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 18,
+						"spell_id": 10927,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10927",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10927:Gruul the Dragonkiller"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 6,
+						"spell_id": 10928,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10928",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10928:Gruul the Dragonkiller"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 38,
+						"spell_id": 10963,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10963",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10963:Gruul the Dragonkiller"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 41,
+						"spell_id": 10965,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10965",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10965:Gruul the Dragonkiller"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 4,
+						"spell_id": 6077,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6077",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6077:Gruul the Dragonkiller"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 7,
+						"spell_id": 6078,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6078",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6078:Gruul the Dragonkiller"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026item=28612",
@@ -47144,20 +47602,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25213,
-							"count": 1
-						},
-						{
-							"spell_id": 25218,
-							"count": 13
-						},
-						{
-							"spell_id": 33076,
-							"count": 14
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6076,
 							"count": 1
 						},
@@ -47190,6 +47634,14 @@
 							"count": 4
 						},
 						{
+							"spell_id": 25213,
+							"count": 1
+						},
+						{
+							"spell_id": 25218,
+							"count": 13
+						},
+						{
 							"spell_id": 25429,
 							"count": 1
 						},
@@ -47198,10 +47650,15 @@
 							"count": 2
 						},
 						{
+							"spell_id": 33076,
+							"count": 14
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -47279,6 +47736,66 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 12,
+						"spell_id": 10927,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10927",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10927:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 2,
+						"spell_id": 10928,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10928",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10928:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 25,
+						"spell_id": 10963,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10963",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10963:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 34,
+						"spell_id": 10965,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10965",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10965:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 11,
+						"spell_id": 6077,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6077",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6077:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 11,
+						"spell_id": 6078,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6078",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6078:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
@@ -47546,24 +48063,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25218,
-							"count": 12
-						},
-						{
-							"spell_id": 25222,
-							"count": 1
-						},
-						{
-							"spell_id": 32546,
-							"count": 1
-						},
-						{
-							"spell_id": 33076,
-							"count": 11
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6076,
 							"count": 3
 						},
@@ -47596,6 +48095,14 @@
 							"count": 2
 						},
 						{
+							"spell_id": 25218,
+							"count": 12
+						},
+						{
+							"spell_id": 25222,
+							"count": 1
+						},
+						{
 							"spell_id": 25368,
 							"count": 1
 						},
@@ -47604,10 +48111,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 32546,
+							"count": 1
+						},
+						{
+							"spell_id": 33076,
+							"count": 11
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -47685,6 +48201,46 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 1,
+						"spell_id": 10928,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10928",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10928:High King Maulgar"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 6,
+						"spell_id": 10963,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10963",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10963:High King Maulgar"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 20,
+						"spell_id": 10965,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10965",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10965:High King Maulgar"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 1,
+						"spell_id": 6078,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6078",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6078:High King Maulgar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar",
@@ -47949,24 +48505,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25213,
-							"count": 1
-						},
-						{
-							"spell_id": 25218,
-							"count": 8
-						},
-						{
-							"spell_id": 25222,
-							"count": 5
-						},
-						{
-							"spell_id": 33076,
-							"count": 4
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6078,
 							"count": 1
 						},
@@ -47995,10 +48533,27 @@
 							"count": 13
 						},
 						{
+							"spell_id": 25213,
+							"count": 1
+						},
+						{
+							"spell_id": 25218,
+							"count": 8
+						},
+						{
+							"spell_id": 25222,
+							"count": 5
+						},
+						{
+							"spell_id": 33076,
+							"count": 4
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -48076,6 +48631,26 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar - Wipe 1 (68.99%)",
+						"count": 2,
+						"spell_id": 10929,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10929",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10929:High King Maulgar - Wipe 1 (68.99%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar - Wipe 1 (68.99%)",
+						"count": 12,
+						"spell_id": 10965,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10965",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10965:High King Maulgar - Wipe 1 (68.99%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar - Wipe 1 (68.99%)",
@@ -48334,16 +48909,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25218,
-							"count": 4
-						},
-						{
-							"spell_id": 25222,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 10929,
 							"count": 2
 						},
@@ -48356,10 +48921,19 @@
 							"count": 12
 						},
 						{
+							"spell_id": 25218,
+							"count": 4
+						},
+						{
 							"spell_id": 25221,
+							"count": 1
+						},
+						{
+							"spell_id": 25222,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -48429,6 +49003,106 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 6,
+						"spell_id": 10915,
+						"suggested_spell_id": 10917,
+						"spell_wowhead_attr": "spell=10915",
+						"higher_ranked_spell_wowhead_attr": "spell=10917",
+						"uuid": "cast_higher_rank_available:spell=10915:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 13,
+						"spell_id": 10916,
+						"suggested_spell_id": 10917,
+						"spell_wowhead_attr": "spell=10916",
+						"higher_ranked_spell_wowhead_attr": "spell=10917",
+						"uuid": "cast_higher_rank_available:spell=10916:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 9,
+						"spell_id": 10927,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10927",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10927:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 4,
+						"spell_id": 10928,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10928",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10928:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 20,
+						"spell_id": 10963,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10963",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10963:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 42,
+						"spell_id": 10965,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10965",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10965:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 1,
+						"spell_id": 25233,
+						"suggested_spell_id": 25235,
+						"spell_wowhead_attr": "spell=25233",
+						"higher_ranked_spell_wowhead_attr": "spell=25235",
+						"uuid": "cast_higher_rank_available:spell=25233:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 1,
+						"spell_id": 25316,
+						"suggested_spell_id": 25308,
+						"spell_wowhead_attr": "spell=25316",
+						"higher_ranked_spell_wowhead_attr": "spell=25308",
+						"uuid": "cast_higher_rank_available:spell=25316:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 6,
+						"spell_id": 6077,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6077",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6077:Magtheridon - Wipe 1 (43%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 13,
+						"spell_id": 6078,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6078",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6078:Magtheridon - Wipe 1 (43%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon - Wipe 1 (43%)",
@@ -48702,24 +49376,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25213,
-							"count": 2
-						},
-						{
-							"spell_id": 25218,
-							"count": 18
-						},
-						{
-							"spell_id": 25235,
-							"count": 6
-						},
-						{
-							"spell_id": 33076,
-							"count": 14
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6076,
 							"count": 1
 						},
@@ -48768,8 +49424,20 @@
 							"count": 2
 						},
 						{
+							"spell_id": 25213,
+							"count": 2
+						},
+						{
+							"spell_id": 25218,
+							"count": 18
+						},
+						{
 							"spell_id": 25233,
 							"count": 1
+						},
+						{
+							"spell_id": 25235,
+							"count": 6
 						},
 						{
 							"spell_id": 25308,
@@ -48784,10 +49452,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33076,
+							"count": 14
+						},
+						{
 							"spell_id": 34433,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -48865,6 +49538,86 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 2,
+						"spell_id": 10915,
+						"suggested_spell_id": 10917,
+						"spell_wowhead_attr": "spell=10915",
+						"higher_ranked_spell_wowhead_attr": "spell=10917",
+						"uuid": "cast_higher_rank_available:spell=10915:Magtheridon - Wipe 2 (100%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 4,
+						"spell_id": 10916,
+						"suggested_spell_id": 10917,
+						"spell_wowhead_attr": "spell=10916",
+						"higher_ranked_spell_wowhead_attr": "spell=10917",
+						"uuid": "cast_higher_rank_available:spell=10916:Magtheridon - Wipe 2 (100%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 2,
+						"spell_id": 10927,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=10927",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=10927:Magtheridon - Wipe 2 (100%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 7,
+						"spell_id": 10963,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10963",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10963:Magtheridon - Wipe 2 (100%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 27,
+						"spell_id": 10965,
+						"suggested_spell_id": 25210,
+						"spell_wowhead_attr": "spell=10965",
+						"higher_ranked_spell_wowhead_attr": "spell=25210",
+						"uuid": "cast_higher_rank_available:spell=10965:Magtheridon - Wipe 2 (100%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 1,
+						"spell_id": 25233,
+						"suggested_spell_id": 25235,
+						"spell_wowhead_attr": "spell=25233",
+						"higher_ranked_spell_wowhead_attr": "spell=25235",
+						"uuid": "cast_higher_rank_available:spell=25233:Magtheridon - Wipe 2 (100%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 2,
+						"spell_id": 6077,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6077",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6077:Magtheridon - Wipe 2 (100%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 4,
+						"spell_id": 6078,
+						"suggested_spell_id": 25221,
+						"spell_wowhead_attr": "spell=6078",
+						"higher_ranked_spell_wowhead_attr": "spell=25221",
+						"uuid": "cast_higher_rank_available:spell=6078:Magtheridon - Wipe 2 (100%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon - Wipe 2 (100%)",
@@ -49130,16 +49883,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 25218,
-							"count": 7
-						},
-						{
-							"spell_id": 33076,
-							"count": 5
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6077,
 							"count": 2
 						},
@@ -49176,14 +49919,23 @@
 							"count": 1
 						},
 						{
+							"spell_id": 25218,
+							"count": 7
+						},
+						{
 							"spell_id": 25233,
 							"count": 1
 						},
 						{
 							"spell_id": 25429,
 							"count": 1
+						},
+						{
+							"spell_id": 33076,
+							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -49194,6 +49946,366 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 6,
+				"spell_id": 10915,
+				"suggested_spell_id": 10917,
+				"spell_wowhead_attr": "spell=10915",
+				"higher_ranked_spell_wowhead_attr": "spell=10917",
+				"uuid": "cast_higher_rank_available:spell=10915:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 2,
+				"spell_id": 10915,
+				"suggested_spell_id": 10917,
+				"spell_wowhead_attr": "spell=10915",
+				"higher_ranked_spell_wowhead_attr": "spell=10917",
+				"uuid": "cast_higher_rank_available:spell=10915:Magtheridon - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 13,
+				"spell_id": 10916,
+				"suggested_spell_id": 10917,
+				"spell_wowhead_attr": "spell=10916",
+				"higher_ranked_spell_wowhead_attr": "spell=10917",
+				"uuid": "cast_higher_rank_available:spell=10916:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 4,
+				"spell_id": 10916,
+				"suggested_spell_id": 10917,
+				"spell_wowhead_attr": "spell=10916",
+				"higher_ranked_spell_wowhead_attr": "spell=10917",
+				"uuid": "cast_higher_rank_available:spell=10916:Magtheridon - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 18,
+				"spell_id": 10927,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10927",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10927:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 12,
+				"spell_id": 10927,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10927",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10927:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 9,
+				"spell_id": 10927,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10927",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10927:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 2,
+				"spell_id": 10927,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10927",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10927:Magtheridon - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 6,
+				"spell_id": 10928,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10928",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10928:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 2,
+				"spell_id": 10928,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10928",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10928:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 1,
+				"spell_id": 10928,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10928",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10928:High King Maulgar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 4,
+				"spell_id": 10928,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10928",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10928:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar - Wipe 1 (68.99%)",
+				"count": 2,
+				"spell_id": 10929,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=10929",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=10929:High King Maulgar - Wipe 1 (68.99%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 38,
+				"spell_id": 10963,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10963",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10963:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 25,
+				"spell_id": 10963,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10963",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10963:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 6,
+				"spell_id": 10963,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10963",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10963:High King Maulgar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 20,
+				"spell_id": 10963,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10963",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10963:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 7,
+				"spell_id": 10963,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10963",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10963:Magtheridon - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 41,
+				"spell_id": 10965,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10965",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10965:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 34,
+				"spell_id": 10965,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10965",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10965:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 20,
+				"spell_id": 10965,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10965",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10965:High King Maulgar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar - Wipe 1 (68.99%)",
+				"count": 12,
+				"spell_id": 10965,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10965",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10965:High King Maulgar - Wipe 1 (68.99%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 42,
+				"spell_id": 10965,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10965",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10965:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 27,
+				"spell_id": 10965,
+				"suggested_spell_id": 25210,
+				"spell_wowhead_attr": "spell=10965",
+				"higher_ranked_spell_wowhead_attr": "spell=25210",
+				"uuid": "cast_higher_rank_available:spell=10965:Magtheridon - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 1,
+				"spell_id": 25233,
+				"suggested_spell_id": 25235,
+				"spell_wowhead_attr": "spell=25233",
+				"higher_ranked_spell_wowhead_attr": "spell=25235",
+				"uuid": "cast_higher_rank_available:spell=25233:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 1,
+				"spell_id": 25233,
+				"suggested_spell_id": 25235,
+				"spell_wowhead_attr": "spell=25233",
+				"higher_ranked_spell_wowhead_attr": "spell=25235",
+				"uuid": "cast_higher_rank_available:spell=25233:Magtheridon - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 1,
+				"spell_id": 25316,
+				"suggested_spell_id": 25308,
+				"spell_wowhead_attr": "spell=25316",
+				"higher_ranked_spell_wowhead_attr": "spell=25308",
+				"uuid": "cast_higher_rank_available:spell=25316:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 4,
+				"spell_id": 6077,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6077",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6077:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 11,
+				"spell_id": 6077,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6077",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6077:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 6,
+				"spell_id": 6077,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6077",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6077:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 2,
+				"spell_id": 6077,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6077",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6077:Magtheridon - Wipe 2 (100%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 7,
+				"spell_id": 6078,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6078",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6078:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 11,
+				"spell_id": 6078,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6078",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6078:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 1,
+				"spell_id": 6078,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6078",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6078:High King Maulgar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 13,
+				"spell_id": 6078,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6078",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6078:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 4,
+				"spell_id": 6078,
+				"suggested_spell_id": 25221,
+				"spell_wowhead_attr": "spell=6078",
+				"higher_ranked_spell_wowhead_attr": "spell=25221",
+				"uuid": "cast_higher_rank_available:spell=6078:Magtheridon - Wipe 2 (100%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -49408,6 +50520,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller",
+						"count": 7,
+						"spell_id": 2912,
+						"suggested_spell_id": 25298,
+						"spell_wowhead_attr": "spell=2912",
+						"higher_ranked_spell_wowhead_attr": "spell=25298",
+						"uuid": "cast_higher_rank_available:spell=2912:Gruul the Dragonkiller"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
@@ -49704,8 +50826,7 @@
 							"count": 3
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2912,
 							"count": 7
@@ -49735,6 +50856,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -49783,6 +50905,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+						"count": 4,
+						"spell_id": 2912,
+						"suggested_spell_id": 25298,
+						"spell_wowhead_attr": "spell=2912",
+						"higher_ranked_spell_wowhead_attr": "spell=25298",
+						"uuid": "cast_higher_rank_available:spell=2912:Gruul the Dragonkiller - Wipe 1 (16%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
@@ -50090,8 +51222,7 @@
 							"count": 3
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 768,
 							"count": 1
@@ -50125,6 +51256,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -50173,6 +51305,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High King Maulgar",
+						"count": 5,
+						"spell_id": 2912,
+						"suggested_spell_id": 25298,
+						"spell_wowhead_attr": "spell=2912",
+						"higher_ranked_spell_wowhead_attr": "spell=25298",
+						"uuid": "cast_higher_rank_available:spell=2912:High King Maulgar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar",
@@ -50479,8 +51621,7 @@
 							"count": 2
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 2912,
 							"count": 5
@@ -50514,6 +51655,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -50854,8 +51996,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 768,
 							"count": 1
@@ -50885,6 +52026,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -51249,8 +52391,7 @@
 							"count": 2
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 768,
 							"count": 1
@@ -51296,6 +52437,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -51661,8 +52803,7 @@
 							"count": 1
 						}
 					],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 22812,
 							"count": 1
@@ -51692,6 +52833,7 @@
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -51702,6 +52844,36 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller",
+				"count": 7,
+				"spell_id": 2912,
+				"suggested_spell_id": 25298,
+				"spell_wowhead_attr": "spell=2912",
+				"higher_ranked_spell_wowhead_attr": "spell=25298",
+				"uuid": "cast_higher_rank_available:spell=2912:Gruul the Dragonkiller"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Gruul the Dragonkiller - Wipe 1 (16%)",
+				"count": 4,
+				"spell_id": 2912,
+				"suggested_spell_id": 25298,
+				"spell_wowhead_attr": "spell=2912",
+				"higher_ranked_spell_wowhead_attr": "spell=25298",
+				"uuid": "cast_higher_rank_available:spell=2912:Gruul the Dragonkiller - Wipe 1 (16%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High King Maulgar",
+				"count": 5,
+				"spell_id": 2912,
+				"suggested_spell_id": 25298,
+				"spell_wowhead_attr": "spell=2912",
+				"higher_ranked_spell_wowhead_attr": "spell=25298",
+				"uuid": "cast_higher_rank_available:spell=2912:High King Maulgar"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -52190,14 +53362,13 @@
 						{
 							"spell_id": 27074,
 							"count": 19
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 5
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -52570,14 +53741,13 @@
 						{
 							"spell_id": 27074,
 							"count": 22
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -52937,14 +54107,13 @@
 						{
 							"spell_id": 27079,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -53285,14 +54454,13 @@
 						{
 							"spell_id": 27079,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -53646,6 +54814,10 @@
 							"count": 2
 						},
 						{
+							"spell_id": 10225,
+							"count": 1
+						},
+						{
 							"spell_id": 12051,
 							"count": 1
 						},
@@ -53660,12 +54832,6 @@
 						{
 							"spell_id": 27079,
 							"count": 3
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10225,
-							"count": 1
 						},
 						{
 							"spell_id": 27087,
@@ -53680,6 +54846,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -54024,9 +55191,7 @@
 						{
 							"spell_id": 27079,
 							"count": 1
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 33662,
 							"count": 1
@@ -54036,6 +55201,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
@@ -54654,6 +55820,10 @@
 							"count": 7
 						},
 						{
+							"spell_id": 22812,
+							"count": 3
+						},
+						{
 							"spell_id": 26980,
 							"count": 9
 						},
@@ -54662,21 +55832,15 @@
 							"count": 48
 						},
 						{
+							"spell_id": 29166,
+							"count": 1
+						},
+						{
 							"spell_id": 33763,
 							"count": 111
 						},
 						{
 							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 22812,
-							"count": 3
-						},
-						{
-							"spell_id": 29166,
 							"count": 1
 						},
 						{
@@ -54684,6 +55848,7 @@
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -55088,12 +56253,6 @@
 							"count": 61
 						},
 						{
-							"spell_id": 33763,
-							"count": 70
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 26994,
 							"count": 1
 						},
@@ -55102,10 +56261,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 70
+						},
+						{
 							"spell_id": 35165,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -55494,6 +56658,10 @@
 							"count": 8
 						},
 						{
+							"spell_id": 22812,
+							"count": 1
+						},
+						{
 							"spell_id": 26980,
 							"count": 8
 						},
@@ -55502,24 +56670,19 @@
 							"count": 47
 						},
 						{
-							"spell_id": 33763,
-							"count": 43
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 22812,
+							"spell_id": 29166,
 							"count": 1
 						},
 						{
-							"spell_id": 29166,
-							"count": 1
+							"spell_id": 33763,
+							"count": 43
 						},
 						{
 							"spell_id": 35165,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -55915,20 +57078,19 @@
 							"count": 16
 						},
 						{
-							"spell_id": 33763,
-							"count": 15
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 15
 						},
 						{
 							"spell_id": 35165,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -56305,12 +57467,20 @@
 					"items": [],
 					"spells": [
 						{
+							"spell_id": 768,
+							"count": 1
+						},
+						{
 							"spell_id": 17116,
 							"count": 2
 						},
 						{
 							"spell_id": 18562,
 							"count": 16
+						},
+						{
+							"spell_id": 22812,
+							"count": 1
 						},
 						{
 							"spell_id": 26980,
@@ -56321,24 +57491,6 @@
 							"count": 52
 						},
 						{
-							"spell_id": 33763,
-							"count": 111
-						},
-						{
-							"spell_id": 33891,
-							"count": 1
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 768,
-							"count": 1
-						},
-						{
-							"spell_id": 22812,
-							"count": 1
-						},
-						{
 							"spell_id": 29166,
 							"count": 2
 						},
@@ -56347,10 +57499,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 33763,
+							"count": 111
+						},
+						{
+							"spell_id": 33891,
+							"count": 1
+						},
+						{
 							"spell_id": 35165,
 							"count": 3
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -56747,20 +57908,19 @@
 							"count": 28
 						},
 						{
-							"spell_id": 33763,
-							"count": 38
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 29166,
 							"count": 1
+						},
+						{
+							"spell_id": 33763,
+							"count": 38
 						},
 						{
 							"spell_id": 35165,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -57456,6 +58616,10 @@
 							"count": 7
 						},
 						{
+							"spell_id": 10052,
+							"count": 1
+						},
+						{
 							"spell_id": 12051,
 							"count": 1
 						},
@@ -57470,12 +58634,6 @@
 						{
 							"spell_id": 27074,
 							"count": 8
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10052,
-							"count": 1
 						},
 						{
 							"spell_id": 27131,
@@ -57486,6 +58644,7 @@
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -57883,9 +59042,7 @@
 						{
 							"spell_id": 27070,
 							"count": 9
-						}
-					],
-					"unknown": [
+						},
 						{
 							"spell_id": 32355,
 							"count": 1
@@ -57895,6 +59052,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -58281,6 +59439,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 10052,
+							"count": 1
+						},
+						{
 							"spell_id": 12051,
 							"count": 1
 						},
@@ -58295,18 +59457,13 @@
 						{
 							"spell_id": 27074,
 							"count": 4
-						}
-					],
-					"unknown": [
-						{
-							"spell_id": 10052,
-							"count": 1
 						},
 						{
 							"spell_id": 32355,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28499,
@@ -59448,8 +60605,24 @@
 					],
 					"spells": [
 						{
+							"spell_id": 6215,
+							"count": 5
+						},
+						{
+							"spell_id": 11719,
+							"count": 7
+						},
+						{
+							"spell_id": 18647,
+							"count": 8
+						},
+						{
 							"spell_id": 27209,
 							"count": 96
+						},
+						{
+							"spell_id": 27213,
+							"count": 1
 						},
 						{
 							"spell_id": 27215,
@@ -59464,32 +60637,15 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27228,
+							"count": 1
+						},
+						{
 							"spell_id": 30910,
 							"count": 1
 						}
 					],
-					"unknown": [
-						{
-							"spell_id": 6215,
-							"count": 5
-						},
-						{
-							"spell_id": 11719,
-							"count": 7
-						},
-						{
-							"spell_id": 18647,
-							"count": 8
-						},
-						{
-							"spell_id": 27213,
-							"count": 1
-						},
-						{
-							"spell_id": 27228,
-							"count": 1
-						}
-					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -59554,6 +60710,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 21,
+						"spell_id": 29722,
+						"suggested_spell_id": 32231,
+						"spell_wowhead_attr": "spell=29722",
+						"higher_ranked_spell_wowhead_attr": "spell=32231",
+						"uuid": "cast_higher_rank_available:spell=29722:Magtheridon - Wipe 2 (100%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon - Wipe 2 (100%)",
@@ -59841,20 +61007,6 @@
 					"items": [],
 					"spells": [
 						{
-							"spell_id": 27209,
-							"count": 8
-						},
-						{
-							"spell_id": 27215,
-							"count": 8
-						},
-						{
-							"spell_id": 27222,
-							"count": 8
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 6215,
 							"count": 5
 						},
@@ -59871,19 +61023,42 @@
 							"count": 4
 						},
 						{
+							"spell_id": 27209,
+							"count": 8
+						},
+						{
 							"spell_id": 27213,
 							"count": 1
+						},
+						{
+							"spell_id": 27215,
+							"count": 8
+						},
+						{
+							"spell_id": 27222,
+							"count": 8
 						},
 						{
 							"spell_id": 29722,
 							"count": 21
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 21,
+				"spell_id": 29722,
+				"suggested_spell_id": 32231,
+				"spell_wowhead_attr": "spell=29722",
+				"higher_ranked_spell_wowhead_attr": "spell=32231",
+				"uuid": "cast_higher_rank_available:spell=29722:Magtheridon - Wipe 2 (100%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon - Wipe 1 (43%)",
@@ -60282,8 +61457,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1020,
 							"count": 2
@@ -60329,6 +61503,7 @@
 							"count": 28
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -60702,8 +61877,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 1020,
 							"count": 1
@@ -60753,6 +61927,7 @@
 							"count": 23
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -61122,8 +62297,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 10
@@ -61157,6 +62331,7 @@
 							"count": 4
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -61524,8 +62699,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 6
@@ -61551,6 +62725,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -61615,6 +62790,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 1 (43%)",
+						"count": 1,
+						"spell_id": 20307,
+						"suggested_spell_id": 20308,
+						"spell_wowhead_attr": "spell=20307",
+						"higher_ranked_spell_wowhead_attr": "spell=20308",
+						"uuid": "cast_higher_rank_available:spell=20307:Magtheridon - Wipe 1 (43%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon - Wipe 1 (43%)",
@@ -61933,8 +63118,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 20271,
 							"count": 31
@@ -61992,6 +63176,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -62069,6 +63254,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Magtheridon - Wipe 2 (100%)",
+						"count": 1,
+						"spell_id": 20307,
+						"suggested_spell_id": 20308,
+						"spell_wowhead_attr": "spell=20307",
+						"higher_ranked_spell_wowhead_attr": "spell=20308",
+						"uuid": "cast_higher_rank_available:spell=20307:Magtheridon - Wipe 2 (100%)"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon - Wipe 2 (100%)",
@@ -62391,8 +63586,7 @@
 				],
 				"analysis": {
 					"items": [],
-					"spells": [],
-					"unknown": [
+					"spells": [
 						{
 							"spell_id": 10308,
 							"count": 1
@@ -62446,6 +63640,7 @@
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28515,
@@ -62456,6 +63651,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 1 (43%)",
+				"count": 1,
+				"spell_id": 20307,
+				"suggested_spell_id": 20308,
+				"spell_wowhead_attr": "spell=20307",
+				"higher_ranked_spell_wowhead_attr": "spell=20308",
+				"uuid": "cast_higher_rank_available:spell=20307:Magtheridon - Wipe 1 (43%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Magtheridon - Wipe 2 (100%)",
+				"count": 1,
+				"spell_id": 20307,
+				"suggested_spell_id": 20308,
+				"spell_wowhead_attr": "spell=20307",
+				"higher_ranked_spell_wowhead_attr": "spell=20308",
+				"uuid": "cast_higher_rank_available:spell=20307:Magtheridon - Wipe 2 (100%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -63271,16 +64486,6 @@
 							"count": 162
 						},
 						{
-							"spell_id": 34026,
-							"count": 15
-						},
-						{
-							"spell_id": 34120,
-							"count": 122
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 883,
 							"count": 1
 						},
@@ -63317,10 +64522,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 15
+						},
+						{
+							"spell_id": 34120,
+							"count": 122
+						},
+						{
 							"spell_id": 34477,
 							"count": 2
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -63657,16 +64871,6 @@
 							"count": 146
 						},
 						{
-							"spell_id": 34026,
-							"count": 9
-						},
-						{
-							"spell_id": 34120,
-							"count": 132
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 2
 						},
@@ -63691,10 +64895,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 9
+						},
+						{
+							"spell_id": 34120,
+							"count": 132
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 28495,
@@ -64040,16 +65253,6 @@
 							"count": 77
 						},
 						{
-							"spell_id": 34026,
-							"count": 4
-						},
-						{
-							"spell_id": 34120,
-							"count": 67
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -64082,10 +65285,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 4
+						},
+						{
+							"spell_id": 34120,
+							"count": 67
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -64427,16 +65639,6 @@
 							"count": 20
 						},
 						{
-							"spell_id": 34026,
-							"count": 4
-						},
-						{
-							"spell_id": 34120,
-							"count": 14
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3043,
 							"count": 1
 						},
@@ -64455,8 +65657,17 @@
 						{
 							"spell_id": 31047,
 							"count": 1
+						},
+						{
+							"spell_id": 34026,
+							"count": 4
+						},
+						{
+							"spell_id": 34120,
+							"count": 14
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			},
@@ -64792,16 +66003,6 @@
 							"count": 129
 						},
 						{
-							"spell_id": 34026,
-							"count": 9
-						},
-						{
-							"spell_id": 34120,
-							"count": 98
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 982,
 							"count": 1
 						},
@@ -64846,10 +66047,19 @@
 							"count": 2
 						},
 						{
+							"spell_id": 34026,
+							"count": 9
+						},
+						{
+							"spell_id": 34120,
+							"count": 98
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": [
 						{
 							"spell_id": 16666,
@@ -65200,16 +66410,6 @@
 							"count": 69
 						},
 						{
-							"spell_id": 34026,
-							"count": 5
-						},
-						{
-							"spell_id": 34120,
-							"count": 62
-						}
-					],
-					"unknown": [
-						{
 							"spell_id": 3045,
 							"count": 1
 						},
@@ -65234,10 +66434,19 @@
 							"count": 1
 						},
 						{
+							"spell_id": 34026,
+							"count": 5
+						},
+						{
+							"spell_id": 34120,
+							"count": 62
+						},
+						{
 							"spell_id": 34477,
 							"count": 1
 						}
 					],
+					"unknown": [],
 					"consumables": []
 				}
 			}

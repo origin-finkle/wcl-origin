@@ -1039,18 +1039,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -2619,18 +2608,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:The Curator"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -2938,26 +2916,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:The Curator"
-			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Nightbane",
@@ -8663,16 +8621,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -10161,16 +10109,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
-			{
 				"type": "invalid_enchant",
 				"fight": "Maiden of Virtue",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=1891\u0026gems=24033\u0026item=28502",
@@ -11189,7 +11127,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -11213,10 +11156,6 @@
 						},
 						{
 							"spell_id": 26889,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -12066,16 +12005,6 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -13841,16 +13770,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -18175,16 +18094,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 21,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Attumen the Huntsman"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Attumen the Huntsman",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24060%3A24065\u0026item=29031",
@@ -19461,26 +19370,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 32,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Nightbane"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -19707,16 +19596,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 22,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Prince Malchezaar"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar",
@@ -20959,46 +20838,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 21,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 32,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Nightbane"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 22,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Prince Malchezaar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -25707,16 +25546,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -26255,16 +26084,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Shade of Aran",
@@ -26858,7 +26677,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 18562,
@@ -26879,10 +26703,6 @@
 						{
 							"spell_id": 26993,
 							"count": 3
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 33763,
@@ -27251,26 +27071,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -29207,16 +29007,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -29426,16 +29216,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar",
@@ -31010,26 +30790,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Prince Malchezaar"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -33165,16 +32925,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -35032,16 +34782,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",

@@ -4045,16 +4045,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24029%3A24029\u0026item=29089",
@@ -5672,16 +5662,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -14526,26 +14506,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 3,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:Fathom-Lord Karathress"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -14909,16 +14869,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 4,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:Hydross the Unstable"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -15278,26 +15228,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 2,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:Lady Vashj"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -15707,16 +15637,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 2,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:Leotheras the Blind"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -16078,16 +15998,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 11,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -16332,7 +16242,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 3472,
@@ -16357,10 +16272,6 @@
 						{
 							"spell_id": 27137,
 							"count": 30
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 31842,
@@ -16448,16 +16359,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 7,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
@@ -16821,16 +16722,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 3,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:The Lurker Below"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -17125,96 +17016,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 3,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 4,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 2,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 2,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 11,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 7,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 3,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:The Lurker Below"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -18386,6 +18187,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 3
 						}
@@ -18417,10 +18222,6 @@
 						},
 						{
 							"spell_id": 27228,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -18782,6 +18583,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -18813,10 +18618,6 @@
 						},
 						{
 							"spell_id": 27223,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -18909,18 +18710,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -19995,16 +19785,6 @@
 				"spell_wowhead_attr": "spell=11675",
 				"higher_ranked_spell_wowhead_attr": "spell=27217",
 				"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
 			}
 		]
 	},
@@ -20475,16 +20255,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Hydross the Unstable"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=464\u0026gems=24048%3A24048\u0026item=28608",
@@ -20892,16 +20662,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -22139,16 +21899,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=464\u0026gems=24048%3A24048\u0026item=28608",
@@ -22865,36 +22615,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -24872,6 +24592,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35337,
 							"count": 3
 						}
@@ -24904,10 +24628,6 @@
 						{
 							"spell_id": 27013,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29166,
@@ -24984,16 +24704,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
 					{
 						"type": "missing_food",
 						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
@@ -25699,16 +25409,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Hydross the Unstable",
@@ -28655,7 +28355,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -28683,10 +28388,6 @@
 						},
 						{
 							"spell_id": 27046,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -29440,7 +29141,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -29469,10 +29175,6 @@
 						{
 							"spell_id": 27046,
 							"count": 4
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -30229,6 +29931,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 27235,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -30270,10 +29976,6 @@
 						},
 						{
 							"spell_id": 27046,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -30639,7 +30341,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -30671,10 +30378,6 @@
 						},
 						{
 							"spell_id": 27046,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -32212,7 +31915,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -32249,10 +31957,6 @@
 						{
 							"spell_id": 27011,
 							"count": 4
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29166,
@@ -35319,18 +35023,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -36386,18 +36079,7 @@
 				}
 			}
 		},
-		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-			}
-		]
+		"remarks": []
 	},
 	"28": {
 		"gameID": 17266741,
@@ -36870,16 +36552,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Hydross the Unstable"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
@@ -37552,7 +37224,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -37589,10 +37266,6 @@
 						{
 							"spell_id": 26867,
 							"count": 22
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 31224,
@@ -37962,7 +37635,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -37995,10 +37673,6 @@
 						{
 							"spell_id": 26867,
 							"count": 8
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -38078,16 +37752,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -38463,16 +38127,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
@@ -39189,36 +38843,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
-			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2983\u0026gems=24061%3A30549\u0026item=27797",
@@ -39355,26 +38979,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 28,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Fathom-Lord Karathress"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 16,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Fathom-Lord Karathress"
-					},
 					{
 						"type": "invalid_gem",
 						"fight": "Fathom-Lord Karathress",
@@ -39735,26 +39339,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 22,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Hydross the Unstable"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 8,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Hydross the Unstable"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "Hydross the Unstable",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -40112,36 +39696,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 59,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 26,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
 					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj",
@@ -40545,26 +40099,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 33,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Leotheras the Blind"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 14,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Leotheras the Blind"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "Leotheras the Blind",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -40938,26 +40472,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 43,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Morogrim Tidewalker"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 16,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -41309,26 +40823,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 17,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 6,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -41677,26 +41171,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 46,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:The Lurker Below"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 20,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:The Lurker Below"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "The Lurker Below",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -42004,156 +41478,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 28,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 22,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 59,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 33,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 43,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 17,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 46,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 16,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 8,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 26,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 14,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 16,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 6,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 20,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
 				"type": "invalid_gem",
 				"fight": "Fathom-Lord Karathress",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -42343,16 +41667,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 7,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Fathom-Lord Karathress"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
@@ -43165,26 +42479,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 34,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 3,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -44034,16 +43328,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 23,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2992\u0026gems=24065%3A24065\u0026item=29031",
@@ -44330,7 +43614,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2894,
@@ -44370,10 +43659,6 @@
 						},
 						{
 							"spell_id": 25570,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -44467,16 +43752,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 18,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
@@ -44863,26 +44138,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 4,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:The Lurker Below"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 29,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:The Lurker Below"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2992\u0026gems=24065%3A24065\u0026item=29031",
@@ -45252,76 +44507,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 34,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 4,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 7,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 3,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 23,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 18,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 29,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:The Lurker Below"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -45743,6 +44928,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -45767,10 +44956,6 @@
 						{
 							"spell_id": 25387,
 							"count": 31
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 32996,
@@ -46246,16 +45431,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2981\u0026gems=24030%3A24030\u0026item=21869",
@@ -46549,6 +45724,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						},
@@ -46581,10 +45760,6 @@
 						{
 							"spell_id": 25387,
 							"count": 78
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 32996,
@@ -47073,16 +46248,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -47780,6 +46945,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 1
 						}
@@ -47800,10 +46969,6 @@
 						{
 							"spell_id": 25387,
 							"count": 19
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 32996,
@@ -48228,26 +47393,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -51801,26 +50946,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24065%3A24065\u0026item=30168",
@@ -52236,16 +51361,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 1,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Leotheras the Blind"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24065%3A24065\u0026item=30168",
@@ -52637,16 +51752,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 38,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24065%3A24065\u0026item=30168",
@@ -53035,16 +52140,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 24,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
@@ -53741,56 +52836,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 1,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 38,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 24,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -54869,7 +53914,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 5019,
@@ -54933,10 +53983,6 @@
 						},
 						{
 							"spell_id": 25437,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -55985,7 +55031,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 25213,
@@ -56002,10 +55053,6 @@
 						{
 							"spell_id": 25235,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 32546,
@@ -56332,7 +55379,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 14751,
@@ -56357,10 +55409,6 @@
 						{
 							"spell_id": 25389,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 32546,
@@ -57318,18 +56366,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						41,
@@ -58577,18 +57614,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						41,
@@ -59339,28 +58365,7 @@
 				}
 			}
 		},
-		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-			}
-		]
+		"remarks": []
 	},
 	"5": {
 		"gameID": 38836441,
@@ -60517,6 +59522,14 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -60565,14 +59578,6 @@
 						{
 							"spell_id": 25570,
 							"count": 9
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30706,
@@ -61371,6 +60376,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -61419,10 +60428,6 @@
 						{
 							"spell_id": 25570,
 							"count": 2
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30706,
@@ -61511,16 +60516,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-					},
 					{
 						"type": "no_enchant",
 						"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
@@ -61939,16 +60934,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 2,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:The Lurker Below"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "The Lurker Below",
 						"item_wowhead_attr": "domain=fr.tbc\u0026item=29369",
@@ -62302,26 +61287,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 2,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker - Wipe 1 (56%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker - Wipe 1 (56%)"
-			},
-			{
 				"type": "missing_food",
 				"fight": "Morogrim Tidewalker",
 				"uuid": "missing_food:Morogrim Tidewalker"
@@ -62672,6 +61637,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35337,
 							"count": 1
 						}
@@ -62700,10 +61669,6 @@
 						{
 							"spell_id": 27228,
 							"count": 6
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30911,
@@ -63825,6 +62790,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35337,
 							"count": 2
 						}
@@ -63853,10 +62822,6 @@
 						{
 							"spell_id": 27228,
 							"count": 4
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 28540,
@@ -63940,16 +62905,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -64600,6 +63555,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35337,
 							"count": 2
 						}
@@ -64627,10 +63586,6 @@
 						},
 						{
 							"spell_id": 27228,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -64985,6 +63940,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35337,
 							"count": 3
 						}
@@ -65027,10 +63986,6 @@
 							"count": 4
 						},
 						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
 							"spell_id": 30546,
 							"count": 1
 						},
@@ -65049,16 +64004,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -65987,16 +64932,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2981\u0026gems=24030%3A24030\u0026item=28967",
@@ -66399,16 +65334,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2981\u0026gems=24030%3A24030\u0026item=28967",
@@ -66803,16 +65728,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -67896,36 +66811,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -69445,7 +68330,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -69478,10 +68368,6 @@
 						{
 							"spell_id": 27046,
 							"count": 11
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -70216,7 +69102,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -70249,10 +69140,6 @@
 						{
 							"spell_id": 27046,
 							"count": 3
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30486,

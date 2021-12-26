@@ -6039,16 +6039,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 4,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Moroes"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Moroes",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=23094%3A23109\u0026item=27802",
@@ -6384,16 +6374,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 5,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Netherspite"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=23094%3A23109\u0026item=27802",
@@ -6624,7 +6604,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 3738,
@@ -6644,10 +6629,6 @@
 						},
 						{
 							"spell_id": 25570,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -6720,16 +6701,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite - Wipe 1 (25%)",
-						"count": 20,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Netherspite - Wipe 1 (25%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 1 (25%)",
@@ -7021,26 +6992,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 5,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Opera Hall"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 3,
-						"spell_id": 331,
-						"suggested_spell_id": 25396,
-						"spell_wowhead_attr": "spell=331",
-						"higher_ranked_spell_wowhead_attr": "spell=25396",
-						"uuid": "cast_higher_rank_available:spell=331:Opera Hall"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall",
 						"uuid": "missing_battle_elixir:Opera Hall"
@@ -7102,26 +7053,6 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 11,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Prince Malchezaar"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 6,
-						"spell_id": 331,
-						"suggested_spell_id": 25396,
-						"spell_wowhead_attr": "spell=331",
-						"higher_ranked_spell_wowhead_attr": "spell=25396",
-						"uuid": "cast_higher_rank_available:spell=331:Prince Malchezaar"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -7269,16 +7200,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar - Wipe 1 (6%)",
-						"count": 29,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Prince Malchezaar - Wipe 1 (6%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar - Wipe 1 (6%)",
@@ -7612,16 +7533,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 2,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Shade of Aran"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Shade of Aran",
@@ -7966,16 +7877,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 11,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Terestian Illhoof"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Terestian Illhoof",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=23094%3A23109\u0026item=27802",
@@ -8309,16 +8210,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 4,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:The Curator"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "The Curator",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=23094%3A23109\u0026item=27802",
@@ -8590,116 +8481,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 4,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 5,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite - Wipe 1 (25%)",
-				"count": 20,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Netherspite - Wipe 1 (25%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 5,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 11,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Prince Malchezaar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar - Wipe 1 (6%)",
-				"count": 29,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Prince Malchezaar - Wipe 1 (6%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 2,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Shade of Aran"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 11,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 4,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:The Curator"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 3,
-				"spell_id": 331,
-				"suggested_spell_id": 25396,
-				"spell_wowhead_attr": "spell=331",
-				"higher_ranked_spell_wowhead_attr": "spell=25396",
-				"uuid": "cast_higher_rank_available:spell=331:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 6,
-				"spell_id": 331,
-				"suggested_spell_id": 25396,
-				"spell_wowhead_attr": "spell=331",
-				"higher_ranked_spell_wowhead_attr": "spell=25396",
-				"uuid": "cast_higher_rank_available:spell=331:Prince Malchezaar"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -11617,7 +11398,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -11633,10 +11419,6 @@
 						},
 						{
 							"spell_id": 19574,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -12055,7 +11837,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -12083,10 +11870,6 @@
 						},
 						{
 							"spell_id": 27046,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -13126,7 +12909,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -13159,10 +12947,6 @@
 						{
 							"spell_id": 27046,
 							"count": 2
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -15360,76 +15144,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 1,
-						"spell_id": 10915,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=10915",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=10915:Attumen the Huntsman"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 3,
-						"spell_id": 10916,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=10916",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=10916:Attumen the Huntsman"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 5,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Attumen the Huntsman"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 1,
-						"spell_id": 10928,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10928",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10928:Attumen the Huntsman"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 24,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Attumen the Huntsman"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 1,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Attumen the Huntsman"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 6,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Attumen the Huntsman"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Attumen the Huntsman",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2566\u0026item=21604",
@@ -15812,76 +15526,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 3,
-						"spell_id": 10916,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=10916",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=10916:Maiden of Virtue"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 1,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Maiden of Virtue"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 1,
-						"spell_id": 10928,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10928",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10928:Maiden of Virtue"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 3,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Maiden of Virtue"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 3,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Maiden of Virtue"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 4,
-						"spell_id": 25233,
-						"suggested_spell_id": 25235,
-						"spell_wowhead_attr": "spell=25233",
-						"higher_ranked_spell_wowhead_attr": "spell=25235",
-						"uuid": "cast_higher_rank_available:spell=25233:Maiden of Virtue"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 1,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Maiden of Virtue"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue",
@@ -16284,26 +15928,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue - Wipe 1 (56.99%)",
-						"count": 1,
-						"spell_id": 10928,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10928",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10928:Maiden of Virtue - Wipe 1 (56.99%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue - Wipe 1 (56.99%)",
-						"count": 5,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Maiden of Virtue - Wipe 1 (56.99%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue - Wipe 1 (56.99%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2566\u0026item=21604",
@@ -16663,26 +16287,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue - Wipe 2 (89%)",
-						"count": 1,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Maiden of Virtue - Wipe 2 (89%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue - Wipe 2 (89%)",
-						"count": 2,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Maiden of Virtue - Wipe 2 (89%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue - Wipe 2 (89%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2566\u0026item=21604",
@@ -17023,86 +16627,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 2,
-						"spell_id": 10916,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=10916",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=10916:Moroes"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 7,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Moroes"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 1,
-						"spell_id": 10928,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10928",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10928:Moroes"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 2,
-						"spell_id": 10929,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10929",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10929:Moroes"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 4,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Moroes"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 8,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Moroes"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 1,
-						"spell_id": 25233,
-						"suggested_spell_id": 25235,
-						"spell_wowhead_attr": "spell=25233",
-						"higher_ranked_spell_wowhead_attr": "spell=25235",
-						"uuid": "cast_higher_rank_available:spell=25233:Moroes"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Moroes",
-						"count": 5,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Moroes"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Moroes",
@@ -17508,56 +17032,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 1,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Netherspite"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 22,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Netherspite"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 7,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Netherspite"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 1,
-						"spell_id": 25233,
-						"suggested_spell_id": 25235,
-						"spell_wowhead_attr": "spell=25233",
-						"higher_ranked_spell_wowhead_attr": "spell=25235",
-						"uuid": "cast_higher_rank_available:spell=25233:Netherspite"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 2,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Netherspite"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
@@ -17972,66 +17446,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite - Wipe 1 (25%)",
-						"count": 1,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Netherspite - Wipe 1 (25%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite - Wipe 1 (25%)",
-						"count": 1,
-						"spell_id": 10928,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10928",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10928:Netherspite - Wipe 1 (25%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite - Wipe 1 (25%)",
-						"count": 18,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Netherspite - Wipe 1 (25%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite - Wipe 1 (25%)",
-						"count": 10,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Netherspite - Wipe 1 (25%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite - Wipe 1 (25%)",
-						"count": 1,
-						"spell_id": 6077,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6077",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6077:Netherspite - Wipe 1 (25%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite - Wipe 1 (25%)",
-						"count": 1,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Netherspite - Wipe 1 (25%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite - Wipe 1 (25%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2566\u0026item=21604",
@@ -18401,56 +17815,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 3,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Opera Hall"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 1,
-						"spell_id": 10928,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10928",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10928:Opera Hall"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 15,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Opera Hall"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 4,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Opera Hall"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 1,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Opera Hall"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall",
 						"uuid": "missing_battle_elixir:Opera Hall"
@@ -18527,46 +17891,6 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 1,
-						"spell_id": 10915,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=10915",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=10915:Prince Malchezaar"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 4,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Prince Malchezaar"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 36,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Prince Malchezaar"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 14,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Prince Malchezaar"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -18749,66 +18073,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar - Wipe 1 (6%)",
-						"count": 4,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Prince Malchezaar - Wipe 1 (6%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar - Wipe 1 (6%)",
-						"count": 2,
-						"spell_id": 10928,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10928",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10928:Prince Malchezaar - Wipe 1 (6%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar - Wipe 1 (6%)",
-						"count": 33,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Prince Malchezaar - Wipe 1 (6%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar - Wipe 1 (6%)",
-						"count": 20,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Prince Malchezaar - Wipe 1 (6%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar - Wipe 1 (6%)",
-						"count": 1,
-						"spell_id": 6077,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6077",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6077:Prince Malchezaar - Wipe 1 (6%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar - Wipe 1 (6%)",
-						"count": 1,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Prince Malchezaar - Wipe 1 (6%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar - Wipe 1 (6%)",
@@ -19227,66 +18491,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 1,
-						"spell_id": 10915,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=10915",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=10915:Shade of Aran"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 3,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Shade of Aran"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 7,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Shade of Aran"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 8,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Shade of Aran"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 1,
-						"spell_id": 25233,
-						"suggested_spell_id": 25235,
-						"spell_wowhead_attr": "spell=25233",
-						"higher_ranked_spell_wowhead_attr": "spell=25235",
-						"uuid": "cast_higher_rank_available:spell=25233:Shade of Aran"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 2,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Shade of Aran"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Shade of Aran",
@@ -19726,76 +18930,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 2,
-						"spell_id": 10916,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=10916",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=10916:Terestian Illhoof"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 6,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:Terestian Illhoof"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 1,
-						"spell_id": 10928,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10928",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10928:Terestian Illhoof"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 19,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Terestian Illhoof"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 10,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:Terestian Illhoof"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 1,
-						"spell_id": 25233,
-						"suggested_spell_id": 25235,
-						"spell_wowhead_attr": "spell=25233",
-						"higher_ranked_spell_wowhead_attr": "spell=25235",
-						"uuid": "cast_higher_rank_available:spell=25233:Terestian Illhoof"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 5,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:Terestian Illhoof"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Terestian Illhoof",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2566\u0026item=21604",
@@ -20193,86 +19327,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 2,
-						"spell_id": 10915,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=10915",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=10915:The Curator"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 2,
-						"spell_id": 10927,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=10927",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=10927:The Curator"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 22,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:The Curator"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 1,
-						"spell_id": 10965,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10965",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10965:The Curator"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 1,
-						"spell_id": 25233,
-						"suggested_spell_id": 25235,
-						"spell_wowhead_attr": "spell=25233",
-						"higher_ranked_spell_wowhead_attr": "spell=25235",
-						"uuid": "cast_higher_rank_available:spell=25233:The Curator"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 1,
-						"spell_id": 6077,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6077",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6077:The Curator"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 8,
-						"spell_id": 6078,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=6078",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=6078:The Curator"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 3,
-						"spell_id": 9474,
-						"suggested_spell_id": 10917,
-						"spell_wowhead_attr": "spell=9474",
-						"higher_ranked_spell_wowhead_attr": "spell=10917",
-						"uuid": "cast_higher_rank_available:spell=9474:The Curator"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "The Curator",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2566\u0026item=21604",
@@ -20633,736 +19687,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 1,
-				"spell_id": 10915,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=10915",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=10915:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 1,
-				"spell_id": 10915,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=10915",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=10915:Prince Malchezaar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 1,
-				"spell_id": 10915,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=10915",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=10915:Shade of Aran"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 2,
-				"spell_id": 10915,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=10915",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=10915:The Curator"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 3,
-				"spell_id": 10916,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=10916",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=10916:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 3,
-				"spell_id": 10916,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=10916",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=10916:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 2,
-				"spell_id": 10916,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=10916",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=10916:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 2,
-				"spell_id": 10916,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=10916",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=10916:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 5,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 1,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue - Wipe 2 (89%)",
-				"count": 1,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Maiden of Virtue - Wipe 2 (89%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 7,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 1,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite - Wipe 1 (25%)",
-				"count": 1,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Netherspite - Wipe 1 (25%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 3,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 4,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Prince Malchezaar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar - Wipe 1 (6%)",
-				"count": 4,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Prince Malchezaar - Wipe 1 (6%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 3,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Shade of Aran"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 6,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 2,
-				"spell_id": 10927,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10927",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10927:The Curator"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 1,
-				"spell_id": 10928,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10928",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10928:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 1,
-				"spell_id": 10928,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10928",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10928:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue - Wipe 1 (56.99%)",
-				"count": 1,
-				"spell_id": 10928,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10928",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10928:Maiden of Virtue - Wipe 1 (56.99%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 1,
-				"spell_id": 10928,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10928",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10928:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite - Wipe 1 (25%)",
-				"count": 1,
-				"spell_id": 10928,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10928",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10928:Netherspite - Wipe 1 (25%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 1,
-				"spell_id": 10928,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10928",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10928:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar - Wipe 1 (6%)",
-				"count": 2,
-				"spell_id": 10928,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10928",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10928:Prince Malchezaar - Wipe 1 (6%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 1,
-				"spell_id": 10928,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10928",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10928:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 2,
-				"spell_id": 10929,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=10929",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=10929:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 24,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 3,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue - Wipe 1 (56.99%)",
-				"count": 5,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Maiden of Virtue - Wipe 1 (56.99%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue - Wipe 2 (89%)",
-				"count": 2,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Maiden of Virtue - Wipe 2 (89%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 4,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 22,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite - Wipe 1 (25%)",
-				"count": 18,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Netherspite - Wipe 1 (25%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 15,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 36,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Prince Malchezaar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar - Wipe 1 (6%)",
-				"count": 33,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Prince Malchezaar - Wipe 1 (6%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 7,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Shade of Aran"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 19,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 22,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:The Curator"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 1,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 3,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 8,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 7,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite - Wipe 1 (25%)",
-				"count": 10,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Netherspite - Wipe 1 (25%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 4,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 14,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Prince Malchezaar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar - Wipe 1 (6%)",
-				"count": 20,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Prince Malchezaar - Wipe 1 (6%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 8,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Shade of Aran"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 10,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 1,
-				"spell_id": 10965,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10965",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10965:The Curator"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 4,
-				"spell_id": 25233,
-				"suggested_spell_id": 25235,
-				"spell_wowhead_attr": "spell=25233",
-				"higher_ranked_spell_wowhead_attr": "spell=25235",
-				"uuid": "cast_higher_rank_available:spell=25233:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 1,
-				"spell_id": 25233,
-				"suggested_spell_id": 25235,
-				"spell_wowhead_attr": "spell=25233",
-				"higher_ranked_spell_wowhead_attr": "spell=25235",
-				"uuid": "cast_higher_rank_available:spell=25233:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 1,
-				"spell_id": 25233,
-				"suggested_spell_id": 25235,
-				"spell_wowhead_attr": "spell=25233",
-				"higher_ranked_spell_wowhead_attr": "spell=25235",
-				"uuid": "cast_higher_rank_available:spell=25233:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 1,
-				"spell_id": 25233,
-				"suggested_spell_id": 25235,
-				"spell_wowhead_attr": "spell=25233",
-				"higher_ranked_spell_wowhead_attr": "spell=25235",
-				"uuid": "cast_higher_rank_available:spell=25233:Shade of Aran"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 1,
-				"spell_id": 25233,
-				"suggested_spell_id": 25235,
-				"spell_wowhead_attr": "spell=25233",
-				"higher_ranked_spell_wowhead_attr": "spell=25235",
-				"uuid": "cast_higher_rank_available:spell=25233:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 1,
-				"spell_id": 25233,
-				"suggested_spell_id": 25235,
-				"spell_wowhead_attr": "spell=25233",
-				"higher_ranked_spell_wowhead_attr": "spell=25235",
-				"uuid": "cast_higher_rank_available:spell=25233:The Curator"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite - Wipe 1 (25%)",
-				"count": 1,
-				"spell_id": 6077,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6077",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6077:Netherspite - Wipe 1 (25%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar - Wipe 1 (6%)",
-				"count": 1,
-				"spell_id": 6077,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6077",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6077:Prince Malchezaar - Wipe 1 (6%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 1,
-				"spell_id": 6077,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6077",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6077:The Curator"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 6,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 1,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Moroes",
-				"count": 5,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Moroes"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 2,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite - Wipe 1 (25%)",
-				"count": 1,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Netherspite - Wipe 1 (25%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 1,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar - Wipe 1 (6%)",
-				"count": 1,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Prince Malchezaar - Wipe 1 (6%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 2,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Shade of Aran"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 5,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 8,
-				"spell_id": 6078,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=6078",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=6078:The Curator"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 3,
-				"spell_id": 9474,
-				"suggested_spell_id": 10917,
-				"spell_wowhead_attr": "spell=9474",
-				"higher_ranked_spell_wowhead_attr": "spell=10917",
-				"uuid": "cast_higher_rank_available:spell=9474:The Curator"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -33569,7 +31893,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -33590,10 +31919,6 @@
 						{
 							"spell_id": 26867,
 							"count": 6
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 31224,
@@ -35295,7 +33620,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -35323,10 +33653,6 @@
 						},
 						{
 							"spell_id": 26889,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -40884,6 +39210,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -40922,10 +39252,6 @@
 						{
 							"spell_id": 25203,
 							"count": 2
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 28866,
@@ -41280,6 +39606,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -41314,10 +39644,6 @@
 						{
 							"spell_id": 25203,
 							"count": 2
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 28866,
@@ -42207,6 +40533,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 27235,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -42237,10 +40567,6 @@
 						{
 							"spell_id": 25275,
 							"count": 4
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 28866,
@@ -45621,7 +43947,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 25391,
@@ -45634,10 +43965,6 @@
 						{
 							"spell_id": 25423,
 							"count": 5
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 32182,
@@ -50154,6 +48481,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 1
 						}
@@ -50181,10 +48512,6 @@
 						},
 						{
 							"spell_id": 27228,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						}
 					],

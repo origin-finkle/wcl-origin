@@ -2745,16 +2745,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 2,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Gruul the Dragonkiller"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24065%3A24065\u0026item=30168",
@@ -3138,16 +3128,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 2,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Gruul the Dragonkiller"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -7140,7 +7120,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -7172,10 +7157,6 @@
 						},
 						{
 							"spell_id": 25275,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -9599,26 +9580,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 20,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 8,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2997\u0026gems=24058%3A30584\u0026item=29075",
@@ -9982,26 +9943,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 20,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 8,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -10794,7 +10735,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 3738,
@@ -10815,10 +10761,6 @@
 						{
 							"spell_id": 25570,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30706,

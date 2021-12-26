@@ -75,16 +75,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 44,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Fathom-Lord Karathress"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
@@ -469,16 +459,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 44,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Hydross the Unstable"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
@@ -884,36 +864,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 4,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 94,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
 					{
 						"type": "cast_higher_rank_available",
 						"fight": "Lady Vashj",
@@ -1368,36 +1318,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 73,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 2,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
@@ -1838,26 +1758,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 3,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 2 (1.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 96,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 2 (1.0%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
@@ -2132,7 +2032,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 526,
@@ -2193,10 +2098,6 @@
 						{
 							"spell_id": 25570,
 							"count": 7
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 27869,
@@ -2308,36 +2209,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 3 (8.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 76,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 3 (8.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 3 (8.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (8.0%)",
@@ -2613,7 +2484,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 526,
@@ -2670,10 +2546,6 @@
 						{
 							"spell_id": 25570,
 							"count": 5
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 27869,
@@ -2793,16 +2665,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 58,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Leotheras the Blind"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
@@ -3201,26 +3063,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 22,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Morogrim Tidewalker"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 7,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
@@ -3486,7 +3328,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 8005,
@@ -3531,10 +3378,6 @@
 						{
 							"spell_id": 25567,
 							"count": 4
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 28880,
@@ -3622,26 +3465,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 2,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:The Lurker Below"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 76,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:The Lurker Below"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
@@ -3986,186 +3809,6 @@
 			{
 				"type": "cast_higher_rank_available",
 				"fight": "Lady Vashj",
-				"count": 4,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 3,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 2,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 44,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 44,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 94,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 73,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 96,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 76,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 58,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 22,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 76,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 2,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 7,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
 				"count": 1,
 				"spell_id": 8056,
 				"suggested_spell_id": 10473,
@@ -4339,26 +3982,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 24,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Fathom-Lord Karathress"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 11,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Fathom-Lord Karathress"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
@@ -4763,26 +4386,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 19,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Hydross the Unstable"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 12,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Hydross the Unstable"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2996\u0026gems=24027\u0026item=30055",
@@ -5178,26 +4781,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 53,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 21,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2996\u0026gems=24027\u0026item=30055",
@@ -5488,7 +5071,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 10308,
@@ -5517,10 +5105,6 @@
 						{
 							"spell_id": 27173,
 							"count": 3
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 31884,
@@ -5609,36 +5193,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 47,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 16,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
@@ -6034,26 +5588,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 42,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 2 (1.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 20,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 2 (1.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
@@ -6451,36 +5985,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 48,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 3 (8.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 23,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 3 (8.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (8.0%)",
@@ -6926,26 +6430,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 31,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Leotheras the Blind"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 10,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Leotheras the Blind"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2996\u0026gems=24027\u0026item=30055",
@@ -7333,26 +6817,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 37,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Morogrim Tidewalker"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 23,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Morogrim Tidewalker"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -7760,26 +7224,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 39,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:The Lurker Below"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 15,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:The Lurker Below"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2996\u0026gems=24027\u0026item=30055",
@@ -8099,206 +7543,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 24,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 19,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 53,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 47,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 42,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 48,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 31,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 37,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 39,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 11,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 12,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 21,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 16,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 20,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 23,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 10,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 23,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 15,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -9989,7 +9233,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 71,
@@ -10054,10 +9303,6 @@
 						{
 							"spell_id": 25275,
 							"count": 8
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -10404,7 +9649,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 469,
@@ -10445,10 +9695,6 @@
 						{
 							"spell_id": 25275,
 							"count": 6
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -10819,7 +10065,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 71,
@@ -10896,10 +10147,6 @@
 						{
 							"spell_id": 25275,
 							"count": 8
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -11678,7 +10925,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 469,
@@ -11714,10 +10966,6 @@
 						},
 						{
 							"spell_id": 25275,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -12681,16 +11929,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2983\u0026gems=24055%3A24061\u0026item=29047",
@@ -13105,16 +12343,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2983\u0026gems=24055%3A24061\u0026item=29047",
@@ -13494,16 +12722,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
@@ -13887,16 +13105,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (8.0%)",
@@ -14716,16 +13924,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2983\u0026gems=24055%3A24061\u0026item=29047",
@@ -15475,56 +14673,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Hydross the Unstable",
@@ -20503,16 +19651,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026item=30037",
@@ -20771,6 +19909,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						}
@@ -20803,10 +19945,6 @@
 						{
 							"spell_id": 27131,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 31367,
@@ -20891,16 +20029,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-					},
 					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj - Wipe 3 (8.0%)",
@@ -21867,6 +20995,10 @@
 						{
 							"spell_id": 27103,
 							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -21893,10 +21025,6 @@
 						{
 							"spell_id": 27082,
 							"count": 25
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 33043,
@@ -22304,26 +21432,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
 				"type": "no_enchant",
 				"item_wowhead_attr": "domain=fr.tbc\u0026item=30037",
 				"slot": "Pieds",
@@ -22692,7 +21800,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -22720,10 +21833,6 @@
 						},
 						{
 							"spell_id": 26867,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -23666,16 +22775,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2996\u0026gems=24027%3A24058\u0026item=29043",
@@ -24391,7 +23490,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 526,
@@ -24448,10 +23552,6 @@
 						{
 							"spell_id": 25587,
 							"count": 34
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30823,
@@ -24544,16 +23644,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
@@ -25291,7 +24381,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -25348,10 +24443,6 @@
 						{
 							"spell_id": 25587,
 							"count": 34
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30823,
@@ -26687,26 +25778,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2996\u0026gems=24027%3A24058\u0026item=29043",
@@ -28011,16 +27082,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 25315,
-						"suggested_spell_id": 25221,
-						"spell_wowhead_attr": "spell=25315",
-						"higher_ranked_spell_wowhead_attr": "spell=25221",
-						"uuid": "cast_higher_rank_available:spell=25315:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2605\u0026gems=24030%3A24030\u0026item=21869",
@@ -28319,6 +27380,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 4
 						}
@@ -28363,10 +27428,6 @@
 						{
 							"spell_id": 25387,
 							"count": 64
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 31367,
@@ -30403,16 +29464,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 25315,
-				"suggested_spell_id": 25221,
-				"spell_wowhead_attr": "spell=25315",
-				"higher_ranked_spell_wowhead_attr": "spell=25221",
-				"uuid": "cast_higher_rank_available:spell=25315:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2605\u0026gems=24030%3A24030\u0026item=21869",
@@ -30822,6 +29873,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -30850,10 +29905,6 @@
 						{
 							"spell_id": 27228,
 							"count": 4
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30546,
@@ -31696,16 +30747,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2661\u0026gems=31867%3A31867%3A23096\u0026item=28964",
@@ -32091,16 +31132,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					},
 					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
@@ -32796,6 +31827,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 4
 						}
@@ -32832,10 +31867,6 @@
 						{
 							"spell_id": 27228,
 							"count": 10
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30546,
@@ -33178,6 +32209,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -33206,10 +32241,6 @@
 						{
 							"spell_id": 27228,
 							"count": 4
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30546,
@@ -33552,6 +32583,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -33575,10 +32610,6 @@
 						},
 						{
 							"spell_id": 27228,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -33921,6 +32952,14 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 3
 						}
@@ -33959,14 +32998,6 @@
 							"count": 3
 						},
 						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
-						},
-						{
 							"spell_id": 30546,
 							"count": 6
 						},
@@ -33985,26 +33016,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
 			{
 				"type": "invalid_gem",
 				"fight": "Fathom-Lord Karathress",
@@ -34155,16 +33166,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
-					},
 					{
 						"type": "no_enchant",
 						"fight": "Fathom-Lord Karathress",
@@ -34938,16 +33939,6 @@
 						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj"
 					},
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=24030%3A24030\u0026item=21870",
@@ -35393,16 +34384,6 @@
 						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 1 (18.0%)"
 					},
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=24030%3A24030\u0026item=21870",
@@ -35820,16 +34801,6 @@
 						"spell_wowhead_attr": "spell=11675",
 						"higher_ranked_spell_wowhead_attr": "spell=27217",
 						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 2 (1.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
 					},
 					{
 						"type": "no_enchant",
@@ -36266,16 +35237,6 @@
 						"spell_wowhead_attr": "spell=11675",
 						"higher_ranked_spell_wowhead_attr": "spell=27217",
 						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 3 (8.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
 					},
 					{
 						"type": "no_enchant",
@@ -37738,56 +36699,6 @@
 				"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj - Wipe 3 (8.0%)"
 			},
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
 				"type": "invalid_enchant",
 				"fight": "Leotheras the Blind",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2985\u0026item=30762",
@@ -38140,6 +37051,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -38160,10 +37075,6 @@
 						{
 							"spell_id": 27222,
 							"count": 8
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30546,
@@ -38625,16 +37536,6 @@
 						"spell_wowhead_attr": "spell=11675",
 						"higher_ranked_spell_wowhead_attr": "spell=27217",
 						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
 					}
 				],
 				"talents": {
@@ -39011,18 +37912,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -39282,6 +38172,14 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						},
@@ -39309,14 +38207,6 @@
 						},
 						{
 							"spell_id": 27223,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -39390,16 +38280,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					},
 					{
 						"type": "missing_food",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
@@ -39819,18 +38699,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -40092,6 +38961,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						},
@@ -40123,10 +38996,6 @@
 						},
 						{
 							"spell_id": 27223,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -40223,18 +39092,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -40492,6 +39350,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						},
@@ -40519,10 +39381,6 @@
 						},
 						{
 							"spell_id": 27228,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -40866,6 +39724,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -40885,10 +39747,6 @@
 						},
 						{
 							"spell_id": 27223,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -41319,56 +40177,6 @@
 				"uuid": "cast_higher_rank_available:spell=11675:The Lurker Below"
 			},
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-			},
-			{
 				"type": "missing_food",
 				"fight": "Lady Vashj - Wipe 2 (1.0%)",
 				"uuid": "missing_food:Lady Vashj - Wipe 2 (1.0%)"
@@ -41451,16 +40259,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 1,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Fathom-Lord Karathress"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
@@ -42620,16 +41418,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1888\u0026item=28765",
@@ -43053,16 +41841,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 3,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (1.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
@@ -44288,16 +43066,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 4,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1888\u0026item=28765",
@@ -44690,16 +43458,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 6,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:The Lurker Below"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1888\u0026item=28765",
@@ -45024,56 +43782,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 1,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 3,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 4,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 6,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:The Lurker Below"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -45518,7 +44226,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 3738,
@@ -45550,10 +44263,6 @@
 						},
 						{
 							"spell_id": 25570,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -45630,26 +44339,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 18,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Hydross the Unstable"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 5,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Hydross the Unstable"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
@@ -46031,26 +44720,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 16,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -46457,26 +45126,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 7,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 9,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24029%3A24029\u0026item=30168",
@@ -46848,36 +45497,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 5,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 2 (1.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 7,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 2 (1.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
@@ -47287,26 +45906,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 23,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 3 (8.0%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 3 (8.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (8.0%)",
@@ -48082,16 +46681,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 14,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24029%3A24029\u0026item=30168",
@@ -48476,26 +47065,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 39,
-						"spell_id": 10623,
-						"suggested_spell_id": 25423,
-						"spell_wowhead_attr": "spell=10623",
-						"higher_ranked_spell_wowhead_attr": "spell=25423",
-						"uuid": "cast_higher_rank_available:spell=10623:The Lurker Below"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 5,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:The Lurker Below"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24029%3A24029\u0026item=30168",
@@ -48818,146 +47387,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 18,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 16,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 7,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 5,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 23,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 39,
-				"spell_id": 10623,
-				"suggested_spell_id": 25423,
-				"spell_wowhead_attr": "spell=10623",
-				"higher_ranked_spell_wowhead_attr": "spell=25423",
-				"uuid": "cast_higher_rank_available:spell=10623:The Lurker Below"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 5,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 9,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 7,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 14,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 5,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:The Lurker Below"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -50008,16 +48437,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026item=28797",
@@ -50721,7 +49140,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2484,
@@ -50750,10 +49174,6 @@
 						{
 							"spell_id": 25570,
 							"count": 5
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 28880,
@@ -50842,16 +49262,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					},
 					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj - Wipe 2 (1.0%)",
@@ -51272,16 +49682,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj - Wipe 3 (8.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026item=28797",
@@ -51563,6 +49963,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						}
@@ -51595,10 +49999,6 @@
 						{
 							"spell_id": 25570,
 							"count": 7
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 27869,
@@ -52868,36 +51268,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
 			{
 				"type": "invalid_temporary_enchant",
 				"fight": "Hydross the Unstable",
@@ -55832,16 +54202,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2977\u0026gems=24055%3A24033\u0026item=30117",
@@ -56126,6 +54486,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						}
@@ -56154,10 +54518,6 @@
 						{
 							"spell_id": 25264,
 							"count": 13
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -56593,16 +54953,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
@@ -57639,18 +55989,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						20,
@@ -57920,6 +56259,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						}
@@ -57963,10 +56306,6 @@
 						},
 						{
 							"spell_id": 26889,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -58051,18 +56390,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						20,
@@ -58453,18 +56781,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						20,
@@ -59489,7 +57806,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -59526,10 +57848,6 @@
 						{
 							"spell_id": 26867,
 							"count": 4
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 31224,
@@ -59597,18 +57915,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Morogrim Tidewalker",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						20,
@@ -59984,18 +58291,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:The Lurker Below"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						20,
@@ -60303,56 +58599,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Morogrim Tidewalker",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Morogrim Tidewalker"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:The Lurker Below"
-			},
 			{
 				"type": "no_temporary_enchant_but_windfury",
 				"fight": "Fathom-Lord Karathress",
@@ -64848,18 +63094,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						41,
@@ -65992,7 +64227,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -66057,10 +64297,6 @@
 						{
 							"spell_id": 27046,
 							"count": 7
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -67676,18 +65912,7 @@
 				}
 			}
 		},
-		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			}
-		]
+		"remarks": []
 	},
 	"3": {
 		"gameID": 12839844,
@@ -68753,7 +66978,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -68793,10 +67023,6 @@
 						},
 						{
 							"spell_id": 27065,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -69601,7 +67827,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -69650,10 +67881,6 @@
 						{
 							"spell_id": 27046,
 							"count": 3
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -70029,7 +68256,16 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -70089,14 +68325,6 @@
 						},
 						{
 							"spell_id": 27065,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -70462,7 +68690,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -70495,10 +68728,6 @@
 						{
 							"spell_id": 27065,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -73374,16 +71603,6 @@
 						"uuid": "cast_higher_rank_available:spell=26987:Lady Vashj - Wipe 3 (8.0%)"
 					},
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj - Wipe 3 (8.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026item=28797",
@@ -74979,16 +73198,6 @@
 				"uuid": "cast_higher_rank_available:spell=26987:The Lurker Below"
 			},
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
 				"type": "no_enchant",
 				"item_wowhead_attr": "domain=fr.tbc\u0026item=28797",
 				"slot": "Dos",
@@ -75796,16 +74005,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -76852,7 +75051,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1020,
@@ -76893,10 +75097,6 @@
 						{
 							"spell_id": 27179,
 							"count": 6
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30486,
@@ -76972,16 +75172,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (8.0%)",
@@ -78421,26 +76611,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Hydross the Unstable",
@@ -82515,16 +80685,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Fathom-Lord Karathress",
-						"count": 1,
-						"spell_id": 635,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=635",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=635:Fathom-Lord Karathress"
-					},
-					{
 						"type": "invalid_battle_elixir",
 						"fight": "Fathom-Lord Karathress",
 						"wowhead_attr": "spell=33721",
@@ -83653,16 +81813,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (18.0%)",
-						"count": 1,
-						"spell_id": 635,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=635",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=635:Lady Vashj - Wipe 1 (18.0%)"
-					},
-					{
 						"type": "invalid_battle_elixir",
 						"fight": "Lady Vashj - Wipe 1 (18.0%)",
 						"wowhead_attr": "spell=33721",
@@ -84059,18 +82209,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (1.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						45,
@@ -84508,18 +82647,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (8.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						45,
@@ -84923,16 +83051,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Leotheras the Blind",
@@ -85681,16 +83799,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 10,
-						"spell_id": 635,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=635",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=635:The Lurker Below"
-					},
-					{
 						"type": "invalid_battle_elixir",
 						"fight": "The Lurker Below",
 						"wowhead_attr": "spell=33721",
@@ -85997,66 +84105,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (1.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 2 (1.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (8.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Lady Vashj - Wipe 3 (8.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Fathom-Lord Karathress",
-				"count": 1,
-				"spell_id": 635,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=635",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=635:Fathom-Lord Karathress"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (18.0%)",
-				"count": 1,
-				"spell_id": 635,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=635",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=635:Lady Vashj - Wipe 1 (18.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 10,
-				"spell_id": 635,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=635",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=635:The Lurker Below"
-			},
 			{
 				"type": "invalid_battle_elixir",
 				"fight": "Fathom-Lord Karathress",
@@ -91928,7 +89976,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 469,
@@ -91973,10 +90026,6 @@
 						{
 							"spell_id": 25275,
 							"count": 3
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -92314,7 +90363,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 469,
@@ -92371,10 +90425,6 @@
 						{
 							"spell_id": 25275,
 							"count": 5
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -92697,7 +90747,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 71,
@@ -92750,10 +90805,6 @@
 						{
 							"spell_id": 25275,
 							"count": 4
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -93101,7 +91152,16 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 71,
@@ -93157,14 +91217,6 @@
 						},
 						{
 							"spell_id": 25275,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -93286,16 +91338,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-					},
 					{
 						"type": "no_temporary_enchant_but_windfury",
 						"fight": "Leotheras the Blind",
@@ -93933,7 +91975,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -93973,10 +92020,6 @@
 						},
 						{
 							"spell_id": 25275,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -94336,7 +92379,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -94383,10 +92431,6 @@
 							"count": 3
 						},
 						{
-							"spell_id": 27236,
-							"count": 1
-						},
-						{
 							"spell_id": 29707,
 							"count": 78
 						},
@@ -94414,16 +92458,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Leotheras the Blind"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "The Lurker Below",

@@ -1282,16 +1282,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 2,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Gruul the Dragonkiller"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=28765",
@@ -1997,16 +1987,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 2,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Magtheridon"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=28765",
@@ -2339,26 +2319,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 2,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 2,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Magtheridon"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -3180,16 +3140,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2994\u0026item=30024",
@@ -3484,16 +3434,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "High King Maulgar",
@@ -4641,7 +4581,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 14751,
@@ -4666,10 +4611,6 @@
 						{
 							"spell_id": 25387,
 							"count": 34
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 32996,
@@ -5757,7 +5698,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 18647,
@@ -5778,10 +5724,6 @@
 						{
 							"spell_id": 27228,
 							"count": 6
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30546,
@@ -6688,18 +6630,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						41,
@@ -7050,18 +6981,7 @@
 				}
 			}
 		},
-		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			}
-		]
+		"remarks": []
 	},
 	"16": {
 		"gameID": 22742277,
@@ -8228,18 +8148,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Gruul the Dragonkiller"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -8934,18 +8843,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -9252,28 +9150,7 @@
 				}
 			}
 		},
-		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			}
-		]
+		"remarks": []
 	},
 	"20": {
 		"gameID": 19729138,
@@ -11266,7 +11143,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -11307,10 +11189,6 @@
 						{
 							"spell_id": 25587,
 							"count": 24
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30823,
@@ -11875,16 +11753,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 8,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:High King Maulgar"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24065%3A24065\u0026item=30168",
@@ -12246,16 +12114,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 51,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Magtheridon"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24065%3A24065\u0026item=30168",
@@ -12599,26 +12457,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 8,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:High King Maulgar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 51,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Magtheridon"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -14614,16 +14452,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2994\u0026item=27994",
@@ -14964,16 +14792,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -17404,16 +17222,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2983\u0026gems=24055%3A24061\u0026item=29047",
@@ -17746,16 +17554,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -18893,6 +18691,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -18921,10 +18723,6 @@
 						{
 							"spell_id": 27226,
 							"count": 7
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29858,
@@ -21553,16 +21351,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 3,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:Gruul the Dragonkiller"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=31329",
@@ -21932,16 +21720,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 4,
-						"spell_id": 3472,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=3472",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=3472:High King Maulgar"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=31329",
@@ -22256,26 +22034,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 3,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 4,
-				"spell_id": 3472,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=3472",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=3472:High King Maulgar"
-			},
-			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=31329",
@@ -22402,26 +22160,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 29,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 10,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller"
-					},
 					{
 						"type": "no_temporary_enchant_but_windfury",
 						"fight": "Gruul the Dragonkiller",
@@ -22782,26 +22520,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 13,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:High King Maulgar"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 1,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:High King Maulgar"
-					},
-					{
 						"type": "no_temporary_enchant_but_windfury",
 						"fight": "High King Maulgar",
 						"item_wowhead_attr": "item=28430",
@@ -23154,38 +22872,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 46,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Magtheridon"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 19,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Magtheridon"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						5,
@@ -23490,76 +23177,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 29,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 13,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:High King Maulgar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 46,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Magtheridon"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 10,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 1,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:High King Maulgar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 19,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Magtheridon"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			},
 			{
 				"type": "no_temporary_enchant_but_windfury",
 				"fight": "Gruul the Dragonkiller",
@@ -23937,7 +23554,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 3738,
@@ -23966,10 +23588,6 @@
 						{
 							"spell_id": 25570,
 							"count": 3
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30706,
@@ -24434,16 +24052,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					},
-					{
 						"type": "meta_not_activated",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=3002\u0026gems=34220%3A24059\u0026item=29035",
@@ -24824,16 +24432,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			},
 			{
 				"type": "meta_not_activated",
 				"fight": "Gruul the Dragonkiller",
@@ -26331,16 +25929,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=28269",
@@ -26697,16 +26285,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Magtheridon",
@@ -27624,16 +27202,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2981\u0026gems=31867%3A31867\u0026item=30079",
@@ -27985,16 +27553,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Magtheridon"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -28683,16 +28241,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 3,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Gruul the Dragonkiller"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1888\u0026item=18510",
@@ -29051,16 +28599,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 3,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:High King Maulgar"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar",
@@ -29426,16 +28964,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Magtheridon",
-						"count": 10,
-						"spell_id": 10963,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10963",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10963:Magtheridon"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1888\u0026item=18510",
@@ -29746,36 +29274,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 3,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 3,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:High King Maulgar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Magtheridon",
-				"count": 10,
-				"spell_id": 10963,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10963",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10963:Magtheridon"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",

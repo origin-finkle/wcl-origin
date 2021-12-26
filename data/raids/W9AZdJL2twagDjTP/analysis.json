@@ -28,16 +28,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 1,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Attumen the Huntsman"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Attumen the Huntsman",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2938\u0026item=28765",
@@ -1619,16 +1609,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 23,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -1873,16 +1853,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 21,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Prince Malchezaar"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar",
@@ -3216,36 +3186,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 1,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 23,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Nightbane"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 21,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Prince Malchezaar"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -20796,7 +20736,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -20824,10 +20769,6 @@
 						},
 						{
 							"spell_id": 25587,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -34160,16 +34101,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Shade of Aran",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1888\u0026item=19857",
@@ -35282,16 +35213,6 @@
 				"spell_wowhead_attr": "spell=1449",
 				"higher_ranked_spell_wowhead_attr": "spell=27080",
 				"uuid": "cast_higher_rank_available:spell=1449:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
 			},
 			{
 				"type": "invalid_enchant",

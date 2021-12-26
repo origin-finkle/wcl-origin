@@ -2459,16 +2459,6 @@
 						"uuid": "cast_higher_rank_available:spell=26987:Kael'thas Sunstrider"
 					},
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -3322,16 +3312,6 @@
 				"spell_wowhead_attr": "spell=26987",
 				"higher_ranked_spell_wowhead_attr": "spell=26988",
 				"uuid": "cast_higher_rank_available:spell=26987:Void Reaver - Wipe 1 (100.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Kael'thas Sunstrider"
 			},
 			{
 				"type": "missing_battle_elixir",
@@ -5735,16 +5715,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider",
-						"count": 2,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Kael'thas Sunstrider"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -6618,16 +6588,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider",
-				"count": 2,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Kael'thas Sunstrider"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -7913,18 +7873,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Void Reaver - Wipe 1 (100.0%)",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Void Reaver - Wipe 1 (100.0%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -8182,16 +8131,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Void Reaver - Wipe 1 (100.0%)",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Void Reaver - Wipe 1 (100.0%)"
-			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -8993,6 +8932,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 1
 						}
@@ -9037,10 +8980,6 @@
 						{
 							"spell_id": 27179,
 							"count": 15
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30486,
@@ -9916,26 +9855,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Al'ar",
-						"count": 14,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Al'ar"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Al'ar",
-						"count": 3,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Al'ar"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2997\u0026gems=24058%3A30584\u0026item=29075",
@@ -10342,26 +10261,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "High Astromancer Solarian",
-						"count": 11,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:High Astromancer Solarian"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "High Astromancer Solarian",
-						"count": 8,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:High Astromancer Solarian"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "High Astromancer Solarian",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2997\u0026gems=24058%3A30584\u0026item=29075",
@@ -10693,26 +10592,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider",
-						"count": 30,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Kael'thas Sunstrider"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider",
-						"count": 14,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Kael'thas Sunstrider"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -10751,7 +10630,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 4987,
@@ -10787,10 +10671,6 @@
 						},
 						{
 							"spell_id": 27180,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -10904,26 +10784,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Void Reaver",
-						"count": 18,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Void Reaver"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Void Reaver",
-						"count": 8,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Void Reaver"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Void Reaver",
@@ -11292,16 +11152,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Void Reaver - Wipe 1 (100.0%)",
-						"count": 1,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Void Reaver - Wipe 1 (100.0%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Void Reaver - Wipe 1 (100.0%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2997\u0026gems=24058%3A30584\u0026item=29075",
@@ -11604,96 +11454,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Al'ar",
-				"count": 14,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Al'ar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High Astromancer Solarian",
-				"count": 11,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:High Astromancer Solarian"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider",
-				"count": 30,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Kael'thas Sunstrider"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Void Reaver",
-				"count": 18,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Void Reaver"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Void Reaver - Wipe 1 (100.0%)",
-				"count": 1,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Void Reaver - Wipe 1 (100.0%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Al'ar",
-				"count": 3,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Al'ar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High Astromancer Solarian",
-				"count": 8,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:High Astromancer Solarian"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider",
-				"count": 14,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Kael'thas Sunstrider"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Void Reaver",
-				"count": 8,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Void Reaver"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -12115,7 +11875,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -12143,10 +11908,6 @@
 						},
 						{
 							"spell_id": 27046,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -12986,7 +12747,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -13006,10 +12772,6 @@
 						},
 						{
 							"spell_id": 27021,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -13734,7 +13496,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17116,
@@ -13751,10 +13518,6 @@
 						{
 							"spell_id": 26982,
 							"count": 23
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29166,
@@ -14623,7 +14386,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17116,
@@ -14647,10 +14415,6 @@
 						},
 						{
 							"spell_id": 26983,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -15155,16 +14919,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Al'ar",
-						"count": 2,
-						"spell_id": 635,
-						"suggested_spell_id": 25292,
-						"spell_wowhead_attr": "spell=635",
-						"higher_ranked_spell_wowhead_attr": "spell=25292",
-						"uuid": "cast_higher_rank_available:spell=635:Al'ar"
-					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Al'ar",
@@ -16313,7 +16067,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 20216,
@@ -16333,10 +16092,6 @@
 						},
 						{
 							"spell_id": 27166,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -16695,16 +16450,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Al'ar",
-				"count": 2,
-				"spell_id": 635,
-				"suggested_spell_id": 25292,
-				"spell_wowhead_attr": "spell=635",
-				"higher_ranked_spell_wowhead_attr": "spell=25292",
-				"uuid": "cast_higher_rank_available:spell=635:Al'ar"
-			},
-			{
 				"type": "invalid_battle_elixir",
 				"fight": "Al'ar",
 				"wowhead_attr": "spell=33721",
@@ -16825,18 +16570,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Al'ar",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						16,
@@ -18304,16 +18038,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Al'ar",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
-			},
-			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
 				"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -18687,7 +18411,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 3018,
@@ -18720,10 +18449,6 @@
 						{
 							"spell_id": 26867,
 							"count": 6
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 31224,
@@ -19920,7 +19645,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -19936,10 +19666,6 @@
 						},
 						{
 							"spell_id": 26865,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -24090,7 +23816,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -24143,10 +23874,6 @@
 						{
 							"spell_id": 25275,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -26531,16 +26258,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Al'ar",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2983\u0026gems=24058%3A24058\u0026item=33173",
@@ -27387,7 +27104,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 469,
@@ -27443,10 +27165,6 @@
 						},
 						{
 							"spell_id": 25275,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -28274,14 +27992,15 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17534,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -28299,16 +28018,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Al'ar",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Al'ar"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -28749,6 +28458,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -28777,10 +28490,6 @@
 						{
 							"spell_id": 25387,
 							"count": 40
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 32996,
@@ -29635,6 +29344,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -29655,10 +29368,6 @@
 						{
 							"spell_id": 25387,
 							"count": 33
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 32996,
@@ -34628,7 +34337,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 14751,
@@ -34641,10 +34355,6 @@
 						{
 							"spell_id": 25235,
 							"count": 9
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 32546,
@@ -35444,7 +35154,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1064,
@@ -35493,10 +35208,6 @@
 						{
 							"spell_id": 25570,
 							"count": 4
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 28880,
@@ -36750,7 +36461,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 3738,
@@ -36763,10 +36479,6 @@
 						{
 							"spell_id": 25423,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 33736,

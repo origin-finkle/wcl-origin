@@ -1540,16 +1540,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 30,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -1684,16 +1674,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 3,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Opera Hall"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall",
 						"uuid": "missing_battle_elixir:Opera Hall"
@@ -1822,16 +1802,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 23,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Prince Malchezaar"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar",
@@ -3366,36 +3336,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 30,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Nightbane"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 3,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Opera Hall"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 23,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Prince Malchezaar"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -5412,7 +5352,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 4987,
@@ -5437,10 +5382,6 @@
 						{
 							"spell_id": 27137,
 							"count": 59
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 31842,
@@ -8782,16 +8723,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-					},
-					{
 						"type": "invalid_food",
 						"fight": "Netherspite",
 						"wowhead_attr": "spell=33254",
@@ -9762,16 +9693,6 @@
 						"spell_wowhead_attr": "spell=10894",
 						"higher_ranked_spell_wowhead_attr": "spell=25367",
 						"uuid": "cast_higher_rank_available:spell=10894:Shade of Aran"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
 					},
 					{
 						"type": "invalid_food",
@@ -10917,26 +10838,6 @@
 				"uuid": "cast_higher_rank_available:spell=10894:Shade of Aran"
 			},
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Shade of Aran"
-			},
-			{
 				"type": "invalid_food",
 				"fight": "Attumen the Huntsman",
 				"wowhead_attr": "spell=33254",
@@ -11884,16 +11785,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1594\u0026gems=24028%3A23121\u0026item=27474",
@@ -12837,16 +12728,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
@@ -15397,26 +15278,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -25938,16 +25799,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Maiden of Virtue",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Maiden of Virtue",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1891\u0026item=22416",
@@ -26915,16 +26766,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -26967,6 +26808,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 27237,
 							"count": 1
 						}
@@ -27007,10 +26852,6 @@
 						{
 							"spell_id": 25264,
 							"count": 10
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 28497,
@@ -28508,26 +28349,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Maiden of Virtue",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Maiden of Virtue"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -30226,16 +30047,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1891\u0026item=27746",
@@ -30600,16 +30411,6 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -31118,6 +30919,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -31145,10 +30950,6 @@
 						},
 						{
 							"spell_id": 27228,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -32382,26 +32183,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -33993,16 +33774,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Netherspite",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Netherspite",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1883\u0026item=21186",
@@ -34300,16 +34071,6 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 27237,
-						"suggested_spell_id": 27236,
-						"spell_wowhead_attr": "spell=27237",
-						"higher_ranked_spell_wowhead_attr": "spell=27236",
-						"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -35779,26 +35540,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Netherspite",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Netherspite"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 27237,
-				"suggested_spell_id": 27236,
-				"spell_wowhead_attr": "spell=27237",
-				"higher_ranked_spell_wowhead_attr": "spell=27236",
-				"uuid": "cast_higher_rank_available:spell=27237:Nightbane"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -38264,6 +38005,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 2
 						}
@@ -38296,10 +38041,6 @@
 						{
 							"spell_id": 25570,
 							"count": 2
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30706,

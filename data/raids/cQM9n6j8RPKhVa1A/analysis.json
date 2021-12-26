@@ -11,16 +11,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 30,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
 						"uuid": "missing_battle_elixir:Lady Vashj"
@@ -67,7 +57,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 526,
@@ -128,10 +123,6 @@
 						{
 							"spell_id": 25570,
 							"count": 5
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29601,
@@ -236,26 +227,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (49%)",
-						"count": 2,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 1 (49%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (49%)",
-						"count": 30,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 1 (49%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -691,16 +662,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (70%)",
-						"count": 37,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 2 (70%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (70%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2992\u0026gems=24065%3A24065\u0026item=29031",
@@ -1131,26 +1092,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (16%)",
-						"count": 7,
-						"spell_id": 10466,
-						"suggested_spell_id": 10468,
-						"spell_wowhead_attr": "spell=10466",
-						"higher_ranked_spell_wowhead_attr": "spell=10468",
-						"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 3 (16%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (16%)",
-						"count": 43,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 3 (16%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (16%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2992\u0026gems=24065%3A24065\u0026item=29031",
@@ -1518,16 +1459,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 4 (48%)",
-						"count": 30,
-						"spell_id": 8005,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=8005",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 4 (48%)"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj - Wipe 4 (48%)",
 						"uuid": "missing_battle_elixir:Lady Vashj - Wipe 4 (48%)"
@@ -1648,76 +1579,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (49%)",
-				"count": 2,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 1 (49%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (16%)",
-				"count": 7,
-				"spell_id": 10466,
-				"suggested_spell_id": 10468,
-				"spell_wowhead_attr": "spell=10466",
-				"higher_ranked_spell_wowhead_attr": "spell=10468",
-				"uuid": "cast_higher_rank_available:spell=10466:Lady Vashj - Wipe 3 (16%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 30,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (49%)",
-				"count": 30,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 1 (49%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (70%)",
-				"count": 37,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 2 (70%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (16%)",
-				"count": 43,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 3 (16%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 4 (48%)",
-				"count": 30,
-				"spell_id": 8005,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=8005",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=8005:Lady Vashj - Wipe 4 (48%)"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -1842,6 +1703,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 5
 						}
@@ -1882,10 +1747,6 @@
 						{
 							"spell_id": 25570,
 							"count": 9
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30706,
@@ -3071,6 +2932,14 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 5
 						}
@@ -3111,14 +2980,6 @@
 						{
 							"spell_id": 25570,
 							"count": 7
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 28880,
@@ -5328,7 +5189,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -5373,10 +5239,6 @@
 						{
 							"spell_id": 27013,
 							"count": 9
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29166,
@@ -7403,7 +7265,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -7435,10 +7302,6 @@
 						},
 						{
 							"spell_id": 26889,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -7792,7 +7655,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -7821,10 +7689,6 @@
 						{
 							"spell_id": 26867,
 							"count": 15
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 31224,
@@ -8741,6 +8605,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 5
 						}
@@ -8777,10 +8645,6 @@
 						{
 							"spell_id": 27228,
 							"count": 7
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 28610,
@@ -9874,6 +9738,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 5
 						}
@@ -9918,10 +9786,6 @@
 						{
 							"spell_id": 27228,
 							"count": 6
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30546,
@@ -9999,6 +9863,10 @@
 							"count": 1
 						},
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 4
 						}
@@ -10031,10 +9899,6 @@
 						{
 							"spell_id": 27228,
 							"count": 7
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 30546,
@@ -10889,6 +10753,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 5
 						}
@@ -10925,10 +10793,6 @@
 						{
 							"spell_id": 25387,
 							"count": 61
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 31367,
@@ -13042,16 +12906,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 4,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
 						"uuid": "missing_battle_elixir:Lady Vashj"
@@ -13094,7 +12948,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 988,
@@ -13154,10 +13013,6 @@
 						},
 						{
 							"spell_id": 25437,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -13243,16 +13098,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (49%)",
-						"count": 3,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (49%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -13626,16 +13471,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (70%)",
-						"count": 7,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (70%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (70%)",
@@ -14026,16 +13861,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (16%)",
-						"count": 4,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 3 (16%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (16%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=1888\u0026item=28765",
@@ -14364,16 +14189,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 4 (48%)",
-						"count": 3,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 4 (48%)"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj - Wipe 4 (48%)",
 						"uuid": "missing_battle_elixir:Lady Vashj - Wipe 4 (48%)"
@@ -14489,56 +14304,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 4,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (49%)",
-				"count": 3,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (49%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (70%)",
-				"count": 7,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (70%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (16%)",
-				"count": 4,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 3 (16%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 4 (48%)",
-				"count": 3,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 4 (48%)"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -15429,7 +15194,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2094,
@@ -15473,10 +15243,6 @@
 						},
 						{
 							"spell_id": 27186,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -17554,7 +17320,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -17591,10 +17362,6 @@
 						{
 							"spell_id": 27046,
 							"count": 4
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -18772,6 +18539,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 27235,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -18826,10 +18597,6 @@
 						{
 							"spell_id": 27046,
 							"count": 7
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -18922,7 +18689,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -18963,10 +18735,6 @@
 						{
 							"spell_id": 27046,
 							"count": 6
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -21110,7 +20878,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 8946,
@@ -21135,10 +20908,6 @@
 						{
 							"spell_id": 26982,
 							"count": 81
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29166,
@@ -23160,7 +22929,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1044,
@@ -23204,10 +22978,6 @@
 						},
 						{
 							"spell_id": 27179,
-							"count": 1
-						},
-						{
-							"spell_id": 27235,
 							"count": 1
 						},
 						{
@@ -26343,7 +26113,16 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -26380,14 +26159,6 @@
 						{
 							"spell_id": 27046,
 							"count": 7
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -30891,7 +30662,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -30924,10 +30700,6 @@
 						{
 							"spell_id": 25275,
 							"count": 2
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -33275,6 +33047,10 @@
 						{
 							"spell_id": 27031,
 							"count": 2
+						},
+						{
+							"spell_id": 27235,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -33309,10 +33085,6 @@
 						{
 							"spell_id": 25275,
 							"count": 3
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -34054,6 +33826,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -34096,10 +33872,6 @@
 						{
 							"spell_id": 25275,
 							"count": 3
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -34540,7 +34312,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -34585,10 +34362,6 @@
 						{
 							"spell_id": 25275,
 							"count": 3
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -35448,6 +35221,14 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27235,
+							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 5
 						}
@@ -35480,14 +35261,6 @@
 						{
 							"spell_id": 27226,
 							"count": 3
-						},
-						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29858,
@@ -36680,6 +36453,10 @@
 				"analysis": {
 					"items": [
 						{
+							"spell_id": 27236,
+							"count": 1
+						},
+						{
 							"spell_id": 35163,
 							"count": 3
 						}
@@ -36716,10 +36493,6 @@
 						{
 							"spell_id": 27226,
 							"count": 2
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30546,
@@ -37639,7 +37412,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2565,
@@ -37660,10 +37438,6 @@
 						{
 							"spell_id": 25264,
 							"count": 3
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -37734,7 +37508,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 71,
@@ -37782,10 +37561,6 @@
 						},
 						{
 							"spell_id": 25275,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -38138,7 +37913,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 71,
@@ -38186,10 +37966,6 @@
 						},
 						{
 							"spell_id": 25275,
-							"count": 1
-						},
-						{
-							"spell_id": 27236,
 							"count": 1
 						},
 						{
@@ -38544,7 +38320,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 71,
@@ -38601,10 +38382,6 @@
 						{
 							"spell_id": 25275,
 							"count": 3
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29707,
@@ -41584,26 +41361,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 27,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 14,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "Gruul the Dragonkiller",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -41964,26 +41721,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 15,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:High King Maulgar"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 6,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:High King Maulgar"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "High King Maulgar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -42271,26 +42008,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 74,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 33,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
 						"uuid": "missing_battle_elixir:Lady Vashj"
@@ -42332,6 +42049,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 27236,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -42366,10 +42087,6 @@
 						{
 							"spell_id": 27158,
 							"count": 10
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 30486,
@@ -42478,26 +42195,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (49%)",
-						"count": 52,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 1 (49%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (49%)",
-						"count": 19,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 1 (49%)"
-					},
 					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -42893,26 +42590,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (70%)",
-						"count": 59,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 2 (70%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (70%)",
-						"count": 29,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 2 (70%)"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj - Wipe 2 (70%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -43306,26 +42983,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (16%)",
-						"count": 53,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 3 (16%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (16%)",
-						"count": 20,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 3 (16%)"
-					},
-					{
 						"type": "invalid_gem",
 						"fight": "Lady Vashj - Wipe 3 (16%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2986\u0026gems=28290%3A28290\u0026item=33173",
@@ -43592,6 +43249,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 27235,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -43652,10 +43313,6 @@
 							"count": 1
 						},
 						{
-							"spell_id": 27235,
-							"count": 1
-						},
-						{
 							"spell_id": 31789,
 							"count": 1
 						},
@@ -43689,26 +43346,6 @@
 				"name": "Lady Vashj - Wipe 4 (48%)",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 4 (48%)",
-						"count": 54,
-						"spell_id": 20375,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20375",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 4 (48%)"
-					},
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 4 (48%)",
-						"count": 24,
-						"spell_id": 20424,
-						"suggested_spell_id": 27170,
-						"spell_wowhead_attr": "spell=20424",
-						"higher_ranked_spell_wowhead_attr": "spell=27170",
-						"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 4 (48%)"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj - Wipe 4 (48%)",
@@ -43795,146 +43432,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 27,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 15,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:High King Maulgar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 74,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (49%)",
-				"count": 52,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 1 (49%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (70%)",
-				"count": 59,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 2 (70%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (16%)",
-				"count": 53,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 3 (16%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 4 (48%)",
-				"count": 54,
-				"spell_id": 20375,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20375",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20375:Lady Vashj - Wipe 4 (48%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 14,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 6,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:High King Maulgar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 33,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (49%)",
-				"count": 19,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 1 (49%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (70%)",
-				"count": 29,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 2 (70%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (16%)",
-				"count": 20,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 3 (16%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 4 (48%)",
-				"count": 24,
-				"spell_id": 20424,
-				"suggested_spell_id": 27170,
-				"spell_wowhead_attr": "spell=20424",
-				"higher_ranked_spell_wowhead_attr": "spell=27170",
-				"uuid": "cast_higher_rank_available:spell=20424:Lady Vashj - Wipe 4 (48%)"
-			},
 			{
 				"type": "invalid_gem",
 				"fight": "Gruul the Dragonkiller",
@@ -44113,16 +43610,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Gruul the Dragonkiller",
-						"count": 13,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Gruul the Dragonkiller"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Gruul the Dragonkiller",
@@ -44429,16 +43916,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 14,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:High King Maulgar"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "High King Maulgar",
 						"uuid": "missing_battle_elixir:High King Maulgar"
@@ -44706,16 +44183,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 30,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
 						"uuid": "missing_battle_elixir:Lady Vashj"
@@ -44863,18 +44330,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (49%)",
-						"count": 6,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (49%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						23,
@@ -45232,18 +44688,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (70%)",
-						"count": 27,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (70%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						23,
@@ -45586,18 +45031,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (16%)",
-						"count": 23,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 3 (16%)"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						23,
@@ -45891,16 +45325,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 4 (48%)",
-						"count": 28,
-						"spell_id": 10964,
-						"suggested_spell_id": 25210,
-						"spell_wowhead_attr": "spell=10964",
-						"higher_ranked_spell_wowhead_attr": "spell=25210",
-						"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 4 (48%)"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj - Wipe 4 (48%)",
 						"uuid": "missing_battle_elixir:Lady Vashj - Wipe 4 (48%)"
@@ -45986,76 +45410,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Gruul the Dragonkiller",
-				"count": 13,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Gruul the Dragonkiller"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 14,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:High King Maulgar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 30,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (49%)",
-				"count": 6,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 1 (49%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (70%)",
-				"count": 27,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 2 (70%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (16%)",
-				"count": 23,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 3 (16%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 4 (48%)",
-				"count": 28,
-				"spell_id": 10964,
-				"suggested_spell_id": 25210,
-				"spell_wowhead_attr": "spell=10964",
-				"higher_ranked_spell_wowhead_attr": "spell=25210",
-				"uuid": "cast_higher_rank_available:spell=10964:Lady Vashj - Wipe 4 (48%)"
-			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Gruul the Dragonkiller",
@@ -46898,7 +46252,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -46935,10 +46294,6 @@
 						{
 							"spell_id": 27046,
 							"count": 14
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 34026,
@@ -48915,16 +48270,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "High King Maulgar",
-						"count": 5,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:High King Maulgar"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "High King Maulgar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24029%3A24029\u0026item=29031",
@@ -49259,16 +48604,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 3,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj",
 						"uuid": "missing_battle_elixir:Lady Vashj"
@@ -49481,16 +48816,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 1 (49%)",
-						"count": 6,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 1 (49%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 1 (49%)",
@@ -49917,16 +49242,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 2 (70%)",
-						"count": 2,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 2 (70%)"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 2 (70%)",
@@ -50357,16 +49672,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 3 (16%)",
-						"count": 4,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 3 (16%)"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj - Wipe 3 (16%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026gems=24029%3A24029\u0026item=29031",
@@ -50657,7 +49962,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2894,
@@ -50732,10 +50042,6 @@
 							"count": 5
 						},
 						{
-							"spell_id": 27236,
-							"count": 1
-						},
-						{
 							"spell_id": 32182,
 							"count": 1
 						},
@@ -50777,16 +50083,6 @@
 				"name": "Lady Vashj - Wipe 4 (48%)",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj - Wipe 4 (48%)",
-						"count": 9,
-						"spell_id": 10395,
-						"suggested_spell_id": 25391,
-						"spell_wowhead_attr": "spell=10395",
-						"higher_ranked_spell_wowhead_attr": "spell=25391",
-						"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 4 (48%)"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Lady Vashj - Wipe 4 (48%)",
@@ -50923,66 +50219,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "High King Maulgar",
-				"count": 5,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:High King Maulgar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 3,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 1 (49%)",
-				"count": 6,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 1 (49%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 2 (70%)",
-				"count": 2,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 2 (70%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 3 (16%)",
-				"count": 4,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 3 (16%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj - Wipe 4 (48%)",
-				"count": 9,
-				"spell_id": 10395,
-				"suggested_spell_id": 25391,
-				"spell_wowhead_attr": "spell=10395",
-				"higher_ranked_spell_wowhead_attr": "spell=25391",
-				"uuid": "cast_higher_rank_available:spell=10395:Lady Vashj - Wipe 4 (48%)"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Gruul the Dragonkiller",
@@ -51983,7 +51219,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -52040,10 +51281,6 @@
 						{
 							"spell_id": 27008,
 							"count": 16
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29166,
@@ -53088,7 +52325,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 27236,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -53153,10 +52395,6 @@
 						{
 							"spell_id": 27011,
 							"count": 5
-						},
-						{
-							"spell_id": 27236,
-							"count": 1
 						},
 						{
 							"spell_id": 29166,

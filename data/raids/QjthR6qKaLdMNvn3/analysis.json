@@ -3752,7 +3752,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High Astromancer Solarian",
+						"count": 2,
+						"spell_id": 11684,
+						"suggested_spell_id": 27213,
+						"spell_wowhead_attr": "spell=11684",
+						"higher_ranked_spell_wowhead_attr": "spell=27213",
+						"uuid": "cast_higher_rank_available:spell=11684:High Astromancer Solarian"
+					}
+				],
 				"talents": {
 					"points": [
 						0,
@@ -5064,6 +5075,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High Astromancer Solarian",
+				"count": 2,
+				"spell_id": 11684,
+				"suggested_spell_id": 27213,
+				"spell_wowhead_attr": "spell=11684",
+				"higher_ranked_spell_wowhead_attr": "spell=27213",
+				"uuid": "cast_higher_rank_available:spell=11684:High Astromancer Solarian"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
@@ -6656,6 +6677,26 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
+						"count": 1,
+						"spell_id": 10057,
+						"suggested_spell_id": 10058,
+						"spell_wowhead_attr": "spell=10057",
+						"higher_ranked_spell_wowhead_attr": "spell=10058",
+						"uuid": "cast_higher_rank_available:spell=10057:Kael'thas Sunstrider - Wipe 1 (5.6%)"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
+						"count": 1,
+						"spell_id": 10216,
+						"suggested_spell_id": 27086,
+						"spell_wowhead_attr": "spell=10216",
+						"higher_ranked_spell_wowhead_attr": "spell=27086",
+						"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider - Wipe 1 (5.6%)"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider - Wipe 1 (5.6%)"
@@ -6805,6 +6846,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
+						"count": 1,
+						"spell_id": 10216,
+						"suggested_spell_id": 27086,
+						"spell_wowhead_attr": "spell=10216",
+						"higher_ranked_spell_wowhead_attr": "spell=27086",
+						"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider - Wipe 2 (14.8%)"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider - Wipe 2 (14.8%)"
@@ -6943,6 +6994,16 @@
 				"name": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
+						"count": 1,
+						"spell_id": 10216,
+						"suggested_spell_id": 27086,
+						"spell_wowhead_attr": "spell=10216",
+						"higher_ranked_spell_wowhead_attr": "spell=27086",
+						"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider - Wipe 3 (12.8%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
@@ -7756,6 +7817,46 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
+				"count": 1,
+				"spell_id": 10057,
+				"suggested_spell_id": 10058,
+				"spell_wowhead_attr": "spell=10057",
+				"higher_ranked_spell_wowhead_attr": "spell=10058",
+				"uuid": "cast_higher_rank_available:spell=10057:Kael'thas Sunstrider - Wipe 1 (5.6%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
+				"count": 1,
+				"spell_id": 10216,
+				"suggested_spell_id": 27086,
+				"spell_wowhead_attr": "spell=10216",
+				"higher_ranked_spell_wowhead_attr": "spell=27086",
+				"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider - Wipe 1 (5.6%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
+				"count": 1,
+				"spell_id": 10216,
+				"suggested_spell_id": 27086,
+				"spell_wowhead_attr": "spell=10216",
+				"higher_ranked_spell_wowhead_attr": "spell=27086",
+				"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider - Wipe 2 (14.8%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
+				"count": 1,
+				"spell_id": 10216,
+				"suggested_spell_id": 27086,
+				"spell_wowhead_attr": "spell=10216",
+				"higher_ranked_spell_wowhead_attr": "spell=27086",
+				"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider - Wipe 3 (12.8%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -21428,6 +21529,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 15,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Al'ar"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -21805,6 +21916,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar - Wipe 1 (68%)",
+						"count": 11,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Al'ar - Wipe 1 (68%)"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar - Wipe 1 (68%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -22154,6 +22275,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar - Wipe 2 (49%)",
+						"count": 15,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Al'ar - Wipe 2 (49%)"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar - Wipe 2 (49%)",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -22502,6 +22633,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "High Astromancer Solarian",
+						"count": 6,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:High Astromancer Solarian"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "High Astromancer Solarian",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -22800,6 +22941,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
+						"count": 18,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Kael'thas Sunstrider - Wipe 1 (5.6%)"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider - Wipe 1 (5.6%)"
@@ -22945,6 +23096,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
+						"count": 31,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Kael'thas Sunstrider - Wipe 2 (14.8%)"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider - Wipe 2 (14.8%)"
@@ -23043,6 +23204,16 @@
 				"name": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
+						"count": 19,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Kael'thas Sunstrider - Wipe 3 (12.8%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
@@ -23798,6 +23969,76 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 15,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar - Wipe 1 (68%)",
+				"count": 11,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Al'ar - Wipe 1 (68%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar - Wipe 2 (49%)",
+				"count": 15,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Al'ar - Wipe 2 (49%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High Astromancer Solarian",
+				"count": 6,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:High Astromancer Solarian"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
+				"count": 18,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Kael'thas Sunstrider - Wipe 1 (5.6%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
+				"count": 31,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Kael'thas Sunstrider - Wipe 2 (14.8%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
+				"count": 19,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Kael'thas Sunstrider - Wipe 3 (12.8%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -25562,16 +25803,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
-						"count": 10,
-						"spell_id": 8056,
-						"suggested_spell_id": 10473,
-						"spell_wowhead_attr": "spell=8056",
-						"higher_ranked_spell_wowhead_attr": "spell=10473",
-						"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider - Wipe 1 (5.6%)"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider - Wipe 1 (5.6%)"
@@ -25705,16 +25936,6 @@
 				"name": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
-						"count": 8,
-						"spell_id": 8056,
-						"suggested_spell_id": 10473,
-						"spell_wowhead_attr": "spell=8056",
-						"higher_ranked_spell_wowhead_attr": "spell=10473",
-						"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider - Wipe 2 (14.8%)"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
@@ -25865,16 +26086,6 @@
 				"name": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
-						"count": 12,
-						"spell_id": 8056,
-						"suggested_spell_id": 10473,
-						"spell_wowhead_attr": "spell=8056",
-						"higher_ranked_spell_wowhead_attr": "spell=10473",
-						"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider - Wipe 3 (12.8%)"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
@@ -26763,36 +26974,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
-				"count": 10,
-				"spell_id": 8056,
-				"suggested_spell_id": 10473,
-				"spell_wowhead_attr": "spell=8056",
-				"higher_ranked_spell_wowhead_attr": "spell=10473",
-				"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider - Wipe 1 (5.6%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider - Wipe 2 (14.8%)",
-				"count": 8,
-				"spell_id": 8056,
-				"suggested_spell_id": 10473,
-				"spell_wowhead_attr": "spell=8056",
-				"higher_ranked_spell_wowhead_attr": "spell=10473",
-				"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider - Wipe 2 (14.8%)"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider - Wipe 3 (12.8%)",
-				"count": 12,
-				"spell_id": 8056,
-				"suggested_spell_id": 10473,
-				"spell_wowhead_attr": "spell=8056",
-				"higher_ranked_spell_wowhead_attr": "spell=10473",
-				"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider - Wipe 3 (12.8%)"
-			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
@@ -50267,6 +50448,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
+						"count": 1,
+						"spell_id": 10952,
+						"suggested_spell_id": 25431,
+						"spell_wowhead_attr": "spell=10952",
+						"higher_ranked_spell_wowhead_attr": "spell=25431",
+						"uuid": "cast_higher_rank_available:spell=10952:Kael'thas Sunstrider - Wipe 1 (5.6%)"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider - Wipe 1 (5.6%)"
@@ -51331,6 +51522,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",
+				"count": 1,
+				"spell_id": 10952,
+				"suggested_spell_id": 25431,
+				"spell_wowhead_attr": "spell=10952",
+				"higher_ranked_spell_wowhead_attr": "spell=25431",
+				"uuid": "cast_higher_rank_available:spell=10952:Kael'thas Sunstrider - Wipe 1 (5.6%)"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -56783,7 +56984,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 3,
+						"spell_id": 2643,
+						"suggested_spell_id": 27021,
+						"spell_wowhead_attr": "spell=2643",
+						"higher_ranked_spell_wowhead_attr": "spell=27021",
+						"uuid": "cast_higher_rank_available:spell=2643:Al'ar"
+					}
+				],
 				"talents": {
 					"points": [
 						7,
@@ -59441,6 +59653,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 3,
+				"spell_id": 2643,
+				"suggested_spell_id": 27021,
+				"spell_wowhead_attr": "spell=2643",
+				"higher_ranked_spell_wowhead_attr": "spell=27021",
+				"uuid": "cast_higher_rank_available:spell=2643:Al'ar"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider - Wipe 1 (5.6%)",

@@ -12158,9 +12158,9 @@
 						"fight": "Kael'thas Sunstrider",
 						"count": 11,
 						"spell_id": 1449,
-						"suggested_spell_id": 27080,
+						"suggested_spell_id": 27082,
 						"spell_wowhead_attr": "spell=1449",
-						"higher_ranked_spell_wowhead_attr": "spell=27080",
+						"higher_ranked_spell_wowhead_attr": "spell=27082",
 						"uuid": "cast_higher_rank_available:spell=1449:Kael'thas Sunstrider"
 					},
 					{
@@ -13473,7 +13473,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 2,
+						"spell_id": 28271,
+						"suggested_spell_id": 12826,
+						"spell_wowhead_attr": "spell=28271",
+						"higher_ranked_spell_wowhead_attr": "spell=12826",
+						"uuid": "cast_higher_rank_available:spell=28271:The Lurker Below"
+					}
+				],
 				"talents": {
 					"points": [
 						40,
@@ -14145,10 +14156,20 @@
 				"fight": "Kael'thas Sunstrider",
 				"count": 11,
 				"spell_id": 1449,
-				"suggested_spell_id": 27080,
+				"suggested_spell_id": 27082,
 				"spell_wowhead_attr": "spell=1449",
-				"higher_ranked_spell_wowhead_attr": "spell=27080",
+				"higher_ranked_spell_wowhead_attr": "spell=27082",
 				"uuid": "cast_higher_rank_available:spell=1449:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 2,
+				"spell_id": 28271,
+				"suggested_spell_id": 12826,
+				"spell_wowhead_attr": "spell=28271",
+				"higher_ranked_spell_wowhead_attr": "spell=12826",
+				"uuid": "cast_higher_rank_available:spell=28271:The Lurker Below"
 			},
 			{
 				"type": "missing_battle_elixir",
@@ -14249,7 +14270,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 1,
+						"spell_id": 2643,
+						"suggested_spell_id": 27021,
+						"spell_wowhead_attr": "spell=2643",
+						"higher_ranked_spell_wowhead_attr": "spell=27021",
+						"uuid": "cast_higher_rank_available:spell=2643:Al'ar"
+					}
+				],
 				"talents": {
 					"points": [
 						5,
@@ -17875,6 +17907,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 1,
+				"spell_id": 2643,
+				"suggested_spell_id": 27021,
+				"spell_wowhead_attr": "spell=2643",
+				"higher_ranked_spell_wowhead_attr": "spell=27021",
+				"uuid": "cast_higher_rank_available:spell=2643:Al'ar"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Lady Vashj",
@@ -23126,6 +23168,26 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 24977,
+						"suggested_spell_id": 27013,
+						"spell_wowhead_attr": "spell=24977",
+						"higher_ranked_spell_wowhead_attr": "spell=27013",
+						"uuid": "cast_higher_rank_available:spell=24977:Kael'thas Sunstrider"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 3,
+						"spell_id": 9835,
+						"suggested_spell_id": 26988,
+						"spell_wowhead_attr": "spell=9835",
+						"higher_ranked_spell_wowhead_attr": "spell=26988",
+						"uuid": "cast_higher_rank_available:spell=9835:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -23339,7 +23401,28 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 1,
+						"spell_id": 24977,
+						"suggested_spell_id": 27013,
+						"spell_wowhead_attr": "spell=24977",
+						"higher_ranked_spell_wowhead_attr": "spell=27013",
+						"uuid": "cast_higher_rank_available:spell=24977:Lady Vashj"
+					},
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 2,
+						"spell_id": 9835,
+						"suggested_spell_id": 26988,
+						"spell_wowhead_attr": "spell=9835",
+						"higher_ranked_spell_wowhead_attr": "spell=26988",
+						"uuid": "cast_higher_rank_available:spell=9835:Lady Vashj"
+					}
+				],
 				"talents": {
 					"points": [
 						13,
@@ -25187,6 +25270,46 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 24977,
+				"suggested_spell_id": 27013,
+				"spell_wowhead_attr": "spell=24977",
+				"higher_ranked_spell_wowhead_attr": "spell=27013",
+				"uuid": "cast_higher_rank_available:spell=24977:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 1,
+				"spell_id": 24977,
+				"suggested_spell_id": 27013,
+				"spell_wowhead_attr": "spell=24977",
+				"higher_ranked_spell_wowhead_attr": "spell=27013",
+				"uuid": "cast_higher_rank_available:spell=24977:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 3,
+				"spell_id": 9835,
+				"suggested_spell_id": 26988,
+				"spell_wowhead_attr": "spell=9835",
+				"higher_ranked_spell_wowhead_attr": "spell=26988",
+				"uuid": "cast_higher_rank_available:spell=9835:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 2,
+				"spell_id": 9835,
+				"suggested_spell_id": 26988,
+				"spell_wowhead_attr": "spell=9835",
+				"higher_ranked_spell_wowhead_attr": "spell=26988",
+				"uuid": "cast_higher_rank_available:spell=9835:Lady Vashj"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -42058,16 +42181,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider",
-						"count": 7,
-						"spell_id": 8056,
-						"suggested_spell_id": 10473,
-						"spell_wowhead_attr": "spell=8056",
-						"higher_ranked_spell_wowhead_attr": "spell=10473",
-						"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -44286,16 +44399,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider",
-				"count": 7,
-				"spell_id": 8056,
-				"suggested_spell_id": 10473,
-				"spell_wowhead_attr": "spell=8056",
-				"higher_ranked_spell_wowhead_attr": "spell=10473",
-				"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider"
-			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -47964,6 +48067,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 3,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Al'ar"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -48367,6 +48480,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 30,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Fathom-Lord Karathress"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -48731,6 +48854,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High Astromancer Solarian",
+						"count": 3,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:High Astromancer Solarian"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "High Astromancer Solarian",
@@ -49420,6 +49553,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 35,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -49604,6 +49747,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 3,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Lady Vashj"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -50024,6 +50177,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 3,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Leotheras the Blind"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
@@ -50453,6 +50616,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 10,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:Morogrim Tidewalker"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -50835,6 +51008,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 7,
+						"spell_id": 19942,
+						"suggested_spell_id": 27137,
+						"spell_wowhead_attr": "spell=19942",
+						"higher_ranked_spell_wowhead_attr": "spell=27137",
+						"uuid": "cast_higher_rank_available:spell=19942:The Lurker Below"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "The Lurker Below",
@@ -51493,6 +51676,86 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 3,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 30,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High Astromancer Solarian",
+				"count": 3,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:High Astromancer Solarian"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 35,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 3,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 3,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Leotheras the Blind"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 10,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:Morogrim Tidewalker"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 7,
+				"spell_id": 19942,
+				"suggested_spell_id": 27137,
+				"spell_wowhead_attr": "spell=19942",
+				"higher_ranked_spell_wowhead_attr": "spell=27137",
+				"uuid": "cast_higher_rank_available:spell=19942:The Lurker Below"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -68232,7 +68495,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "High Astromancer Solarian",
+						"count": 2,
+						"spell_id": 11684,
+						"suggested_spell_id": 27213,
+						"spell_wowhead_attr": "spell=11684",
+						"higher_ranked_spell_wowhead_attr": "spell=27213",
+						"uuid": "cast_higher_rank_available:spell=11684:High Astromancer Solarian"
+					}
+				],
 				"talents": {
 					"points": [
 						0,
@@ -70986,6 +71260,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High Astromancer Solarian",
+				"count": 2,
+				"spell_id": 11684,
+				"suggested_spell_id": 27213,
+				"spell_wowhead_attr": "spell=11684",
+				"higher_ranked_spell_wowhead_attr": "spell=27213",
+				"uuid": "cast_higher_rank_available:spell=11684:High Astromancer Solarian"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
@@ -74131,7 +74415,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Void Reaver",
+						"count": 1,
+						"spell_id": 12174,
+						"suggested_spell_id": 33077,
+						"spell_wowhead_attr": "spell=12174",
+						"higher_ranked_spell_wowhead_attr": "spell=33077",
+						"uuid": "cast_higher_rank_available:spell=12174:Void Reaver"
+					}
+				],
 				"talents": {
 					"points": [
 						5,
@@ -74425,6 +74720,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Void Reaver",
+				"count": 1,
+				"spell_id": 12174,
+				"suggested_spell_id": 33077,
+				"spell_wowhead_attr": "spell=12174",
+				"higher_ranked_spell_wowhead_attr": "spell=33077",
+				"uuid": "cast_higher_rank_available:spell=12174:Void Reaver"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Hydross the Unstable",
@@ -83458,6 +83763,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Fathom-Lord Karathress",
+						"count": 2,
+						"spell_id": 403,
+						"suggested_spell_id": 25449,
+						"spell_wowhead_attr": "spell=403",
+						"higher_ranked_spell_wowhead_attr": "spell=25449",
+						"uuid": "cast_higher_rank_available:spell=403:Fathom-Lord Karathress"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Fathom-Lord Karathress",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=27981",
@@ -84288,6 +84603,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable",
+						"count": 2,
+						"spell_id": 403,
+						"suggested_spell_id": 25449,
+						"spell_wowhead_attr": "spell=403",
+						"higher_ranked_spell_wowhead_attr": "spell=25449",
+						"uuid": "cast_higher_rank_available:spell=403:Hydross the Unstable"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=27981",
@@ -84655,6 +84980,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 403,
+						"suggested_spell_id": 25449,
+						"spell_wowhead_attr": "spell=403",
+						"higher_ranked_spell_wowhead_attr": "spell=25449",
+						"uuid": "cast_higher_rank_available:spell=403:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -84850,6 +85185,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 1,
+						"spell_id": 403,
+						"suggested_spell_id": 25449,
+						"spell_wowhead_attr": "spell=403",
+						"higher_ranked_spell_wowhead_attr": "spell=25449",
+						"uuid": "cast_higher_rank_available:spell=403:Lady Vashj"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -85673,6 +86018,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Morogrim Tidewalker",
+						"count": 1,
+						"spell_id": 403,
+						"suggested_spell_id": 25449,
+						"spell_wowhead_attr": "spell=403",
+						"higher_ranked_spell_wowhead_attr": "spell=25449",
+						"uuid": "cast_higher_rank_available:spell=403:Morogrim Tidewalker"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Morogrim Tidewalker",
@@ -86866,6 +87221,56 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Fathom-Lord Karathress",
+				"count": 2,
+				"spell_id": 403,
+				"suggested_spell_id": 25449,
+				"spell_wowhead_attr": "spell=403",
+				"higher_ranked_spell_wowhead_attr": "spell=25449",
+				"uuid": "cast_higher_rank_available:spell=403:Fathom-Lord Karathress"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable",
+				"count": 2,
+				"spell_id": 403,
+				"suggested_spell_id": 25449,
+				"spell_wowhead_attr": "spell=403",
+				"higher_ranked_spell_wowhead_attr": "spell=25449",
+				"uuid": "cast_higher_rank_available:spell=403:Hydross the Unstable"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 403,
+				"suggested_spell_id": 25449,
+				"spell_wowhead_attr": "spell=403",
+				"higher_ranked_spell_wowhead_attr": "spell=25449",
+				"uuid": "cast_higher_rank_available:spell=403:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 1,
+				"spell_id": 403,
+				"suggested_spell_id": 25449,
+				"spell_wowhead_attr": "spell=403",
+				"higher_ranked_spell_wowhead_attr": "spell=25449",
+				"uuid": "cast_higher_rank_available:spell=403:Lady Vashj"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Morogrim Tidewalker",
+				"count": 1,
+				"spell_id": 403,
+				"suggested_spell_id": 25449,
+				"spell_wowhead_attr": "spell=403",
+				"higher_ranked_spell_wowhead_attr": "spell=25449",
+				"uuid": "cast_higher_rank_available:spell=403:Morogrim Tidewalker"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -88539,6 +88944,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 3,
+						"spell_id": 25372,
+						"suggested_spell_id": 25375,
+						"spell_wowhead_attr": "spell=25372",
+						"higher_ranked_spell_wowhead_attr": "spell=25375",
+						"uuid": "cast_higher_rank_available:spell=25372:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -88728,6 +89143,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Lady Vashj",
+						"count": 2,
+						"spell_id": 25372,
+						"suggested_spell_id": 25375,
+						"spell_wowhead_attr": "spell=25372",
+						"higher_ranked_spell_wowhead_attr": "spell=25375",
+						"uuid": "cast_higher_rank_available:spell=25372:Lady Vashj"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Lady Vashj",
@@ -90588,6 +91013,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 3,
+				"spell_id": 25372,
+				"suggested_spell_id": 25375,
+				"spell_wowhead_attr": "spell=25372",
+				"higher_ranked_spell_wowhead_attr": "spell=25375",
+				"uuid": "cast_higher_rank_available:spell=25372:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Lady Vashj",
+				"count": 2,
+				"spell_id": 25372,
+				"suggested_spell_id": 25375,
+				"spell_wowhead_attr": "spell=25372",
+				"higher_ranked_spell_wowhead_attr": "spell=25375",
+				"uuid": "cast_higher_rank_available:spell=25372:Lady Vashj"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",

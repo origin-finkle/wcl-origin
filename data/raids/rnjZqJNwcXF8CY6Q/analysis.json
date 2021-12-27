@@ -24825,6 +24825,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Moroes",
+						"count": 1,
+						"spell_id": 10230,
+						"suggested_spell_id": 27088,
+						"spell_wowhead_attr": "spell=10230",
+						"higher_ranked_spell_wowhead_attr": "spell=27088",
+						"uuid": "cast_higher_rank_available:spell=10230:Moroes"
+					},
+					{
 						"type": "invalid_gem",
 						"fight": "Moroes",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=23101%3A23096\u0026item=27738",
@@ -25542,6 +25552,16 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Nightbane",
+						"count": 4,
+						"spell_id": 27080,
+						"suggested_spell_id": 27082,
+						"spell_wowhead_attr": "spell=27080",
+						"higher_ranked_spell_wowhead_attr": "spell=27082",
+						"uuid": "cast_higher_rank_available:spell=27080:Nightbane"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -27269,6 +27289,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Moroes",
+				"count": 1,
+				"spell_id": 10230,
+				"suggested_spell_id": 27088,
+				"spell_wowhead_attr": "spell=10230",
+				"higher_ranked_spell_wowhead_attr": "spell=27088",
+				"uuid": "cast_higher_rank_available:spell=10230:Moroes"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Nightbane",
+				"count": 4,
+				"spell_id": 27080,
+				"suggested_spell_id": 27082,
+				"spell_wowhead_attr": "spell=27080",
+				"higher_ranked_spell_wowhead_attr": "spell=27082",
+				"uuid": "cast_higher_rank_available:spell=27080:Nightbane"
+			},
 			{
 				"type": "invalid_gem",
 				"fight": "Attumen the Huntsman",

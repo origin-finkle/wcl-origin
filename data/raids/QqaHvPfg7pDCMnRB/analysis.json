@@ -7724,9 +7724,9 @@
 						"fight": "Kael'thas Sunstrider",
 						"count": 7,
 						"spell_id": 1449,
-						"suggested_spell_id": 27080,
+						"suggested_spell_id": 27082,
 						"spell_wowhead_attr": "spell=1449",
-						"higher_ranked_spell_wowhead_attr": "spell=27080",
+						"higher_ranked_spell_wowhead_attr": "spell=27082",
 						"uuid": "cast_higher_rank_available:spell=1449:Kael'thas Sunstrider"
 					},
 					{
@@ -8452,7 +8452,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 1,
+						"spell_id": 28271,
+						"suggested_spell_id": 12826,
+						"spell_wowhead_attr": "spell=28271",
+						"higher_ranked_spell_wowhead_attr": "spell=12826",
+						"uuid": "cast_higher_rank_available:spell=28271:The Lurker Below"
+					}
+				],
 				"talents": {
 					"points": [
 						40,
@@ -8838,7 +8849,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Void Reaver",
+						"count": 1,
+						"spell_id": 2948,
+						"suggested_spell_id": 27074,
+						"spell_wowhead_attr": "spell=2948",
+						"higher_ranked_spell_wowhead_attr": "spell=27074",
+						"uuid": "cast_higher_rank_available:spell=2948:Void Reaver"
+					}
+				],
 				"talents": {
 					"points": [
 						40,
@@ -9161,10 +9183,30 @@
 				"fight": "Kael'thas Sunstrider",
 				"count": 7,
 				"spell_id": 1449,
-				"suggested_spell_id": 27080,
+				"suggested_spell_id": 27082,
 				"spell_wowhead_attr": "spell=1449",
-				"higher_ranked_spell_wowhead_attr": "spell=27080",
+				"higher_ranked_spell_wowhead_attr": "spell=27082",
 				"uuid": "cast_higher_rank_available:spell=1449:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 1,
+				"spell_id": 28271,
+				"suggested_spell_id": 12826,
+				"spell_wowhead_attr": "spell=28271",
+				"higher_ranked_spell_wowhead_attr": "spell=12826",
+				"uuid": "cast_higher_rank_available:spell=28271:The Lurker Below"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Void Reaver",
+				"count": 1,
+				"spell_id": 2948,
+				"suggested_spell_id": 27074,
+				"spell_wowhead_attr": "spell=2948",
+				"higher_ranked_spell_wowhead_attr": "spell=27074",
+				"uuid": "cast_higher_rank_available:spell=2948:Void Reaver"
 			},
 			{
 				"type": "missing_battle_elixir",
@@ -26061,6 +26103,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 4,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:Al'ar"
+					},
+					{
 						"type": "missing_food",
 						"fight": "Al'ar",
 						"uuid": "missing_food:Al'ar"
@@ -26453,6 +26505,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "High Astromancer Solarian",
+						"count": 2,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:High Astromancer Solarian"
+					},
+					{
 						"type": "no_enchant",
 						"fight": "High Astromancer Solarian",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=24030%3A24030\u0026item=21870",
@@ -26832,6 +26894,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable",
+						"count": 2,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:Hydross the Unstable"
+					},
+					{
 						"type": "no_enchant",
 						"fight": "Hydross the Unstable",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=24030%3A24030\u0026item=21870",
@@ -27201,6 +27273,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable - Wipe 1 (40.0%)",
+						"count": 2,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:Hydross the Unstable - Wipe 1 (40.0%)"
+					},
+					{
 						"type": "missing_item_in_slot",
 						"fight": "Hydross the Unstable - Wipe 1 (40.0%)",
 						"slot": "Armes",
@@ -27511,6 +27593,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 14,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -27599,6 +27691,16 @@
 				"name": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
+						"count": 10,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:Kael'thas Sunstrider - Wipe 1 (0.0%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
@@ -27776,6 +27878,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 5,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:Leotheras the Blind"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
@@ -28105,6 +28217,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 4,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:The Lurker Below"
+					},
 					{
 						"type": "no_enchant",
 						"fight": "The Lurker Below",
@@ -28506,6 +28628,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Void Reaver",
+						"count": 2,
+						"spell_id": 11717,
+						"suggested_spell_id": 27226,
+						"spell_wowhead_attr": "spell=11717",
+						"higher_ranked_spell_wowhead_attr": "spell=27226",
+						"uuid": "cast_higher_rank_available:spell=11717:Void Reaver"
+					},
+					{
 						"type": "no_enchant",
 						"fight": "Void Reaver",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=24030%3A24030\u0026item=21870",
@@ -28825,6 +28957,96 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 4,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:Al'ar"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "High Astromancer Solarian",
+				"count": 2,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:High Astromancer Solarian"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable",
+				"count": 2,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:Hydross the Unstable"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable - Wipe 1 (40.0%)",
+				"count": 2,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:Hydross the Unstable - Wipe 1 (40.0%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 14,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
+				"count": 10,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:Kael'thas Sunstrider - Wipe 1 (0.0%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 5,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:Leotheras the Blind"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 4,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:The Lurker Below"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Void Reaver",
+				"count": 2,
+				"spell_id": 11717,
+				"suggested_spell_id": 27226,
+				"spell_wowhead_attr": "spell=11717",
+				"higher_ranked_spell_wowhead_attr": "spell=27226",
+				"uuid": "cast_higher_rank_available:spell=11717:Void Reaver"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Leotheras the Blind",
@@ -34472,6 +34694,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Void Reaver",
+						"count": 1,
+						"spell_id": 8512,
+						"suggested_spell_id": 25587,
+						"spell_wowhead_attr": "spell=8512",
+						"higher_ranked_spell_wowhead_attr": "spell=25587",
+						"uuid": "cast_higher_rank_available:spell=8512:Void Reaver"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Void Reaver",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2649\u0026item=27549",
@@ -34786,6 +35018,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Void Reaver",
+				"count": 1,
+				"spell_id": 8512,
+				"suggested_spell_id": 25587,
+				"spell_wowhead_attr": "spell=8512",
+				"higher_ranked_spell_wowhead_attr": "spell=25587",
+				"uuid": "cast_higher_rank_available:spell=8512:Void Reaver"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -36132,6 +36374,16 @@
 				},
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable - Wipe 1 (40.0%)",
+						"count": 1,
+						"spell_id": 20349,
+						"suggested_spell_id": 27160,
+						"spell_wowhead_attr": "spell=20349",
+						"higher_ranked_spell_wowhead_attr": "spell=27160",
+						"uuid": "cast_higher_rank_available:spell=20349:Hydross the Unstable - Wipe 1 (40.0%)"
+					},
+					{
 						"type": "invalid_battle_elixir",
 						"fight": "Hydross the Unstable - Wipe 1 (40.0%)",
 						"wowhead_attr": "spell=33721",
@@ -36445,6 +36697,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 20349,
+						"suggested_spell_id": 27160,
+						"spell_wowhead_attr": "spell=20349",
+						"higher_ranked_spell_wowhead_attr": "spell=27160",
+						"uuid": "cast_higher_rank_available:spell=20349:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -36711,6 +36973,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Leotheras the Blind",
+						"count": 3,
+						"spell_id": 20349,
+						"suggested_spell_id": 27160,
+						"spell_wowhead_attr": "spell=20349",
+						"higher_ranked_spell_wowhead_attr": "spell=27160",
+						"uuid": "cast_higher_rank_available:spell=20349:Leotheras the Blind"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "Leotheras the Blind",
@@ -37089,6 +37361,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "The Lurker Below",
+						"count": 2,
+						"spell_id": 20349,
+						"suggested_spell_id": 27160,
+						"spell_wowhead_attr": "spell=20349",
+						"higher_ranked_spell_wowhead_attr": "spell=27160",
+						"uuid": "cast_higher_rank_available:spell=20349:The Lurker Below"
+					},
 					{
 						"type": "invalid_battle_elixir",
 						"fight": "The Lurker Below",
@@ -37779,6 +38061,46 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable - Wipe 1 (40.0%)",
+				"count": 1,
+				"spell_id": 20349,
+				"suggested_spell_id": 27160,
+				"spell_wowhead_attr": "spell=20349",
+				"higher_ranked_spell_wowhead_attr": "spell=27160",
+				"uuid": "cast_higher_rank_available:spell=20349:Hydross the Unstable - Wipe 1 (40.0%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 20349,
+				"suggested_spell_id": 27160,
+				"spell_wowhead_attr": "spell=20349",
+				"higher_ranked_spell_wowhead_attr": "spell=27160",
+				"uuid": "cast_higher_rank_available:spell=20349:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Leotheras the Blind",
+				"count": 3,
+				"spell_id": 20349,
+				"suggested_spell_id": 27160,
+				"spell_wowhead_attr": "spell=20349",
+				"higher_ranked_spell_wowhead_attr": "spell=27160",
+				"uuid": "cast_higher_rank_available:spell=20349:Leotheras the Blind"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "The Lurker Below",
+				"count": 2,
+				"spell_id": 20349,
+				"suggested_spell_id": 27160,
+				"spell_wowhead_attr": "spell=20349",
+				"higher_ranked_spell_wowhead_attr": "spell=27160",
+				"uuid": "cast_higher_rank_available:spell=20349:The Lurker Below"
+			},
 			{
 				"type": "invalid_battle_elixir",
 				"fight": "Hydross the Unstable",
@@ -42491,16 +42813,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider",
-						"count": 16,
-						"spell_id": 8056,
-						"suggested_spell_id": 10473,
-						"spell_wowhead_attr": "spell=8056",
-						"higher_ranked_spell_wowhead_attr": "spell=10473",
-						"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -42617,16 +42929,6 @@
 				"name": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
-						"count": 2,
-						"spell_id": 8056,
-						"suggested_spell_id": 10473,
-						"spell_wowhead_attr": "spell=8056",
-						"higher_ranked_spell_wowhead_attr": "spell=10473",
-						"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider - Wipe 1 (0.0%)"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
@@ -43829,26 +44131,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider",
-				"count": 16,
-				"spell_id": 8056,
-				"suggested_spell_id": 10473,
-				"spell_wowhead_attr": "spell=8056",
-				"higher_ranked_spell_wowhead_attr": "spell=10473",
-				"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
-				"count": 2,
-				"spell_id": 8056,
-				"suggested_spell_id": 10473,
-				"spell_wowhead_attr": "spell=8056",
-				"higher_ranked_spell_wowhead_attr": "spell=10473",
-				"uuid": "cast_higher_rank_available:spell=8056:Kael'thas Sunstrider - Wipe 1 (0.0%)"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
@@ -54985,6 +55267,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 403,
+						"suggested_spell_id": 25449,
+						"spell_wowhead_attr": "spell=403",
+						"higher_ranked_spell_wowhead_attr": "spell=25449",
+						"uuid": "cast_higher_rank_available:spell=403:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -55114,6 +55406,16 @@
 				"name": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
+						"count": 4,
+						"spell_id": 403,
+						"suggested_spell_id": 25449,
+						"spell_wowhead_attr": "spell=403",
+						"higher_ranked_spell_wowhead_attr": "spell=25449",
+						"uuid": "cast_higher_rank_available:spell=403:Kael'thas Sunstrider - Wipe 1 (0.0%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
@@ -56421,6 +56723,26 @@
 		},
 		"remarks": [
 			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 403,
+				"suggested_spell_id": 25449,
+				"spell_wowhead_attr": "spell=403",
+				"higher_ranked_spell_wowhead_attr": "spell=25449",
+				"uuid": "cast_higher_rank_available:spell=403:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
+				"count": 4,
+				"spell_id": 403,
+				"suggested_spell_id": 25449,
+				"spell_wowhead_attr": "spell=403",
+				"higher_ranked_spell_wowhead_attr": "spell=25449",
+				"uuid": "cast_higher_rank_available:spell=403:Kael'thas Sunstrider - Wipe 1 (0.0%)"
+			},
+			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",
 				"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -56531,6 +56853,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Al'ar",
+						"count": 2,
+						"spell_id": 10225,
+						"suggested_spell_id": 27128,
+						"spell_wowhead_attr": "spell=10225",
+						"higher_ranked_spell_wowhead_attr": "spell=27128",
+						"uuid": "cast_higher_rank_available:spell=10225:Al'ar"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar",
@@ -59120,6 +59452,16 @@
 		},
 		"remarks": [
 			{
+				"type": "cast_higher_rank_available",
+				"fight": "Al'ar",
+				"count": 2,
+				"spell_id": 10225,
+				"suggested_spell_id": 27128,
+				"spell_wowhead_attr": "spell=10225",
+				"higher_ranked_spell_wowhead_attr": "spell=27128",
+				"uuid": "cast_higher_rank_available:spell=10225:Al'ar"
+			},
+			{
 				"type": "invalid_enchant",
 				"fight": "Al'ar",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2649\u0026item=30037",
@@ -60777,9 +61119,9 @@
 						"fight": "Kael'thas Sunstrider",
 						"count": 3,
 						"spell_id": 20307,
-						"suggested_spell_id": 20308,
+						"suggested_spell_id": 27158,
 						"spell_wowhead_attr": "spell=20307",
-						"higher_ranked_spell_wowhead_attr": "spell=20308",
+						"higher_ranked_spell_wowhead_attr": "spell=27158",
 						"uuid": "cast_higher_rank_available:spell=20307:Kael'thas Sunstrider"
 					},
 					{
@@ -60907,9 +61249,9 @@
 						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
 						"count": 2,
 						"spell_id": 20307,
-						"suggested_spell_id": 20308,
+						"suggested_spell_id": 27158,
 						"spell_wowhead_attr": "spell=20307",
-						"higher_ranked_spell_wowhead_attr": "spell=20308",
+						"higher_ranked_spell_wowhead_attr": "spell=27158",
 						"uuid": "cast_higher_rank_available:spell=20307:Kael'thas Sunstrider - Wipe 1 (0.0%)"
 					},
 					{
@@ -62149,9 +62491,9 @@
 				"fight": "Kael'thas Sunstrider",
 				"count": 3,
 				"spell_id": 20307,
-				"suggested_spell_id": 20308,
+				"suggested_spell_id": 27158,
 				"spell_wowhead_attr": "spell=20307",
-				"higher_ranked_spell_wowhead_attr": "spell=20308",
+				"higher_ranked_spell_wowhead_attr": "spell=27158",
 				"uuid": "cast_higher_rank_available:spell=20307:Kael'thas Sunstrider"
 			},
 			{
@@ -62159,9 +62501,9 @@
 				"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
 				"count": 2,
 				"spell_id": 20307,
-				"suggested_spell_id": 20308,
+				"suggested_spell_id": 27158,
 				"spell_wowhead_attr": "spell=20307",
-				"higher_ranked_spell_wowhead_attr": "spell=20308",
+				"higher_ranked_spell_wowhead_attr": "spell=27158",
 				"uuid": "cast_higher_rank_available:spell=20307:Kael'thas Sunstrider - Wipe 1 (0.0%)"
 			},
 			{
@@ -63280,6 +63622,16 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable",
+						"count": 1,
+						"spell_id": 10230,
+						"suggested_spell_id": 27088,
+						"spell_wowhead_attr": "spell=10230",
+						"higher_ranked_spell_wowhead_attr": "spell=27088",
+						"uuid": "cast_higher_rank_available:spell=10230:Hydross the Unstable"
+					},
 					{
 						"type": "missing_guardian_elixir",
 						"fight": "Hydross the Unstable",
@@ -65257,6 +65609,16 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable",
+				"count": 1,
+				"spell_id": 10230,
+				"suggested_spell_id": 27088,
+				"spell_wowhead_attr": "spell=10230",
+				"higher_ranked_spell_wowhead_attr": "spell=27088",
+				"uuid": "cast_higher_rank_available:spell=10230:Hydross the Unstable"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Al'ar",
@@ -69816,7 +70178,18 @@
 						"events": []
 					}
 				},
-				"remarks": [],
+				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Hydross the Unstable - Wipe 1 (40.0%)",
+						"count": 1,
+						"spell_id": 10216,
+						"suggested_spell_id": 27086,
+						"spell_wowhead_attr": "spell=10216",
+						"higher_ranked_spell_wowhead_attr": "spell=27086",
+						"uuid": "cast_higher_rank_available:spell=10216:Hydross the Unstable - Wipe 1 (40.0%)"
+					}
+				],
 				"talents": {
 					"points": [
 						40,
@@ -70114,6 +70487,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 1,
+						"spell_id": 10216,
+						"suggested_spell_id": 27086,
+						"spell_wowhead_attr": "spell=10216",
+						"higher_ranked_spell_wowhead_attr": "spell=27086",
+						"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -70252,6 +70635,16 @@
 				"name": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
+						"count": 1,
+						"spell_id": 10216,
+						"suggested_spell_id": 27086,
+						"spell_wowhead_attr": "spell=10216",
+						"higher_ranked_spell_wowhead_attr": "spell=27086",
+						"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider - Wipe 1 (0.0%)"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
@@ -71473,6 +71866,36 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Hydross the Unstable - Wipe 1 (40.0%)",
+				"count": 1,
+				"spell_id": 10216,
+				"suggested_spell_id": 27086,
+				"spell_wowhead_attr": "spell=10216",
+				"higher_ranked_spell_wowhead_attr": "spell=27086",
+				"uuid": "cast_higher_rank_available:spell=10216:Hydross the Unstable - Wipe 1 (40.0%)"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 1,
+				"spell_id": 10216,
+				"suggested_spell_id": 27086,
+				"spell_wowhead_attr": "spell=10216",
+				"higher_ranked_spell_wowhead_attr": "spell=27086",
+				"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider - Wipe 1 (0.0%)",
+				"count": 1,
+				"spell_id": 10216,
+				"suggested_spell_id": 27086,
+				"spell_wowhead_attr": "spell=10216",
+				"higher_ranked_spell_wowhead_attr": "spell=27086",
+				"uuid": "cast_higher_rank_available:spell=10216:Kael'thas Sunstrider - Wipe 1 (0.0%)"
+			},
 			{
 				"type": "missing_battle_elixir",
 				"fight": "Kael'thas Sunstrider",

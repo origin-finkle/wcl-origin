@@ -25610,16 +25610,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 1,
-						"spell_id": 19941,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19941",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19941:Nightbane"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
 						"uuid": "missing_battle_elixir:Nightbane"
@@ -25859,16 +25849,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Prince Malchezaar",
-						"count": 5,
-						"spell_id": 19941,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19941",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19941:Prince Malchezaar"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Prince Malchezaar",
@@ -26195,16 +26175,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Shade of Aran",
-						"count": 1,
-						"spell_id": 19941,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19941",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19941:Shade of Aran"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Shade of Aran",
@@ -26917,16 +26887,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Terestian Illhoof",
-						"count": 1,
-						"spell_id": 19941,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19941",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19941:Terestian Illhoof"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Terestian Illhoof",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026item=28631",
@@ -27325,16 +27285,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Curator",
-						"count": 1,
-						"spell_id": 19941,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19941",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19941:The Curator"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "The Curator",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2979\u0026item=28631",
@@ -27658,56 +27608,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 1,
-				"spell_id": 19941,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19941",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19941:Nightbane"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Prince Malchezaar",
-				"count": 5,
-				"spell_id": 19941,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19941",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19941:Prince Malchezaar"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Shade of Aran",
-				"count": 1,
-				"spell_id": 19941,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19941",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19941:Shade of Aran"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Terestian Illhoof",
-				"count": 1,
-				"spell_id": 19941,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19941",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19941:Terestian Illhoof"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Curator",
-				"count": 1,
-				"spell_id": 19941,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19941",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19941:The Curator"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -37530,7 +37430,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -37558,10 +37463,6 @@
 						},
 						{
 							"spell_id": 34477,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						}
 					],
@@ -37914,7 +37815,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -37947,10 +37853,6 @@
 						{
 							"spell_id": 34120,
 							"count": 33
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -38316,7 +38218,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -38368,10 +38275,6 @@
 						},
 						{
 							"spell_id": 34477,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						}
 					],
@@ -38792,7 +38695,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 4
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -38843,10 +38751,6 @@
 							"count": 3
 						},
 						{
-							"spell_id": 35166,
-							"count": 4
-						},
-						{
 							"spell_id": 35476,
 							"count": 2
 						}
@@ -38891,7 +38795,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -38928,10 +38837,6 @@
 						{
 							"spell_id": 34120,
 							"count": 25
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -39289,7 +39194,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -39318,10 +39228,6 @@
 						{
 							"spell_id": 34120,
 							"count": 91
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -39675,6 +39581,10 @@
 						{
 							"spell_id": 27235,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -39705,10 +39615,6 @@
 						{
 							"spell_id": 34120,
 							"count": 59
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -40065,7 +39971,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -40101,10 +40012,6 @@
 						},
 						{
 							"spell_id": 34477,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						}
 					],
@@ -40456,7 +40363,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -40489,10 +40401,6 @@
 						{
 							"spell_id": 34477,
 							"count": 1
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -40850,7 +40758,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -40887,10 +40800,6 @@
 						{
 							"spell_id": 34120,
 							"count": 57
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						}
 					],
 					"unknown": [],

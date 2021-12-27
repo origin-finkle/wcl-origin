@@ -12609,16 +12609,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Attumen the Huntsman",
-						"count": 1,
-						"spell_id": 19942,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19942",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19942:Attumen the Huntsman"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Attumen the Huntsman",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2584\u0026item=22428",
@@ -14094,16 +14084,6 @@
 				"name": "Nightbane",
 				"auras": null,
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Nightbane",
-						"count": 11,
-						"spell_id": 19942,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19942",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19942:Nightbane"
-					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Nightbane",
@@ -15793,26 +15773,6 @@
 			}
 		},
 		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Attumen the Huntsman",
-				"count": 1,
-				"spell_id": 19942,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19942",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19942:Attumen the Huntsman"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Nightbane",
-				"count": 11,
-				"spell_id": 19942,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19942",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19942:Nightbane"
-			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",
@@ -23721,7 +23681,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -23750,10 +23715,6 @@
 						{
 							"spell_id": 33983,
 							"count": 8
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 51955,
@@ -24045,7 +24006,16 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						},
+						{
+							"spell_id": 40729,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -24074,14 +24044,6 @@
 						{
 							"spell_id": 33983,
 							"count": 5
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
-						},
-						{
-							"spell_id": 40729,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -24369,7 +24331,16 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						},
+						{
+							"spell_id": 40729,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 5229,
@@ -24398,14 +24369,6 @@
 						{
 							"spell_id": 33987,
 							"count": 14
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
-						},
-						{
-							"spell_id": 40729,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -24698,7 +24661,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -24751,10 +24719,6 @@
 						{
 							"spell_id": 33987,
 							"count": 6
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						}
 					],
 					"unknown": [],
@@ -24807,7 +24771,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 3
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -24840,10 +24809,6 @@
 						{
 							"spell_id": 33983,
 							"count": 28
-						},
-						{
-							"spell_id": 35166,
-							"count": 3
 						},
 						{
 							"spell_id": 51955,
@@ -24888,7 +24853,16 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						},
+						{
+							"spell_id": 40729,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -24913,14 +24887,6 @@
 						{
 							"spell_id": 33983,
 							"count": 11
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
-						},
-						{
-							"spell_id": 40729,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -25207,7 +25173,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -25263,10 +25234,6 @@
 						},
 						{
 							"spell_id": 33987,
-							"count": 2
-						},
-						{
-							"spell_id": 35166,
 							"count": 2
 						},
 						{
@@ -25562,7 +25529,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -25603,10 +25575,6 @@
 						{
 							"spell_id": 33983,
 							"count": 9
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 51955,
@@ -25899,7 +25867,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -25932,10 +25905,6 @@
 						{
 							"spell_id": 33983,
 							"count": 7
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 51955,
@@ -26230,7 +26199,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -26275,10 +26249,6 @@
 						{
 							"spell_id": 33987,
 							"count": 12
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -30504,7 +30474,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -30545,10 +30520,6 @@
 						{
 							"spell_id": 30335,
 							"count": 7
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 51955,
@@ -30905,7 +30876,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -30938,10 +30914,6 @@
 						{
 							"spell_id": 30335,
 							"count": 8
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -31298,7 +31270,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -31343,10 +31320,6 @@
 						{
 							"spell_id": 30335,
 							"count": 4
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 51955,
@@ -31706,7 +31679,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -31743,10 +31721,6 @@
 						{
 							"spell_id": 30335,
 							"count": 20
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 51955,
@@ -31810,6 +31784,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 3
 						}
 					],
 					"spells": [
@@ -31876,10 +31854,6 @@
 						{
 							"spell_id": 34428,
 							"count": 4
-						},
-						{
-							"spell_id": 35166,
-							"count": 3
 						}
 					],
 					"unknown": [],
@@ -31923,7 +31897,12 @@
 				},
 				"gear": null,
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -31964,10 +31943,6 @@
 						{
 							"spell_id": 30335,
 							"count": 8
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -32307,7 +32282,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -32348,10 +32328,6 @@
 						{
 							"spell_id": 30335,
 							"count": 16
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 51955,
@@ -32711,7 +32687,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -32756,10 +32737,6 @@
 						{
 							"spell_id": 30335,
 							"count": 13
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -33122,7 +33099,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -33155,10 +33137,6 @@
 						{
 							"spell_id": 30335,
 							"count": 6
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -33523,7 +33501,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -33576,10 +33559,6 @@
 						{
 							"spell_id": 34428,
 							"count": 2
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],

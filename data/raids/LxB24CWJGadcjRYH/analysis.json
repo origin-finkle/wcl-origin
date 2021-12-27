@@ -11475,16 +11475,6 @@
 				"auras": null,
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Opera Hall",
-						"count": 1,
-						"spell_id": 11675,
-						"suggested_spell_id": 27217,
-						"spell_wowhead_attr": "spell=11675",
-						"higher_ranked_spell_wowhead_attr": "spell=27217",
-						"uuid": "cast_higher_rank_available:spell=11675:Opera Hall"
-					},
-					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall",
 						"uuid": "missing_battle_elixir:Opera Hall"
@@ -12786,16 +12776,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Opera Hall",
-				"count": 1,
-				"spell_id": 11675,
-				"suggested_spell_id": 27217,
-				"spell_wowhead_attr": "spell=11675",
-				"higher_ranked_spell_wowhead_attr": "spell=27217",
-				"uuid": "cast_higher_rank_available:spell=11675:Opera Hall"
-			},
-			{
 				"type": "invalid_enchant",
 				"fight": "Maiden of Virtue",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2647\u0026item=22511",
@@ -13388,7 +13368,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -13416,10 +13401,6 @@
 						},
 						{
 							"spell_id": 31224,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						}
 					],
@@ -13778,7 +13759,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1833,
@@ -13822,10 +13808,6 @@
 						},
 						{
 							"spell_id": 31224,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -14194,7 +14176,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2764,
@@ -14235,10 +14222,6 @@
 						{
 							"spell_id": 26889,
 							"count": 1
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						}
 					],
 					"unknown": [],
@@ -14295,6 +14278,10 @@
 						{
 							"spell_id": 27237,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 4
 						}
 					],
 					"spells": [
@@ -14329,10 +14316,6 @@
 						{
 							"spell_id": 31224,
 							"count": 3
-						},
-						{
-							"spell_id": 35166,
-							"count": 4
 						}
 					],
 					"unknown": [],
@@ -14382,6 +14365,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -14423,10 +14410,6 @@
 						},
 						{
 							"spell_id": 26889,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -14792,7 +14775,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -14820,10 +14808,6 @@
 						},
 						{
 							"spell_id": 31224,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						}
 					],
@@ -15186,7 +15170,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2764,
@@ -15214,10 +15203,6 @@
 						},
 						{
 							"spell_id": 31224,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -15575,7 +15560,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -15603,10 +15593,6 @@
 						},
 						{
 							"spell_id": 31224,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						}
 					],
@@ -15959,7 +15945,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6774,
@@ -15984,10 +15975,6 @@
 						{
 							"spell_id": 26867,
 							"count": 4
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],

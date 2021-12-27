@@ -7774,16 +7774,6 @@
 				},
 				"remarks": [
 					{
-						"type": "cast_higher_rank_available",
-						"fight": "Hydross the Unstable",
-						"count": 3,
-						"spell_id": 19942,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19942",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19942:Hydross the Unstable"
-					},
-					{
 						"type": "invalid_enchant",
 						"fight": "Hydross the Unstable",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=29989",
@@ -8594,16 +8584,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Leotheras the Blind",
-						"count": 2,
-						"spell_id": 19942,
-						"suggested_spell_id": 27137,
-						"spell_wowhead_attr": "spell=19942",
-						"higher_ranked_spell_wowhead_attr": "spell=27137",
-						"uuid": "cast_higher_rank_available:spell=19942:Leotheras the Blind"
-					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Leotheras the Blind",
@@ -9769,26 +9749,6 @@
 		},
 		"remarks": [
 			{
-				"type": "cast_higher_rank_available",
-				"fight": "Hydross the Unstable",
-				"count": 3,
-				"spell_id": 19942,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19942",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19942:Hydross the Unstable"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Leotheras the Blind",
-				"count": 2,
-				"spell_id": 19942,
-				"suggested_spell_id": 27137,
-				"spell_wowhead_attr": "spell=19942",
-				"higher_ranked_spell_wowhead_attr": "spell=27137",
-				"uuid": "cast_higher_rank_available:spell=19942:Leotheras the Blind"
-			},
-			{
 				"type": "invalid_enchant",
 				"fight": "Fathom-Lord Karathress",
 				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=29989",
@@ -10688,7 +10648,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -10733,10 +10698,6 @@
 						{
 							"spell_id": 30330,
 							"count": 12
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -17969,7 +17930,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 469,
@@ -18014,10 +17980,6 @@
 						{
 							"spell_id": 30335,
 							"count": 14
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -18411,7 +18373,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -18440,10 +18407,6 @@
 						{
 							"spell_id": 30335,
 							"count": 14
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -18839,6 +18802,10 @@
 						{
 							"spell_id": 27237,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -18897,10 +18864,6 @@
 						{
 							"spell_id": 34428,
 							"count": 22
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						}
 					],
 					"unknown": [],
@@ -19308,6 +19271,10 @@
 						{
 							"spell_id": 27236,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -19350,10 +19317,6 @@
 						{
 							"spell_id": 30335,
 							"count": 23
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -19719,6 +19682,10 @@
 						{
 							"spell_id": 27235,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -19777,10 +19744,6 @@
 						{
 							"spell_id": 34428,
 							"count": 3
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -20176,7 +20139,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 469,
@@ -20213,10 +20181,6 @@
 						{
 							"spell_id": 30335,
 							"count": 24
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -20594,7 +20558,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -20627,10 +20596,6 @@
 						{
 							"spell_id": 34120,
 							"count": 47
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 35476,
@@ -20990,7 +20955,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -21022,10 +20992,6 @@
 						},
 						{
 							"spell_id": 34477,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						}
 					],
@@ -21387,6 +21353,10 @@
 						{
 							"spell_id": 27237,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -21436,10 +21406,6 @@
 						},
 						{
 							"spell_id": 34477,
-							"count": 2
-						},
-						{
-							"spell_id": 35166,
 							"count": 2
 						},
 						{
@@ -21814,7 +21780,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -21854,10 +21825,6 @@
 						},
 						{
 							"spell_id": 34477,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						}
 					],
@@ -22224,6 +22191,10 @@
 						{
 							"spell_id": 27237,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -22282,10 +22253,6 @@
 						{
 							"spell_id": 34477,
 							"count": 1
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -22640,7 +22607,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -22681,10 +22653,6 @@
 						{
 							"spell_id": 34477,
 							"count": 1
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -30254,7 +30222,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -30290,10 +30263,6 @@
 						},
 						{
 							"spell_id": 34477,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -30649,7 +30618,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -30682,10 +30656,6 @@
 						{
 							"spell_id": 34120,
 							"count": 37
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 35476,
@@ -31043,6 +31013,10 @@
 						{
 							"spell_id": 27236,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 3
 						}
 					],
 					"spells": [
@@ -31101,10 +31075,6 @@
 						{
 							"spell_id": 34477,
 							"count": 2
-						},
-						{
-							"spell_id": 35166,
-							"count": 3
 						},
 						{
 							"spell_id": 35476,
@@ -31481,6 +31451,10 @@
 						{
 							"spell_id": 27237,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -31531,10 +31505,6 @@
 						{
 							"spell_id": 34477,
 							"count": 1
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -31899,7 +31869,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 75,
@@ -31952,10 +31927,6 @@
 						{
 							"spell_id": 34477,
 							"count": 1
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -32314,6 +32285,10 @@
 						{
 							"spell_id": 27236,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -32356,10 +32331,6 @@
 						{
 							"spell_id": 34477,
 							"count": 1
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -32726,7 +32697,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2894,
@@ -32790,10 +32766,6 @@
 						},
 						{
 							"spell_id": 33807,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -33167,7 +33139,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -33227,10 +33204,6 @@
 						},
 						{
 							"spell_id": 33807,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -33605,7 +33578,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 526,
@@ -33702,10 +33680,6 @@
 						{
 							"spell_id": 33807,
 							"count": 3
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -34082,7 +34056,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -34158,10 +34137,6 @@
 						},
 						{
 							"spell_id": 33807,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -34513,7 +34488,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -34577,10 +34557,6 @@
 						},
 						{
 							"spell_id": 33807,
-							"count": 2
-						},
-						{
-							"spell_id": 35166,
 							"count": 2
 						},
 						{
@@ -34951,7 +34927,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -35015,10 +34996,6 @@
 						},
 						{
 							"spell_id": 33807,
-							"count": 2
-						},
-						{
-							"spell_id": 35166,
 							"count": 2
 						},
 						{
@@ -42732,18 +42709,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "Lady Vashj",
-						"count": 2,
-						"spell_id": 11675,
-						"suggested_spell_id": 27217,
-						"spell_wowhead_attr": "spell=11675",
-						"higher_ranked_spell_wowhead_attr": "spell=27217",
-						"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -43911,18 +43877,7 @@
 						"events": []
 					}
 				},
-				"remarks": [
-					{
-						"type": "cast_higher_rank_available",
-						"fight": "The Lurker Below",
-						"count": 1,
-						"spell_id": 11675,
-						"suggested_spell_id": 27217,
-						"spell_wowhead_attr": "spell=11675",
-						"higher_ranked_spell_wowhead_attr": "spell=27217",
-						"uuid": "cast_higher_rank_available:spell=11675:The Lurker Below"
-					}
-				],
+				"remarks": [],
 				"talents": {
 					"points": [
 						0,
@@ -44224,28 +44179,7 @@
 				}
 			}
 		},
-		"remarks": [
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "Lady Vashj",
-				"count": 2,
-				"spell_id": 11675,
-				"suggested_spell_id": 27217,
-				"spell_wowhead_attr": "spell=11675",
-				"higher_ranked_spell_wowhead_attr": "spell=27217",
-				"uuid": "cast_higher_rank_available:spell=11675:Lady Vashj"
-			},
-			{
-				"type": "cast_higher_rank_available",
-				"fight": "The Lurker Below",
-				"count": 1,
-				"spell_id": 11675,
-				"suggested_spell_id": 27217,
-				"spell_wowhead_attr": "spell=11675",
-				"higher_ranked_spell_wowhead_attr": "spell=27217",
-				"uuid": "cast_higher_rank_available:spell=11675:The Lurker Below"
-			}
-		]
+		"remarks": []
 	},
 	"3": {
 		"gameID": 34467580,
@@ -44588,7 +44522,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -44629,10 +44568,6 @@
 						{
 							"spell_id": 33987,
 							"count": 7
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 51955,
@@ -44971,7 +44906,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -45016,10 +44956,6 @@
 						{
 							"spell_id": 33987,
 							"count": 15
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -45358,7 +45294,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -45414,10 +45355,6 @@
 						},
 						{
 							"spell_id": 33987,
-							"count": 2
-						},
-						{
-							"spell_id": 35166,
 							"count": 2
 						},
 						{
@@ -45800,7 +45737,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -45849,10 +45791,6 @@
 						{
 							"spell_id": 33987,
 							"count": 5
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 51955,
@@ -46180,7 +46118,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -46213,10 +46156,6 @@
 						{
 							"spell_id": 33983,
 							"count": 3
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 51955,
@@ -46559,7 +46498,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -46600,10 +46544,6 @@
 						{
 							"spell_id": 33987,
 							"count": 1
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 51955,
@@ -47038,7 +46978,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -47098,10 +47043,6 @@
 						},
 						{
 							"spell_id": 33736,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -47478,7 +47419,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 17364,
@@ -47539,10 +47485,6 @@
 						{
 							"spell_id": 33736,
 							"count": 2
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 35476,
@@ -48364,6 +48306,10 @@
 						{
 							"spell_id": 27236,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -48434,10 +48380,6 @@
 						{
 							"spell_id": 33736,
 							"count": 5
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						},
 						{
 							"spell_id": 35476,
@@ -48787,6 +48729,10 @@
 						{
 							"spell_id": 27031,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -48853,10 +48799,6 @@
 						{
 							"spell_id": 33736,
 							"count": 3
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -49237,7 +49179,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 2894,
@@ -49298,10 +49245,6 @@
 						{
 							"spell_id": 33736,
 							"count": 3
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						},
 						{
 							"spell_id": 35476,
@@ -50131,7 +50074,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1680,
@@ -50164,10 +50112,6 @@
 						{
 							"spell_id": 30335,
 							"count": 15
-						},
-						{
-							"spell_id": 35166,
-							"count": 1
 						}
 					],
 					"unknown": [],
@@ -50528,6 +50472,10 @@
 						{
 							"spell_id": 27236,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -50590,10 +50538,6 @@
 						{
 							"spell_id": 34428,
 							"count": 20
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						}
 					],
 					"unknown": [],
@@ -50959,6 +50903,10 @@
 						{
 							"spell_id": 27236,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -51009,10 +50957,6 @@
 						{
 							"spell_id": 30335,
 							"count": 26
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
 						}
 					],
 					"unknown": [],
@@ -52215,7 +52159,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 20271,
@@ -52239,10 +52188,6 @@
 						},
 						{
 							"spell_id": 31884,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -52590,7 +52535,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 20218,
@@ -52618,10 +52568,6 @@
 						},
 						{
 							"spell_id": 31884,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -52985,6 +52931,10 @@
 						{
 							"spell_id": 27237,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -53026,10 +52976,6 @@
 						},
 						{
 							"spell_id": 31884,
-							"count": 2
-						},
-						{
-							"spell_id": 35166,
 							"count": 2
 						},
 						{
@@ -53393,6 +53339,10 @@
 						{
 							"spell_id": 27237,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 1
 						}
 					],
 					"spells": [
@@ -53426,10 +53376,6 @@
 						},
 						{
 							"spell_id": 31884,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -53768,6 +53714,10 @@
 						{
 							"spell_id": 27235,
 							"count": 1
+						},
+						{
+							"spell_id": 35166,
+							"count": 2
 						}
 					],
 					"spells": [
@@ -53805,10 +53755,6 @@
 						},
 						{
 							"spell_id": 31884,
-							"count": 2
-						},
-						{
-							"spell_id": 35166,
 							"count": 2
 						},
 						{
@@ -54168,7 +54114,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 1020,
@@ -54196,10 +54147,6 @@
 						},
 						{
 							"spell_id": 31884,
-							"count": 1
-						},
-						{
-							"spell_id": 35166,
 							"count": 1
 						},
 						{
@@ -54616,7 +54563,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 40729,
+							"count": 1
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 6795,
@@ -54653,10 +54605,6 @@
 						{
 							"spell_id": 33987,
 							"count": 16
-						},
-						{
-							"spell_id": 40729,
-							"count": 1
 						},
 						{
 							"spell_id": 48041,
@@ -55437,7 +55385,16 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 3
+						},
+						{
+							"spell_id": 40729,
+							"count": 3
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -55504,20 +55461,12 @@
 							"count": 40
 						},
 						{
-							"spell_id": 35166,
-							"count": 3
-						},
-						{
 							"spell_id": 38132,
 							"count": 1
 						},
 						{
 							"spell_id": 38134,
 							"count": 1
-						},
-						{
-							"spell_id": 40729,
-							"count": 3
 						}
 					],
 					"unknown": [],
@@ -55880,7 +55829,16 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						},
+						{
+							"spell_id": 40729,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 768,
@@ -55937,14 +55895,6 @@
 						{
 							"spell_id": 33987,
 							"count": 20
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
-						},
-						{
-							"spell_id": 40729,
-							"count": 2
 						}
 					],
 					"unknown": [],
@@ -56284,7 +56234,12 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 40729,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 5229,
@@ -56317,10 +56272,6 @@
 						{
 							"spell_id": 33987,
 							"count": 31
-						},
-						{
-							"spell_id": 40729,
-							"count": 2
 						},
 						{
 							"spell_id": 48041,
@@ -56695,7 +56646,16 @@
 					}
 				],
 				"analysis": {
-					"items": [],
+					"items": [
+						{
+							"spell_id": 35166,
+							"count": 2
+						},
+						{
+							"spell_id": 40729,
+							"count": 2
+						}
+					],
 					"spells": [
 						{
 							"spell_id": 5229,
@@ -56732,14 +56692,6 @@
 						{
 							"spell_id": 33987,
 							"count": 28
-						},
-						{
-							"spell_id": 35166,
-							"count": 2
-						},
-						{
-							"spell_id": 40729,
-							"count": 2
 						}
 					],
 					"unknown": [],

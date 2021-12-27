@@ -1,0 +1,643 @@
+[
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 368,
+		"name": "12 agi cape"
+	},
+	{
+		"restricted_specializations": [
+			"ArcaneMage"
+		],
+		"text_rule": "PlayerSpec = ArcaneMage",
+		"id": 369,
+		"name": "12 intel sur brassards"
+	},
+	{
+		"restricted_specializations": [
+			"EnhancementShaman",
+			"ArmsWarrior",
+			"FuryWarrior",
+			"RetributionPaladin",
+			"FeralDruid"
+		],
+		"text_rule": "PlayerSpec IN (EnhancementShaman, ArmsWarrior, FuryWarrior, RetributionPaladin, FeralDruid)",
+		"id": 684,
+		"name": "15 force gants"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 908,
+		"name": "50 hp torse"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 911,
+		"name": "Vitesse mineure"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 1071,
+		"name": "18 endu bouclier"
+	},
+	{
+		"restricted_specializations": [
+			"HolyPriest",
+			"DisciplinePriest"
+		],
+		"text_rule": "PlayerSpec IN (HolyPriest, DisciplinePriest)",
+		"id": 1144,
+		"name": "15 esprit torse"
+	},
+	{
+		"restricted_fights": [
+			"High Astromancer Solarian"
+		],
+		"text_rule": "Fight = High Astromancer Solarian",
+		"id": 1257,
+		"name": "15 RA cape"
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 1593,
+		"name": "24 pa brassards"
+	},
+	{
+		"restricted_roles": [
+			"Melee"
+		],
+		"text_rule": "PlayerRole = Melee",
+		"id": 1594,
+		"name": "26 PA gants"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 1885,
+		"name": "9 force brassards"
+	},
+	{
+		"restricted_fights": [
+			"High Astromancer Solarian"
+		],
+		"text_rule": "Fight = High Astromancer Solarian",
+		"id": 1888,
+		"name": "5 all res"
+	},
+	{
+		"restricted_specializations": [
+			"FeralDruid"
+		],
+		"text_rule": "PlayerSpec = FeralDruid",
+		"id": 1891,
+		"name": "4 carac brassards"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 1900,
+		"name": "Croisé"
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 2322,
+		"name": "35 heal power"
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 2343,
+		"name": "81 heal power arme"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2504,
+		"name": "30 spell arme"
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 2564,
+		"name": "15 agi gants"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2566,
+		"name": "24 heal power brassards"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2605,
+		"name": "ZG epaule caster"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"restricted_complex": {
+			"operator": "OR",
+			"lhs": {
+				"restricted_roles": [
+					"Tank"
+				]
+			},
+			"rhs": {
+				"restricted_fights": [
+					"Leotheras the Blind"
+				],
+				"restricted_class": [
+					"Warlock"
+				]
+			}
+		},
+		"text_rule": "(PlayerRole = Tank) OR (Fight = Leotheras the Blind AND PlayerClass = Warlock)",
+		"id": 2613,
+		"name": "2% menace gants"
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 2617,
+		"name": "30 heal power brassards"
+	},
+	{
+		"restricted_fights": [
+			"Leotheras the Blind"
+		],
+		"restricted_class": [
+			"Warlock"
+		],
+		"text_rule": "Fight = Leotheras the Blind AND PlayerClass = Warlock",
+		"id": 2619,
+		"name": "20 RF cape"
+	},
+	{
+		"restricted_fights": [
+			"Hydross the Unstable"
+		],
+		"text_rule": "Fight = Hydross the Unstable",
+		"id": 2620,
+		"name": "20 RN cape"
+	},
+	{
+		"id": 2621,
+		"name": "Discrétion"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2622,
+		"name": "12 esquive cape"
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 2647,
+		"name": "12 force poignets"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2648,
+		"name": "12 def brassards"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2649,
+		"name": "12 endu bottes"
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 2650,
+		"name": "15 spell brassards"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2653,
+		"name": "18 score de blocage bouclier"
+	},
+	{
+		"restricted_specializations": [
+			"HolyPaladin",
+			"ElementalShaman",
+			"RestorationShaman"
+		],
+		"text_rule": "PlayerSpec IN (HolyPaladin, ElementalShaman, RestorationShaman)",
+		"id": 2654,
+		"name": "12 intel bouclier"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2655,
+		"name": "15 blocage bouclier"
+	},
+	{
+		"restricted_specializations": [
+			"ArcaneMage"
+		],
+		"text_rule": "PlayerSpec = ArcaneMage",
+		"id": 2656,
+		"name": "Vitalité"
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 2657,
+		"name": "12 agi bottes"
+	},
+	{
+		"id": 2658,
+		"name": "Pied sur"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2659,
+		"name": "150 hp torse"
+	},
+	{
+		"id": 2661,
+		"name": "6 carac torse"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2662,
+		"name": "120 armure cape"
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 2669,
+		"name": "40 spell arme"
+	},
+	{
+		"id": 2670,
+		"name": "35 agi 2M"
+	},
+	{
+		"restricted_specializations": [
+			"ArcaneMage",
+			"FireMage",
+			"BalanceDruid"
+		],
+		"text_rule": "PlayerSpec IN (ArcaneMage, FireMage, BalanceDruid)",
+		"id": 2671,
+		"name": "Feu solaire"
+	},
+	{
+		"restricted_specializations": [
+			"ShadowPriest",
+			"AfflictionWarlock",
+			"DestructionWarlock",
+			"DemonologyWarlock",
+			"FrostMage"
+		],
+		"text_rule": "PlayerSpec IN (ShadowPriest, AfflictionWarlock, DestructionWarlock, DemonologyWarlock, FrostMage)",
+		"id": 2672,
+		"name": "Ame de givre"
+	},
+	{
+		"restricted_roles": [
+			"Melee",
+			"Tank"
+		],
+		"restricted_specializations_not": [
+			"ProtectionPaladin"
+		],
+		"text_rule": "PlayerRole IN (Melee, Tank) AND PlayerSpec != ProtectionPaladin",
+		"id": 2673,
+		"name": "Mangouste"
+	},
+	{
+		"restricted_class": [
+			"Hunter"
+		],
+		"text_rule": "PlayerClass = Hunter",
+		"id": 2724,
+		"name": "lunette 28 crit"
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 2746,
+		"name": "66 soins 20 endu"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2747,
+		"name": "Fil jambes 25 spell 15 endu"
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 2748,
+		"name": "35 spell 20 endu jambes"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2841,
+		"name": "Renfort d'armure en cuir granuleux lourd",
+		"spell_id": 44968
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 2928,
+		"name": "12 spell ring"
+	},
+	{
+		"restricted_roles": [
+			"Melee"
+		],
+		"text_rule": "PlayerRole = Melee",
+		"id": 2929,
+		"name": "2 weapon damage ring"
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 2930,
+		"name": "20 heal power bague"
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 2935,
+		"name": "15 spell hit gants"
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 2937,
+		"name": "20 spell gants"
+	},
+	{
+		"restricted_any": [
+			"Warlock",
+			"ArcaneMage"
+		],
+		"text_rule": "Player IN (Warlock, ArcaneMage)",
+		"id": 2938,
+		"name": "20 spell pen cape"
+	},
+	{
+		"restricted_roles": [
+			"Melee",
+			"Tank"
+		],
+		"text_rule": "PlayerRole IN (Melee, Tank)",
+		"id": 2939,
+		"name": "Vitesse du félin"
+	},
+	{
+		"id": 2940,
+		"name": "Endu vitesse sur bottes"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2977,
+		"name": "13 esquive epaules aldor (cheap)"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2978,
+		"name": "15 esquive 10 def epaules"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2979,
+		"name": "29 soins epaules aldor"
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 2980,
+		"name": "33 heal 4 mp5 epaules (aldor)"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2981,
+		"name": "15 spell Aldor"
+	},
+	{
+		"restricted_any": [
+			"ProtectionPaladin",
+			"Magic"
+		],
+		"text_rule": "Player IN (ProtectionPaladin, Magic)",
+		"id": 2982,
+		"name": "18 spell + 10 crit Aldor"
+	},
+	{
+		"invalid": true,
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "INVALID",
+		"id": 2983,
+		"name": "aldor enchant epaules melee cheap"
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 2986,
+		"name": "aldor enchant epaules melee"
+	},
+	{
+		"restricted_fights": [
+			"High Astromancer Solarian"
+		],
+		"text_rule": "Fight = High Astromancer Solarian",
+		"id": 2989,
+		"name": "8 RA"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2991,
+		"name": "aldor tank exalté"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2992,
+		"name": "5 mp5 clairvoyants cheap epaules"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 2994,
+		"name": "epaules crit clairvoyant cheap"
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 2995,
+		"name": "enchant epaules clairvoyants caster"
+	},
+	{
+		"restricted_fights": [
+			"High Astromancer Solarian"
+		],
+		"text_rule": "Fight = High Astromancer Solarian",
+		"id": 2998,
+		"name": "7 allres epaules"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2999,
+		"name": "16 def 17 esquive tête"
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 3001,
+		"name": "35 heal power tête"
+	},
+	{
+		"restricted_any": [
+			"Magic",
+			"ProtectionPaladin"
+		],
+		"text_rule": "Player IN (Magic, ProtectionPaladin)",
+		"id": 3002,
+		"name": "Glyphe de puissance"
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 3003,
+		"name": "34 PA 16 toucher tête"
+	},
+	{
+		"restricted_fights": [
+			"High Astromancer Solarian"
+		],
+		"text_rule": "Fight = High Astromancer Solarian",
+		"id": 3006,
+		"name": "20 ra tête"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 3010,
+		"name": "40 PA 10 crit jambes"
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 3011,
+		"name": "30 endu 10 agi jambes"
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 3012,
+		"name": "50 pa 12 crit jambes"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"restricted_specializations_not": [
+			"ProtectionPaladin"
+		],
+		"text_rule": "PlayerRole = Tank AND PlayerSpec != ProtectionPaladin",
+		"id": 3013,
+		"name": "40 endu 12 agi jambes"
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 3150,
+		"name": "6 mp5 torse"
+	}
+]

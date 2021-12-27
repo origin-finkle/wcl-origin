@@ -1,0 +1,310 @@
+[
+	{
+		"restricted_fights": [
+			"Magtheridon",
+			"Terestian Illhoof",
+			"Prince Malchezzar"
+		],
+		"text_rule": "Fight IN (Magtheridon, Terestian Illhoof, Prince Malchezzar)",
+		"id": 11406,
+		"name": "Elixir de tueur de démon",
+		"types": [
+			"battle_elixir"
+		]
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 17538,
+		"name": "Elixir de la mangouste",
+		"types": [
+			"battle_elixir"
+		]
+	},
+	{
+		"restricted_any": [
+			"Heal",
+			"ArcaneMage"
+		],
+		"text_rule": "Player IN (Heal, ArcaneMage)",
+		"id": 17627,
+		"name": "Flacon de sagesse distillée",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
+	},
+	{
+		"id": 17628,
+		"name": "Flacon de pouvoir suprême",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 28491,
+		"name": "Pouvoir de guérison",
+		"types": [
+			"battle_elixir"
+		]
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 28497,
+		"name": "Agilité majeure",
+		"types": [
+			"battle_elixir"
+		]
+	},
+	{
+		"restricted_roles": [
+			"Melee",
+			"Tank"
+		],
+		"text_rule": "PlayerRole IN (Melee, Tank)",
+		"id": 28502,
+		"name": "Armure majeure",
+		"types": [
+			"guardian_elixir"
+		]
+	},
+	{
+		"id": 28509,
+		"name": "Régénération de mana supérieure",
+		"types": [
+			"guardian_elixir"
+		]
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 28518,
+		"name": "Flacon de fortifiant",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 28520,
+		"name": "Flacon d'attaque implacable",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
+	},
+	{
+		"restricted_specializations": [
+			"BalanceDruid",
+			"ElementalShaman",
+			"ArcaneMage",
+			"ProtectionPaladin"
+		],
+		"text_rule": "PlayerSpec IN (BalanceDruid, ElementalShaman, ArcaneMage, ProtectionPaladin)",
+		"id": 28521,
+		"name": "Flacon de lumière aveuglante",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
+	},
+	{
+		"restricted_specializations": [
+			"AfflictionWarlock",
+			"DestructionWarlock",
+			"DemonologyWarlock",
+			"FireMage",
+			"FrostMage",
+			"ShadowPriest"
+		],
+		"text_rule": "PlayerSpec IN (AfflictionWarlock, DestructionWarlock, DemonologyWarlock, FireMage, FrostMage, ShadowPriest)",
+		"id": 28540,
+		"name": "Flacon de pure mort",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 28588,
+		"name": "Flacon de puissante restauration",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 33254,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Endurance et Esprit augmentés de 20."
+	},
+	{
+		"restricted_specializations": [
+			"ArmsWarrior",
+			"ProtectionWarrior",
+			"FuryWarrior",
+			"RetributionPaladin",
+			"EnhancementShaman"
+		],
+		"text_rule": "PlayerSpec IN (ArmsWarrior, ProtectionWarrior, FuryWarrior, RetributionPaladin, EnhancementShaman)",
+		"id": 33256,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Force et Esprit augmentés de 20."
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 33257,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Endurance augmentée de 30 et Esprit augmenté de 20."
+	},
+	{
+		"restricted_specializations": [
+			"AssassinationRogue",
+			"SubtletyRogue",
+			"CombatRogue",
+			"FeralDruid",
+			"SurvivalHunter",
+			"MarksmanshipHunter",
+			"BeastMasteryHunter"
+		],
+		"text_rule": "PlayerSpec IN (AssassinationRogue, SubtletyRogue, CombatRogue, FeralDruid, SurvivalHunter, MarksmanshipHunter, BeastMasteryHunter)",
+		"id": 33261,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Agilité et Esprit augmentés de 20."
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 33263,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Dégâts des sorts augmentés de 23 et Esprit augmenté de 20."
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 33265,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Régénération du mana augmentée de 8 points de mana toutes les 5 secondes et Endurance augmentée de 20."
+	},
+	{
+		"restricted_roles": [
+			"Heal"
+		],
+		"text_rule": "PlayerRole = Heal",
+		"id": 33268,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Augmente les soins prodigués de 44 et l'Esprit de 20."
+	},
+	{
+		"restricted_roles": [
+			"Magic"
+		],
+		"text_rule": "PlayerRole = Magic",
+		"id": 33721,
+		"name": "Elixir d'adepte",
+		"types": [
+			"battle_elixir"
+		]
+	},
+	{
+		"invalid": true,
+		"text_rule": "INVALID",
+		"id": 35272,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Endurance et Esprit augmentés de 20."
+	},
+	{
+		"id": 39625,
+		"name": "Elixir de robustesse majeure",
+		"types": [
+			"guardian_elixir"
+		]
+	},
+	{
+		"restricted_specializations": [
+			"FireMage",
+			"FrostMage",
+			"ArcaneMage",
+			"BalanceDruid",
+			"ProtectionPaladin",
+			"ShadowPriest",
+			"AfflictionWarlock",
+			"DemonologyWarlock",
+			"DestructionWarlock",
+			"ElementalShaman",
+			"HolyPriest",
+			"RestorationDruid",
+			"DisciplinePriest",
+			"HolyPaladin",
+			"RestorationShaman"
+		],
+		"text_rule": "PlayerSpec IN (FireMage, FrostMage, ArcaneMage, BalanceDruid, ProtectionPaladin, ShadowPriest, AfflictionWarlock, DemonologyWarlock, DestructionWarlock, ElementalShaman, HolyPriest, RestorationDruid, DisciplinePriest, HolyPaladin, RestorationShaman)",
+		"id": 39627,
+		"name": "Elixir de sagesse draenique",
+		"types": [
+			"guardian_elixir"
+		]
+	},
+	{
+		"restricted_roles": [
+			"Melee",
+			"Tank"
+		],
+		"text_rule": "PlayerRole IN (Melee, Tank)",
+		"id": 43764,
+		"name": "Bien nourri",
+		"types": [
+			"food"
+		],
+		"description": "Score de toucher et Esprit augmentés de 20."
+	}
+]

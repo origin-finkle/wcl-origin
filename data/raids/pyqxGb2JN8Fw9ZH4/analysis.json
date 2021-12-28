@@ -48424,6 +48424,17 @@
 				},
 				"remarks": [
 					{
+						"type": "could_maximize_casts",
+						"fight": "Al'ar",
+						"spell_id": 25442,
+						"spell_wowhead_attr": "spell=25442",
+						"possible_casts": 84,
+						"actual_casts": 21,
+						"threshold": 60,
+						"actual_percentage_of_use": 25,
+						"uuid": "could_maximize_casts:spell=25442:Al'ar"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Al'ar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=27981",
@@ -48846,6 +48857,17 @@
 					}
 				},
 				"remarks": [
+					{
+						"type": "could_maximize_casts",
+						"fight": "Gruul the Dragonkiller",
+						"spell_id": 25442,
+						"spell_wowhead_attr": "spell=25442",
+						"possible_casts": 31,
+						"actual_casts": 17,
+						"threshold": 60,
+						"actual_percentage_of_use": 54,
+						"uuid": "could_maximize_casts:spell=25442:Gruul the Dragonkiller"
+					},
 					{
 						"type": "invalid_enchant",
 						"fight": "Gruul the Dragonkiller",
@@ -50210,6 +50232,17 @@
 						"uuid": "cast_higher_rank_available:spell=403:Magtheridon"
 					},
 					{
+						"type": "could_maximize_casts",
+						"fight": "Magtheridon",
+						"spell_id": 25442,
+						"spell_wowhead_attr": "spell=25442",
+						"possible_casts": 64,
+						"actual_casts": 21,
+						"threshold": 60,
+						"actual_percentage_of_use": 32,
+						"uuid": "could_maximize_casts:spell=25442:Magtheridon"
+					},
+					{
 						"type": "invalid_enchant",
 						"fight": "Magtheridon",
 						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2662\u0026item=27981",
@@ -51007,6 +51040,39 @@
 				"spell_wowhead_attr": "spell=403",
 				"higher_ranked_spell_wowhead_attr": "spell=25449",
 				"uuid": "cast_higher_rank_available:spell=403:Magtheridon"
+			},
+			{
+				"type": "could_maximize_casts",
+				"fight": "Al'ar",
+				"spell_id": 25442,
+				"spell_wowhead_attr": "spell=25442",
+				"possible_casts": 84,
+				"actual_casts": 21,
+				"threshold": 60,
+				"actual_percentage_of_use": 25,
+				"uuid": "could_maximize_casts:spell=25442:Al'ar"
+			},
+			{
+				"type": "could_maximize_casts",
+				"fight": "Gruul the Dragonkiller",
+				"spell_id": 25442,
+				"spell_wowhead_attr": "spell=25442",
+				"possible_casts": 31,
+				"actual_casts": 17,
+				"threshold": 60,
+				"actual_percentage_of_use": 54,
+				"uuid": "could_maximize_casts:spell=25442:Gruul the Dragonkiller"
+			},
+			{
+				"type": "could_maximize_casts",
+				"fight": "Magtheridon",
+				"spell_id": 25442,
+				"spell_wowhead_attr": "spell=25442",
+				"possible_casts": 64,
+				"actual_casts": 21,
+				"threshold": 60,
+				"actual_percentage_of_use": 32,
+				"uuid": "could_maximize_casts:spell=25442:Magtheridon"
 			},
 			{
 				"type": "invalid_enchant",

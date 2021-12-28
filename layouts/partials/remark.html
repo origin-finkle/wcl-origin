@@ -29,11 +29,13 @@ du totem windfury.
 {{ else if eq .type "invalid_temporary_enchant" }}
 L'amélioration posée sur {{ partialCached "wowhead" (dict "data-wowhead" .item_wowhead_attr) .item_wowhead_attr }} est invalide
 {{ else if eq .type "cast_higher_rank_available" }}
-Le sort {{ partialCached "wowhead" (dict "data-wowhead" .spell_wowhead_attr) .spell_wowhead_attr }} a été utilisé {{ .count }} alors qu'un rang plus élevé est disponible ({{ partialCached "wowhead" (dict "data-wowhead" .higher_ranked_spell_wowhead_attr) .higher_ranked_spell_wowhead_attr }})
+Le sort {{ partialCached "wowhead" (dict "data-wowhead" .spell_wowhead_attr) .spell_wowhead_attr }} a été utilisé {{ .count }} fois alors qu'un rang plus élevé est disponible ({{ partialCached "wowhead" (dict "data-wowhead" .higher_ranked_spell_wowhead_attr) .higher_ranked_spell_wowhead_attr }})
 {{ else if eq .type "invalid_talent_points" }}
 {{ .points_used }} / {{ .expected_points }} points de talents utilisés.
 {{ else if eq .type "missing_item_in_slot" }}
 Il manque un item dans le slot {{ .slot }}
+{{ else if eq .type "could_maximize_casts" }}
+Le sort {{ partialCached "wowhead" (dict "data-wowhead" .spell_wowhead_attr) .spell_wowhead_attr }} a été utilisé {{ .actual_casts }} fois sur {{ .possible_casts }} potentielles utilisations. C'est en dessous du seuil suggéré pour un meilleur apport en dps ({{ .actual_percentage_of_use }}%, {{ .threshold }}% suggéré)
 {{ else }}
 {{ errorf "unknown remark type %s" .type }}
 {{ end }}

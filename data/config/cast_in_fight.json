@@ -5118,11 +5118,14 @@
 		"rank": 1
 	},
 	"331": {
+		"invalid": true,
+		"invalid_reason": "cast_higher_rank_available",
 		"spell_id": 331,
 		"display": true,
 		"name": "Vague de soins",
 		"type": "spell",
-		"rank": 1
+		"rank": 1,
+		"suggested_spell_id": 547
 	},
 	"33206": {
 		"spell_id": 33206,
@@ -6006,6 +6009,16 @@
 		"name": "Marche sur l'eau",
 		"type": "spell",
 		"rank": 1
+	},
+	"547": {
+		"invalid": true,
+		"invalid_reason": "cast_higher_rank_available",
+		"spell_id": 547,
+		"display": true,
+		"name": "Vague de soins",
+		"type": "spell",
+		"rank": 3,
+		"suggested_spell_id": 25396
 	},
 	"552": {
 		"spell_id": 552,

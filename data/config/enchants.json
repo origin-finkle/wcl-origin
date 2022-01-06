@@ -561,6 +561,14 @@
 		"name": "enchant epaules clairvoyants caster"
 	},
 	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 2997,
+		"name": "exalté epaules aldor cac"
+	},
+	{
 		"restricted_fights": [
 			"High Astromancer Solarian"
 		],
@@ -639,6 +647,16 @@
 		"text_rule": "PlayerRole = Tank AND PlayerSpec != ProtectionPaladin",
 		"id": 3013,
 		"name": "40 endu 12 agi jambes"
+	},
+	{
+		"restricted_specializations": [
+			"RetributionPaladin",
+			"ArmsWarrior",
+			"FeralDruid"
+		],
+		"text_rule": "PlayerSpec IN (RetributionPaladin, ArmsWarrior, FeralDruid)",
+		"id": 3096,
+		"name": "17 force 16 intel tête"
 	},
 	{
 		"restricted_roles": [

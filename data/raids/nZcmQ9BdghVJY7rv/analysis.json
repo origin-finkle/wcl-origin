@@ -10385,12 +10385,14 @@
 				},
 				"remarks": [
 					{
-						"type": "invalid_enchant",
+						"type": "cast_higher_rank_available",
 						"fight": "Al'ar",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Al'ar"
+						"count": 9,
+						"spell_id": 331,
+						"suggested_spell_id": 547,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=547",
+						"uuid": "cast_higher_rank_available:spell=331:Al'ar"
 					},
 					{
 						"type": "no_enchant",
@@ -10801,14 +10803,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "invalid_enchant",
-						"fight": "High Astromancer Solarian",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:High Astromancer Solarian"
-					},
 					{
 						"type": "no_enchant",
 						"fight": "High Astromancer Solarian",
@@ -11436,14 +11430,6 @@
 				},
 				"remarks": [
 					{
-						"type": "invalid_enchant",
-						"fight": "Void Reaver",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Void Reaver"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Void Reaver",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=24057%3A24057\u0026item=30092",
@@ -11747,28 +11733,14 @@
 		},
 		"remarks": [
 			{
-				"type": "invalid_enchant",
+				"type": "cast_higher_rank_available",
 				"fight": "Al'ar",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Al'ar"
-			},
-			{
-				"type": "invalid_enchant",
-				"fight": "High Astromancer Solarian",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:High Astromancer Solarian"
-			},
-			{
-				"type": "invalid_enchant",
-				"fight": "Void Reaver",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Void Reaver"
+				"count": 9,
+				"spell_id": 331,
+				"suggested_spell_id": 547,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=547",
+				"uuid": "cast_higher_rank_available:spell=331:Al'ar"
 			},
 			{
 				"type": "missing_battle_elixir",

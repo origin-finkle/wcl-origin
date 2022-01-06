@@ -10087,14 +10087,6 @@
 				},
 				"remarks": [
 					{
-						"type": "invalid_enchant",
-						"fight": "Lady Vashj",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Lady Vashj"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Lady Vashj",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=24057%3A24057\u0026item=30092",
@@ -10526,12 +10518,14 @@
 				},
 				"remarks": [
 					{
-						"type": "invalid_enchant",
+						"type": "cast_higher_rank_available",
 						"fight": "Morogrim Tidewalker",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Morogrim Tidewalker"
+						"count": 6,
+						"spell_id": 331,
+						"suggested_spell_id": 547,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=547",
+						"uuid": "cast_higher_rank_available:spell=331:Morogrim Tidewalker"
 					},
 					{
 						"type": "no_enchant",
@@ -10872,20 +10866,14 @@
 		},
 		"remarks": [
 			{
-				"type": "invalid_enchant",
-				"fight": "Lady Vashj",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Lady Vashj"
-			},
-			{
-				"type": "invalid_enchant",
+				"type": "cast_higher_rank_available",
 				"fight": "Morogrim Tidewalker",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Morogrim Tidewalker"
+				"count": 6,
+				"spell_id": 331,
+				"suggested_spell_id": 547,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=547",
+				"uuid": "cast_higher_rank_available:spell=331:Morogrim Tidewalker"
 			},
 			{
 				"type": "no_enchant",

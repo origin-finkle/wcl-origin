@@ -7032,6 +7032,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Opera Hall",
+						"count": 3,
+						"spell_id": 331,
+						"suggested_spell_id": 547,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=547",
+						"uuid": "cast_higher_rank_available:spell=331:Opera Hall"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Opera Hall",
 						"uuid": "missing_battle_elixir:Opera Hall"
@@ -7095,6 +7105,16 @@
 				"name": "Prince Malchezaar",
 				"auras": null,
 				"remarks": [
+					{
+						"type": "cast_higher_rank_available",
+						"fight": "Prince Malchezaar",
+						"count": 6,
+						"spell_id": 331,
+						"suggested_spell_id": 547,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=547",
+						"uuid": "cast_higher_rank_available:spell=331:Prince Malchezaar"
+					},
 					{
 						"type": "missing_battle_elixir",
 						"fight": "Prince Malchezaar",
@@ -8533,6 +8553,26 @@
 			}
 		},
 		"remarks": [
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Opera Hall",
+				"count": 3,
+				"spell_id": 331,
+				"suggested_spell_id": 547,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=547",
+				"uuid": "cast_higher_rank_available:spell=331:Opera Hall"
+			},
+			{
+				"type": "cast_higher_rank_available",
+				"fight": "Prince Malchezaar",
+				"count": 6,
+				"spell_id": 331,
+				"suggested_spell_id": 547,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=547",
+				"uuid": "cast_higher_rank_available:spell=331:Prince Malchezaar"
+			},
 			{
 				"type": "invalid_enchant",
 				"fight": "Attumen the Huntsman",

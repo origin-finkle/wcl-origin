@@ -22251,14 +22251,6 @@
 				},
 				"remarks": [
 					{
-						"type": "invalid_enchant",
-						"fight": "Al'ar",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Al'ar"
-					},
-					{
 						"type": "no_enchant",
 						"fight": "Al'ar",
 						"item_wowhead_attr": "domain=fr.tbc\u0026gems=24057%3A24057\u0026item=30092",
@@ -22656,14 +22648,6 @@
 				},
 				"remarks": [
 					{
-						"type": "invalid_enchant",
-						"fight": "High Astromancer Solarian",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:High Astromancer Solarian"
-					},
-					{
 						"type": "invalid_temporary_enchant",
 						"fight": "High Astromancer Solarian",
 						"item_wowhead_attr": "item=28771\u0026ench=2634",
@@ -23037,14 +23021,6 @@
 				},
 				"remarks": [
 					{
-						"type": "invalid_enchant",
-						"fight": "High Astromancer Solarian - Wipe 1 (100%)",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:High Astromancer Solarian - Wipe 1 (100%)"
-					},
-					{
 						"type": "invalid_temporary_enchant",
 						"fight": "High Astromancer Solarian - Wipe 1 (100%)",
 						"item_wowhead_attr": "item=28771\u0026ench=2634",
@@ -23325,6 +23301,16 @@
 				"auras": null,
 				"remarks": [
 					{
+						"type": "cast_higher_rank_available",
+						"fight": "Kael'thas Sunstrider",
+						"count": 2,
+						"spell_id": 331,
+						"suggested_spell_id": 547,
+						"spell_wowhead_attr": "spell=331",
+						"higher_ranked_spell_wowhead_attr": "spell=547",
+						"uuid": "cast_higher_rank_available:spell=331:Kael'thas Sunstrider"
+					},
+					{
 						"type": "missing_battle_elixir",
 						"fight": "Kael'thas Sunstrider",
 						"uuid": "missing_battle_elixir:Kael'thas Sunstrider"
@@ -23541,14 +23527,6 @@
 					}
 				},
 				"remarks": [
-					{
-						"type": "invalid_enchant",
-						"fight": "Void Reaver",
-						"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-						"slot": "Épaule",
-						"enchant_id": 2993,
-						"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Void Reaver"
-					},
 					{
 						"type": "invalid_temporary_enchant",
 						"fight": "Void Reaver",
@@ -23870,36 +23848,14 @@
 		},
 		"remarks": [
 			{
-				"type": "invalid_enchant",
-				"fight": "Al'ar",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Al'ar"
-			},
-			{
-				"type": "invalid_enchant",
-				"fight": "High Astromancer Solarian",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:High Astromancer Solarian"
-			},
-			{
-				"type": "invalid_enchant",
-				"fight": "High Astromancer Solarian - Wipe 1 (100%)",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:High Astromancer Solarian - Wipe 1 (100%)"
-			},
-			{
-				"type": "invalid_enchant",
-				"fight": "Void Reaver",
-				"item_wowhead_attr": "domain=fr.tbc\u0026ench=2993\u0026item=21874",
-				"slot": "Épaule",
-				"enchant_id": 2993,
-				"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2993\u0026item=21874:Épaule:Void Reaver"
+				"type": "cast_higher_rank_available",
+				"fight": "Kael'thas Sunstrider",
+				"count": 2,
+				"spell_id": 331,
+				"suggested_spell_id": 547,
+				"spell_wowhead_attr": "spell=331",
+				"higher_ranked_spell_wowhead_attr": "spell=547",
+				"uuid": "cast_higher_rank_available:spell=331:Kael'thas Sunstrider"
 			},
 			{
 				"type": "invalid_temporary_enchant",

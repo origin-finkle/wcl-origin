@@ -1,0 +1,36 @@
+{{ $lockouts := .lockouts }}
+{{ $character := .character }}
+
+<table class="table table-responsive table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Raid</th>
+            {{ range $lockout := $lockouts }}
+                <th>{{ $lockout }}</th>
+            {{ end }}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            {{ partial "characters/attendance/zone" (dict "lockouts" $lockouts "character" $character "key" "kharazan" "name" "Kharazan") }}
+        </tr>
+        <tr>
+            {{ partial "characters/attendance/zone" (dict "lockouts" $lockouts "character" $character "key" "gruul" "name" "Gruul") }}
+        </tr>
+        <tr>
+            {{ partial "characters/attendance/zone" (dict "lockouts" $lockouts "character" $character "key" "magtheridon" "name" "Magtheridon") }}
+        </tr>
+        <tr>
+            {{ partial "characters/attendance/zone" (dict "lockouts" $lockouts "character" $character "key" "ssc" "name" "SSC") }}
+        </tr>
+        <tr>
+            {{ partial "characters/attendance/zone" (dict "lockouts" $lockouts "character" $character "key" "tk" "name" "TK") }}
+        </tr>
+        <tr>
+            {{ partial "characters/attendance/zone" (dict "lockouts" $lockouts "character" $character "key" "hyjal" "name" "Hyjal") }}
+        </tr>
+        <tr>
+            {{ partial "characters/attendance/zone" (dict "lockouts" $lockouts "character" $character "key" "bt" "name" "BT") }}
+        </tr>
+    </tbody>
+</table>

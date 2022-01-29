@@ -1,0 +1,12 @@
+{{ $zoneID := int . }}
+{{ if eq $zoneID 1007 }}
+Kharazan
+{{ else if eq $zoneID 1008 }}
+Gruul/Magthéridon
+{{ else if eq $zoneID 1010 }}
+SSC/TK
+{{ else if eq $zoneID 1011 }}
+Hyjal/BT
+{{ else }}
+{{ errorf "unknown zone ID %d" $zoneID }}
+{{ end }}

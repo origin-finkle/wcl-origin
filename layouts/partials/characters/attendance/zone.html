@@ -1,0 +1,18 @@
+{{ $lockouts := .lockouts }}
+{{ $character := .character }}
+{{ $zoneName := .name }}
+
+{{ $attendance := index $character.attendance .key }}
+
+<td>{{ $zoneName }}<br>({{ int (mul $attendance.percentage 100) }} %)</td>
+{{ range $lockout := $lockouts }}
+    {{ if index $attendance.details $lockout }}
+        <td class="table-success">
+            <a href="{{ relURL (printf "/raids/%s" (strings.ToLower (index (index $attendance.details $lockout) 0))) }}">
+                ✔️
+            </a>
+        </td>
+    {{ else }}
+        <td class="table-danger">❌</td>
+    {{ end }}
+{{ end }}

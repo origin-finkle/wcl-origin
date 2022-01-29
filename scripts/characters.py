@@ -30,6 +30,8 @@ lockouts_per_raid = {
     "magtheridon": count_lockouts_since(datetime.datetime(year=2021, month=6, day=2)),
     "ssc": count_lockouts_since(datetime.datetime(year=2021, month=9, day=15)),
     "tk": count_lockouts_since(datetime.datetime(year=2021, month=9, day=15)),
+    "hyjal": count_lockouts_since(datetime.datetime(year=2022, month=1, day=28)),
+    "bt": count_lockouts_since(datetime.datetime(year=2022, month=1, day=28)),
 }
 
 bosses_per_raid = {
@@ -56,31 +58,28 @@ bosses_per_raid = {
         "Leotheras the Blind",
     ),
     "tk": ("Al'ar", "Void Reaver", "High Astromancer Solarian", "Kael'tha Sunstrider"),
+    "hyjal": ("Rage Winterchill", "Anetheron", "Kaz'rogal", "Azgalor", "Archimonde"),
+    "bt": (
+        "High Warlord Naj'entus",
+        "Supremus",
+        "Shade of Akama",
+        "Teron Gorefiend",
+        "Gurtogg Bloodboil",
+        "Reliquary of Souls",
+        "Mother Shahraz",
+        "The Illidari Council",
+        "Illidan Stormrage",
+    ),
 }
 
 
 def compute_attendance(raids):
     data = {
-        "kharazan": {
+        k: {
             "percentage": 0,
             "details": {},
-        },
-        "gruul": {
-            "percentage": 0,
-            "details": {},
-        },
-        "magtheridon": {
-            "percentage": 0,
-            "details": {},
-        },
-        "ssc": {
-            "percentage": 0,
-            "details": {},
-        },
-        "tk": {
-            "percentage": 0,
-            "details": {},
-        },
+        }
+        for k in lockouts_per_raid.keys()
     }
     idx = 0
     for raid in raids:

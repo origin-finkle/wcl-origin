@@ -65,6 +65,27 @@
 		"name": "15 RA cape"
 	},
 	{
+		"restricted_complex": {
+			"operator": "OR",
+			"lhs": {
+				"restricted_fights": [
+					"Mother Shahraz"
+				]
+			},
+			"rhs": {
+				"restricted_fights": [
+					"Illidan Stormrage"
+				],
+				"restricted_class": [
+					"Warlock"
+				]
+			}
+		},
+		"text_rule": "(Fight = Mother Shahraz) OR (Fight = Illidan Stormrage AND PlayerClass = Warlock)",
+		"id": 1441,
+		"name": "15 ro cape"
+	},
+	{
 		"restricted_roles": [
 			"Physical"
 		],
@@ -183,13 +204,26 @@
 		"name": "30 heal power brassards"
 	},
 	{
-		"restricted_fights": [
-			"Leotheras the Blind"
-		],
-		"restricted_class": [
-			"Warlock"
-		],
-		"text_rule": "Fight = Leotheras the Blind AND PlayerClass = Warlock",
+		"restricted_complex": {
+			"operator": "OR",
+			"lhs": {
+				"restricted_fights": [
+					"Leotheras the Blind"
+				],
+				"restricted_class": [
+					"Warlock"
+				]
+			},
+			"rhs": {
+				"restricted_roles": [
+					"Tank"
+				],
+				"restricted_fights": [
+					"Illidan Stormrage"
+				]
+			}
+		},
+		"text_rule": "(Fight = Leotheras the Blind AND PlayerClass = Warlock) OR (PlayerRole = Tank AND Fight = Illidan Stormrage)",
 		"id": 2619,
 		"name": "20 RF cape"
 	},
@@ -509,6 +543,38 @@
 		"name": "aldor enchant epaules melee cheap"
 	},
 	{
+		"restricted_complex": {
+			"operator": "OR",
+			"lhs": {
+				"restricted_fights": [
+					"Mother Shahraz"
+				]
+			},
+			"rhs": {
+				"restricted_fights": [
+					"Illidan Stormrage"
+				],
+				"restricted_class": [
+					"Warlock"
+				]
+			}
+		},
+		"text_rule": "(Fight = Mother Shahraz) OR (Fight = Illidan Stormrage AND PlayerClass = Warlock)",
+		"id": 2984,
+		"name": "patch 8 ro"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"restricted_fights": [
+			"Illidan Stormrage"
+		],
+		"text_rule": "PlayerRole = Tank AND Fight = Illidan Stormrage",
+		"id": 2985,
+		"name": "patch 8 RF"
+	},
+	{
 		"restricted_roles": [
 			"Physical"
 		],
@@ -618,6 +684,27 @@
 		"name": "20 ra tête"
 	},
 	{
+		"restricted_complex": {
+			"operator": "OR",
+			"lhs": {
+				"restricted_fights": [
+					"Mother Shahraz"
+				]
+			},
+			"rhs": {
+				"restricted_fights": [
+					"Illidan Stormrage"
+				],
+				"restricted_class": [
+					"Warlock"
+				]
+			}
+		},
+		"text_rule": "(Fight = Mother Shahraz) OR (Fight = Illidan Stormrage AND PlayerClass = Warlock)",
+		"id": 3009,
+		"name": "20 ro tête"
+	},
+	{
 		"invalid": true,
 		"text_rule": "INVALID",
 		"id": 3010,
@@ -665,5 +752,13 @@
 		"text_rule": "PlayerRole = Heal",
 		"id": 3150,
 		"name": "6 mp5 torse"
+	},
+	{
+		"restricted_roles": [
+			"Physical"
+		],
+		"text_rule": "PlayerRole = Physical",
+		"id": 3222,
+		"name": "20 agi arme 1h"
 	}
 ]

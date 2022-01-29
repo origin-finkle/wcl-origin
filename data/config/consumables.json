@@ -3,9 +3,12 @@
 		"restricted_fights": [
 			"Magtheridon",
 			"Terestian Illhoof",
-			"Prince Malchezzar"
+			"Prince Malchezzar",
+			"Illidan Stormrage",
+			"Mother Shahraz",
+			"Supremus"
 		],
-		"text_rule": "Fight IN (Magtheridon, Terestian Illhoof, Prince Malchezzar)",
+		"text_rule": "Fight IN (Magtheridon, Terestian Illhoof, Prince Malchezzar, Illidan Stormrage, Mother Shahraz, Supremus)",
 		"id": 11406,
 		"name": "Elixir de tueur de démon",
 		"types": [
@@ -293,6 +296,15 @@
 		"types": [
 			"guardian_elixir"
 		]
+	},
+	{
+		"restricted_fights": [
+			"Mother Shahraz"
+		],
+		"text_rule": "Fight = Mother Shahraz",
+		"id": 42735,
+		"name": "Flacon de merveille chromatique",
+		"types": null
 	},
 	{
 		"restricted_roles": [

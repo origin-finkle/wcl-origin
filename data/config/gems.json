@@ -1,13 +1,36 @@
 [
 	{
-		"restricted_roles": [
-			"Tank"
-		],
-		"restricted_fights": [
-			"Hydross the Unstable",
-			"High Astromancer Solarian"
-		],
-		"text_rule": "PlayerRole = Tank AND Fight IN (Hydross the Unstable, High Astromancer Solarian)",
+		"restricted_complex": {
+			"operator": "OR",
+			"lhs": {
+				"restricted_roles": [
+					"Tank"
+				],
+				"restricted_fights": [
+					"Hydross the Unstable",
+					"High Astromancer Solarian"
+				]
+			},
+			"rhs": {
+				"restricted_complex": {
+					"operator": "OR",
+					"lhs": {
+						"restricted_fights": [
+							"Mother Shahraz"
+						]
+					},
+					"rhs": {
+						"restricted_fights": [
+							"Illidan Stormrage"
+						],
+						"restricted_class": [
+							"Warlock"
+						]
+					}
+				}
+			}
+		},
+		"text_rule": "(PlayerRole = Tank AND Fight IN (Hydross the Unstable, High Astromancer Solarian)) OR ((Fight = Mother Shahraz) OR (Fight = Illidan Stormrage AND PlayerClass = Warlock))",
 		"id": 22459,
 		"name": "Sphère de vide",
 		"quality": 4,

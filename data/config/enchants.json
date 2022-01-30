@@ -68,9 +68,19 @@
 		"restricted_complex": {
 			"operator": "OR",
 			"lhs": {
-				"restricted_fights": [
-					"Mother Shahraz"
-				]
+				"restricted_complex": {
+					"operator": "OR",
+					"lhs": {
+						"restricted_fights": [
+							"Mother Shahraz"
+						]
+					},
+					"rhs": {
+						"restricted_roles": [
+							"Heal"
+						]
+					}
+				}
 			},
 			"rhs": {
 				"restricted_fights": [
@@ -81,7 +91,7 @@
 				]
 			}
 		},
-		"text_rule": "(Fight = Mother Shahraz) OR (Fight = Illidan Stormrage AND PlayerClass = Warlock)",
+		"text_rule": "((Fight = Mother Shahraz) OR (PlayerRole = Heal)) OR (Fight = Illidan Stormrage AND PlayerClass = Warlock)",
 		"id": 1441,
 		"name": "15 ro cape"
 	},
@@ -392,6 +402,14 @@
 		"name": "Mangouste"
 	},
 	{
+		"restricted_fights": [
+			"Mother Shahraz"
+		],
+		"text_rule": "Fight = Mother Shahraz",
+		"id": 2683,
+		"name": "10 ro jambes"
+	},
+	{
 		"restricted_class": [
 			"Hunter"
 		],
@@ -420,6 +438,14 @@
 		"text_rule": "PlayerRole = Magic",
 		"id": 2748,
 		"name": "35 spell 20 endu jambes"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2793,
+		"name": "patch 8 def"
 	},
 	{
 		"invalid": true,
@@ -451,6 +477,14 @@
 		"text_rule": "PlayerRole = Heal",
 		"id": 2930,
 		"name": "20 heal power bague"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 2933,
+		"name": "15 resi torse"
 	},
 	{
 		"restricted_roles": [
@@ -636,11 +670,12 @@
 	},
 	{
 		"restricted_fights": [
-			"High Astromancer Solarian"
+			"High Astromancer Solarian",
+			"Mother Shahraz"
 		],
-		"text_rule": "Fight = High Astromancer Solarian",
+		"text_rule": "Fight IN (High Astromancer Solarian, Mother Shahraz)",
 		"id": 2998,
-		"name": "7 allres epaules"
+		"name": "7 all res epaules"
 	},
 	{
 		"restricted_roles": [
@@ -725,13 +760,26 @@
 		"name": "50 pa 12 crit jambes"
 	},
 	{
-		"restricted_roles": [
-			"Tank"
-		],
-		"restricted_specializations_not": [
-			"ProtectionPaladin"
-		],
-		"text_rule": "PlayerRole = Tank AND PlayerSpec != ProtectionPaladin",
+		"restricted_complex": {
+			"operator": "OR",
+			"lhs": {
+				"restricted_roles": [
+					"Tank"
+				],
+				"restricted_specializations_not": [
+					"ProtectionPaladin"
+				]
+			},
+			"rhs": {
+				"restricted_specializations": [
+					"SurvivalHunter"
+				],
+				"restricted_fights": [
+					"Mother Shahraz"
+				]
+			}
+		},
+		"text_rule": "(PlayerRole = Tank AND PlayerSpec != ProtectionPaladin) OR (PlayerSpec = SurvivalHunter AND Fight = Mother Shahraz)",
 		"id": 3013,
 		"name": "40 endu 12 agi jambes"
 	},
@@ -760,5 +808,13 @@
 		"text_rule": "PlayerRole = Physical",
 		"id": 3222,
 		"name": "20 agi arme 1h"
+	},
+	{
+		"restricted_roles": [
+			"Tank"
+		],
+		"text_rule": "PlayerRole = Tank",
+		"id": 3229,
+		"name": "12 resi bouclier"
 	}
 ]

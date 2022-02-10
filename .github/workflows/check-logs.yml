@@ -6,7 +6,6 @@ on:
   push:
     paths:
       - ".github/workflows/check-logs.yml"
-
 jobs:
   run:
     runs-on: ubuntu-latest

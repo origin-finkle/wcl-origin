@@ -8,7 +8,7 @@
 {{ $site := .Site }}
 
 {{ $scratch := newScratch }}
-{{ range $p := $analysis }}
+{{ range $p := $analysis.data }}
     {{ $scratch.Set $p.name $p }}
 {{ end }}
 {{ $player := $scratch.Get .Page.Params.player }}

@@ -29,7 +29,7 @@
                 </a>
             </h4>
             {{ $logs := index (index $.Site.Data.raids $raid.reportCode) "analysis" }}
-            {{ range $player := $logs }}
+            {{ range $player := $logs.data }}
             {{ if eq $player.name $.Name }}
             {{ if $player.remarks }}
             <div class="row">

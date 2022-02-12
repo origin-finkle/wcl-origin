@@ -111,7 +111,7 @@ for filename in os.listdir(prefix):
         with open(os.path.join(prefix, filename, "logs.json")) as logs_file:
             data = json.load(analysis_file)
             logs_data = json.load(logs_file)
-            for character in data.values():
+            for character in data['data'].values():
                 characters.setdefault(character["name"], []).append(
                     {
                         "zoneID": logs_data["zoneID"],

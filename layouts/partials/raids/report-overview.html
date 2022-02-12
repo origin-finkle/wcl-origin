@@ -27,7 +27,7 @@
     <div class="col-12">
         <h2>Remarques</h2>
         <div class="row">
-            {{ range $playerID, $playerAnalysis := $analysis }}
+            {{ range $playerID, $playerAnalysis := $analysis.data }}
             <div class="col-12">
                 <h3>{{ $playerAnalysis.name }}</h3>
                 <div class="row">

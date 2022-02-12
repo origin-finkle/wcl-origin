@@ -23,7 +23,7 @@
             <div class="col-12 col-md-6">
                 <h3>Joueurs</h3>
                 <div class="list-group">
-                    {{ range $player := (sort $analysis ".name" "asc") }}
+                    {{ range $player := (sort $analysis.data ".name" "asc") }}
                         {{ if index $player.fights $fightName }}
                             <a class="list-group-item list-group-item-action" href="{{ $page.Permalink }}{{ strings.ToLower $player.name }}">{{ $player.name }}</a>
                         {{ end }}
@@ -34,7 +34,7 @@
                 <h3>Consommables utilisés</h3>
                 {{ $scratch := newScratch }}
                 {{ $scratch.Set "list" slice }}
-                {{ range $player := $analysis }}
+                {{ range $player := $analysis.data }}
                     {{ $fight := index $player.fights $fightName }}
                     {{ range $fight.analysis.consumables }}
                         {{ $key := printf "%v" .spell_id }}

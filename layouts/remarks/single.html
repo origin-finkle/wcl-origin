@@ -11,7 +11,7 @@
 <div class="row">
     <div class="col-xs-12">
         {{ range $report := (sort $.Site.Data.raids "logs.startTime" "desc") }}
-            {{ range $player := $report.analysis }}
+            {{ range $player := $report.analysis.data }}
                 {{ range $fight := $player.fights }}
                     {{ range $remark := $fight.remarks }}
                         {{ if eq $remark.type $remarkType }}

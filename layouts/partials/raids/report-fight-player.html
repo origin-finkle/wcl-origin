@@ -14,7 +14,7 @@
         {{ $seconds := mod $duration 60 }}
         <h2>{{ $fightName }} ({{ printf "%d:%02d" $minutes $seconds }})</h2>
     </div>
-    {{ range $player := $analysis }}
+    {{ range $player := $analysis.data }}
         {{ if eq $player.name $playerName }}
             {{ $data := index $player.fights $fightName }}
             <div class="col-12">

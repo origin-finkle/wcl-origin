@@ -318,5 +318,37 @@
 			"food"
 		],
 		"description": "Score de toucher et Esprit augmentés de 20."
+	},
+	{
+		"restricted_specializations": [
+			"AfflictionWarlock",
+			"DestructionWarlock",
+			"DemonologyWarlock",
+			"FireMage",
+			"FrostMage",
+			"ShadowPriest"
+		],
+		"text_rule": "PlayerSpec IN (AfflictionWarlock, DestructionWarlock, DemonologyWarlock, FireMage, FrostMage, ShadowPriest)",
+		"id": 46838,
+		"name": "Flacon de pure mort de Shattrah",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
+	},
+	{
+		"restricted_specializations": [
+			"BalanceDruid",
+			"ElementalShaman",
+			"ArcaneMage",
+			"ProtectionPaladin"
+		],
+		"text_rule": "PlayerSpec IN (BalanceDruid, ElementalShaman, ArcaneMage, ProtectionPaladin)",
+		"id": 46840,
+		"name": "Lumière aveuglante de Shattrah",
+		"types": [
+			"battle_elixir",
+			"guardian_elixir"
+		]
 	}
 ]

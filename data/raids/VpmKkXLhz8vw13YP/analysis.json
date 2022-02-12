@@ -2144,10 +2144,6 @@
 						"items": [],
 						"spells": [
 							{
-								"spell_id": 16589,
-								"count": 1
-							},
-							{
 								"spell_id": 17116,
 								"count": 1
 							},
@@ -2206,6 +2202,10 @@
 						],
 						"unknown": [],
 						"consumables": [
+							{
+								"spell_id": 16589,
+								"count": 1
+							},
 							{
 								"spell_id": 41617,
 								"count": 1
@@ -12402,10 +12402,6 @@
 								"count": 1
 							},
 							{
-								"spell_id": 16589,
-								"count": 2
-							},
-							{
 								"spell_id": 17364,
 								"count": 13
 							},
@@ -12471,7 +12467,12 @@
 							}
 						],
 						"unknown": [],
-						"consumables": []
+						"consumables": [
+							{
+								"spell_id": 16589,
+								"count": 2
+							}
+						]
 					},
 					"start_time": 3735924,
 					"end_time": 3926618
@@ -18662,14 +18663,15 @@
 							{
 								"spell_id": 31801,
 								"count": 4
-							},
+							}
+						],
+						"unknown": [],
+						"consumables": [
 							{
 								"spell_id": 41619,
 								"count": 1
 							}
-						],
-						"unknown": [],
-						"consumables": []
+						]
 					},
 					"start_time": 2769909,
 					"end_time": 3001635

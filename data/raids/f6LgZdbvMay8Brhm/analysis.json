@@ -3451,18 +3451,7 @@
 							"events": []
 						}
 					},
-					"remarks": [
-						{
-							"type": "cast_higher_rank_available",
-							"fight": "Mother Shahraz",
-							"count": 1,
-							"spell_id": 28537,
-							"suggested_spell_id": 25433,
-							"spell_wowhead_attr": "spell=28537",
-							"higher_ranked_spell_wowhead_attr": "spell=25433",
-							"uuid": "cast_higher_rank_available:spell=28537:Mother Shahraz"
-						}
-					],
+					"remarks": [],
 					"talents": {
 						"points": [
 							41,
@@ -3744,10 +3733,6 @@
 								"count": 2
 							},
 							{
-								"spell_id": 28537,
-								"count": 1
-							},
-							{
 								"spell_id": 31000,
 								"count": 1
 							},
@@ -3773,7 +3758,12 @@
 							}
 						],
 						"unknown": [],
-						"consumables": []
+						"consumables": [
+							{
+								"spell_id": 28537,
+								"count": 1
+							}
+						]
 					},
 					"start_time": 1133361,
 					"end_time": 1372010
@@ -4174,18 +4164,7 @@
 					"end_time": 2669321
 				}
 			},
-			"remarks": [
-				{
-					"type": "cast_higher_rank_available",
-					"fight": "Mother Shahraz",
-					"count": 1,
-					"spell_id": 28537,
-					"suggested_spell_id": 25433,
-					"spell_wowhead_attr": "spell=28537",
-					"higher_ranked_spell_wowhead_attr": "spell=25433",
-					"uuid": "cast_higher_rank_available:spell=28537:Mother Shahraz"
-				}
-			]
+			"remarks": []
 		},
 		"10": {
 			"gameID": 12617454,
@@ -4255,22 +4234,6 @@
 						}
 					},
 					"remarks": [
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage"
-						},
 						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage",
@@ -4615,22 +4578,6 @@
 					},
 					"remarks": [
 						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 1 (98.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 1 (98.0%)"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 1 (98.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 1 (98.0%)"
-						},
-						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage - Wipe 1 (98.0%)",
 							"uuid": "missing_battle_elixir:Illidan Stormrage - Wipe 1 (98.0%)"
@@ -4956,22 +4903,6 @@
 						}
 					},
 					"remarks": [
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 2 (22.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 2 (22.0%)"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 2 (22.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 2 (22.0%)"
-						},
 						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage - Wipe 2 (22.0%)",
@@ -5344,22 +5275,6 @@
 					},
 					"remarks": [
 						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 3 (65.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 3 (65.0%)"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 3 (65.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 3 (65.0%)"
-						},
-						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage - Wipe 3 (65.0%)",
 							"uuid": "missing_battle_elixir:Illidan Stormrage - Wipe 3 (65.0%)"
@@ -5695,22 +5610,6 @@
 						}
 					},
 					"remarks": [
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 4 (65.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 4 (65.0%)"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 4 (65.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 4 (65.0%)"
-						},
 						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage - Wipe 4 (65.0%)",
@@ -6052,22 +5951,6 @@
 						}
 					},
 					"remarks": [
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 5 (28.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 5 (28.0%)"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 5 (28.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 5 (28.0%)"
-						},
 						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage - Wipe 5 (28.0%)",
@@ -6412,22 +6295,6 @@
 					},
 					"remarks": [
 						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 6 (100.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 6 (100.0%)"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 6 (100.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 6 (100.0%)"
-						},
-						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage - Wipe 6 (100.0%)",
 							"uuid": "missing_battle_elixir:Illidan Stormrage - Wipe 6 (100.0%)"
@@ -6750,22 +6617,6 @@
 						}
 					},
 					"remarks": [
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 7 (38.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 7 (38.0%)"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 7 (38.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 7 (38.0%)"
-						},
 						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage - Wipe 7 (38.0%)",
@@ -7105,22 +6956,6 @@
 					},
 					"remarks": [
 						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 8 (65.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-							"slot": "Jambes",
-							"enchant_id": 1505,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 8 (65.0%)"
-						},
-						{
-							"type": "invalid_enchant",
-							"fight": "Illidan Stormrage - Wipe 8 (65.0%)",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 8 (65.0%)"
-						},
-						{
 							"type": "missing_battle_elixir",
 							"fight": "Illidan Stormrage - Wipe 8 (65.0%)",
 							"uuid": "missing_battle_elixir:Illidan Stormrage - Wipe 8 (65.0%)"
@@ -7458,14 +7293,6 @@
 						}
 					},
 					"remarks": [
-						{
-							"type": "invalid_enchant",
-							"fight": "Mother Shahraz",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Mother Shahraz"
-						},
 						{
 							"type": "invalid_enchant",
 							"fight": "Mother Shahraz",
@@ -7889,14 +7716,6 @@
 					},
 					"remarks": [
 						{
-							"type": "invalid_enchant",
-							"fight": "The Illidari Council",
-							"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-							"slot": "Épaule",
-							"enchant_id": 2716,
-							"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:The Illidari Council"
-						},
-						{
 							"type": "missing_battle_elixir",
 							"fight": "The Illidari Council",
 							"uuid": "missing_battle_elixir:The Illidari Council"
@@ -8210,166 +8029,6 @@
 				}
 			},
 			"remarks": [
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 1 (98.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 1 (98.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 2 (22.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 2 (22.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 3 (65.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 3 (65.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 4 (65.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 4 (65.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 5 (28.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 5 (28.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 6 (100.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 6 (100.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 7 (38.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 7 (38.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 8 (65.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=1505\u0026item=30766",
-					"slot": "Jambes",
-					"enchant_id": 1505,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=1505\u0026item=30766:Jambes:Illidan Stormrage - Wipe 8 (65.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 1 (98.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 1 (98.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 2 (22.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 2 (22.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 3 (65.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 3 (65.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 4 (65.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 4 (65.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 5 (28.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 5 (28.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 6 (100.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 6 (100.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 7 (38.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 7 (38.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Illidan Stormrage - Wipe 8 (65.0%)",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Illidan Stormrage - Wipe 8 (65.0%)"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "Mother Shahraz",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:Mother Shahraz"
-				},
-				{
-					"type": "invalid_enchant",
-					"fight": "The Illidari Council",
-					"item_wowhead_attr": "domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998",
-					"slot": "Épaule",
-					"enchant_id": 2716,
-					"uuid": "invalid_enchant:domain=fr.tbc\u0026ench=2716\u0026gems=24062%3A24062\u0026item=30998:Épaule:The Illidari Council"
-				},
 				{
 					"type": "invalid_enchant",
 					"fight": "Mother Shahraz",
@@ -30176,16 +29835,6 @@
 					},
 					"remarks": [
 						{
-							"type": "cast_higher_rank_available",
-							"fight": "Mother Shahraz",
-							"count": 1,
-							"spell_id": 28537,
-							"suggested_spell_id": 25433,
-							"spell_wowhead_attr": "spell=28537",
-							"higher_ranked_spell_wowhead_attr": "spell=25433",
-							"uuid": "cast_higher_rank_available:spell=28537:Mother Shahraz"
-						},
-						{
 							"type": "meta_not_activated",
 							"fight": "Mother Shahraz",
 							"item_wowhead_attr": "domain=fr.tbc\u0026ench=3009\u0026gems=22459%3A32409\u0026item=28275",
@@ -30520,10 +30169,6 @@
 								"count": 1
 							},
 							{
-								"spell_id": 28537,
-								"count": 1
-							},
-							{
 								"spell_id": 31000,
 								"count": 1
 							},
@@ -30541,7 +30186,12 @@
 							}
 						],
 						"unknown": [],
-						"consumables": []
+						"consumables": [
+							{
+								"spell_id": 28537,
+								"count": 1
+							}
+						]
 					},
 					"start_time": 1133361,
 					"end_time": 1372010
@@ -30961,16 +30611,6 @@
 				}
 			},
 			"remarks": [
-				{
-					"type": "cast_higher_rank_available",
-					"fight": "Mother Shahraz",
-					"count": 1,
-					"spell_id": 28537,
-					"suggested_spell_id": 25433,
-					"spell_wowhead_attr": "spell=28537",
-					"higher_ranked_spell_wowhead_attr": "spell=25433",
-					"uuid": "cast_higher_rank_available:spell=28537:Mother Shahraz"
-				},
 				{
 					"type": "meta_not_activated",
 					"fight": "Mother Shahraz",
@@ -40108,10 +39748,6 @@
 						"items": [],
 						"spells": [
 							{
-								"spell_id": 16589,
-								"count": 1
-							},
-							{
 								"spell_id": 27209,
 								"count": 12
 							},
@@ -40141,7 +39777,12 @@
 							}
 						],
 						"unknown": [],
-						"consumables": []
+						"consumables": [
+							{
+								"spell_id": 16589,
+								"count": 1
+							}
+						]
 					},
 					"start_time": 3182164,
 					"end_time": 3254940
@@ -43284,10 +42925,6 @@
 						],
 						"spells": [
 							{
-								"spell_id": 16589,
-								"count": 1
-							},
-							{
 								"spell_id": 27209,
 								"count": 117
 							},
@@ -43322,6 +42959,10 @@
 						],
 						"unknown": [],
 						"consumables": [
+							{
+								"spell_id": 16589,
+								"count": 1
+							},
 							{
 								"spell_id": 28495,
 								"count": 1
@@ -63872,10 +63513,6 @@
 								"count": 2
 							},
 							{
-								"spell_id": 28520,
-								"count": 1
-							},
-							{
 								"spell_id": 29707,
 								"count": 13
 							},
@@ -63893,7 +63530,12 @@
 							}
 						],
 						"unknown": [],
-						"consumables": []
+						"consumables": [
+							{
+								"spell_id": 28520,
+								"count": 1
+							}
+						]
 					},
 					"start_time": 6885144,
 					"end_time": 7222978
@@ -90439,14 +90081,15 @@
 							{
 								"spell_id": 33082,
 								"count": 1
-							},
+							}
+						],
+						"unknown": [],
+						"consumables": [
 							{
 								"spell_id": 39625,
 								"count": 1
 							}
-						],
-						"unknown": [],
-						"consumables": []
+						]
 					},
 					"start_time": 7497540,
 					"end_time": 7667496
@@ -94882,16 +94525,6 @@
 					},
 					"remarks": [
 						{
-							"type": "cast_higher_rank_available",
-							"fight": "Mother Shahraz",
-							"count": 1,
-							"spell_id": 28537,
-							"suggested_spell_id": 25433,
-							"spell_wowhead_attr": "spell=28537",
-							"higher_ranked_spell_wowhead_attr": "spell=25433",
-							"uuid": "cast_higher_rank_available:spell=28537:Mother Shahraz"
-						},
-						{
 							"type": "no_enchant",
 							"fight": "Mother Shahraz",
 							"item_wowhead_attr": "domain=fr.tbc\u0026item=20537",
@@ -95197,10 +94830,6 @@
 								"count": 40
 							},
 							{
-								"spell_id": 28537,
-								"count": 1
-							},
-							{
 								"spell_id": 31000,
 								"count": 1
 							},
@@ -95222,7 +94851,12 @@
 							}
 						],
 						"unknown": [],
-						"consumables": []
+						"consumables": [
+							{
+								"spell_id": 28537,
+								"count": 1
+							}
+						]
 					},
 					"start_time": 1133361,
 					"end_time": 1372010
@@ -95625,16 +95259,6 @@
 				}
 			},
 			"remarks": [
-				{
-					"type": "cast_higher_rank_available",
-					"fight": "Mother Shahraz",
-					"count": 1,
-					"spell_id": 28537,
-					"suggested_spell_id": 25433,
-					"spell_wowhead_attr": "spell=28537",
-					"higher_ranked_spell_wowhead_attr": "spell=25433",
-					"uuid": "cast_higher_rank_available:spell=28537:Mother Shahraz"
-				},
 				{
 					"type": "no_enchant",
 					"item_wowhead_attr": "domain=fr.tbc\u0026item=20537",
@@ -103478,16 +103102,6 @@
 					},
 					"remarks": [
 						{
-							"type": "cast_higher_rank_available",
-							"fight": "Mother Shahraz",
-							"count": 1,
-							"spell_id": 28537,
-							"suggested_spell_id": 25433,
-							"spell_wowhead_attr": "spell=28537",
-							"higher_ranked_spell_wowhead_attr": "spell=25433",
-							"uuid": "cast_higher_rank_available:spell=28537:Mother Shahraz"
-						},
-						{
 							"type": "missing_battle_elixir",
 							"fight": "Mother Shahraz",
 							"uuid": "missing_battle_elixir:Mother Shahraz"
@@ -103784,10 +103398,6 @@
 								"count": 1
 							},
 							{
-								"spell_id": 28537,
-								"count": 1
-							},
-							{
 								"spell_id": 31000,
 								"count": 1
 							},
@@ -103809,7 +103419,12 @@
 							}
 						],
 						"unknown": [],
-						"consumables": []
+						"consumables": [
+							{
+								"spell_id": 28537,
+								"count": 1
+							}
+						]
 					},
 					"start_time": 1133361,
 					"end_time": 1372010
@@ -104213,16 +103828,6 @@
 				}
 			},
 			"remarks": [
-				{
-					"type": "cast_higher_rank_available",
-					"fight": "Mother Shahraz",
-					"count": 1,
-					"spell_id": 28537,
-					"suggested_spell_id": 25433,
-					"spell_wowhead_attr": "spell=28537",
-					"higher_ranked_spell_wowhead_attr": "spell=25433",
-					"uuid": "cast_higher_rank_available:spell=28537:Mother Shahraz"
-				},
 				{
 					"type": "missing_battle_elixir",
 					"fight": "Illidan Stormrage - Wipe 1 (98.0%)",

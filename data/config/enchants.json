@@ -97,6 +97,18 @@
 	},
 	{
 		"restricted_roles": [
+			"Tank"
+		],
+		"restricted_fights": [
+			"Illidan Stormrage",
+			"Anetheron"
+		],
+		"text_rule": "PlayerRole = Tank AND Fight IN (Illidan Stormrage, Anetheron)",
+		"id": 1505,
+		"name": "Libram 20 RF jambes/tête"
+	},
+	{
+		"restricted_roles": [
 			"Physical"
 		],
 		"text_rule": "PlayerRole = Physical",
@@ -410,6 +422,14 @@
 		"name": "10 ro jambes"
 	},
 	{
+		"restricted_specializations": [
+			"ProtectionPaladin"
+		],
+		"text_rule": "PlayerSpec = ProtectionPaladin",
+		"id": 2716,
+		"name": "Enchant epaules tank Naxx"
+	},
+	{
 		"restricted_class": [
 			"Hunter"
 		],
@@ -602,9 +622,10 @@
 			"Tank"
 		],
 		"restricted_fights": [
-			"Illidan Stormrage"
+			"Illidan Stormrage",
+			"Anetheron"
 		],
-		"text_rule": "PlayerRole = Tank AND Fight = Illidan Stormrage",
+		"text_rule": "PlayerRole = Tank AND Fight IN (Illidan Stormrage, Anetheron)",
 		"id": 2985,
 		"name": "patch 8 RF"
 	},

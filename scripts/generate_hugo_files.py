@@ -35,7 +35,7 @@ date: {date}
 ---
 """
         )
-    for d in data["fights"]:
+    for d in data.get("fights"):
         d_sanitized = sanitize_fight_name(d)
         try:
             os.mkdir(f"{prefix}/fight-{d_sanitized}")
@@ -71,7 +71,7 @@ date: {date}
 with open(f"./data/raids/{report_code}/analysis.json") as f:
     data = json.load(f)
     for player in data.values():
-        for fight_name in player["fights"].keys():
+        for fight_name in player.get("fights", {}).keys():
             fight_name_sanitized = sanitize_fight_name(fight_name)
             with open(
                 f"{prefix}/player-{player['name'].lower()}/{fight_name_sanitized}.md",
